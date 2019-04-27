@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2018, Enthought Inc.
+# This file is distributed under the same license as the mayavi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mayavi 4.7.0.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-27 12:25+0900\n"
+"PO-Revision-Date: 2019-04-27 07:30+0000\n"
+"Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../mayavi/docs/source/mayavi/index.rst:20
+msgid "Mayavi: 3D scientific data visualization and plotting in Python"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:48
+msgid ""
+"Welcome, this is the user guide for Mayavi, a application and library for "
+"**interactive scientific data visualization** and **3D plotting in Python**."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:55
+msgid ""
+"You want to use an interactive application to visualize your data in 3D? "
+"Read the :ref:`Mayavi application section <using-the-mayavi-application>`."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:59
+msgid ""
+"You know Python and want to use Mayavi as a Matlab or pylab replacement for "
+"3D plotting and data visualization with `numpy`? Get started with the "
+":ref:`mlab section <simple-scripting-with-mlab>`."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:63
+msgid ""
+"Sources of inspiration may be found in the :ref:`example_gallery`, with "
+"example Python code."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:94
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:95
+msgid ":ref:`search`"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:105
+msgid ":download:`m2_about.jpg`"
+msgstr ""
