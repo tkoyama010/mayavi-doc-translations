@@ -21,8 +21,7 @@ execfile_(os.path.join(BASEDIR, 'conf.py'), globals())
 locale_dirs = [os.path.join(BASEDIR, '../../../../locale/')]
 gettext_compact = False
 
-if language=='ja':
-    latex_engine = 'platex'
+latex_engine = 'platex'
 
 def setup(app):
     from sphinx.ext.autodoc import cut_lines
