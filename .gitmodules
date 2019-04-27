@@ -1,4 +1,3 @@
-[submodule "sphinx"]
-	path = sphinx
-	url = https://github.com/sphinx-doc/sphinx.git
-	branch = master
+[submodule "mayavi"]
+	path = mayavi
+	url = https://github.com/enthought/mayavi.git

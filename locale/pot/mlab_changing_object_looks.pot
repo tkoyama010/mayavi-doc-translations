@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2018, Enthought Inc.
+# This file is distributed under the same license as the mayavi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mayavi 4.7.0.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-27 12:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:2
+msgid "Changing the looks of the visual objects created"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:5
+msgid "Adding color or size variations"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
+msgid "Color"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:8
+msgid "The color of the objects created by a plotting function can be specified explicitly using the 'color' keyword argument of the function. This color is then applied uniformly to all the objects created."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:12
+msgid "If you want to vary the color across your visualization, you need to specify scalar information for each data point. Some functions try to guess this information: these scalars default to the norm of the vectors, for functions with vectors, or to the z elevation for functions where it is meaningful, such as :func:`surf` or :func:`barchart`."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:18
+msgid "This scalar information is converted into colors using the colormap, or also called LUT, for Look Up Table. The list of possible colormaps is::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:34
+msgid "The easiest way to choose the colormap, most adapted to your visualization is to use the GUI (as described in the next paragraph). The dialog to set the colormap can be found in the `Colors and legends` node."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:38
+msgid "To use a custom-defined colormap, for the time being, you need to write specific code, as show in :ref:`example_custom_colormap`."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
+msgid "Size of the glyph"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:42
+msgid "The scalar information can also be displayed in many different ways. For instance it can be used to adjust the size of glyphs positioned at the data points."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:46
+msgid "**A caveat: Clamping: relative or absolute scaling** Given six points positionned on a line with interpoint spacing 1::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:53
+msgid "If we represent a scalar varying from 0.5 to 1 on this dataset::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:57
+msgid "We represent the dataset as spheres, using :func:`points3d`, and the scalar is mapped to diameter of the spheres::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:63
+msgid "By default the diameter of the spheres is not 'clamped', in other words, the smallest value of the scalar data is represented as a null diameter, and the largest is proportional to inter-point distance. The scaling is only relative, as can be seen on the resulting figure:"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:71
+msgid "This behavior gives visible points for all datasets, but may not be desired if the scalar represents the size of the glyphs in the same unit as the positions specified."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:75
+msgid "In this case, you shoud turn auto-scaling off by specifying the desired scale factor::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:84
+msgid "In earlier versions of Mayavi (up to 3.1.0 included), the glyphs are not auto-scaled, and as a result the visualization can seem empty due to the glyphs being very small. In addition the minimum diameter of the glyphs is clamped to zero, and thus the glyph are not scaled absolutely, unless you specify::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
+msgid "More representations of the attached scalars or vectors"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:93
+msgid "There are many more ways to represent the scalar or vector information attached to the data. For instance, scalar data can be 'warped' into a displacement, e.g. using a `WarpScalar` filter, or the norm of scalar data can be extracted to a scalar component that can be visualized using iso-surfaces with the `ExtractVectorNorm` filter."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
+msgid "Displaying more than one quantity"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:100
+msgid "You may want to display color related to one scalar quantity while using a second for the iso-contours, or the elevation. This is possible but requires a bit of work: see :ref:`example_atomic_orbital`."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:104
+msgid "If you simply want to display points with a size given by one quantity, and a color by a second, you can use a simple trick: add the size information using the norm of vectors, add the color information using scalars, create a :func:`quiver3d` plot choosing the glyphs to symmetric glyphs, and use scalars to represent the color::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:119
+msgid "Changing the scale and position of objects"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:121
+msgid "Each mlab function takes an `extent` keyword argument, that allows to set its (x, y, z) extents. This give both control on the scaling in the different directions and the displacement of the center. Beware that when you are using this functionality, it can be useful to pass the same extents to other modules visualizing the same data. If you don't, they will not share the same displacement and scale."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:128
+msgid "The :func:`surf`, :func:`contour_surf`, and :func:`barchart` functions, which display 2D arrays by converting the values in height, also take a `warp_scale` parameter, to control the vertical scaling."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:135
+msgid "Changing object properties interactively"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:137
+msgid "Mayavi, and thus mlab, allows you to interactively modify your visualization."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:140
+msgid "The Mayavi pipeline tree can be displayed by clicking on the mayavi icon in the figure's toolbar, or by using :func:`show_pipeline` mlab command. One can now change the visualization using this dialog by double-clicking on each object to edit its properties, as described in other parts of this manual, or add new modules or filters by using this icons on the pipeline, or through the right-click menus on the objects in the pipeline."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:None
+msgid "The record feature"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:155
+msgid "A **very useful feature** of this dialog can be found by pressing the red round button of the toolbar of the pipeline view. This opens up a recorder that tracks the changes made interactively to the visualization via the dialogs, and generates valid lines of Python code. To find out about navigating through a program in the pipeline, see :ref:`organisation_mayavi_visualisations`."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:162
+msgid "In addition, for every object returned by a mlab function, ``this_object.edit_traits()`` brings up a dialog that can be used to interactively edit the object's properties. If the dialog doesn't show up when you enter this command, please see :ref:`running-mlab-scripts`."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:None
+msgid "Using ``mlab`` with the full Envisage UI"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:170
+msgid "Sometimes it is convenient to write an mlab script but still use the full envisage application so you can click on the menus and use other modules etc.  To do this you may do the following before you create an mlab figure::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:180
+msgid "This will give you the full-fledged UI instead of the default simple window."
+msgstr ""
+
