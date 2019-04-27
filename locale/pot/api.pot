@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-27 12:25+0900\n"
+"POT-Creation-Date: 2019-04-27 22:59+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,16 +28,8 @@ msgstr ""
 msgid "Scene UIs: :class:`DecoratedScene` and :class:`MayaviScene`"
 msgstr ""
 
-#: ../../mayavi/tvtk/pyface/ui/qt4/decorated_scene.py:docstring of mayavi.core.ui.api.DecoratedScene:1
-msgid "Bases: :class:`tvtk.pyface.ui.qt4.scene.Scene`"
-msgstr ""
-
-#: ../../mayavi/tvtk/pyface/ui/qt4/decorated_scene.py:docstring of mayavi.core.ui.api.DecoratedScene:1
-msgid "A VTK interactor scene which provides a convenient toolbar that allows the user to set the camera view, turn on the axes indicator etc."
-msgstr ""
-
 #: ../../mayavi/mayavi/core/ui/mayavi_scene.py:docstring of mayavi.core.ui.api.MayaviScene:1
-msgid "Bases: :class:`tvtk.pyface.ui.qt4.decorated_scene.DecoratedScene`"
+msgid "Bases: :class:`pyface.base_toolkit.Unimplemented`"
 msgstr ""
 
 #: ../../mayavi/mayavi/core/ui/mayavi_scene.py:docstring of mayavi.core.ui.api.MayaviScene:1
@@ -50,14 +42,6 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/api/core_view_objects.rst:24
 msgid ":class:`SceneEditor`"
-msgstr ""
-
-#: ../../mayavi/tvtk/pyface/ui/qt4/scene_editor.py:docstring of mayavi.core.ui.api.SceneEditor:1
-msgid "Bases: :class:`traitsui.basic_editor_factory.BasicEditorFactory`"
-msgstr ""
-
-#: ../../mayavi/tvtk/pyface/ui/qt4/scene_editor.py:docstring of mayavi.core.ui.api.SceneEditor:1
-msgid "A TraitsUI editor factory for SceneModel instances."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/api/core_view_objects.rst:30
