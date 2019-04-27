@@ -1,4 +1,3 @@
 [submodule "mayavi"]
 	path = mayavi
-	url = https://github.com/enthought/mayavi.git
-	branch = devel-tkoyama010
+	url = https://github.com/tkoyama010/mayavi.git
