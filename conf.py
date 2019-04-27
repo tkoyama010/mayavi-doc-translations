@@ -14,17 +14,17 @@ This conf.py do:
 import os
 from sphinx.util.pycompat import execfile_
 
-BASEDIR = os.path.dirname(os.path.abspath(__file__))
+BASEDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'mayavi/docs/source/mayavi')
 
-execfile_(os.path.join(BASEDIR, 'mayavi/docs/source/mayavi/conf.py'), globals())
+execfile_(os.path.join(BASEDIR, 'conf.py'), globals())
 
-locale_dirs = [os.path.join(BASEDIR, 'locale/')]
+locale_dirs = [os.path.join(BASEDIR, '../../../../locale/')]
 gettext_compact = False
 
 setup_original = setup  # from 'mayavi/docs/source/mayavi/conf.py'
 
 def setup(app):
-    app.srcdir = os.path.join(BASEDIR, 'mayavi/docs/source/mayavi/')
+    app.srcdir = BASEDIR
     app.confdir = app.srcdir
 
     setup_original(app)
