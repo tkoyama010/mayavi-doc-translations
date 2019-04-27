@@ -32,8 +32,6 @@ def setup(app):
                         indextemplate='pair: %s; configuration value')
     fdesc = GroupedField('parameter', label='Parameters',
                          names=['param'], can_collapse=True)
-    app.add_object_type('event', 'event', 'pair: %s; event', parse_event,
-                        doc_field_types=[fdesc])
 
     # workaround for RTD
     from sphinx.util import logging
