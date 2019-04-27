@@ -16,6 +16,7 @@ from sphinx.util.pycompat import execfile_
 
 BASEDIR = os.path.dirname(os.path.abspath(__file__))
 
+os.chdir('mayavi/docs/source/mayavi')
 execfile_(os.path.join(BASEDIR, 'mayavi/docs/source/mayavi/conf.py'), globals())
 
 locale_dirs = [os.path.join(BASEDIR, 'locale/')]
