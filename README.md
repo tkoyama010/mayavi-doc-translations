@@ -1,4 +1,4 @@
-# sphinx-doc.org on the Read The Docs.
+# mayavi-doc.org on the Read The Docs.
 
 This is a project to provide Sphinx official documentation with multiple versions and multiple languages on Read The Docs site.
 
@@ -9,17 +9,17 @@ conf.py files for each languages have 'language' and 'locale_dirs' values withou
 
 * RTD project pages for Sphinx:
 
-  * https://readthedocs.org/projects/sphinx/  (Master)
-  * https://readthedocs.org/projects/sphinx-ja/
-  * https://readthedocs.org/projects/sphinx-pt-br/
-  * https://readthedocs.org/projects/sphinx-es/
+  * https://readthedocs.org/projects/mayavi/  (Master)
+  * https://readthedocs.org/projects/mayavi-ja/
+  * https://readthedocs.org/projects/mayavi-pt-br/
+  * https://readthedocs.org/projects/mayavi-es/
 
 * Documentation pages for each languages:
 
-  * http://www.sphinx-doc.org/
-  * http://www.sphinx-doc.org/ja
-  * http://www.sphinx-doc.org/pt_BR
-  * http://www.sphinx-doc.org/es
+  * http://www.mayavi-doc.org/
+  * http://www.mayavi-doc.org/ja
+  * http://www.mayavi-doc.org/pt_BR
+  * http://www.mayavi-doc.org/es
 
 ## How to setup a translated documentation project on RTD
 
@@ -58,11 +58,11 @@ After that, you should commit updated po files.
 
 4. add new project on Read The Docs like:
 
-   https://readthedocs.org/projects/sphinx-pt-br/
+   https://readthedocs.org/projects/mayavi-pt-br/
 
 5. add translation project to parent project like:
 
-   https://readthedocs.org/dashboard/sphinx/translations/
+   https://readthedocs.org/dashboard/mayavi/translations/
 
 
 ## How to add a new version
@@ -88,5 +88,5 @@ After that, you should commit updated po files.
 
 4. enable version 1.7 on RTD:
 
-   https://readthedocs.org/dashboard/sphinx-ja/versions/
+   https://readthedocs.org/dashboard/mayavi-ja/versions/
 

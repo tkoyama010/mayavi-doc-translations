@@ -3,13 +3,13 @@
 set -ex
 
 # setup environment
-SPHINXINTL_TRANSIFEX_USERNAME=sphinxjp
-SPHINXINTL_TRANSIFEX_PROJECT_NAME=sphinx-doc
-find sphinx -name "*.pyc" -exec rm {} \;
+SPHINXINTL_TRANSIFEX_USERNAME=tkoyama010
+SPHINXINTL_TRANSIFEX_PROJECT_NAME=mayavi-doc
+find mayavi -name "*.pyc" -exec rm {} \;
 git checkout master
 git submodule init
 git submodule update
-(cd sphinx; git fetch origin; git checkout -b master origin/master)
+(cd mayavi; git fetch origin; git checkout origin/master)
 pip install -r requirements.txt
 
 
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 sh ./locale/update.sh
 
 # commit po(t) files
-git add locale sphinx
+git add locale mayavi
 git commit -m "[skip ci] update po(t) files"
 
 # push changes
