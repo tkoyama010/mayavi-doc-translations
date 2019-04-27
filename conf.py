@@ -21,10 +21,3 @@ execfile_(os.path.join(BASEDIR, 'conf.py'), globals())
 locale_dirs = [os.path.join(BASEDIR, '../../../../locale/')]
 gettext_compact = False
 
-setup_original = setup  # from 'mayavi/docs/source/mayavi/conf.py'
-
-def setup(app):
-    app.srcdir = BASEDIR
-    app.confdir = app.srcdir
-
-    setup_original(app)
