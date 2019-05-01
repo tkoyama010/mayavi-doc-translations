@@ -29,19 +29,19 @@ msgstr "デモ"
 msgid ""
 "To get you started, here is a pretty example showing a spherical harmonic as"
 " a surface::"
-msgstr ""
+msgstr "まず、球面調和関数をサーフェスとして表示する例を示します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:24
 msgid ""
 "Bulk of the code in the above example is to create the data.  One line "
 "suffices to visualize it.  This produces the following visualization:"
-msgstr ""
+msgstr "上記の例のコードの大部分は、データを作成するためのものです。それを可視化するには1行で十分です。これにより、次の表示が生成されます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:30
 msgid ""
 "The visualization is created by the single function :func:`mesh` in the "
 "above."
-msgstr ""
+msgstr "視覚化は、上記の :func:`mesh` という単一の関数によって作成されます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:32
 msgid ""
@@ -51,3 +51,7 @@ msgid ""
 "`mlab.test`.  You can also inspect the source in IPython via the handy "
 "`mlab.test_contour3d??`."
 msgstr ""
+"mlab( `test_contour3d`  、 `test_points3d` 、 `test_plot3d_anim` "
+"などを参照してください。)には、この種の例がいくつか用意されています。上記のデモは `test_mesh` として入手できます。IPythonでは、 "
+"`mlab.test` でタブを補完することで、これらを見つけることができます。また、便利な `mlab.test_contour3d??` "
+"を使ってIPythonのソースを調べることもできます。"

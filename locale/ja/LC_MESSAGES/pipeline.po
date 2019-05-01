@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-27 12:25+0900\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +23,11 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:5
 msgid "Organisation of Mayavi visualizations: the pipeline"
-msgstr ""
+msgstr "Mayaviの視覚化の構成:パイプライン"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rstNone
 msgid "Mayavi and VTK pipelines"
-msgstr ""
+msgstr "MayaviおよびVTKパイプライン"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:9
 msgid ""
@@ -35,14 +39,16 @@ msgid ""
 "two pipelines share some similarities, but in this section, we are only "
 "concerned by the Mayavi pipeline."
 msgstr ""
+"Mayaviは、視覚化に必要なすべてのものに `VTK <http://www.vtk.org>`_ "
+"を使用します。パイプラインの概念は、VTKのすべてのビジュアライゼーションの基礎となっています。ただし、Mayaviで使用されるパイプラインは、ビジュアライゼーションを作成するVTKパイプラインに対応していないことに注意してください。レイアウトが異なり、オブジェクトが同じではなく、VTKパイプラインにはより多くのノードがあります。2つのパイプラインにはいくつかの類似点がありますが、このセクションではMayaviパイプラインについてのみ説明します。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:18
 msgid "Anatomy of a Mayavi pipeline"
-msgstr ""
+msgstr "Mayaviパイプラインの解剖図"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:21
 msgid "Layout of a pipeline"
-msgstr ""
+msgstr "パイプラインのレイアウト"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:23
 msgid ""
@@ -50,21 +56,22 @@ msgid ""
 "of the creation and destruction of the scenes. It is not displayed in the "
 "pipeline view."
 msgstr ""
+"Mayaviパイプラインのトップノードは `Engine` と呼ばれます。それは場面の創造と破壊に責任があります。パイプラインビューには表示されません。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:27
 msgid "Below the `Engine`, you find `Scenes`."
-msgstr ""
+msgstr "`Engine` の下には `Scenes` があります。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:29
 msgid ""
 "Each `Scene` has a set of data `Sources`: they expose the data to visualize "
 "to Mayavi."
-msgstr ""
+msgstr "各 `Scene` には `Sources` データのセットがあり、Mayaviに可視化するためにデータを公開します。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:32
 msgid ""
 "`Filters` can be applied to the `Sources` to transform the data they wrap."
-msgstr ""
+msgstr "`Filters` を `Sources` に適用して、ラップするデータを変換できます。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:35
 msgid ""
@@ -72,16 +79,18 @@ msgid ""
 "vector data. It is represented in the pipeline view as the node called "
 "`Colors and legends`."
 msgstr ""
+"`Module Manager` は、スカラーまたはベクトルデータを表すために使用される色を制御する。パイプラインビューでは `Colors and "
+"legends` というノードとして表示されます。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:39
 msgid ""
 "Visualization `Modules` finally display a reprensation of the data in the "
 "Scene, such as a surface, or lines."
-msgstr ""
+msgstr "視覚化 `Modules` は、最終的に、サーフェスやラインなどのScene内のデータの再調整を表示します。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:43
 msgid "Navigating in the pipeline"
-msgstr ""
+msgstr "パイプラインでのナビゲーション"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:45
 msgid ""
@@ -92,6 +101,9 @@ msgid ""
 "graphicaly the properties of an object can be displayed by calling the "
 "`edit_traits()` method of this object."
 msgstr ""
+"パイプライン内の各オブジェクトには、パイプライン内の親を指す `parent` 属性と、その子のリストを示す `children` "
+"属性があります。オブジェクトの `name` アトリビュートは、パイプラインビューに表示されるノードの名前を指定します。このオブジェクトの "
+"`edit_traits()` メソッドを呼び出すことにより、オブジェクトのプロパティをグラフィックに変更する編集ダイアログを表示することができます。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:52
 msgid ""
@@ -99,16 +111,20 @@ msgid ""
 "`.scene` attribute point to this scene (see the :ref:`example_volume_slicer`"
 " for an example of how the data can be shared between scenes)."
 msgstr ""
+"また、Mayaviパイプラインオブジェクトは1つのシーンにのみ配置でき、その `.scene` "
+"アトリビュートはこのシーンをポイントします(シーン間でデータを共有する方法の例については、 :ref:`example_volume_slicer` "
+"を参照してください。)。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:58
 msgid "The link between different Mayavi entry points"
-msgstr ""
+msgstr "異なるMayaviエントリポイント間のリンク"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:60
 msgid ""
 "Every visualization created in Mayavi is constructed with a pipeline, "
 "although the construction of the pipeline may be hidden from the user:"
 msgstr ""
+"Mayaviで作成されるすべてのビジュアリゼーションはパイプラインを使用して構築されますが、パイプラインの構築はユーザには見えない場合があります。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:63
 msgid ""
@@ -116,6 +132,8 @@ msgid ""
 "the user interface, as, for instance, exposed in the :ref:`Parametric "
 "surfaces examples <parametric_surfaces_example>`."
 msgstr ""
+"Mayaviを視覚化する最も簡単な方法は、たとえば、 :ref:`Parametric surfaces examples "
+"<parametric_surfaces_example>` に公開されているユーザインタフェースを使用してパイプラインを作成することです。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:67
 msgid ""
@@ -124,6 +142,9 @@ msgid ""
 " numpy arrays. Displaying the :ref:`pipeline view <mlab-changing-objects-"
 "interactively>` is the easiest way to understand what pipeline was built."
 msgstr ""
+":ref:`mlab 3d plotting functions <mlab_plotting_functions>` "
+"numpy配列を視覚化するために、ソース、モジュール、場合によってはフィルタで構成される完全なパイプラインを作成します。 :ref:`pipeline "
+"view <mlab-changing-objects-interactively>`  を表示すると、作成されたパイプラインを簡単に理解できます。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:73
 msgid ""
@@ -132,6 +153,9 @@ msgid ""
 "The name of the functions to call can simply be deduced from the names of "
 "the pipeline nodes as they appear in the pipeline view."
 msgstr ""
+"パイプラインは、 :ref:`mlab.pipeline functions<controlling-the-pipeline-with-mlab-"
+"scripts>` "
+"を使ったmlabを使用してノード単位で構築することもできます。パイプライン機能。呼び出す関数の名前は、パイプラインビューに表示されるパイプラインノードの名前から推測できます。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:79
 msgid ""
@@ -139,16 +163,18 @@ msgid ""
 "pipeline manually, as exposed :ref:`further below "
 "<oo_construction_visualization>`."
 msgstr ""
+"パイプラインを構成するオブジェクトをインスタンス化し、公開された :ref:`further below "
+"<oo_construction_visualization>` として手動でパイプラインに追加できます。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:85
 msgid "A pipeline example examined"
-msgstr ""
+msgstr "調査したパイプラインの例"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:87
 msgid ""
 "Let us study the pipeline created by the `mlab.plot3d` function to represent"
 " lines::"
-msgstr ""
+msgstr "`mlab.plot3d` によって作成されたパイプラインを調べてみましょう。線を表す関数:"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:102
 msgid ""
@@ -159,22 +185,26 @@ msgid ""
 "module is applied to display the surface of the tubes. The `surface` object "
 "returned by the `mlab.plot3d` function is that final `Surface` module."
 msgstr ""
+"`mlab.plot3d` 関数は、まず線で結ばれた点からなるソースを作成します。次に、この一連の行を 'strip' に変換する `Stripper`"
+" フィルタを適用します。次に、 'strip' フィルタを適用し、指定した半径の `Tube` を作成します。最後に、 `Surface` "
+"モジュールを適用してチューブのサーフェスを表示します。 `mlab.plot3d` 関数によって返される `surface` オブジェクトはその最後の "
+"`Surface` モジュールです。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:110
 msgid ""
 "Let us have a look at the data in the pipeline before the tube filter was "
 "applied. First we retrive the `Stripper` filter::"
-msgstr ""
+msgstr "チューブフィルタを適用する前のパイプラインのデータを見てみましょう。まず、 `Stripper` フィルタを取得します。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:115
 msgid "Then we apply on it a `Surface` module to represent the `strip`::"
-msgstr ""
+msgstr "次に、  `strip` を表す `Surface` モジュールを適用します。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:122
 msgid ""
 "All the properties of the different steps can be adjusted in the pipeline "
 "view. In addition, they correspond to attributes on the various objects::"
-msgstr ""
+msgstr "異なるステップのすべてのプロパティをパイプラインビューで調整できます。さらに、これらはさまざまなオブジェクトのアトリビュートに対応します。"
 
 #: ../../mayavi/docs/source/mayavi/pipeline.rst:129
 msgid ""
@@ -183,3 +213,5 @@ msgid ""
 "challenging to find this correspondance. We suggest to use the :ref:`record "
 "feature <record_feature>` for this purpose."
 msgstr ""
+"さまざまなプロパティのダイアログボックスに表示される名前は、対応するオブジェクトの属性を示します。しかし、このような対応関係を見つけるのはかなり困難です。この目的のためには"
+" :ref:`record feature <record_feature>` を使うことをお勧めします。"

@@ -27,7 +27,7 @@ msgstr "Mayaviの概要"
 
 #: ../../mayavi/docs/source/mayavi/overview.rstNone
 msgid "Section summary"
-msgstr ""
+msgstr "セクションの概要"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:8
 msgid ""
@@ -38,19 +38,19 @@ msgstr "このセクションでは、Mayaviとは何かについて簡単に説
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:13
 msgid "Introduction"
-msgstr ""
+msgstr "はじめに"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:15
 msgid ""
 "Mayavi2 seeks to provide easy and interactive visualization of 3D data, or "
 "3D plotting.  It does this by the following:"
-msgstr ""
+msgstr "Mayavi2は、3Dデータの簡単でインタラクティブな視覚化、つまり3Dプロットを提供します。これは次のように行われます。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:18
 msgid ""
 "an (optional) rich user interface with dialogs to interact with all data and"
 " objects in the visualization."
-msgstr ""
+msgstr "ビジュアライゼーション内のすべてのデータとオブジェクトを対話的に操作するための、(省略可能)ダイアログ付きリッチユーザインタフェース。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:21
 msgid ""
@@ -59,10 +59,13 @@ msgid ""
 ":ref:`mlab <simple-scripting-with-mlab>`), or an object-oriented programming"
 " interface."
 msgstr ""
+"Python_ のシンプルでクリーンなスクリプトインタフェースで、matlabや `matplotlib`_  ( :ref:`mlab "
+"<simple-scripting-with-mlab>` "
+"を使用した場合)に似た3Dビジュアル化機能やオブジェクト指向プログラミングインタフェースをすぐに使えるようになっています。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:26
 msgid "harnesses the power of VTK_ without forcing you to learn it."
-msgstr ""
+msgstr "学習を強制することなく、 VTK_ の機能を活用します。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:28
 msgid ""
@@ -70,46 +73,50 @@ msgid ""
 "your libraries and applications in different ways or be combined with the "
 "Envisage_ application-building framework to assemble domain-specific tools."
 msgstr ""
+"さらに、Mayavi2は、さまざまな方法でライブラリやアプリケーションに埋め込んだり、 Envisage_ "
+"アプリケーション構築フレームワークと組み合わせてドメイン固有のツールを組み立てることができる再利用可能なツールであることを目指しています。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:39
 msgid "What is Mayavi2?"
-msgstr ""
+msgstr "Mayavi2とは何ですか?"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:41
 msgid ""
 "Mayavi2 is a general purpose, cross-platform tool for 3-D scientific data "
 "visualization. Its features include:"
-msgstr ""
+msgstr "Mayavi2は3D科学データ可視化のための汎用クロスプラットフォームツールです。その機能は次のとおりです。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:44
 msgid "Visualization of scalar, vector and tensor data in 2 and 3 dimensions."
-msgstr ""
+msgstr "スカラー、ベクトル、テンソルのデータを2次元および3次元で視覚化します。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:47
 msgid "Easy scriptability using Python."
-msgstr ""
+msgstr "Pythonを使用した簡単なスクリプト機能。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:49
 msgid "Easy extendibility via custom sources, modules, and data filters."
-msgstr ""
+msgstr "カスタム・ソース、モジュール、データ・フィルタによる容易な拡張性。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:51
 msgid "Reading several file formats: VTK_ (legacy and XML), PLOT3D, etc."
-msgstr ""
+msgstr "複数のファイル形式の読み込み: VTK_ (レガシーおよびXML)、PLOT3Dなど。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:54
 msgid "Saving of visualizations."
-msgstr ""
+msgstr "視覚エフェクトの保存。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:56
 msgid "Saving rendered visualization in a variety of image formats."
-msgstr ""
+msgstr "レンダリングしたビジュアライゼーションをさまざまなイメージフォーマットで保存する。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:58
 msgid ""
 "Convenient functionality for rapid scientific plotting via mlab (see :ref"
 ":`simple-scripting-with-mlab`)."
 msgstr ""
+"mlab( :ref:`simple-scripting-with-mlab` "
+"を参照してください。)を使用して科学的なプロットをすばやく行うための便利な機能。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:61
 msgid ""
@@ -122,10 +129,15 @@ msgid ""
 "which allows it to be embedded in other `Envisage`_ based applications "
 "natively."
 msgstr ""
+"前世代の Mayavi1_ とは異なり、Mayavi2はスクリプト可能性と拡張性を念頭において一から設計されています。Mayavi2は、単独で使用できる"
+" ``mayavi2`` "
+"アプリケーションを提供します。ただし、Mayavi2は、matplotlibやgnuplotと同様に、スクリプトのプロットエンジンとして使用することも、他のアプリケーションでインタラクティブなビジュアライゼーションを行うためのライブラリとして使用することもできます。また、他の"
+" `Envisage`_ ベースのアプリケーションにネイティブに埋め込むことを可能にする `Envisage`_ "
+"プラグインとして使用することもできます。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:74
 msgid "Technical details"
-msgstr ""
+msgstr "技術情報"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:76
 msgid ""
@@ -135,29 +147,32 @@ msgid ""
 "the Enthought Tool Suite (ETS_) in the form of Traits_, TVTK_ and Envisage_."
 " Here are some of its features:"
 msgstr ""
+"Mayavi2は、VTKで使用されているものと同様のパイプラインアーキテクチャに基づく汎用視覚化エンジンを提供します。また、Mayavi2は、2D/3D科学データ視覚化用の"
+" `Envisage`_ プラグインも提供します。Mayavi2では、Inthought Tool Suite (ETS_) が Traits_ 、 "
+"TVTK_ 、 Envisage_ の形式で使用されます。その機能の一部を次に示します。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:81
 msgid "Pythonic API which takes full advantage of Traits_."
-msgstr ""
+msgstr "Traits_ を最大限に活用するPython API。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:83
 msgid ""
 "Mayavi can work natively and transparently with numpy_ arrays (this is "
 "thanks to its use of TVTK_)."
-msgstr ""
+msgstr "Mayaviは、numpy_arraysでネイティブかつ透過的に動作します(これは TVTK_ を使ったおかげです)。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:86
 msgid "Easier to script than Mayavi-1 due to a much cleaner MVC_ design."
-msgstr ""
+msgstr "MVC_ designが非常に簡潔なため、Mayavi-1よりもスクリプトが簡単です。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:88
 msgid ""
 "Easy to extend with added sources, components, modules and data filters."
-msgstr ""
+msgstr "ソース、コンポーネント、モジュール、およびデータフィルタを追加して簡単に拡張できます。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:91
 msgid "Provides an `Envisage`_ plug-in. This implies that it is:"
-msgstr ""
+msgstr "`Envisage`_ plug-inを提供します。これは、次のことを意味します。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:93
 msgid ""
@@ -165,6 +180,7 @@ msgid ""
 "an embedded Python shell.  This is an Envisage plug-in and requires one line"
 " of code to include in Mayavi."
 msgstr ""
+"Mayaviの他のEnvisageプラグインを簡単に使用できます。たとえば、MayaviにはPythonシェルが埋め込まれています。これはEnvisageプラグインで、Mayaviに含めるには1行のコードが必要です。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:98
 msgid ""
@@ -172,6 +188,7 @@ msgid ""
 "based application can readily use the mayavi plug-in and script it to "
 "visualize data."
 msgstr ""
+"Envisageベースのアプリケーションで簡単にMayaviを使用できます。したがって、どのような想定ベースのアプリケーションでも、mayaviプラグインを簡単に使用してスクリプト化し、データを視覚化することができます。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:102
 msgid ""
@@ -179,12 +196,13 @@ msgid ""
 " is important to note that there is no wxPython or Qt4 code used directly in"
 " the Mayavi source."
 msgstr ""
+"wxPython/Qt4ベースのGUI(Traits、PyFace、Envisageのおかげで)。Mayaviソースで直接使用されるwxPythonまたはQt4コードはないことに注意してください。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:106
 msgid ""
 "A non-intrusive reusable design. It is possible to use Mayavi without a "
 "wxPython or Qt4 based UI."
-msgstr ""
+msgstr "非侵入型の再利用可能な設計。wxPythonまたはQt4ベースのUIなしでもMayaviを使用できます。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:118
 msgid ""
@@ -192,20 +210,24 @@ msgid ""
 " on downloading and installing Mayavi, see the next section, "
 ":ref:`installation`."
 msgstr ""
+"以下のセクションでは、Mayaviが動作していることを前提としています。Mayaviのダウンロードとインストールについては、次のセクション "
+":ref:`installation` を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:123
 msgid "Using Mayavi as an application, or a library?"
-msgstr ""
+msgstr "Mayaviをアプリケーションとして使用しますか、それともライブラリとして使用しますか?"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:125
 msgid "As a user there are three primary ways to use Mayavi:"
-msgstr ""
+msgstr "ユーザがMayaviを使用する主な方法は3つあります。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:127
 msgid ""
 "Use the ``mayavi2`` application completely graphically.  More information on"
 " this is in the :ref:`using-the-mayavi-application` section."
 msgstr ""
+"``mayavi2`` アプリケーションを完全にグラフィカルに使用します。これについての詳細は :ref:`using-the-mayavi-"
+"application` セクションにあります。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:131
 msgid ""
@@ -214,6 +236,9 @@ msgid ""
 "simple way of using Mayavi in batch-processing scripts, see :ref:`simple-"
 "scripting-with-mlab` for more information on this."
 msgstr ""
+"単純なPythonスクリプト、たとえば、Pythonスクリプトをnumpyと組み合わせて、Mayaviをプロットエンジンとして使用します。 "
+"``mlab`` スクリプトAPIはバッチ処理スクリプトでMayaviを使う簡単な方法を提供します。これについての詳細は :ref:`simple-"
+"scripting-with-mlab` を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:137
 msgid ""
@@ -221,38 +246,40 @@ msgid ""
 "features a powerful and general purpose scripting API that can be used to "
 "adapt it to your needs."
 msgstr ""
+"PythonからMayaviアプリケーションをスクリプトします。Mayaviアプリケーション自体は、強力で汎用的なスクリプトAPIを備えており、これを使用してニーズに合わせることができます。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:141
 msgid ""
 "You can script Mayavi while using the ``mayavi2`` application in order to "
 "automate tasks and extend Mayavi's behavior."
 msgstr ""
+"``mayavi2`` アプリケーションを使用しながらMayaviをスクリプト化して、タスクを自動化し、Mayaviの動作を拡張することができます。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:144
 msgid "You can script Mayavi from your own Python based application."
-msgstr ""
+msgstr "独自のPythonベースのアプリケーションからMayaviのスクリプトを作成できます。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:146
 msgid ""
 "You can embed Mayavi into your application in a variety of ways either using"
 " Envisage_ or otherwise."
-msgstr ""
+msgstr "Envisage_ などを使用して、さまざまな方法でアプリケーションにMayaviを埋め込むことができます。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:149
 msgid ""
 "More details on this are available in the :ref:`advanced-scripting-with-"
 "mayavi` chapter."
-msgstr ""
+msgstr "詳細については、 :ref:`advanced-scripting-with-mayavi` の章を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:155
 msgid "Scenes, data sources, and visualization modules: the pipeline model"
-msgstr ""
+msgstr "シーン、データソース、およびビジュアライゼーションモジュール:パイプラインモデル"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:157
 msgid ""
 "Mayavi uses pipeline architecture like VTK_.  As far as a user is concerned "
 "this basically boils down to a simple hierarchy."
-msgstr ""
+msgstr "Mayaviは、 VTK_ のようなパイプラインアーキテクチャを使用します。ユーザーに関する限り、これは基本的に単純な階層構造になります。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:160
 msgid ""
@@ -261,6 +288,8 @@ msgid ""
 " be opened. Data sources are rich objects that describe the data, but not "
 "how to visualize it."
 msgstr ""
+"データはMayaviにロードされ、 **data source** "
+"に保存されます(ファイルを使用するか、スクリプトから作成します。)。任意の数のデータ・ファイルまたはデータ・オブジェクトを開くことができます。データソースは、データを記述するリッチオブジェクトですが、データを視覚化する方法ではありません。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:165
 msgid ""
@@ -270,6 +299,9 @@ msgid ""
 "the UI or context menus on the pipeline. They may also be instantiated as "
 "Python objects when scripting Mayavi."
 msgstr ""
+"このデータはオプションで、データを操作する :ref:`filters` を使用して処理され、可視化 ::ref:`modules` "
+"を使用して可視化されます。フィルタおよび **modules** には、アプリケーションのUIの  `Visualize` "
+"メニューまたはパイプラインのコンテキストメニューからアクセスできます。また、Mayaviのスクリプト時にPythonオブジェクトとしてインスタンス化することもできます。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:171
 msgid ""
@@ -279,11 +311,15 @@ msgid ""
 "following images are all made by applying different `modules` to the same "
 "data source:"
 msgstr ""
+"データコンテナである `data source` と、それを見るために使用される視覚化ツールである `modules` "
+"とを区別する理由は、同じデータを見る方法がたくさんあるからです。たとえば、次のイメージはすべて、同じデータソースに異なる `modules` "
+"を適用して作成されています。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:177
 msgid ""
 "|volumetric_cut_plane| |volumetric_contour3d| |volumetric_volume_tweaked|"
 msgstr ""
+"|volumetric_cut_plane| |volumetric_contour3d| |volumetric_volume_tweaked|"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:180
 msgid ""
@@ -291,16 +327,18 @@ msgid ""
 "visualization is performed.  In the interactive application, new scenes may "
 "be created by using the `File->New->VTK Scene` menu."
 msgstr ""
+"すべてのオブジェクトは `Scene` に属します。これは、3D表示が実行される領域です。インタラクティブアプリケーションでは、 "
+"`File->New->VTK Scene` メニューを使って新規シーンを作成することができます。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:194
 msgid "Loading data into Mayavi"
-msgstr ""
+msgstr "Mayaviへのデータのロード"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:196
 msgid ""
 "Mayavi is a scientific data visualizer. There are two primary ways to make "
 "your data available to it:"
-msgstr ""
+msgstr "Mayaviは科学データ視覚化ツールです。データを使用可能にするには、主に次の2つの方法があります。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:199
 msgid ""
@@ -308,6 +346,8 @@ msgid ""
 "etc. See `VTK file formats`_ for more information on the VTK formats. These "
 "files can be loaded in the interactive application using the menus."
 msgstr ""
+"VTKレガシーまたはVTK XMLファイルなど、サポートされているファイルフォーマットでデータを保存します。VTKフォーマットの詳細については、 "
+"`VTK file formats`_ を参照してください。これらのファイルは、メニューを使用してインタラクティブアプリケーションにロードできます。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:204
 msgid ""
@@ -316,6 +356,9 @@ msgid ""
 "paragraph on :ref:`creating data sources with mlab <mlab_data_source>`, or "
 "simply the 3D plotting functions: :ref:`mlab_plotting_functions`)."
 msgstr ""
+"numpy_arraysまたはその他のシーケンスを使用してTVTKデータセットを生成します。これは、例えば `mlab` ( "
+":ref:`creating data sources with mlab ` 、または単純な3Dプロット機能 : "
+":ref:`mlab_plotting_functions` を参照してください。)のようなスクリプトAPIを使って行うのが最も簡単です。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:210
 msgid ""
@@ -323,3 +366,5 @@ msgid ""
 "data structures or files, more information on datasets in general is "
 "available in the :ref:`data-structures-used-by-mayavi` section."
 msgstr ""
+"あるいは、VTKデータ構造やファイルを作成してより深く理解したい場合には、一般的なデータセットについての詳細な情報は :ref:`data-"
+"structures-used-by-mayavi` の章を参照してください。"

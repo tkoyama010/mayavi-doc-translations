@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-27 12:25+0900\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:2
 msgid "Using Mayavi with scipy"
-msgstr ""
+msgstr "scipyでMayaviを使う"
 
 #: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:4
 msgid ""
@@ -28,6 +32,8 @@ msgid ""
 "assumes that you are familiar with numerical Python tools, and shows you how"
 " to use Mayavi in combination with these tools."
 msgstr ""
+"このチュートリアルの例では、 `scipy`_ を使用して数値計算を行いながら、Mayaviをインタラクティブに使用して `numpy`_ "
+"を表示する方法を示します。ここでは、Pythonの数値ツールに精通していることを前提に、これらのツールと組み合わせてMayaviを使用する方法について説明します。"
 
 #: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:9
 msgid ""
@@ -36,6 +42,7 @@ msgid ""
 "potential and the trajectories is key to developing an understanding of the "
 "problem."
 msgstr ""
+"ポテンシャル中の粒子の軌道を調べてみましょう。これは物理学と工学において非常に一般的な問題であり、ポテンシャルと軌跡の可視化は問題の理解を発展させる鍵です。"
 
 #: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:14
 msgid ""
@@ -44,13 +51,14 @@ msgid ""
 " jumps from a hole of the lattice to another. The parabolic confinement is "
 "there to limit the excursions of the particle::"
 msgstr ""
+"興味があるポテンシャルは,放物線状閉込めに浸した周期的格子である。このポテンシャルを振って、パーティクルがラティスの穴から別の穴にジャンプする様子を確認します。放物線状の閉じ込めは、パーティクルのエクスカーションを制限するために存在します。"
 
 #: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:25
 msgid ""
 "Now that we have defined the potential, we would like to see what it looks "
 "like in 3D. To do this we can create a 3D grid of points, and sample it on "
 "these points::"
-msgstr ""
+msgstr "ポテンシャルを定義したので、3Dでどのように見えるかを確認します。これを行うには、点の3Dグリッドを作成し、次の点でサンプルします。"
 
 #: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:32
 msgid ""
@@ -82,6 +90,8 @@ msgid ""
 "backend for versions of Mayavi up to 3.2.0 (see :ref:`known_bugs` for all "
 "know bugs)."
 msgstr ""
+"\"Add after\" UIは以前、バージョン3.2 .0(既知のバグは :ref:`known_bugs` "
+"を参照してください。)までのMayaviでwxPythonバックエンドを持つLinux上でクラッシュしていました。"
 
 #: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:59
 msgid ""
@@ -105,10 +115,11 @@ msgid ""
 "the same menu to add an Axes and an Outline. Finally, let us add a colorbar."
 " We can do this by typing::"
 msgstr ""
+"numpy配列と視覚化の間のリンクを作成するには、同じメニューを使用して軸とアウトラインを追加します。最後に、カラーバーを追加します。次のように入力します。"
 
 #: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:77
 msgid "Or using the options in the LUT dialog visited earlier."
-msgstr ""
+msgstr "または、前述のLUTダイアログボックスのオプションを使用します。"
 
 #: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:81
 msgid ""
@@ -139,7 +150,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:122
 msgid "Now we can integrate the trajectory::"
-msgstr ""
+msgstr "この軌跡を"
 
 #: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:132
 msgid ""
