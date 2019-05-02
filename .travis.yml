@@ -15,6 +15,7 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_4f115fd035ba_key -iv $encrypted_4f115fd035ba_iv -in .secrets/key.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+- echo password = $SPHINXINTL_TRANSIFEX_PASSWORD >> ~/.transifexrc
 install:
 - git branch -a
 - git checkout master  # attach this repo
