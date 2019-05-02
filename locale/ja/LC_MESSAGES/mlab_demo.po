@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2018, Enthought Inc.
+# This file is distributed under the same license as the mayavi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mayavi 4.7.0.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-27 12:25+0900\n"
+"PO-Revision-Date: 2019-04-27 07:29+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
+"Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../mayavi/docs/source/mayavi/mlab_demo.rst:4
+msgid "A demo"
+msgstr "デモ"
+
+#: ../../mayavi/docs/source/mayavi/mlab_demo.rst:6
+msgid ""
+"To get you started, here is a pretty example showing a spherical harmonic as"
+" a surface::"
+msgstr "まず、球面調和関数をサーフェスとして表示する例を示します。"
+
+#: ../../mayavi/docs/source/mayavi/mlab_demo.rst:24
+msgid ""
+"Bulk of the code in the above example is to create the data.  One line "
+"suffices to visualize it.  This produces the following visualization:"
+msgstr "上記の例のコードの大部分は、データを作成するためのものです。それを可視化するには1行で十分です。これにより、次の表示が生成されます。"
+
+#: ../../mayavi/docs/source/mayavi/mlab_demo.rst:30
+msgid ""
+"The visualization is created by the single function :func:`mesh` in the "
+"above."
+msgstr "視覚化は、上記の :func:`mesh` という単一の関数によって作成されます。"
+
+#: ../../mayavi/docs/source/mayavi/mlab_demo.rst:32
+msgid ""
+"Several examples of this kind are provided with mlab (see `test_contour3d`, "
+"`test_points3d`, `test_plot3d_anim` etc.).  The above demo is available as "
+"`test_mesh`.  Under IPython these may be found by tab completing on "
+"`mlab.test`.  You can also inspect the source in IPython via the handy "
+"`mlab.test_contour3d??`."
+msgstr ""
+"mlab( `test_contour3d`  、 `test_points3d` 、 `test_plot3d_anim` "
+"などを参照してください。)には、この種の例がいくつか用意されています。上記のデモは `test_mesh` として入手できます。IPythonでは、 "
+"`mlab.test` でタブを補完することで、これらを見つけることができます。また、便利な `mlab.test_contour3d??` "
+"を使ってIPythonのソースを調べることもできます。"

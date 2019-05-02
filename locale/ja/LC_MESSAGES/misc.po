@@ -1,0 +1,221 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2018, Enthought Inc.
+# This file is distributed under the same license as the mayavi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mayavi 4.7.0.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-27 12:25+0900\n"
+"PO-Revision-Date: 2019-04-27 07:29+0000\n"
+"Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:2
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:5
+msgid "Citing Mayavi"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:7
+msgid ""
+"The core developers of Mayavi are academics. Therefore they justify time and"
+" resources spent developing Mayavi by the number of citations of the "
+"software. If you publish scientific articles using Mayavi, please cite the "
+"following article (bibtex entry :download:`citation.bib`):"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:12
+msgid ""
+"Ramachandran, P. and Varoquaux, G., *`Mayavi: 3D Visualization of Scientific"
+" Data`* IEEE Computing in Science & Engineering, **13** (2), pp. 40-51 "
+"(2011)"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:18
+msgid "Tutorial videos"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:20
+msgid "Here are some tutorial videos that you can watch to learn Mayavi:"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:22
+msgid "SciPy 2018 Mayavi tutorial (3 hrs):"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:24
+msgid "Video: https://www.youtube.com/watch?v=r6OD07Qq2mw"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:25
+msgid "Material: https://github.com/prabhuramachandran/mayavi-tutorial"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:31
+msgid "Getting help"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:33
+msgid ""
+"Bug reports should be submitted to the `issue tracker`_. Please make sure to"
+" provide enough information so that the issue can be reproduced. For other "
+"requests, if this manual, the Mayavi web page, the wiki page, stack overflow"
+" and google are of no help, feel free to ask on the `issue tracker`_."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:39
+msgid ""
+"If you have questions you could ask on the `Mayavi-users mailing list "
+"<https://sourceforge.net/p/mayavi/mailman/mayavi-users/>`_. This is used by "
+"some folks and is not too active. Another mailing list that may be of use is"
+" the `ETS Users mailing list <https://groups.google.com/forum/#!forum/ets-"
+"users>`_. This is a more general list where a lot of folks experienced with "
+"the Enthought Tool Suite are available."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:48
+msgid "Tests for Mayavi"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:50
+msgid ""
+"You can easily run the Mayavi test suite using `mayavi2 -t` from the command"
+" line. Running tests is useful to find out if Mayavi works well on your "
+"particular system. Indeed, the systems can vary from one to another: in "
+"addition to the variety of existing operating systems, different versions of"
+" the libraries can be installed. The Mayavi developers do their best to "
+"support many different configuration, but you can help them by running the "
+"test suite and reporting any errors."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:58
+msgid ""
+"You can use `nose`_ to run the unit tests of both packages by doing the "
+"following from the root of the Mayavi source directory::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:67
+msgid ""
+"From the mayavi source directory, to run tests only for mayavi package you "
+"can do::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:76
+msgid ""
+"From the mayavi source directory, to run tests only for tvtk package you can"
+" do::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:85
+msgid ""
+"If you get an \"ERROR\" regarding the unavailability of coverage you may "
+"safely ignore it.  If for some reason nose is having difficulty running the "
+"tests, the tests may be found inside ``tvtk/tests`` and ``mayavi/tests``.  "
+"You can run each of the ``test_*.py`` files in these directories manually, "
+"or change your current directory to these directories and run ``nosetests`` "
+"there."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:92
+msgid ""
+"In addition to these unit tests mayavi also has several integration tests. "
+"These are in the ``integrationtests/mayavi`` directory of the source "
+"distribution.  You may run the tests there like so::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:98
+msgid ""
+"These tests are intrusive and will create several mayavi windows and also "
+"take a while to complete.  Some of them may fail on your machine for various"
+" reasons."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:103
+msgid "Helping out"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:105
+msgid ""
+"We are always on the lookout for people to help this project grow.  If you "
+"need a functionality added to Mayavi, open an new feature request issue in "
+"`issue tracker`_."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:109
+msgid ""
+"To submit bug fixes or new functionality, this is the recommended workflow:"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:112
+msgid "Fork the Repo on github."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:113
+msgid "If you are adding functionality or fixing a bug, please add a test!"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:114
+msgid "Push to your fork and submit a **pull request to the master branch**."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:116
+msgid ""
+"The **master** branch is a 100% stable (should be).  The pull request is "
+"merged only after it is certain that things are working out, which means "
+"that `Travis`_ and `Appveyor`_ tests pass."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:120
+msgid ""
+"Please note that we aim to improve the overall testing of the Mayavi "
+"codebase, so tests are also important."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:124
+msgid "Development quick start"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:126
+msgid ""
+"To help improve Mayavi, you first need to install the development version, "
+"see :ref:`installing_git`. You can then modify your local installation of "
+"Mayavi to add the functionality you are interested in (make sure the tests "
+"still run after your modifications).  Once you are done, you can generate a "
+"github `pull request`_ to get your changes into the next stable release."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:134
+msgid "Improving the documentation"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:136
+msgid ""
+"Documentation of a project is incredibly important. It also takes a lot of "
+"time to write and improve. You can easily help us with documentation."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:139
+msgid ""
+"You will find the documentation sources in ``docs/sources/mayavi``. The "
+"documentation is written in `sphinx`_. It is easy to edit the `.rst` files "
+"to modify or extend the text. Once you have done your modifications, you can"
+" build the documentation using by running::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:147
+msgid ""
+"in the base directory of your checkout. You will need `sphinx`_ installed "
+"for that. The documentation is then built as an HTML documentation that you "
+"can find in the sub directory ``build/docs/html/mayavi``. Once you are "
+"comfortable with the modifications, just generate a github pull request to "
+"integrate your changes into the next stable release."
+msgstr ""
