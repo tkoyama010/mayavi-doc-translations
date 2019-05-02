@@ -4,7 +4,7 @@ set -ex
 
 # setup environment
 SPHINXINTL_TRANSIFEX_USERNAME=api
-SPHINXINTL_TRANSIFEX_PROJECT_NAME=mayavi-doc
+SPHINXINTL_TRANSIFEX_PROJECT_NAME=mayavi
 find mayavi -name "*.pyc" -exec rm {} \;
 git checkout master
 git submodule init
