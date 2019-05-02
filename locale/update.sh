@@ -4,8 +4,8 @@
 set -ex
 
 # required environment variables
-export SPHINXINTL_TRANSIFEX_USERNAME=tkoyama010
-export SPHINXINTL_TRANSIFEX_PROJECT_NAME=mayavi-doc
+# SPHINXINTL_TRANSIFEX_USERNAME=tkoyama010
+# SPHINXINTL_TRANSIFEX_PROJECT_NAME=mayavi-doc
 
 
 # pull po files from transifex
