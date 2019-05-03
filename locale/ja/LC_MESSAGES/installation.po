@@ -240,7 +240,7 @@ msgid ""
 "<https://www.enthought.com/products/edm/installers/>`_."
 msgstr ""
 "EDMは、無料で入手できるEnthinkのPython環境マネージャーです。新しいPythonユーザは、軽量でカスタムなPython環境を作成できます。EDMの主な利点は、パッケージの依存関係を最先端の方法で確実に管理できることです。競合を解決し、一貫したパッケージ・バージョン・セットを確保できます。これは"
-" `edmInstaller<https://www.enthought.com/products/edm/installers/>`_ "
+" `edmInstaller <https://www.enthought.com/products/edm/installers/>`_ "
 "からダウンロードできます。"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:170

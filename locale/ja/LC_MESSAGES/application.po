@@ -456,7 +456,7 @@ msgstr "カメラの焦点を現在のマウスの位置に移動します。こ
 
 #: ../../mayavi/docs/source/mayavi/application.rst:0
 msgid "'j'"
-msgstr ""
+msgstr "'j'"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:230
 msgid ""
@@ -464,20 +464,21 @@ msgid ""
 "somewhat mimics a joystick.  For example, holding the mouse left button down"
 " when away from the center will rotate the scene."
 msgstr ""
+"マウス操作にジョイスティックモードを使用します。ジョイスティックモードでは、マウスはジョイスティックを模倣します。たとえば、中心から離れているときにマウスの左ボタンを押したままにすると、シーンが回転します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:0
 msgid "'l'"
-msgstr ""
+msgstr "'l'"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:236
 msgid ""
 "Configure the lights that are illumining the scene.  This will pop-up a "
 "window to change the light configuration."
-msgstr ""
+msgstr "シーンを照らすライトを設定します。ライトの設定を変更するためのウィンドウが表示されます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:0
 msgid "'p'"
-msgstr ""
+msgstr "'p'"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:240
 msgid ""
@@ -485,18 +486,19 @@ msgid ""
 "information on the current pick.  The UI will also allow one to change the "
 "behavior of the picker to pick cells, points or arbitrary points."
 msgstr ""
+"現在のマウスポイントでデータを選択します。現在の選択に関する情報を示すウィンドウがポップアップ表示されます。UIでは、ピッカーの動作を変更して、セル、ポイント、または任意のポイントを選択することもできます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:0
 msgid "'r'"
-msgstr ""
+msgstr "'r'"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:246
 msgid "Reset the camera focal point and position.  This is very handy."
-msgstr ""
+msgstr "カメラの焦点と位置をリセットします。これはとても便利です。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:0
 msgid "'s'"
-msgstr ""
+msgstr "'s'"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:249
 msgid ""
@@ -504,36 +506,37 @@ msgid ""
 "box so you can choose the filename, the extension of the filename determines"
 " the image type."
 msgstr ""
+"シーンをイメージに保存すると、最初にファイル選択ダイアログボックスが表示され、ファイル名を選択できます。ファイル名の拡張子によってイメージタイプが決まります。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:0
 msgid "'t'"
-msgstr ""
+msgstr "'t'"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:254
 msgid ""
 "Use trackball mode for the mouse interaction.  This is the default mode for "
 "the mouse interaction."
-msgstr ""
+msgstr "マウス操作にはトラックボールモードを使用します。これは、マウス操作のデフォルトモードです。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:0
 msgid "'='/'+'"
-msgstr ""
+msgstr "'='/'+'"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:258
 msgid "Zoom in."
-msgstr ""
+msgstr "拡大表示します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:0
 msgid "'-'"
-msgstr ""
+msgstr "'-'"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:261
 msgid "Zoom out."
-msgstr ""
+msgstr "縮小表示します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:0
 msgid "'left'/'right'/'up'/'down' arrows"
-msgstr ""
+msgstr "'左'/'右'/'上'/'下' 矢印"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:265
 msgid ""
@@ -541,20 +544,23 @@ msgid ""
 "those directions.  When \"SHIFT\" modifier is also held down the camera is "
 "panned."
 msgstr ""
+"左矢印、右矢印、上矢印、下矢印を押すと、これらの方向にカメラを回転できます。 \"SHIFT\" "
+"モディファイヤを押したままにすると、カメラがパンされます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:270
 msgid "From interactive usage to scripting"
-msgstr ""
+msgstr "対話的な使用からスクリプト作成へ"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:272
 msgid ""
 "It is easy to learn how to script Mayavi when using the interactive "
 "application. In this sub-section, we give a few tips for this purpose."
 msgstr ""
+"インタラクティブアプリケーションの使用時にMayaviのスクリプトを作成する方法を簡単に学習できます。このサブセクションでは、この目的のためのヒントをいくつか紹介します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:278
 msgid "The embedded Python interpreter"
-msgstr ""
+msgstr "組み込みPythonインタプリタ"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:280
 msgid ""
@@ -563,16 +569,19 @@ msgid ""
 "tooltips and some multi-line editing.  In addition it supports the following"
 " features:"
 msgstr ""
+"組み込みPythonインタープリターは、非常に強力な可能性を提供します。インタープリターには、コマンド補完、自動文書化、ツールチップ、および複数行の編集機能があります。さらに、次の機能もサポートしています。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:285
 msgid ""
 "The name ``mayavi`` is automatically bound to the ``mayavi.script.Script`` "
 "instance.  This may be used to easily script Mayavi."
 msgstr ""
+"``mayavi`` という名前は自動的に ``mayavi.script.Script`` "
+"に結び付けられます。これは、Mayaviを簡単にスクリプト化するために使用できます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:289
 msgid "The name ``application`` is bound to the envisage application."
-msgstr ""
+msgstr "``application`` という名前は、想定されるアプリケーションに結び付けられます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:291
 msgid ""
