@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-27 12:25+0900\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:4
 msgid "Parametric surfaces: a simple introduction to visualization"
-msgstr ""
+msgstr "パラメトリックサーフェス:視覚化の簡単な概要"
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:6
 msgid ""
@@ -31,6 +35,8 @@ msgid ""
 "available on the surface. More details on parametric surfaces in VTK may be "
 "obtained from Andrew Maclean's `Parametric Surfaces`_ document."
 msgstr ""
+"パラメトリックサーフェスは、すぐに再生できるデータが見つからない場合に特に便利です。パラメトリック・サーフェスは、通常2つの変数によってパラメータ化されたサーフェスです。uとvのVTKには、ユーザーがパラメトリック・サーフェスを探索できる多数のクラスがあります。この機能はMayaviでも使用できます。データは、3Dに埋め込まれた2Dサーフェスです。サーフェス上でスカラーデータも使用できます。VTKにおけるパラメトリックサーフェスの詳細については、Andrew"
+" Macleanの `Parametric Surfaces`_ を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:15
 msgid ""
@@ -40,12 +46,16 @@ msgid ""
 " that says `ParametricSurface`.  Note that you **will not** see anything "
 "visualized on the TVTK scene yet."
 msgstr ""
+"maya2の起動後、`ファイル>データのロード>パラメトリックサーフェスソースの作成 `File->Load data->Create "
+"Parametric Surface source`  "
+"を選択して、簡単なパラメトリックサーフェスソースを作成します。データを作成すると、左側のMayaviツリービューに "
+"`ParametricSurface` という新しいノードが表示されます。TVTKシーンにはまだ何も表示されません。"
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:21
 msgid ""
 "You can modify the nature of the parametric surface by clicking on the node "
 "for the `ParametricSurface` source object."
-msgstr ""
+msgstr "`ParametricSurface` ソースオブジェクトのノードをクリックすると、パラメトリックサーフェスの特性を変更できます。"
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:24
 msgid ""
@@ -56,6 +66,10 @@ msgid ""
 "scene. You should also see two new nodes on the tree view, one called "
 "`Colors and legends` and one underneath that called `Outline`."
 msgstr ""
+"データのアウトライン(箱)を表示するには、メニュー項目 `Visualize->Modules` に移動し、 `Outline` "
+"モジュールを選択します。 `ParametricSurface` ノードを右クリックしてコンテキストメニューを表示し、 `Add "
+"Module->Surface` を選択することもできます。TVTKシーンにワイヤフレーム立方体が表示されます。ツリービューには、 `Colors "
+"and legends` とその下にある `Outline` という2つの新しいノードも表示されます。"
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:32
 msgid ""
@@ -67,6 +81,8 @@ msgid ""
 "double-click a node on the left it will pop up an editor dialog rather than "
 "show it in the embedded object editor."
 msgstr ""
+"左側の `Outline` "
+"ノードをクリックすると、表示されるアウトラインのプロパティを変更できます。これにより、ウィンドウの左下(オブジェクトエディタタブ)のツリー表示の下にオブジェクトエディタウィンドウが作成されます。ここで設定を再生し、結果を確認します。たとえば、アウトラインボックスの色を変更するには、色フィールドの値を変更します。左側のノードをダブルクリックすると、埋め込みオブジェクトエディタではなくエディタダイアログがポップアップ表示されます。"
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:41
 msgid ""

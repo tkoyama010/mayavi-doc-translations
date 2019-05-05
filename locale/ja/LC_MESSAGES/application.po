@@ -592,6 +592,11 @@ msgid ""
 " when developing simple Mayavi scripts. You can also increase and decrease "
 "the font size using ``Control-n`` and ``Control-s``."
 msgstr ""
+"Pythonファイルを ``File->Open File...`` "
+"で開いた場合。”メニュー項目1は、色構文対応エディターで編集できます。組み込みPythonインタプリタでこのスクリプトを実行するには、エディタウィンドウに"
+" ``Control-r`` と入力します。ファイルを保存するには  ``Control-s`` "
+"キーを押します。これは、単純なMayaviスクリプトを開発するときに非常に便利な機能です。 ``Control-n`` と ``Control-s`` "
+"を使って、フォントサイズを増減することもできます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:299
 msgid ""
@@ -600,6 +605,7 @@ msgid ""
 "normally would.  A commonly used pattern when this is done is the "
 "following::"
 msgstr ""
+"前述のように、MayaviパイプラインのツリービューからPythonシェルにノードをドラッグアンドドロップすることができます。オブジェクトは、通常どおりにスクリプト化できます。このような場合によく使用されるパターンは次のとおりです。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:308
 msgid ""
@@ -607,32 +613,36 @@ msgid ""
 "``_`` variable stores the last evaluated expression which is the dropped "
 "object.  Using ``tvtk_scene_1`` will also work but is a mouthful."
 msgstr ""
+"この場合、名前 ``s`` は削除されたtvtk_sceneオブジェクトにバインドされます。変数 ``_`` "
+"には、削除されたオブジェクトである最後に評価された式が格納されます。 ``tvtk_scene_1`` を使うこともできますが、一語になります。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:317
 msgid "Recording Mayavi actions to a script"
-msgstr ""
+msgstr "スクリプトへのMayaviアクションの記録"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:319
 msgid ""
 "Mayavi features a very handy and powerful script recording facility. This "
 "can be used to:"
-msgstr ""
+msgstr "Mayaviは非常に便利で強力なスクリプト記録機能を備えています。これは、次の目的で使用できます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:322
 msgid ""
 "record all actions performed on the Mayavi UI into a *human readable*, "
 "Python script that should be able to recreate your visualization."
-msgstr ""
+msgstr "Mayavi UIで実行されたすべてのアクションを、視覚化を再作成できる *人間が読める* Pythonスクリプトに記録します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:325
 msgid ""
 "learn how to script the Mayavi objects, in combination with :ref:`mlab "
 "<simple-scripting-with-mlab>`."
 msgstr ""
+"Mayaviオブジェクトを :ref:`mlab <simple-scripting-with-mlab>` "
+"と組み合わせてスクリプト化する方法を学習します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:328
 msgid "Here is how you can use this feature:"
-msgstr ""
+msgstr "この機能の使用方法は次のとおりです。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:330
 msgid ""
@@ -642,6 +652,9 @@ msgid ""
 "the toolbar of the :ref:`Mayavi pipeline window <mlab-changing-objects-"
 "interactively>`."
 msgstr ""
+"``mayavi2`` "
+"アプリケーションを起動すると、パイプラインツリービューツールバーのクエスチョンマークの横に赤いレコードアイコンが表示されます。クリックします。これは、 "
+":ref:`Mayavi pipeline window ` のツールバーにあるスタンドアロンのmlabセッションからでも動作します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:336
 msgid ""
@@ -650,6 +663,9 @@ msgid ""
 "script.py``. Keep this window open and ignore for now the ``Save script`` "
 "button, which will be used when you are finished."
 msgstr ""
+"数行の定型的なコードを含むポップアップウィンドウが表示されるので、スタンドアローンのスクリプトを実行できます。 ``mayavi2 -x "
+"script.py `` または ``python script.py`` です。このウィンドウを開いたままにしておき、終了時に使用する ``Save "
+"script`` ボタンを無視してください。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:341
 msgid ""
@@ -659,6 +675,9 @@ msgid ""
 " the adder node dialog/view, the file menu or right click, i.e. any normal "
 "option), then add a module/filter etc.  Modify objects on the tree view."
 msgstr ""
+"UIで好きなことを実行します。これらのアクションを実行すると、それらのアクションを実行するために必要なコードがコードリストに追加され、ポップアップウィンドウに表示されます。たとえば、新しいソース(追加ノードの"
+" dialog/view "
+"、ファイルメニュー、または通常のオプションの右クリックのいずれかを使用します。)を作成し、モジュールやフィルタなどを追加します。ツリー・ビューでオブジェクトを変更します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:348
 msgid ""
@@ -669,12 +688,14 @@ msgid ""
 "keys).  This implies that it will record any left/right/up/down arrows the "
 "'+'/'-' keys etc."
 msgstr ""
+"UI上のカメラの移動、カメラの回転、ズーム、パン。これらはすべて、適切なPythonコードを生成します。カメラの場合、終了位置のみが保存されます(そうでなければ、何百万行もの無駄なコードを目にすることになる)。シーン上の主要なキーボードアクションが記録されます("
+" 'c'/'t'/'j'/'a' キーを除く)。これは、左/右/上/下矢印や '+'/'-' キーなどを記録することを意味します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:355
 msgid ""
 "Since the code is updated as the actions are performed, this is a nice way "
 "to learn the Mayavi API."
-msgstr ""
+msgstr "アクションが実行されるとコードが更新されるので、Mayavi APIを学習するのに便利です。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:358
 msgid ""
@@ -686,18 +707,22 @@ msgid ""
 "say ``script.py``.  If you are only interested in the code and not saving a "
 "file you may click cancel at this point."
 msgstr ""
+"完了したら、もう一度レコードアイコンをクリックすると、記録が停止します。ポップアップウィンドウの ``Recording`` "
+"ボックスがチェックされ、新しいアクションに対応するコードは表示されなくなります。記録したスクリプトをPythonファイルに保存するには、ウィンドウの下部にある"
+" ``Save script`` ボタンをクリックします。スクリプトを ``script.py`` "
+"ファイルに保存します。コードのみを保存し、ファイルを保存しない場合は、ここでcancelをクリックします。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:366
 msgid "Close the recorder window. You can quit Mayavi, if you want to."
-msgstr ""
+msgstr "記録ウィンドウを閉じます。Mayaviを終了することもできます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:368
 msgid "Now from the shell do::"
-msgstr ""
+msgstr "シェルから以下を実行します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:372
 msgid "or even::"
-msgstr ""
+msgstr "または"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:376
 msgid ""
@@ -705,6 +730,7 @@ msgid ""
 "to edit this generated script -- in fact that is the whole point of "
 "automatic script generation!"
 msgstr ""
+"これらはすべてのコードを実行して、あなたが去ったところにたどり着くはずです。この生成されたスクリプトは自由に編集できます。実際、自動スクリプト生成のすべてのポイントはここにあります。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:380
 msgid ""
@@ -715,6 +741,7 @@ msgid ""
 "you have to remember in this case is that the script recorder will not "
 "create the objects you already have setup on the session."
 msgstr ""
+"Mayaviの既存のセッションをスクリプト化することも可能であることを理解することが重要です。したがって、Mayaviを起動した後で、いくつかの操作を実行したり、Mayaviスクリプトを実行した後で、さらにアクションを記録したい場合は、その可能性があります。前と同じ手順に従います。この場合に覚えておかなければならないのは、セッションですでにセットアップしたオブジェクトはスクリプト・レコーダーによって作成されないということだけです。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:390
 msgid ""
@@ -722,6 +749,7 @@ msgid ""
 "  However, these probably aren't things you'd want to do in an automatic "
 "script."
 msgstr ""
+"また、Mayaviツリービューでドロップオブジェクトを削除/ドラッグすることもできます。しかし、これらはおそらく自動スクリプトでは行いたくないことです。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:394
 msgid ""
@@ -729,48 +757,50 @@ msgid ""
 "anywhere else where Mayavi is used.  It will not generate any ``mlab`` "
 "specific code but write generic Mayavi code using the OO Mayavi API."
 msgstr ""
+"前述したように、スクリプトの記録は ``mlab`` セッションやMayaviが使用されるその他の場所で機能します。 ``mlab`` "
+"固有のコードは生成しませんが、OO Mayavi APIを使用して汎用のMayaviコードを記述します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:400
 msgid "Limitations"
-msgstr ""
+msgstr "制限事項"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:402
 msgid ""
 "The script recorder works for some important actions.  At this point it does"
 " not support the following actions:"
-msgstr ""
+msgstr "スクリプトレコーダーは、いくつかの重要なアクションに使用できます。この時点では、次のアクションはサポートされていません。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:407
 msgid "On the scene, the 'c'/'t'/'j'/'a'/'p' keys are not recorded"
-msgstr ""
+msgstr "シーンに 'c'/'t'/'j'/'a'/'p' キーが記録されない"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:406
 msgid ""
 "correctly since this is much more complicated to implement and typically not"
 " necessary for basic scripting."
-msgstr ""
+msgstr "これは実装が非常に複雑で、基本的なスクリプト作成には通常必要ないためです。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:410
 msgid "Arbitrary scripting of the interface is obviously not going to work"
-msgstr ""
+msgstr "インターフェースの任意のスクリプトは、明らかに機能しません。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:410
 msgid "as you may expect."
-msgstr ""
+msgstr "ご想像のとおり。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:413
 msgid "Only trait changes and specific calls are recorded explicitly in the"
-msgstr ""
+msgstr "特性の変更と特定の呼び出しだけが"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:413
 msgid ""
 "code.  So calling arbitrary methods on arbitrary Mayavi objects will not "
 "record anything typically."
-msgstr ""
+msgstr "コード。したがって、任意のMayaviオブジェクトで任意のメソッドをコールしても、通常は何も記録されません。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:419
 msgid "Command line arguments"
-msgstr ""
+msgstr "コマンドライン引数"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:421
 msgid ""
@@ -778,16 +808,18 @@ msgid ""
 "that are described in the following section.  These options are described in"
 " the ``mayavi2`` man page as well."
 msgstr ""
+"``mayavi2`` アプリケーションには、次のセクションで説明する便利なコマンドライン引数があります。これらのオプションについては、  "
+"``mayavi2`` のマニュアルページでも説明されています。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:425
 msgid ""
 "A complete pipeline may be built from the command line, so that Mayavi can "
 "be integrated in shell scripts to provide useful visualizations."
-msgstr ""
+msgstr "コマンドラインから完全なパイプラインを構築して、Mayaviをシェルスクリプトに統合し、便利な視覚化を実現できます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:428
 msgid "Mayavi can be run like so::"
-msgstr ""
+msgstr "Mayaviは次のように実行できます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:432
 msgid ""
@@ -796,28 +828,33 @@ msgid ""
 "(``filename.py``) or any datafile supported by Mayavi.  If no options or "
 "arguments are provided Mayavi will start up with a default blank scene."
 msgstr ""
+"ここで、 ``arg1`` 、 ``arg2`` などは、保存されたMayavi2ビジュアライゼーション( ``filename.mv2`` "
+")、Mayavi2スクリプト( ``filename.py`` "
+")、またはMayaviがサポートする任意のデータファイルに対応するオプションのファイル名です。オプションまたは引数が指定されていない場合、Mayaviはデフォルトの空白シーンで起動します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:437
 msgid "The options are:"
-msgstr ""
+msgstr "次のオプションがあります。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:440
 msgid ""
 "This prints all the available command line options and exits. Also available"
 " through ``--help``."
-msgstr ""
+msgstr "これにより、使用可能なすべてのコマンドラインオプションが出力され、終了します ``--help`` からも利用できます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:444
 msgid ""
 "This prints the Mayavi version on the command line and exits. Also available"
 " through ``--version``."
-msgstr ""
+msgstr "これにより、コマンドラインにMayaviのバージョンが出力されて終了します。 ``--version`` からも入手できます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:448
 msgid ""
 "This loads a previously saved Mayavi2 visualization.  Also available through"
 " ``--viz file_name`` or ``--visualization file_name``."
 msgstr ""
+"これにより、以前に保存したMayavi2表示がロードされます。 ``--viz file_name`` または ``--visualization "
+"file_name`` からも利用できます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:453
 msgid ""
@@ -829,6 +866,9 @@ msgid ""
 " PNM, DCM, DEM, MHA, MHD, MINC, XIMG, TIFF, and various others that are "
 "supported."
 msgstr ""
+"サポートされているデータファイル形式、またはファイルに関連付けられていないデータソースオブジェクトを開きます。これには、VTKファイル形式(``*.vtk``,"
+" ``*.xml``, ``*.vt[i,p,r,s,u]``, ``*.pvt[i,p,r,s,u]``)、VRML2(``*.wrl``)、3D "
+"Studio(``*.3ds``)、PLOT3D(``*.xyz``)、STL、BYU、RAW、PLY、PDB、SLC、FACET、OBJ、AVSUCD(``*.inp``)、GAMBIT(``*.neu``)、Exodus(``*.exii``)、PNG、JPEG、BMP、PNM、DCM、DEM、MHA、MHD、MNC、XIMG、TIFF、およびサポートされているその他のさまざまなファイル形式が含まれます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:462
 msgid ""
@@ -836,6 +876,9 @@ msgid ""
 "file, for example ``ParametricSurface`` or ``PointLoad`` will load the "
 "corresponding data sources into Mayavi.  Also available through ``--data``."
 msgstr ""
+"``data_file`` は、ファイルに関連付けられていないソースオブジェクトにすることもできます。たとえば、 "
+"``ParametricSurface`` や ``PointLoad`` は、対応するデータソースをMayaviにロードします。 ``--data``"
+" からも入手できます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:468
 msgid ""
@@ -843,6 +886,8 @@ msgid ""
 "``module-name`` is loaded in the current ``ModuleManager``. The module name "
 "must be a valid one if not you will get an error message."
 msgstr ""
+"モジュールは、データを実際に視覚化するオブジェクトです。与えられた ``module-name`` は現在の ``ModuleManager`` "
+"にロードされる。モジュール名が有効でない場合、エラーメッセージが表示されます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:473
 msgid ""
@@ -851,6 +896,9 @@ msgid ""
 "modules provided with ``mayavi2`` do not need the full path specification.  "
 "For example::"
 msgstr ""
+"もしモジュールが ``package.sub.module.SomeModule`` と入力すると、モジュール( ``SomeModule`` )が "
+"``package.sub.module`` からインポートされます。 ``mayavi2`` "
+"で提供される標準モジュールには、フルパスの指定は必要ありません。次に例を示します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:481
 msgid ""
@@ -858,6 +906,8 @@ msgid ""
 "``user_modules.AModule`` is some user defined module. Also available through"
 " ``--module``."
 msgstr ""
+"この例では、 ``Outline`` は標準モジュールで、  ``user_modules.AModule`` はユーザー定義モジュールです。 "
+"``--module`` からも入手できます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:486
 msgid ""
@@ -866,6 +916,8 @@ msgid ""
 "source/filter object.  The filter name must be a valid one if not you will "
 "get an error message."
 msgstr ""
+"フィルタは、何らかの方法でデータをフィルタリングするオブジェクトです。指定された ``filter-name`` "
+"は、現在のsource/filterオブジェクトに対してロードされます。フィルタ名が有効でない場合は、エラーメッセージが表示されます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:491
 msgid ""
@@ -874,6 +926,9 @@ msgid ""
 "modules provided with ``mayavi2`` do not need the full path specification.  "
 "For example::"
 msgstr ""
+"もしフィルタが ``package.sub.filter.SomeFilter`` と入力すると、フィルタ( ``SomeFilter`` )は "
+"``package.sub.filter`` からインポートされます。 ``mayavi2`` "
+"で提供される標準モジュールには、フルパスの指定は必要ありません。次に例を示します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:499
 msgid ""
@@ -881,18 +936,22 @@ msgid ""
 "``user_filters.AFilter`` is some user defined filter. Also available through"
 " ``--filter``."
 msgstr ""
+"この例では、 ``ExtractVectorNorm`` が標準フィルタで、 ``user_filters.AFilter`` "
+"がユーザ定義のフィルタです。 ``--filter`` からも入手できます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:504
 msgid ""
 "Starts up a new module manager on the Mayavi pipeline. Also available "
 "through ``--module-mgr``."
-msgstr ""
+msgstr "Mayaviパイプラインで新しいモジュールマネージャを起動します。 ``--module-mgr`` からも可能です。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:508
 msgid ""
 "Creates a new window/scene. Any options passed after this will apply to this"
 " newly created scene.  Also available through ``--new-window``."
 msgstr ""
+"新しいウィンドウ/シーンを作成します。この後に渡されるオプションは、新しく作成されたシーンに適用されます。 ``--new-window`` "
+"からも利用できます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:513
 msgid ""
@@ -902,6 +961,8 @@ msgid ""
 " up.  Mayavi scripts (run via the ``-x`` argument) should typically work "
 "fine in this mode.  Also available through, ``--off-screen``."
 msgstr ""
+"グラフィカルユーザインタフェースを使用せずに、Mayaviをオフスクリーンモードで実行します。これは、邪魔なユーザインタフェースがポップアップ表示されることなく、バックグラウンドでイメージをオフスクリーン(アニメの台詞)でレンダリングする必要があるスクリプトに最も便利です。Mayaviスクリプト("
+" ``-x`` 引数で実行する)は通常、このモードで正しく動作します。 ``--off-screen`` からも入手できる。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:521
 msgid ""
@@ -909,6 +970,8 @@ msgid ""
 "name 'mayavi' is Mayavi's script instance -- just like in the embedded "
 "Python interpreter.  Also available through ``--exec``."
 msgstr ""
+"これは、ネームスペース内の指定されたスクリプトを実行します。ここでは、組み込みPythonインタプリタの場合と同様に、 'mayavi' "
+"という名前がMayaviのスクリプトインスタンスであることを保証します。 ``--exec`` からも入手できます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:527
 msgid ""
@@ -917,6 +980,7 @@ msgid ""
 "are passed along to the test runner.  So this may be used to run other tests"
 " as well.  For example::"
 msgstr ""
+"Mayaviテストスイートを実行し、終了します。このように実行すると、TVTKとMayavi2の両方のユニットテストが実行されます。追加の引数が渡されると、テストランナーに渡されます。したがって、これは他のテストを実行するためにも使用できます。次に例を示します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:534
 msgid ""
@@ -924,12 +988,14 @@ msgid ""
 "You can also specify a directory with test files to run with this, for "
 "example::"
 msgstr ""
+"これは ``apptools.persistence`` "
+"パッケージ内部のテストだけを実行します。次のように、テストファイルを含むディレクトリを指定して実行することもできます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:540
 msgid ""
 "will run the integration tests from the Mayavi sources.  Also available as "
 "``--test``."
-msgstr ""
+msgstr "Mayaviソースから統合テストを実行します。 ``--test`` としても利用できます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:544
 msgid ""
@@ -937,12 +1003,14 @@ msgid ""
 "let's say the previous object was a module.  If you want to set the color of"
 " that object and save the scene, you may do::"
 msgstr ""
+"最後に作成したオブジェクトに対してpython-"
+"expressionを実行します。たとえば、前のオブジェクトがモジュールであったとします。オブジェクトのカラーを設定してシーンを保存するには、次のようにします。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:551
 msgid ""
 "You should use quotes for the expression.  This is also available through "
 "``--set``."
-msgstr ""
+msgstr "式には引用符を使用してください。これは ``--set`` でも利用できます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:555
 msgid ""
@@ -950,6 +1018,8 @@ msgid ""
 "the script does something nasty!  Similarly, ``-s`` or ``--set`` uses "
 "`exec`, which can also be dangerous if abused."
 msgstr ""
+"``-x`` や ``--exec`` は `execfile` を使うので、スクリプトが何かひどいことをすると危険です。同様に ``-s`` や "
+"``--set`` は `exec` を使いますが、これも悪用されると危険です。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:559
 msgid ""
@@ -957,10 +1027,12 @@ msgid ""
 " sequentially** in the same order they are given.  This allows users to do "
 "interesting things."
 msgstr ""
+"Mayaviの **コマンドライン引数は、指定された順序で** "
+"順番に処理されることに注意してください。これにより、ユーザーは興味深いことができるようになります。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:563
 msgid "Here are a few examples of the command line arguments::"
-msgstr ""
+msgstr "次に、コマンドライン引数の例をいくつか示します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:575
 msgid ""
@@ -968,3 +1040,5 @@ msgid ""
 "found in the ``examples/data`` directory in the source.  They may also be "
 "installed on your computer depending on your particular platform."
 msgstr ""
+"上記の例では、  ``heart.vtk`` と ``fire_ug.vtu`` です。VTKファイルは、ソースの ``examples/data`` "
+"ディレクトリにあります。プラットフォームによっては、コンピュータにインストールされることもあります。"
