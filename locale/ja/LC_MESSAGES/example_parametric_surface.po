@@ -89,6 +89,8 @@ msgid ""
 "To navigate the scene look at the section on :ref:`interaction-with-the-"
 "scene` section for more details.  Experiment with these."
 msgstr ""
+"シーンをナビゲートするには、 :ref:`interaction-with-the-scene` "
+"セクションの詳細を参照してください。これらを試してみてください。"
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:45
 msgid ""
@@ -97,6 +99,9 @@ msgid ""
 "this surface by clicking on the `Surface` node on the left and switching on "
 "the `Enable contours` check-box."
 msgstr ""
+"実際のサーフェイスを表示するには、  `Visualize->Modules->Surface` を選択して、  `Surface` "
+"モジュールを作成します。左側の `Surface` ノードをクリックして `Enable contours` "
+"チェックボックスをオンにすると、このサーフェス上にスカラーデータのコンターを表示できます。"
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:50
 msgid ""
@@ -108,6 +113,9 @@ msgid ""
 "  You can change the nature of the color-mapping by choosing among different"
 " lookup tables on the object editor."
 msgstr ""
+"カラー凡例(スカラー値をカラーにマップするのに使用される)を表示するには、ツリービューのモジュールノードをクリックします。次に、 'Scalar "
+"LUT' タブで、 `Show scalar bar` "
+"チェックボックスをオンにします。これにより、TVTKシーンの凡例が表示されます。凡例は、クリックしてドラッグすることで、シーン上で移動できます。エッジをクリックアンドドラッグしてサイズを変更することもできます。オブジェクト・エディタで異なる参照表を選択して、カラー・マッピングの性質を変更できます。"
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:59
 msgid ""
@@ -117,6 +125,7 @@ msgid ""
 "in the future.  However making a mistake should not in general be "
 "disastrous, so go ahead and experiment."
 msgstr ""
+"モジュールはいくつでも追加できます。すべてのモジュールがすべてのデータに適しているわけではありません。選択した特定のデータで無効な場合、Mayaviは(または無効にする)メニュー項目とオプションをまだグレー表示しません。これは将来導入される予定です。しかし、ミスをしても一般的に悲惨なことにはならないので、試してみてください。"
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:66
 msgid ""
@@ -127,6 +136,7 @@ msgid ""
 "and view anything in those. You can cut/paste/copy sources and modules "
 "between any nodes on the tree view using the right click options."
 msgstr ""
+"データソースはいくつでも追加できます。シーンノードを選択して別のパラメトリックサーフェスソースをロードすると、同じシーンに2つの異なるパラメトリックサーフェスを表示できます。これが理にかなっているかどうかはユーザー次第だ。また、必要な数のシーンを作成し、その中のすべてを表示することもできます。ツリー・ビューの任意のノード間で、右クリック・オプションを使用してソースおよびモジュールを切り取り/貼り付け/コピーできます。"
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:74
 msgid ""
@@ -134,18 +144,23 @@ msgid ""
 "select the Delete option.  You may also want to experiment with the other "
 "options."
 msgstr ""
+"たとえば、 `Outline` モジュールを削除するには、  `Outline` "
+"ノードを右クリックし、Deleteオプションを選択します。他のオプションを試してみることもできます。"
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:78
 msgid ""
 "You can save the rendered visualization to a variety of file formats using "
 "the `File->Save Scene As` menu."
 msgstr ""
+"`File->Save Scene As` メニューを使用して、レンダリングしたビジュアライゼーションをさまざまなファイル形式で保存できます。"
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:81
 msgid ""
 "The visualization may itself be saved out to a file via the `File->Save "
 "Visualization` menu and reloaded using the `Load visualization` menu."
 msgstr ""
+"ビジュアリゼーションは、  `File->Save Visualization` メニューを使用してファイルに保存し、  `Load "
+"visualization` メニューを使用して再ロードできます。"
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:85
 msgid ""
@@ -154,3 +169,6 @@ msgid ""
 "actors on screen using the actor mode of the scene via the 'a' key.  For "
 "more details on this see the section on :ref:`interaction-with-the-scene`."
 msgstr ""
+"下の図は、パラメトリックソースを使用して視覚化した例です。異なるサーフェスの配置は、 'a' "
+"キーを介してシーンのアクターモードを使用して画面上でアクターを移動することによって影響を受けたことに注意してください。詳細については、 :ref"
+":`interaction-with-the-scene` の項を参照してください。"
