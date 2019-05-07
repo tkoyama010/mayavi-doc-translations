@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-27 12:25+0900\n"
+"POT-Creation-Date: 2019-05-02 14:30+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -645,136 +645,8 @@ msgstr ""
 msgid "TCP server: the `serve_tcp` function"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_tcp:1
-msgid ""
-"Serve the `M2TCP` protocol using the given `engine` on the specified `port` "
-"logging messages to given `logto` which is a file-like object.  This "
-"function will block till the service is closed.  There is no need to call "
-"`mlab.show()` after or before this.  The Mayavi UI will be fully responsive."
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_tcp:7
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_udp:7
-msgid "**Parameters**"
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_tcp:0
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_udp:0
-msgid "engine"
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_tcp:9
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_udp:9
-msgid ""
-"Mayavi engine to use. If this is `None`, `mlab.get_engine()` is used to find"
-" an appropriate engine."
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_tcp:0
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_udp:0
-msgid "port"
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_tcp:12
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_udp:12
-msgid "int: port to serve on."
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_tcp:0
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_udp:0
-msgid "logto"
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_tcp:14
-msgid ""
-"file: File like object to log messages to.  If this is `None` it disables "
-"logging."
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_tcp:0
-msgid "max_connect"
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_tcp:17
-msgid "int: Maximum number of simultaneous connections to support."
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_tcp:20
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_udp:17
-msgid "**Examples**"
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_tcp:22
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_udp:19
-msgid "Here is a very simple example::"
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_tcp:29
-msgid ""
-"The TCP server will listen on port 8007 by default in the above. Any data "
-"sent to the server is simply exec'd, meaning you can do pretty much anything"
-" you want.  The `engine`, `scene`, `camera` and `mlab` are all available and"
-" can be used.  For example after running the above you can do this::"
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_tcp:44
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_udp:33
-msgid "**Warning**"
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_tcp:46
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_udp:35
-msgid "Data sent is exec'd so this is a security hole."
-msgstr ""
-
 #: ../../mayavi/docs/source/mayavi/tips.rst:531
 msgid "UDP server: the `serve_udp` function"
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_udp:1
-msgid ""
-"Serve the `M2UDP` protocol using the given `engine` on the specified `port` "
-"logging messages to given `logto` which is a file-like object.  This "
-"function will block till the service is closed.  There is no need to call "
-"`mlab.show()` after or before this.  The Mayavi UI will be fully responsive."
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_udp:14
-msgid ""
-"file : File like object to log messages to.  If this is `None` it disables "
-"logging."
-msgstr ""
-
-#: ../../mayavi/mayavi/tools/server.pydocstring of
-#: mayavi.tools.server.serve_udp:26
-msgid "Test it like so::"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:545
