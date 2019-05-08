@@ -36,6 +36,11 @@ msgid ""
 "University.  A VRML file (``room_vis.wrl``) is also provided to show the "
 "context of the room in which the fire is taking place."
 msgstr ""
+"``heart.vtk`` や ``fire_ug.vtu`` のように。データセットの例は ``examples/data`` "
+"ディレクトリにあります。このデータセットは、VTK "
+"XMLファイルに保存された非構造化グリッドです。片隅に火がある部屋を表しています。この火災によって生成された流体流のシミュレーションが実行され、特定の時点での結果データがファイルに保存されます。データは当時クランフィールド大学にいたDr."
+" Philip Rubini によって提供されました。火災が発生している部屋のコンテキストを示すために、VRMLファイル "
+"(``room_vis.wrl``) も用意されています。"
 
 #: ../../mayavi/docs/source/mayavi/example_fire.rst:15
 msgid ""
@@ -47,6 +52,9 @@ msgid ""
 " will see a drop list of all the scalars, vectors etc. in this data file.  "
 "Select any that you wish to view."
 msgstr ""
+"mayavi2を起動した状態で、  `File->Load data->Open file` "
+"を選択してデータをロードします。ここでも、ツリービューの左側にノードが表示されますが、TVTKシーンには何も表示されません。このデータセットには、同じデータファイルに異なるスカラーとベクトルが含まれています。`VTK"
+" XMLファイル... により、このデータ・ファイル内のすべてのスカラーやベクトルなどのドロップ・リストが表示されます。表示するものを選択します。"
 
 #: ../../mayavi/docs/source/mayavi/example_fire.rst:24
 msgid ""
