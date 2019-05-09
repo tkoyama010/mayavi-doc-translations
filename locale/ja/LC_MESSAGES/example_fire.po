@@ -62,6 +62,8 @@ msgid ""
 "module.  View an iso-surface of the data by creating an `IsoSurface` module."
 "  Also experiment with the `ScalarCutPlane` module."
 msgstr ""
+"`Outline`  モジュールを使用して、前述のようにデータのアウトラインを作成します。 `IsoSurface` "
+"モジュールを作成して、データの等値面を表示します。 `ScalarCutPlane` モジュールも試してみてください。"
 
 #: ../../mayavi/docs/source/mayavi/example_fire.rst:29
 msgid ""
@@ -70,6 +72,9 @@ msgid ""
 "node and enabling the `Show scalar bar`. Experiment with the different color"
 " maps provided by default."
 msgstr ""
+"カラーマッピングを表すスカラーバー(スカラー値をカラーにマップするルックアップ・テーブルを使用)を表示するには、 `Colors and "
+"legends` ノードをクリックして `Show scalar bar` "
+"を有効にします。デフォルトで提供されているさまざまなカラーマップを試してみてください。"
 
 #: ../../mayavi/docs/source/mayavi/example_fire.rst:34
 msgid ""
@@ -77,6 +82,8 @@ msgid ""
 "see how the data has changed.  Your legend should automatically update when "
 "the scalar value is changed."
 msgstr ""
+"ここで `VTK XML file ...` "
+"と入力し、別のスカラー値を選択して、データがどのように変更されたかを確認します。スカラー値が変更されると、凡例が自動的に更新されます。"
 
 #: ../../mayavi/docs/source/mayavi/example_fire.rst:38
 msgid ""
@@ -86,6 +93,10 @@ msgid ""
 "`ExtractVectorNorm` filter. This is created by choosing the "
 "`Visualize->Filters->Extract Vector Norm` menu."
 msgstr ""
+"このデータにはベクトルも含まれます。スカラーデータには `u` 、 `v` 、 `w` "
+"がありますが、速度の大きさはありません。速度の大きさの等等高線を表示できるようにしたいとします。これを行うには、  "
+"`ExtractVectorNorm` フィルタを使用します。これを作成するには、 `Visualize->Filters->Extract "
+"Vector Norm` メニューを選択します。"
 
 #: ../../mayavi/docs/source/mayavi/example_fire.rst:45
 msgid ""
@@ -97,6 +108,11 @@ msgid ""
 "generated is for the velocity magnitude and not for the scalars chosen in "
 "the data."
 msgstr ""
+"ここで `ScalarCutPlane` を作成すると、 `ExtractVectorNorm` ノードの下に新しい `Colors and "
+"legends` "
+"ノードが表示されます。このスカラー切断面には、フィルタによって作成された速度の大きさの色が表示されます。アイソサーフェイスモジュールを他の "
+"`Colors and legends` ノードからドラッグし、この `Colors and legends` "
+"ノードにドロップすると、生成されるIsoSurfaceは、データで選択されたスカラーに対するものではなく、速度の大きさに対するものになります。"
 
 #: ../../mayavi/docs/source/mayavi/example_fire.rst:53
 msgid ""
@@ -104,6 +120,8 @@ msgid ""
 " from `source -> filter -> modules`. Essentially the data flows from the "
 "parent node down to the children nodes below it."
 msgstr ""
+"左側のビューは、 `source -> filter -> modules` "
+"からのデータフローのパイプラインを表していることに注意してください。基本的に、データは親ノードからその下の子ノードに流れます。"
 
 #: ../../mayavi/docs/source/mayavi/example_fire.rst:58
 msgid ""
@@ -115,6 +133,9 @@ msgid ""
 "after that will in general create new modules/filters below the current "
 "object."
 msgstr ""
+"ここで、パイプラインの別の \"branch\" にあるものを表示する場合、温度データの等値面を表示するには、最初にモジュールまたはソースオブジェクト("
+" `VTK XML File ...` ノード)自体をクリックしてから、メニュー項目を選択する必要があります。ツリー上の項目を選択すると、その項目が "
+"*現在のオブジェクト* になり、その後のメニュー選択によって、現在のオブジェクトの下に新しいモジュール/フィルタが作成されます。"
 
 #: ../../mayavi/docs/source/mayavi/example_fire.rst:67
 msgid ""
@@ -127,6 +148,11 @@ msgid ""
 "have selected. Thus, you can create pretty complicated visualization "
 "pipelines using this approach."
 msgstr ""
+"\"filtered data\" をフィルタできます。 `ExtractVectorNorm` "
+"ノードを選択してアクティブオブジェクトにします。ここで、 `Visualize->Filters->Threshold` "
+"を選択してしきい値フィルタを作成します。オブジェクトエディタで、しきい値の上限と下限のしきい値を0.5と3.0のように設定します。この時点で "
+"`VectorCutPlane` "
+"モジュールを作成して切断面を移動すると、矢印は表示されますが、選択したしきい値の間にある矢印だけが表示されます。したがって、このアプローチを使用して非常に複雑な視覚化パイプラインを作成できます。"
 
 #: ../../mayavi/docs/source/mayavi/example_fire.rst:78
 msgid ""
@@ -140,6 +166,9 @@ msgid ""
 "streamlines.  Sphere, line and plane sources may be used here to initialize "
 "the streamline seeds."
 msgstr ""
+"いくつかのベクターモジュールがある。 `VectorCutPlane` 、 `Vectors` 、 `WarpVectorCutPlane` 、 "
+"`Streamlines` "
+"です。ストリームラインを表示すると、データセットにベクトルデータのストリームラインが生成されます。元のデータセットのストリームラインを表示するには、元のモジュールをクリックし、メニュー項目の(またはソース)を選択します。ストリームラインを使用すると、3Dウィジェットを使用して画面上で異なるタイプのシードを移動できます。これらの位置から発生するシードポイントを使用して、流線をトレースします。ここでは、流線シードを初期化するために球、線、および平面ソースを使用できます。"
 
 #: ../../mayavi/docs/source/mayavi/example_fire.rst:89
 msgid ""
@@ -147,6 +176,8 @@ msgid ""
 "file by the `File->Open->VRML2 file` menu item and selecting the "
 "``room_vis.wrl`` file included with the data."
 msgstr ""
+"火災が発生している部屋を確認するには、VRMLファイルを開いて、  `File->Open->VRML2 file` メニュー項目を選択し、データのある"
+" ``room_vis.wrl`` を選択します。"
 
 #: ../../mayavi/docs/source/mayavi/example_fire.rst:93
 msgid ""
@@ -157,6 +188,9 @@ msgid ""
 "is still experimental.  Future versions will improve this feature. However, "
 "it does work and can be used for the time being."
 msgstr ""
+"複雑なビジュアル化パイプラインを設定し、後で実験するために保存したい場合は、 `File->Save Visualization` "
+"メニューでビジュアル化全体を保存できます。保存したファイルは、後から `File->Load Visualization` "
+"メニュー項目を使ってロードできます。このオプションは100%堅牢ではなく、まだ実験段階です。今後のバージョンでは、この機能が改善される予定です。しかし、この機能はしばらく使用することができます。"
 
 #: ../../mayavi/docs/source/mayavi/example_fire.rst:101
 msgid ""
@@ -166,10 +200,12 @@ msgid ""
 "``examples/streamline.py``.  This file may be studied. It can be run either "
 "likes so::"
 msgstr ""
+"ここでも、この場合のビジュアリゼーションは、ユーザインタフェースを使用して作成されています。これは、Pythonスクリプトを使用して完全にスクリプト化できます。上記のモジュールのいくつかを示す簡単なスクリプトが"
+" ``examples/streamline.py`` にあります。このファイルは調べられるかもしれません。次のように実行できます。"
 
 #: ../../mayavi/docs/source/mayavi/example_fire.rst:110
 msgid "or so::"
-msgstr ""
+msgstr "次のようになります。"
 
 #: ../../mayavi/docs/source/mayavi/example_fire.rst:114
 msgid ""
@@ -177,3 +213,4 @@ msgid ""
 "visualize data.  An image of a resulting visualization generated from this "
 "script is shown below."
 msgstr ""
+"例からわかるように、mayaviをスクリプト化してデータを視覚化するのは非常に簡単です。このスクリプトから生成されたビジュアライゼーションのイメージを次に示します。"
