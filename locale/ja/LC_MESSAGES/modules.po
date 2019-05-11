@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-27 12:25+0900\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,65 +23,65 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:4
 msgid "Modules"
-msgstr ""
+msgstr "モジュール"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:6
 msgid ""
 "Modules are the objects that perform the visualization itself: they use data"
 " to create the visual elements on the scene."
-msgstr ""
+msgstr "Modulesは、ビジュアライゼーション自体を実行するオブジェクトで、データを使用してシーンにビジュアル要素を作成します。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:9
 msgid "Here is a list of the Mayavi modules along with a brief description."
-msgstr ""
+msgstr "Mayaviモジュールのリストと簡単な説明を次に示します。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "Axes"
-msgstr ""
+msgstr "Axes"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:12
 msgid "Draws simple axes."
-msgstr ""
+msgstr "単純な軸を描画します。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "ContourGridPlane"
-msgstr ""
+msgstr "ContourGridPlane"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:15
 msgid ""
 "A contour grid plane module. This module lets one take a slice of input grid"
 " data and view contours of the data."
-msgstr ""
+msgstr "輪郭グリッド平面モジュール。このモジュールは、入力グリッドデータのスライスを取り、データの輪郭を見ることができます。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "CustomGridPlane"
-msgstr ""
+msgstr "CustomGridPlane"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:19
 msgid "A custom grid plane with a lot more flexibility than GridPlane module."
-msgstr ""
+msgstr "GridPlaneモジュールよりも柔軟性に優れたカスタムグリッドプレーン。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "Glyph"
-msgstr ""
+msgstr "Glyph"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:23
 msgid ""
 "Displays different types of glyphs oriented and colored as per scalar or "
 "vector data at the input points."
-msgstr ""
+msgstr "入力ポイントのスカラーまたはベクトルデータごとに、向きと色が異なるタイプのglyphsを表示します。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "GridPlane"
-msgstr ""
+msgstr "GridPlane"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:27
 msgid "A simple grid plane module."
-msgstr ""
+msgstr "単純なグリッド平面モジュール。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "HyperStreamline"
-msgstr ""
+msgstr "HyperStreamline"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:30
 msgid ""
@@ -88,84 +92,86 @@ msgid ""
 "the cross  section being elliptical. Hyperstreamlines are used to visualize "
 "tensor fields."
 msgstr ""
+"テンソル場で積分してhyperstreamlineを生成するモジュール。積分は最大固有ベクトルに沿っており、hyperstreamlineの断面積は他の2つの固有ベクトルによって定義されます。したがって、超流線の形状は"
+" \"チューブ状\" で、断面は楕円形です。hyperstreamlineを用いてテンソル場を可視化しました。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "ImageActor"
-msgstr ""
+msgstr "ImageActor"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:39
 msgid "A simple module to view image data efficiently."
-msgstr ""
+msgstr "画像データを効率よく見るための簡単なモジュールです。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "ImagePlaneWidget"
-msgstr ""
+msgstr "ImagePlaneWidget"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:42
 msgid "A simple module to view image data along a cut."
-msgstr ""
+msgstr "カットに沿ってイメージデータを表示するための簡単なモジュール。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "IsoSurface"
-msgstr ""
+msgstr "IsoSurface"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:45
 msgid ""
 "A module that allows the user to make contours of input volumetric data."
-msgstr ""
+msgstr "ユーザーが入力ボリュームデータの輪郭を作成できるモジュール。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "Labels"
-msgstr ""
+msgstr "Labels"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:49
 msgid ""
 "Allows a user to label the current dataset or the current actor of the "
 "active module."
-msgstr ""
+msgstr "現在のデータセットまたはアクティブモジュールの現在のアクターにラベルを付けることができます。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "OrientationAxes"
-msgstr ""
+msgstr "OrientationAxes"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:53
 msgid ""
 "Creates small axes on the side that indicates the position of the co-"
 "ordinate axes and thereby marks the orientation of the scene. Requires "
 "VTK-4.5 and above."
-msgstr ""
+msgstr "座標軸の位置を示す側に小さな軸を作成し、シーンの方向をマークします。VTK-4.5以降が必要です。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "Outline"
-msgstr ""
+msgstr "Outline"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:58
 msgid "A module that draws an outline for the given data."
-msgstr ""
+msgstr "指定されたデータのアウトラインを描画するモジュール。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "ScalarCutPlane"
-msgstr ""
+msgstr "ScalarCutPlane"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:61
 msgid ""
 "Takes a cut plane of any input data set along an implicit plane and plots "
 "the data with optional contouring and scalar warping."
-msgstr ""
+msgstr "暗黙的な平面に沿って任意の入力データセットの切断面を取得し、オプションのコンタリングおよびスカラワープを使用してデータをプロットします。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "SliceUnstructuredGrid"
-msgstr ""
+msgstr "SliceUnstructuredGrid"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:66
 msgid ""
 "This module takes a slice of the unstructured grid data and shows the cells "
 "that intersect or touch the slice."
-msgstr ""
+msgstr "このモジュールは、非構造化グリッド・データのスライスを取得し、スライスと交差または接触するセルを表示します。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "Streamline"
-msgstr ""
+msgstr "Streamline"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:70
 msgid ""
@@ -174,44 +180,46 @@ msgid ""
 " allows the user to draw ribbons or tubes and further supports different "
 "types of interactive modes of calculating the streamlines."
 msgstr ""
+"指定したベクトルデータの流線を描画できます。これにより、さまざまなタイプのシードオブジェクト(line、sphere、plane、point "
+"seeds)がサポートされます。また、リボンやチューブを描画したり、流線を計算するためのさまざまなタイプのインタラクティブモードをサポートすることもできます。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "StructuredGridOutline"
-msgstr ""
+msgstr "StructuredGridOutline"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:78
 msgid "Draws a grid-conforming outline for structured grids."
-msgstr ""
+msgstr "構造化グリッドのグリッドに準拠したアウトラインを描画します。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "Surface"
-msgstr ""
+msgstr "Surface"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:81
 msgid "Draws a surface for any input dataset with optional contouring."
-msgstr ""
+msgstr "オプションのコンタリングを使用して、任意の入力データセットのサーフェスを描画します。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "TensorGlyph"
-msgstr ""
+msgstr "TensorGlyph"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:84
 msgid ""
 "Displays tensor glyphs oriented and colored as per scalar or vector data at "
 "the input points."
-msgstr ""
+msgstr "入力ポイントのスカラーまたはベクトルデータごとに、向きと色が設定されたテンソル記号を表示します。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "Text"
-msgstr ""
+msgstr "Text"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:88
 msgid "This module allows the user to place text on the screen."
-msgstr ""
+msgstr "このモジュールを使用すると、画面にテキストを配置できます。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "VectorCutPlane"
-msgstr ""
+msgstr "VectorCutPlane"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:91
 msgid ""
@@ -219,10 +227,11 @@ msgid ""
 "places glyphs according to the vector field data. The glyphs may be colored "
 "using either the vector magnitude or the scalar attributes."
 msgstr ""
+"暗黙的な切断面に沿って入力データの任意のスライスを取得し、ベクトルフィールドデータに従って記号を配置します。ベクトルの大きさまたはスカラーアトリビュートを使用して、記号に色を付けることができます。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "Vectors"
-msgstr ""
+msgstr "Vectors"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:97
 msgid ""
@@ -230,20 +239,21 @@ msgid ""
 "at the input points. This is merely a convenience module that is entirely "
 "based on the Glyph module."
 msgstr ""
+"ベクトルデータごとに、入力ポイントに異なるタイプのグリフを表示します。これは、Glyphモジュールに完全に基づいた単なる便利なモジュールです。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "Volume"
-msgstr ""
+msgstr "Volume"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:103
 msgid ""
 "The Volume module visualizes scalar fields using volumetric visualization "
 "techniques."
-msgstr ""
+msgstr "Volumeモジュールは、ボリューム可視化テクニックを使用してスカラーフィールドを可視化します。"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:0
 msgid "WarpVectorCutPlane"
-msgstr ""
+msgstr "WarpVectorCutPlane"
 
 #: ../../mayavi/docs/source/mayavi/modules.rst:107
 msgid ""
@@ -251,3 +261,4 @@ msgid ""
 "warps it according to the vector field data. The scalars are displayed on "
 "the warped surface as colors."
 msgstr ""
+"暗黙的な切断面を使用して入力データの任意のスライスを取得し、ベクトルフィールドデータに従ってワープします。スカラーは、歪んだサーフェス上にカラーで表示されます。"
