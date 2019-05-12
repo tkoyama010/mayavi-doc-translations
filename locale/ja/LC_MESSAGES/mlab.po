@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-27 12:25+0900\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +23,11 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:4
 msgid "``mlab``: Python scripting for 3D plotting"
-msgstr ""
+msgstr "``mlab``: 3Dプロット用のPythonスクリプト"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rstNone
 msgid "Section summary"
-msgstr ""
+msgstr "セクションの概要"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:8
 msgid ""
@@ -33,6 +37,9 @@ msgid ""
 "you are interested in a list of all the functions exposed in mlab, see the "
 ":ref:`mlab-reference`."
 msgstr ""
+"このセクションでは、スクリプトやインタラクティブセッションでMayaviを単純なプロットとして使用するための `mlab` "
+"APIについて説明します。これは、PythonでMatlabやIDLのような3Dプロットを行うことに関心のある人にとっての主要なエントリー・ポイントです。mlabで公開されているすべての関数のリストに興味があるなら、"
+" :ref:`mlab-reference` を見てください。"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:16
 msgid ""
@@ -42,6 +49,8 @@ msgid ""
 "visualization using Mayavi2. This allows users to perform quick 3D "
 "visualization while being able to use Mayavi's powerful features."
 msgstr ""
+":mod:`mayavi.mlab` と呼ばれるmlabモジュールを使用すると、 matplotlib_ ``pylab`` "
+"インタフェースで実行されるように、1行でスクリプトやインタラクティブプロンプトから簡単にデータを視覚化することができます。ただし、Mayavi2を使用した3D視覚化に重点が置かれています。これにより、Mayaviの強力な機能を使用しながらすばやく3D視覚化を実行できます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:23
 msgid ""
@@ -49,22 +58,25 @@ msgid ""
 "and does not present a fully object-oriented API. It is can be used "
 "interactively with IPython_."
 msgstr ""
+"Mayaviのmlabは、スクリプトに適した方法で使用するように設計されており、完全にオブジェクト指向のAPIを提供しているわけではありません。"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:29
 msgid ""
 "When using IPython with mlab, as in the following examples, IPython must be "
 "invoked with the ``--gui=qt`` command line option like this::"
 msgstr ""
+"次の例のように、mlabでIPythonを使用する場合、IPythonは次のように ``--gui=qt`` "
+"コマンドラインオプションで起動する必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:34
 msgid ""
 "On recent versions of IPython, this can be turned on from within IPython "
 "itself by::"
-msgstr ""
+msgstr "IPythonの最近のバージョンでは、次のようにしてIPython自体からオンにできます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:39
 msgid "If the following exception is raised::"
-msgstr ""
+msgstr "次の例外が発生した場合:"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:43
 msgid ""
@@ -72,18 +84,20 @@ msgid ""
 "solution is to run ``QT_API=pyqt ETS_TOOLKIT=qt4 ipython``. More details can"
 " be found at the `ipython documentation page`_."
 msgstr ""
+"これは、PyQtとPySideの間で互換性のない設定が行われた結果です。解決策は ``QT_API=pyqt ETS_TOOLKIT=qt4 "
+"ipython`` を実行することです。詳細は `ipython documentation page`_ を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:47
 msgid ""
 "If for some reason Mayavi fails with the Qt backend, you can also try using "
 "the wxPython backend by doing::"
-msgstr ""
+msgstr "何らかの理由でMayaviがQtバックエンドで失敗した場合は、次のようにしてwxPythonバックエンドを使用してみることもできます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:53
 msgid ""
 "For more details on using mlab and running scripts, read the section :ref"
 ":`running-mlab-scripts`"
-msgstr ""
+msgstr "mlabの使用とスクリプトの実行の詳細については、以下の章 :ref:`running-mlab-scripts` を読んでください。"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:62
 msgid ""
@@ -96,32 +110,37 @@ msgid ""
 " pipeline are built in scripts, and we give some detailed examples of "
 "applying these tools to visualizing volumetric scalar and vector data."
 msgstr ""
+"このセクションでは、最初に `numpy` 配列の表現として3Dオブジェクトを作成する簡単なプロット関数を紹介します。次に、 (1) "
+"色やグリフサイズなどのプロパティを変更したり、データを表すために使用したりする方法について説明します。;(2) `mlab` "
+"で作成したビジュアル化をダイアログでインタラクティブに変更する方法、 (3) "
+"スクリプトとアニメーションを実行する方法。最後に、完全な可視化パイプラインがスクリプトに組み込まれた `mlab` "
+"のより高度な使用法を公開し、これらのツールをボリュームスカラーとベクトルデータの可視化に適用する詳細な例を提供します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:74
 msgid "Section contents"
-msgstr ""
+msgstr "セクションの内容"
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:4
 msgid "A demo"
-msgstr ""
+msgstr "デモ"
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:6
 msgid ""
 "To get you started, here is a pretty example showing a spherical harmonic as"
 " a surface::"
-msgstr ""
+msgstr "まず、球面調和関数をサーフェスとして表示する例を示します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:24
 msgid ""
 "Bulk of the code in the above example is to create the data.  One line "
 "suffices to visualize it.  This produces the following visualization:"
-msgstr ""
+msgstr "上記の例のコードの大部分は、データを作成するためのものです。それを可視化するには1行で十分です。これにより、次の表示が生成されます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:30
 msgid ""
 "The visualization is created by the single function :func:`mesh` in the "
 "above."
-msgstr ""
+msgstr "視覚化は、上記の :func:`mesh` という単一の関数によって作成されます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:32
 msgid ""
@@ -131,16 +150,20 @@ msgid ""
 "`mlab.test`.  You can also inspect the source in IPython via the handy "
 "`mlab.test_contour3d??`."
 msgstr ""
+"mlab( `test_contour3d`, `test_points3d`, `test_plot3d_anim` "
+"などを参照してください。)には、この種の例がいくつか用意されています。上記のデモは `mlab.test` "
+"として入手できます。IPythonでは、`mlabでタブを補完することで、これらを見つけることができます。また、便利な "
+"`mlab.test_contour3d??` を使ってIPythonのソースを調べることもできます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:4
 msgid "3D Plotting functions for numpy arrays"
-msgstr ""
+msgstr "numpy配列の3Dプロット関数"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:6
 msgid ""
 "Visualization can be created in `mlab` by a set of functions operating on "
 "numpy arrays."
-msgstr ""
+msgstr "numpy配列上で動作する関数のセットによって、 `mlab` 内に視覚化を作成することができます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:9
 msgid ""
@@ -153,6 +176,8 @@ msgid ""
 "visualization can also be modified by changing the attributes of this "
 "module."
 msgstr ""
+"mlabプロット関数は、データの  ``x``, ``y``,  ``z`` "
+"座標を記述するために、多数の配列を入力として受け取ります。データソースの作成、必要に応じたフィルタリング、ビジュアライゼーションモジュールの追加など、本格的なビジュアライゼーションを構築します。これらの関数の振る舞い、そしてその結果作成される視覚化は、pylabと同様に、キーワード引数によって微調整することができます。さらに、これらはすべて、作成されたビジュアル化モジュールを返すため、このモジュールの属性を変更することによってビジュアル化を変更することもできます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:20
 msgid ""
@@ -160,14 +185,16 @@ msgid ""
 "described in detail in the :ref:`mlab-reference`, at the end of the user "
 "guide, with figures and examples. Please follow the links."
 msgstr ""
+"このセクションでは、異なる関数のみをリストします。各関数の詳細については、ユーザガイドの最後にある :ref:`mlab-reference` "
+"を参照してください。リンクをたどってください。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:26
 msgid "0D and 1D data"
-msgstr ""
+msgstr "0D/1Dデータ"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:35
 msgid "|points3d|"
-msgstr ""
+msgstr "|points3d|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:35
 msgid ""
@@ -175,52 +202,56 @@ msgid ""
 "supplied data, described by ``x``, ``y``, ``z`` numpy arrays of the same "
 "shape."
 msgstr ""
+":func:`points3d` |hack| 与えられたデータの位置にグリフ(同点)をプロットします。グリフは ``x``, ``y``, ``z``"
+" で記述された同じ形のnumpy配列です。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:41
 msgid "|plot3d|"
-msgstr ""
+msgstr "|plot3d|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:41
 msgid ""
 ":func:`plot3d` |hack| Plots line between the supplied data, described by "
 "``x``, ``y``, ``z`` 1D numpy arrays of the same length."
 msgstr ""
+":func:`plot3d` |hack| 与えられたデータの間に線を引いて、 ``x``, ``y``, ``z`` と同じ長さの1D "
+"numpy配列で記述します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:55
 msgid "2D data"
-msgstr ""
+msgstr "2Dデータ"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:59
 msgid "|imshow|"
-msgstr ""
+msgstr "|imshow|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:59
 msgid ":func:`imshow` |hack| View a 2D array as an image."
-msgstr ""
+msgstr ":func:`imshow` |hack| 2D配列をイメージとして表示します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:63
 msgid "|surf|"
-msgstr ""
+msgstr "|surf|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:63
 msgid ""
 ":func:`surf` |hack| View a 2D array as a carpet plot, with the z axis "
 "representation through elevation the value of the array points."
-msgstr ""
+msgstr ":func:`surf` |hack| 2D配列をカーペットプロットとして表示し、配列ポイントの値をz軸で表します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:69
 msgid "|contour_surf|"
-msgstr ""
+msgstr "|contour_surf|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:69
 msgid ""
 ":func:`contour_surf` |hack| View a 2D array as line contours, elevated "
 "according to the value of the array points."
-msgstr ""
+msgstr ":func:`contour_surf` |hack| 2D配列を線の輪郭として表示し、配列の点の値に応じて高くします。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:74
 msgid "|mesh|"
-msgstr ""
+msgstr "|mesh|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:74
 msgid ""
@@ -230,10 +261,13 @@ msgid ""
 "coordinates with no privileged direction. More complex surfaces can be "
 "created."
 msgstr ""
+":func:`mesh` |hack| 3つの2D配列, ``x``, ``y``, ``z`` "
+"で表されるサーフェスをプロットし、データポイントの座標をグリッドとして与えます。 |hack|  :func:`surf`,  とは異なり、サーフェスは"
+" ``x``, ``y``, ``z`` 座標で定義され、特別な方向性はありません。より複雑なサーフェスを作成できます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:84
 msgid "|barchart|"
-msgstr ""
+msgstr "|barchart|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:84
 msgid ""
@@ -242,10 +276,12 @@ msgid ""
 "histograms. |hack| This function is very versatile and will accept 2D or 3D "
 "arrays, but also clouds of points, to position the bars."
 msgstr ""
+":func:`barchart` |hack| "
+"配列``s`,または明示的な座標配列``x',``y''と``z''を持つ点の集合を棒グラフとしてプロットします。|hack|この関数は非常に汎用性が高く、2Dまたは3D配列だけでなく、点群を使用してバーを配置することもできます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:94
 msgid "|triangular_mesh|"
-msgstr ""
+msgstr "|triangular_mesh|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:94
 msgid ""
@@ -253,10 +289,12 @@ msgid ""
 "``x``, ``y`` and ``z`` coordinates of its vertices, and the (n, 3) array of "
 "the indices of the triangles."
 msgstr ""
+":func:`triangular_mesh` |hack| 三角形メッシュをプロットします。このメッシュは、頂点の ``x``, ``y``, "
+"``z`` 座標、および三角形のインデックスの (n, 3) 配列で完全に指定されます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rstNone
 msgid "Vertical scale of  :func:`surf` and :func:`contour_surf`"
-msgstr ""
+msgstr ":func:`surf` と :func:`contour_surf` の鉛直スケール"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:105
 msgid ""
@@ -265,10 +303,13 @@ msgid ""
 "and y axis, but it can be auto-scaled to give a 2/3 aspect ratio. This "
 "behavior can be controlled by specifying the \"warp_scale='auto'\"."
 msgstr ""
+":func:`surf` および :func:`contour_surf` "
+"は、2Dデータの3D表現として使用できます。既定では、Z軸はX軸およびY軸と同じ単位であることが想定されていますが、2/3のアスペクト比になるように自動スケールすることもできます。この動作は、"
+" \"warp_scale='auto'\" を指定することで制御できます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rstNone
 msgid "From data points to surfaces."
-msgstr ""
+msgstr "データポイントからサーフェスへ。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:113
 msgid ""
@@ -284,24 +325,30 @@ msgid ""
 "matching, and interpolation, as shown in the "
 "(:ref:`example_surface_from_irregular_data`)."
 msgstr ""
+"データ点の位置を知るだけではサーフェスを定義することはできません。接続情報も必要です。 :func:`surf` および :func:`mesh` "
+"関数を使用すると、この接続情報は入力配列の形状から暗黙的に抽出されます。つまり、2D入力配列内の隣接するデータポイントが接続され、データはグリッド上にあります。"
+" :func:`triangular_mesh` "
+"関数を使用すると、接続性が明示的に指定されます。接続性が定期的でないことはよくありますが、事前にもわかりません。データ点はサーフェス上にあり、暗黙的に定義されたサーフェスをプロットします。("
+" :ref:`example_surface_from_irregular_data` "
+")に示されているように、`delaunay2d`フィルタは、必要な最近接マッチングと補間を行います。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:146
 msgid "3D data"
-msgstr ""
+msgstr "3Dデータ"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:150
 msgid "|contour3d|"
-msgstr ""
+msgstr "|contour3d|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:150
 msgid ""
 ":func:`contour3d` |hack| Plot iso-surfaces of volumetric data defined as a "
 "3D array."
-msgstr ""
+msgstr ":func:`contour3d` |hack| 3D配列として定義されたボリュームデータの等値面をプロットします。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:155
 msgid "|quiver3d|"
-msgstr ""
+msgstr "|quiver3d|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:155
 msgid ""
@@ -309,10 +356,12 @@ msgid ""
 " ``x``, ``y``, ``z`` position are specified by numpy arrays, as well as the "
 "``u``, ``v``, ``w`` components of the vectors."
 msgstr ""
+":func:`quiver3d` |hack| データポイントのベクトルを表す矢印をプロットします。 ``x``, ``y``, ``z`` "
+"の位置は、ベクトルの ``u``, ``v``, ``w`` 成分と同様に、多数の配列によって指定される。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:162
 msgid "|flow|"
-msgstr ""
+msgstr "|flow|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:162
 msgid ""
@@ -320,20 +369,22 @@ msgid ""
 "described by three 3D arrays giving the ``u``, ``v``, ``w`` components on a "
 "grid."
 msgstr ""
+":func:`flow` |hack| 3つの3D配列で記述されたベクトルフィールドに沿って粒子の軌跡をプロットし、グリッド上にe ``u``, "
+"``v``, ``w`` 成分を与える。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:168
 msgid "|slice|"
-msgstr ""
+msgstr "|slice|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:168
 msgid ""
 ":func:`volume_slice` |hack| Plots an interactive image plane sliced through "
 "volumetric data."
-msgstr ""
+msgstr ":func:`volume_slice` |hack| ボリュームデータをスライスしたインタラクティブなイメージプレーンをプロットします。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rstNone
 msgid "Structured or unstructured data"
-msgstr ""
+msgstr "構造化データまたは非構造化データ"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:177
 msgid ""
@@ -342,6 +393,9 @@ msgid ""
 ":func:`quiver3d` works with any set of points. The required structure is "
 "detailed in the functions' documentation."
 msgstr ""
+":func:`contour3d`, :func:`volume_slice` と :func:`flow` "
+"は順序付けされたデータ(点と点の間を補間することができます)を必要としますが、 :func:`quiver3d` "
+"は任意の点のセットで動作します。必要な構造体の詳細については、関数のドキュメントを参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:197
 msgid ""
@@ -349,18 +403,20 @@ msgid ""
 " and modules. See the :ref:`controlling-the-pipeline-with-mlab-scripts` and "
 "the :ref:`mlab-case-studies` sections."
 msgstr ""
+"データソースのフィルタとモジュールを組み合わせることで、より高度な視覚化を実現できます。 :ref:`controlling-the-pipeline-"
+"with-mlab-scripts` および :ref:`mlab-case-studies` のセクションを参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:2
 msgid "Changing the looks of the visual objects created"
-msgstr ""
+msgstr "作成したビジュアルオブジェクトの外観を変更する"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:5
 msgid "Adding color or size variations"
-msgstr ""
+msgstr "色やサイズのバリエーションを追加する"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
 msgid "Color"
-msgstr ""
+msgstr "Color"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:8
 msgid ""
@@ -368,6 +424,8 @@ msgid ""
 "explicitly using the 'color' keyword argument of the function. This color is"
 " then applied uniformly to all the objects created."
 msgstr ""
+"プロット関数によって作成されたオブジェクトの色は、関数の 'color' "
+"キーワード引数を使用して明示的に指定できます。このカラーは、作成されるすべてのオブジェクトに均一に適用されます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:12
 msgid ""
@@ -377,12 +435,15 @@ msgid ""
 " with vectors, or to the z elevation for functions where it is meaningful, "
 "such as :func:`surf` or :func:`barchart`."
 msgstr ""
+"ビジュアル化全体でカラーを変更する場合は、データポイントごとにスカラー情報を指定する必要があります。関数の中には、この情報を推測しようとするものがあります。これらのスカラーは、ベクトルを持つ関数の場合はベクトルのノルムを、意味のある関数の場合はz仰角をデフォルトとします。"
+" :func:`surf` や :func:`barchart` などです。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:18
 msgid ""
 "This scalar information is converted into colors using the colormap, or also"
 " called LUT, for Look Up Table. The list of possible colormaps is::"
 msgstr ""
+"このスカラー情報は、ルックアップテーブルのカラーマップまたはLUTを使用してカラーに変換されます。可能なコロンマップのリストは次のとおりです。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:34
 msgid ""
@@ -390,39 +451,43 @@ msgid ""
 "is to use the GUI (as described in the next paragraph). The dialog to set "
 "the colormap can be found in the `Colors and legends` node."
 msgstr ""
+"視覚化に最も適したカラーマップを選択する最も簡単な方法は、GUIを使用することです(次項記載)。カラーマップを設定するダイアログは、 `Colors "
+"and legends` ノードにあります。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:38
 msgid ""
 "To use a custom-defined colormap, for the time being, you need to write "
 "specific code, as show in :ref:`example_custom_colormap`."
 msgstr ""
+"カスタム定義のカラーマップを使用するには、当分の間、 :ref:`example_custom_colormap` "
+"に示すように、特定のコードを記述する必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
 msgid "Size of the glyph"
-msgstr ""
+msgstr "字形のサイズ"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:42
 msgid ""
 "The scalar information can also be displayed in many different ways. For "
 "instance it can be used to adjust the size of glyphs positioned at the data "
 "points."
-msgstr ""
+msgstr "スカラー情報は、さまざまな方法で表示することもできます。例えば、データポイントに配置された字形のサイズを調整するために使用できます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:46
 msgid ""
 "**A caveat: Clamping: relative or absolute scaling** Given six points "
 "positionned on a line with interpoint spacing 1::"
-msgstr ""
+msgstr "**注意:クランプ:相対スケーリングまたは絶対スケーリング** ポイント間隔1のライン上に6つのポイントが配置されている場合:"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:53
 msgid "If we represent a scalar varying from 0.5 to 1 on this dataset::"
-msgstr ""
+msgstr "このデータセットで0.5から1までのスカラーを表す場合は、次のようになります。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:57
 msgid ""
 "We represent the dataset as spheres, using :func:`points3d`, and the scalar "
 "is mapped to diameter of the spheres::"
-msgstr ""
+msgstr ":func:`points3d` を使ってデータセットを球体として表現し、スカラーを球体の直径にマッピングします。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:63
 msgid ""
@@ -431,6 +496,8 @@ msgid ""
 "the largest is proportional to inter-point distance. The scaling is only "
 "relative, as can be seen on the resulting figure:"
 msgstr ""
+"デフォルトでは、球体の直径は 'clamped' "
+"ではありません。つまり、スカラーデータの最小値はNull直径として表され、最大値はポイント間の距離に比例します。スケーリングは相対的なものにすぎません。結果の図を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:71
 msgid ""
@@ -438,12 +505,13 @@ msgid ""
 "if the scalar represents the size of the glyphs in the same unit as the "
 "positions specified."
 msgstr ""
+"この動作により、すべてのデータセットに可視ポイントが与えられますが、スカラーが指定された位置と同じ単位でグリフのサイズを表す場合には望ましくないことがあります。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:75
 msgid ""
 "In this case, you shoud turn auto-scaling off by specifying the desired "
 "scale factor::"
-msgstr ""
+msgstr "この場合、希望のスケール係数を指定して、自動スケールをオフにする必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:84
 msgid ""
@@ -453,10 +521,12 @@ msgid ""
 "clamped to zero, and thus the glyph are not scaled absolutely, unless you "
 "specify::"
 msgstr ""
+"以前のバージョンのMayavi(最大3.1 "
+".0を含む)では、グリフは自動スケールされず、その結果、グリフが非常に小さいため、表示が空に見えることがあります。また、記号の最小直径は0に固定されるため、次のように指定しない限り、記号は絶対的に尺度変更されません。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
 msgid "More representations of the attached scalars or vectors"
-msgstr ""
+msgstr "付加されたスカラーまたはベクトルのより多くの表現"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:93
 msgid ""
@@ -466,10 +536,13 @@ msgid ""
 "can be extracted to a scalar component that can be visualized using iso-"
 "surfaces with the `ExtractVectorNorm` filter."
 msgstr ""
+"データにアタッチされたスカラーまたはベクトル情報を表す方法は他にもたくさんあります。例えば、スカラーデータを、例えば、 `WarpScalar` "
+"フィルタを用いて、変位を `歪める` ことができます。あるいはスカラーデータのノルムを、 `ExtractVectorNorm` "
+"フィルタを用いた等表面を用いて可視化することができるスカラー成分を抽出することができます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
 msgid "Displaying more than one quantity"
-msgstr ""
+msgstr "複数の数量を表示する"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:100
 msgid ""
@@ -477,6 +550,9 @@ msgid ""
 "second for the iso-contours, or the elevation. This is possible but requires"
 " a bit of work: see :ref:`example_atomic_orbital`."
 msgstr ""
+"iso-"
+"contoursまたはelevationを使用しながら、1つのスカラー量に関連するカラーを表示することができます。これは可能ですが、少し作業が必要です"
+"  :ref:`example_atomic_orbital` を見てください。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:104
 msgid ""
@@ -486,10 +562,12 @@ msgid ""
 " :func:`quiver3d` plot choosing the glyphs to symmetric glyphs, and use "
 "scalars to represent the color::"
 msgstr ""
+"単に1つの量で指定されたサイズの点を表示し、1秒ごとに色を表示する場合は、ベクトルのノルムを使用してサイズ情報を追加し、スカラーを使用して色情報を追加し、"
+" :func:`quiver3d` を作成して、対称グリフを選択し、スカラーを使用して色を表現します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:119
 msgid "Changing the scale and position of objects"
-msgstr ""
+msgstr "オブジェクトの尺度と位置を変更する"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:121
 msgid ""
@@ -500,6 +578,8 @@ msgid ""
 "to other modules visualizing the same data. If you don't, they will not "
 "share the same displacement and scale."
 msgstr ""
+"各mlab関数は、 (x, y, z)  "
+"の範囲を設定することができるキーワード引数を取ります。これにより、異なる方向のスケーリングと中心のディスプレイスメントの両方を制御できます。この機能を使用する場合は、同じデータを表示する他のモジュールに同じエクステントを渡すと便利です。そうしないと、ディスプレイスメントとスケールは共有されません。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:128
 msgid ""
@@ -507,16 +587,18 @@ msgid ""
 "which display 2D arrays by converting the values in height, also take a "
 "`warp_scale` parameter, to control the vertical scaling."
 msgstr ""
+"高さの値を変換して2D配列を表示する :func:`surf`, :func:`contour_surf`, および :func:`barchart` "
+"関数も、垂直スケーリングを制御するために `warp_scale` パラメータを取ります。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:135
 msgid "Changing object properties interactively"
-msgstr ""
+msgstr "オブジェクトのプロパティをインタラクティブに変更する"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:137
 msgid ""
 "Mayavi, and thus mlab, allows you to interactively modify your "
 "visualization."
-msgstr ""
+msgstr "Mayavi、つまりmlabを使用すると、表示をインタラクティブに変更できます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:140
 msgid ""
@@ -527,10 +609,13 @@ msgid ""
 "manual, or add new modules or filters by using this icons on the pipeline, "
 "or through the right-click menus on the objects in the pipeline."
 msgstr ""
+"Mayaviパイプラインツリーを表示するには、フィギュアのツールバーにあるmayaviアイコンをクリックするか、 "
+":func:`show_pipeline` "
+"mlabコマンドを使用します。このマニュアルの他の部分で説明しているように、このダイアログを使用して各オブジェクトをダブルクリックしてそのプロパティを編集することで表示を変更したり、パイプライン上のこのアイコンを使用するか、またはパイプライン内のオブジェクトを右クリックして表示されるメニューを使用して、新しいモジュールまたはフィルタを追加できます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rstNone
 msgid "The record feature"
-msgstr ""
+msgstr "レコード機能"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:155
 msgid ""
@@ -541,6 +626,9 @@ msgid ""
 "navigating through a program in the pipeline, see "
 ":ref:`organisation_mayavi_visualisations`."
 msgstr ""
+"このダイアログの **非常に便利な機能** "
+"は、パイプラインビューのツールバーにある赤い丸ボタンを押すと表示されます。これにより、ダイアログを介してビジュアル化に対してインタラクティブに行われた変更を追跡するレコーダが開き、Pythonコードの有効な行が生成されます。パイプラインのプログラムをナビゲートする方法については、"
+" :ref:`organisation_mayavi_visualisations` を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:162
 msgid ""
@@ -549,10 +637,13 @@ msgid ""
 "interactively edit the object's properties. If the dialog doesn't show up "
 "when you enter this command, please see :ref:`running-mlab-scripts`."
 msgstr ""
+"さらに、mlab関数が返すすべてのオブジェクトに対して、 ``this_object.edit_traits()`` "
+"と入力すると、オブジェクトのプロパティをインタラクティブに編集するためのダイアログが表示されます。このコマンドを入力してもダイアログが表示されない場合は、"
+" :ref:`running-mlab-scripts` を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rstNone
 msgid "Using ``mlab`` with the full Envisage UI"
-msgstr ""
+msgstr "Envisage UIで ``mlab`` を使う"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:170
 msgid ""
@@ -560,19 +651,20 @@ msgid ""
 "envisage application so you can click on the menus and use other modules "
 "etc.  To do this you may do the following before you create an mlab figure::"
 msgstr ""
+"mlabスクリプトを作成しても、メニューをクリックして他のモジュールを使用できるように完全な予測アプリケーションを使用すると便利な場合があります。これを行うには、mlabの図を作成する前に次の操作を実行します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:180
 msgid ""
 "This will give you the full-fledged UI instead of the default simple window."
-msgstr ""
+msgstr "これにより、デフォルトの単純なウィンドウではなく、完全なUIが得られます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:3
 msgid "Figures, legends, camera and decorations"
-msgstr ""
+msgstr "図、凡例、カメラ、デコレーション"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:6
 msgid "Handling several figures"
-msgstr ""
+msgstr "複数の図を処理する"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:8
 msgid ""
@@ -585,10 +677,15 @@ msgid ""
 ":func:`draw` function, saved to a picture file using :func:`savefig` and "
 "cleared using :func:`clf`."
 msgstr ""
+"すべてのmlab関数は、matlabとpylabとの互換性を保つために、 "
+":func:`figure`とも呼ぶ現在のシーンで動作します。異なる図は、整数または文字列のキーによってインデックスが付けられます。 "
+":func:`figure` 関数を呼び出してキーを指定すると、対応する図が存在する場合はそれを返すか、新しい図を作成します。現在の図は、 "
+":func:`gcf` 関数で検索できます。これは:func:`draw`関数を使ってリフレッシュでき、 :func:`savefig` "
+"を使って画像ファイルに保存し、 :func:`clf` を使って消去できます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:19
 msgid "Figure decorations"
-msgstr ""
+msgstr "図のデコレーション"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:21
 msgid ""
@@ -597,6 +694,9 @@ msgid ""
 " and :func:`zlabel` functions. Similarly, :func:`outline` creates an outline"
 " around an object. :func:`title` adds a title to the figure."
 msgstr ""
+"軸は :func:`axes` 関数を使って可視化オブジェクトの周りに追加でき、ラベルは :func:`xlabel`, :func:`ylabel` "
+":func:`zlabel` 関数を使って設定できます。同様に、 :func:`outline` はオブジェクトの周りにアウトラインを作成します。 "
+":func:`title` は図形にタイトルを追加します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:26
 msgid ""
@@ -607,21 +707,26 @@ msgid ""
 ":func:`vectorbar` function scan be used to create color bars specifically "
 "for scalar or vector data."
 msgstr ""
+"カラーバーは、値の表示に使用されるカラーマップを反映するために使用できます(VTK用語でのLUTまたはルックアップテーブル)。 "
+":func:`colorbar` "
+"は、最後に作成されたオブジェクトのカラーバーを作成し、ベクトルデータとスカラデータのカラーマップのどちらを使用するかを推測します。 "
+":func:`scalarbar` および :func:`vectorbar` "
+"関数スキャンを使用して、スカラーまたはベクトルデータ専用のカラーバーを作成します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:33
 msgid ""
 "A small *xyz* triad can be added to the figure using "
 ":func:`orientation_axes`."
-msgstr ""
+msgstr "小さな *xyz* 座標系を図形に追加するには、 :func:`orientation_axes` を使用します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:36
 msgid ""
 "The :func:`orientation_axes` was named `orientationaxes` before release 3.2."
-msgstr ""
+msgstr ":func:`orientation_axes` はリリース3.2以前は `orientationaxes` という名前でした。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:40
 msgid "Moving the camera"
-msgstr ""
+msgstr "カメラを移動する"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:42
 msgid ""
@@ -633,6 +738,10 @@ msgid ""
 "interactively in the scene by pressing down the control key, while dragging "
 "the mouse, see :ref:`interaction-with-the-scene`)."
 msgstr ""
+"カメラの位置と方向は、 :func:`view` 関数を使用して設定できます。オイラー角と焦点までの距離で記述した。 :func:`view` "
+"関数は、ビューを見やすくするためにカメラの右ロール角を推測しようとしますが、失敗することがあります。 :func:`roll` "
+"は、カメラのロール角度を明示的に設定します(これは、コントロールキーを押しながらマウスをドラッグすることで、シーン内でインタラクティブに行うことができます。"
+" :ref:`interaction-with-the-scene` を参照してください。)。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:50
 msgid ""
