@@ -1084,6 +1084,9 @@ msgid ""
 "is created only on sources created via `mlab`. Pipeline created entirely "
 "using `mlab` will present this attribute."
 msgstr ""
+"Mayaviパイプラインを作成する場合、次のサブセクションで説明するように、既製のプロット関数を使用する代わりに、 `mlab_source` "
+"アトリビュートは `mlab` を使用して作成されたソース上にのみ作成されます。 `mlab` "
+"を使用して完全に作成されたパイプラインは、この属性を表示します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_animating.rst:131
 msgid ""
@@ -1092,10 +1095,13 @@ msgid ""
 "scene. This operation might take time, and thus slow your animation. In this"
 " case, the tip :ref:`acceleration_mayavi_scripts` may come in handy."
 msgstr ""
+"複数のプロットオブジェクトをアニメートする場合、 `mlab_source` "
+"アトリビュートを使用してデータを変更するたびに、Mayaviはシーンのリフレッシュをトリガします。この操作には時間がかかる場合があるため、アニメーションが遅くなります。この場合、"
+" :ref:`acceleration_mayavi_scripts` が役に立つでしょう。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:4
 msgid "Assembling pipelines with `mlab`"
-msgstr ""
+msgstr "`mlab` によるパイプラインの組み立て"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:7
 msgid ""
@@ -1109,6 +1115,11 @@ msgid ""
 "function, making the right choice of sources, filters, and modules, but they"
 " cannot explore all the possible combinations."
 msgstr ""
+"上でレビューしたプロット関数は、Mayaviの視覚化の可能性のほんの一部です。Mayavi の力は、パイプライン自体の制御を通じてのみ発揮されます。 "
+":ref:`an-overview-of-mayavi` セクションで説明されているように、Mayaviのビジュアライゼーションは、  `data "
+"source` オブジェクトを使用してMayaviのデータをロードし、 :ref:`filters` を使用してオプションでデータを変換し、 "
+":ref:`modules` "
+"を使用してビジュアライゼーションします。mlab関数は、1つの関数で複雑なパイプラインを構築し、ソース、フィルタ、モジュールを適切に選択しますが、可能なすべての組み合わせを調べることはできません。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:18
 msgid ""
@@ -1116,6 +1127,8 @@ msgid ""
 "the pipeline easily from scripts. This module is accessible in `mlab`: "
 "`mlab.pipeline`, or can be imported from `mayavi.tools.pipeline`."
 msgstr ""
+"Mlabは、スクリプトからパイプラインを容易に生成する関数を含むサブモジュール `pipeline` を提供します。このモジュールは `mlab`: "
+"`mlab.pipeline` でアクセスできます。または `mayavi.tools.pipeline` からインポートできます。ツール。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:23
 msgid ""
@@ -1128,18 +1141,23 @@ msgid ""
 "directly linked to the default names of the objects created by `mlab` on the"
 " pipeline. As an example, let us create a visualization using :func:`surf`::"
 msgstr ""
+"`mlab` プロット関数を使用すると、パイプラインが作成されます。最初に `numpy` "
+"配列からソースが作成され、次にモジュール、場合によってはフィルタが追加されます。結果のパイプラインは、例えば `mlab.show_pipeline` "
+"で見ることができます。パイプラインの各ステップを作成するために必要な関数の名前は、パイプライン上の `mlab` "
+"によって作成されたオブジェクトのデフォルト名に直接リンクされているので、この情報を使用して、  `pipeline` "
+"スクリプトモジュールを使用して、まったく同じパイプラインを直接作成することができます。例として、 :func:`surf` を示します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:39
 msgid "The following pipeline is created::"
-msgstr ""
+msgstr "次のパイプラインが作成されます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:47
 msgid "The same pipeline can be created using the following code::"
-msgstr ""
+msgstr "次のコードを使用して、同じパイプラインを作成できます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:57
 msgid "Data sources"
-msgstr ""
+msgstr "データソース"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:61
 msgid ""
@@ -1147,6 +1165,8 @@ msgid ""
 "sources from arrays. They are fully documented in details in the :ref:`mlab-"
 "pipeline-reference`. We give a small summary of the possibilities here."
 msgstr ""
+"`mlab.pipeline` モジュールには、配列からさまざまなデータソースを作成するための関数が含まれています。詳細については、 :ref"
+":`mlab-pipeline-reference` に完全に文書化されています。ここでは、その可能性について簡単に説明します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:66
 msgid ""
@@ -1156,46 +1176,49 @@ msgid ""
 "points** describing continuously varying quantities that can be interpolated"
 " between data points, often called `fields` in physics or engineering."
 msgstr ""
+"Mayaviは、 **スカラーデータ** を持つソースと **ベクトルデータ** を持つソースを区別しますが、より重要なのは、 "
+"**接続されていないポイント** のセットを作成してデータをアタッチする機能と、 **接続されたデータポイント** "
+"を作成してデータポイント間で補間できる連続的に変化する量を記述する機能です。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:0
 msgid "Unconnected sources"
-msgstr ""
+msgstr "接続されていないソース"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:77
 msgid ":func:`scalar_scatter` (creates a :ref:`poly_data`)"
-msgstr ""
+msgstr ":func:`scalar_scatter` ( :ref:`poly_data` を作成)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:82
 msgid ":func:`vector_scatter` (creates an :ref:`poly_data`)"
-msgstr ""
+msgstr ":func:`vector_scatter` ( :ref:`poly_data` を作成)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:0
 msgid "implicitly-connected sources"
-msgstr ""
+msgstr "暗黙的に接続されたソース"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:91
 msgid ":func:`scalar_field` (creates an :ref:`image_data`)"
-msgstr ""
+msgstr ":func:`scalar_field` ( :ref:`image_data` を作成します)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:96
 msgid ":func:`vector_field` (creates an :ref:`image_data`)"
-msgstr ""
+msgstr ":func:`vector_field` (  :ref:`image_data` を作成します)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:101
 msgid ":func:`array2d_source` (creates an :ref:`image_data`)"
-msgstr ""
+msgstr ":func:`array2d_source` ( :ref:`image_data` を作成します)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:0
 msgid "Explicitly-connected sources"
-msgstr ""
+msgstr "明示的に接続されたソース"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:110
 msgid ":func:`line_source` (creates an :ref:`poly_data`)"
-msgstr ""
+msgstr ":func:`line_source` ( :ref:`poly_data` を作成)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:115
 msgid ":func:`triangular_mesh_source` (creates an :ref:`poly_data`)"
-msgstr ""
+msgstr ":func:`triangle_mesh_source` ( :ref:`poly_data` を作成)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:120
 msgid ""
@@ -1206,6 +1229,8 @@ msgid ""
 " same shape as the shape of the input array, in other words, the array "
 "describes an image, possibly 3 dimensional."
 msgstr ""
+"すべての `mlab.pipline` "
+"のソースファクトリは、numpy配列を取り、パイプラインに追加されたMayaviソースオブジェクトを返す関数です。ただし、暗黙に接続されたソースは引数として整形式の配列を必要とします。つまり、データは入力配列の形状と同じ形状の規則的な直交グリッド上に存在することになります。つまり、配列は3次元のイメージを表します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:129
 msgid ""
@@ -1213,10 +1238,12 @@ msgid ""
 "non-orthogonal grid. See :ref:`the section on data structures <data-"
 "structures-used-by-mayavi>`."
 msgstr ""
+"不規則格子または非直交格子のような、より複雑なデータ構造を作成することができる。関連項目 :ref:`the section on data "
+"structures <data-structures-used-by-mayavi>` 。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:135
 msgid "Modules and filters"
-msgstr ""
+msgstr "モジュールとフィルタ"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:137
 msgid ""
@@ -1453,7 +1480,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "The Flow, or the field lines"
-msgstr ""
+msgstr "フローまたはフィールドライン"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:205
 msgid ""
@@ -1506,3 +1533,5 @@ msgid ""
 "Toussaint, V.; Carriere, P. & Raynal, F. A numerical Eulerian approach to "
 "mixing by chaotic advection Phys. Fluids, 1995, 7, 2587"
 msgstr ""
+"Toussaint, V.; Carriere, P. & Raynal, F. A numerical Eulerian approach to "
+"mixing by chaotic advection Phys. Fluids, 1995, 7, 2587"
