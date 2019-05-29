@@ -171,6 +171,9 @@ msgid ""
 " from a 3D numpy array to the corresponding flatten VTK array, the operation"
 " is::"
 msgstr ""
+"すべてのVTK配列は、データ用か位置用かにかかわらず、3Dコンポーネントには (n, 3) numpy配列、1Dコンポーネントにはフラット (n, ) "
+"配列として公開されます。インデックスはnumpyと逆の順序で変化します。z、y、xの順です。したがって、3D "
+"numpy配列から対応するフラット化VTK配列に移動するには、次のように操作します。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:98
 msgid ""
