@@ -63,18 +63,24 @@ msgid ""
 "directly linked to the default names of the objects created by `mlab` on the"
 " pipeline. As an example, let us create a visualization using :func:`surf`::"
 msgstr ""
+"`mlab` プロット関数を使用すると、パイプラインが作成されます。最初に `numpy` "
+"配列からソースが作成され、次にモジュール、場合によってはフィルタが追加されます。結果のパイプラインは、例えば `mlab.show_pipeline` "
+"コマンドを使用して見ることができます。パイプラインの各ステップを作成するために必要な関数の名前は、パイプライン上の `mlab` "
+"によって作成されたオブジェクトのデフォルト名に直接リンクされているので、この情報を使用して、  `pipeline` "
+"スクリプトモジュールを使用して、まったく同じパイプラインを直接作成することができます。例として、 :func:`surf` "
+"を使用した視覚化を作成します::"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:39
 msgid "The following pipeline is created::"
-msgstr ""
+msgstr "次のパイプラインが作成されます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:47
 msgid "The same pipeline can be created using the following code::"
-msgstr ""
+msgstr "次のコードを使用して、同じパイプラインを作成できます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:57
 msgid "Data sources"
-msgstr ""
+msgstr "データソース"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:61
 msgid ""
@@ -82,6 +88,8 @@ msgid ""
 "sources from arrays. They are fully documented in details in the :ref:`mlab-"
 "pipeline-reference`. We give a small summary of the possibilities here."
 msgstr ""
+"`mlab.pipeline` モジュールには、配列からさまざまなデータソースを作成するための関数が含まれています。詳細については :ref"
+":`mlab-pipeline-reference` に完全に文書化されています。ここでは、その可能性について簡単に説明します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:66
 msgid ""
@@ -91,14 +99,17 @@ msgid ""
 "points** describing continuously varying quantities that can be interpolated"
 " between data points, often called `fields` in physics or engineering."
 msgstr ""
+"Mayaviは **scalar data** を持つソースと **vector data** を持つソースを区別しますが、より重要なのは、 "
+"**unconnected points** のセットを作成してデータをアタッチする機能と、 **connected data points** "
+"を作成してデータポイント間で補間できる連続的に変化する量を記述する機能です。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:0
 msgid "Unconnected sources"
-msgstr ""
+msgstr "接続されていないソース"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:77
 msgid ":func:`scalar_scatter` (creates a :ref:`poly_data`)"
-msgstr ""
+msgstr ":func:`scalar_scatter` (creates a :ref:`poly_data` を作成)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:82
 msgid ":func:`vector_scatter` (creates an :ref:`poly_data`)"
