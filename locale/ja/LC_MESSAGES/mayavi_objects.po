@@ -170,7 +170,7 @@ msgstr "必要に応じて、基礎となるTVTKパイプラインオブジェ�
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:87
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:188
 msgid "``update_pipeline()``"
-msgstr ""
+msgstr "``update_pipeline()``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:87
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:188
@@ -178,11 +178,12 @@ msgid ""
 "called when the upstream pipeline has been changed, i.e. an upstream object "
 "fires a ``pipeline_changed`` event."
 msgstr ""
+"上流のパイプラインが変更された場合、すなわち上流のオブジェクトが ``pipeline_changed`` イベントを起動した場合に呼び出される。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:91
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:192
 msgid "``update_data()``"
-msgstr ""
+msgstr "``update_data()``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:91
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:192
@@ -191,18 +192,20 @@ msgid ""
 "the pipeline has been changed.  This happens when the upstream object fires "
 "a ``data_changed`` event."
 msgstr ""
+"上流パイプラインが変更されてい **ない** が、パイプラインのデータが変更された場合に呼び出されます。これは、上流のオブジェクトが "
+"``data_changed`` イベントを起動したときに発生します。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:97
 msgid "The filter class is defined in the ``mayavi.core.filter`` module."
-msgstr ""
+msgstr "フィルタクラスは ``mayavi.core.filter`` モジュールで定義されています。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:101
 msgid "API reference for the :class:`Filter` class."
-msgstr ""
+msgstr ":class:`Filter` クラスのAPI参照です。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:104
 msgid "ModuleManager: Colors and legends node"
-msgstr ""
+msgstr "ModuleManager: カラーと凡例ノード"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:106
 msgid ""
@@ -212,22 +215,25 @@ msgid ""
 "lookup table (LUT) in order to produce a meaningful visualization. This "
 "lookup table is managed by the module manager."
 msgstr ""
+"このオブジェクトは、UIのツリービューでは *Colors and legends* と呼ばれています。このオブジェクトの主な目的は、管理する "
+"``Modules`` "
+"でデータをカラー表示する方法を制御することです。通常、すべてのモジュールは、意味のある視覚化を行うためにルックアップテーブル(LUT)を使用します。このルックアップテーブルは、モジュールマネージャによって管理される。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:115
 msgid "``source``"
-msgstr ""
+msgstr "``source``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:115
 msgid "the ``Source`` or ``Filter`` object that is the input of this object."
-msgstr ""
+msgstr "このオブジェクトの入力である  ``Source`` または ``Filter`` オブジェクト。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:118
 msgid "a list of the ``Modules`` it manages."
-msgstr ""
+msgstr "それが管理する  ``Modules`` のリスト。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:120
 msgid "``scalar_lut_manager``"
-msgstr ""
+msgstr "``scalar_lut_manager``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:120
 msgid ""
@@ -235,24 +241,26 @@ msgid ""
 "from scalar values to colors on the visualizations. This is basically a "
 "mapping from scalars to colors."
 msgstr ""
+"これは視覚化においてスカラー値から色へのカラーマッピングを基本的に管理する ``LUTManager`` "
+"のインスタンスです。これは基本的にスカラーからカラーへのマッピングです。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:125
 msgid "``vector_lut_manager``"
-msgstr ""
+msgstr "``vector_lut_manager``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:125
 msgid ""
 "an instance of a ``LUTManager`` which manages the color mapping from vector "
 "values to colors on the visualizations."
-msgstr ""
+msgstr "視覚化におけるベクトル値から色へのカラーマッピングを管理する ``LUTManager`` のインスタンス。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:129
 msgid "``lut_data_mode``"
-msgstr ""
+msgstr "``lut_data_mode``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:137
 msgid "'auto', 'point data' and 'cell data'."
-msgstr ""
+msgstr "'auto', 'point data' と 'cell data'."
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:130
 msgid ""
@@ -263,10 +271,13 @@ msgid ""
 "chooses the one available. If set to 'point data' it uses the input point "
 "data for the LUT and if set to 'cell data' it uses the input cell data."
 msgstr ""
+"LUTに使用するデータ型を指定します。これは間で変更できます。この設定を変更すると、データ範囲および参照テーブル/凡例バーの名前が変更されます。 "
+"'auto' (デフォルト)に設定すると、ポイントデータが優先されるセルおよびポイントデータが自動的に検索され、使用可能なデータが選択されます。 "
+"'point data' に設定するとLUTの入力点データを使用し、 'cell data' に設定すると入力セルデータを使用します。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:141
 msgid "This class is defined in the ``mayavi.core.module_manager`` module."
-msgstr ""
+msgstr "このクラスは ``mayavi.core.module_manager`` モジュールで定義されています。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:146
 msgid "API reference for the :class:`ModuleManager` class."
