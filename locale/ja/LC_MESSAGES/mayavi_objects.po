@@ -281,11 +281,11 @@ msgstr "このクラスは ``mayavi.core.module_manager`` モジュールで定�
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:146
 msgid "API reference for the :class:`ModuleManager` class."
-msgstr ""
+msgstr ":class:`ModuleManager` クラスのAPIリファレンスです。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:149
 msgid "Module"
-msgstr ""
+msgstr "Module"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:151
 msgid ""
@@ -293,26 +293,30 @@ msgid ""
 "scene.  All the modules defined in the :ref:`modules` section are subclasses"
 " of this."
 msgstr ""
+"これらのオブジェクトは、通常、シーンに視覚化を生成するオブジェクトです。 :ref:`modules` "
+"セクションで定義されている全てのモジュールはこのサブクラスです。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:155
 msgid ""
 "A module is typically returned by the mlab :ref:`3D plotting functions "
 "<mlab_plotting_functions>`."
 msgstr ""
+"モジュールは通常、mlab :ref:`3D plotting functions <mlab_plotting_functions>` "
+"によって返されます。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:161
 msgid "``module_manager``"
-msgstr ""
+msgstr "``module_manager``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:161
 msgid ""
 "The ``ModuleManager`` instance that controls the colormaps and the legends "
 "of this ``Module``"
-msgstr ""
+msgstr "この  ``Module`` のカラーマップと凡例を制御する ``ModuleManager`` インスタンス"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:164
 msgid "``actor``"
-msgstr ""
+msgstr "``actor``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:164
 msgid ""
@@ -320,10 +324,11 @@ msgid ""
 "scene. This is where you will have the properties such as scaling, or GL "
 "material properties."
 msgstr ""
+"モジュールのTVTKアクター、つまりシーンに表示されるオブジェクト。ここにスケーリングやGLマテリアルプロパティなどのプロパティがあります。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:169
 msgid "``components``"
-msgstr ""
+msgstr "``components``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:169
 msgid ""
@@ -336,6 +341,10 @@ msgid ""
 "Thus, components are a means to promote reuse between mayavi pipeline "
 "objects."
 msgstr ""
+"モジュールで使用される再利用可能な各種コンポーネントのリスト。これらは通常、ユーザーが直接使用することはありません。ただし、新しいモジュールを作成するときには非常に便利です。"
+" ``Component`` は基本的には再利用可能なコードで、他のさまざまなオブジェクトによって使用されます。例えば、ほとんど全ての "
+"``Module``  はTVTKの俳優、マッパー、プロパティを使っています。これらはすべて、モジュールが使用する再利用可能なコンポーネントに "
+"\"componentized\" されます。したがって、コンポーネントはmayaviパイプラインオブジェクト間での再利用を促進する手段となります。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:199
 msgid "Defined in the ``mayavi.core.module`` module."
