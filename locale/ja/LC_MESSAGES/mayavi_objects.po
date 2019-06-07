@@ -348,15 +348,15 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:199
 msgid "Defined in the ``mayavi.core.module`` module."
-msgstr ""
+msgstr "``mayavi.core.module`` モジュールで定義されている。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:203
 msgid "API reference for the :class:`Module` class."
-msgstr ""
+msgstr ":class:`Module` クラスのAPIリファレンスです。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:206
 msgid "Engine"
-msgstr ""
+msgstr "Engine"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:208
 msgid ""
@@ -365,6 +365,7 @@ msgid ""
 "pipeline. It is at the root of the pipeline and is not displayed in the "
 "pipeline view."
 msgstr ""
+"Mayaviエンジンは、可視化オブジェクトとシーンのライフサイクル、およびパイプラインの接続と更新を処理する中心的なオブジェクトです。これはパイプラインのルートにあり、パイプラインビューには表示されません。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:213
 msgid ""
@@ -373,90 +374,95 @@ msgid ""
 "``Filter/Source/Module`` instance to it. The contextual operations are "
 "important in a menu-driven graphical user interface."
 msgstr ""
+"コンテクスト操作のために、エンジンは 'current object' と 'current scene' の概念を持っていて、 "
+"``Filter/Source/Module``  "
+"インスタンスをそれに追加することができるいくつかの方法を特徴とします。コンテキスト操作は、メニュー方式のグラフィカル・ユーザー・インターフェースにおいて重要です。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:218
 msgid ""
 "It allows one to create new scenes and delete them.  Also has methods to "
 "load and save the entire visualization."
-msgstr ""
+msgstr "新しいシーンを作成して削除することができます。また、視覚化全体をロードおよび保存するメソッドもあります。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:223
 msgid ""
 "When using mlab, the engine used by mlab can be retrieved using "
 ":func:`mlab.get_engine`."
-msgstr ""
+msgstr "mlabを使用する場合、mlabで使用されるエンジンは :func:`mlab.get_engine` を使用して取得できます。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:231
 msgid "``scenes``"
-msgstr ""
+msgstr "``scenes``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:231
 msgid "a list of ``Scene`` objects."
-msgstr ""
+msgstr "``Scene`` オブジェクトのリスト。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:233
 msgid "``current_object``"
-msgstr ""
+msgstr "``current_object``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:233
 msgid ""
 "the object on which contextual operations, such as ``add_module`` will "
 "apply."
-msgstr ""
+msgstr "``add_module`` などのコンテキスト操作が適用されるオブジェクト。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:236
 msgid "``current_scene``"
-msgstr ""
+msgstr "``current_scene``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:236
 msgid "the scene in which data sources will be added by default."
-msgstr ""
+msgstr "デフォルトでデータソースが追加されるシーン。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:239
 msgid "``current_selection``"
-msgstr ""
+msgstr "``current_selection``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:239
 msgid "The object selected in the pipeline view."
-msgstr ""
+msgstr "パイプラインビューで選択されているオブジェクト。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:245
 msgid "``new_scene()``"
-msgstr ""
+msgstr "``new_scene()``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:245
 msgid ""
 "this is the method called to create a new scene. Subclasses override this "
 "method."
-msgstr ""
+msgstr "新しいシーンを作成するために呼び出されるメソッドです。サブクラスはこのメソッドをオーバーライドします。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:251
 msgid "Important sub-classes"
-msgstr ""
+msgstr "重要なサブクラス"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:253
 msgid "``EnvisageEngine``"
-msgstr ""
+msgstr "``EnvisageEngine``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:253
 msgid ""
 "defined in the ``mayavi.plugins.envisage_engine`` module. It is the subclass"
 " of used in the ``mayavi2`` application."
 msgstr ""
+"``mayavi.plugins.envisage_engine`` モジュールで定義されます。 ``mayavi2`` "
+"アプリケーションで使用されるのサブクラスです。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:258
 msgid "``OffScreenEngine``"
-msgstr ""
+msgstr "``OffScreenEngine``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:258
 msgid ""
 "defined in the ``mayavi.core.off_screen_engine`` module. It creates scenes "
 "that are not displayed on screen by default."
-msgstr ""
+msgstr "``mayavi.core.off_screen_engine`` モジュール。既定では画面に表示されないシーンが作成されます。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:263
 msgid "``NullEngine``"
-msgstr ""
+msgstr "``NullEngine``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:263
 msgid ""
@@ -465,18 +471,20 @@ msgid ""
 " This engine is useful for testing and pure-data handling use of Mayavi's "
 "data structures."
 msgstr ""
+"``mayavi.core.null_engine`` "
+"モジュールです。このエンジンでは、ビジュアル化オブジェクトはシーンに追加されないため、レンダリングできません。このエンジンは、Mayaviのデータ構造のテストおよび純粋なデータ処理に便利です。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:275
 msgid "The `Engine` base class is defined in the ``mayavi.engine`` module."
-msgstr ""
+msgstr "`Engine` ベースクラスは ``mayavi.engine`` モジュールで定義されています。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:279
 msgid "API reference for the :class:`Engine` class."
-msgstr ""
+msgstr ":class:`Engine` クラスのAPI参照です。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:282
 msgid "Base class: PipelineBase"
-msgstr ""
+msgstr "Baseクラス: PipelineBase"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:284
 msgid ""
