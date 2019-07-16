@@ -9,7 +9,7 @@ find mayavi -name "*.pyc" -exec rm {} \;
 git checkout master
 git submodule init
 git submodule update
-(cd mayavi; git fetch origin; git checkout origin/devel-tkoyama010)
+(cd mayavi; git fetch origin; git checkout origin/master)
 pip install -r requirements.txt
 
 
