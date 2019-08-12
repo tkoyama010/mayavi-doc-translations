@@ -16,6 +16,10 @@ pip install -r requirements.txt
 # update transifex pot and local po files
 sh ./locale/update.sh
 
+# update picture
+cp mayavi/docs/source/mayavi/m2_about.jpg .
+git add m2_about.jpg
+
 # commit po(t) files
 git add locale mayavi
 git commit -m "[skip ci] update po(t) files"
