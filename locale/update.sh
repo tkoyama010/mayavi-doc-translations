@@ -20,6 +20,3 @@ rm -Rf ja
 tx pull -l ja
 git checkout .tx/config
 
-# update picture
-cp ../mayavi/docs/source/mayavi/m2_about.jpg ../
-git add ../m2_about.jpg
