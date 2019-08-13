@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:10
 msgid "Using Mayavi in Jupyter notebooks"
-msgstr ""
+msgstr "JupyterノートブックでのMayaviの利用"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:12
 msgid ""

@@ -497,7 +497,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:294
 msgid "``pipeline_changed``"
-msgstr ""
+msgstr "``pipeline_changed``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:294
 msgid ""
@@ -514,7 +514,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:306
 msgid "``data_changed``"
-msgstr ""
+msgstr "``data_changed``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:306
 msgid ""
@@ -532,7 +532,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:314
 msgid "``visible``"
-msgstr ""
+msgstr "``visible``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:314
 msgid ""
@@ -542,7 +542,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:321
 msgid "``remove()``"
-msgstr ""
+msgstr "``remove()``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:321
 msgid "can be used to remove the object (if added) from the mayavi pipeline."
