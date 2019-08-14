@@ -100,7 +100,7 @@ msgid ""
 "<https://pypi.python.org/pypi/mayavi>`_."
 msgstr ""
 "pip_ は、 PyPA_ からPythonパッケージをインストールするための PyPA_ "
-"推奨ツールです。PyPIで入手可能なMayaviの最新バージョンは、  `here "
+"推奨ツールです。PyPIで入手可能なMayaviの最新バージョンは、  `ここ "
 "<https://pypi.python.org/pypi/mayavi>`_ で見ることができます。"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:56
@@ -149,7 +149,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:90
 msgid "Bleeding edge"
-msgstr "出血エッジ"
+msgstr "最新版"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:92
 msgid ""

@@ -357,7 +357,7 @@ msgid ""
 "simply the 3D plotting functions: :ref:`mlab_plotting_functions`)."
 msgstr ""
 "numpy_arraysまたはその他のシーケンスを使用してTVTKデータセットを生成します。これは、例えば `mlab` ( "
-":ref:`creating data sources with mlab ` 、または単純な3Dプロット機能 : "
+":ref:`creating data sources with mlab <mlab_data_source>` または単純な3Dプロット機能 "
 ":ref:`mlab_plotting_functions` を参照してください。)のようなスクリプトAPIを使って行うのが最も簡単です。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:210
