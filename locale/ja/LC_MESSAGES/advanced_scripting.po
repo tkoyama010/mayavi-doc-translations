@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-27 12:25+0900\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:4
 msgid "Advanced Scripting with Mayavi"
-msgstr ""
+msgstr "Mayaviによる高度なスクリプト機能"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:6
 msgid ""
@@ -32,6 +36,8 @@ msgid ""
 " design your own applications using Mayavi as powerful visualization "
 "library."
 msgstr ""
+":ref:`an-overview-of-mayavi` "
+"セクションで説明されているように、データを視覚化するためにPythonからMayaviをスクリプト化することができます。Mayaviは、最初から高度な評価できるように設計されています。ユーザインタフェースから実行できる操作はすべて、Pythonスクリプトを使用して実行できます。Mayavi2アプリケーションのスクリプト作成は、既存のフレームワークにドメイン固有の機能を追加する優れた方法です。さらに、このアプリケーションを理解すると、強力な視覚化ライブラリとしてMayaviを使用して独自のアプリケーションを設計するのに役立ちます。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:15
 msgid ""
@@ -45,6 +51,11 @@ msgid ""
 "chapter.  This is probably the easiest and most powerful way to script "
 "Mayavi."
 msgstr ""
+"Mayavi2アプリケーション自体のスクリプトを作成したり、アプリケーションを構築したりするのではなく、単純なコードで視覚化を行う簡単な方法を探している場合は、Mayaviの"
+" `mlab` モジュールを確認してください。これは :ref:`simple-scripting-with-mlab` "
+"の章でより詳細に説明されています。このMayaviには、自動スクリプト記録機能も備わっています。この機能は、GUIを使用したときに自動的にPythonスクリプトを作成します。詳細については、"
+" :ref:`automatic-script-generation` "
+"の章を参照してください。これはおそらく、Mayaviをスクリプト化する最も簡単で強力な方法です。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:25
 msgid ""
@@ -54,6 +65,7 @@ msgid ""
 " sections consider specific example scripts that are included with the "
 "Mayavi sources that illustrate the ideas."
 msgstr ""
+"しかし、Mayaviのスクリプトの書き方を最もよく理解するには、Mayaviの内部構造を合理的に理解する必要があります。以下のセクションでは、Mayaviパイプラインの基本設計とオブジェクトの概要について説明します。以降のセクションでは、この概念を説明するMayaviソースに含まれる特定のサンプルスクリプトについて説明します。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:31
 msgid ""
@@ -63,6 +75,8 @@ msgid ""
 "idea to get a general idea about Traits now. Trust me, your efforts learning"
 " Traits will not be wasted!"
 msgstr ""
+"Mayaviは内部的に Traits_ と TVTK_ を使用します。 Traits_ "
+"は多くの点でプログラム方法を変えます。したがって、Mayaviの内部構造を理解するには、Traitsをよく理解することが重要です。Traitがよくわからない場合は、ここでTraitの概要を理解することをお勧めします。私を信じてください、あなたの伝統を学ぶ努力は無駄にならないでしょう!"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:42
 msgid "Design Overview: Mayavi as a visualization framework"
