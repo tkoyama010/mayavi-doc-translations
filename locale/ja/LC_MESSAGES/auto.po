@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-27 12:25+0900\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:2
 msgid "Mayavi 4.6.2"
-msgstr ""
+msgstr "Mayavi 4.6.2"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:4
 msgid ""
@@ -27,16 +31,19 @@ msgid ""
 "order): solarjoe, François Boulogne, Prabhu Ramachandran (PR), and Ioannis "
 "Tziakos."
 msgstr ""
+"このリリースに貢献してくれた以下の方々に感謝します(アルファベット順): solarjoe, François Boulogne, Prabhu "
+"Ramachandran (PR), and Ioannis Tziakos。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:8
 msgid "11 pull requests were merged."
-msgstr ""
+msgstr "11個のpull requestがマージされました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:10
 msgid ""
 "This is largely a bugfix release with a few useful enhancements. This will "
 "be the last release to properly support VTK versions less than 7.0."
 msgstr ""
+"これは主にバグフィックスのリリースであり、いくつかの有用な機能拡張が行われています。これは、7.0より前のVTKバージョンを適切にサポートする最後のリリースです。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:14
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:87
@@ -54,16 +61,17 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:784
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1012
 msgid "Enhancements"
-msgstr ""
+msgstr "機能強化"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:20
 msgid ""
 "03 Aug 2018 `#695 <https://github.com/enthought/mayavi/pull/695>`_ (PR)"
 msgstr ""
+"2018年08月03日 `#695 <https://github.com/enthought/mayavi/pull/695>`_ (PR)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:17
 msgid "Wrap user defined algorithm"
-msgstr ""
+msgstr "ユーザー定義のWrapアルゴリズム"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:18
 msgid "Ensure VTKPythonAlgorithmBase is wrapped"

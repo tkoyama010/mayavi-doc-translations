@@ -29,7 +29,7 @@ msgstr "ヒントとコツ"
 msgid ""
 "Below are a few tips and tricks that you may find useful when you use "
 "Mayavi2."
-msgstr ""
+msgstr "ここでは、Mayavi2を使用する際に役立つヒントをいくつか紹介します。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:10
 msgid "Using Mayavi in Jupyter notebooks"
@@ -66,7 +66,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:36
 msgid "Mayavi ships with some javascript files that can be installed as::"
-msgstr ""
+msgstr "Mayaviには、次のようなjavascriptファイルが付属しています。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:40
 msgid ""
@@ -79,11 +79,11 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:48
 msgid "To view Mayavi visualizations on the notebook one should first do::"
-msgstr ""
+msgstr "ノートブックでMayaviの視覚化を表示するには、まず次の操作を行います。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:53
 msgid "Subequently, one may simply do::"
-msgstr ""
+msgstr "当然のことながら、次のようにします。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:58
 msgid ""
@@ -99,7 +99,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:67
 msgid "There are several optional arguments to ``init_notebook``."
-msgstr ""
+msgstr "``init_notebook`` にはオプションの引数がいくつかあります。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:69
 msgid ""
