@@ -101,10 +101,10 @@ msgid ""
 "``ModuleManager`` manages any number of ``Modules``.  The figure below shows"
 " this hierarchy in a graphical form."
 msgstr ""
-"Mayaviにおける視覚化の ``Engine`` (``mayavi.engine.Engine``) オブジェクトが視覚化全体を管理することです。 "
-"``Engine`` は ``Scene`` (``mayavi.core.scene.Scene``) "
-"オブジェクトのコレクションを管理します。各シーンにおいて、ユーザは任意の数の ``Scene`` "
-"(``mayavi.core.scene.Scene``)オブジェクトを作成することができます。Sourceオブジェクトには、さらに任意の数の "
+"視覚化の \"全体像\" はMayaviの ``Engine`` (``mayavi.engine.Engine``) "
+"オブジェクトが視覚化全体を管理することです。 ``Engine`` は ``Scene`` (``mayavi.core.scene.Scene``) "
+"オブジェクトのコレクションを管理します。各シーンにおいて、ユーザは任意の数の ``Source`` "
+"(``mayavi.core.source.Source``) オブジェクトを作成することができます。Sourceオブジェクトには、さらに任意の数の "
 "``Filter`` (``mayavi.core.filter.Filter``) または ``ModuleManager`` "
 "(``mayavi.core.module_manager.ModuleManager``) オブジェクトを含めることができます。 ``Filter``"
 " には、他の ``filters`` または ``ModuleManagers`` を含めることができます。 ``ModuleManager`` "
@@ -286,6 +286,8 @@ msgid ""
 "show how this can be done.  The ``examples/README.txt`` contains some "
 "information on the recommended ways to script."
 msgstr ""
+"mayaviの ``examples`` ディレクトリには、これを行う方法を示すスクリプトがいくつかあります。 "
+"``examples/README.txt`` には、スクリプトの推奨法に関する情報が含まれています。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:222
 msgid "Scripting from IPython"
@@ -316,7 +318,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:250
 msgid "An example"
-msgstr ""
+msgstr "例"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:252
 msgid ""
@@ -361,7 +363,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:329
 msgid "Using the Mayavi envisage plugins"
-msgstr ""
+msgstr "Mayavi envisageプラグインの使用"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:331
 msgid "The Mayavi-related plugin definitions to use are:"
@@ -369,11 +371,11 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:333
 msgid "``mayavi_plugin.py``"
-msgstr ""
+msgstr "``mayavi_plugin.py``"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:334
 msgid "``mayavi_ui_plugin.py``"
-msgstr ""
+msgstr "``mayavi_ui_plugin.py``"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:336
 msgid ""
