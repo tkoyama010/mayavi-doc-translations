@@ -135,11 +135,11 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:97
 msgid "Off screen rendering"
-msgstr ""
+msgstr "オフスクリーンレンダリング"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:100
 msgid "Avoiding the rendering window"
-msgstr ""
+msgstr "レンダリングウィンドウを使用しない"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:102
 msgid ""
@@ -194,7 +194,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:140
 msgid "Platform Summary"
-msgstr ""
+msgstr "プラットフォームの概要"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:142
 msgid ""
@@ -227,7 +227,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:167
 msgid "Rendering using the virtual framebuffer"
-msgstr ""
+msgstr "仮想フレームバッファを使用したレンダリング"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:169
 msgid ""
