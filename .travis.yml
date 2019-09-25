@@ -20,7 +20,7 @@ install:
 - git checkout master  # attach this repo
 - git submodule init
 - git submodule update
-- (cd mayavi; git fetch origin; git checkout devel-tkoyama010; git reset --hard origin/devel-tkoyama010; git branch -a)
+- (cd mayavi; git fetch origin; git checkout master; git reset --hard origin/master; git branch -a)
 - pip install -U pip setuptools
 - pip install -r ./requirements.txt
 script:
