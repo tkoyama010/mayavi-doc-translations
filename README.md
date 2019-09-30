@@ -1,5 +1,7 @@
 # mayavi-doc.org on the Read The Docs.
 
+[![Build Status](https://travis-ci.com/getfem-doc/mayavi-doc-translations.svg?branch=master)](https://travis-ci.com/getfem-doc/mayavi-doc-translations) [![Documentation Status](https://readthedocs.org/projects/mayavi-ja/badge/?version=latest)](https://mayavi-ja.readthedocs.io/ja/latest/?badge=latest)
+
 This is a project to provide Sphinx official documentation with multiple versions and multiple languages on Read The Docs site.
 
 Current procedure is bit tricky because Read The Docs doesn't have a way to specify options for sphinx-build command.
