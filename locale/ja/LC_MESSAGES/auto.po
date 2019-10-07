@@ -6308,7 +6308,7 @@ msgstr ""
 msgid ""
 "A simple example of how you can use Mayavi without using Envisage or the "
 "Mayavi Envisage application."
-msgstr ""
+msgstr "EnvisageやMayavi Envisageアプリケーションを使用せずにMayaviを使用する簡単な例です。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_standalone.rst:13
 msgid "**Python source code:** :download:`standalone.py`"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-25 09:41+0000\n"
+"POT-Creation-Date: 2019-10-07 09:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -189,7 +189,7 @@ msgid "Beware that you shouldn't call `mlab.show` or start the mainloop in the s
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:211
-msgid "If you want to use Mayavi without the envisage UI or even a traits UI (i.e. with a pure TVTK window) and do off screen rendering with Python scripts you may be interested in the :ref:`examples_offscreen`. This simple example shows how you can use Mayavi without using Envisage or the Mayavi envisage application and still do off screen rendering."
+msgid "If you want to use Mayavi without the envisage UI or even a traits UI (i.e. with a pure TVTK window) and do off screen rendering with Python scripts you may be interested in the :ref:`example_offscreen`. This simple example shows how you can use Mayavi without using Envisage or the Mayavi envisage application and still do off screen rendering."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:218
