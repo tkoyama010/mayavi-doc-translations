@@ -23,13 +23,14 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:2
 msgid "Mayavi 4.7.1"
-msgstr ""
+msgstr "Mayavi 4.7.1"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:4
 msgid ""
 "Thanks to the following who contributed to this release (in alphabetical "
 "order): Poruri Sai Rahul, Prabhu Ramachandran"
 msgstr ""
+"このリリースに貢献してくれた以下の方々に感謝します(アルファベット順):Poruri Sai Rahul,Prabhu Ramachandran"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:7
 msgid "This is a bug-fix release.  3 pull-requests were merged."
