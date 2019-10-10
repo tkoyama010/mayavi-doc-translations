@@ -113,7 +113,7 @@ msgstr ":func:`scalar_scatter` (creates a :ref:`poly_data` を作成)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:82
 msgid ":func:`vector_scatter` (creates an :ref:`poly_data`)"
-msgstr ""
+msgstr ":func:`vector_scatter` (creates an :ref:`poly_data`)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:0
 msgid "implicitly-connected sources"
@@ -121,15 +121,15 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:91
 msgid ":func:`scalar_field` (creates an :ref:`image_data`)"
-msgstr ""
+msgstr ":func:`scalar_field` (creates an :ref:`image_data`)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:96
 msgid ":func:`vector_field` (creates an :ref:`image_data`)"
-msgstr ""
+msgstr ":func:`vector_field` (creates an :ref:`image_data`)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:101
 msgid ":func:`array2d_source` (creates an :ref:`image_data`)"
-msgstr ""
+msgstr ":func:`array2d_source` (creates an :ref:`image_data`)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:0
 msgid "Explicitly-connected sources"
@@ -137,11 +137,11 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:110
 msgid ":func:`line_source` (creates an :ref:`poly_data`)"
-msgstr ""
+msgstr ":func:`line_source` (creates an :ref:`poly_data`)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:115
 msgid ":func:`triangular_mesh_source` (creates an :ref:`poly_data`)"
-msgstr ""
+msgstr ":func:`triangular_mesh_source` (creates an :ref:`poly_data`)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:120
 msgid ""

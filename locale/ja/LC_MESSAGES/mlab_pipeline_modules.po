@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-25 09:41+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,7 +68,7 @@ msgstr ""
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
 msgid "color"
-msgstr ""
+msgstr "color"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:6
@@ -77,7 +81,7 @@ msgstr ""
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
 msgid "colormap"
-msgstr ""
+msgstr "colormap"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:11
@@ -149,7 +153,7 @@ msgstr ""
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
 msgid "reset_zoom"
-msgstr ""
+msgstr "reset_zoom"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:31
@@ -161,7 +165,7 @@ msgstr ""
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
 msgid "transparent"
-msgstr ""
+msgstr "transparent"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:34
@@ -171,7 +175,7 @@ msgstr ""
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
 msgid "view_controls"
-msgstr ""
+msgstr "view_controls"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:37
@@ -183,7 +187,7 @@ msgstr ""
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
 msgid "vmax"
-msgstr ""
+msgstr "vmax"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:40
@@ -195,7 +199,7 @@ msgstr ""
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
 msgid "vmin"
-msgstr ""
+msgstr "vmin"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:43
