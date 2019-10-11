@@ -91,7 +91,7 @@ msgstr ""
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
 msgid "extent"
-msgstr ""
+msgstr "extent"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:13

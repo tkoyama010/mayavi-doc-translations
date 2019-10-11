@@ -56,7 +56,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:35
 msgid "|points3d|"
-msgstr ""
+msgstr "|points3d|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:35
 msgid ""
@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:41
 msgid "|plot3d|"
-msgstr ""
+msgstr "|plot3d|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:41
 msgid ""
@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:59
 msgid "|imshow|"
-msgstr ""
+msgstr "|imshow|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:59
 msgid ":func:`imshow` |hack| View a 2D array as an image."
@@ -89,7 +89,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:63
 msgid "|surf|"
-msgstr ""
+msgstr "|surf|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:63
 msgid ""
@@ -99,7 +99,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:69
 msgid "|contour_surf|"
-msgstr ""
+msgstr "|contour_surf|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:69
 msgid ""
@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:74
 msgid "|mesh|"
-msgstr ""
+msgstr "|mesh|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:74
 msgid ""
@@ -122,7 +122,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:84
 msgid "|barchart|"
-msgstr ""
+msgstr "|barchart|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:84
 msgid ""
@@ -134,7 +134,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:94
 msgid "|triangular_mesh|"
-msgstr ""
+msgstr "|triangular_mesh|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:94
 msgid ""
@@ -180,7 +180,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:150
 msgid "|contour3d|"
-msgstr ""
+msgstr "|contour3d|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:150
 msgid ""
@@ -190,7 +190,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:155
 msgid "|quiver3d|"
-msgstr ""
+msgstr "|quiver3d|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:155
 msgid ""
@@ -201,7 +201,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:162
 msgid "|flow|"
-msgstr ""
+msgstr "|flow|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:162
 msgid ""
@@ -212,7 +212,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:168
 msgid "|slice|"
-msgstr ""
+msgstr "|slice|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:168
 msgid ""
