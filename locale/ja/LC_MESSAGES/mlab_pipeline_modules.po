@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:3
 msgid "Modules and Filters"
-msgstr ""
+msgstr "モジュールとフィルタ"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:5
 msgid ""
@@ -33,6 +33,9 @@ msgid ""
 "The name of the function corresponds to the name of the module, but with "
 "words separated by underscores `_`, rather than alternating capitals."
 msgstr ""
+"Mayaviモジュールまたはフィルタごとに、対応する `mlab.pipeline` "
+"があります。新しいモジュールまたはフィルタが追加されるソースを入力引数として取り、作成されたモジュールオブジェクトを返すパイプラインのファクトリ関数。関数の名前はモジュールの名前に対応しますが、大文字と小文字が交互に使用されるのではなく、単語がアンダースコア"
+" `_` で区切られます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:12
 msgid ""
@@ -40,30 +43,31 @@ msgid ""
 "dataset), does not need to be already present in the figure, it will be "
 "automatically added if necessary."
 msgstr ""
+"入力オブジェクトは、データソース(MayaviデータソースまたはVTKデータセット)である場合、図に存在している必要はなく、必要に応じて自動的に追加されます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:16
 msgid ""
 "Factory functions take keyword arguments controlling some properties of the "
 "object added to the pipeline."
-msgstr ""
+msgstr "ファクトリ関数は、パイプラインに追加されたオブジェクトの一部のプロパティを制御するキーワード引数を取ります。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:19
 msgid ""
 "For instance, the `ScalarCutPlane` module can be added with the following "
 "function:"
-msgstr ""
+msgstr "たとえば、  `ScalarCutPlane` モジュールは次の関数で追加できます。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:1
 msgid ""
 "Applies the ScalarCutPlane mayavi module to the given data source (Mayavi "
 "source, or VTK dataset)."
-msgstr ""
+msgstr "ScalarCutPlane mayaviモジュールを指定のデータソース(Mayaviソース、またはVTKデータセット)に適用します。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:4
 msgid "**Keyword arguments:**"
-msgstr ""
+msgstr "**キーワード引数:**"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
@@ -77,6 +81,8 @@ msgid ""
 "This is specified as a triplet of float ranging from 0 to 1, eg (1, 1, 1) "
 "for white."
 msgstr ""
+"vtkオブジェクトの色。カラーマップを指定した場合、カラーマップを上書きします。これは0から1の範囲のfloatの例えば (1, 1, 1) "
+"として指定されます。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
@@ -86,7 +92,7 @@ msgstr "colormap"
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:11
 msgid "type of colormap to use."
-msgstr ""
+msgstr "使用するカラーマップのタイプ。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
@@ -99,56 +105,57 @@ msgid ""
 "[xmin, xmax, ymin, ymax, zmin, zmax] Default is the x, y, z arrays extent. "
 "Use this to change the extent of the object created."
 msgstr ""
+"[xmin, xmax, ymin, ymax, zmin, zmax] デフォルトはx、y、z配列範囲です。作成したオブジェクトの範囲を変更します。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
 msgid "figure"
-msgstr ""
+msgstr "figure"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:18
 msgid "Must be a Scene or None."
-msgstr ""
+msgstr "SceneまたはNoneでなければなりません。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
 msgid "line_width"
-msgstr ""
+msgstr "line_width"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:20
 msgid "The width of the lines, if any used. Must be a float. Default: 2.0"
-msgstr ""
+msgstr "使用されている場合、線の幅。floatでなければなりません。デフォルトは2.0"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
 msgid "name"
-msgstr ""
+msgstr "name"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:23
 msgid "the name of the vtk object created."
-msgstr ""
+msgstr "作成されたvtkオブジェクトの名前。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
 msgid "opacity"
-msgstr ""
+msgstr "opacity"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:25
 msgid "The overall opacity of the vtk object. Must be a float. Default: 1.0"
-msgstr ""
+msgstr "vtkオブジェクトの全体的な不透明度。floatでなければなりません。デフォルトは1.0"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
 msgid "plane_orientation"
-msgstr ""
+msgstr "plane_orientation"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:28
 msgid "the orientation of the plane Must be a legal value. Default: x_axes"
-msgstr ""
+msgstr "平面の方向は有効な値でなければなりません。デフォルトは x_axes"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
@@ -160,7 +167,7 @@ msgstr "reset_zoom"
 msgid ""
 "Reset the zoom to accomodate the data newly added to the scene. Defaults to "
 "True."
-msgstr ""
+msgstr "シーンに新しく追加されたデータに合わせてズームをリセットします。既定値はTrueです。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
@@ -170,7 +177,7 @@ msgstr "transparent"
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:34
 msgid "make the opacity of the actor depend on the scalar."
-msgstr ""
+msgstr "アクターの不透明度をスカラーに依存させます。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
@@ -182,7 +189,7 @@ msgstr "view_controls"
 msgid ""
 "Whether or not the controls of the cut plane are shown. Must be a boolean. "
 "Default: True"
-msgstr ""
+msgstr "切断面のコントロールを表示するかどうかを指定します。ブール値でなければなりません。デフォルトはTrue"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
@@ -194,7 +201,7 @@ msgstr "vmax"
 msgid ""
 "vmax is used to scale the colormap. If None, the max of the data will be "
 "used"
-msgstr ""
+msgstr "vmaxを使用してカラーマップをスケールします。なしの場合、データの最大値が使用されます。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.modules.scalar_cut_plane:0
@@ -206,7 +213,7 @@ msgstr "vmin"
 msgid ""
 "vmin is used to scale the colormap. If None, the min of the data will be "
 "used"
-msgstr ""
+msgstr "vminを使用してカラーマップをスケールします。なしの場合、データの最小値が使用されます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:24
 msgid ""
@@ -214,3 +221,4 @@ msgid ""
 "for adding modules or filters. You are invited to refer to their docstring "
 "for information on the keyword arguments they accept."
 msgstr ""
+"リストが長いので、ここではモジュールやフィルタを追加するためのファクトリ関数を列挙しません。使用できるキーワード引数については、docstringを参照してください。"

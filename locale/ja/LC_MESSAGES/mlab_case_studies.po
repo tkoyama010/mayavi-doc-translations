@@ -23,41 +23,41 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:4
 msgid "Case studies of some visualizations"
-msgstr ""
+msgstr "視覚化の事例"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:7
 msgid "Visualizing volumetric scalar data"
-msgstr ""
+msgstr "ボリュームスカラーデータの視覚化"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:11
 msgid ""
 "There are three main ways of visualizing a 3D scalar field. Given the "
 "following field::"
-msgstr ""
+msgstr "3Dスカラーフィールドを可視化するには、主に3つの方法があります。次のフィールドを指定します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "Iso-Surfaces"
-msgstr ""
+msgstr "等値面"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:21
 msgid ""
 "To display iso surfaces of the field, the simplest solution is simply to use"
 " the ``mlab`` :func:`contour3d` function::"
-msgstr ""
+msgstr "フィールドの等値面を表示する最も簡単な方法は ``mlab``  :func:`contour3d` 関数を使用することです。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:26
 msgid "|volumetric_contour3d|"
-msgstr ""
+msgstr "|volumetric_contour3d|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:28
 msgid ""
 "The problem with this method is that the outer iso-surfaces tend to hide "
 "inner ones. As a result, quite often only one iso-surface can be visible."
-msgstr ""
+msgstr "この方法の問題は、外側の等値面が内側の等値面を隠す傾向があることです。その結果、1つの等値面しか表示されないことがよくあります。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "Volume rendering"
-msgstr ""
+msgstr "ボリュームレンダリング"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:34
 msgid ""
@@ -65,6 +65,8 @@ msgid ""
 "partly transparent color. This can be achieved with `mlab.pipeline` using "
 "the :func:`scalar_field` source, and the `volume` module::"
 msgstr ""
+"ボリュームレンダリングは、各ボクセルに部分的に透明なカラーを与える高度なテクニックです。これは `mlab.pipeline` で実現できます。 "
+":func:`scalar_field` ソースと `volume` モジュールを使用します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:41
 msgid "|volumetric_volume|"
@@ -77,6 +79,7 @@ msgid ""
 "and upper values to the 20 and 80 percentiles of the data, in order to have "
 "a reasonable fraction of the volume transparent::"
 msgstr ""
+"このような視覚化では、良好な効果を得るために不透明度の転送関数を微調整することが重要です。通常、ボリュームの透過性を適切な割合にするには、下限値と上限値をデータの80パーセンタイルと20パーセンタイルに制限すると便利です。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:51
 msgid "|volumetric_volume_tweaked|"
@@ -90,28 +93,32 @@ msgid ""
 "module, the LUT as defined in the** `Colors and legends` **node are not "
 "used.**"
 msgstr ""
+"モジュールのダイアログボックス(例えば、パイプラインインターフェースを使ったり、 `edit_traits()` "
+"メソッドを使ったりします。)を開き、カラー転送関数を調整してイメージの透明で低強度の領域をレンダリングすると便利です。 **このモジュール** "
+"では、** `Colors and Legends` ** ノードで定義されているLUTは使用されません。**"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:59
 msgid ""
 "The limitations of volume rendering is that, while it is often very pretty, "
 "it can be difficult to analyze the details of the field with it."
-msgstr ""
+msgstr "ボリュームレンダリングの限界は、多くの場合非常にきれいですが、それを使用してフィールドの詳細を分析することが難しいことです。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "Cut planes"
-msgstr ""
+msgstr "切断面"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:66
 msgid ""
 "While less impressive, cut planes are a very informative way of visualizing "
 "the details of a scalar field::"
-msgstr ""
+msgstr "あまり印象的ではありませんが、断面はスカラーフィールドの詳細を視覚化するための非常に有益な方法です。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:79
 msgid ""
 "Image plane widgets can also being created from NumPy arrays using the "
 "``mlab`` :func:`volume_slice` function::"
 msgstr ""
+"イメージプレーンウィジェットは、 ``mlab`` :func:`volume_slice` 関数を使用してNumPy配列から作成することもできます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:84
 msgid "|volumetric_cut_plane|"
@@ -123,17 +130,19 @@ msgid ""
 "by `mlab.pipeline.scalar_field`, but it is very fast. It should thus be "
 "prefered to the scalar cut plane, when possible."
 msgstr ""
+"イメージプレーンウィジェットは、 `mlab.pipeline.scalar_field` "
+"によって作成された正規の間隔のデータでのみ使用できます。したがって、可能な場合はスカラー切断面を優先する必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:90
 msgid ""
 "Clicking and dragging the cut plane is an excellent way of exploring the "
 "field."
-msgstr ""
+msgstr "切断面をクリックしてドラッグすると、フィールドを効率的に表示できます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "A combination of techniques"
-msgstr ""
+msgstr "技術の組み合わせ"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:94
 msgid ""
@@ -142,10 +151,11 @@ msgid ""
 "visualize the details of the field with the cut plane, and the global mass "
 "with a large iso-surface::"
 msgstr ""
+"最後に、切断面を等値面と組み合わせて、等値面を使用してピーク領域のビューを表示したり、切断面を使用してフィールドの詳細を視覚化したり、等値面が大きいグローバル質量を表示したりすることもできます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:108
 msgid "|volumetric_combination|"
-msgstr ""
+msgstr "|volumetric_combination|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:111
 msgid ""
@@ -153,6 +163,8 @@ msgid ""
 "using :func:`contour3d` and :func:`volume_slice` in order to use a single "
 "scalar field as data source."
 msgstr ""
+"上記の例では、データソースとして単一のスカラーフィールドを使用するために、 :func:`contour3d` と "
+":func:`volume_slice` の代わりにmayaviのパイプライン構文を使用しています。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:115
 msgid ""
@@ -162,10 +174,13 @@ msgid ""
 "with `mlab.pipeline.scalar_cut_plane` as the data looses its structure after"
 " thresholding."
 msgstr ""
+"この例では使用しませんが、場合によっては、切断面の前にしきい値フィルタを挿入して、たとえば、の値より小さい領域を削除することができます。 "
+"'s.min()+0.1*s.ptp()' となります。この場合、切断面は `mlab.pipeline.scalar_cut_plane` "
+"で実装する必要があります。しきい値を設定した後でデータの構造体が失われた場合に使用されます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:132
 msgid "Visualizing a vector field"
-msgstr ""
+msgstr "ベクトルフィールドの視覚化"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:140
 msgid ""
@@ -175,26 +190,30 @@ msgid ""
 "cell [1]_, in hydrodynamics, as defined by its components sampled on a grid,"
 " `u`, `v`, `w`::"
 msgstr ""
+"ベクトルフィールド、すなわちボリューム内で連続的に定義されたベクトルは、多くの情報を含んでいるため、視覚化が困難な場合があります。グリッド , `u`,"
+" `v`, `w` でサンプリングされた構成要素によって定義される、流体力学における多軸対流セル [1]_, "
+"の速度場について、異なる可視化を検討します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "Quiver"
-msgstr ""
+msgstr "Quiver"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:156
 msgid ""
 "The simplest visualization of a set of vectors, is using the `mlab` function"
 " `quiver3d`::"
-msgstr ""
+msgstr "ベクトルの集合を最も簡単に視覚化するには、 `mlab` 関数 `quiver3d` を使用します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:164
 msgid ""
 "The main limitation of this visualization is that it positions an arrow for "
 "each sampling point on the grid. As a result the visualization is very busy."
 msgstr ""
+"この視覚化の主な制限は、グリッド上のサンプリングポイントごとに矢印を配置することです。その結果、ビジュアライゼーションは非常にビジーになります。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "Masking vectors"
-msgstr ""
+msgstr "マスクベクトル"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:169
 msgid ""
@@ -203,10 +222,13 @@ msgid ""
 " to build a `vector_field` source, and apply to it the `vectors` module, "
 "with some masking parameters (here we keep only one point out of 20)::"
 msgstr ""
+"表示される矢印の数を減らすために、ベクトルの束だけでなく、ベクトルフィールドを視覚化しているということを利用できます。このためには、 "
+"`vector_field` ソースを構築し、いくつかのマスキングパラメータ(ここでは、私たちは20のうちの一つの点だけをとっておく)を使用して "
+"`vectors` モジュールを適用する必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "A cut plane"
-msgstr ""
+msgstr "切断面"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:181
 msgid ""
@@ -215,10 +237,11 @@ msgid ""
 "moving the cut plane along: clicking on it and dragging it can give a very "
 "clear understanding of the vector field::"
 msgstr ""
+"カットに沿ってベクトルを表示する場合は、カット平面を使用できます。特に、切断面を移動してベクトルフィールドをインタラクティブに検査できます。ベクトルフィールドをクリックしてドラッグすると、ベクトルフィールドを非常に明確に理解できます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "Iso-Surfaces of the magnitude"
-msgstr ""
+msgstr "大きさの等値面"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:191
 msgid ""
@@ -230,10 +253,13 @@ msgid ""
 "gained by changing the values of the contours in the object's property "
 "dialog. ::"
 msgstr ""
+"ベクトルフィールドの重要なパラメータは、その大きさです。ベクトルの法線のアイソサーフェスを表示すると、面白いことがあります。このために、ExtractVectorNormフィルタを使用してベクトルフィールドからスカラフィールドを作成し"
+"、その上でIso-"
+"Surfaceモジュールを使用します。インタラクティブに作業する場合、オブジェクトのプロパティダイアログで輪郭の値を変更すると、フィールドの大きさを十分に理解できます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "The Flow, or the field lines"
-msgstr ""
+msgstr "フローまたはフィールドライン"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:205
 msgid ""
@@ -244,6 +270,9 @@ msgid ""
 " or the mlab :func:`flow` function, which relies on `streamline` "
 "internally::"
 msgstr ""
+"特定のベクトルフィールドでは、フィールドに沿ったフローラインに興味深い意味があります。たとえば、これは流体力学の軌跡、あるいは電磁界の磁力線として解釈することができる。"
+" `streamline` モジュール、または mlab :func:`flow` "
+"関数を使用して、特定のシードサーフェスで生成されたフローラインを表示できます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:221
 msgid ""
@@ -253,6 +282,7 @@ msgid ""
 "vector field. Here is an example of a visualization made by combining the "
 "different tools above::"
 msgstr ""
+"ベクトルフィールドを意味のある形で視覚化するのは困難な作業であり、手元にあるすべてのツールを使用して目的を説明する必要があります。伝えるメッセージを選ぶことが大切です。ベクトルフィールドのすべてを視覚化することはできません。上のさまざまなツールを組み合わせて作成したビジュアライゼーションの例を次に示します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:257
 msgid ""
@@ -265,6 +295,9 @@ msgid ""
 "etc... should be chosen interactively. If reproducibiles are required, the "
 "chosen values can be added in the original script."
 msgstr ""
+"このセクションの大部分は、ビジュアル化オブジェクトを作成するためのコードの断片に集中していますが、Mayaviはインタラクティブなプログラムであり、これらのオブジェクトのプロパティはインタラクティブに変更できることを覚えておくことが重要です。"
+" :ref:`mlab-changing-objects-interactively` "
+"を参照。視覚化に最適なパラメータを事前に選択することは、多くの場合不可能です。カラー、輪郭値、カラーマップ、ビュー角度など。対話的に選択する必要があります。再現性が必要な場合は、選択した値を元のスクリプトに追加できます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:267
 msgid ""
@@ -280,9 +313,16 @@ msgid ""
 "better the link between the lines of code generated by the record feature "
 "and `mlab`. ."
 msgstr ""
+"さらに、  `mlab` "
+"関数は、可視化オブジェクトの可能性のほんの一部しか公開しません。ダイアログには、mlab関数によって返されるオブジェクトの属性によって完全に制御される、これらの機能の多くが表示されます。これらのオブジェクトはVTKオブジェクトから作成されているため、非常に豊富です。これらのファイルを表示しているときや、VTKのドキュメントでは、修正すべき適切な属性を見つけるのが難しいかもしれません。ですから、パイプラインビューダイアログを使って対話的に変更し、"
+" :ref:`record feature <record_feature>` を使って対応するコード行を見つけるのが最も簡単な方法です。 "
+":ref:`organisation_mayavi_visualisations` を参照して、レコード機能によって生成されたコード行と `mlab` "
+"の間のリンクをよりよく理解してください。."
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:284
 msgid ""
 "Toussaint, V.; Carriere, P. & Raynal, F. A numerical Eulerian approach to "
 "mixing by chaotic advection Phys. Fluids, 1995, 7, 2587"
 msgstr ""
+"Toussaint, V.; Carriere, P. & Raynal, F. A numerical Eulerian approach to "
+"mixing by chaotic advection Phys. Fluids, 1995, 7, 2587"

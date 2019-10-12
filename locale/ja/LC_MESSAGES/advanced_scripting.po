@@ -346,6 +346,7 @@ msgid ""
 "There are plenty of examples illustrating various things in the "
 "``examples/mayavi`` directory.  These are all fairly well documented."
 msgstr ""
+"``examples/mayavi`` ディレクトリには、さまざまなことを説明した例がたくさんあります。これらはすべてかなりよく文書化されています。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:318
 msgid ""
@@ -354,12 +355,14 @@ msgid ""
 "example illustrates how this may be done using off screen rendering (if "
 "supported by your particular build of VTK)."
 msgstr ""
+"特に ``standalone.py`` の例は、想定されるアプリケーションをまったく使用せずにmayaviをスクリプト化する方法を示しています。 "
+"``offscreen.py`` は、(特定のビルドのVTKでサポートされている場合)オフスクリーンレンダリングを使用してこれを行う方法を示しています。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:323
 msgid ""
 "``examples/README.txt`` contains some information on the recommended ways to"
 " script and some additional information."
-msgstr ""
+msgstr "``examples/README.txt`` には、スクリプトの推奨方法と追加情報が含まれています。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:329
 msgid "Using the Mayavi envisage plugins"
@@ -367,7 +370,7 @@ msgstr "Mayavi envisageプラグインの使用"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:331
 msgid "The Mayavi-related plugin definitions to use are:"
-msgstr ""
+msgstr "使用するMayavi関連のプラグイン定義は次のとおりです。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:333
 msgid "``mayavi_plugin.py``"
@@ -384,6 +387,9 @@ msgid ""
 "``examples/mayavi/explorer`` also demonstrates how to use Mayavi as an "
 "envisage plugin."
 msgstr ""
+"これらは ``mayavi.plugins`` にあります。このコマンドの使用例については、 ``mayavi.plugins.app`` "
+"を参照してください。 ``examples/mayavi/explorer`` "
+"にあるexplorer3Dの例でも、Mayaviを予想プラグインとして使う方法を説明しています。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:341
 msgid ""
@@ -392,6 +398,7 @@ msgid ""
 "that Mayavi creates three workbench service offers for your convenience.  "
 "These are:"
 msgstr ""
+"アプリケーション用のEnvisageプラグインを作成していて、プラグイン/アプリケーションからMayaviプラグインを使用したい場合は、Mayaviが便利な3つのワークベンチサービスを作成することに注意してください。次のものがあります。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:346
 msgid ""
@@ -401,11 +408,15 @@ msgid ""
 "conveniences while scripting from the UI.  It has an ``engine`` trait that "
 "is a reference to the running Mayavi engine."
 msgstr ""
+"``mayavi.plugins.script.Script``: これはmayaviを簡単にスクリプト化するために使用できるスクリプト "
+"``mayavi.plugins.script.Script`` "
+"です。これは単純なラッパー・オブジェクトで、UIからスクリプトを作成する際に便利な機能を提供するだけのもので、実行中のMayaviエンジンを参照する "
+"``engine`` 特性を持っています。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:353
 msgid ""
 "``mayavi.core.engine.Engine``: This is the running Mayavi engine instance."
-msgstr ""
+msgstr "``mayavi.core.engine.Engine``: これは実行中のMayaviエンジンインスタンスです。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:356
 msgid ""
@@ -414,3 +425,5 @@ msgid ""
 "directory.  This may be studied to understand how you may do the same in "
 "your envisage applications."
 msgstr ""
+"``examples/mayavi/explorer`` "
+"ディレクトリには、envisageアプリケーションでのMayaviプラグインの使用例が含まれています。これは、想定しているアプリケーションで同じことがどのように行われるかを理解するために検討することができます。"

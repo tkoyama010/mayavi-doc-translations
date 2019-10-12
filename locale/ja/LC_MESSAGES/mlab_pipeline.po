@@ -117,7 +117,7 @@ msgstr ":func:`vector_scatter` (creates an :ref:`poly_data`)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:0
 msgid "implicitly-connected sources"
-msgstr ""
+msgstr "暗黙的に接続されたソース"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:91
 msgid ":func:`scalar_field` (creates an :ref:`image_data`)"
@@ -133,7 +133,7 @@ msgstr ":func:`array2d_source` (creates an :ref:`image_data`)"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:0
 msgid "Explicitly-connected sources"
-msgstr ""
+msgstr "明示的に接続されたソース"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:110
 msgid ":func:`line_source` (creates an :ref:`poly_data`)"
@@ -152,6 +152,8 @@ msgid ""
 " same shape as the shape of the input array, in other words, the array "
 "describes an image, possibly 3 dimensional."
 msgstr ""
+"すべての `mlab.pipline` "
+"のソースファクトリは、numpy配列を取り、パイプラインに追加されたMayaviソースオブジェクトを返す関数です。ただし、暗黙に接続されたソースは引数として整形式の配列を必要とします。つまり、データは入力配列の形状と同じ形状の規則的な直交グリッド上に存在することになります。つまり、配列は3次元のイメージを表します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:129
 msgid ""
@@ -159,10 +161,12 @@ msgid ""
 "non-orthogonal grid. See :ref:`the section on data structures <data-"
 "structures-used-by-mayavi>`."
 msgstr ""
+"不規則格子または非直交格子のような、より複雑なデータ構造を作成することができる。関連項目 :ref:`the section on data "
+"structures <data-structures-used-by-mayavi>` 。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:135
 msgid "Modules and filters"
-msgstr ""
+msgstr "モジュールとフィルタ"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:137
 msgid ""
@@ -172,6 +176,10 @@ msgid ""
 "name by underscores. Thus `ScalarCutPlane` corresponds to "
 "`scalar_cut_plane`."
 msgstr ""
+"各Mayaviモジュールまたはフィルタ( :ref:`modules` および :ref:`filters` )には、対応する "
+"`mlab.pipeline` "
+"関数。この関数の名前は、モジュールまたはフィルタ名の大文字と小文字が交互に入れ替わることによって作成されます。したがって、 "
+"`ScalarCutPlane` は `scalar_cut_plane` に相当します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:143
 msgid ""
@@ -186,3 +194,7 @@ msgid ""
 "objects created. For more information, please check out the docstrings. "
 "Full, detailed, usage examples are given in the next subsection."
 msgstr ""
+"一般的には `mlab.pipeline` "
+"モジュールとフィルタファクトリー関数は、対応するオブジェクトを作成して接続するだけです。ただし、キーワード引数として公開される追加ロジックを含めることもできます。たとえば、必要に応じて、簡単にカラーマップを設定したり、モジュールの色を指定したりできます。頻繁な操作を簡単にするための"
+" `mlab` "
+"インタフェースの目的に従って、キーワード引数を使用して、作成されたオブジェクトのプロパティを要件に合うように選択します。したがって、作成されたオブジェクトの属性を設定するよりも、キーワード引数を使用する方が簡単です。詳細については、docstringsを参照してください。完全で詳細な使用例については、次のサブセクションで説明します。"

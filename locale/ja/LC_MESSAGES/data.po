@@ -282,17 +282,17 @@ msgstr "結果のデータは体積では定義されず、指定された位置
 
 #: ../../mayavi/docs/source/mayavi/data.rst:185
 msgid "To define volumetric data, you can use a ``delaunay3d`` filter::"
-msgstr ""
+msgstr "ボリュームデータを定義するには、 ``delaunay3d`` フィルタを使用します。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:189
 msgid ""
 "Now you can probe the value of the volumetric data anywhere. It will be non "
 "zero in the convex hull of the points::"
-msgstr ""
+msgstr "これで、任意の場所でボリュームデータの値を調べることができます。点の凸包では0以外になります。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:204
 msgid "Inspecting the internals of the data structures"
-msgstr ""
+msgstr "データ構造の内部の検査"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:206
 msgid ""
@@ -300,6 +300,8 @@ msgid ""
 "rather than the values they represent, for instance to replicate them. For "
 "this, you can retrieve the TVTK datasets, and inspect them."
 msgstr ""
+"例えば、データセットを複製する場合など、TVTKデータセットが表す値ではなく、データセット自体が保持するデータに関心があるかもしれません "
+"。このため、TVTKのデータセットを取得して検査することができます。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:211
 msgid "Extracting data points and values"
@@ -657,7 +659,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/data.rst:562
 msgid "These scripts may be run like so::"
-msgstr ""
+msgstr "これらのスクリプトは、次のように実行できます。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:566
 msgid "or better yet, all in one go like so::"

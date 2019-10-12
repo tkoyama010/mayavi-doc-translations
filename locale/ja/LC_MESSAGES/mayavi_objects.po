@@ -494,6 +494,9 @@ msgid ""
 "``mayavi.core.pipeline_base`` module. Derives from ``Base`` which merely "
 "abstracts out common functionality."
 msgstr ""
+"``PipelineBase`` は、(実際にはpipelineの *中* ではありませんがpipelineを含む) ``Scene`` と "
+"``Engine`` を除く、mayaviパイプライン内のすべてのオブジェクトの基本クラスです。 "
+"``mayavi.core.pipeline_base`` モジュールで定義されます。共通の機能を抽象化するだけの ``Base`` から派生します。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:294
 msgid "``pipeline_changed``"
@@ -503,7 +506,7 @@ msgstr "``pipeline_changed``"
 msgid ""
 "This is an ``Event`` Trait: it can only be assigned to and determines when "
 "the pipeline has been changed. Therefore, if one does::"
-msgstr ""
+msgstr "これは ``Event`` Traitで、パイプラインがいつ変更されたかを割り当てることができます。そのため、次のことを行うとします。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:300
 msgid ""
@@ -511,6 +514,9 @@ msgid ""
 "``object`` in the pipeline are automatically setup to listen to events from "
 "an upstream object and will call their ``update_pipeline`` method."
 msgstr ""
+"``pipeline_changed`` イベントが発生します。パイプライン内の ``object`` "
+"の下流にあるオブジェクトは、上流のオブジェクトからのイベントを受信するように自動的に設定され、 ``update_pipeline`` "
+"メソッドを呼び出します。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:306
 msgid "``data_changed``"
@@ -521,14 +527,15 @@ msgid ""
 "Similarly, if the ``data_changed`` event is fired then downstream objects "
 "will automatically call their ``update_data`` methods."
 msgstr ""
+"同様に、 ``data_changed`` イベントが発生すると、下流のオブジェクトは自動的に ``update_data`` メソッドを呼び出します。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:310
 msgid "a list of outputs produced by the object."
-msgstr ""
+msgstr "オブジェクトによって生成された出力のリスト。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:312
 msgid "the scene to which the object is attached."
-msgstr ""
+msgstr "オブジェクトがアタッチされているシーン。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:314
 msgid "``visible``"
@@ -538,7 +545,7 @@ msgstr "``visible``"
 msgid ""
 "a boolean that toggle the Hide/Show status of the object and its downstream "
 "pipeline."
-msgstr ""
+msgstr "オブジェクトとその下流パイプラインの非表示/表示ステータスを切り替えるブール値。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:321
 msgid "``remove()``"
@@ -546,30 +553,34 @@ msgstr "``remove()``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:321
 msgid "can be used to remove the object (if added) from the mayavi pipeline."
-msgstr ""
+msgstr "を使用して、mayaviパイプラインから(追加されている場合)オブジェクトを削除できます。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:327
 msgid "API reference for the :class:`PipelineBase` class."
-msgstr ""
+msgstr ":class:`PipelineBase` クラスのAPIリファレンスです。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:330
 msgid "Class hierarchy"
-msgstr ""
+msgstr "クラス階層"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:332
 msgid ""
 "The following figures show the class hierarchy of the various objects "
 "involved."
-msgstr ""
+msgstr "次の図は、関連するさまざまなオブジェクトのクラス階層を示しています。"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:339
 msgid ""
 "*This hierarchy depicts the ``Base`` object, the ``Scene``, ``PipelineBase``"
 " and the ``ModuleManager``.*"
 msgstr ""
+"*この階層は、 ``Base`` オブジェクト、 ``Scene`` 、``PipelineBase``  、および ``ModuleManager``"
+" を表します。*"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:346
 msgid ""
 "*This hierarchy depicts the ``PipelineBase`` object, the ``Source``, "
 "``Filter``, ``Module`` and the ``Component``.*"
 msgstr ""
+"*この階層は、 ``PipelineBase`` オブジェクト、 ``Source`` 、 ``Filter``  、および ``Module`` と "
+"``Component`` を表します。*"

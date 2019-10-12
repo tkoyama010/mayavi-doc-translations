@@ -34,6 +34,10 @@ msgid ""
 "to call :func:`show` each time you want to display one or more figures and "
 "allow the user to interact with them."
 msgstr ""
+"Mlabは他のMayavi同様、インタラクティブなアプリケーションです。インタラクティブ環境(次の段落を参照)に入っていない場合は、 "
+":func:`show` "
+"関数を使用して、図形やその他の図形要素を操作する必要があります。例えば、スクリプトを作成している場合、1つまたは複数の図形を表示し、ユーザがそれらを操作できるようにするには、その都度"
+" :func:`show` を呼び出す必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:14
 msgid "Using mlab interactively"
@@ -44,6 +48,8 @@ msgid ""
 "Using IPython_, mlab instructions can be run interactively, or in scripts "
 "using IPython_'s ``%run`` command::"
 msgstr ""
+"IPython_ を使用すると、 mlab 命令をインタラクティブに実行できます。また、 IPython_'s ``%run`` "
+"コマンドを使用してスクリプト内で実行することもできます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:21
 msgid ""
@@ -51,6 +57,9 @@ msgid ""
 "the plotting commands are interactive: they have an immediate effect on the "
 "figure, alleviating the need to use the :func:`show` function."
 msgstr ""
+"`--gui=qt` オプションを指定して IPython_ "
+"を起動する必要があります。この環境では、プロットコマンドはインタラクティブです。これらのコマンドは図形に即座に影響を与え、 :func:`show` "
+"関数を使用する必要性を軽減します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:28
 msgid ""
@@ -59,6 +68,8 @@ msgid ""
 "application (such as other Envisage-based applications, or SPE, Stani's "
 "Python Editor)."
 msgstr ""
+"mlabは、mayavi2アプリケーションのPythonシェル、またはwxPythonベースのアプリケーション(他のEnvisageベースのアプリケーションやSPEなど、Stani氏のPython"
+" Editor)の任意のインタラクティブPythonシェルで、インタラクティブに使用することもできます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:34
 msgid "Using together with Matplotlib"
@@ -68,25 +79,25 @@ msgstr "Matplotlibと一緒に使用する"
 msgid ""
 "If you want to use Matplotlib's interactive plotting with Mayavi's mlab in "
 "IPython you should:"
-msgstr ""
+msgstr "IPythonでMatplotlibの対話型プロットをMayaviのmlabで使用する場合は、次の操作を実行します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:39
 msgid "start IPython with::"
-msgstr ""
+msgstr "次のコマンドでIPythonを起動します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:43
 msgid "alternatively, start IPython with the `--gui=qt` option::"
-msgstr ""
+msgstr "もしくは、 `--gui=qt` オプションを指定してIPythonを起動します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:47
 msgid ""
 "and **before** importing any matplotlib modules, enter the following Python "
 "commands::"
-msgstr ""
+msgstr "およびmatplotlibモジュールをインポートする **前** に、次のPythonコマンドを入力します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:54
 msgid "one could also use the ``--pylab`` option to IPython as follows::"
-msgstr ""
+msgstr "以下のようにIPythonに対して ``--pylab`` オプションを使うこともできます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:60
 msgid ""
@@ -94,12 +105,14 @@ msgid ""
 "can change you default matplotlib backend, by editing the "
 "`~/.matplotlib/matplotlibrc` to add the following line::"
 msgstr ""
+"デフォルトでIPythonでmatplotlibとmlabを一緒に動作させるには、デフォルトのmatplotlibバックエンドを変更します。 "
+"`~/matplotlib/matplotlibrc` に次の行を追加します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:66
 msgid ""
 "If for some reason, the Qt backend does not work, you can use the wx "
 "backend.  To do this you may do::"
-msgstr ""
+msgstr "何らかの理由でQtバックエンドが動作しない場合は、wxバックエンドを使用します。これを行うには、次の操作を行います。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:72
 msgid ""
@@ -109,10 +122,13 @@ msgid ""
 "succeeds.  With recent releases of traitsui_, the default is Qt.  The "
 "possible options for ``ETS_TOOLKIT`` are:"
 msgstr ""
+"Mayaviに関する限り、 ``ETS_TOOLKIT`` "
+"環境変数を使用して適切なツールキットを選択します。これが設定されていない場合、サポートされているツールキットは、成功するまでバージョン依存の順序で試行されます。"
+" traitsui_ の最近のリリースでは、デフォルトはQtです。 ``ETS_TOOLKIT`` のオプションは以下のとおりです。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:78
 msgid "`qt4`: to use the Qt backend (either PySide or PyQt4),"
-msgstr ""
+msgstr "`qt4`: Qtバックエンドを使う場合(PySideまたはPyQt4)、"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:79
 msgid "`wx`: to use wxPython,"
@@ -120,11 +136,11 @@ msgstr "`wx`: wxPythonを使うには"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:80
 msgid "`null`: to use no UI toolkit."
-msgstr ""
+msgstr "`null`:UI ツールキットを使用しない。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rstNone
 msgid "Capturing mlab plots to integrate in pylab"
-msgstr ""
+msgstr "pylabに組み込むためのmlabプロットのキャプチャ"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:86
 msgid ""
@@ -147,6 +163,10 @@ msgid ""
 "``Control-r``.  It can also be executed during the start of the Mayavi "
 "application using the ``-x`` command line switch."
 msgstr ""
+"mlabコマンドをファイルに書き込み、スクリプトを作成することができます。このスクリプトをMayaviアプリケーションにロードするには、 "
+"*File->Open file* メニューエントリを使用し、 *File->Refresh code* メニューエントリを使用するか、または  "
+"``Control-r`` キーを押します。また、 ``-x`` "
+"コマンドラインスイッチを使用して、Mayaviアプリケーションの起動中に実行することもできます。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:99
 msgid ""
@@ -155,12 +175,16 @@ msgid ""
 "function (as shown in the demo_ above) to pause your script and have the "
 "user interact with the figure."
 msgstr ""
+"前述したように、インタラクティブ環境の外で実行する場合は、たとえば `python myscript.py` "
+"を使用します。スクリプトを一時停止し、ユーザが図を操作できるようにするには、 :func:`show` "
+"関数(上のデモに示されているように)を呼び出す必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:107
 msgid ""
 "You can also use :func:`show` to decorate a function, and have it run in the"
 " event-loop, which gives you more flexibility::"
 msgstr ""
+"次のように :func:`show` を使用して関数を修飾し、event-loopで実行させることもできます。これにより、柔軟性が増します。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:117
 msgid ""
@@ -169,3 +193,6 @@ msgid ""
 "function. If an interactive environment is not running, `mlab` will start "
 "one and the image function will not return until it is closed."
 msgstr ""
+"このデコレータにより、  `image` 関数が呼び出されるたびに、  `mlab` は、 `image` "
+"関数を実行する前に対話環境が実行されていることを確認します。対話型環境が実行されていない場合は、 `mlab` "
+"が起動し、イメージ関数は閉じられるまで戻りません。"
