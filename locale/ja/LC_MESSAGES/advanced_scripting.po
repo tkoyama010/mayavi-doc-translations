@@ -183,6 +183,15 @@ msgid ""
 "can use the ``remove`` method to do so.  For example (the following will "
 "require that you use `ipython --gui=qt`)::"
 msgstr ""
+"Mayaviパイプラインのすべてのオブジェクトには、 ``start`` メソッドと ``stop`` "
+"メソッドがあります。この理由は、Mayaviのオブジェクトは起動されない限り使用できない(出力がない場合があります。)からです。同様に、 "
+"``stop`` メソッドはオブジェクトを \"deactivates\" "
+"します。これは、Mayaviが基本的に下にあるVTKオブジェクトを操作するためです。これらのオブジェクトは、有用な操作を行うために入力を必要とします。したがって、パイプラインに接続されていないオブジェクトは使用できません。たとえば、"
+" ``IsoSurface`` "
+"モジュールを考えてみましょう。等高線を作成するには、データが必要です。したがって、分離されたモジュールは全く役に立たない。これはMayaviパイプラインに追加された場合にのみ使用できます。オブジェクトがパイプラインに追加されると、入力が設定され、その"
+" ``start``メソッドが自動的に呼び出されます。オブジェクトがパイプラインから削除されると、その ``stop`` "
+"メソッドが自動的に呼び出されます。mayaviパイプラインからオブジェクトを削除する場合は、 ``remove`` "
+"メソッドを使用して削除できます。例(以下では `ipython --gui=qt` を使う必要があります。)"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:141
 msgid ""
@@ -194,6 +203,11 @@ msgid ""
 " \"intelligent\" and will try to appropriately add the child in the right "
 "place based on the context."
 msgstr ""
+"``Engine`` オブジェクトを除き、Mayaviパイプラインの他のすべてのオブジェクトには、オブジェクトが関連付けられている現在の "
+"``tvtk.pyface.tvtk_scene.TVTKScene`` インスタンスを参照する ``scene`` "
+"traitがあります。オブジェクトには、 \"children\" オブジェクトを追加してパイプラインを構築する ``add_child`` "
+"メソッドもあります。 ``add_child`` のメソッドは \"intelligent\" "
+"で、コンテキストに基づいて適切な場所に子を追加しようとします。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:150
 msgid "Scripting the ``mayavi2`` application"
@@ -206,6 +220,9 @@ msgid ""
 "This code handles the command line argument parsing and runs the "
 "application."
 msgstr ""
+"``mayavi2`` アプリケーションは ``mayavi.scripts.mayavi2`` モジュールに実装されます( ``mayavi2`` "
+"スクリプトではなく ``mayavi2.py`` "
+"ファイルを参照してください)。このコードは、コマンドライン引数の解析を処理し、アプリケーションを実行します。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:157
 msgid ""
@@ -222,6 +239,15 @@ msgid ""
 "uses mayavi but does not show its user interface.  An example of how this "
 "may be done is provided in ``examples/mayavi/nongui.py``."
 msgstr ""
+"``mayavi2`` はEnvisage_applicationです。Envisageアプリケーションを ``main`` "
+"メソッドで起動します。このコードは ``mayavi.plugins.app`` "
+"モジュールにあります。Mayaviはその機能を構築するためにいくつかの予想されるプラグインを使用する。これらのプラグインは、 "
+"``mayavi.plugins.app`` モジュールで定義されます。このモジュールには、デフォルトのプラグインのリストを返す2つの関数 "
+"``get_plugins`` と "
+"``get_non_gui_plugins``があります。デフォルトのアプリケーションは前者を使用して、ユーザーが使用できるGUIを生成します。後者 ("
+" ``get_non_gui_plugins`` ) "
+"を使用すると、アプリケーションの実行時にmayaviツリービュー、オブジェクトエディタ、およびメニュー項目を使用できません。これにより、開発者はmayaviを使用するがユーザインタフェースを表示しないアプリケーションを作成できます。これを行う方法の例を"
+" ``examples/mayavi/nongui.py`` に示す。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:175
 msgid "Scripting from the UI"
@@ -238,6 +264,11 @@ msgid ""
 "the running mayavi engine.  Note that it is just as convenient to use an "
 "``Engine`` instance itself to script mayavi."
 msgstr ""
+"``mayavi2`` アプリケーションを使用する場合、UI上の埋め込みPythonインタプリタからスクリプトを実行できます。インタプリタ上では、 "
+"``mayavi`` という名前が自動的に ``mayavi.plugins.script.Script`` "
+"インスタンスにバインドされます。このインスタンスを使用すると、mayaviを簡単にスクリプト化できます。このインスタンスは単純なラッパーオブジェクトで、UIからスクリプトを作成するときに便利な機能を提供するだけです。このインスタンスには、実行中のmayaviエンジンを参照する"
+" ``engine`` traitがあります。mayaviのスクリプトに ``Engine`` "
+"インスタンス自体を使用するのと同じくらい便利であることに注意してください。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:187
 msgid ""
@@ -258,6 +289,12 @@ msgid ""
 "described earlier.  ``Control-s`` will save the script. ``Control-b`` "
 "increases the font size and ``Control-n`` reduces it."
 msgstr ""
+"`File->Open Text File...` メニューを選択して既存のPythonファイルをテキストエディタで開くか、 `File->New "
+"Text File` メニューを選択して新しいファイルを作成します。テキストエディタはPythonに対応しており、 ``mayavi`` "
+"の名前がシェル上の ``Script`` "
+"インスタンスにバインドされていると仮定してスクリプトを書くことができます。このスクリプトを実行するには、前述のように ``Control-r`` "
+"キーを押します。 ``Control-s`` はスクリプトを保存します。 ``Control-b`` はフォントサイズを大きくし、 "
+"``Control-n`` はフォントサイズを小さくします。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:199
 msgid ""
@@ -265,6 +302,7 @@ msgid ""
 " on the interpreter or on the editor, one may save the contents to a file, "
 "say ``script.py`` and then the next time this script can be run like so::"
 msgstr ""
+"この種のスクリプトの良いところは、インタプリタやエディタで何かを書いた場合、その内容をファイルに保存できることです。次にこのスクリプトを次のように実行します。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:206
 msgid ""
@@ -273,12 +311,16 @@ msgid ""
 "very convenient.  It is possible to have mayavi execute multiple scripts.  "
 "For example::"
 msgstr ""
+"これにより、のスクリプトが自動的に実行されます。 ``mayavi`` という名前はスクリプトで使用でき、 ``Script`` "
+"インスタンスにバインドされます。これはとても便利です。mayaviに複数のスクリプトを実行させることができます。次に例を示します。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:213
 msgid ""
 "will load the ``foo.vtk`` file, create an ``IsoSurface`` module, then run "
 "``setup_iso.py`` and then run ``script2.py``."
 msgstr ""
+"は ``foo.vtk`` ファイルをロードし、 ``IsoSurface`` モジュールを作成し、 ``setup_iso.py`` を実行してから "
+"``script2.py`` を実行します。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:216
 msgid ""
@@ -299,6 +341,9 @@ msgid ""
 "invoked with the ``--gui=qt`` command line option in order to allow one to "
 "interactively script the mayavi application::"
 msgstr ""
+"IPython_ "
+"を使用してMayaviをスクリプト化することができます。mayaviアプリケーションをインタラクティブにスクリプト化できるようにするには、IPythonを"
+" ``--gui=qt`` コマンドラインオプションで起動する必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:230
 msgid "To start a visualization do the following::"
@@ -309,12 +354,13 @@ msgid ""
 "It is also possible to use `mlab` (see :ref:`simple-scripting-with-mlab`) "
 "for this purpose::"
 msgstr ""
+"この目的のために `mlab` (  :ref:`simple-scripting-with-mlab` を参照してください)を使うこともできます。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:244
 msgid ""
 "With this it should be possible to script Mayavi just the way it is done on "
 "the embedded interpreter or on the text editor."
-msgstr ""
+msgstr "これにより、組み込みインタプリタまたはテキストエディタで実行されるのと同じ方法でMayaviをスクリプト化できるはずです。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:250
 msgid "An example"
@@ -327,6 +373,8 @@ msgid ""
 "embedded Python shell inside Mayavi or if you run it as ``mayavi2 -x "
 "script.py``)::"
 msgstr ""
+"以下は、Mayaviスクリプトのさまざまな機能を示すサンプルスクリプトです(これは、Mayavi内部に埋め込まれたPythonシェルから以下を実行する場合、または"
+" ``mayavi2 -x script.py`` として実行する場合に機能します)。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:305
 msgid ""
@@ -334,12 +382,14 @@ msgid ""
 "be able to navigate to a particular module/object.  In the above this could "
 "be achieved as follows::"
 msgstr ""
+"Mayaviの ``Script`` インスタンスや ``Engine`` "
+"インスタンスでは、特定のモジュールやオブジェクトに移動できると便利な場合があります。上記の例では、次のようになります。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:312
 msgid ""
 "In this case ``x`` will be set to the ``Streamline`` instance that we just "
 "created."
-msgstr ""
+msgstr "この場合、  ``x`` は作成した ``Streamline`` インスタンスに設定されます。"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:315
 msgid ""

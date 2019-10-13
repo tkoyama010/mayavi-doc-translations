@@ -305,7 +305,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/data.rst:211
 msgid "Extracting data points and values"
-msgstr ""
+msgstr "データポイントと値の抽出"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:213
 msgid ""
@@ -313,18 +313,20 @@ msgid ""
 "`points` attribute. Retrieving the dataset from the `field` object of the "
 "previous example, we can view the data points::"
 msgstr ""
+"TVTKデータセットのすべての点の位置は、その `points` 属性を介してアクセスすることができる。前の例の `field` "
+"オブジェクトからデータセットを取得すると、データポイントを表示できます。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:222
 msgid ""
 "This is a TVTK array. For us, it is more useful to convert it to a numpy "
 "array::"
-msgstr ""
+msgstr "これはTVTK配列です。私たちにとっては、numpy配列に変換した方が便利です。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:229
 msgid ""
 "To retrieve the original `x`, `y`, `z` positions of the data points "
 "specified, we can transpose the array::"
-msgstr ""
+msgstr "指定されたデータポイントの元の `x`, `y`, `z` の位置を取得するには、次のように配列を転置します。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:234
 msgid ""
@@ -332,10 +334,12 @@ msgid ""
 "attribute of the dataset, as the data is located on the points, and not in "
 "the cells, and it is scalar data::"
 msgstr ""
+"対応するデータ値は、データがセルではなくポイント上にあり、スカラーデータであるため、データセットの `point_data.scalars` "
+"属性で見つけることができます。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:243
 msgid "Extracting lines"
-msgstr ""
+msgstr "線の抽出"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:245
 msgid ""
@@ -343,6 +347,7 @@ msgid ""
 "the ExtractEdges filter to the `field` from the previous example and inspect"
 " its output::"
 msgstr ""
+"Delaunayテッセレーションのエッジを抽出する場合は、前の例の `field` にExtractEdgesフィルタを適用し、その出力を確認します。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:253
 msgid ""
@@ -351,6 +356,8 @@ msgid ""
 "the `lines` attribute (that we convert to a numpy array using its "
 "`.to_array()` method)::"
 msgstr ""
+"出力が PolyData_ データセットであることがわかります。これらがどのように構築されているか( PolyData_ 参照)を見ると、接続情報が "
+"`lines` 属性( `.to_array()` メソッドを使ってnumpy配列に変換します。)で役立つことがわかります。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:262
 msgid ""
