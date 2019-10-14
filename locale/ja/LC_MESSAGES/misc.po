@@ -200,7 +200,7 @@ msgid ""
 "merged only after it is certain that things are working out, which means "
 "that `Travis`_ and `Appveyor`_ tests pass."
 msgstr ""
-"**master**分岐は100%安定です(でなければなりません)。pull requestがマージされるのは、 `Travis`_ と "
+"**master** ブランチは100%安定です(でなければなりません)。pull requestがマージされるのは、 `Travis`_ と "
 "`Appveyor`_ のテストに合格した後です。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:120

@@ -366,16 +366,19 @@ msgid ""
 "retrieved earlier. Here we have only sets of pairs of points connected "
 "together: the array is an alternation of `2` followed by a pair of indices."
 msgstr ""
+"この配列を構築する方法は、前に検索したpoints配列内で相互に接続されたデータポイントのインデックスが続く長さ記述子のシーケンスです。ここでは、接続されている点のペアのセットのみが存在します。つまり、配列は"
+"  `2` とそれに続くインデックスのペアの交互表現です。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:268
 msgid ""
 "A full example illustrating how to use the VTK Delaunay filter to extract a "
 "graph is given in :ref:`example_delaunay_graph`."
 msgstr ""
+"VTK Delaunayフィルターを使ってグラフを抽出する方法の完全な例は、 :ref:`example_delaunay_graph` にあります。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:273
 msgid "Headless use of Mayavi for the algorithms, without visualization"
-msgstr ""
+msgstr "アルゴリズムにMayaviをヘッドレスで使用し、視覚化を行いません"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:275
 msgid ""
@@ -383,6 +386,7 @@ msgid ""
 "just for the numerical algorithm operating on 3D data, as the Delaunay "
 "tessellation and interpolation demoed."
 msgstr ""
+"上記の例からわかるように、Delaunayテッセレーションと補間のデモのように、3Dデータを操作する数値アルゴリズムだけにMayaviを使用すると面白い場合があります。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:279
 msgid ""
@@ -390,94 +394,96 @@ msgid ""
 "argument `figure=False`. As a result the sources will not be attached to any"
 " engine, but you will still be able to use filters, and to probe the data::"
 msgstr ""
+"このような例をヘッドレスで実行するには、キーワード引数 `figure=False` "
+"を使用してソースを作成します。その結果、ソースはどのエンジンにも接続されませんが、フィルタを使用してデータを検証できます。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:290
 msgid "Dissection of the different TVTK datasets"
-msgstr ""
+msgstr "異なるTVTKデータセットの分離"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:292
 msgid ""
 "The 5 TVTK structures used are the following (ordered by the cost of "
 "visualizing them).:"
-msgstr ""
+msgstr "使用される5つのTVTK構造は、次のとおりです(目に見えるようにするためのコストです)。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:296
 msgid "VTK name"
-msgstr ""
+msgstr "VTK名"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:296
 msgid "Suitable for"
-msgstr ""
+msgstr "適している場合"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:296
 msgid "Required information"
-msgstr ""
+msgstr "必要な情報"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:298
 msgid "ImageData_"
-msgstr ""
+msgstr "ImageData_"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:298
 #: ../../mayavi/docs/source/mayavi/data.rst:299
 #: ../../mayavi/docs/source/mayavi/data.rst:300
 msgid "Implicit"
-msgstr ""
+msgstr "暗黙的"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:298
 #: ../../mayavi/docs/source/mayavi/data.rst:299
 #: ../../mayavi/docs/source/mayavi/data.rst:300
 #: ../../mayavi/docs/source/mayavi/data.rst:302
 msgid "Volumes and surfaces"
-msgstr ""
+msgstr "ボリュームとサーフェス"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:298
 msgid "3D data array and spacing along each axis"
-msgstr ""
+msgstr "3Dデータの配列と各軸に沿った間隔"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:299
 msgid "RectilinearGrid_"
-msgstr ""
+msgstr "RectilinearGrid_"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:299
 msgid "3D data array and 1D array of spacing for each axis"
-msgstr ""
+msgstr "各軸の間隔の3Dデータ配列と1D配列"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:300
 msgid "StructuredGrid_"
-msgstr ""
+msgstr "StructuredGrid_"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:300
 msgid "3D data array and 3D position arrays for each axis"
-msgstr ""
+msgstr "各軸の3Dデータ配列と3D位置配列"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:301
 msgid "PolyData_"
-msgstr ""
+msgstr "PolyData_"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:301
 #: ../../mayavi/docs/source/mayavi/data.rst:302
 msgid "Explicit"
-msgstr ""
+msgstr "明示的"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:301
 msgid "Points, lines and surfaces"
-msgstr ""
+msgstr "点、線分、およびサーフェス"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:301
 msgid "x, y, z, positions of vertices and arrays of surface Cells"
-msgstr ""
+msgstr "x,y,z,頂点の位置と表面のセルの配列"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:302
 msgid "UnstructuredGrid_"
-msgstr ""
+msgstr "UnstructuredGrid_"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:302
 msgid "x, y, z positions of vertices and arrays of volume Cells"
-msgstr ""
+msgstr "頂点のx,y,z位置とボリュームCellsの配列"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:308
 msgid "ImageData"
-msgstr ""
+msgstr "ImageData"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:310
 msgid ""
@@ -490,14 +496,18 @@ msgid ""
 "`mlab.pipeline.scalar_field` and `mlab.pipeline.vector_field` factory "
 "functions, if the `x`, `y` and `z` arrays are not explicitely specified."
 msgstr ""
+"このデータセットは、各軸に沿って一定の間隔で、直交グリッド上に配置されたデータ点で構成されます。データ点の位置は、データ配列上の位置(暗黙の位置決め)、原点、および各軸に沿った2スライス間の間隔から推定される。2Dでは、これはラスターイメージとして理解できます。"
+" `x` 、 `y` および `z` 配列が明示的に指定されていない場合、 `mlab.pipeline.scalar_field` および "
+"`mlab.pipeline.vector_field` ファクトリ関数だけでなく、3D numpy配列から `ArraySource`  "
+"mayaviソースによって作成されたデータ構造です。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:322
 msgid "Creating a `tvtk.ImageData` object from numpy arrays::"
-msgstr ""
+msgstr "numpy配列からの `tvtk.ImageData` オブジェクトの作成"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:335
 msgid "RectilinearGrid"
-msgstr ""
+msgstr "RectilinearGrid"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:337
 msgid ""
@@ -506,14 +516,15 @@ msgid ""
 "are inferred from their position on the data array, an origin and the list "
 "of spacings of each axis."
 msgstr ""
+"このデータセットは,様々な軸に沿って任意の間隔で,直交格子上に配置されたデータ点で構成される。データ点の位置は、データ配列上の位置、原点、および各軸の間隔のリストから推測されます。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:344
 msgid "Creating a `tvtk.RectilinearGrid` object from numpy arrays::"
-msgstr ""
+msgstr "numpy配列からの `tvtk.RectilinearGrid` オブジェクトの作成:"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:360
 msgid "StructuredGrid"
-msgstr ""
+msgstr "StructuredGrid"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:362
 msgid ""
@@ -522,14 +533,15 @@ msgid ""
 "the data points are fully described by 1 coordinate arrays, specifying x, y "
 "and z for each point."
 msgstr ""
+"このデータセットは任意のグリッド上に配置されたデータ点で構成され,各点はデータ配列上の最も近い隣接点に接続される。データ点の位置は、各点のx、y、zを指定する1つの座標配列によって完全に記述されます。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:370
 msgid "Creating a `tvtk.StructuredGrid` object from numpy arrays::"
-msgstr ""
+msgstr "numpy配列からの `tvtk.StructuredGrid` オブジェクトの作成"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:422
 msgid "PolyData"
-msgstr ""
+msgstr "PolyData"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:424
 msgid ""
@@ -540,14 +552,17 @@ msgid ""
 "the `mlab.pipeline.scalar_scatter` and `mlab.pipeline.vector_scatter` "
 "functions."
 msgstr ""
+"このデータセットは、任意に配置されたデータポイントで構成されており、これらのデータポイントを接続して線を形成したり、ポリゴンでグループ化してサーフェス(ポリゴンは三角形に分割される)にすることができます。他のデータセットとは異なり,このデータセットは体積データの記述には使用できない。は、"
+" `mlab.pipeline.scalar_scatter` 関数と `mlab.pipeline.vector_scatter` "
+"関数によって作成されたデータセットです。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:433
 msgid "Creating a `tvtk.PolyData` object from numpy arrays::"
-msgstr ""
+msgstr "numpy配列からの `tvtk.PolyData` オブジェクトの作成:"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:455
 msgid "UnstructuredGrid"
-msgstr ""
+msgstr "UnstructuredGrid"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:457
 msgid ""
@@ -556,14 +571,15 @@ msgid ""
 "arbitrary (any number of neighbors). It is described by specifying "
 "connectivity, defining volumetric cells made of adjacent data points."
 msgstr ""
+"このデータセットは、すべての中で最も一般的なデータセットです。任意に配置されたデータポイントで構成されます。データポイント間の接続は任意です(任意の数の隣接)。これは、接続を指定し、隣接するデータポイントで構成される体積測定セルを定義することによって記述されます。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:465
 msgid "Creating a `tvtk.UnstructuredGrid` object from numpy arrays::"
-msgstr ""
+msgstr "numpy配列からの `tvtk.UnstructuredGrid` オブジェクトの作成"
 
 #: ../../mayavi/docs/source/mayavi/data.rstNone
 msgid "Modifying the data"
-msgstr ""
+msgstr "データの変更"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:498
 msgid ""
@@ -572,10 +588,12 @@ msgid ""
 "a name. Once this is done, you should call the 'modified()' method of the "
 "object, to tell the pipeline that the data has been modified::"
 msgstr ""
+"これらの下位レベルのデータ構造のいずれかのデータを変更する場合は、対応する配列にデータを再配置し、名前も再配置する必要があります。これが完了したら、オブジェクトの"
+" 'modified()' メソッドを呼び出して、データが変更されたことをパイプラインに通知する必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:510
 msgid "External references"
-msgstr ""
+msgstr "外部参照"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:512
 msgid ""
@@ -583,15 +601,17 @@ msgid ""
 "following two presentations best describe how one can create data objects or"
 " data files for Mayavi and TVTK."
 msgstr ""
+"ユーザーガイドのこのセクションは、後で改善されます。ここでは、MayaviとTVTKのデータオブジェクトまたはデータファイルを作成する方法について、次の2つのプレゼンテーションで説明します。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:516
 msgid "Presentation on TVTK and Mayavi2 for course at IIT Bombay"
-msgstr ""
+msgstr "IIT BombayでのTVTKとMayavi2コースでのプレゼンテーション"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:518
 msgid ""
 "https://github.com/enthought/mayavi/raw/master/docs/pdf/tvtk_mayavi2.pdf"
 msgstr ""
+"https://github.com/enthought/mayavi/raw/master/docs/pdf/tvtk_mayavi2.pdf"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:520
 msgid ""
@@ -599,44 +619,48 @@ msgid ""
 "representation, creating VTK data files, creating datasets from numpy in "
 "Python, and also about mayavi."
 msgstr ""
+"このプレゼンテーションでは、グラフィックス全般、3Dデータ表現、VTKデータファイルの作成、Pythonのnumpyからのデータセットの作成、およびmayaviについての情報を提供します。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:524
 msgid ""
 "Presentation on making TVTK datasets using numpy arrays made for SciPy07."
-msgstr ""
+msgstr "SciPy07用のnumpy配列を用いたTVTKデータセットの作成についてのプレゼンテーション。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:526
 msgid ""
 "Prabhu Ramachandran. \"TVTK and MayaVi2\", SciPy'07: Python for Scientific "
 "Computing, CalTech, Pasadena, CA, 16--17 August, 2007."
 msgstr ""
+"Prabhu Ramachandran. \"TVTK and MayaVi2\", SciPy'07: Python for Scientific "
+"Computing, CalTech, Pasadena, CA, 16--17 August, 2007."
 
 #: ../../mayavi/docs/source/mayavi/data.rst:529
 msgid ""
 "This presentation focuses on creating TVTK datasets using numpy arrays."
-msgstr ""
+msgstr "このプレゼンテーションでは、numpy配列を使用したTVTKデータセットの作成に焦点を当てます。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:534
 msgid "Datasets creation examples"
-msgstr ""
+msgstr "データセットの作成例"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:536
 msgid ""
 "There are several examples in the mayavi sources that highlight the creation"
 " of the most important datasets from numpy arrays. Specifically they are:"
-msgstr ""
+msgstr "mayaviソースには、numpy配列から最も重要なデータセットを作成する例がいくつかあります。具体的には次のとおりです。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:540
 msgid ""
 ":ref:`example_datasets`: Generate a simple example for each type of VTK "
 "dataset."
-msgstr ""
+msgstr ":ref:`example_datasets`: 各タイプのVTKデータセットの簡単な例を生成します。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:543
 msgid ""
 ":ref:`example_polydata`:  Demonstrates how to create Polydata datasets from "
 "numpy arrays and visualize them in mayavi."
 msgstr ""
+":ref:`example_polydata`: numpy配列からPolydataデータセットを作成し、mayaviで表示する方法を示します。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:546
 msgid ""
@@ -644,6 +668,8 @@ msgid ""
 "structured points (an ImageData) dataset from numpy arrays and visualize "
 "them in mayavi.  This is basically a square of equispaced points."
 msgstr ""
+":ref:`example_structured_points2d`: "
+"numpy配列から2D構造化ポイント(イメージデータ)データセットを作成し、mayaviで表示する方法を示します。これは基本的に等間隔のポイントの正方形です。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:551
 msgid ""
@@ -651,18 +677,20 @@ msgid ""
 "structured points (an ImageData) dataset from numpy arrays and visualize "
 "them in Mayavi.  This is a cube of points that are regularly spaced."
 msgstr ""
+":ref:`example_structured_points3d`: "
+"numpy配列から3D構造化ポイント(イメージデータ)データセットを作成し、Mayaviで表示する方法を示します。これは、一定の間隔で配置されたポイントの立方体です。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:556
 msgid ""
 ":ref:`example_structured_grid`: Demonstrates the creation and visualization "
 "of a 3D structured grid."
-msgstr ""
+msgstr ":ref:`example_structured_grid`: 3D構造グリッドの作成と表示について説明します。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:559
 msgid ""
 ":ref:`example_unstructured_grid`: Demonstrates the creation and "
 "visualization of an unstructured grid."
-msgstr ""
+msgstr ":ref:`example_unstructured_grid`: 非構造化グリッドの作成と視覚化を示します。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:562
 msgid "These scripts may be run like so::"
@@ -670,11 +698,11 @@ msgstr "これらのスクリプトは、次のように実行できます。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:566
 msgid "or better yet, all in one go like so::"
-msgstr ""
+msgstr "さらに良いことに、すべてを1つにまとめると次のようになります。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:584
 msgid "Inserting TVTK datasets in the Mayavi pipeline"
-msgstr ""
+msgstr "MayaviパイプラインへのTVTKデータセットの挿入"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:586
 msgid ""
@@ -682,6 +710,8 @@ msgid ""
 "examples above. A VTK data source can be inserted in the Mayavi pipeline "
 "using the VTKDataSource. For instance we can create an `ImageData` dataset::"
 msgstr ""
+"上の例に示すように、TVTKデータセットは、直接TVTKを使用して作成できます。VTKデータソースは、VTKDataSourceを使用してMayaviパイプラインに挿入できます。たとえば、次のような"
+" `ImageData` データセットを作成できます。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:599
 msgid ""
@@ -693,12 +723,18 @@ msgid ""
 "could have been used to visualize the `ImageData` dataset created above as "
 "such::"
 msgstr ""
+":ref:`mlab <simple-scripting-with-mlab>` "
+"を使用してスクリプトを作成している場合、データを視覚化する最も簡単な方法は、 :ref:`mlab.pipeline <controlling-the-"
+"pipeline-with-mlab-scripts>` "
+"を使用してデータにフィルタとモジュールを適用することです。実際、フィルタとモジュールを作成するこれらの関数は、VTKデータセットを受け入れ、自動的にそれらをパイプラインに挿入します。サーフェスモジュールを使用して、上記で作成した"
+" `ImageData` データセットを次のように表示できます。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:611
 msgid ""
 "In addition, inserting this dataset on the Mayavi pipeline with direct "
 "control on the `Engine` is done as suchwith `VTKDataSource`::"
 msgstr ""
+"さらに、このデータセットをMayaviパイプラインに挿入し、 `Engine` を直接制御するには `VTKDataSource` を使用します。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:622
 msgid ""
@@ -712,3 +748,8 @@ msgid ""
 "explained in the :ref:`section on creating data sources with mlab "
 "<mlab_data_source>`."
 msgstr ""
+"もちろん、VTKデータセットのアトリビュートを特別に制御したい場合や、TVTKオブジェクトを操作する既存のコードのコンテキストでMayaviを使用している場合以外は、"
+" `ImageData`  TVTKオブジェクトを作成することはお勧めできません。Mayaviの `ArraySource` オブジェクトは実際には "
+"`ImageData` を作成しますが、形状を間違えないようにしてください。 `ImageData` 用のデータソースを作成するさらに簡単な方法は、  "
+":ref:`section on creating data sources with mlab <mlab_data_source>` "
+"で説明されている `mlab.pipeline.scalar_field` 関数を使用することです。"
