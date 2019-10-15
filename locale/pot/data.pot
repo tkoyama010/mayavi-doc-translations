@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-25 09:41+0000\n"
+"POT-Creation-Date: 2019-10-15 09:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -316,7 +316,7 @@ msgid "ImageData"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/data.rst:310
-msgid "This dataset is made of data points positioned on an orthogonal grid, with constant spacing along each axis. The position of the data points are inferred from their position on the data array (implicit positioning), an origin and a spacing between 2 slices along each axis. In 2D, this can be understood as a raster image. This is the data structure created by the `ArraySource` mayavi source, from a 3D numpy array, as well as the `mlab.pipeline.scalar_field` and `mlab.pipeline.vector_field` factory functions, if the `x`, `y` and `z` arrays are not explicitely specified."
+msgid "This dataset is made of data points positioned on an orthogonal grid, with constant spacing along each axis. The position of the data points are inferred from their position on the data array (implicit positioning), an origin and a spacing between 2 slices along each axis. In 2D, this can be understood as a raster image. This is the data structure created by the `ArraySource` mayavi source, from a 3D numpy array, as well as the `mlab.pipeline.scalar_field` and `mlab.pipeline.vector_field` factory functions, if the `x`, `y` and `z` arrays are not explicitly specified."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/data.rst:322
@@ -376,7 +376,7 @@ msgid "Modifying the data"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/data.rst:498
-msgid "If you want to modify the data of any of these low-level data structures, you need to reasign data to the corresponding arrays, but also reasign them a name. Once this is done, you should call the 'modified()' method of the object, to tell the pipeline that the data has been modified::"
+msgid "If you want to modify the data of any of these low-level data structures, you need to reassign data to the corresponding arrays, but also reassign them a name. Once this is done, you should call the 'modified()' method of the object, to tell the pipeline that the data has been modified::"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/data.rst:510

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-25 09:41+0000\n"
+"POT-Creation-Date: 2019-10-15 09:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgid "To build a custom dialog with a Mayavi scene, the best option is to creat
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/building_applications.rst:48
-msgid "A view of this object, as a dialog, can be created using the `.configure_traits` method of this object. If a view is explicitely specified the embedded Mayavi scene can be represented with the usual widget for scene by specifying for it the `SceneEditor`::"
+msgid "A view of this object, as a dialog, can be created using the `.configure_traits` method of this object. If a view is explicitly specified the embedded Mayavi scene can be represented with the usual widget for scene by specifying for it the `SceneEditor`::"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/building_applications.rst:66

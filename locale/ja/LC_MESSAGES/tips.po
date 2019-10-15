@@ -129,6 +129,9 @@ msgid ""
 " the ``x3d`` backend.  For the ``ipy`` backend this can be set when creating"
 " a new ``figure`` with the ``size`` keyword argument."
 msgstr ""
+"図形のピクセル幅と高さを設定して、(整数として)(例 ``mlab.init_notebook('x3d', 800, "
+"800)``)を作成できます。これは ``x3d`` バックエンドにのみ適用されます。 ``ipy`` バックエンドでは、 ``size`` "
+"キーワード引数を使用して新しい ``figure`` を作成するときに設定できます。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:76
 msgid ""
@@ -139,6 +142,10 @@ msgid ""
 "not working, using ``local=False`` with an internet connection should work "
 "on a modern browser that supports WebGL."
 msgstr ""
+"最後のキーワード引数 ``local`` のデフォルトは ``True`` です。 ``local=True`` "
+"がJavascriptファイルを使用している場合は、Mayaviとともに配布されます。それ以外の場合は、x3domファイルをオンラインで使用するためにインターネット接続が必要になります。何らかの理由でjupyter"
+" nbextensionのインストールが動作しない場合、インターネット接続で ``local=False`` "
+"を使うことは、WebGLをサポートしている最近のブラウザで動作するはずです。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:84
 msgid ""
@@ -188,6 +195,9 @@ msgid ""
 "arguments supported by the ``mayavi2`` application, see the :ref:`command-"
 "line-arguments` section."
 msgstr ""
+"スクリプトは、オフスクリーンのスタンドアロンウィンドウで実行されます。Linuxでは、VTK-5.2以上で最適に動作します。 ``mayavi2`` "
+"アプリケーションがサポートするコマンドライン引数の詳細については、 :ref:`command-line-arguments` "
+"セクションを参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:124
 msgid "When using ``mlab`` you will want to do this::"
@@ -204,12 +214,14 @@ msgid ""
 "Another option for offscreen rendering would be to click on the scene and "
 "set the \"Off screen rendering\" option on.  Or from a script::"
 msgstr ""
+"オフスクリーンレンダリングの別のオプションは、シーンをクリックして \"Off screen rendering\" "
+"オプションをオンに設定することです。または、スクリプトから"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:136
 msgid ""
 "This will stop raising the window.  However, this may not be enough. Please "
 "see below on the situation on different platforms."
-msgstr ""
+msgstr "これにより、ウィンドウの上昇が停止します。しかし、これでは十分ではないかもしれません。各プラットホームの状況は下記参照。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:140
 msgid "Platform Summary"
@@ -220,12 +232,13 @@ msgid ""
 "**Windows**: If you are using win32 then off screen rendering should work "
 "well out of the box.  All you will need to do is what is given above."
 msgstr ""
+"**Windows**: win32を使用している場合、初期状態ではオフスクリーンレンダリングが適切に機能します。必要な作業は、上記の内容のみです。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:145
 msgid ""
 "**Linux and the Mac**: there are several options to get this working "
 "correctly and some major issues to consider:"
-msgstr ""
+msgstr "**Linux と Mac**: これを正しく動作させるにはいくつかのオプションがあり、考慮すべき重要な問題がいくつかあります。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:148
 msgid ""
@@ -235,6 +248,7 @@ msgid ""
 "this does not always work -- try it and if you get blank windows, you have a"
 " problem.  For example::"
 msgstr ""
+"VTK-5.2を使用している場合は、オフスクリーンレンダリングオプションを使用すれば、ウィンドウを隠すことなく画像を生成できます。ただし、これを正しく動作させるには、VTK-5.2が必要です。また、これが常に動作するとは限らない場合もあります。これを試してみて、空白のウィンドウが表示された場合は、問題が発生します。次に例を示します。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:159
 msgid ""
@@ -243,6 +257,7 @@ msgid ""
 "using a virtual framebuffer or building VTK with Mesa + OSMesa to give you a"
 " pure software rendering approach."
 msgstr ""
+"クリーンなイメージ(デスクトップを切り替えたり、作成されたウィンドウをカバーしたりしても)が生成される場合は、金色になります。そうでない場合は、仮想フレームバッファを使用するか、Mesa+OSMesaを使ってVTKを構築し、純粋なソフトウェアレンダリング手法を提供することを検討してください。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:167
 msgid "Rendering using the virtual framebuffer"
@@ -257,6 +272,7 @@ msgid ""
 "desktop, using the default server may also be a problem as it interferes "
 "with your ongoing work."
 msgstr ""
+"VTKでは、すべてのレンダリングにopenGLが使用されます。従来のUnix(Linuxを含む)では、GLコンテキストを開くためにXserverを実行する必要があります(特にハードウェアアクセラレーションが必要な場合)。これは、ヘッドレスサーバでレンダリングする場合に問題になる可能性があります。前の段落で述べたように、デスクトップでは、既定のサーバーを使用すると進行中の作業の妨げになるため、問題になることがあります。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:176
 msgid ""
@@ -282,6 +298,9 @@ msgid ""
 "24 bpp (the 24bpp is important).  For more options check your ``Xvfb`` man "
 "page."
 msgstr ""
+"これにより、ディスプレイ \":1\" "
+"が作成され、1280x1024、24bppの画面が作成されます(24bppは重要です。)。その他のオプションについては、 ``Xvfb`` "
+"のマニュアルページを参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:190
 msgid "Export display to :1 like so (on bash)::"
@@ -323,6 +342,10 @@ msgid ""
 "shows how you can use Mayavi without using Envisage or the Mayavi envisage "
 "application and still do off screen rendering."
 msgstr ""
+"envisage UIまたはtrait "
+"UIさえも持たないMayavi(すなわち純粋なTVTKウィンドウで)を使用し、Pythonスクリプトを使用して画面外のレンダリングを実行する場合、 "
+":ref:`example_offscreen` に興味を持つかもしれません。この単純な例では、EnvisageまたはMayavi "
+"envisageアプリケーションを使用せずにMayaviを使用し、画面外のレンダリングを実行する方法を示します。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:218
 msgid ""
@@ -342,6 +365,8 @@ msgid ""
 "you will not get any hardware acceleration in this case.  Here are brief "
 "instructions on how to build VTK to do this."
 msgstr ""
+"場合によっては、XサーバがまったくないマシンでMayavi/VTKを完全にヘッドレスで実行し、純粋なオフスクリーンレンダリング( Sage_ "
+"ノートブックインターフェイスでの使用例)に関心があることもあります。このような場合、MesaのOSMesaライブラリを使ってオフスクリーンでレンダリングすることができる。欠点は、この場合はハードウェアアクセラレーションを使用できないことです。ここでは、これを行うためのVTKのビルド方法を簡単に説明します。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:233
 msgid ""
@@ -355,7 +380,7 @@ msgstr ""
 msgid ""
 "Untar, and change directory to the new directory created. We call this "
 "directory ``$MESA`` henceforth."
-msgstr ""
+msgstr "Untarを実行し、作成した新しいディレクトリに移動します。以降、このディレクトリを ``$MESA`` と呼びます。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:239
 msgid ""
@@ -363,10 +388,12 @@ msgid ""
 "``make`` to see list of options.  Note: 7.2 has a ``./configure`` script "
 "that you can run."
 msgstr ""
+"``make configs/linux-x86`` を実行し、設定に従ってファイルを変更します。 ``make`` "
+"を実行してオプションのリストを表示します。注: 7.2には、実行可能な ``./configure`` スクリプトがあります。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:243
 msgid "Get VTK-5.2 or later (CVS will also work).."
-msgstr ""
+msgstr "VTK-5.2以降を入手してください(CVSも動作します)。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:245
 msgid "Run ``ccmake path/to/VTK``."
@@ -386,7 +413,7 @@ msgstr "設定: 'c' を押します。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:253
 msgid "Set the ``OSMESA_INCLUDE_DIR`` to the ``$MESA/include dir``"
-msgstr ""
+msgstr "``OSMESA_INCLUDE_DIR`` を ``$MESA/include dir`` に設定します。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:255
 msgid "Set ``OSMESA_LIBRARY`` to ``$MESA/lib/libOSMesa.so``"
@@ -398,6 +425,8 @@ msgid ""
 "``OPENGL_gl_LIBRARY=$MESA/lib/libGL.so``, ``OPENGL_glu_LIBRARY``, and "
 "``OPENGL_xmesa_INCLUDE_DIR``."
 msgstr ""
+"同様に ``OPENGL_INCLUDE_DIR`` 、 ``OPENGL_gl_LIBRARY=$MESA/lib/libGL.so`` 、 "
+"``OPENGL_glu_LIBRARY`` 、 ``OPENGL_xmesa_INCLUDE_DIR`` を設定します。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:261
 msgid ""
@@ -406,10 +435,12 @@ msgid ""
 "the render window's offscreen rendering ivar will be set to True in this "
 "case."
 msgstr ""
+"常にオフスクリーンにする場合は ``VTK_USE_OFFSCREEN`` を ``ON`` "
+"に設定してください。この場合、レンダーウィンドウのオフスクリーンレンダリングのivarのデフォルト値がTrueに設定されるため、実際にマッピングされたVTKウィンドウが生成されることはありません。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:266
 msgid "Any other settings like ``VTK_USE_GL2PS, USE_RPATH`` etc."
-msgstr ""
+msgstr "``VTK_USE_GL2PS, USE_RPATH`` などのその他の設定。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:268
 msgid "Configure again (press 'c') and then generate 'g'."
@@ -419,13 +450,13 @@ msgstr "再度( 'c' を押す)を設定し、 'g' を生成してください。
 msgid ""
 "Note that if you do not want to use ``ccmake`` and would like to do this "
 "from the command line you may also do (for example)::"
-msgstr ""
+msgstr "``ccmake`` を使いたくなくて、コマンドラインからこれを行いたいなら、以下のようにしても良いことに注意してください(例えば)"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:290
 msgid ""
 "Run ``make`` and wait till VTK has built.  Let us say the build is in "
 "``$VTK_BUILD``."
-msgstr ""
+msgstr "``make`` を実行し、VTKがビルドされるまで待ちます。ビルドが ``$VTK_BUILD``にあるとします。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:293
 msgid ""
@@ -434,6 +465,9 @@ msgid ""
 "libs are not installed on the system) this ensures that VTK links to the "
 "right GL libs.  For example::"
 msgstr ""
+"ここでVTKをインストールするか、 ``PYTHONPATH`` と ``LD_LIBRARY_PATH`` を適切に設定します。また、 "
+"``LD_LIBRARY_PATH`` が ``$MESA/lib`` "
+"(システムにmesaライブラリがインストールされていない場合)を指していることを確認します。これにより、VTKが正しいGLライブラリにリンクされていることが保証されます。次に例を示します。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:301
 msgid "Now, you should be all set."
@@ -443,7 +477,7 @@ msgstr "これで準備は完了です。"
 msgid ""
 "Once this is done you should be able to run mlab examples offscreen. This "
 "will work without an X display even."
-msgstr ""
+msgstr "これが完了すると、mlabの例を画面外で実行できるようになります。これはX表示なしでも動作します。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:306
 msgid ""
@@ -452,6 +486,9 @@ msgid ""
 "``ETS_TOOLKIT='null'`` and set ``mlab.options.offscreen = True``.  Thats it."
 "  Everything should now work offscreen."
 msgstr ""
+"このようなVTKをビルドして実行すれば、簡単にmayavi2をビルドしてインストールすることができます。たとえばSageノートで使用するには、 "
+"``ETS_TOOLKIT='null'`` と ``mlab.options.offscreen = True`` "
+"を設定します。これで、すべてが画面外で機能するようになります。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:311
 msgid ""
@@ -461,6 +498,10 @@ msgid ""
 "``False`` to force a mapped window.  For this reason if you might need to "
 "popup a full UI, it might be better to *not set* ``VTK_USE_OFFSCREEN=ON``."
 msgstr ""
+"``VTK_USE_OFFSCREEN`` を ``ON`` "
+"に設定した場合、デフォルトではオフスクリーンコンテキストのみを取得することに注意してください。UIが必要な場合は、マッピングされたウィンドウを強制的に表示するために、レンダウィンドウの``off_screen_rendering``"
+" のivarを明示的に ``False`` に設定します。このため、完全なUIをポップアップ表示する必要がある場合は、 "
+"``VTK_USE_OFFSCREEN=ON`` を設定しない方がよい場合があります。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:325
 msgid "Extending Mayavi with customizations"
@@ -475,6 +516,10 @@ msgid ""
 "this is to create a full fledged Mayavi contrib package in the following "
 "manner."
 msgstr ""
+"開発者は、新しいソース、フィルタ、またはモジュールを追加してMayaviをカスタマイズできます。これらは、 `Customizing Mayavi2`_"
+" で記述されているように、それぞれのフィルタを書いて ``user_mayavi.py`` や ``site_mayavi.py`` "
+"経由で公開することで実現できます。これを行うためのより柔軟で再利用可能なメカニズムは、以下の方法で本格的なMayavi "
+"contribパッケージを作ることです。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:334
 msgid ""
@@ -504,6 +549,9 @@ msgid ""
 "``user_mayavi.py`` of each selected package will then be imported next time "
 "Mayavi is started, note that this will be usable even from ``mlab``."
 msgstr ""
+"このパッケージは ``sys.path`` のどこかにインストールされるべきです。これが終わったら、ユーザはこれらのパッケージを見つけて、 "
+"Tools->Preferences (UIがパッケージを自動的に検出します。)からそれらを有効にすることができます。選択した各パッケージの "
+"``user_mayavi.py`` は、Mayaviの次回起動時にインポートされます。これは ``mlab`` からでも使用できます。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:365
 msgid ""
@@ -513,6 +561,9 @@ msgid ""
 "option.  The following code shows how this may be accessed from a Python "
 "script::"
 msgstr ""
+"このようなパッケージは、いくつでも作成して配布できます。これらがインストールされている場合、ユーザーはこれらを有効にすることができます。内部的には、選択されたパッケージの一覧は"
+" ``mayavi.contrib_packages`` "
+"設定オプションとして格納されます。次のコードは、Pythonスクリプトからこれにアクセスする方法を示しています。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:376
 msgid ""
@@ -523,6 +574,10 @@ msgid ""
 " any sources/modules/filters and only registers the metadata.  This will "
 "avoid issues with circular imports."
 msgstr ""
+"``user_mayavi.py`` ファイルを書く最善の方法とそれらで何ができるかの詳細については、 "
+"`examples/mayavi/user_mayavi.py`_ の例を参照してください。そのファイルの警告には特に注意してください。 "
+"``user_mayavi.py`` "
+"がソース/モジュール/フィルタを実装せず、メタデータのみを登録することを保証することは非常に良い考えです。これにより、循環インポートの問題を回避できます。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:389
 msgid "Customizing Mayavi2"
@@ -749,10 +804,12 @@ msgid ""
 "will need to call :func:`show` if you do not already have a GUI environment "
 "running."
 msgstr ""
+"イベントループを開始する、 *つまり* アニメーションを実行するには、GUI環境をまだ実行していない場合に :func:`show` "
+"を呼び出す必要があることに注意してください。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:622
 msgid "Here is another example illustrating the use of the decorator::"
-msgstr ""
+msgstr "次にデコレータの使用例を示します。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:640
 msgid ""
@@ -816,11 +873,11 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:701
 msgid "To use this script do this::"
-msgstr ""
+msgstr "このスクリプトを使用するには、次の操作を行います。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:707
 msgid "Making movies from a stack of images"
-msgstr ""
+msgstr "画像のスタックからムービーを作成します"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:709
 msgid ""
@@ -832,11 +889,11 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:718
 msgid "If you have ffmpeg installed you may try this::"
-msgstr ""
+msgstr "ffmpegがインストールされている場合は、以下を試してみてください。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:727
 msgid "Scripting from the command line"
-msgstr ""
+msgstr "コマンドラインからのスクリプティング"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:729
 msgid ""
@@ -861,7 +918,7 @@ msgstr ""
 msgid ""
 "This example turns off coloring of the glyph and changes the glyph to "
 "display::"
-msgstr ""
+msgstr "次の例では、Glyphのカラーリングをオフにし、表示するGlyphを変更します"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:753
 msgid "Note the use of ``last_obj`` in the above."
@@ -869,7 +926,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:757
 msgid "Texture mapping actors"
-msgstr ""
+msgstr "テクスチャマッピングアクター"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:759
 msgid ""
@@ -877,6 +934,7 @@ msgid ""
 "data that ships with the Mayavi sources (the data files are in the examples "
 "directory)::"
 msgstr ""
+"以下は、Mayaviソースに付属するデータ(データファイルはexamplesディレクトリにあります)を使用してアイソサーフェスをテクスチャマッピングする方法を示す簡単な例です。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:771
 msgid ""
@@ -889,7 +947,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:779
 msgid "Shifting data and plotting"
-msgstr ""
+msgstr "データのシフトとプロット"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:781
 msgid ""
@@ -1058,6 +1116,7 @@ msgid ""
 " movement in scenes where you want the 'up' vector to be always pointing in "
 "the 'z' direction::"
 msgstr ""
+"もう1つの便利な相互作用子は 'terrain' 相互作用子で、 'up' ベクトルを常に 'z' 方向に向けたいシーンで自然な動きをするのに便利です。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:940
 msgid ""
@@ -1066,6 +1125,9 @@ msgid ""
 "to search for \"Interactor\". Another option is to tab complete on Ipython, "
 "on `tvtk.InteractorStyle`."
 msgstr ""
+"VTKには多くの異なるインターアクターがあります。これらを一覧表示する簡単な方法は、VTKクラスブラウザを表示し(ヘルプメニューの `mayavi2` "
+"アプリケーション)、 \"Interactor\" を検索することです。もう1つのオプションは、 `tvtk.InteractorStyle` "
+"でIpythonをタブ補完することです。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:949
 msgid "Accelerating a Mayavi script"
@@ -1086,14 +1148,14 @@ msgstr ""
 msgid ""
 "This will speed things up for complex visualizations sometimes by an order "
 "of magnitude."
-msgstr ""
+msgstr "これにより、複雑な視覚化の処理速度が1桁向上することがあります。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:966
 msgid ""
 "While saving the visualization to an image you can speed up the image "
 "generation at the cost of loosing out on anti-aliasing by doing the "
 "following::"
-msgstr ""
+msgstr "ビジュアライゼーションをイメージに保存するときに、次の操作を行うと、アンチエイリアシングを犠牲にしてイメージ生成を高速化できます。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:972
 msgid ""
@@ -1103,3 +1165,4 @@ msgid ""
 "However, the rendering will be much faster.  So if this is acceptable (try "
 "it) this is a mechanism to speed up the generation of images."
 msgstr ""
+"既定値は通常8で、レンダリングイメージには適切なアンチエイリアシングが適用されます。0に設定すると、レンダーしたイメージに大きな違いは生じませんが、スムースなラインは少しギザギザに表示されます。ただし、レンダリングははるかに高速になります。したがって、これが許容される場合(試してみてください)、これはイメージの生成を高速化するメカニズムです。"
