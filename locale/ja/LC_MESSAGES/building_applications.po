@@ -105,6 +105,9 @@ msgid ""
 " the embedded Mayavi scene can be represented with the usual widget for "
 "scene by specifying for it the `SceneEditor`::"
 msgstr ""
+"このオブジェクトのビューをダイアログとして作成するには、このオブジェクトの `.configure_traits` "
+"メソッドです。ビューが明示的に指定されている場合、埋め込まれたMayaviシーンは `SceneEditor` "
+"を指定することにより、通常のシーンウィジェットで表すことができます。"
 
 #: ../../mayavi/docs/source/mayavi/building_applications.rst:66
 msgid ""

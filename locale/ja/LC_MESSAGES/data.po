@@ -496,6 +496,10 @@ msgid ""
 "`mlab.pipeline.scalar_field` and `mlab.pipeline.vector_field` factory "
 "functions, if the `x`, `y` and `z` arrays are not explicitly specified."
 msgstr ""
+"このデータセットは、各軸に沿って一定の間隔で、直交グリッド上に配置されたデータ点で構成されます。データ点の位置は、データ配列上の位置(暗黙の位置決め)、原点、および各軸に沿った2スライス間の間隔から推定される。2Dでは、これはラスターイメージとして理解できます。"
+" `x` 、 `y` および `z` 配列が明示的に指定されていない場合、 `mlab.pipeline.scalar_field` および "
+"`mlab.pipeline.vector_field` ファクトリ関数だけでなく、3D numpy配列から `ArraySource`  "
+"mayaviソースによって作成されたデータ構造です。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:322
 msgid "Creating a `tvtk.ImageData` object from numpy arrays::"
@@ -584,6 +588,8 @@ msgid ""
 "them a name. Once this is done, you should call the 'modified()' method of "
 "the object, to tell the pipeline that the data has been modified::"
 msgstr ""
+"これらの下位レベルのデータ構造のいずれかのデータを変更する場合は、対応する配列にデータを再配置し、名前も再配置する必要があります。これが完了したら、オブジェクトの"
+" 'modified()' メソッドを呼び出して、データが変更されたことをパイプラインに通知する必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:510
 msgid "External references"

@@ -609,6 +609,9 @@ msgid ""
 " the users ``~/.mayavi2/`` directory.  If a ``~/.mayavi2/user_mayavi.py`` is"
 " found, the directory is placed in ``sys.path``."
 msgstr ""
+"ローカルのユーザーレベル。これは ``user_mayavi.py`` をusers  ``~/.mayavi2/`` "
+"ディレクトリに置くことで達成されます。 ``~/.mayavi2/user_mayavi.py`` が見つかった場合、ディレクトリは "
+"``sys.path`` に配置されます。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:408
 msgid ""
@@ -922,7 +925,7 @@ msgstr "次の例では、Glyphのカラーリングをオフにし、表示す�
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:753
 msgid "Note the use of ``last_obj`` in the above."
-msgstr ""
+msgstr "上記の ``last_obj`` の使い方に注意してください。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:757
 msgid "Texture mapping actors"
@@ -1109,6 +1112,9 @@ msgid ""
 "done by changing the `interactor_style` of a scene. Here is an example to "
 "use Mayavi as a 2D image viewer::"
 msgstr ""
+"シーンとの既定の3Dインタラクション(背景を左クリックするとシーンが回転し、右クリックするとスケールが回転し、中クリックするとパンが回転します)は、すべての表示に適しているわけではありません。たとえば、inは、オブジェクトを"
+" 'x' 方向に見ているときなどに、移動を2Dに制限することができます。これを行うには、シーンの  `interactor_style` "
+"を変更します。Mayaviを2Dイメージビューアとして使用する例を次に示します。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:929
 msgid ""
