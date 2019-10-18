@@ -595,6 +595,10 @@ msgid ""
 "contributions will be imported the next time Mayavi starts.  For more "
 "details see the `Extending Mayavi with customizations`_ section."
 msgstr ""
+"システムにインストールされているMayaviコントリビューションにより。これを行うには、Mayaviコンポーネントの "
+"Tools->Preferences \"contribution settings\" "
+"メニューから検索結果を有効にします。選択したコントリビューションは、Mayaviの次回起動時にインポートされます。詳細については、 `Extending"
+" Mayavi with customizations`_ セクションを参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:400
 msgid ""
@@ -626,6 +630,9 @@ msgid ""
 "for the new class in the registry.  See ``examples/mayavi/user_mayavi.py`` "
 "to see an example."
 msgstr ""
+"新しいソース、モジュール、またはフィルタをMayaviレジストリに登録します( ``mayavi.core.registry.registry`` "
+")。これを行うには、新しいクラスのメタデータをレジストリに登録します。例については、 "
+"``examples/mayavi/user_mayavi.py`` を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:416
 msgid ""
@@ -643,6 +650,9 @@ msgid ""
 "you are unsure where ``~`` is on your platform, just run the example and it "
 "should print out the directory."
 msgstr ""
+"``examples/mayavi/user_mayavi.py`` "
+"の例はこれがどのように行われるかを記述し、示します。このファイルを表示するには、ファイルを ``~/.mayavi2`` "
+"ディレクトリにコピーします。ご使用のプラットフォームで ``~`` がどこにあるかわからない場合は、サンプルを実行するとディレクトリが出力されます。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:429
 msgid ""
@@ -668,6 +678,10 @@ msgid ""
 "without the envisage UI or even a traits UI (i.e. with a pure TVTK window) "
 "and do off screen rendering."
 msgstr ""
+":ref:`example_standalone` "
+"はEnvisageを使わずにMayaviのコアAPIを使う方法を示しています。これは、依存関係を最小化する場合に便利です。 "
+":ref:`example_offscreen` "
+"は、想定されるUIや特性UI(すなわち純粋なTVTKウィンドウで)を使用せずにMayaviを使用する方法と、画面に表示されないレンダリングを実行する方法を示します。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:450
 msgid "Computing in a thread"
@@ -681,6 +695,8 @@ msgid ""
 "once the computation is done.  This allows a user to interact with  the user"
 " interface when the computation is performed in another thread."
 msgstr ""
+":ref:`example_compute_in_thread` は2D "
+"numpy配列を可視化する方法と、いくつかのモジュールを使って画像データとして可視化する方法をデモしています。また、別のスレッドで計算を実行し、計算が完了したらMayaviパイプラインを更新する方法も示します。これにより、計算が別のスレッドで実行されるときに、ユーザーがユーザーインタフェースと対話できるようになります。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:461
 msgid "Polling a file and auto-updating Mayavi"
@@ -733,7 +749,7 @@ msgstr ""
 msgid ""
 "While this is very powerful it is also a huge security hole since the remote"
 " user can do pretty much anything they want once connected to the server."
-msgstr ""
+msgstr "これは非常に強力ですが、リモートユーザはサーバに接続すればほとんど何でもできるので、大きなセキュリティホールにもなります。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:519
 msgid "TCP server: the `serve_tcp` function"
@@ -753,6 +769,8 @@ msgid ""
 " is treated as part of a timeseries.  For example let us say you have the "
 "following files:"
 msgstr ""
+"mayaviがロードできるファイルの形式が ``some_name[0-9]*.ext`` "
+"である場合、それはタイムスライスの一部として扱われます。たとえば、次のファイルがあるとします。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:556
 msgid ""
@@ -863,6 +881,8 @@ msgid ""
 "that you want to animate on a Mayavi scene.  Here is a simple script (called"
 " ``img_movie.py``)::"
 msgstr ""
+"Mayaviシーンでアニメートする一連の番号付きPNGまたはJPEGファイルがあるとします。簡単なスクリプトを次に示します( "
+"``img_movie.py`` と呼ばれています)。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:694
 msgid ""
@@ -909,13 +929,15 @@ msgstr ""
 msgid ""
 "The following example creates a ``ParametricSurface`` source and then "
 "visualizes glyphs on its surface colored red::"
-msgstr ""
+msgstr "次の例では、 ``ParametricSurface`` ソースを作成し、サーフェス上の赤のグリフを表示します。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:742
 msgid ""
 "Note that ``-s\"string\"`` applies the string on the last object (also "
 "available as ``last_obj``), which is the glyph."
 msgstr ""
+"``-s\"string\"`` はグリフである最後のオブジェクト( ``last_obj`` "
+"としても利用可能)に文字列を適用することに注意してください。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:745
 msgid ""
