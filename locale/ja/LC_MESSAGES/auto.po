@@ -112,7 +112,7 @@ msgstr ""
 msgid ""
 "Thanks to Enthought for funding the work that led to the significantly "
 "improved Jupyter notebook support."
-msgstr ""
+msgstr "Jupyterノートブックのサポートを大幅に改善するための作業に資金を提供してくれたEnthoughtに感謝します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:37
 msgid "19 pull requests were merged."
@@ -122,7 +122,7 @@ msgstr "19個のpull requestがマージされました。"
 msgid ""
 "This release has one very powerful new feature -- jupyter notebook support "
 "with complete interactivity."
-msgstr ""
+msgstr "このリリースには、完全な対話性を備えたjupyterノートブックサポートという非常に強力な新機能があります。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:43
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:148
@@ -161,7 +161,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:54
 msgid "Many thanks to Enthought for supporting this."
-msgstr ""
+msgstr "これをサポートしてくれたEnthoughtに感謝します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:61
 msgid ""
@@ -206,7 +206,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:77
 msgid "Test against ETS packages from source using travis cron jobs."
-msgstr ""
+msgstr "travis cronジョブを使用して、ソースからのETSパッケージに対してテストします。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:80
 msgid ""
@@ -218,7 +218,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:80
 msgid "Use xenial linux instead of trusty"
-msgstr ""
+msgstr "trustyの代わりにxenial linuxを使います"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:84
 msgid ""
@@ -2343,7 +2343,7 @@ msgstr "Mayavi 3.3.2 (May 25, 2010)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:880
 msgid "DOCs: many docs and example improvements (GV)."
-msgstr ""
+msgstr "DOC: 多くのドキュメントと例の改善(GV)。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:883
 msgid "13 April 2010 (GV)"
@@ -3658,7 +3658,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1490
 msgid "Mayavi 3.1.0"
-msgstr ""
+msgstr "Mayavi 3.1.0"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1495
 msgid "3 December, 2008 (PR)"
@@ -3706,7 +3706,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1509
 msgid "mlab.pipeline_basene.streamline [22573]."
-msgstr ""
+msgstr "mlab.pipeline_basene.streamline [22573]."
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1511
 msgid "DOC: Documentation work, especially in the scripting parts of the"
@@ -4396,7 +4396,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1838
 msgid "29 June, 2008 (GV):"
-msgstr ""
+msgstr "29 June, 2008 (GV):"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1834
 msgid "ENH: Updated Sphinx docs [19318]."
@@ -4428,7 +4428,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1847
 msgid "27 June, 2008 (GV):"
-msgstr ""
+msgstr "27 June, 2008 (GV):"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1846
 msgid ""
@@ -4438,7 +4438,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1852
 msgid "25 June, 2008 (GV):"
-msgstr ""
+msgstr "25 June, 2008 (GV):"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1850
 msgid "ENH: Add autoscale to mlab.surf (scalez keyword argument) [19131]"
@@ -4843,7 +4843,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_adjust_cropping_extents.rst:30
 msgid "**Python source code:** :download:`adjust_cropping_extents.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`adjust_cropping_extents.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_atomic_orbital.rst:6
 msgid "Atomic orbital example"
@@ -4887,7 +4887,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_atomic_orbital.rst:35
 msgid "**Python source code:** :download:`atomic_orbital.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`atomic_orbital.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_boy.rst:6
 msgid "Boy example"
@@ -4908,7 +4908,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_boy.rst:22
 msgid "**Python source code:** :download:`boy.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`boy.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_bunny.rst:6
 msgid "Bunny example"
@@ -4921,7 +4921,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_bunny.rst:12
 msgid "**Python source code:** :download:`bunny.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`bunny.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_canyon.rst:6
 msgid "Canyon example"
@@ -4948,7 +4948,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_canyon.rst:24
 msgid "**Python source code:** :download:`canyon.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`canyon.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_canyon_decimation.rst:6
 msgid "Canyon decimation example"
@@ -4995,7 +4995,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_canyon_decimation.rst:38
 msgid "**Python source code:** :download:`canyon_decimation.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`canyon_decimation.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_chemistry.rst:6
 msgid "Chemistry example"
@@ -5028,7 +5028,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_chemistry.rst:28
 msgid "**Python source code:** :download:`chemistry.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`chemistry.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_coil_design_application.rst:6
 msgid "Coil design application example"
@@ -5078,7 +5078,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_coil_design_application.rst:40
 msgid "**Python source code:** :download:`coil_design_application.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`coil_design_application.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_compute_in_thread.rst:6
 msgid "Compute in thread example"
@@ -5094,7 +5094,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_compute_in_thread.rst:14
 msgid "**Python source code:** :download:`compute_in_thread.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`compute_in_thread.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_contour.rst:6
 msgid "Contour example"
@@ -5109,7 +5109,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_contour.rst:14
 msgid "**Python source code:** :download:`contour.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`contour.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_contour_contour.rst:6
 msgid "Contour contour example"
@@ -5122,7 +5122,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_contour_contour.rst:11
 msgid "**Python source code:** :download:`contour_contour.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`contour_contour.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_custom_colormap.rst:6
 msgid "Custom colormap example"
@@ -5165,7 +5165,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_custom_colormap.rst:34
 msgid "**Python source code:** :download:`custom_colormap.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`custom_colormap.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_datasets.rst:6
 msgid "Datasets example"
@@ -5200,7 +5200,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_datasets.rst:38
 msgid "**Python source code:** :download:`datasets.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`datasets.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_delaunay_graph.rst:6
 msgid "Delaunay graph example"
@@ -5261,7 +5261,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_delaunay_graph.rst:51
 msgid "**Python source code:** :download:`delaunay_graph.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`delaunay_graph.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_dragon.rst:6
 msgid "Dragon example"
@@ -5274,7 +5274,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_dragon.rst:12
 msgid "**Python source code:** :download:`dragon.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`dragon.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:6
 msgid "Flight graph example"
@@ -5319,7 +5319,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:37
 msgid "**Python source code:** :download:`flight_graph.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`flight_graph.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_glyph.rst:6
 msgid "Glyph example"
@@ -5335,7 +5335,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_glyph.rst:14
 msgid "**Python source code:** :download:`glyph.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`glyph.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_image_cursor_filter.rst:6
 msgid "Image cursor filter example"
@@ -5382,7 +5382,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_image_cursor_filter.rst:35
 msgid "**Python source code:** :download:`image_cursor_filter.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`image_cursor_filter.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set.rst:6
 msgid "Julia set example"
@@ -5402,7 +5402,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set.rst:21
 msgid "**Python source code:** :download:`julia_set.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`julia_set.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set_decimation.rst:6
 msgid "Julia set decimation example"
@@ -5450,7 +5450,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set_decimation.rst:39
 msgid "**Python source code:** :download:`julia_set_decimation.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`julia_set_decimation.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_lorenz.rst:6
 msgid "Lorenz example"
@@ -5478,7 +5478,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_lorenz.rst:26
 msgid "**Python source code:** :download:`lorenz.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`lorenz.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_lorenz_ui.rst:6
 msgid "Lorenz ui example"
@@ -5502,7 +5502,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_lorenz_ui.rst:19
 msgid "**Python source code:** :download:`lorenz_ui.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`lorenz_ui.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_lucy.rst:6
 msgid "Lucy example"
@@ -5515,7 +5515,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_lucy.rst:12
 msgid "**Python source code:** :download:`lucy.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`lucy.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_magnetic_field.rst:6
 msgid "Magnetic field example"
@@ -5557,7 +5557,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_magnetic_field.rst:28
 msgid "**Python source code:** :download:`magnetic_field.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`magnetic_field.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_magnetic_field_lines.rst:6
 msgid "Magnetic field lines example"
@@ -5595,7 +5595,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_magnetic_field_lines.rst:31
 msgid "**Python source code:** :download:`magnetic_field_lines.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`magnetic_field_lines.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mayavi_traits_ui.rst:6
 msgid "Mayavi traits ui example"
@@ -5624,7 +5624,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mayavi_traits_ui.rst:21
 msgid "**Python source code:** :download:`mayavi_traits_ui.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`mayavi_traits_ui.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_3D_to_2D.rst:6
 msgid "Mlab 3D to 2D example"
@@ -5783,7 +5783,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_3D_to_2D.rst:117
 msgid "**Python source code:** :download:`mlab_3D_to_2D.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`mlab_3D_to_2D.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_interactive_dialog.rst:6
 msgid "Mlab interactive dialog example"
@@ -5827,7 +5827,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_interactive_dialog.rst:35
 msgid "**Python source code:** :download:`mlab_interactive_dialog.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`mlab_interactive_dialog.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_traits_ui.rst:6
 msgid "Mlab traits ui example"
@@ -5847,7 +5847,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_traits_ui.rst:15
 msgid "**Python source code:** :download:`mlab_traits_ui.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`mlab_traits_ui.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_visual.rst:6
 msgid "Mlab visual example"
@@ -5888,7 +5888,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_visual.rst:33
 msgid "**Python source code:** :download:`mlab_visual.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`mlab_visual.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mri.rst:6
 msgid "Mri example"
@@ -5929,7 +5929,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mri.rst:31
 msgid "**Python source code:** :download:`mri.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`mri.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_engines.rst:6
 msgid "Multiple engines example"
@@ -5960,7 +5960,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_engines.rst:21
 msgid "**Python source code:** :download:`multiple_engines.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`multiple_engines.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_mlab_scene_models.rst:6
 msgid "Multiple mlab scene models example"
@@ -5994,7 +5994,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_mlab_scene_models.rst:25
 msgid "**Python source code:** :download:`multiple_mlab_scene_models.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`multiple_mlab_scene_models.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_nongui.rst:6
 msgid "Nongui example"
@@ -6025,7 +6025,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_nongui.rst:25
 msgid "**Python source code:** :download:`nongui.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`nongui.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_numeric_source.rst:6
 msgid "Numeric source example"
@@ -6040,7 +6040,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_numeric_source.rst:13
 msgid "**Python source code:** :download:`numeric_source.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`numeric_source.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_offscreen.rst:6
 msgid "Offscreen example"
@@ -6068,7 +6068,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_offscreen.rst:22
 msgid "**Python source code:** :download:`offscreen.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`offscreen.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_pick_on_surface.rst:6
 msgid "Pick on surface example"
@@ -6098,7 +6098,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_pick_on_surface.rst:20
 msgid "**Python source code:** :download:`pick_on_surface.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`pick_on_surface.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_plotting_many_lines.rst:6
 msgid "Plotting many lines example"
@@ -6131,7 +6131,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_plotting_many_lines.rst:33
 msgid "**Python source code:** :download:`plotting_many_lines.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`plotting_many_lines.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_poll_file.rst:6
 msgid "Poll file example"
@@ -6157,7 +6157,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_poll_file.rst:24
 msgid "**Python source code:** :download:`poll_file.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`poll_file.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_polydata.rst:6
 msgid "Polydata example"
@@ -6180,7 +6180,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_polydata.rst:22
 msgid "**Python source code:** :download:`polydata.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`polydata.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_probe_filter.rst:6
 msgid "Probe filter example"
@@ -6251,7 +6251,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_probe_filter.rst:52
 msgid "**Python source code:** :download:`probe_filter.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`probe_filter.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_protein.rst:6
 msgid "Protein example"
@@ -6321,7 +6321,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_protein.rst:52
 msgid "**Python source code:** :download:`protein.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`protein.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_qt_embedding.rst:6
 msgid "Qt embedding example"
@@ -6342,7 +6342,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_qt_embedding.rst:16
 msgid "**Python source code:** :download:`qt_embedding.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`qt_embedding.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_scatter_plot.rst:6
 msgid "Scatter plot example"
@@ -6387,7 +6387,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_scatter_plot.rst:34
 msgid "**Python source code:** :download:`scatter_plot.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`scatter_plot.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_select_red_balls.rst:6
 msgid "Select red balls example"
@@ -6426,7 +6426,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_select_red_balls.rst:29
 msgid "**Python source code:** :download:`select_red_balls.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`select_red_balls.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_simple_structured_grid.rst:6
 msgid "Simple structured grid example"
@@ -6457,7 +6457,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_simple_structured_grid.rst:27
 msgid "**Python source code:** :download:`simple_structured_grid.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`simple_structured_grid.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_spherical_harmonics.rst:6
 msgid "Spherical harmonics example"
@@ -6486,7 +6486,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_spherical_harmonics.rst:29
 msgid "**Python source code:** :download:`spherical_harmonics.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`spherical_harmonics.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_standalone.rst:6
 msgid "Standalone example"
@@ -6501,7 +6501,7 @@ msgstr "EnvisageやMayavi Envisageアプリケーションを使用せずにMaya
 
 #: ../../mayavi/docs/source/mayavi/auto/example_standalone.rst:13
 msgid "**Python source code:** :download:`standalone.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`standalone.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_streamline.rst:6
 msgid "Streamline example"
@@ -6516,7 +6516,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_streamline.rst:12
 msgid "**Python source code:** :download:`streamline.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`streamline.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_structured_grid.rst:6
 msgid "Structured grid example"
@@ -6543,7 +6543,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_structured_grid.rst:23
 msgid "**Python source code:** :download:`structured_grid.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`structured_grid.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_structured_points2d.rst:6
 msgid "Structured points2d example"
@@ -6559,7 +6559,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_structured_points2d.rst:22
 msgid "**Python source code:** :download:`structured_points2d.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`structured_points2d.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_structured_points3d.rst:6
 msgid "Structured points3d example"
@@ -6575,7 +6575,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_structured_points3d.rst:22
 msgid "**Python source code:** :download:`structured_points3d.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`structured_points3d.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_subclassing_mayavi_application.rst:6
 msgid "Subclassing mayavi application example"
@@ -6591,7 +6591,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_subclassing_mayavi_application.rst:19
 msgid "**Python source code:** :download:`subclassing_mayavi_application.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`subclassing_mayavi_application.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:6
 msgid "Superquad with gui example"
@@ -6626,7 +6626,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:26
 msgid "**Python source code:** :download:`superquad_with_gui.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`superquad_with_gui.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_surf_regular_mlab.rst:6
 msgid "Surf regular mlab example"
@@ -6639,7 +6639,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_surf_regular_mlab.rst:12
 msgid "**Python source code:** :download:`surf_regular_mlab.py`"
-msgstr ""
+msgstr "**Pythonソースコード:**  :download:`surf_regular_mlab.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_surface_from_irregular_data.rst:6
 msgid "Surface from irregular data example"
@@ -6678,7 +6678,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_surface_from_irregular_data.rst:35
 msgid "**Python source code:** :download:`surface_from_irregular_data.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`surface_from_irregular_data.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_tvtk_in_mayavi.rst:6
 msgid "Tvtk in mayavi example"
@@ -6714,7 +6714,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_tvtk_in_mayavi.rst:31
 msgid "**Python source code:** :download:`tvtk_in_mayavi.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`tvtk_in_mayavi.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_tvtk_segmentation.rst:6
 msgid "Tvtk segmentation example"
@@ -6742,7 +6742,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_tvtk_segmentation.rst:21
 msgid "**Python source code:** :download:`tvtk_segmentation.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`tvtk_segmentation.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_unstructured_grid.rst:6
 msgid "Unstructured grid example"
@@ -6778,7 +6778,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_unstructured_grid.rst:24
 msgid "**Python source code:** :download:`unstructured_grid.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`unstructured_grid.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_user_mayavi.rst:6
 msgid "User mayavi example"
@@ -6839,7 +6839,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_user_mayavi.rst:42
 msgid "**Python source code:** :download:`user_mayavi.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`user_mayavi.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_volume_slicer.rst:6
 msgid "Volume slicer example"
@@ -6891,7 +6891,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_volume_slicer.rst:39
 msgid "**Python source code:** :download:`volume_slicer.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`volume_slicer.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_volume_slicer_advanced.rst:6
 msgid "Volume slicer advanced example"
@@ -6947,7 +6947,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_volume_slicer_advanced.rst:40
 msgid "**Python source code:** :download:`volume_slicer_advanced.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`volume_slicer_advanced.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_wigner.rst:6
 msgid "Wigner example"
@@ -6988,7 +6988,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_wigner.rst:32
 msgid "**Python source code:** :download:`wigner.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`wigner.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_wx_embedding.rst:6
 msgid "Wx embedding example"
@@ -7023,7 +7023,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_wx_embedding.rst:25
 msgid "**Python source code:** :download:`wx_embedding.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`wx_embedding.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_wx_mayavi_embed_in_notebook.rst:6
 msgid "Wx mayavi embed in notebook example"
@@ -7049,7 +7049,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_wx_mayavi_embed_in_notebook.rst:19
 msgid "**Python source code:** :download:`wx_mayavi_embed_in_notebook.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`wx_mayavi_embed_in_notebook.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_zzz_reader.rst:6
 msgid "Zzz reader example"
@@ -7100,7 +7100,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_zzz_reader.rst:27
 msgid "**Python source code:** :download:`zzz_reader.py`"
-msgstr ""
+msgstr "**Pythonソースコード:** :download:`zzz_reader.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:6
 msgid "Example gallery"
@@ -11757,7 +11757,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:430
 msgid "volume_file"
-msgstr ""
+msgstr "volume_file"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:434
 msgid "Open a Volume file"
@@ -11769,7 +11769,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:18
 msgid "add_dataset"
-msgstr ""
+msgstr "add_dataset"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:22
 msgid "Add a dataset object to the Mayavi pipeline."
@@ -11777,7 +11777,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:0
 msgid "dataset"
-msgstr ""
+msgstr "dataset"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:26
 msgid ""
@@ -11815,7 +11815,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:53
 msgid "add_module_manager"
-msgstr ""
+msgstr "add_module_manager"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:57
 msgid ""
@@ -11824,7 +11824,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:65
 msgid "get_vtk_src"
-msgstr ""
+msgstr "get_vtk_src"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:69
 msgid ""
@@ -11837,7 +11837,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:0
 msgid "stop_at_filter"
-msgstr ""
+msgstr "stop_at_filter"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:76
 msgid ""
@@ -11847,22 +11847,24 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:0
 msgid "sources"
-msgstr ""
+msgstr "sources"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:83
 msgid ""
 "List of vtk data sources (vtk data sources, and not Mayavi source objects)."
-msgstr ""
+msgstr "vtkデータソースのリスト(Mayaviソースオブジェクトではなく、vtkデータソース)。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:88
 msgid ""
 "This function traverses the Mayavi pipeline. Thus the input object "
 "'mayavi_object' should already be added to the pipeline."
 msgstr ""
+"この関数は、Mayaviパイプラインをトラバースします。したがって、入力オブジェクト 'mayavi_object' "
+"は既にパイプラインに追加されるべきです。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:96
 msgid "set_extent"
-msgstr ""
+msgstr "set_extent"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:100
 msgid "Attempts to set the physical extents of the given module."
@@ -11893,7 +11895,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:126
 msgid "traverse"
-msgstr ""
+msgstr "traverse"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:130
 msgid "Generator to traverse a tree accessing the nodes' children attribute."
@@ -11901,13 +11903,13 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:133
 msgid "**Example**"
-msgstr ""
+msgstr "**例**"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:135
 msgid ""
 "Here is a simple example printing the names of all the objects in the "
 "pipeline::"
-msgstr ""
+msgstr "パイプライン内のすべてのオブジェクトの名前を出力する簡単な例を次に示します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_reference.rst:6
 msgid "MLab reference"
