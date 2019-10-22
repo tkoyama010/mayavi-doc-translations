@@ -256,6 +256,8 @@ msgid ""
 " arises in a few of the mlab sources where when we reset to a polydata with "
 "a smaller number of points."
 msgstr ""
+"問題 `#770 <https://github.com/enthought/mayavi/issues/770>`_ "
+"を修正しました。この問題はmlabソースのいくつかで発生します。これは、より少ないポイント数のpolydataにリセットすると発生します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:92
 msgid ""
@@ -304,6 +306,8 @@ msgid ""
 "Some UI fixes for ivtk. This fixes `#734 "
 "<https://github.com/enthought/mayavi/issues/734>`_."
 msgstr ""
+"ivtkのUIを修正しました。これで `#734<https://github.com/enthought/mayavi/issues/734>`_ "
+"が修正されました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:105
 msgid ""
@@ -891,6 +895,8 @@ msgid ""
 "Fix `#605 <https://github.com/enthought/mayavi/issues/605>`_: Interactors "
 "now work correctly with Qt5."
 msgstr ""
+"`#605<https://github.com/enthought/mayavi/issues/605>`_ を修正: "
+"InteractorがQt5で正しく動作するようになりました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:318
 msgid ""
@@ -1102,6 +1108,8 @@ msgid ""
 "Add test for the fix provided in `#514 "
 "<https://github.com/enthought/mayavi/issues/514>`_."
 msgstr ""
+"`#514 <https://github.com/enthought/mayavi/issues/514>`_ "
+"で提供された修正のテストを追加しました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:375
 msgid ""
@@ -1637,6 +1645,8 @@ msgid ""
 "Fix texture on ``mlab.surf``, issue `#211 "
 "<https://github.com/enthought/mayavi/issues/211>`_."
 msgstr ""
+"テクスチャを ``mlab.surf`` で修正しました。issue `#211 "
+"<https://github.com/enthought/mayavi/issues/211>`_ 。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:536
 msgid ""
@@ -2306,6 +2316,8 @@ msgid ""
 "BUG: Qt: fix crashing full-screen-mode.  Fixed segfault when you click on "
 "full-screen and press escape/q/e."
 msgstr ""
+"バグ: Qt: フルスクリーンモードのクラッシュを修正しました。全画面表示をクリックして escape/q/e "
+"キーを押したときのセグメント障害を修正しました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:829
 msgid "Mayavi 4.2.1"
@@ -2331,7 +2343,7 @@ msgstr "22 July 2010 (GV)"
 msgid ""
 "ENH: Add error management for extents in mlab: some module cannot be scaled "
 "[25683]."
-msgstr ""
+msgstr "機能追加: mlabでエクステントのエラー管理を追加しました。一部のモジュールはスケールできません[25683]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:848
 msgid "16 July 2010 (GV)"
@@ -2341,7 +2353,7 @@ msgstr "16 July 2010 (GV)"
 msgid ""
 "ENH: Enable LUT defined by tables to have their number of colors adjusted "
 "[25663]."
-msgstr ""
+msgstr "機能追加: テーブルによって定義されたLUTの色数を調整できるようにしました[25663]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:859
 msgid "2 August 2010 (GV)"
@@ -2398,7 +2410,7 @@ msgstr "13 April 2010 (GV)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:883
 msgid "API: Enforces wx >= 2.8 [25465,25471,25529]"
-msgstr ""
+msgstr "API: wx >= 2.8 を強制します。 [25465,25471,25529]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:886
 msgid "11 April 2010 (GV)"
@@ -2406,7 +2418,7 @@ msgstr "11 April 2010 (GV)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:886
 msgid "ENH: Add figure management to mlab.roll [25464]."
-msgstr ""
+msgstr "新機能: mlab.rollに図管理を追加しました。[25464]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:891
 msgid "6 March 2010 (GV)"
@@ -2427,6 +2439,8 @@ msgid ""
 "BUG: Fixing wrapping for VTK-5.6 and above where one of the string traits "
 "default to a value with a special character like \"\\n\" \"\\r\" [25546]."
 msgstr ""
+"バグ: VTK-5.6以降で、文字列特性のいずれかが、 \"\\n\"  \"\\r\" "
+"のような特殊文字を含む値にデフォルト設定されたときのラッピングが修正されました [25546]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:902
 msgid "17 April 2010 (GV)"
@@ -2455,7 +2469,7 @@ msgstr "3 April 2010 (GV)"
 msgid ""
 "BUG: Make the 'use_lookup_table' traits of the image_plane_widget work. "
 "[25430]"
-msgstr ""
+msgstr "バグ: image_plane_widget の 'use_lookup_table' 特性を動作させました。[25430]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:915
 msgid "Mayavi 3.3.1 (Feb 24, 2010)"
@@ -2504,7 +2518,7 @@ msgstr "27 Nov 2009 (GV):"
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:936
 msgid ""
 "ENH: Add an auto mode for mlab.view, for distance and focal point [24971]"
-msgstr ""
+msgstr "新機能: mlab.viewの距離と焦点の自動モードを追加しました[24971]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:940
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1077
@@ -2514,7 +2528,7 @@ msgstr "26 Nov, 2009 (GV):"
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:940
 msgid ""
 "ENH: Add a probe_data to retrieve data from Mayavi or VTK objects [24966]"
-msgstr ""
+msgstr "新機能: MayaviまたはVTKオブジェクトからデータを取得するprobe_dataを追加しました[24966]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:944
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1080
@@ -2526,6 +2540,7 @@ msgid ""
 "ENH: Usability: change the label of the '*.*' extension in th decorated "
 "scene save snapshot dialog [24963]"
 msgstr ""
+"新機能: 使いやすさ: 装飾されたシーンのスナップショットを保存するダイアログボックスで、 '*.*' 拡張子のラベルを変更します[24963]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:948
 msgid "12 Oct, 2009 (GV):"
@@ -2535,7 +2550,7 @@ msgstr "12 Oct, 2009 (GV):"
 msgid ""
 "ENH: Add script recording to the widget position for the DataSetClipper "
 "filter [24826]"
-msgstr ""
+msgstr "新機能: DataSetClipperフィルタのウィジェット位置にスクリプト記録を追加しました[24826]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:951
 msgid "17 Sep, 2009 (PR):"
@@ -2543,7 +2558,7 @@ msgstr "17 Sep, 2009 (PR):"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:951
 msgid "ENH: Making the widgets recordable [24738]"
-msgstr ""
+msgstr "新機能: ウィジェットを記録可能にしました[24738]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:955
 msgid "02 Sept 2009 (GV):"
@@ -2553,7 +2568,7 @@ msgstr "02 Sept 2009 (GV):"
 msgid ""
 "ENH: Add a new glyph source: a cross, that can be used as a cursor, or a "
 "axes [24678]"
-msgstr ""
+msgstr "新機能: カーソルまたは軸として使用できる十字線など、新しい記号ソースを追加しました[24678]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:961
 msgid "02 Sep, 2009 (GV):"
@@ -2628,13 +2643,15 @@ msgstr "04 Aug, 2009 (GV)"
 msgid ""
 "ENH: Add a screenshot function to mlab for easy capture of the pixmap to "
 "[24445]"
-msgstr ""
+msgstr "新機能: pixmapを簡単にキャプチャできるように、スクリーンショット機能をmlabに追加しました [24445]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:985
 msgid ""
 "ENH: Add a patch contributed by Chris Colbert for control of the array type "
 "in mlab.screenshot (rgb vs rgba) [24453]"
 msgstr ""
+"新機能: mlab.screenshot (rgb vs rgba) で配列型を制御するためにChris "
+"Colbertが提供したパッチを追加しました。[24453]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:990
 msgid "03 Aug, 2009 (GV):"
@@ -2644,7 +2661,7 @@ msgstr "03 Aug, 2009 (GV):"
 msgid ""
 "MISC: Fix long-standing usability complain: OK button on adder nodes not "
 "creating object [24443]"
-msgstr ""
+msgstr "その他: 長年のユーザビリティに関する不満を修正:オブジェクトを作成しない加算ノードのOKボタン[24443]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:997
 msgid "03 Aug, 2009 (PR):"
@@ -2653,7 +2670,7 @@ msgstr "03 Aug, 2009 (PR):"
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:993
 msgid ""
 "ENH: Adding to/from_array to the Matrix4x4 class for convenience [24437]"
-msgstr ""
+msgstr "新機能: Matrix4x4クラスに便利なto/from_arrayを追加 [24437]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:995
 msgid ""
@@ -2661,6 +2678,8 @@ msgid ""
 "tvtk.Stripper in the pipeline to produce smooth tubes [24438] [24442] "
 "[24439]"
 msgstr ""
+"新機能: Gary Ruben氏の提案に感謝します。pipelineで滑らかな管を作成する際に "
+"mlab.plot3dがtvtk.Stripperを使用するようになりました [24438] [24442] [24439]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1001
 msgid "01 Aug, 2009 (GV):"
@@ -2671,6 +2690,7 @@ msgid ""
 "DOC: Merge in Ondrej's more precise instructions on installing SVN on an "
 "already-installed system [24428]"
 msgstr ""
+"文書: すでにインストールされているシステムにSVNをインストールする場合は、Ondrejのより正確な指示でマージしてください [24428]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1005
 msgid "15 Jul, 2009 (GV):"
@@ -2680,7 +2700,7 @@ msgstr "15 Jul, 2009 (GV):"
 msgid ""
 "ENH: Open the possibility to have image plane widget working with RGBA data "
 "[24169]"
-msgstr ""
+msgstr "新機能: RGBAデータを使用してイメージプレーンウィジェットを動作させる機能を開きました [24169]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1009
 msgid "10 Jul, 2009 (GV):"
@@ -2689,7 +2709,7 @@ msgstr "10 Jul, 2009 (GV):"
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1008
 msgid ""
 "ENH: Allows for use of lists as a scalar argument in mlab function [24094]"
-msgstr ""
+msgstr "新機能: mlab関数でリストをスカラー引数として使用できるようにしました [24094]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1014
 msgid "09 Jul 2009 (PR):"
@@ -2712,13 +2732,13 @@ msgstr "08 Jul, 2009 (GV):"
 msgid ""
 "ENH: Capture any errors while building docs and fail gracefully during the "
 "build [24067]"
-msgstr ""
+msgstr "新機能:ドキュメントのビルド中に発生したエラーをキャプチャし、ビルド中に問題なく失敗するようにしました [24067]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1021
 msgid ""
 "ENH: Try to force the use of wx2.8, or else do not display the logger "
 "[24064], [24060]"
-msgstr ""
+msgstr "新機能: wx 2.8の使用を強制するか、ロガーを表示しないようにしました [24064]、[24060]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1026
 msgid "07 Jul, 2009 (GV):"
@@ -4162,7 +4182,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1700
 msgid "Mayavi 3.0.0"
-msgstr ""
+msgstr "Mayavi 3.0.0"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1705
 msgid "15 August, 2008 (PR):"
@@ -4227,7 +4247,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1730
 msgid "API: [mlab] API Breakage!"
-msgstr ""
+msgstr "API:[mlab] API破損!"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1730
 msgid ""
@@ -4844,7 +4864,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:2026
 msgid "Got the mlab envisage_engine_manager working with new changes [18599]."
-msgstr ""
+msgstr "mlab envage_engine_managerで新しい変更を処理しました[18599]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:2029
 msgid "Before this changeset, the code was that of the 2.x series."
@@ -4867,6 +4887,7 @@ msgid ""
 " how to build a custom dialog to easily set interactively parameters of a "
 "filter, or any other Mayavi object."
 msgstr ""
+"この例では、GeometryFilterを使用してデータポイントをトリミングする方法と、フィルタまたはその他のMayaviオブジェクトのパラメータをインタラクティブに簡単に設定するためのカスタムダイアログを構築する方法を示します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_adjust_cropping_extents.rst:16
 msgid ""
@@ -4911,6 +4932,7 @@ msgid ""
 "to extract isosurfaces of the norm of a complex field, and we display the "
 "phase of the field with the colormap."
 msgstr ""
+"この例では、1つのデータセットにフィルタを適用し、フィルタの出力に2番目のデータセットを表示する方法を示します。ここでは,複素場のノルムの等値面を抽出するために輪郭フィルタを使用し,カラーマップにより場の位相を表示しました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_atomic_orbital.rst:17
 msgid ""
