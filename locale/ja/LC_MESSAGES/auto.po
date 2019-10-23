@@ -1341,6 +1341,8 @@ msgid ""
 ":ref:`animating_a_timeseries` and :ref:`animating_a_visualization` for more "
 "details."
 msgstr ""
+"ムービーの記録とタイムステップのアニメートのサポートを追加します。詳細については、 :ref:`animating_a_timeseries` と "
+":ref:`animating_a_visualization` を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:448
 msgid ""
@@ -2363,7 +2365,7 @@ msgstr "2 August 2010 (GV)"
 msgid ""
 "BUG: Fix a segfault when updating lines on a MLineSource using 'reset' and "
 "reducing the number of points [25700]."
-msgstr ""
+msgstr "バグ: 'reset' を使用してMLineSource上の線を更新し、点の数を減らす際のsegfaultを修正しました[25700]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:863
 msgid "1 August 2010 (GV)"
@@ -2374,6 +2376,8 @@ msgid ""
 "BUG: Fix updating scalar scatters using mlab_source.set: a race condition "
 "under Qt prevented the scalar range to be updated in time [25699]."
 msgstr ""
+"バグ: mlab_source.set "
+"を使用したスカラー散乱の更新を修正しました。Qtでの競合状態により、スカラー範囲が時間で更新されませんでした[25699]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:868
 msgid "25 July 2010 (GV)"
@@ -2385,6 +2389,8 @@ msgid ""
 "of inputs is misreported, and iterable objects to do not contain TVTKBase "
 "entries [25685,25686]."
 msgstr ""
+"バグ: "
+"パイプラインブラウザのコーナーケースを修正しました。入力数が誤って報告されるオブジェクトと、反復可能オブジェクトがTVTKBaseエントリを含まないようにしました[25685,25686]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:872
 msgid "14 July 2010 (GV)"
@@ -2394,7 +2400,7 @@ msgstr "14 July 2010 (GV)"
 msgid ""
 "BUG: Fix a bug in the poll_file example. Thanks to Jonathan Guyer for "
 "pointing out the solution [25660]."
-msgstr ""
+msgstr "バグ: poll_file の例のバグを修正しました。解決策を指摘してくれたJonathan Guyerに感謝します[25660]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:875
 msgid "Mayavi 3.3.2 (May 25, 2010)"
@@ -2592,7 +2598,7 @@ msgstr "20 Aug, 2009 (PR):"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:964
 msgid "ENH: Don't persist mlab_source [24567]"
-msgstr ""
+msgstr "改善: mlab_sourceを保持しません[24567]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:975
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1119
@@ -2721,6 +2727,8 @@ msgid ""
 "`pitch` to the mlab camera.  Many thanks to Erik for this patch [24083], "
 "[24084]"
 msgstr ""
+"ENH/API: mlab カメラに `move` 、 `yaw と `pitch` を追加するErik "
+"Tollerudからパッチをチェックインしました。このパッチを適用してくれたErikに深く感謝します[24083], [24084]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1018
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1022
@@ -2748,7 +2756,7 @@ msgstr "07 Jul, 2009 (GV):"
 msgid ""
 "ENH: Add a button and a menu entry to display the VTK documentation browser "
 "[25058]"
-msgstr ""
+msgstr "改善: ボタンとメニューエントリを追加して、VTKドキュメントブラウザを表示するようにしました [25058]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1033
 msgid "22 Jul, 2009 (Dave Peterson):"
@@ -2760,6 +2768,8 @@ msgid ""
 "can correctly determine what to include when packaging a distribution.  This"
 " is necessary due to the use of namespace packages [24339]"
 msgstr ""
+"すべての __init__.py "
+"ファイルがmodulefinderコードを使って更新され、py2app/py2exeが配布パッケージに何を含めるかを正しく決定できるようになりました。これは、名前空間パッケージを使用するために必要です[24339]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1042
 msgid "21 Feb, 2010 (GV)"
@@ -2769,13 +2779,13 @@ msgstr "21 Feb, 2010 (GV)"
 msgid ""
 "BUG: Make the threshold filter better behaved when there are nans in the "
 "data [25280]"
-msgstr ""
+msgstr "バグ: データにnansが含まれている場合に、しきい値フィルタが適切に動作するようにしました。[25280]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1041
 msgid ""
 "BUG: Remove callbacks on OrientationAxis that where triggering useless "
 "redraws [25279]"
-msgstr ""
+msgstr "バグ: 不要な再描画をトリガするOrientationAxisのコールバックを削除しました。[25279]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1048
 msgid "15 Feb, 2010 (PR):"
@@ -2788,6 +2798,8 @@ msgid ""
 "underscore (_). This should hopefully fix problems with building TVTK with "
 "VTK from CVS [25236]"
 msgstr ""
+"バグ: "
+"自動生成されたtrait名が実際にPythonキーワードだった場合の問題を修正しました。このような場合、trait名には単に下線(_)が付加されます。これにより、CVSからVTKを使ってTVTKをビルドする際の問題が解決するはずです[25236]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1051
 msgid "12 Feb, 2010 (Scott Warts):"
@@ -2808,32 +2820,35 @@ msgid ""
 "to Michele Mattioni for pointing out the bug, and providing the patch "
 "[25097]"
 msgstr ""
+"バグ: cylinder "
+"の半径と長さの上限は100で、実際には正の数だけに制限されます。kludgeで固定します。バグを指摘してパッチを提供してくれたMichele "
+"Mattioni氏に感謝します[25097]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1060
 msgid ""
 "BUG: Correct bug with visibility of OrientationAxes reported by Uche Mennel "
 "[25037]"
-msgstr ""
+msgstr "バグ: Uche Mennelが報告したOrientationAxesの可視性に関するバグを修正しました[25037]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1062
 msgid "BUG: Patch by Varun Hiremath to make build docs more robust [25039]"
-msgstr ""
+msgstr "バグ: Varun Hiremathによるパッチでビルドドキュメントをより堅牢にしました [25039]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1063
 msgid "BUG: Fix scalarbar positionning for VTK >= 5. [25040]"
-msgstr ""
+msgstr "バグ :VTK>=5のためにスカラーバーの配置を修正しました。[25040]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1064
 msgid ""
 "BUG: Avoid a segfault when enabling the OrientationAxes without an "
 "interactor [25044]"
-msgstr ""
+msgstr "バグ: interactor なしでOrientationAxesを有効にするときにsegfaultを回避します [25044]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1066
 msgid ""
 "MISC: Disable the use of IPython by default, there are right now too many "
 "bugs with it [25041]"
-msgstr ""
+msgstr "その他: デフォルトではIPythonを無効にしていますが、現在はバグが多すぎます [25041]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1073
 msgid "14 Dec, 2009 (GV):"
@@ -2841,7 +2856,7 @@ msgstr "14 Dec, 2009 (GV):"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1070
 msgid "BUG: Fix test on pick dispatcher [25020]"
-msgstr ""
+msgstr "バグ: ピックディスパッチャのテストを修正しました [25020]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1071
 msgid ""
@@ -10344,7 +10359,7 @@ msgstr "triangular_mesh"
 msgid ""
 "Plots a surface using a mesh defined by the position of its vertices and the"
 " triangles connecting them."
-msgstr ""
+msgstr "頂点の位置とそれらを接続する三角形によって定義されるメッシュを使用して、サーフェスをプロットします。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:1085
 msgid ""
@@ -10358,7 +10373,7 @@ msgstr ""
 msgid ""
 "For simple structures (such as rectangular grids) prefer the surf or mesh "
 "functions, as they will create more efficient data structures."
-msgstr ""
+msgstr "単純な構造(矩形グリッドなど)の場合は、より効率的なデータ構造が作成されるため、surf関数またはmesh関数の方が適しています。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:1203
 msgid "volume_slice"
@@ -10368,7 +10383,7 @@ msgstr "volume_slice"
 msgid ""
 "Plots an interactive image plane sliced through a 3D volume of data suplied "
 "as argument."
-msgstr ""
+msgstr "3Dボリュームのデータを引数としてスライスしたインタラクティブなイメージプレーンをプロットします。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
@@ -10415,7 +10430,7 @@ msgstr "animate"
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:23
 msgid ""
 ":: A convenient decorator to animate a generator performing an animation."
-msgstr ""
+msgstr "アニメーションを実行するジェネレータをアニメートする便利なデコレータ。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:26
 msgid ""
@@ -10456,7 +10471,7 @@ msgstr "support_movie"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:44
 msgid "bool specifying if the animation will support recording of a movie."
-msgstr ""
+msgstr "アニメーションがムービーの記録をサポートするかどうかを指定します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:47
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:350
@@ -10464,11 +10479,11 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:43
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:81
 msgid "**Returns**"
-msgstr ""
+msgstr "**戻り値**"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:49
 msgid "The decorated function returns an `Animator` instance."
-msgstr ""
+msgstr "デコレート関数は `Animator`  インスタンスを返します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:53
 msgid "Here is the example provided in the Animator class documentation::"
@@ -10786,7 +10801,7 @@ msgstr "file"
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:366
 msgid ""
 "An open file or a filename or `None`.  If this is `None`, nothing is saved."
-msgstr ""
+msgstr "開いているファイル、ファイル名または `None` 。 `None` の場合、何も保存されません。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:375
 msgid "text"
@@ -10944,7 +10959,7 @@ msgstr "type"
 msgid ""
 "'scalars', 'vectors' or 'tensors', optional The type of the data to "
 "retrieve."
-msgstr ""
+msgstr "'scalars' 、 'vectors' または 'tensors' オプション 取得するデータのタイプ。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_data.rst:0
 msgid "location"
@@ -10952,7 +10967,7 @@ msgstr "location"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_data.rst:37
 msgid "'points' or 'cells', optional The location of the data to retrieve."
-msgstr ""
+msgstr "'points' または 'cells', オプション 取り出すデータの場所。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_data.rst:42
 msgid ""
@@ -11162,6 +11177,8 @@ msgid ""
 "defining the scalar.  It is essentially equivalent to a 3D Gaussian kernel "
 "density estimate. **Keyword arguments:**"
 msgstr ""
+"ポイントクラウド、スカラーを定義するローカル密度、から構造化されたポイントセットを構築します。これは本質的に3D Gaussカーネル密度推定と等価です。"
+" **キーワード引数:**"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:472
 msgid "glyph"
