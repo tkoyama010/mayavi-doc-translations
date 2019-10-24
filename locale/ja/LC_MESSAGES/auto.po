@@ -2435,6 +2435,8 @@ msgid ""
 "MISC: Change the default in iso_surface to compute normals, as with recent "
 "VTK versions colors look ugly when normals are not computed [25400]."
 msgstr ""
+"その他: iso_surface "
+"のデフォルトを変更して法線を計算します。最近のVTKバージョンでは、法線が計算されないとカラーが醜く見えます[25400]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:899
 msgid "17 May 2010 (PR)"
@@ -2454,7 +2456,7 @@ msgstr "17 April 2010 (GV)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:902
 msgid "BUG: Fix integer casting in magnification for mlab.savefig [25483]"
-msgstr ""
+msgstr "バグ: mlab.savefig用に整数キャストの倍率を修正しました[25483]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:907
 msgid "5 April 2010 (GV)"
@@ -2509,13 +2511,13 @@ msgstr "13 Dec, 2009 (GV):"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:931
 msgid "ENH: Make array_handler more robust to buffer protocole [25013]"
-msgstr ""
+msgstr "拡張: array_handlerをバッファプロトコールにより堅牢にします[25013]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:932
 msgid ""
 "ENH: Add support for assigning numbers to MGlyphSource x, y, z, and u, v, w "
 "[25015]"
-msgstr ""
+msgstr "拡張: MGlyphSource x、y、z、およびu、v、wへの番号割り当てのサポートを追加しました[25015]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:937
 msgid "27 Nov 2009 (GV):"
@@ -2584,7 +2586,7 @@ msgstr "02 Sep, 2009 (GV):"
 msgid ""
 "ENH: Add a figure argument to mlab.view and try to lift the figure on "
 "screenshot [24676]"
-msgstr ""
+msgstr "拡張: mlab.viewにfigure引数を追加し、スクリーンショットの図のリフトを試みました [24676]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:960
 msgid ""
@@ -2628,7 +2630,7 @@ msgstr ""
 msgid ""
 "ENH: Make the scalars argument of mlab.pipeline.vector_field work with lists"
 " too [24532]"
-msgstr ""
+msgstr "拡張: mlab.pipeline.vector_field のスカラー引数がリストでも動作するようにしました [24532]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:980
 msgid "13 Aug, 2009 (GV):"
@@ -2867,7 +2869,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1076
 msgid "BUG: Add forgotten file. Thanks to Darren Dale for reporting [24967]"
-msgstr ""
+msgstr "バグ: 忘れたファイルを追加しました。報告してくれたDarren Daleに感謝します [24967]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1077
 msgid "BUG: Fix mlab.pipeline.get_vtk_src for VTK dataset [24968]"
@@ -3015,11 +3017,11 @@ msgstr "23 Jul, 2009 (Evan Patterson):"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1139
 msgid "BUG: Replacing deprecated calls to wx.Yield() [24379]"
-msgstr ""
+msgstr "バグ: wx.Yield() への推奨されない呼び出しの置き換え [24379]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1143
 msgid "Mayavi 3.3.0 (July 15, 2009)"
-msgstr ""
+msgstr "Mayavi 3.3.0 (July 15, 2009)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1151
 msgid "06 Jul, 2009 (PR):"
@@ -4496,7 +4498,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1843
 msgid "27 June, 2008 (Vibha):"
-msgstr ""
+msgstr "27 June, 2008 (Vibha):"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1841
 msgid "API: Remove SimpleScene class [19285]."
@@ -4616,7 +4618,7 @@ msgstr "30 May, 2008 (PR):"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1898
 msgid "API: Adding closing, closed lifecycle events to the scene [18806]."
-msgstr ""
+msgstr "API: 閉じる、閉じたライフサイクルイベントをシーンに追加しました[18806]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1904
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1908
@@ -5126,7 +5128,7 @@ msgstr "コイル設計適用例"
 msgid ""
 "An full-blown application demoing a domain-specific usecase with Mayavi: "
 "interactive design of coils."
-msgstr ""
+msgstr "Mayaviを使ってドメイン固有のユースケースをデモする本格的なアプリケーション、コイルの対話型設計です。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_coil_design_application.rst:12
 msgid ""
@@ -5291,14 +5293,14 @@ msgstr "**Pythonソースコード:** :download:`datasets.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_delaunay_graph.rst:6
 msgid "Delaunay graph example"
-msgstr ""
+msgstr "Delaunayグラフの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_delaunay_graph.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:637
 msgid ""
 "An example illustrating graph manipulation and display with Mayavi and "
 "NetworkX."
-msgstr ""
+msgstr "MayaviとNetworkXを使用したグラフ操作と表示の例。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_delaunay_graph.rst:12
 msgid ""
@@ -5306,6 +5308,7 @@ msgid ""
 " a Delaunay from data points, extract it and pass it to networkx. It also "
 "shows how to plot a graph using quiver."
 msgstr ""
+"この例では、Mayaviを純粋にアルゴリズム的な方法で使用して、データポイントからDelaunayを計算し、抽出してnetworkxに渡す方法を示します。また、振動を使用してグラフをプロットする方法も示します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_delaunay_graph.rst:16
 msgid ""
@@ -5320,7 +5323,7 @@ msgid ""
 "The visualization clearly shows that the minimum spanning tree of the "
 "points, considering all possible connections, is included in the Delaunay "
 "graph."
-msgstr ""
+msgstr "可視化によりすべての可能な接続を考慮した点の最小スパンニング木がDelaunayグラフに含まれることが明確に示されました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_delaunay_graph.rst:27
 msgid ""
@@ -5352,7 +5355,7 @@ msgstr "**Pythonソースコード:** :download:`delaunay_graph.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_dragon.rst:6
 msgid "Dragon example"
-msgstr ""
+msgstr "ドラゴンの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_dragon.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:208
@@ -5365,7 +5368,7 @@ msgstr "**Pythonソースコード:** :download:`dragon.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:6
 msgid "Flight graph example"
-msgstr ""
+msgstr "フライトグラフの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:296
@@ -5410,7 +5413,7 @@ msgstr "**Pythonソースコード:** :download:`flight_graph.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_glyph.rst:6
 msgid "Glyph example"
-msgstr ""
+msgstr "Glyphの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_glyph.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:578
@@ -5473,12 +5476,12 @@ msgstr "**Pythonソースコード:** :download:`image_cursor_filter.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set.rst:6
 msgid "Julia set example"
-msgstr ""
+msgstr "Juliaのセット例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:196
 msgid "An example showing the Julia set displayed as a z-warped surface."
-msgstr ""
+msgstr "JuliaセットをZワープサーフェスとして表示した例。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set.rst:11
 msgid ""
@@ -5493,7 +5496,7 @@ msgstr "**Pythonソースコード:** :download:`julia_set.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set_decimation.rst:6
 msgid "Julia set decimation example"
-msgstr ""
+msgstr "Juliaセットデシメーションの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set_decimation.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:240
@@ -5541,7 +5544,7 @@ msgstr "**Pythonソースコード:** :download:`julia_set_decimation.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_lorenz.rst:6
 msgid "Lorenz example"
-msgstr ""
+msgstr "Lorenzの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_lorenz.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:230
@@ -5569,7 +5572,7 @@ msgstr "**Pythonソースコード:** :download:`lorenz.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_lorenz_ui.rst:6
 msgid "Lorenz ui example"
-msgstr ""
+msgstr "Lorenz uiの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_lorenz_ui.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:502
@@ -5593,7 +5596,7 @@ msgstr "**Pythonソースコード:** :download:`lorenz_ui.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_lucy.rst:6
 msgid "Lucy example"
-msgstr ""
+msgstr "Lucy の例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_lucy.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:212
@@ -8352,7 +8355,7 @@ msgstr "nb_colors"
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:73
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:103
 msgid "The maximum number of colors displayed on the colorbar."
-msgstr ""
+msgstr "カラーバーに表示される色の最大数。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:51
 msgid "scalarbar"
@@ -8360,17 +8363,17 @@ msgstr "scalarbar"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:55
 msgid "Adds a colorbar for the scalar color mapping of the given object."
-msgstr ""
+msgstr "指定されたオブジェクトのスカラーカラーマッピングにカラーバーを追加します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:57
 msgid ""
 "If no object is specified, the first object with scalar data in the scene is"
 " used."
-msgstr ""
+msgstr "オブジェクトが指定されていない場合は、シーン内のスカラーデータを持つ最初のオブジェクトが使用されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:62
 msgid "Optional object to get the scalar color map from"
-msgstr ""
+msgstr "スカラーカラーマップを取得するオプションのオブジェクト"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:81
 msgid "vectorbar"
@@ -8378,23 +8381,23 @@ msgstr "vectorbar"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:85
 msgid "Adds a colorbar for the vector color mapping of the given object."
-msgstr ""
+msgstr "指定されたオブジェクトのベクトルカラーマッピングにカラーバーを追加します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:87
 msgid ""
 "If no object is specified, the first object with vector data in the scene is"
 " used."
-msgstr ""
+msgstr "オブジェクトが指定されていない場合は、シーン内のベクトルデータを持つ最初のオブジェクトが使用されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:90
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:153
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:71
 msgid "**Keyword arguments**"
-msgstr ""
+msgstr "**キーワード引数**"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:92
 msgid "Optional object to get the vector color map from"
-msgstr ""
+msgstr "ベクトルカラーマップを取得するオプションのオブジェクト"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:111
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
@@ -8404,7 +8407,7 @@ msgstr "xlabel"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:116
 msgid "Creates a set of axes if there isn't already one, and sets the x label"
-msgstr ""
+msgstr "軸のセットがない場合は作成し、Xラベルを設定します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:120
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:138
@@ -8412,7 +8415,7 @@ msgstr ""
 msgid ""
 "The object to apply the module to, if not the whole scene is searched for a "
 "suitable object."
-msgstr ""
+msgstr "モジュールを適用するオブジェクト 、シーン全体でない場合を検索して、適切なオブジェクトを探します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:128
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
@@ -8422,7 +8425,7 @@ msgstr "ylabel"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:133
 msgid "Creates a set of axes if there isn't already one, and sets the y label"
-msgstr ""
+msgstr "軸のセットがない場合は作成し、Yラベルを設定します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:146
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
@@ -8432,7 +8435,7 @@ msgstr "zlabel"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:151
 msgid "Creates a set of axes if there isn't already one, and sets the z label"
-msgstr ""
+msgstr "軸のセットがない場合は作成し、Zラベルを設定します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:15
 msgid "Figure handling functions"
@@ -8468,7 +8471,7 @@ msgstr "close(num)は、図形番号numを閉じます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:41
 msgid "close(name) closes figure named name."
-msgstr ""
+msgstr "close(name) は、図名称nameを閉じます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:43
 msgid "close(figure), where figure is a scene instance, closes that figure."
@@ -8476,7 +8479,7 @@ msgstr "close(figure)は、figureがシーンインスタンスである場合�
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:46
 msgid "close(all=True) closes all figures controlled by mlab"
-msgstr ""
+msgstr "close(all=True) はmlabによって制御されているすべての図を閉じます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:53
 msgid "draw"
@@ -8484,17 +8487,17 @@ msgstr "draw"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:57
 msgid "Forces a redraw of the current figure."
-msgstr ""
+msgstr "現在の図を強制的に再描画します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:68
 msgid ""
 "Creates a new scene or retrieves an existing scene. If the mayavi engine is "
 "not running this also starts it."
-msgstr ""
+msgstr "新しいシーンを作成するか、既存のシーンを読み込みます。mayaviエンジンが実行されていない場合は、これによっても起動されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:73
 msgid "The name of the figure, or handle to it."
-msgstr ""
+msgstr "図の名前、または図のハンドル。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:0
 msgid "bgcolor"
@@ -8502,7 +8505,7 @@ msgstr "bgcolor"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:75
 msgid "The color of the background (None is default)."
-msgstr ""
+msgstr "背景の色(Noneがデフォルトです)。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:0
 msgid "fgcolor"
@@ -8514,6 +8517,8 @@ msgid ""
 " (axes, orientation axes, scalar bar labels). It should be sufficiently far "
 "from `bgcolor` to see the annotation texts. (None is default)."
 msgstr ""
+"前景の色。すべてのテキスト注釈ラベルの色です(軸、方向軸、スカラバーラベル)。注釈テキストを表示するには、  `bgcolor` "
+"から十分に離れている必要があります。(Noneがデフォルトです)。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:0
 msgid "engine"
@@ -8521,7 +8526,7 @@ msgstr "engine"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:82
 msgid "The mayavi engine that controls the figure."
-msgstr ""
+msgstr "図を制御するmayaviエンジン。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:0
@@ -8533,7 +8538,7 @@ msgstr "size"
 msgid ""
 "The size of the scene created, in pixels. May not apply for certain scene "
 "viewer."
-msgstr ""
+msgstr "作成されるシーンのサイズ、ピクセル単位。特定のシーンビューアには適用できません。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:92
 msgid "gcf"
@@ -8541,13 +8546,13 @@ msgstr "gcf"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:96
 msgid "Return a handle to the current figure."
-msgstr ""
+msgstr "ハンドルを現在の図に返します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:98
 msgid ""
 "You can supply the engine from which you want to retrieve the current "
 "figure, if you have several mayavi engines."
-msgstr ""
+msgstr "複数のmayaviエンジンがある場合は、現在のフィギュアを取得するエンジンを指定できます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:106
 msgid "savefig"
@@ -8559,6 +8564,7 @@ msgid ""
 "filename. Possibilities are png, jpg, bmp, tiff, ps, eps, pdf, rib "
 "(renderman), oogl (geomview), iv (OpenInventor), vrml, obj (wavefront)"
 msgstr ""
+"現在のシーンを保存します。出力形式は、filenameの拡張子によって推測されます。可能なのは、png、jpg、bmp、tiff、ps、eps、pdf、rib(renderman)、oogl(geomview)、iv(OpenInventor)、vrml、obj(wavefront)です。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:115
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:154
@@ -8576,11 +8582,11 @@ msgstr "**パラメータ**"
 msgid ""
 "the size of the image created (unless magnification is set, in which case it"
 " is the size of the window used for rendering)."
-msgstr ""
+msgstr "作成されるイメージのサイズ(拡大率が設定されていない場合、これはレンダリングに使用されるウィンドウのサイズです)。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:121
 msgid "the figure instance to save to a file."
-msgstr ""
+msgstr "ファイルに保存するfigureインスタンス。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:0
 msgid "magnification"
