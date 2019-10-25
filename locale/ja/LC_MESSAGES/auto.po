@@ -2468,6 +2468,9 @@ msgid ""
 "pipeline: the polydata created by the GraphToPolyData filter had some 'None'"
 " arrays in their point_data [25434]."
 msgstr ""
+"バグ: "
+"Mayaviパイプラインにグラフオブジェクトを挿入できるように若干の修正が加えられました。GraphToPolyDataフィルタによって作成されたポリデータには、point_dataにいくつかの"
+" 'None' 配列がありました[25434]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:912
 msgid "3 April 2010 (GV)"
@@ -5207,7 +5210,7 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/example_contour_contour.rst:8
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:588
 msgid "This example shows how you can produce contours on an IsoSurface."
-msgstr ""
+msgstr "この例では、IsoSurfaceで輪郭を作成する方法を示します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_contour_contour.rst:11
 msgid "**Python source code:** :download:`contour_contour.py`"
@@ -5215,14 +5218,14 @@ msgstr "**Pythonソースコード:** :download:`contour_contour.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_custom_colormap.rst:6
 msgid "Custom colormap example"
-msgstr ""
+msgstr "カスタムカラーマップの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_custom_colormap.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:216
 msgid ""
 "An example showing how a custom colormap (or look up table) can be used for "
 "a given object."
-msgstr ""
+msgstr "特定のオブジェクトでカスタムカラーマップ(またはテーブルを参照)を使用する方法を示す例。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_custom_colormap.rst:12
 msgid ""
@@ -5238,12 +5241,14 @@ msgid ""
 "modified. Specificaly, we start by giving a surf object the 'cool' colormap,"
 " but we modify add to add a transparency effect."
 msgstr ""
+"この例では、オブジェクトのLUTを取得および変更する方法を示します。具体的には、サーフオブジェクトに 'cool' "
+"カラーマップを指定することから始めますが、addを変更して透明度効果を追加します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_custom_colormap.rst:21
 msgid ""
 "Notice in the resulting image how the surface becomes more transparent for "
 "its lower points."
-msgstr ""
+msgstr "作成されたイメージで、サーフェスの下部ポイントがより透明になることに注目してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_custom_colormap.rst:24
 msgid ""
@@ -5258,7 +5263,7 @@ msgstr "**Pythonソースコード:** :download:`custom_colormap.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_datasets.rst:6
 msgid "Datasets example"
-msgstr ""
+msgstr "データセットの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_datasets.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:633
@@ -5269,23 +5274,23 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_datasets.rst:12
 msgid "The following images are created:"
-msgstr ""
+msgstr "次のイメージが作成されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_datasets.rst:16
 msgid "**ImageData**"
-msgstr ""
+msgstr "**ImageData**"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_datasets.rst:21
 msgid "**RectilinearGrid**"
-msgstr ""
+msgstr "**RectilinearGrid**"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_datasets.rst:26
 msgid "**StructuredGrid**"
-msgstr ""
+msgstr "**StructuredGrid**"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_datasets.rst:31
 msgid "**UnstructuredGrid**"
-msgstr ""
+msgstr "**UnstructuredGrid**"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_datasets.rst:38
 msgid "**Python source code:** :download:`datasets.py`"
@@ -5360,7 +5365,7 @@ msgstr "ドラゴンの例"
 #: ../../mayavi/docs/source/mayavi/auto/example_dragon.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:208
 msgid "Viewing Stanford 3D Scanning Repository dragon model"
-msgstr ""
+msgstr "Stanford3D Scanning Repository dragon modelの表示"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_dragon.rst:12
 msgid "**Python source code:** :download:`dragon.py`"
