@@ -19,7 +19,6 @@ basedir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'mayavi/docs/
 execfile_(os.path.join(basedir, 'conf.py'), globals())
 
 locale_dirs = [os.path.join(basedir, '../../../../locale/')]
-gettext_compact = False
 
 def setup(app):
     from sphinx.ext.autodoc import cut_lines
