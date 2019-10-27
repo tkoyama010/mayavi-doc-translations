@@ -559,6 +559,11 @@ msgid ""
 "which is broken. We now wrap the no arg call as a property but also wrap the"
 " generic method as a callable method."
 msgstr ""
+"バグ: `Get` メソッドを正しくラップしました。新しいパイプラインメソッドの多くは、正しくラップされていませんでした。たとえば、 "
+"`vtkAlgorithm.GetInputAlgorithm` "
+"には複数の署名があります。TVTKは、引数のないシグネチャを持つゲッターを純粋なプロパティとしてラップし、メソッド自体を公開していませんでした。つまり、壊れているためユーザは"
+" `obj.get_input_algorithm(0, 0)` "
+"を呼び出せませんでした。今回は引数なしの呼び出しをプロパティーとしてラップしますが、汎用メソッドも呼び出し可能メソッドとしてラップします。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:194
 msgid "Fix the pipeline browser for the new pipeline."
@@ -3168,6 +3173,8 @@ msgid ""
 "manner in which the registry is queried for a reader using the file itself "
 "rather than the file extension.  Many thanks to Suyog for this work [24002]"
 msgstr ""
+"拡張/API: "
+"Suyogから送られた改善されたパッチと私からの修正をチェックインしています。これにより、オプションで指定できるソースのcan_read_testメタデータ属性が追加されます。読み取り側が特定のファイルを読み取ることができる場合、この関数はTrueを返します。このパッチでは、ボリュームリーダーとチャコリーダーも追加され、もサポートされる。新しいレジストリ機能のテストも追加されています。APIが変更されたのは、ファイル拡張子ではなくファイル自体を使用して、読み取りプログラムを照会する方法だけです。Suyogの仕事に感謝します[24002]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1194
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1290
@@ -3359,6 +3366,10 @@ msgid ""
 "trait to the Mayavi app and the mayavi workbench application called "
 "`start_gui_event_loop` that is disabled when used from mlab [24171]"
 msgstr ""
+"バグ: 長年のバグを修正しました。envisage'. workbench "
+"applicationのバックエンドをmlabで使用できませんでした。mayavi' "
+"workbenchサブクラスの問題を回避し、これが修正されたことを確認するテストを追加しました。これは基本的に、Mayaviアプリケーションと、mlabから使用すると無効になる"
+" `start_gui_event_loop` というmayavi workbenchアプリケーションに新しい特性を追加しました [24171]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1280
 msgid "6 Jul, 2009 (Dave Martin):"
@@ -3369,6 +3380,8 @@ msgid ""
 "BUG: If the scene being closed has None for scene.scene, call "
 "registry.find_scene_engine(scene) instead of \"scene.scene\" [24052] [24055]"
 msgstr ""
+"バグ: 閉じているシーンの scene.scene がNoneの場合は、 \"scene.scene\" ではなく "
+"registry.find_scene_engine(scene) を呼び出してください [24052] [24055]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1286
 msgid "05 Jul, 2009 (GV):"
@@ -3378,7 +3391,7 @@ msgstr "05 Jul, 2009 (GV):"
 msgid ""
 "BUG: small fix for successive builds of the tvtk code generation, by Rakesh "
 "Pandit [24038]"
-msgstr ""
+msgstr "バグ:Rakesh Panditによるtvtkコード生成の連続ビルドのための小さな修正[24038]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1285
 msgid ""
@@ -3507,6 +3520,9 @@ msgid ""
 "BUG: The trailing '|' in the wildcard breaks the file dialog's filterin for "
 "user defined readers.  Thanks to B. P. Thrane for reporting the bug"
 msgstr ""
+"バグ: ワイルドカードの末尾の '|' "
+"で、ユーザー定義のリーダーに対するファイルダイアログのフィルタリングを中断するようにしました。バグを報告してくれた B. P. Thrane "
+"に感謝します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1342
 msgid "27 March, 2009 (GV):"
@@ -3567,7 +3583,7 @@ msgstr "17, 18 March, 2009 (PR):"
 msgid ""
 "NEW: A simple example to show how one can use TVTK's visual module with "
 "mlab. [23250]"
-msgstr ""
+msgstr "新機能: MlabでTVTKの可視化モジュールを使う方法を示す簡単な例です。[23250]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1368
 msgid ""
@@ -3679,6 +3695,7 @@ msgid ""
 "integration test since those errors really show up only when the display is "
 "used. The other is a traditional unittest. [23166]"
 msgstr ""
+"BUG:ImagePlaneWidgetに影響を与えた微妙なバグを修正しました。これは、VTKDataSourceからの出力データのscalar_typeが正しく設定されていなかったために発生しました。入力スカラーの範囲を取得すると、VTKからの警告も聞こえなくなるようです。これにより、複数のスカラーでIPWを使用する場合の問題が解決されることを期待しています。2つのテストを追加しましたが、1つは統合テストです。これらのエラーは実際にはディスプレイを使用したときにしか表示されません。もう1つは従来の単体テストです。[23166]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1419
 msgid "08 March, 2009 (GV)"
@@ -3783,6 +3800,7 @@ msgid ""
 "ENH: We now change the default so the ImagePlaneWidget does not control the "
 "LUT. Also made the IPW recordable. [23011]"
 msgstr ""
+"拡張: ここで、ImagePlaneWidgetがLUTを制御しないようにデフォルトを変更します。また、IPWを記録可能にしました。[23011]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1469
 msgid "18 February, 2009 (GV)"
@@ -3802,7 +3820,7 @@ msgstr "08 February, 2009 (GV)"
 msgid ""
 "ENH: Center the glyphs created by barchart on the data points, as mentioned "
 "by Rauli Ruohonen [22906]"
-msgstr ""
+msgstr "拡張: Rauli Ruohonenが述べているように、棒グラフで作成したグリフをデータポイントの中央に配置しました [22906]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1477
 msgid "29 January, 2009 (GV)"
@@ -3813,6 +3831,8 @@ msgid ""
 "ENH: Make it possible to avoid redraws with mlab by using "
 "`mlab.gcf().scene.disable_render = True` [22869]"
 msgstr ""
+"拡張:  `mlab.gcf().scene.disable_render = True` "
+"を使うことで、mlabによる再描画を避けることができるようになりました [22869]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1481
 msgid "28 January, 2009 (PR and GV)"
@@ -3823,6 +3843,8 @@ msgid ""
 "ENH: Make the mlab.pipeline.user_defined factory function usable to add "
 "arbitrary filters on the pipeline. [22867], [22865]"
 msgstr ""
+"拡張: パイプラインに任意のフィルタを追加するために mlab.pipeline.user_defined "
+"ファクトリ関数を使用できるようにしました。[22867]、[22865]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1487
 msgid "11 January, 2009 (GV)"
@@ -3833,6 +3855,8 @@ msgid ""
 "ENH: Make mlab.imshow use the ImageActor. Enhance the ImageActor to map "
 "scalars to colors when needed. [22816]"
 msgstr ""
+"拡張:  mlab.imshow  に ImageActor "
+"を使わせるようにしました。ImageActorを拡張して、必要に応じてスカラーをカラーにマップします。[22816]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1490
 msgid "Mayavi 3.1.0"
@@ -3847,7 +3871,7 @@ msgid ""
 "BUG: Fixing bugs with persistence of VTKDataSource objects wrapping a "
 "structured grid in VTK-5.2.  This resulted in hard to debug test errors.  "
 "[22624]"
-msgstr ""
+msgstr "バグ: VTK-5.2で構造化グリッドをラップするVTKDataSourceオブジェクトの永続的なバグを修正しました。[22624]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1500
 msgid "1 December, 2008 (GV):"
@@ -3900,11 +3924,11 @@ msgstr "26 November, 2008 (GV):"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1515
 msgid "ENH: Add keyword arguments to the cutplanes in mlab.pipeline. [22567]"
-msgstr ""
+msgstr "拡張: mlab.pipeline で切断面にキーワード引数を追加しました。[22567]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1515
 msgid "Also add masking to glyph-based mlab.pipeline factories [22568]"
-msgstr ""
+msgstr "glyphベースの mlab.pipeline ファクトリにマスキングを追加しました [22568]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1523
 msgid "19 November, 2008 (GV):"
@@ -3912,20 +3936,20 @@ msgstr "19 November, 2008 (GV):"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1518
 msgid "UI: Rename 'Modules' to 'Colors and legends' [22512]"
-msgstr ""
+msgstr "UI: 'Modules' の名前を 'Colors and legends' に変更しました [22512]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1523
 msgid "API: Change defaults [22513]:"
-msgstr ""
+msgstr "API: デフォルトを変更しました [22513]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1520
 msgid ""
 "CellToPointData and PointToCellData filters to pass the existing dataset."
-msgstr ""
+msgstr "CellToPointDataおよびPointToCellDataフィルタを使用して、既存のデータセットを渡しました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1522
 msgid "The ouline of the implicite plane is no longer draggable by default."
-msgstr ""
+msgstr "デフォルトでは、インプリシットプレーンのアウトラインはドラッグできなくなりました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1530
 msgid "15-16 November, 2008 (PR)"
@@ -3935,17 +3959,17 @@ msgstr "15-16 November, 2008 (PR)"
 msgid ""
 "ENH/API: Exposing the glyph source choices via a dictionary rather than "
 "having the user remember the index in a list. [22497]"
-msgstr ""
+msgstr "拡張/API: ユーザにリストのインデックスを覚えてもらうのではなく、辞書を使ってglyphのソース選択を公開しました。[22497]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1528
 msgid ""
 "ENH: Adding a button to the LUT UI so the LUT editor can be launched from "
 "the UI. [22498]"
-msgstr ""
+msgstr "拡張: LUTエディタをUIから起動できるように、LUT UIにボタンを追加しました。[22498]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1530
 msgid "DOC: Updating advanced scripting chapter. [22495]."
-msgstr ""
+msgstr "文書: 高度なスクリプトの更新の章を更新しました。[22495]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1534
 msgid "13 November, 2008 (GV)"
@@ -3955,7 +3979,7 @@ msgstr "13 November, 2008 (GV)"
 msgid ""
 "ENH: [mlab]  Add keyword arguments to colobars to control label number and "
 "format, as well as colors number. [22489]"
-msgstr ""
+msgstr "拡張: [mlab] colorbarにキーワード引数を追加して、ラベル番号、形式、色番号をコントロールします。[22489]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1539
 msgid "10 November, 2008 (PR)"
@@ -3967,6 +3991,8 @@ msgid ""
 "but don't pop up a user interface.   Thanks to Suyog Jain for doing bulk of "
 "the work. [22465]"
 msgstr ""
+"テスト: 43の新しいmayaviテストを追加しました。これらは統合テストに基づいていますが、ユーザーインターフェースは表示されません。Suyog "
+"Jain 仕事の大部分をやってくれてありがとう。[22465]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1548
 msgid "27 October, 2008 (GV)"
@@ -3980,12 +4006,17 @@ msgid ""
 "automatically converted from a tvtk dataset to a mayavi source, if needed. "
 "[22375], [22377]"
 msgstr ""
+"拡張: [mlab] "
+"モジュールまたはフィルタがmlabを使用してパイプラインに追加された場合。パイプライン関数では、この関数が追加されるソースは、すでに存在しない場合は自動的にシーンに追加されます。また、必要に応じて、tvtkデータセットからmayaviソースに自動的に変換されます"
+" [22375] 、 [22377]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1547
 msgid ""
 "ENH: [mlab] Make mlab.axes and mlab.outline use the extents of the current "
 "object when none specified explicitely. [22372]"
 msgstr ""
+"拡張: [mlab] mlab.axes と mlab.outline "
+"が明示的に何も指定されていない時、現在のオブジェクトの範囲を使うようにします。[22372]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1560
 msgid "24-27 October, 2008 (PR)"
@@ -3996,6 +4027,8 @@ msgid ""
 "NEW: Adding an ImageChangeInformation filter to let users change the origin,"
 " spacing and extents of input image data, [22351]."
 msgstr ""
+"新規: ImageChangeInformationフィルターを追加して、ユーザーが入力イメージデータの原点、間隔、および範囲を変更できるようにします "
+"[22351]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1553
 msgid ""
@@ -4003,6 +4036,8 @@ msgid ""
 "specify a viewer to render into.  This lets us use visual with a mayavi "
 "scene. [22363]"
 msgstr ""
+"API: `set_viewer` 関数を `tvtk.tools.visual` "
+"に追加して、レンダリングするビューアを指定できるようにしました。これにより、mayaviシーンで視覚化を使用できるようになります。[22363]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1556
 msgid ""
@@ -4010,10 +4045,12 @@ msgid ""
 "(VTK_USE_64BIT_IDS is on).  The examples and tests should all run in this "
 "case now. [22365]"
 msgstr ""
+"バグ: VTKが64ビットID (VTK_USE_64BIT_IDSがオン) "
+"で構築された場合に、TVTKの大きなバグを修正しました。この場合、サンプルとテストはすべて実行されます。[22365]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1559
 msgid "ENH: [mlab] Added an `mlab.view` method that actually works [22366]."
-msgstr ""
+msgstr "拡張:[mlab] 実際に動作する `mlab.view` メソッドが追加されました [22366]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1563
 msgid "19 October, 2008 (GV)"
@@ -4039,6 +4076,8 @@ msgid ""
 "ENH/BUG/WARN: Fixed warnings at TVTK build time, fixed bugs with ImageData's"
 " scalar_type trait. [22320], [22321], [22325]."
 msgstr ""
+"拡張/バグ/警告: TVTKビルド時の警告を修正し、ImageDataのscalar_type "
+"traitでバグを修正しました。[22320]、[22321]、[22325]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1571
 msgid ""
@@ -4047,12 +4086,18 @@ msgid ""
 "trawls sys.path to find contributions.  This can be set from the preferences"
 " UI. [22324], [22326], [22327]."
 msgstr ""
+"新規/API: mayaviで( pkg/user_mayavi.py "
+"による)contribパッケージをロードするタスクを容易にする環境設定オプションが追加されました。また、貢献を見つけるために sys.path "
+"を回るcontribファインダーも追加されました。これは環境設定UIから設定できます。[22324]、[22326]、[22327]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1575
 msgid ""
 "BUG: Fixing problems with the gradient_editor and newer VTK versions.  This "
 "is required for the Volume module to work correctly. [22329], [22341]"
 msgstr ""
+"バグ: "
+"gradient_editorと新しいVTKバージョンの問題を修正しています。これは、ボリュームモジュールが正常に動作するために必要です。[22329],"
+" [22341]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1582
 msgid "13 October, 2008 (GV):"
@@ -4060,7 +4105,7 @@ msgstr "13 October, 2008 (GV):"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1580
 msgid "ENH: Bind the 'explore' function in the python shell [22307]"
-msgstr ""
+msgstr "拡張: Pythonシェルに 'explore' 関数をバインドしました [22307]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1582
 msgid "ENH: mlab: axes and outline now find the extents from the objects"
@@ -4100,6 +4145,9 @@ msgid ""
 "`set_scene_preferences` so the non-envisage and off screen scenes have the "
 "right preferences. See [22280] and [22295]."
 msgstr ""
+"API: 共通オブジェクトの設定を抽象化する `mayavi.preferences.bindings` モジュールを追加する。現在は "
+"`set_scene_preferences` "
+"が公開されているため、想定外のシーンや画面外のシーンにも適切なプリファレンスが適用されます。[22280]および[22295]を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1597
 msgid ""
@@ -4157,13 +4205,14 @@ msgstr ""
 msgid ""
 "API: The mlab source functions can now optionaly work without creating a "
 "figure (using figure=None) [22161]."
-msgstr ""
+msgstr "API: mlabソース関数は、図形(figure=Noneを使用)を作成せずにオプションで動作できるようになりました[22161]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1622
 msgid ""
 "API: The mlab source functions are more  robust to various input-argument "
 "shape (they accept lists, and 1D or 2D arrays when possible) [22161]."
 msgstr ""
+"API: mlabソース関数は、様々な入力引数の形(可能であればリスト、1Dまたは2D配列を受け入れます)に対してより堅牢です[22161]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1631
 msgid "29 September, 2008 (GV):"
@@ -4181,6 +4230,7 @@ msgid ""
 "ENH: Make mlab.points3d and other mlab functions accept scalars as "
 "coordinnates, in addition to arrays. [22156]"
 msgstr ""
+"拡張: mlabを作成するようにしました。points3dなどのmlab関数は、配列の他にスカラーも座標として受け入れるようにしました。[22156]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1638
 msgid "12 September, 2008 (PR)"
@@ -4191,6 +4241,8 @@ msgid ""
 "NEW: Create a separate OffScreenEngine for use to reduce code duplication.  "
 "This is also available as part of mayavi.api. [21880]"
 msgstr ""
+"新機能:コードの重複を減らすために使用する別のOffScreenEngineを作成します。これは mayavi.api "
+"の一部としても利用できます。[21880]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1637
 msgid ""
@@ -4226,7 +4278,7 @@ msgstr "7 September, 2008 (PR):"
 msgid ""
 "ENH: The mayavi2 application now ([21713], [21714]) supports command line "
 "args like the following::"
-msgstr ""
+msgstr "拡張: mayavi2アプリケーションは、次のようなコマンドライン引数をサポートするようになりました。([21713]、[21714])"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1674
 msgid "6 September, 2008 (PR):"
@@ -4237,12 +4289,14 @@ msgid ""
 "ENH/API: Cleaned up the mayavi.core.traits to remove buggy, and unused "
 "DRange and SimpleDRange traits. [21705]"
 msgstr ""
+"拡張/API: mayavi.core.traits をクリーンアップしました。未使用のDRange と SimpleDRange "
+"traitsを削除しました。[21705]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1669
 msgid ""
 "BUG/TEST: Added tests for some of the MlabSource subclasses and fixed many "
 "bugs in the code. [21708]"
-msgstr ""
+msgstr "バグ/テスト: いくつかのMlabSourceサブクラスのテストが追加され、コードの多くのバグが修正されました。[21708]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1671
 msgid ""
@@ -4250,6 +4304,8 @@ msgid ""
 "creating a scene (and therefore a UI).  This allows us to create completely "
 "non-interactive tests.  [21709]"
 msgstr ""
+"テスト: pipeline_base.py "
+"が修正され、シーン(つまりUI)を作成せずにmayaviオブジェクトを起動できるようになりました。これにより、完全に非インタラクティブなテストを作成できます。[21709]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1674
 msgid "ENH: Adding X3D and POVRAY export options. [21711]"
@@ -4297,6 +4353,8 @@ msgid ""
 "long standing Mac bug with picking [21310], a segfault [21453] and a bug in "
 "tvtk when wrapping certain methods [21475]."
 msgstr ""
+"バグ: "
+"テストエラー[21304]、ピッキングに関する長年のMacバグ[21310]、segfault[21475]、特定のメソッドをラップする際のtvtkのバグ[21453]など、さまざまなバグが修正されました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1700
 msgid "Mayavi 3.0.0"
@@ -4312,6 +4370,7 @@ msgid ""
 "add/remove/modify attribute arrays to a tvtk dataset. This is fully tested "
 "and also does not influence any other code. [21300]"
 msgstr ""
+"新規:ユーザがtvtkデータセットに属性配列を追加/削除/修正できる、完全にテスト済みのデータセットマネージャを追加。これは完全にテストされており、他のコードには影響しません。[21300]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1716
 msgid "10 August, 2008 (PR):"
@@ -4341,17 +4400,17 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1721
 msgid "ENH: Add toolbar to the engine view [20447]"
-msgstr ""
+msgstr "拡張: エンジンビューにツールバーを追加しました[20447]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1722
 msgid "ENH: Selected item on the tree jumps to newly created objects [20454]"
-msgstr ""
+msgstr "拡張:ツリーで選択した項目が、新しく作成されたオブジェクトにジャンプします[20454]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1724
 msgid ""
 "ENH: Add a button on the viewer using by mayavi in standalone to open up the"
 " engine view [20456] [20462]"
-msgstr ""
+msgstr "拡張: standalone状態でmayaviを使用して、エンジンビューを開くボタンをビューアに追加しました[20456][20462]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1726
 msgid ""
@@ -4371,7 +4430,7 @@ msgstr "API:[mlab] API破損!"
 msgid ""
 "Make mlab source names compatible with ETS standards: grid_source rather "
 "than gridsource [20466]"
-msgstr ""
+msgstr "mlabのソース名をETS標準と互換にしました: gridsourceではなくgrid_source [20466]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1733
 msgid "NEW: Add image_plane_widget to mlab.pipeline, with helpful keyword"
@@ -4391,6 +4450,8 @@ msgid ""
 "This allows to avoid the use of the global sate set in the mlab engine. Mlab"
 " also now exposes a set_engine function. [20245]"
 msgstr ""
+"拡張: mlab "
+"APIは、engineまたはfigureのキーワード引数を取ることができるようになりました。これにより、mlabエンジンでグローバル状態セットを使用する必要がなくなります。また、Mlabはset_engine関数も公開しました。[20245]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1754
 msgid "23 July, 2008 (PR)"
@@ -4403,6 +4464,8 @@ msgid ""
 "information.  This means mlab fully supports creating objects on the mayavi "
 "pipeline with easy one-liners. [20239]"
 msgstr ""
+"拡張/新規: mlab.pipeline "
+"ソース、モジュール、およびフィルタに、レジストリ情報からのソース/フィルタ/モジュールの自動生成機能が追加されました。つまり、mlabは簡単なワンライナーでmayaviパイプライン上のオブジェクトの作成を完全にサポートします。[20239]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1746
 msgid ""
@@ -4410,12 +4473,14 @@ msgid ""
 "existing mayavi class now are named with underscores.  For example, "
 "isosurface has become iso_surface, extractedges becomes extract_edges etc."
 msgstr ""
+"API: APIが壊れています! "
+"既存のmayaviクラスをミラーリングするソース、フィルタ、モジュールにアンダースコアが付けられるようになりました。たとえば、isosurfaceはiso_surfaceになり、extractedgesはextract_edgesになります。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1750
 msgid ""
 "NEW: Exposing the engine's open method to mlab so it is easy to open data "
 "files from mlab also."
-msgstr ""
+msgstr "新機能: エンジンのopenメソッドをmlabに公開することで、mlabからも簡単にデータファイルを開くことができます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1752
 msgid ""
@@ -4444,13 +4509,14 @@ msgstr "参照用の (test_streamline.py) を除く、イメージベースの�
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1763
 msgid "Modified the testing code so the standalone mode is the default."
-msgstr ""
+msgstr "standaloneモードがデフォルトになるようにテストコードを修正しました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1765
 msgid ""
 "Modified so nose picks up the integrationtests.  However, there are problems"
 " running the test via nosetests on Linux that need investigating."
 msgstr ""
+"統合テストをnoseで行うように変更しました。しかし、Linuxでnosetestを使ってテストを実行すると問題が発生するので、調査が必要です。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1769
 msgid ""
@@ -4460,13 +4526,14 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1772
 msgid "API: Moving mayavi/view/engine_view.py to mayavi/core/ui. [20098]"
-msgstr ""
+msgstr "API: mayavi/view/engine_view.py を mayavi/core/ui に移動しています。[20098]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1774
 msgid ""
 "API: Added method to engine (get_viewer) so it gets the viewer associated "
 "with a particular scene. [20101]"
 msgstr ""
+"API: 特定のシーンに関連付けられたビューアを取得するためのメソッドがエンジン (get_viewer) に追加されました。[20101]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1782
 msgid "12 July, 2008 (PR):"
@@ -4496,7 +4563,7 @@ msgstr "8 July, 2008 (PR)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1790
 msgid "BUG: Ported various bug fixes from branches for ETS-2.8.0 release."
-msgstr ""
+msgstr "バグ: ETS-2.8 .0リリース用のブランチから様々なバグ修正を移植しました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1791
 msgid ""
@@ -4514,7 +4581,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1803
 msgid "ENH: Envisage menus are now context sensitive [19520]."
-msgstr ""
+msgstr "拡張: Envisageメニューはコンテキスト依存になりました[19520]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1831
 msgid "5 July, 2008 (PR):"
@@ -4523,17 +4590,17 @@ msgstr "5 July, 2008 (PR):"
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1806
 msgid ""
 "ENH: One can create objects on the pipeline using right-clicks [19469]."
-msgstr ""
+msgstr "拡張: パイプライン上にオブジェクトを作成するには、右クリックします [19469]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1808
 msgid ""
 "ENH: All the envisage menus and actions for sources, filters and modules now"
 " are autogenerated from the metadata for these."
-msgstr ""
+msgstr "拡張: ソース、フィルタ、モジュールのすべてのメニューとアクションは、これらのメタデータから自動生成されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1831
 msgid "NEW/API: [19458] adds the following features:"
-msgstr ""
+msgstr "新規/API: [19458]では次の機能が追加されています。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1811
 msgid ""
@@ -4548,7 +4615,7 @@ msgstr ""
 msgid ""
 "This registry and metadata information is used to generate the envisage "
 "menus and actions."
-msgstr ""
+msgstr "このレジストリーおよびメタデータ情報は、想定されるメニューおよびアクションの生成に使用されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1819
 msgid ""
@@ -4558,7 +4625,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1821
 msgid "A method to Engine and Script to easily open any supported data file."
-msgstr ""
+msgstr "EngineおよびScriptを使用して、サポートされている任意のデータファイルを簡単に開くことができるメソッド。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1823
 msgid ""
@@ -4573,6 +4640,7 @@ msgid ""
 " compatibility but makes it very easy to open supported data files -- even "
 "if the new ones are added by users."
 msgstr ""
+"mayavi2アプリケーションのコマンドラインオプションが変更され、-dオプションを使用して*任意の*サポートされているデータファイルフォーマットを開くことができるようになりました。これにより、後方互換性は失われますが、新しいデータファイルがユーザーによって追加された場合でも、サポートされているデータファイルを非常に簡単に開くことができます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1830
 msgid ""
@@ -4604,13 +4672,13 @@ msgstr "27 June, 2008 (Vibha):"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1841
 msgid "API: Remove SimpleScene class [19285]."
-msgstr ""
+msgstr "API: SimpleSceneクラスを削除しました [19285] 。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1842
 msgid ""
 "API: Moved tvtk-related examples from TraitsGUI to Mayavi [19191] [19197] "
 "[19231] [19280]"
-msgstr ""
+msgstr "API: tvtk関連のサンプルをTraitsGUIからMayaviに移動 [19191][19197][19231][19280]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1847
 msgid "27 June, 2008 (GV):"
@@ -4648,6 +4716,9 @@ msgid ""
 " a visualization and don't want the UI to bother you or create a special "
 "script for the purpose. See [18951], [18955]."
 msgstr ""
+"拡張: "
+"mayavi2アプリケーションにオフスクリーンオプションを追加しています。これにより、フルUIを使用せずに、オフスクリーンモードで通常のmayavi "
+"Pythonスクリプトを実行できます。これは、可視化から大量のイメージをレンダーし、UIに煩わされたり特別なスクリプトを作成したりしたくない場合に非常に便利です。[18951]、[18955]を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1874
 msgid "07, 08 June, 2008 (PR):"
@@ -4669,6 +4740,8 @@ msgid ""
 "API: TVTK: Removed the `__del__` method on all TVTK objects.  This should "
 "make it much nicer for proper garbage collection.  See [18886], [18887]."
 msgstr ""
+"API: TVTK: すべてのTVTKオブジェクトから `__del__` "
+"メソッドを削除しました。これにより、適切なガーベッジコレクションを行うことができます。[18886]、[18887]を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1887
 msgid "06 June, 2008 (PR):"
@@ -4687,6 +4760,8 @@ msgid ""
 "starting mayavi each time.  To use this execute run.py with the --one-shot "
 "command line option.  [18880] [18881]."
 msgstr ""
+"テスト: mayaviを毎回起動する代わりに、1つのアプリケーション起動でテストを実行する方法が追加されました。これを使用するには、--one-"
+"shotコマンドラインオプションを指定して run.py を実行します。[18880][18881]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1883
 msgid ""
@@ -4694,6 +4769,8 @@ msgid ""
 "UI showing up with just a dummy blank window being used.  This demonstrates "
 "how mayavi scripts can work in completely different contexts.  [18881]."
 msgstr ""
+"テスト: スタンドアローンオフスクリーンモードは、使用されているダミーのブランクウィンドウだけでTraits "
+"UIが表示されることなく動作するはずです。これは、mayaviスクリプトがまったく異なるコンテキストでどのように機能するかを示しています。[18881]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1895
 msgid "31 May, 2008 (PR):"
@@ -4713,6 +4790,8 @@ msgid ""
 "API: Adding elementary support for texturing an actor (if it has texture "
 "coords).  This was thanks to a patch from Chandrashekhar Kaushik. [18827]"
 msgstr ""
+"API: (テクスチャ座標がある場合の)アクターのテクスチャリングの基本的なサポートを追加しました。これはChandrashekhar "
+"Kaushikからのパッチのおかげです。[18827]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1898
 msgid "30 May, 2008 (PR):"
@@ -4734,6 +4813,8 @@ msgid ""
 "supported in mayavi2.  The only missing one is Locator which hardly anyone "
 "uses I think.  See [18801]."
 msgstr ""
+"新機能: "
+"ラベルモジュールを追加して入力データにラベルを付けます。これはMayaVi1のモジュールに似ています。このチェックインで、すべての重要なmayavi1モジュールとフィルタがmayavi2でサポートされます。唯一欠けているのはLocatorで、ほとんど誰も使用しないと思います。[18801]を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1907
 msgid ""
@@ -4747,7 +4828,7 @@ msgstr "25 May, 2008 (PR):"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1911
 msgid "NEW: Adding CellDerivatives and Vorticity filters. [18785]"
-msgstr ""
+msgstr "新機能: CellDerivativesフィルタおよびVorticityフィルタの追加。[18785]"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1919
 msgid "24 May, 2008 (PR):"
@@ -4787,13 +4868,15 @@ msgstr "22 May, 2008 (PR):"
 msgid ""
 "NEW: Adding Contour and CutPlane filters that use the Wrapper filter and "
 "respective components.  This is very convenient."
-msgstr ""
+msgstr "新規: ラップ元フィルタおよびそれぞれのコンポーネントを使用する輪郭フィルタおよび切断面フィルタを追加しました。これはとても便利です。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1930
 msgid ""
 "Checked in modified patch from Chandrashekhar Kaushik (CSE IITB), which "
 "reimplements hide/show using a visible trait."
 msgstr ""
+"Chandrashekhar Kaushik氏(CSE IITB)の修正パッチをチェックインしました。visible "
+"traitを使用してhide/showを再実装しました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1939
 msgid "21 May, 2008 (PR):"
@@ -4806,6 +4889,8 @@ msgid ""
 "explicitly use the TestCase class since this makes the code compatible with "
 "the 2.2.0 branch."
 msgstr ""
+"テスト: "
+"@testデコレータを追加して、mayaviスクリプトからmayaviテストケースを簡単に作成できるようにしました。これは便利ですが、コードが2.2.0ブランチと互換性を持つようにするため、私はTestCaseクラスを明示的に使用したいと思っています。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1939
 msgid "The GenericModule is now tested."
@@ -4823,6 +4908,8 @@ msgid ""
 "implementation!  This is because the module takes care of all the dirty "
 "work."
 msgstr ""
+"新機能: "
+"GenericModuleを追加することで、多数のフィルターやコンポーネントを簡単に組み合わせることができます。このコードを使用すると、ScalarCutPlaneには、現在の実装に必要な300行の複雑なコードに比べて、30行の単純なコードが必要になります。これは、モジュールがすべてのダーティな作業を処理するためです。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1947
 msgid ""
@@ -4873,12 +4960,15 @@ msgid ""
 "NEW: Adding an SelectOutput filter that should address bug number 478359 in "
 "the Debian BTS.  See [18700]."
 msgstr ""
+"新規: Debian BTSのバグ番号478359に対処するSelectOutputフィルタを追加しました。[18700]を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1971
 msgid ""
 "API: mayavi.plugins.app.Mayavi now defines a setup_logger method so this can"
 " be overridden by subclasses, see [18703]."
 msgstr ""
+"API: mayavi.plugins.app.Mayavi "
+"は現在setup_loggerメソッドを定義して、これをサブクラスで上書きできるようにしました。[18703]を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1977
 msgid "13 May, 2008 (PR):"
@@ -4887,7 +4977,7 @@ msgstr "13 May, 2008 (PR):"
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1976
 msgid ""
 "NEW: Adding an ExtractVectorComponents filter contributed by Varun Hiremath."
-msgstr ""
+msgstr "新規: Varun Hiremathにより提供されたExtractVectorComponentsフィルタの追加。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1986
 msgid "11,12 May 2008 (PR):"
@@ -4900,6 +4990,7 @@ msgid ""
 "plugins reusable. Also added a running trait to the engine to check on its "
 "status. [18672], [18678]."
 msgstr ""
+"拡張/API:プラグインはエンジン自体を起動し、シェルへのバインドも行います。これは以前、アプリケーションによって行われました。これにより、プラグインが再利用可能になります。また、ステータスをチェックするためにエンジンにtraitの実行を追加しました。[18672]、[18678]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1985
 msgid ""
@@ -4916,6 +5007,8 @@ msgid ""
 "API: Moving mayavi/engine.py -> mayavi/core/engine.py where it really "
 "belongs; see [18667]."
 msgstr ""
+"API: 実際に属している場所に配置するため mayavi/engine.py -> mayavi/core/engine.py "
+"の移動をしました。[18667]を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:1998
 msgid "7,8 May 2008 (PR):"
@@ -4937,7 +5030,7 @@ msgstr "6 May 2008 (PR):"
 msgid ""
 "API: The mayavi.core.Base.confirm_delete class attribute is gone since it is"
 " no longer needed [18635]."
-msgstr ""
+msgstr "API: mayavi.core.Base.confirm_delete クラス属性は不要になったため削除されました[18635]。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:2003
 msgid ""
@@ -4983,6 +5076,7 @@ msgid ""
 "changesets [18595] and [18598].  *This obviously breaks the plugin API "
 "completely!*"
 msgstr ""
+"API:Maya2アプリケーションとプラグインをEnvage3で動作するように移植しました。変更セット[18595]と[18598]を参照してください。*これは明らかにプラグインAPIを完全に壊しています!*"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:2026
 msgid "Got the mlab envisage_engine_manager working with new changes [18599]."
@@ -5021,6 +5115,10 @@ msgid ""
 "propagate them to the filter. For more information on creating GUIs with "
 "Traits:"
 msgstr ""
+"GeometryFilterは 'extents' "
+"で指定されたバウンディングボックス内のすべてのデータをクロップします。この例では、これらの範囲をインタラクティブに微調整できるようにします。このために、"
+" 'x_min', 'x_max', 'y_min', ... "
+"属性を持つTraitsオブジェクトを構築します。Traitsを使用すると、このオブジェクトをダイアログボックスとして表示できます。これらの属性を変更してフィルタに伝播する場合は、コールバックを使用します。Traitsを使用したGUIの作成の詳細については、次を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_adjust_cropping_extents.rst:24
 msgid ""
@@ -5068,6 +5166,8 @@ msgid ""
 "second step is to apply filters and modules, using the "
 "'set_active_attribute' filter to select on which data these apply."
 msgstr ""
+"最初の手順は、2つのスカラーデータセットを持つデータソースを作成することです。次に、 'set_active_attribute' "
+"フィルタを使用してフィルタとモジュールを適用するデータを選択します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_atomic_orbital.rst:24
 msgid ""
@@ -5167,6 +5267,7 @@ msgid ""
 "disappearing as it goes under the surface of the approximated grid: although"
 " the decimated mesh follows closely the orginal, it is not exactly the same."
 msgstr ""
+"最初のグリッドは白で表示され、最適化されたグリッドは黒で表示され、サーフェスが作成されます。初期のグリッドは、近似したグリッドのサーフェスの下に入ると消えていくように見えます。デシメートされたメッシュは元のメッシュに近くなりますが、まったく同じではありません。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_canyon_decimation.rst:21
 msgid ""
@@ -5186,6 +5287,8 @@ msgid ""
 "from 2D data. To decimated more general meshes, you can use the less-"
 "efficient decimate-pro filter (see :ref:`example_julia_set_decimation`)."
 msgstr ""
+"greedy-terrain-decimatorは2次元データからワープしたサーフェスをデシメートする場合にのみ便利です。一般的なメッシュを間引くには"
+"、効率の悪いdecimate-proフィルタ( :ref:`example_julia_set_decimation` 参照)を使用します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_canyon_decimation.rst:38
 msgid "**Python source code:** :download:`canyon_decimation.py`"
@@ -5261,6 +5364,7 @@ msgid ""
 "data source, any visualization module added by the user will update when "
 "coils are added or changed."
 msgstr ""
+"アプリケーションでは、Mayaviの全機能を使用できます。パイプラインツリービューを使用して、可視化を修正できます。この図では、なじみのある相互作用と移動が可能である。可視化の保存やデータのロードも同様です。さらに、パイプラインによって記述される可視化モデルは、可視化されるデータから分離され、データソースに含まれるので、ユーザによって追加された可視化モジュールは、コイルが追加または変更されたときに更新されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_coil_design_application.rst:33
 msgid ""
@@ -5269,6 +5373,9 @@ msgid ""
 "material required to understand this example is covered in section "
 ":ref:`builing_applications`."
 msgstr ""
+"磁場の可視化のより簡単な例は、 ref:`example_magnetic_field_lines` および "
+"ref:`example_magnetic_field` にあります。この例を理解するために必要な資料については "
+":ref:`builing_applications` の項を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_coil_design_application.rst:40
 msgid "**Python source code:** :download:`coil_design_application.py`"
@@ -5276,7 +5383,7 @@ msgstr "**Pythonソースコード:** :download:`coil_design_application.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_compute_in_thread.rst:6
 msgid "Compute in thread example"
-msgstr ""
+msgstr "スレッドで計算する例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_compute_in_thread.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:479
@@ -5491,7 +5598,7 @@ msgstr "フライトグラフの例"
 msgid ""
 "An example showing a graph display between cities positionned on the Earth "
 "surface."
-msgstr ""
+msgstr "地表に配置された都市間のグラフ表示の例。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:12
 msgid ""
@@ -5518,6 +5625,7 @@ msgid ""
 "Earth, but as straight lines going throught the Earth. As a result must use "
 "transparency to show the connection."
 msgstr ""
+"単純化するために、私たちは地球の表面に接続を描くのではなく、地球を通る直線として描きます。そのため、接続を表示するには透過性を使用する必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:29
 msgid "Data source: http://www.777fleetpage.com/777fleetpage3.htm"
@@ -5586,6 +5694,14 @@ msgid ""
 "displayed when selecting its name within the `Class name` field of the "
 "dialog."
 msgstr ""
+"MayaviパイプラインでUserDefinedフィルタを選択すると、追加のフィルタを簡単に検索できます。 `TVTK class chooser` "
+"というダイアログが表示され、目的のアクションやプロパティを検索するための `Search` フィールドが表示されます。たとえば、 `cursor` "
+"を検索すると、Cursor3DとImageCursor3Dを含む複数のフィルタが返されます。一般的には、TVTK "
+"ImageDataデータセットに作用するTVTKフィルタの名前は、 `Image` (ImageDataは、たとえば "
+"mlab.pipeline.scalar_field によって作成されたVTKデータセットのタイプです。VTKデータセットの詳細は、 :ref"
+":`data-structures-used-by-mayavi` "
+"を参照してください)で始まります。UserDefinedフィレットをインタラクティブに追加するためのダイアログでは、 `ImageCursor3D` "
+"を選択できます。ダイアログの `Class name` フィールドでフィルタ名を選択すると、フィルタのドキュメントが表示されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_image_cursor_filter.rst:35
 msgid "**Python source code:** :download:`image_cursor_filter.py`"
@@ -5606,6 +5722,8 @@ msgid ""
 " display it here in a canyon-like view using mlab's surf function: "
 ":func:`mayavi.mlab.surf`."
 msgstr ""
+"Julia集合はフラクタルです( http://en.wikipedia.org/wiki/Julia_set "
+"を参照)。ここでは、mlabのsurf関数 :func:`mayavi.mlab.surf` を使用して、峡谷のようなビューを表示します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set.rst:21
 msgid "**Python source code:** :download:`julia_set.py`"
@@ -5626,7 +5744,7 @@ msgstr ""
 msgid ""
 "We first build the mesh, applying a warp_scalar filter to a array2d_source, "
 "to warp the Julia set along the z direction."
-msgstr ""
+msgstr "まず、warp_scalarフィルタを配列2d_sourceに適用してメッシュを構築し、Julia集合をz方向にワープします。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set_decimation.rst:16
 msgid ""
@@ -5634,6 +5752,8 @@ msgid ""
 "to apply the decimate_pro filter. This filter does the decimation, and we "
 "can represent the result using surface modules."
 msgstr ""
+"次に、 decimate_pro "
+"フィルタを適用するために、メッシュ内の長方形を三角形に変換する必要がある場合。このフィルタはデシメーションを行い,表面モジュールを用いて結果を表現できます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set_decimation.rst:20
 msgid ""
@@ -5647,6 +5767,7 @@ msgid ""
 "one. The view is zoom to the center of the Julia set. If you turn of the "
 "wireframes and zoom out, you can appreciate the quality of the decimation."
 msgstr ""
+"デシメート処理されたメッシュは白で、デシメート処理されていないメッシュは黒で表示されています。ビューがジュリアセットの中心にズームされます。ワイヤフレームをオフにしてズームアウトすると、デシメーションの品質を確認できます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set_decimation.rst:29
 msgid ""
@@ -5654,6 +5775,8 @@ msgid ""
 " efficient to use the greedy-terrain-decimator, see the "
 ":ref:`example_canyon_decimation`."
 msgstr ""
+"2次元データからワープしたサーフェスをデシメートする特定のケースでは、greedy-terrain-decimatorを使用する方が効率的です。 "
+":ref:`example_canyon_decimation` を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set_decimation.rst:39
 msgid "**Python source code:** :download:`julia_set_decimation.py`"
@@ -5709,6 +5832,8 @@ msgid ""
 "For explanations and more examples of interactive application building with "
 "Mayavi, please refer to section :ref:`builing_applications`."
 msgstr ""
+"Mayaviを使用したインタラクティブなアプリケーション構築の詳細と例については、 :ref:`builing_applications` "
+"のセクションを参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_lorenz_ui.rst:19
 msgid "**Python source code:** :download:`lorenz_ui.py`"
@@ -5791,6 +5916,8 @@ msgid ""
 "The magnetic field from an arbitrary current loop is calculated from eqns "
 "(1) and (2) in Phys Rev A Vol. 35, N 4, pp. 1535-1546; 1987."
 msgstr ""
+"任意の電流ループからの磁界は、Phys Rev A Vol.35,N4,pp.1535-1546;1987 の式 (1) および(2) "
+"から計算されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_magnetic_field_lines.rst:17
 msgid ""
@@ -5811,20 +5938,20 @@ msgstr "**Pythonソースコード:** :download:`magnetic_field_lines.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mayavi_traits_ui.rst:6
 msgid "Mayavi traits ui example"
-msgstr ""
+msgstr "Mayavi traits uiの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mayavi_traits_ui.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:474
 msgid ""
 "An example of how to create a UI similar to the complete Mayavi application "
 "inside a Traits UI view."
-msgstr ""
+msgstr "完全なMayaviアプリケーションに似たUIをTraits UIビュー内に作成する方法の例。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mayavi_traits_ui.rst:12
 msgid ""
 "This does not use Envisage and provides a similar UI as seen in the full "
 "Mayavi application."
-msgstr ""
+msgstr "これはEnvisageを使用せず、フルMayaviアプリケーションで表示されるものと同様のUIを提供します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mayavi_traits_ui.rst:15
 msgid ""
@@ -5874,6 +6001,8 @@ msgid ""
 "short, homogeneous coordinates are your friend, and you should read about "
 "them here: http://en.wikipedia.org/wiki/Homogeneous_coordinates"
 msgstr ""
+"この例で知っておくべき重要なことは、3つの空間内の点は、4x4行列の一連の遠近法とeuclid変換の乗算によって2つの空間内の点に関連付けられるということです。4x4行列は、点を表すために長さ4のベクトルを使用することを述語とします。この表現は同次座標として知られており、最初はそのように見えますが、関係するすべての数学を真に単純化します。要するに、同次座標はあなたの友人であり、あなたはそれらについてここで読むべきです"
+" http://en.wikipedia.org/wiki/Homogeneous_coordinates"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_3D_to_2D.rst:33
 msgid ""
@@ -5916,6 +6045,8 @@ msgid ""
 "the camera. The resulting coordinates are termed \"eye\" coordinates in "
 "OpenGL (I don't know that they have a name in VTK)."
 msgstr ""
+"OpenGLでは、最初の2つの変換が連結され、modelview変換(VTKでは単にビュー変換と呼ばれます)が生成されます。modelview変換は、任意のスケーリングと歪みをモデルに適用し(指定されている場合)、方向が負のZ軸を見下ろすのと同じになるようにモデルを変換します。たとえば、カメラを移動して負のZ軸を見下ろすようにしてから、ワールド内のすべてのものを移動して、カメラを移動する前と同じように見えるようにしたとします。作成された座標は、OpenGLでは"
+" \"eye\" 座標と呼ばれます(VTKに名前があるかは知りません)。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_3D_to_2D.rst:63
 msgid ""
@@ -6033,6 +6164,9 @@ msgid ""
 "visualization is updated by modifying inplace the stored plot object (see "
 ":ref:`mlab-animating-data`)."
 msgstr ""
+"ダイアログのスライドバーなどを使用して `n_meridional` および `n_longitudinal` "
+"属性を変更すると、曲線が再計算され、保存されているプロットオブジェクトの場所を変更することで可視化が更新されます( :ref:`mlab-"
+"animating-data` 参照)。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_interactive_dialog.rst:26
 msgid ""
@@ -6208,6 +6342,9 @@ msgid ""
 " :ref:`example_mlab_interactive_dialog`, and :ref:`example_lorenz_ui`, as "
 "well as the section of the user manual :ref:`embedding_mayavi_traits`."
 msgstr ""
+"mlabシーンをダイアログに埋め込む例については、以下も参照してください。例えば "
+":ref:`example_mlab_interactive_dialog` および :ref:`example_lorenz_ui` "
+"およびユーザマニュアルのセクション :ref:`embedding_mayavi_traits` 。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_mlab_scene_models.rst:25
 msgid "**Python source code:** :download:`multiple_mlab_scene_models.py`"
@@ -6380,6 +6517,8 @@ msgid ""
 "examples/data/heart.vtk.  You can try editing that data file or change this "
 "script to point to other data which you can edit."
 msgstr ""
+"現在、スクリプトのデフォルトでは examples/data/heart.vtk "
+"のサンプルデータが使用されます。そのデータファイルを編集するか、編集可能な他のデータを指すようにこのスクリプトを変更できます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_poll_file.rst:24
 msgid "**Python source code:** :download:`poll_file.py`"
@@ -6539,6 +6678,10 @@ msgid ""
 "different technique to plot the graph, can be seen on "
 ":ref:`example_delaunay_graph`."
 msgstr ""
+"グラフは、ポイントに接続情報を追加することによって作成されます。このために、各ポイントを番号( mlab.points3d "
+"に渡された配列順)で指定し、これらの番号の組からなる接続配列を構築する。pdbファイルに格納されている名前付きノードのグラフ表現からインデックスベースの接続ペアに移行するには、多少面倒なデータ操作があります。グラフをプロットする同様の手法は"
+" :ref:`example_flight_graph` で行われていますが、グラフをプロットする別の手法を示すグラフプロットの例が "
+":ref:`example_delaunay_graph` で見られます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_protein.rst:37
 msgid ""
@@ -6548,6 +6691,7 @@ msgid ""
 "Gaussians form the resulting density field. We visualize this field using "
 "volume rendering."
 msgstr ""
+"局所原子密度を可視化するために、連続密度場のカーネル密度推定を構築するGaussスプラッターフィルタを使用しました。各点はGaussカーネルによって畳み込まれ,これらのGaussiansの和は結果として生じる密度場を形成します。このフィールドはボリュームレンダリングを使用して表示します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_protein.rst:43
 msgid ""
@@ -6659,12 +6803,13 @@ msgid ""
 " ball is represented by several points. Thus we need to retrieve the number "
 "of points per ball, and divide the point id by this number."
 msgstr ""
+"どのボールが選択されたかを識別するには、ポイントIDを使用します。ただし、各ボールは複数の点で表されます。したがって、ボールあたりのポイント数を取得し、ポイントIDをこの数で除算する必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_select_red_balls.rst:25
 msgid ""
 "We use an outline to display which ball was selected by positioning it on "
 "the corresponding ball."
-msgstr ""
+msgstr "アウトラインを使用して、どのボールが選択されたかを、対応するボール上に配置することによって表示します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_select_red_balls.rst:29
 msgid "**Python source code:** :download:`select_red_balls.py`"
@@ -6698,6 +6843,8 @@ msgid ""
 "mlab.pipeline interface (see :ref:`controlling-the-pipeline-with-mlab-"
 "scripts`)"
 msgstr ""
+"得られたデータセットを視覚化するために、 mlab.pipeline インタフェース( :ref:`controlling-the-pipeline-"
+"with-mlab-scripts` 参照)を使っていくつかのモジュールを適用します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_simple_structured_grid.rst:27
 msgid "**Python source code:** :download:`simple_structured_grid.py`"
@@ -6735,7 +6882,7 @@ msgstr "**Pythonソースコード:** :download:`spherical_harmonics.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_standalone.rst:6
 msgid "Standalone example"
-msgstr ""
+msgstr "スタンドアロンの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_standalone.rst:8
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:690
@@ -6819,6 +6966,7 @@ msgid ""
 "arrays.  Also shown is a way to visualize this data with the mayavi2 "
 "application."
 msgstr ""
+"numpy配列を使用して3D構造化点データセットを生成する方法の例。また、mayavi2アプリケーションを使用してこのデータを視覚化する方法も示します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_structured_points3d.rst:22
 msgid "**Python source code:** :download:`structured_points3d.py`"
@@ -6826,7 +6974,7 @@ msgstr "**Pythonソースコード:** :download:`structured_points3d.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_subclassing_mayavi_application.rst:6
 msgid "Subclassing mayavi application example"
-msgstr ""
+msgstr "mayaviアプリケーションのサブクラス化の例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_subclassing_mayavi_application.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:467
@@ -6835,6 +6983,7 @@ msgid ""
 "subclassing the application, create a new scene and create a few simple "
 "modules."
 msgstr ""
+"このスクリプトは、アプリケーションをサブクラス化し、新しいシーンを作成し、いくつかの単純なモジュールを作成することによって、Mayaviアプリケーションをスクリプト化する方法を示します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_subclassing_mayavi_application.rst:19
 msgid "**Python source code:** :download:`subclassing_mayavi_application.py`"
@@ -6842,7 +6991,7 @@ msgstr "**Pythonソースコード:** :download:`subclassing_mayavi_application.
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:6
 msgid "Superquad with gui example"
-msgstr ""
+msgstr "guiの例を含むSuperquad"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:9
 msgid ""
@@ -6863,7 +7012,7 @@ msgstr ""
 msgid ""
 "Note that when we set A=B=C=r, and lpha =  eta = 1, we get the equation "
 "for a sphere in spherical polar coordinate."
-msgstr ""
+msgstr "A=B=C=r、alpha=beta=1と設定すると、球の極座標における球の方程式が得られます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:21
 msgid ""
@@ -6931,14 +7080,14 @@ msgstr "**Pythonソースコード:** :download:`surface_from_irregular_data.py`
 
 #: ../../mayavi/docs/source/mayavi/auto/example_tvtk_in_mayavi.rst:6
 msgid "Tvtk in mayavi example"
-msgstr ""
+msgstr "mayaviのTvtkの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_tvtk_in_mayavi.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:256
 msgid ""
 "An example of pure TVTK programming to build TVTK objects, which are then "
 "added to a Mayavi scene."
-msgstr ""
+msgstr "TVTKオブジェクトを構築し、Mayaviシーンに追加する純粋なTVTKプログラミングの例です。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_tvtk_in_mayavi.rst:12
 msgid ""
@@ -6960,6 +7109,10 @@ msgid ""
 "example of the UserDefined filter. For a full-blown example of a complex VTK"
 " pipeline built with Mayavi, see :ref:`example_tvtk_segmentation`."
 msgstr ""
+"Mayaviでarbritrary VTKフィルタを使用する場合は、任意のVTKフィルタをMayaviパイプラインに挿入できるUserDefined "
+"Mayaviフィルタを使用することをお勧めします。たとえば、UserDefinedフィルタの例については、 :ref:`example_mri` "
+"を参照してください。Mayaviを使用して構築された複雑なVTKパイプラインの完全な例については、 "
+":ref:`example_tvtk_segmentation` を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_tvtk_in_mayavi.rst:31
 msgid "**Python source code:** :download:`tvtk_in_mayavi.py`"
@@ -7046,6 +7199,7 @@ msgid ""
 "This code is not to be executed as `mayavi2 -x user_mayavi.py` or `python "
 "user_mayavi.py`."
 msgstr ""
+"このコードは、 `mayavi2 -x user_mayavi.py` または  `python user_mayavi.py` として実行されません。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_user_mayavi.rst:14
 msgid ""
@@ -7075,6 +7229,8 @@ msgid ""
 "plugins to extend the running mayavi application.  This plugin is returned "
 "by the `get_plugins()` function."
 msgstr ""
+"また、実行中のmayaviアプリケーションを拡張するためにプラグインのデフォルトリストに追加されるEnvisageプラグインも定義します。このプラグインは"
+" `get_plugins()` 関数から返されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_user_mayavi.rst:32
 msgid ""
@@ -7083,6 +7239,9 @@ msgid ""
 " the directory exists) so make sure that you choose your module names "
 "carefully (so as not to override any common module names)."
 msgstr ""
+"このファイルは `~/.mayavi2` ディレクトリの中に置く必要があり、 `user_mayavi.py` という名前です。 "
+"`~/.mayavi2` は(ディレクトリが存在する場合) `sys.path` "
+"に配置されることに注意してください。そのため、モジュール名を注意深く選択してください(共通モジュール名を上書きしないようにしてください)。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_user_mayavi.rst:37
 msgid ""
@@ -7127,6 +7286,9 @@ msgid ""
 " scene background color, or interaction properties cannot be set before the "
 "scene is activated."
 msgstr ""
+"この例では、何かが起こる順序が重要であり、間違いを犯しやすいです。まず、可視化オブジェクトの多くのプロパティは、オブジェクトを表示するために作成されたシーンがない場合は変更できません。これが、シーンのコールバックに多くの可視化ロジックを配置する理由です。これはシーンの作成後に呼び出されます。次に、"
+" '_xxx_default' "
+"コールバックによって作成されたデフォルト値は、遅延して作成されます。つまり、アトリビュートにアクセスするときに作成されます。VTKパイプラインの確立は,それが構築される順序に依存することができるので、筆者らは明示的に属性を呼ぶことによってこれらのアクセスをトリガしました。特に、シーンの背景色やインタラクションプロパティなどのプロパティは、シーンがアクティブになる前に設定することはできません。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_volume_slicer.rst:29
 msgid ""
@@ -7186,6 +7348,9 @@ msgid ""
 "planes in the 3D view (for instance when these planes are moved) are "
 "propagated to the 2D side views by the VTK pipeline."
 msgstr ""
+"3次元ウィンドウでは、ImagePlaneWidgetsを使用して3次元カットが3次元ボリュームデータをカットして表示されます。ImagePlaneWidgetによってプロット用に抽出されたデータは、TVTKのImagePlaneWidgetの"
+" `_get_reslice_output` "
+"メソッドを使用してキャプチャされます。作成されたデータセットは、別のImagePlaneWidgetを使用して各側面ビューにプロットされます。その結果、データはコピーされず(VTKレベルでは、パイプラインは1つしかありません)、(たとえば、これらの平面を移動すると)3次元ビュー内の平面にプロットされたデータの変更内容は、VTKパイプラインによって2次元側面ビューに伝達されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_volume_slicer_advanced.rst:31
 msgid ""
@@ -7200,6 +7365,8 @@ msgid ""
 "(observer, it VTK terms), that we use to move the position of the cut. The "
 "Traits callbacks do the rest for the updating."
 msgstr ""
+"側面ビューでは、マウスボタンを平面上で押すと、VTKの `InteractionEvent` "
+"が作成されます。この場合、VTKはカットの位置を移動するためのコールバック(observer、VTKの項目)を呼び出します。残りの処理はTraitsコールバックが行います。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_volume_slicer_advanced.rst:40
 msgid "**Python source code:** :download:`volume_slicer_advanced.py`"
@@ -7271,6 +7438,8 @@ msgid ""
 "attribute is the wx widget. It can thus be embedded in a standard wx "
 "application."
 msgstr ""
+"`edit_traits` メソッドを呼び出すと、  `control` 属性がwxウィジェットである `ui` "
+"オブジェクトが返されます。したがって、標準のwxアプリケーションに組み込むことができます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_wx_embedding.rst:20
 msgid ""
@@ -7278,6 +7447,8 @@ msgid ""
 ":ref:`example_wx_mayavi_embed_in_notebook` for an example of more complex "
 "embedding of Mayavi scenes in Wx applications."
 msgstr ""
+"この例では、wx部分は非常に単純です。WxアプリケーションでのMayaviシーンのより複雑な埋め込みの例については、 "
+":ref:`example_wx_mayavi_embed_in_notebook` を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_wx_embedding.rst:25
 msgid "**Python source code:** :download:`wx_embedding.py`"
@@ -7298,6 +7469,8 @@ msgid ""
 ":ref:`example_wx_embedding`), and can be used to see how a large wx "
 "application can use different Mayavi views."
 msgstr ""
+"これは、 `wx_embedding` の例( :ref:`example_wx_embedding` "
+")よりも少し複雑な例で、大規模なwxアプリケーションでさまざまなMayaviビューをどのように使用できるかを確認するために使用できます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_wx_mayavi_embed_in_notebook.rst:15
 msgid ""
@@ -7342,11 +7515,11 @@ msgstr "必要なもの"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_zzz_reader.rst:20
 msgid "Options to open .zzz files from the file->open menu."
-msgstr ""
+msgstr "file->open メニューから .zzz ファイルを開くオプション。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_zzz_reader.rst:21
 msgid "Open .zzz files via right click."
-msgstr ""
+msgstr ".zzzファイルを開き右クリックします。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_zzz_reader.rst:22
 msgid "Open .zzz files from the engine or mlab (via open)"
@@ -7374,6 +7547,8 @@ msgid ""
 "here for convenience. Please refer to the corresponding section of the user "
 "guide for more information ( :ref:`mlab_plotting_functions`)."
 msgstr ""
+"mlabプロット関数の例を次に示します。ここでは便宜上コピーしています。詳細については、ユーザーガイドの対応するセクションを参照してください ( "
+":ref:`mlab_plotting_functions`) 。"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:20
 msgid ":func:`plot3d`"
@@ -7709,6 +7884,8 @@ msgid ""
 "surfaces parametrised by two parameters,lpha and eta. The equations that "
 "are used to determine the superquadric are (in spherical-polar coordinates):"
 msgstr ""
+"この例では、MayaViを使用して、超二次曲面(http://en.w "
+"ikipedia.org/wiki/Superquadrics)の進化を示します。超二次曲面は、alphaとbetaの2つのパラメータでパラメータ化された楕円面です。超二次方程式を決定するために使用される(球極座標の)方程式は次のとおりです。"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:458
 msgid "|0106|"
@@ -7808,7 +7985,7 @@ msgstr ":ref:`example_volume_slicer_advanced`"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:531
 msgid "Advanced visualization examples"
-msgstr ""
+msgstr "高度な可視化の例"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:534
 msgid ""
@@ -7920,7 +8097,7 @@ msgstr ":ref:`example_select_red_balls`"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:674
 msgid "Misc examples"
-msgstr ""
+msgstr "その他の例"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:691
 msgid ":ref:`example_standalone`"
@@ -7967,11 +8144,11 @@ msgstr ""
 msgid ""
 "Please see the section on :ref:`running-mlab-scripts` for instructions on "
 "running the examples."
-msgstr ""
+msgstr "サンプルの実行方法については、 :ref:`running-mlab-scripts` のセクションを参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:15
 msgid "Camera handling functions"
-msgstr ""
+msgstr "カメラ処理関数"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:18
 msgid "move"
@@ -8032,7 +8209,7 @@ msgstr "right"
 msgid ""
 "float, optional.  The distance in space to translate the camera to the right"
 " (if positive) or left (if negative)"
-msgstr ""
+msgstr "float、オプション。カメラを右(正の場合)または左(負の場合)に移動する空間距離。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
@@ -8043,22 +8220,23 @@ msgstr "up"
 msgid ""
 "float, optional. The distance in space to translate the camera up (if "
 "positive) or down (if negative)"
-msgstr ""
+msgstr "float、オプション。カメラを上(正の場合)または下(負の場合)に移動する空間距離。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:46
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:186
 msgid "**Returns**:"
-msgstr ""
+msgstr "**戻り値**"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:48
 msgid ""
 "If no arguments are supplied (or all are None), returns a tuple "
 "(camera_position, focal_point_position)"
 msgstr ""
+"引数が指定されていない場合(またはすべてなし)、タプル(camera_position, focal_point_position)が戻されます"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:51
 msgid "otherwise, returns None"
-msgstr ""
+msgstr "それ以外の場合は、Noneが戻されます"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:53
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:194
@@ -8067,7 +8245,7 @@ msgstr "**例**"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:55
 msgid "Get the current camera position::"
-msgstr ""
+msgstr "現在のカメラ位置を取得します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:63
 msgid "Translate the camera::"
@@ -8075,7 +8253,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:70
 msgid "Return to the starting position::"
-msgstr ""
+msgstr "開始位置に戻ります。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:77
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:104
@@ -8092,7 +8270,7 @@ msgstr "mlab.yaw"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:79
 msgid "yaw the camera (tilt left-right)"
-msgstr ""
+msgstr "カメラをヨーで動します(左右に傾けます)"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
@@ -8145,7 +8323,7 @@ msgstr "この角度は現在の方向を基準にしています。角度は固
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:106
 msgid "relative rotation about the \"up\" direction"
-msgstr ""
+msgstr "\"上\"方向を中心とした相対回転"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:107
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:239
@@ -8172,7 +8350,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:124
 msgid "control the position and direction of the camera"
-msgstr ""
+msgstr "カメラの位置と方向をコントロールします"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:131
 msgid "view"
@@ -8180,7 +8358,7 @@ msgstr "view"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:135
 msgid "Sets/Gets the view point for the camera::"
-msgstr ""
+msgstr "カメラの視点を設定/取得します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:140
 msgid ""
@@ -8200,6 +8378,9 @@ msgid ""
 "to the x-axis.  Thus, specifying ``view(0,0)`` will give you a typical x-y "
 "plot with x varying from left to right and y from bottom to top."
 msgstr ""
+"`elevation` が0または180に近い場合、 `azimuth` は、x軸に対する標準x-"
+"yプロットの回転量を指すことに留意してください。したがって、 ``view(0,0)`` を指定すると、xが左から右に"
+"、yが下から上に変化する典型的なx-yプロットが得られます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
 msgid "azimuth"
@@ -8221,7 +8402,7 @@ msgstr "elevation"
 msgid ""
 "float, optional. The zenith angle (in degrees, 0-180), i.e. the angle "
 "subtended by the position vector and the z-axis."
-msgstr ""
+msgstr "float、 オプション。天頂角(0-180度)、つまり、位置ベクトルとz軸によって決定される角度。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
 msgid "distance"
@@ -8234,6 +8415,8 @@ msgid ""
 "'auto' is passed, the distance is computed to have a best fit of objects in "
 "the frame."
 msgstr ""
+"floatまたは 'auto' オプションです。カメラを配置する焦点からの距離を表す正の浮動小数点数。Mayavi 3.4.0の新機能: 'auto' "
+"が渡されると、フレーム内のオブジェクトが最適に収まるように距離が計算されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
 msgid "focalpoint"
@@ -8246,12 +8429,14 @@ msgid ""
 "is passed, the focal point is positioned at the center of all objects in the"
 " scene."
 msgstr ""
+"array_likeまたは 'auto' 、オプション。カメラの焦点を表す3つの浮動小数点数の配列です。Mayavi 3.4 .0の新機能。 "
+"'auto' が渡されると、焦点はシーン内のすべてのオブジェクトの中心に配置されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:176
 msgid ""
 "float, optional Controls the roll, ie the rotation of the camera around its "
 "axis."
-msgstr ""
+msgstr "float、オプション ロールすなわち軸を中心としたカメラの回転を制御します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
 msgid "reset_roll"
@@ -8359,7 +8544,7 @@ msgstr "figure"
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:183
 msgid ""
 "The Mayavi figure to operate on. If None is passed, the current one is used."
-msgstr ""
+msgstr "操作対象のMayavi図です。Noneが渡された場合は、現在のが使用されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:188
 msgid ""
@@ -8370,15 +8555,15 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:192
 msgid "If arguments are supplied it returns `None`."
-msgstr ""
+msgstr "引き数が与えられた場合は `None` を返します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:196
 msgid "Get the current view::"
-msgstr ""
+msgstr "現在のビューを取得します"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:202
 msgid "Set the view in different ways::"
-msgstr ""
+msgstr "次のように、さまざまな方法でビューを設定します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:209
 msgid "Set the view to that saved in `v` above::"
@@ -8411,7 +8596,7 @@ msgstr "カメラと焦点の相対的な移動"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:15
 msgid "Figure decoration functions"
-msgstr ""
+msgstr "フィギュアデコレーション機能"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:18
 msgid "colorbar"
@@ -8494,7 +8679,7 @@ msgstr "label_fmt"
 msgid ""
 "The string formater for the labels. This needs to be a formater for float "
 "number, eg '%.1f'."
-msgstr ""
+msgstr "ラベルの文字列フォーマッタ。これは、例えば '%.1f' のような浮動小数点数を形成する必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
@@ -8814,6 +8999,8 @@ msgid ""
 "{True, False} Use anti-aliasing for rendering the screenshot. Uses the "
 "number of aa frames set by figure.scene.anti_aliasing_frames"
 msgstr ""
+"{True, False} "
+"スクリーンショットのレンダリングにアンチエイリアシングを使用します。figure.scene.anti_aliasing_framesで設定されたaaフレームの数を使用します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:167
 msgid ""
@@ -8886,7 +9073,7 @@ msgstr "この関数は、2-Dまたは3-Dで指定された位置のさまざま
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:353
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:390
 msgid "**Function signatures**::"
-msgstr ""
+msgstr "**関数シグネチャ**"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:37
 msgid ""
@@ -9001,6 +9188,7 @@ msgid ""
 "whether to compute automatically the lateral scaling of the glyphs. This "
 "might be computationally expensive. Must be a boolean. Default: True"
 msgstr ""
+"グリフの横方向スケーリングを自動的に計算するかどうか。これは、計算上コストがかかる可能性があります。ブール値でなければなりません。デフォルトはTrueです。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
@@ -9376,6 +9564,8 @@ msgid ""
 "option is useful to reduce the number of points displayed on large datasets "
 "Must be an integer (int or long) or None."
 msgstr ""
+"指定した場合、 'mask_points' "
+"データ・ポイントのうちの1つのみが表示されます。このオプションは、大きなデータセットに表示される点の数を減らすのに役立ちます。整数(intまたはlong)またはでなければなりません。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:84
 msgid ""
@@ -10158,6 +10348,8 @@ msgid ""
 "callable, f, that returns vectors components (u, v, w) given the positions "
 "(x, y, z)."
 msgstr ""
+"4つの位置引数 (x, y, z, f) が渡された場合、最後の引数は、位置 (x, y, z) を指定してベクトルコンポーネント (u, v, w) "
+"を返す呼び出し可能なfである必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
@@ -10532,6 +10724,8 @@ msgid ""
 "index in the s array need to have the same x or y value. For arbitrary-"
 "shaped position arrays (non-orthogonal grids), see the mesh function."
 msgstr ""
+"xとyには、 numpy.ogrid や numpy.mgrid から返されるような1Dまたは2D配列を指定できます。 numpy.meshgrid "
+"から返される配列では、正しいインデックス順序を取得するために、最初にトランスポーズが必要です。点は、直交グリッド(おそらく不均一)上に配置する必要があります。つまり、s配列内で同じインデックスを共有するすべてのポイントは、同じxまたはy値を持つ必要があります。任意のシェイプの位置配列(非直交グリッド)については、メッシュ関数を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:1031
 msgid ""
@@ -10919,6 +11113,8 @@ msgid ""
 "runs the function.  If not the event loop is started and function is run in "
 "the toolkit's event loop.  The choice of UI is via `ETSConfig.toolkit`."
 msgstr ""
+"デコレータとして使用する場合は、UIを必要とする関数のデコレートに使用できます。GUIイベントループがすでに実行されている場合は、関数が実行されます。そうでない場合は、イベントループが開始され、ツールキットのイベントループで関数が実行されます。UIの選択は"
+" `ETSConfig.toolkit` で行います。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:274
 msgid ""

@@ -142,7 +142,7 @@ msgid ""
 "possible to drag and move a module from one set of Modules to another, or to"
 " move visualization from one scene to another."
 msgstr ""
-"ツリー上でノードをドラッグすることができます。たとえば、モジュールのセット間でモジュールをドラッグして移動したり、シーン間でビジュアル化を移動したりできます。"
+"ツリー上でノードをドラッグすることができます。たとえば、モジュールのセット間でモジュールをドラッグして移動したり、シーン間で可視化を移動したりできます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:0
 msgid "The object editor"
@@ -242,8 +242,8 @@ msgid ""
 "feeling of how this work, going through the :ref:`Parametric surfaces "
 "example <parametric_surfaces_example>` can be helpful."
 msgstr ""
-"Mayaviでの視覚化データは、一部のデータを 「データソース」 "
-"としてロードし、これらのソースに視覚化モジュールを適用してデータを視覚化することによって実行されます。これについては、 :ref:`an-"
+"Mayaviでの可視化データは、一部のデータを 「データソース」 "
+"としてロードし、これらのソースに可視化モジュールを適用してデータを視覚化することによって実行されます。これについては、 :ref:`an-"
 "overview-of-mayavi` のセクションを参照してください。これがどのように動作するかを理解するには、 :ref:`Parametric "
 "surfaces example <parametric_surfaces_example>` を参照すると役に立ちます。"
 
@@ -630,7 +630,7 @@ msgstr "Mayaviは非常に便利で強力なスクリプト記録機能を備え
 msgid ""
 "record all actions performed on the Mayavi UI into a *human readable*, "
 "Python script that should be able to recreate your visualization."
-msgstr "Mayavi UIで実行されたすべてのアクションを、視覚化を再作成できる *人間が読める* Pythonスクリプトに記録します。"
+msgstr "Mayavi UIで実行されたすべてのアクションを、可視化を再作成できる *人間が読める* Pythonスクリプトに記録します。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:325
 msgid ""
@@ -815,7 +815,7 @@ msgstr ""
 msgid ""
 "A complete pipeline may be built from the command line, so that Mayavi can "
 "be integrated in shell scripts to provide useful visualizations."
-msgstr "コマンドラインから完全なパイプラインを構築して、Mayaviをシェルスクリプトに統合し、便利な視覚化を実現できます。"
+msgstr "コマンドラインから完全なパイプラインを構築して、Mayaviをシェルスクリプトに統合し、便利な可視化を実現できます。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:428
 msgid "Mayavi can be run like so::"
