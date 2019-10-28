@@ -23,14 +23,14 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/index.rst:20
 msgid "Mayavi: 3D scientific data visualization and plotting in Python"
-msgstr "Mayavi: Pythonでの3D科学データの可視化とプロット"
+msgstr "Mayavi: Pythonでの3次元科学データの可視化とプロット"
 
 #: ../../mayavi/docs/source/mayavi/index.rst:48
 msgid ""
 "Welcome, this is the user guide for Mayavi, a application and library for "
 "**interactive scientific data visualization** and **3D plotting in Python**."
 msgstr ""
-"ようこそ、これはMayaviのユーザーガイドです。 **対話型科学データビジュアライゼーション** および **Pythonでの3Dプロット** "
+"ようこそ、これはMayaviのユーザーガイドです。 **対話型科学データ可視化** および **Pythonでの3次元プロット** "
 "のためのアプリケーションとライブラリです。"
 
 #: ../../mayavi/docs/source/mayavi/index.rst:55
