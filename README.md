@@ -13,15 +13,11 @@ conf.py files for each languages have 'language' and 'locale_dirs' values withou
 
   * https://readthedocs.org/projects/mayavi/  (Master)
   * https://readthedocs.org/projects/mayavi-ja/
-  * https://readthedocs.org/projects/mayavi-pt-br/
-  * https://readthedocs.org/projects/mayavi-es/
 
 * Documentation pages for each languages:
 
   * http://www.mayavi-doc.org/
   * http://www.mayavi-doc.org/ja
-  * http://www.mayavi-doc.org/pt_BR
-  * http://www.mayavi-doc.org/es
 
 ## How to setup a translated documentation project on RTD
 
@@ -48,10 +44,10 @@ After that, you should commit updated po files.
 1. add language to locale/update.sh:
 
    ```
-   - rm -R es ja
-   - tx pull -l es,ja
-   + rm -R es ja pt_BR
-   + tx pull -l es,ja,pt_BR
+   - rm -R ja
+   - tx pull -l ja
+   + rm -R ja de
+   + tx pull -l ja,de
    ```
 
 2. update po files
@@ -60,7 +56,7 @@ After that, you should commit updated po files.
 
 4. add new project on Read The Docs like:
 
-   https://readthedocs.org/projects/mayavi-pt-br/
+   https://readthedocs.org/projects/mayavi-ja/
 
 5. add translation project to parent project like:
 
