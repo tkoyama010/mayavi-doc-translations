@@ -11443,7 +11443,7 @@ msgstr "図にテキストを追加します。"
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:422
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:471
 msgid "**Function signature**::"
-msgstr "**関数の署名**::"
+msgstr "**関数シグネチャ**"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:385
 msgid ""
