@@ -38,8 +38,8 @@ msgid ""
 "You want to use an interactive application to visualize your data in 3D? "
 "Read the :ref:`Mayavi application section <using-the-mayavi-application>`."
 msgstr ""
-"インタラクティブなアプリケーションで3Dデータを可視化したいですか？ :ref:`Mayavi application section <using-"
-"the-mayavi-application>` を読んでください。"
+"インタラクティブなアプリケーションで3次元データを可視化したいですか？ :ref:`Mayaviアプリケーションの使用 <using-the-"
+"mayavi-application>` を読んでください。"
 
 #: ../../mayavi/docs/source/mayavi/index.rst:59
 msgid ""
@@ -47,8 +47,8 @@ msgid ""
 "3D plotting and data visualization with `numpy`? Get started with the "
 ":ref:`mlab section <simple-scripting-with-mlab>`."
 msgstr ""
-"Pythonを知っていて、3Dプロットと `numpy` "
-"によるデータ可視化のためのMatlabまたはpylabの代替としてMayaviを使いたいですか？ :ref:`mlab section <simple-"
+"Pythonを知っていて、3次元プロットと `numpy` "
+"によるデータ可視化のためのMatlabまたはpylabの代替としてMayaviを使いたいですか？ :ref:`mlabの節 <simple-"
 "scripting-with-mlab>` からはじめてください。"
 
 #: ../../mayavi/docs/source/mayavi/index.rst:63
