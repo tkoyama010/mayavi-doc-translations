@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-25 09:41+0000\n"
+"POT-Creation-Date: 2019-11-21 06:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4891,19 +4891,19 @@ msgid "Superquad with gui example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:9
-msgid "This example uses MayaVi to show the evolution of a superquadric (http://en.wikipedia.org/wiki/Superquadrics), which are ellipsoidal surfaces parametrised by two parameters,lpha and eta. The equations that are used to determine the superquadric are (in spherical-polar coordinates):"
+msgid "This example uses MayaVi to show the evolution of a superquadric (http://en.wikipedia.org/wiki/Superquadrics), which are ellipsoidal surfaces parametrised by two parameters, alpha and beta. The equations that are used to determine the superquadric are (in spherical-polar coordinates):"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:14
-msgid "\\(x = A(\\sin^{lpha}(\\phi)*\\cos^{eta}(       heta))\\) \\(y = B(\\sin^{lpha}(\\phi)*\\sin^{eta}(       heta))\\) \\(z = C(\\cos^{lpha}(\\phi))\\)"
+msgid "(x = A(sin**alpha(phi)*cos**beta(theta))) (y = B(sin**alpha(phi)*sin**beta(theta))) (z = C(cos**alpha(phi)))"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:18
-msgid "Note that when we set A=B=C=r, and lpha =  eta = 1, we get the equation for a sphere in spherical polar coordinate."
+msgid "Note that when we set A=B=C=r, and alpha =  beta = 1, we get the equation for a sphere in spherical polar coordinate."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:21
-msgid "Use the controls at the bottom of the plot to adjust lpha and eta, and watch as the figure transforms accordingly!"
+msgid "Use the controls at the bottom of the plot to adjust alpha and beta, and watch as the figure transforms accordingly!"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:26
@@ -5591,7 +5591,7 @@ msgid ":ref:`example_superquad_with_gui`"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:449
-msgid "This example uses MayaVi to show the evolution of a superquadric (http://en.w ikipedia.org/wiki/Superquadrics), which are ellipsoidal surfaces parametrised by two parameters,lpha and eta. The equations that are used to determine the superquadric are (in spherical-polar coordinates):"
+msgid "This example uses MayaVi to show the evolution of a superquadric (http://en.w ikipedia.org/wiki/Superquadrics), which are ellipsoidal surfaces parametrised by two parameters,alpha and beta. The equations that are used to determine the superquadric are (in spherical-polar coordinates):"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:458
