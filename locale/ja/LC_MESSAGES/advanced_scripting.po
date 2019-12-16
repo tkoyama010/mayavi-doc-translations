@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-25 09:41+0000\n"
+"POT-Creation-Date: 2019-12-16 09:51+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:4
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:4
 msgid "Advanced Scripting with Mayavi"
 msgstr "Mayaviによる高度なスクリプト機能"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:6
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:6
 msgid ""
 "As elaborated in the :ref:`an-overview-of-mayavi` section, Mayavi can be "
 "scripted from Python in order to visualize data.  Mayavi was designed from "
@@ -39,7 +39,7 @@ msgstr ""
 ":ref:`an-overview-of-mayavi` "
 "セクションで説明されているように、データを視覚化するためにPythonからMayaviをスクリプト化することができます。Mayaviは、最初から高度な評価できるように設計されています。ユーザインタフェースから実行できる操作はすべて、Pythonスクリプトを使用して実行できます。Mayavi2アプリケーションのスクリプト作成は、既存のフレームワークにドメイン固有の機能を追加する優れた方法です。さらに、このアプリケーションを理解すると、強力な視覚化ライブラリとしてMayaviを使用して独自のアプリケーションを設計するのに役立ちます。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:15
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:15
 msgid ""
 "If you are not looking to script the Mayavi2 application itself or to build "
 "an application, but looking for quick ways to get your visualization done "
@@ -57,7 +57,7 @@ msgstr ""
 " :ref:`automatic-script-generation` "
 "の章を参照してください。これはおそらく、Mayaviをスクリプト化する最も簡単で強力な方法です。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:25
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:25
 msgid ""
 "However, to best understand how to script Mayavi, a reasonable understanding"
 " of the Mayavi internals is necessary.  The following sections provide an "
@@ -67,7 +67,7 @@ msgid ""
 msgstr ""
 "しかし、Mayaviのスクリプトの書き方を最もよく理解するには、Mayaviの内部構造を合理的に理解する必要があります。以下のセクションでは、Mayaviパイプラインの基本設計とオブジェクトの概要について説明します。以降のセクションでは、この概念を説明するMayaviソースに含まれる特定のサンプルスクリプトについて説明します。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:31
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:31
 msgid ""
 "Mayavi uses Traits_ and TVTK_ internally.  Traits_ in many ways changes the "
 "way we program.  So it is important to have a good idea of Traits in order "
@@ -78,17 +78,17 @@ msgstr ""
 "Mayaviは内部的に Traits_ と TVTK_ を使用します。 Traits_ "
 "は多くの点でプログラム方法を変えます。したがって、Mayaviの内部構造を理解するには、Traitsをよく理解することが重要です。Traitがよくわからない場合は、ここでTraitの概要を理解することをお勧めします。私を信じてください、あなたの伝統を学ぶ努力は無駄にならないでしょう!"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:42
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:42
 msgid "Design Overview: Mayavi as a visualization framework"
 msgstr "設計の概要:視覚化フレームワークとしてのMayavi"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:44
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:44
 msgid ""
 "This section provides a brief introduction to Mayavi's internal "
 "architecture."
 msgstr "このセクションでは、Mayaviの内部アーキテクチャについて簡単に説明します。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:47
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:47
 msgid ""
 "The \"big picture\" of a visualization in Mayavi is that an ``Engine`` "
 "(``mayavi.engine.Engine``) object manages the entire visualization.  The "
@@ -110,11 +110,11 @@ msgstr ""
 " には、他の ``filters`` または ``ModuleManagers`` を含めることができます。 ``ModuleManager`` "
 "は、任意の数の ``Modules`` を管理します。次の図は、この階層をグラフ形式で示しています。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:63
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:63
 msgid "*Illustration of the various objects in the Mayavi pipeline.*"
 msgstr "*Mayaviパイプラインのさまざまなオブジェクトの図。*"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:65
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:65
 msgid ""
 "This hierarchy is precisely what is seen in the Mayavi tree view on the UI."
 "  The UI is therefore merely a graphical representation of this internal "
@@ -125,11 +125,11 @@ msgstr ""
 "この階層は、UIのMayaviツリービューに表示されるものとまったく同じであるため、UIはこの内部ワールドビューの単なるグラフィック表現にすぎません。これらのオブジェクトの詳細を次に示します。詳細については、ソースコード(ヒント:クラスのソースコードは"
 " `Class??` )を参照してください。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:74
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:74
 msgid "Object-oriented construction of a visualization"
 msgstr "視覚化のオブジェクト指向の構造"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:76
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:76
 msgid ""
 "When scripting Mayavi to create or modify a visualization, one mainly deals "
 "with adding or removing objects to the engine, or modifying their "
@@ -141,7 +141,7 @@ msgstr ""
 " :ref:`controlling-the-pipeline-with-mlab-scripts` "
 "で参照したmlabを使用してパイプラインを構築する例を、エンジンへの明示的な呼び出しによって書き直すことができます。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:101
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:101
 msgid ""
 "As with all Mayavi code, you need to have the GUI mainloop running to have "
 "the visualization go live.  To do this, type ``ipython --gui=qt`` in a "
@@ -150,7 +150,7 @@ msgstr ""
 "すべてのMayaviコードと同様に、視覚化を有効にするにはGUIメインループを実行する必要があります。これを行うには、ターミナルかコマンドプロンプトに "
 "``ipython --gui=qt`` と入力します。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:106
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:106
 msgid ""
 "This explicit, object-oriented, code thus mirrors the `mlab.pipeline` code. "
 "It is more fine-grained, and gives you more control. For instance it "
@@ -161,11 +161,11 @@ msgstr ""
 "この明示的なオブジェクト指向のコードは、このように `mlab.pipeline` "
 "のコード。よりきめ細かく、より細かく制御できます。たとえば、オブジェクトの初期化と、エンジンへのオブジェクトの追加または削除を分離します。一般に、スクリプトではなくアプリケーションの開発に適しています。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:113
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:113
 msgid "Life-cycle of the different objects"
 msgstr "異なるオブジェクトのライフサイクル"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:115
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:115
 msgid ""
 "All objects in the Mayavi pipeline feature ``start`` and ``stop`` methods.  "
 "The reasoning for this is that any object in Mayavi is not usable (i.e. it "
@@ -193,7 +193,7 @@ msgstr ""
 "メソッドが自動的に呼び出されます。mayaviパイプラインからオブジェクトを削除する場合は、 ``remove`` "
 "メソッドを使用して削除できます。例(以下では `ipython --gui=qt` を使う必要があります。)"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:141
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:141
 msgid ""
 "Apart from the ``Engine`` object, all other objects in the Mayavi pipeline "
 "feature a ``scene`` trait which refers to the current "
@@ -209,11 +209,11 @@ msgstr ""
 "メソッドもあります。 ``add_child`` のメソッドは \"intelligent\" "
 "で、コンテキストに基づいて適切な場所に子を追加しようとします。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:150
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:150
 msgid "Scripting the ``mayavi2`` application"
 msgstr "``mayavi2`` アプリケーションのスクリプト作成"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:152
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:152
 msgid ""
 "The ``mayavi2`` application is implemented in the ``mayavi.scripts.mayavi2``"
 " module (look at the ``mayavi2.py`` file and not the ``mayavi2`` script).  "
@@ -224,7 +224,7 @@ msgstr ""
 "スクリプトではなく ``mayavi2.py`` "
 "ファイルを参照してください)。このコードは、コマンドライン引数の解析を処理し、アプリケーションを実行します。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:157
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:157
 msgid ""
 "``mayavi2`` is an Envisage_ application.  It starts the Envisage application"
 " in its ``main`` method.  The code for this is in the ``mayavi.plugins.app``"
@@ -249,11 +249,11 @@ msgstr ""
 "を使用すると、アプリケーションの実行時にmayaviツリービュー、オブジェクトエディタ、およびメニュー項目を使用できません。これにより、開発者はmayaviを使用するがユーザインタフェースを表示しないアプリケーションを作成できます。これを行う方法の例を"
 " ``examples/mayavi/nongui.py`` に示す。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:175
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:175
 msgid "Scripting from the UI"
 msgstr "UIからのスクリプト作成"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:177
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:177
 msgid ""
 "When using the ``mayavi2`` application, it is possible to script from the "
 "embedded Python interpreter on the UI.  On the interpreter the name "
@@ -270,7 +270,7 @@ msgstr ""
 " ``engine`` traitがあります。mayaviのスクリプトに ``Engine`` "
 "インスタンス自体を使用するのと同じくらい便利であることに注意してください。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:187
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:187
 msgid ""
 "As described in :ref:`the-embedded-python-interpreter` section, one can "
 "always drag a mayavi pipeline object from the tree and drop it on the "
@@ -279,7 +279,7 @@ msgstr ""
 ":ref:`the-embedded-python-interpreter` "
 "セクションで説明されているように、ツリーからmayaviパイプラインオブジェクトをドラッグし、インタプリタにドロップして直接スクリプトを作成することができます。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:191
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:191
 msgid ""
 "One may select the `File->Open Text File...` menu to open an existing Python"
 " file in the text editor, or choose the `File->New Text File` menu to create"
@@ -296,7 +296,7 @@ msgstr ""
 "キーを押します。 ``Control-s`` はスクリプトを保存します。 ``Control-b`` はフォントサイズを大きくし、 "
 "``Control-n`` はフォントサイズを小さくします。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:199
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:199
 msgid ""
 "The nice thing about this kind of scripting is that if one scripts something"
 " on the interpreter or on the editor, one may save the contents to a file, "
@@ -304,7 +304,7 @@ msgid ""
 msgstr ""
 "この種のスクリプトの良いところは、インタプリタやエディタで何かを書いた場合、その内容をファイルに保存できることです。次にこのスクリプトを次のように実行します。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:206
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:206
 msgid ""
 "This will execute the script for automatically.  The name ``mayavi`` is "
 "available to the script and is bound to the ``Script`` instance. This is "
@@ -314,7 +314,7 @@ msgstr ""
 "これにより、のスクリプトが自動的に実行されます。 ``mayavi`` という名前はスクリプトで使用でき、 ``Script`` "
 "インスタンスにバインドされます。これはとても便利です。mayaviに複数のスクリプトを実行させることができます。次に例を示します。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:213
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:213
 msgid ""
 "will load the ``foo.vtk`` file, create an ``IsoSurface`` module, then run "
 "``setup_iso.py`` and then run ``script2.py``."
@@ -322,7 +322,7 @@ msgstr ""
 "は ``foo.vtk`` ファイルをロードし、 ``IsoSurface`` モジュールを作成し、 ``setup_iso.py`` を実行してから "
 "``script2.py`` を実行します。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:216
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:216
 msgid ""
 "There are several scripts in the mayavi ``examples`` directory that should "
 "show how this can be done.  The ``examples/README.txt`` contains some "
@@ -331,11 +331,11 @@ msgstr ""
 "mayaviの ``examples`` ディレクトリには、これを行う方法を示すスクリプトがいくつかあります。 "
 "``examples/README.txt`` には、スクリプトの推奨法に関する情報が含まれています。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:222
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:222
 msgid "Scripting from IPython"
 msgstr "IPythonからのスクリプト"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:224
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:224
 msgid ""
 "It is possible to script Mayavi using IPython_.  IPython will have to be "
 "invoked with the ``--gui=qt`` command line option in order to allow one to "
@@ -345,28 +345,28 @@ msgstr ""
 "を使用してMayaviをスクリプト化することができます。mayaviアプリケーションをインタラクティブにスクリプト化できるようにするには、IPythonを"
 " ``--gui=qt`` コマンドラインオプションで起動する必要があります。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:230
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:230
 msgid "To start a visualization do the following::"
 msgstr "視覚化を開始するには、次の操作を行います。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:237
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:237
 msgid ""
 "It is also possible to use `mlab` (see :ref:`simple-scripting-with-mlab`) "
 "for this purpose::"
 msgstr ""
 "この目的のために `mlab` (  :ref:`simple-scripting-with-mlab` を参照してください)を使うこともできます。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:244
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:244
 msgid ""
 "With this it should be possible to script Mayavi just the way it is done on "
 "the embedded interpreter or on the text editor."
 msgstr "これにより、組み込みインタプリタまたはテキストエディタで実行されるのと同じ方法でMayaviをスクリプト化できるはずです。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:250
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:250
 msgid "An example"
 msgstr "例"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:252
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:252
 msgid ""
 "Here is an example script that illustrates various features of scripting "
 "Mayavi (note that this will work if you execute the following from the "
@@ -376,7 +376,7 @@ msgstr ""
 "以下は、Mayaviスクリプトのさまざまな機能を示すサンプルスクリプトです(これは、Mayavi内部に埋め込まれたPythonシェルから以下を実行する場合、または"
 " ``mayavi2 -x script.py`` として実行する場合に機能します)。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:305
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:305
 msgid ""
 "Sometimes, given a Mayavi ``Script`` instance or ``Engine``, it is handy to "
 "be able to navigate to a particular module/object.  In the above this could "
@@ -385,20 +385,20 @@ msgstr ""
 "Mayaviの ``Script`` インスタンスや ``Engine`` "
 "インスタンスでは、特定のモジュールやオブジェクトに移動できると便利な場合があります。上記の例では、次のようになります。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:312
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:312
 msgid ""
 "In this case ``x`` will be set to the ``Streamline`` instance that we just "
 "created."
 msgstr "この場合、  ``x`` は作成した ``Streamline`` インスタンスに設定されます。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:315
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:315
 msgid ""
 "There are plenty of examples illustrating various things in the "
 "``examples/mayavi`` directory.  These are all fairly well documented."
 msgstr ""
 "``examples/mayavi`` ディレクトリには、さまざまなことを説明した例がたくさんあります。これらはすべてかなりよく文書化されています。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:318
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:318
 msgid ""
 "In particular, the ``standalone.py`` example illustrates how one can script "
 "mayavi without using the envisage application at all.  The ``offscreen.py`` "
@@ -408,29 +408,29 @@ msgstr ""
 "特に ``standalone.py`` の例は、想定されるアプリケーションをまったく使用せずにmayaviをスクリプト化する方法を示しています。 "
 "``offscreen.py`` は、(特定のビルドのVTKでサポートされている場合)オフスクリーンレンダリングを使用してこれを行う方法を示しています。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:323
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:323
 msgid ""
 "``examples/README.txt`` contains some information on the recommended ways to"
 " script and some additional information."
 msgstr "``examples/README.txt`` には、スクリプトの推奨方法と追加情報が含まれています。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:329
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:329
 msgid "Using the Mayavi envisage plugins"
 msgstr "Mayavi envisageプラグインの使用"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:331
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:331
 msgid "The Mayavi-related plugin definitions to use are:"
 msgstr "使用するMayavi関連のプラグイン定義は次のとおりです。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:333
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:333
 msgid "``mayavi_plugin.py``"
 msgstr "``mayavi_plugin.py``"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:334
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:334
 msgid "``mayavi_ui_plugin.py``"
 msgstr "``mayavi_ui_plugin.py``"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:336
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:336
 msgid ""
 "These are in the ``mayavi.plugins`` package.  To see an example of how to "
 "use this see the ``mayavi.plugins.app`` module.  The explorer3D example in "
@@ -441,7 +441,7 @@ msgstr ""
 "を参照してください。 ``examples/mayavi/explorer`` "
 "にあるexplorer3Dの例でも、Mayaviを予想プラグインとして使う方法を説明しています。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:341
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:341
 msgid ""
 "If you are writing Envisage plugins for an application and desire to use the"
 " Mayavi plugins from your plugins/applications then it is important to note "
@@ -450,7 +450,7 @@ msgid ""
 msgstr ""
 "アプリケーション用のEnvisageプラグインを作成していて、プラグイン/アプリケーションからMayaviプラグインを使用したい場合は、Mayaviが便利な3つのワークベンチサービスを作成することに注意してください。次のものがあります。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:346
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:346
 msgid ""
 "``mayavi.plugins.script.Script``: This is an "
 "``mayavi.plugins.script.Script`` instance that may be used to easily script "
@@ -463,12 +463,12 @@ msgstr ""
 "です。これは単純なラッパー・オブジェクトで、UIからスクリプトを作成する際に便利な機能を提供するだけのもので、実行中のMayaviエンジンを参照する "
 "``engine`` 特性を持っています。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:353
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:353
 msgid ""
 "``mayavi.core.engine.Engine``: This is the running Mayavi engine instance."
 msgstr "``mayavi.core.engine.Engine``: これは実行中のMayaviエンジンインスタンスです。"
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:356
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_scripting.rst:356
 msgid ""
 "A simple example that demonstrates the use of the Mayavi plugin in an "
 "envisage application is included in the ``examples/mayavi/explorer`` "

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-15 09:22+0000\n"
+"POT-Creation-Date: 2019-12-16 09:51+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -21,22 +21,22 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:5
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:5
 msgid "Building applications using Mayavi"
 msgstr "Mayaviを使用したアプリケーションの構築"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rstNone
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rstNone
 msgid "Section summary"
 msgstr "セクションの概要"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:9
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:9
 msgid ""
 "This section describes how Mayavi can be used as a scientific data "
 "visualization and 3D plotting tool in interactive application."
 msgstr ""
 "このセクションでは、Mayaviを科学データの視覚化および3Dプロットツールとしてインタラクティブアプリケーションで使用する方法について説明します。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:12
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:12
 msgid ""
 "Mayavi can be used as a fully integrated and interactive 3D plotting tool in"
 " a GUI application. Using the event model behind Traits and TVTK, all the "
@@ -45,7 +45,7 @@ msgid ""
 msgstr ""
 "Mayaviは、GUIアプリケーションに完全に統合されたインタラクティブな3Dプロットツールとして使用できます。TraitsとTVTKの背後にあるイベントモデルを使うと、可視化されたデータ自体を含め、可視化のさまざまなプロパティーをすべて動的に変更することができます。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:17
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:17
 msgid ""
 "In this section, we first show how an interactive dialog embedding a Mayavi "
 "scene can be built, using `Traits`. Then we show how to integrate this "
@@ -54,11 +54,11 @@ msgstr ""
 "このセクションでは、まず `Traits` "
 "を使用して、Mayaviシーンを埋め込んだ対話型ダイアログを構築する方法を説明します。次に、このダイアログをWxPythonまたはPyQt(またはPySide)アプリケーションに統合する方法を示します。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:22
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:22
 msgid "Custom interactive dialogs"
 msgstr "カスタム対話型ダイアログ"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:24
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:24
 msgid ""
 "Mayavi and TVTK are entirely built using the Traits library which provides "
 "easy callbacks and visualization for objects attribute. All the different "
@@ -69,7 +69,7 @@ msgid ""
 msgstr ""
 "MayaviとTVTKはすべてTraitsライブラリを使用して構築されており、オブジェクトアトリビュートのコールバックと視覚化を簡単に行うことができます。パイプラインオブジェクトとパイプラインオブジェクトのさまざまなプロパティはすべて、Traitとして表されます。Traitとは、ダイアログに表示できる特別な属性で、変更されるとコールバックを起動するものです。特に、ビジュアライゼーションオブジェクトが変更されると、シーンは自動的に更新されます。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:31
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:31
 msgid ""
 "We strongly suggest that you refer to the `Traits` `documentation "
 "<http://docs.enthought.com/traits>`_ for more details.  There are also a "
@@ -82,11 +82,11 @@ msgstr ""
 "<https://support.enthought.com/hc/en-us/articles/204469620-Introductory-"
 "materials-for-Traits-and-Traits-UI>` のリストもあります。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:40
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:40
 msgid "Embedding a Mayavi scene in a Traits dialog"
 msgstr "特性ダイアログへのMayaviシーンの埋め込み"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:42
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:42
 msgid ""
 "To build a custom dialog with a Mayavi scene, the best option is to create a"
 " class deriving from the base `Traits` class. A special attribute, called "
@@ -98,7 +98,7 @@ msgstr ""
 "クラスから派生するクラスを作成することをお勧めします。オブジェクトを受け入れることができるMayaviシーンを表すアトリビュートとして、SceneModelという特別なアトリビュートを使用できます。これは"
 " `model` 、すなわちアプリケーションロジックが含まれるメインの `HasTraits` オブジェクトを定義します。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:48
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:48
 msgid ""
 "A view of this object, as a dialog, can be created using the "
 "`.configure_traits` method of this object. If a view is explicitly specified"
@@ -109,7 +109,7 @@ msgstr ""
 "メソッドです。ビューが明示的に指定されている場合、埋め込まれたMayaviシーンは `SceneEditor` "
 "を指定することにより、通常のシーンウィジェットで表すことができます。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:66
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:66
 msgid ""
 "A `Mayavi` button to pop up the pipeline dialog can be added on the toolbar "
 "by specifying a different scene view to the `SceneEditor`::"
@@ -117,13 +117,13 @@ msgstr ""
 "`SceneEditor` に別のシーンビューを指定することにより、ツールバーにパイプラインダイアログをポップアップする `Mayavi` "
 "ボタンを追加できます。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:75
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:75
 msgid ""
 "If, on the contrary, you want a view with no toolbar, you can replace the "
 "`MayaviView` by a raw tvtk view::"
 msgstr "逆に、ツールバーのないビューが必要な場合は、 `MayaviView` をraw tvtkビューに置き換えることができます。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:84
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:84
 msgid ""
 "The :ref:`example_mayavi_traits_ui` is a fairly comprehensive example that "
 "demonstrates how you can embed almost the entire Mayavi UI into your traits "
@@ -132,11 +132,11 @@ msgstr ""
 ":ref:`example_mayavi_traits_ui` は、Mayavi "
 "UIのほぼ全体をtraitベースのUIに埋め込む方法を示す、かなり包括的な例です。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:89
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:89
 msgid "A scene, with `mlab` embedded"
 msgstr "`mlab` が埋め込まれたシーン"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:91
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:91
 msgid ""
 "An object representing a scene is interesting only if you can visualize data"
 " with the scene. For this we can instanciate an `Engine` and assign it to "
@@ -147,7 +147,7 @@ msgstr ""
 "をインスタンス化してシーンに割り当てることができます。 `Engine` "
 "を1つのシーンだけに設定すると、アクションオブジェクトとビジュアライゼーションオブジェクトをこのシーンだけに制限できます。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:96
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:96
 msgid ""
 "We can also use an `MlabSceneModel` instance, rather than a `SceneModel`, "
 "imported from `mayavi.tools.mlab_scene_model`. This scene model registers "
@@ -162,11 +162,11 @@ msgstr ""
 ":ref:`mlab_plotting_functions` 参照)。たとえば、3D点のプロットには "
 "`self.scene.mlab.points3d(x, y, z, s)` を使用できます。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:103
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:103
 msgid "Embedding several scenes in an application"
 msgstr "アプリケーションへの複数のシーンの埋め込み"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:105
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:105
 msgid ""
 "When using several 'MlabSceneModel' in an application, there is an ambiguity"
 " regarding which scene mlab should use to plot to. This is why relying on "
@@ -175,24 +175,24 @@ msgstr ""
 "アプリケーションで複数の 'MlabSceneModel' "
 "を使用する場合、どのシーンmlabを使用してプロットするかが不明確になります。このため、mlabのように現在の値に依存するのは危険です。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:110
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:110
 msgid ""
 "The solution to this, is explicitly pass in the Mayavi figure to mlab's "
 "figure keyword argument::"
 msgstr "これを解決するには、Mayaviフィギュアをmlabのフィギュアキーワード引数に明示的に渡します。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:115
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:115
 msgid "However, this functionality is new in Mayavi 3.2.1."
 msgstr "ただし、この機能はMayavi 3.2 .1で新しく追加されました。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:117
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:117
 msgid ""
 "A full example with two embedded scenes is given on "
 ":ref:`example_multiple_mlab_scene_models`."
 msgstr ""
 "2つのシーンが埋め込まれた完全な例については、 :ref:`example_multiple_mlab_scene_models` を参照してください。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:120
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:120
 msgid ""
 "Another way of creating isolation between scene is to explicitly insert them"
 " in different engines. This is demonstrated in "
@@ -201,17 +201,17 @@ msgstr ""
 "シーン間の分離を作成するもう1つの方法は、別のエンジンにシーンを明示的に挿入することです。これは "
 ":ref:`example_multiple_engines` に示されています。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:125
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:125
 msgid "Making the visualization live"
 msgstr "ビジュアル化をライブにする"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:127
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:127
 msgid ""
 "Having an interactive application is interesting only if you can do custom, "
 "domain-specific, interaction with the visualization."
 msgstr "対話型アプリケーションが興味深いのは、カスタムでドメイン固有の対話をビジュアル化で行える場合だけです。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:130
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:130
 msgid ""
 "An important use case is modifying the data visualized as a parameter is "
 "changed interactively. For this we can use the inplace modification of the "
@@ -222,35 +222,35 @@ msgstr ""
 "重要な使用例は、パラメータが対話的に変更されるときに表示されるデータを変更することです。このためには、mlabプロットのアニメーションと同様に、mlabオブジェクトのデータのinplace変更を使用できます("
 " :ref:`mlab-animating-data` 参照)。2つのパラメータの関数によって定義されたラインカーブをプロットするとします。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:145
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:145
 msgid "Using `mlab`, we could plot the curve with `plot3d`::"
 msgstr "`mlab` を使うと、曲線を `plot3d` 。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:151
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:151
 msgid "Modifying the plot for new parameters could be written::"
 msgstr "新しいパラメータのプロットを変更すると、次のように記述できます。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:156
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:156
 msgid "In a dialog, this would be::"
 msgstr "ダイアログでは、次のようになります。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:195
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:195
 msgid "This code creates the following dialog:"
 msgstr "このコードは、次のダイアログを作成します。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:200
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:200
 msgid ""
 "A complete, runnable, code based on the above comments is given in the "
 ":ref:`example_mlab_interactive_dialog`."
 msgstr ""
 "上記のコメントに基づいた完全で実行可能なコードは :ref:`example_mlab_interactive_dialog` に記載されています。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:203
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:203
 msgid ""
 "Visualization objects and properties created before a scene is available"
 msgstr "シーンが使用可能になる前に作成されたビジュアル化オブジェクトおよびプロパティ"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:205
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:205
 msgid ""
 "When creating a traited object with an embedded scene, the scene can be "
 "created and populated before a view on it is actually open. However, some "
@@ -266,11 +266,11 @@ msgstr ""
 "シーンが埋め込まれたオブジェクトを作成する場合、シーンのビューを実際に開く前にシーンを作成して取り込むことができます。ただし、VTKのオブジェクトやプロパティの中には、カメラとインタラクションを持つシーンを開いていないと正常に機能しないものがあります。これは、主にカメラの方向に向いていたり、キーボードやマウスとのインタラクションに対応していたりするためです(例えばインターアクタや暗黙の平面)。その結果、VTKオブジェクトのプロパティを変更すると、ダイアログボックスを開かずに適用した場合に警告が表示されたり、まったく機能しなくなったりします。シーンをTraitsオブジェクトに埋め込む場合は、シーンがアクティブになったときにのみ、"
 " 'scene.activated' 特性の変更を取得して、これらのオブジェクトを作成および変更することをお勧めします。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:222
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:222
 msgid "The :ref:`example_lorenz_ui` shows a good example of this situation."
 msgstr ":ref:`example_lorenz_ui` はこの状況の良い例を示しています。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:226
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:226
 msgid ""
 "Several full-featured examples can be used to learn more about how to "
 "develop an application with visualization and data processing with Traits "
@@ -278,7 +278,7 @@ msgid ""
 msgstr ""
 "TraitsとMayaviを使用してビジュアル化とデータ処理を行うアプリケーションを開発する方法の詳細については、いくつかの完全な機能を備えた例を参照してください。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:230
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:230
 msgid ""
 ":ref:`example_lorenz_ui`: A didactic and simple example that shows how the "
 "lorenz model can be integrated and visualized interactively while changing "
@@ -287,7 +287,7 @@ msgstr ""
 ":ref:`example_lorenz_ui`: "
 "モデルパラメータを変更しながら、どのようにLorenzモデルを統合し、インタラクティブに視覚化できるかを示す教訓的でシンプルな例。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:234
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:234
 msgid ""
 ":ref:`example_mayavi_traits_ui`: An example showing how you can mimic the UI"
 " of the Mayavi application with simple code using Traits."
@@ -295,13 +295,13 @@ msgstr ""
 ":ref:`example_mayavi_traits_ui`: "
 "Traitsを使用して単純なコードでMayaviアプリケーションのUIを模倣する方法を示す例。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:237
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:237
 msgid ""
 ":ref:`example_multiple_engines`: An example showing how you can isolate "
 "different scenes by affecting them to different engines."
 msgstr ":ref:`example_multiple_engines`: 異なるエンジンに影響を与えることで異なるシーンを分離する方法を示す例。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:240
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:240
 msgid ""
 ":ref:`example_coil_design_application`: A full-blown and elaborate "
 "application enabling specification of a current-loop description for a coil,"
@@ -311,25 +311,25 @@ msgstr ""
 ":ref:`example_coil_design_application`: "
 "コイルの電流ループ記述の仕様化を可能にする本格的で精巧なアプリケーションであり、得られた磁界を、磁界およびコイル構造のリアルタイム視覚化と統合する。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:247
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:247
 msgid "Integrating in a WxPython application"
 msgstr "WxPythonアプリケーションへの統合"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:249
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:249
 msgid "Using the `Visualization` class defined above::"
 msgstr "上記で定義した  `Visualization` クラスを使用します。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:265
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:265
 msgid ""
 "Two examples of integrating Mayavi visualization with Wx applications are "
 "given:"
 msgstr "MayaviビジュアライゼーションをWxアプリケーションと統合する2つの例を示します。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:268
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:268
 msgid ":ref:`example_wx_embedding`: a simple example, as above."
 msgstr ":ref:`example_wx_embedding`: 上記のような簡単な例です。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:269
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:269
 msgid ""
 ":ref:`example_wx_mayavi_embed_in_notebook`: a more complexe example, showing"
 " 2 different Mayavi views embedded in a Wx notebook."
@@ -337,21 +337,21 @@ msgstr ""
 ":ref:`example_wx_mayavi_embed_in_notebook`: "
 "より複雑な例で、Wxノートブックに埋め込まれた2つの異なるMayaviビューを示しています。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:275
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:275
 msgid "Integrating in a Qt application"
 msgstr "Qtアプリケーションへの統合"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:277
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:277
 msgid "Mayavi dialogs can also be integrated in a PyQt or PySide application."
 msgstr "Mayaviダイアログは、PyQtまたはPySideアプリケーションに統合することもできます。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:279
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:279
 msgid ""
 "Before defining the `Visualization` class, you should set the toolkit used "
 "by Traits to the Qt backend::"
 msgstr "`Visualization` クラスを定義する前に、Traitsで使用するツールキットをQtバックエンドに設定する必要があります。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:285
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:285
 msgid ""
 "Also, as Traits runs with PyQt and PySide, if you use PyQt, you must make "
 "sure that you switch its binding in a mode that is compatible with PySide "
@@ -360,7 +360,7 @@ msgstr ""
 "また、TraitsはPyQtとPySideで動作するため、PyQtを使用する場合は、 **PyQtコードを読み込む前** "
 "に、PySideと互換性のあるモード(内部文字列表現モード)でバインドを切り替える必要があります。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:293
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:293
 msgid ""
 "By default, with modern versions of the Enthought Tool Suite, Traits will "
 "use PySide. To force the use of PyQt, you must set the QT_API environment "
@@ -369,17 +369,17 @@ msgstr ""
 "Enthought Tool "
 "Suiteの最新バージョンでは、デフォルトでPySideが使用されます。PyQtを強制的に使用するには、QT_API環境変数を設定する必要があります。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:299
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:299
 msgid "Then using the visualization class defined above::"
 msgstr "次に、上記で定義したビジュアル化クラスを使用します。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:315
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:315
 msgid ""
 "For a full-blown example of embedding in Qt, see "
 ":ref:`example_qt_embedding`."
 msgstr "Qtでの埋め込みの完全な例については、 :ref:`example_qt_embedding` を参照してください。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:320
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:320
 msgid ""
 "On definition of the model (and thus previous to the start of the event "
 "loop), Traits sets up some hooks on the main QApplication. As a result if "
@@ -387,6 +387,6 @@ msgid ""
 msgstr ""
 "モデルの定義(したがって、イベントループの開始の前)に関して、TraitsはメインのQApplicationにhookをいくつか設定します。そのため、たとえば次のようにして新しいインスタンスを作成します。"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:326
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/building_applications.rst:326
 msgid "Your Traits application will not work."
 msgstr "Traitsアプリケーションは動作しません。"

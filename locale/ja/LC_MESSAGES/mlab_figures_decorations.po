@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-25 09:41+0000\n"
+"POT-Creation-Date: 2019-12-16 09:51+0000\n"
 "PO-Revision-Date: 2019-04-27 07:31+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -21,15 +21,15 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:3
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rst:3
 msgid "Figures, legends, camera and decorations"
 msgstr "図、凡例、カメラ、デコレーション"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:6
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rst:6
 msgid "Handling several figures"
 msgstr "複数の図を処理する"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:8
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rst:8
 msgid ""
 "All mlab functions operate on the current scene, that we also call "
 ":func:`figure`, for compatibility with matlab and pylab. The different "
@@ -46,11 +46,11 @@ msgstr ""
 ":func:`gcf` 関数で検索できます。これは:func:`draw`関数を使ってリフレッシュでき、 :func:`savefig` "
 "を使って画像ファイルに保存し、 :func:`clf` を使って消去できます。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:19
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rst:19
 msgid "Figure decorations"
 msgstr "図のデコレーション"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:21
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rst:21
 msgid ""
 "Axes can be added around a visualization object with the :func:`axes` "
 "function, and the labels can be set using the :func:`xlabel`, :func:`ylabel`"
@@ -61,7 +61,7 @@ msgstr ""
 ":func:`zlabel` 関数を使って設定できます。同様に、 :func:`outline` はオブジェクトの周りにアウトラインを作成します。 "
 ":func:`title` は図形にタイトルを追加します。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:26
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rst:26
 msgid ""
 "Color bars can be used to reflect the color maps used to display values "
 "(LUT, or lookup tables, in VTK parlance). :func:`colorbar` creates a color "
@@ -76,22 +76,22 @@ msgstr ""
 ":func:`scalarbar` および :func:`vectorbar` "
 "関数スキャンを使用して、スカラーまたはベクトルデータ専用のカラーバーを作成します。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:33
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rst:33
 msgid ""
 "A small *xyz* triad can be added to the figure using "
 ":func:`orientation_axes`."
 msgstr "小さな *xyz* 座標系を図形に追加するには、 :func:`orientation_axes` を使用します。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:36
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rst:36
 msgid ""
 "The :func:`orientation_axes` was named `orientationaxes` before release 3.2."
 msgstr ":func:`orientation_axes` はリリース3.2以前は `orientationaxes` という名前でした。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:40
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rst:40
 msgid "Moving the camera"
 msgstr "カメラを移動する"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:42
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rst:42
 msgid ""
 "The position and direction of the camera can be set using the :func:`view` "
 "function. They are described in terms of Euler angles and distance to a "
@@ -106,7 +106,7 @@ msgstr ""
 "は、カメラのロール角度を明示的に設定します(これは、コントロールキーを押しながらマウスをドラッグすることで、シーン内でインタラクティブに行うことができます。"
 " :ref:`interaction-with-the-scene` を参照してください。)。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:50
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rst:50
 msgid ""
 "The :func:`view` and :func:`roll` functions return the current values of the"
 " different angles and distances they take as arguments. As a result, the "
@@ -115,11 +115,11 @@ msgstr ""
 ":func:`view` と :func:`roll` "
 "関数は、引数として取る角度と距離の現在値を返します。その結果、対話的に取得した視点は、以下を使用して保存およびリセットできます。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rstNone
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rstNone
 msgid "Rotating the camera around itself"
 msgstr "カメラの回転"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:64
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rst:64
 msgid ""
 "You can also rotate the camera around itself using the `roll`, `yaw` and "
 "`pitch` methods of the camera object. This moves the focal point::"
@@ -127,17 +127,17 @@ msgstr ""
 "また、カメラオブジェクトの `roll`、`yaw` 、`pitch` "
 "メソッドを使用して、カメラを自分自身の周りで回転させることもできます。これにより、焦点が移動します。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:71
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rst:71
 msgid ""
 "Unlike the :func:`view` and :func:`roll` function, the angles are "
 "incremental, and not absolute."
 msgstr ":func:`view` および :func:`roll` 関数とは異なり、角度は増分であり、絶対角度ではありません。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rstNone
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rstNone
 msgid "Modifying zoom and view angle"
 msgstr "ズームとビュー角度を修正する"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:76
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rst:76
 msgid ""
 "The camera is entirely defined by its position, its focal point, and its "
 "view angle (attributes 'position', 'focal_point', 'view_angle'). The camera "
@@ -150,11 +150,11 @@ msgstr ""
 "属性)によって完全に定義されます。カメラを使用する方法 'zoom' では、指定した比率の分だけビュー角度が変化します。この方法 'dolly' "
 "では、焦点を一定に保ちながら、カメラが軸に沿って移動します。 :func:`move` 関数もこれらの点で有用です。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:83
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rst:83
 msgid "Camera parallel scale"
 msgstr "カメラの平行スケール"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:85
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_figures_decorations.rst:85
 msgid ""
 "In addition to the information returned and set by mlab.view and mlab.roll, "
 "a last parameter is needed to fully define the view point: the parallel "

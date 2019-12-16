@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-25 09:41+0000\n"
+"POT-Creation-Date: 2019-12-16 09:51+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -21,19 +21,19 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:2
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:2
 msgid "Changing the looks of the visual objects created"
 msgstr "作成したビジュアルオブジェクトの外観を変更する"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:5
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:5
 msgid "Adding color or size variations"
 msgstr "色やサイズのバリエーションを追加する"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
 msgid "Color"
 msgstr "Color"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:8
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:8
 msgid ""
 "The color of the objects created by a plotting function can be specified "
 "explicitly using the 'color' keyword argument of the function. This color is"
@@ -42,7 +42,7 @@ msgstr ""
 "プロット関数によって作成されたオブジェクトの色は、関数の 'color' "
 "キーワード引数を使用して明示的に指定できます。このカラーは、作成されるすべてのオブジェクトに均一に適用されます。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:12
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:12
 msgid ""
 "If you want to vary the color across your visualization, you need to specify"
 " scalar information for each data point. Some functions try to guess this "
@@ -53,14 +53,14 @@ msgstr ""
 "ビジュアル化全体でカラーを変更する場合は、データポイントごとにスカラー情報を指定する必要があります。関数の中には、この情報を推測しようとするものがあります。これらのスカラーは、ベクトルを持つ関数の場合はベクトルのノルムを、意味のある関数の場合はz仰角をデフォルトとします。"
 " :func:`surf` や :func:`barchart` などです。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:18
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:18
 msgid ""
 "This scalar information is converted into colors using the colormap, or also"
 " called LUT, for Look Up Table. The list of possible colormaps is::"
 msgstr ""
 "このスカラー情報は、ルックアップテーブルのカラーマップまたはLUTを使用してカラーに変換されます。可能なコロンマップのリストは次のとおりです。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:34
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:34
 msgid ""
 "The easiest way to choose the colormap, most adapted to your visualization "
 "is to use the GUI (as described in the next paragraph). The dialog to set "
@@ -69,7 +69,7 @@ msgstr ""
 "視覚化に最も適したカラーマップを選択する最も簡単な方法は、GUIを使用することです(次項記載)。カラーマップを設定するダイアログは、 `Colors "
 "and legends` ノードにあります。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:38
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:38
 msgid ""
 "To use a custom-defined colormap, for the time being, you need to write "
 "specific code, as show in :ref:`example_custom_colormap`."
@@ -77,34 +77,34 @@ msgstr ""
 "カスタム定義のカラーマップを使用するには、当分の間、 :ref:`example_custom_colormap` "
 "に示すように、特定のコードを記述する必要があります。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
 msgid "Size of the glyph"
 msgstr "字形のサイズ"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:42
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:42
 msgid ""
 "The scalar information can also be displayed in many different ways. For "
 "instance it can be used to adjust the size of glyphs positioned at the data "
 "points."
 msgstr "スカラー情報は、さまざまな方法で表示することもできます。例えば、データポイントに配置された字形のサイズを調整するために使用できます。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:46
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:46
 msgid ""
 "**A caveat: Clamping: relative or absolute scaling** Given six points "
 "positionned on a line with interpoint spacing 1::"
 msgstr "**注意:クランプ:相対スケーリングまたは絶対スケーリング** ポイント間隔1のライン上に6つのポイントが配置されている場合:"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:53
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:53
 msgid "If we represent a scalar varying from 0.5 to 1 on this dataset::"
 msgstr "このデータセットで0.5から1までのスカラーを表す場合は、次のようになります。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:57
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:57
 msgid ""
 "We represent the dataset as spheres, using :func:`points3d`, and the scalar "
 "is mapped to diameter of the spheres::"
 msgstr ":func:`points3d` を使ってデータセットを球体として表現し、スカラーを球体の直径にマッピングします。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:63
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:63
 msgid ""
 "By default the diameter of the spheres is not 'clamped', in other words, the"
 " smallest value of the scalar data is represented as a null diameter, and "
@@ -114,7 +114,7 @@ msgstr ""
 "デフォルトでは、球体の直径は 'clamped' "
 "ではありません。つまり、スカラーデータの最小値はNull直径として表され、最大値はポイント間の距離に比例します。スケーリングは相対的なものにすぎません。結果の図を参照してください。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:71
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:71
 msgid ""
 "This behavior gives visible points for all datasets, but may not be desired "
 "if the scalar represents the size of the glyphs in the same unit as the "
@@ -122,13 +122,13 @@ msgid ""
 msgstr ""
 "この動作により、すべてのデータセットに可視ポイントが与えられますが、スカラーが指定された位置と同じ単位でグリフのサイズを表す場合には望ましくないことがあります。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:75
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:75
 msgid ""
 "In this case, you shoud turn auto-scaling off by specifying the desired "
 "scale factor::"
 msgstr "この場合、希望のスケール係数を指定して、自動スケールをオフにする必要があります。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:84
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:84
 msgid ""
 "In earlier versions of Mayavi (up to 3.1.0 included), the glyphs are not "
 "auto-scaled, and as a result the visualization can seem empty due to the "
@@ -139,11 +139,11 @@ msgstr ""
 "以前のバージョンのMayavi(最大3.1 "
 ".0を含む)では、グリフは自動スケールされず、その結果、グリフが非常に小さいため、表示が空に見えることがあります。また、記号の最小直径は0に固定されるため、次のように指定しない限り、記号は絶対的に尺度変更されません。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
 msgid "More representations of the attached scalars or vectors"
 msgstr "付加されたスカラーまたはベクトルのより多くの表現"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:93
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:93
 msgid ""
 "There are many more ways to represent the scalar or vector information "
 "attached to the data. For instance, scalar data can be 'warped' into a "
@@ -155,11 +155,11 @@ msgstr ""
 "フィルタを用いて、変位を `歪める` ことができます。あるいはスカラーデータのノルムを、 `ExtractVectorNorm` "
 "フィルタを用いた等表面を用いて可視化することができるスカラー成分を抽出することができます。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
 msgid "Displaying more than one quantity"
 msgstr "複数の数量を表示する"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:100
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:100
 msgid ""
 "You may want to display color related to one scalar quantity while using a "
 "second for the iso-contours, or the elevation. This is possible but requires"
@@ -169,7 +169,7 @@ msgstr ""
 "contoursまたはelevationを使用しながら、1つのスカラー量に関連するカラーを表示することができます。これは可能ですが、少し作業が必要です"
 "  :ref:`example_atomic_orbital` を見てください。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:104
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:104
 msgid ""
 "If you simply want to display points with a size given by one quantity, and "
 "a color by a second, you can use a simple trick: add the size information "
@@ -180,11 +180,11 @@ msgstr ""
 "単に1つの量で指定されたサイズの点を表示し、1秒ごとに色を表示する場合は、ベクトルのノルムを使用してサイズ情報を追加し、スカラーを使用して色情報を追加し、"
 " :func:`quiver3d` を作成して、対称グリフを選択し、スカラーを使用して色を表現します。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:119
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:119
 msgid "Changing the scale and position of objects"
 msgstr "オブジェクトの尺度と位置を変更する"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:121
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:121
 msgid ""
 "Each mlab function takes an `extent` keyword argument, that allows to set "
 "its (x, y, z) extents. This give both control on the scaling in the "
@@ -196,7 +196,7 @@ msgstr ""
 "各mlab関数は、 (x, y, z)  "
 "の範囲を設定することができるキーワード引数を取ります。これにより、異なる方向のスケーリングと中心のディスプレイスメントの両方を制御できます。この機能を使用する場合は、同じデータを表示する他のモジュールに同じエクステントを渡すと便利です。そうしないと、ディスプレイスメントとスケールは共有されません。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:128
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:128
 msgid ""
 "The :func:`surf`, :func:`contour_surf`, and :func:`barchart` functions, "
 "which display 2D arrays by converting the values in height, also take a "
@@ -205,17 +205,17 @@ msgstr ""
 "高さの値を変換して2D配列を表示する :func:`surf`, :func:`contour_surf`, および :func:`barchart` "
 "関数も、垂直スケーリングを制御するために `warp_scale` パラメータを取ります。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:135
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:135
 msgid "Changing object properties interactively"
 msgstr "オブジェクトのプロパティをインタラクティブに変更する"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:137
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:137
 msgid ""
 "Mayavi, and thus mlab, allows you to interactively modify your "
 "visualization."
 msgstr "Mayavi、つまりmlabを使用すると、表示をインタラクティブに変更できます。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:140
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:140
 msgid ""
 "The Mayavi pipeline tree can be displayed by clicking on the mayavi icon in "
 "the figure's toolbar, or by using :func:`show_pipeline` mlab command. One "
@@ -228,11 +228,11 @@ msgstr ""
 ":func:`show_pipeline` "
 "mlabコマンドを使用します。このマニュアルの他の部分で説明しているように、このダイアログを使用して各オブジェクトをダブルクリックしてそのプロパティを編集することで表示を変更したり、パイプライン上のこのアイコンを使用するか、またはパイプライン内のオブジェクトを右クリックして表示されるメニューを使用して、新しいモジュールまたはフィルタを追加できます。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rstNone
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rstNone
 msgid "The record feature"
 msgstr "レコード機能"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:155
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:155
 msgid ""
 "A **very useful feature** of this dialog can be found by pressing the red "
 "round button of the toolbar of the pipeline view. This opens up a recorder "
@@ -245,7 +245,7 @@ msgstr ""
 "は、パイプラインビューのツールバーにある赤い丸ボタンを押すと表示されます。これにより、ダイアログを介してビジュアル化に対してインタラクティブに行われた変更を追跡するレコーダが開き、Pythonコードの有効な行が生成されます。パイプラインのプログラムをナビゲートする方法については、"
 " :ref:`organisation_mayavi_visualisations` を参照してください。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:162
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:162
 msgid ""
 "In addition, for every object returned by a mlab function, "
 "``this_object.edit_traits()`` brings up a dialog that can be used to "
@@ -256,11 +256,11 @@ msgstr ""
 "と入力すると、オブジェクトのプロパティをインタラクティブに編集するためのダイアログが表示されます。このコマンドを入力してもダイアログが表示されない場合は、"
 " :ref:`running-mlab-scripts` を参照してください。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rstNone
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rstNone
 msgid "Using ``mlab`` with the full Envisage UI"
 msgstr "Envisage UIで ``mlab`` を使う"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:170
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:170
 msgid ""
 "Sometimes it is convenient to write an mlab script but still use the full "
 "envisage application so you can click on the menus and use other modules "
@@ -268,7 +268,7 @@ msgid ""
 msgstr ""
 "mlabスクリプトを作成しても、メニューをクリックして他のモジュールを使用できるように完全な予測アプリケーションを使用すると便利な場合があります。これを行うには、mlabの図を作成する前に次の操作を実行します。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:180
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:180
 msgid ""
 "This will give you the full-fledged UI instead of the default simple window."
 msgstr "これにより、デフォルトの単純なウィンドウではなく、完全なUIが得られます。"

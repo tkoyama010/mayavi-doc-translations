@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-25 09:41+0000\n"
+"POT-Creation-Date: 2019-12-16 09:51+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:3
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:3
 msgid "Visualizing rich datasets: the ``fire_ug.vtu`` example"
 msgstr "豊富なデータセットの視覚化: ``fire_ug.vtu`` の例"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:5
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:5
 msgid ""
 "Like ``heart.vtk``, the ``fire_ug.vtu`` example dataset is available in the "
 "``examples/data`` directory.  This dataset is an unstructured grid stored in"
@@ -42,7 +42,7 @@ msgstr ""
 " Philip Rubini によって提供されました。火災が発生している部屋のコンテキストを示すために、VRMLファイル "
 "(``room_vis.wrl``) も用意されています。"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:15
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:15
 msgid ""
 "With mayavi2 started, select `File->Load data->Open file` to load the data."
 "  Again, you will see a node on the tree view on the left but nothing on the"
@@ -56,7 +56,7 @@ msgstr ""
 "を選択してデータをロードします。ここでも、ツリービューの左側にノードが表示されますが、TVTKシーンには何も表示されません。このデータセットには、同じデータファイルに異なるスカラーとベクトルが含まれています。`VTK"
 " XMLファイル... により、このデータ・ファイル内のすべてのスカラーやベクトルなどのドロップ・リストが表示されます。表示するものを選択します。"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:24
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:24
 msgid ""
 "Create an outline of the data as described earlier using an `Outline` "
 "module.  View an iso-surface of the data by creating an `IsoSurface` module."
@@ -65,7 +65,7 @@ msgstr ""
 "`Outline`  モジュールを使用して、前述のようにデータのアウトラインを作成します。 `IsoSurface` "
 "モジュールを作成して、データの等値面を表示します。 `ScalarCutPlane` モジュールも試してみてください。"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:29
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:29
 msgid ""
 "Show the scalar bar that represents the color mapping (via a Look up table "
 "that maps scalar values to colors) by clicking on the `Colors and legends` "
@@ -76,7 +76,7 @@ msgstr ""
 "legends` ノードをクリックして `Show scalar bar` "
 "を有効にします。デフォルトで提供されているさまざまなカラーマップを試してみてください。"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:34
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:34
 msgid ""
 "Now click on the `VTK XML file ...` and select different scalar values to "
 "see how the data has changed.  Your legend should automatically update when "
@@ -85,7 +85,7 @@ msgstr ""
 "ここで `VTK XML file ...` "
 "と入力し、別のスカラー値を選択して、データがどのように変更されたかを確認します。スカラー値が変更されると、凡例が自動的に更新されます。"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:38
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:38
 msgid ""
 "This data also features vectors.  The scalar data has `u`, `v` and `w` but "
 "not the magnitude of the velocity.  Let's say we'd like to be able to view "
@@ -98,7 +98,7 @@ msgstr ""
 "`ExtractVectorNorm` フィルタを使用します。これを作成するには、 `Visualize->Filters->Extract "
 "Vector Norm` メニューを選択します。"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:45
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:45
 msgid ""
 "If you now create a `ScalarCutPlane`, you will see a new `Colors and "
 "legends` node under the `ExtractVectorNorm` node.  This scalar cut plane is "
@@ -114,7 +114,7 @@ msgstr ""
 "`Colors and legends` ノードからドラッグし、この `Colors and legends` "
 "ノードにドロップすると、生成されるIsoSurfaceは、データで選択されたスカラーに対するものではなく、速度の大きさに対するものになります。"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:53
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:53
 msgid ""
 "Note that the view on the left represents a pipeline of the flow of the data"
 " from `source -> filter -> modules`. Essentially the data flows from the "
@@ -123,7 +123,7 @@ msgstr ""
 "左側のビューは、 `source -> filter -> modules` "
 "からのデータフローのパイプラインを表していることに注意してください。基本的に、データは親ノードからその下の子ノードに流れます。"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:58
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:58
 msgid ""
 "Now if you want to visualize something on a different \"branch\" of the "
 "pipeline, let's say you want to view iso-surfaces of the temperature data "
@@ -137,7 +137,7 @@ msgstr ""
 " `VTK XML File ...` ノード)自体をクリックしてから、メニュー項目を選択する必要があります。ツリー上の項目を選択すると、その項目が "
 "*現在のオブジェクト* になり、その後のメニュー選択によって、現在のオブジェクトの下に新しいモジュール/フィルタが作成されます。"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:67
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:67
 msgid ""
 "You can filter \"filtered data\".  So select the `ExtractVectorNorm` node to"
 " make it the active object.  Now create a Threshold filter by selecting "
@@ -154,7 +154,7 @@ msgstr ""
 "`VectorCutPlane` "
 "モジュールを作成して切断面を移動すると、矢印は表示されますが、選択したしきい値の間にある矢印だけが表示されます。したがって、このアプローチを使用して非常に複雑な視覚化パイプラインを作成できます。"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:78
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:78
 msgid ""
 "There are several vector modules.  `VectorCutPlane`, `Vectors`, "
 "`WarpVectorCutPlane` and `Streamlines`.  If you view streamlines then mayavi"
@@ -170,7 +170,7 @@ msgstr ""
 "`Streamlines` "
 "です。ストリームラインを表示すると、データセットにベクトルデータのストリームラインが生成されます。元のデータセットのストリームラインを表示するには、元のモジュールをクリックし、メニュー項目の(またはソース)を選択します。ストリームラインを使用すると、3Dウィジェットを使用して画面上で異なるタイプのシードを移動できます。これらの位置から発生するシードポイントを使用して、流線をトレースします。ここでは、流線シードを初期化するために球、線、および平面ソースを使用できます。"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:89
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:89
 msgid ""
 "You can view the room in which the fire is taking place by opening the VRML "
 "file by the `File->Open->VRML2 file` menu item and selecting the "
@@ -179,7 +179,7 @@ msgstr ""
 "火災が発生している部屋を確認するには、VRMLファイルを開いて、  `File->Open->VRML2 file` メニュー項目を選択し、データのある"
 " ``room_vis.wrl`` を選択します。"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:93
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:93
 msgid ""
 "Once you setup a complex visualization pipeline and want to save it for "
 "later experimentation you may save the entire visualization via the "
@@ -192,7 +192,7 @@ msgstr ""
 "メニューでビジュアル化全体を保存できます。保存したファイルは、後から `File->Load Visualization` "
 "メニュー項目を使ってロードできます。このオプションは100%堅牢ではなく、まだ実験段階です。今後のバージョンでは、この機能が改善される予定です。しかし、この機能はしばらく使用することができます。"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:101
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:101
 msgid ""
 "Once again, the visualization in this case was created by using the user "
 "interface.  It is possible to script this entirely using Python scripts.  A "
@@ -203,11 +203,11 @@ msgstr ""
 "ここでも、この場合のビジュアリゼーションは、ユーザインタフェースを使用して作成されています。これは、Pythonスクリプトを使用して完全にスクリプト化できます。上記のモジュールのいくつかを示す簡単なスクリプトが"
 " ``examples/streamline.py`` にあります。このファイルは調べられるかもしれません。次のように実行できます。"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:110
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:110
 msgid "or so::"
 msgstr "次のようになります。"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rst:114
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_fire.rst:114
 msgid ""
 "As can be seen from the example, it is quite easy to script mayavi to "
 "visualize data.  An image of a resulting visualization generated from this "

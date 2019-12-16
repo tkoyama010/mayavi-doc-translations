@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-25 09:41+0000\n"
+"POT-Creation-Date: 2019-12-16 09:51+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:3
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:3
 msgid "Exploring a vector field"
 msgstr "ベクトルフィールドを調べる"
 
-#: ../../mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:5
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:5
 msgid ""
 "In this example, we create a vector field from the gradient of a scalar "
 "field and explore it interactively. This example shows you how to do some "
@@ -39,19 +39,19 @@ msgstr ""
 " 「numpy」 "
 "が使用されている前の例よりも、MayaviフィルタおよびVTKフィルタに関する知識が必要です。大きな利点は、結果として得られる視覚化をインタラクティブに調査できることです。"
 
-#: ../../mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:13
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:13
 msgid ""
 "First, let us create the same scalar field as the previous example:. We open"
 " Mayavi and enter the following code in the Python shell::"
 msgstr "まず、前の例と同じスカラーフィールドを作成します。Mayaviを開き、Pythonシェルに次のコードを入力します。"
 
-#: ../../mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:25
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:25
 msgid ""
 "As in the previous example, we can change the color map and the values "
 "chosen in the isosurfaces."
 msgstr "前の例と同様に、カラーマップとアイソサーフェスで選択した値を変更できます。"
 
-#: ../../mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:28
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:28
 msgid ""
 "We want to take the gradient of the scalar field, to create a vector field. "
 "To do this we are going to use the `CellDerivatives` filter, that takes "
@@ -67,7 +67,7 @@ msgstr ""
 "フィルタを使用して、データが配置されているポイントからセルにデータを補間する必要があります。次に、  `CellDerivatives` "
 "フィルタを適用し、次に `CellToPointData` フィルタを適用してポイントデータを取得します。"
 
-#: ../../mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:37
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:37
 msgid ""
 "To visualize the vector field, we can use a `VectorCutPlane` module. The "
 "resulting vectors are too large, and we can go to the `Glyph` tab, (and the "
@@ -81,7 +81,7 @@ msgstr ""
 " `Glyph` タブ(とこのタブの `Glyph` タブ)に移動してマスキングを有効にし、(6つのうち1つの矢印がマスクされている) `on "
 "ratio` を6に設定してマスキングし、ランダムモードをオフにします。"
 
-#: ../../mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:48
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:48
 msgid ""
 "To have nice colors, we also changed the color map of the vector field by "
 "going to the `Colors and legend` node just above the `VectorCutPlane`, and "
@@ -92,7 +92,7 @@ msgstr ""
 "and legend` ノードに移動し、 **in the VectorLUT** "
 "タブを選択します。これは、ベクトルデータとスカラーデータに異なるカラーマップが存在する可能性があるためです。"
 
-#: ../../mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:53
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:53
 msgid ""
 "Unlike the previous example, we can play with all the parameters in the "
 "dialog box, like masking, or select `color_by_scalar` in the `Glyph` tab, to"
@@ -102,7 +102,7 @@ msgstr ""
 "前の例とは異なり、ダイアログボックス内のマスキングなどのすべてのパラメータを操作したり、  `Glyph` タブの `color_by_scalar` "
 "を選択してポテンシャルの値を表示したりできます。ベクトルの表示に使用する切断面をドラッグして移動することもできます。"
 
-#: ../../mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:58
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_exploring_a_vector_field.rst:58
 msgid ""
 "Now that we have a 3D vector field, we can also use Mayavi to integrate the "
 "trajectory of a particle in it. For this we can use the streamline module. "

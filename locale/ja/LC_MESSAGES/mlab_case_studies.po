@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-25 09:41+0000\n"
+"POT-Creation-Date: 2019-12-16 09:51+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -21,45 +21,45 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:4
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:4
 msgid "Case studies of some visualizations"
 msgstr "視覚化の事例"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:7
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:7
 msgid "Visualizing volumetric scalar data"
 msgstr "ボリュームスカラーデータの視覚化"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:11
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:11
 msgid ""
 "There are three main ways of visualizing a 3D scalar field. Given the "
 "following field::"
 msgstr "3Dスカラーフィールドを可視化するには、主に3つの方法があります。次のフィールドを指定します。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "Iso-Surfaces"
 msgstr "等値面"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:21
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:21
 msgid ""
 "To display iso surfaces of the field, the simplest solution is simply to use"
 " the ``mlab`` :func:`contour3d` function::"
 msgstr "フィールドの等値面を表示する最も簡単な方法は ``mlab``  :func:`contour3d` 関数を使用することです。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:26
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:26
 msgid "|volumetric_contour3d|"
 msgstr "|volumetric_contour3d|"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:28
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:28
 msgid ""
 "The problem with this method is that the outer iso-surfaces tend to hide "
 "inner ones. As a result, quite often only one iso-surface can be visible."
 msgstr "この方法の問題は、外側の等値面が内側の等値面を隠す傾向があることです。その結果、1つの等値面しか表示されないことがよくあります。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "Volume rendering"
 msgstr "ボリュームレンダリング"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:34
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:34
 msgid ""
 "Volume rendering is an advanced technique in which each voxel is given a "
 "partly transparent color. This can be achieved with `mlab.pipeline` using "
@@ -68,11 +68,11 @@ msgstr ""
 "ボリュームレンダリングは、各ボクセルに部分的に透明なカラーを与える高度なテクニックです。これは `mlab.pipeline` で実現できます。 "
 ":func:`scalar_field` ソースと `volume` モジュールを使用します。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:41
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:41
 msgid "|volumetric_volume|"
 msgstr "|volumetric_volume|"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:43
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:43
 msgid ""
 "For such a visualization, tweaking the opacity transfer function is critical"
 " to achieve a good effect. Typically, it can be useful to limit the lower "
@@ -81,11 +81,11 @@ msgid ""
 msgstr ""
 "このような視覚化では、良好な効果を得るために不透明度の転送関数を微調整することが重要です。通常、ボリュームの透過性を適切な割合にするには、下限値と上限値をデータの80パーセンタイルと20パーセンタイルに制限すると便利です。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:51
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:51
 msgid "|volumetric_volume_tweaked|"
 msgstr "|volumetric_volume_tweaked|"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:53
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:53
 msgid ""
 "It is useful to open the module's dialog (eg through the pipeline interface,"
 " or using it's `edit_traits()` method) and tweak the color transfer function"
@@ -97,34 +97,34 @@ msgstr ""
 "メソッドを使ったりします。)を開き、カラー転送関数を調整してイメージの透明で低強度の領域をレンダリングすると便利です。 **このモジュール** "
 "では、** `Colors and Legends` ** ノードで定義されているLUTは使用されません。**"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:59
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:59
 msgid ""
 "The limitations of volume rendering is that, while it is often very pretty, "
 "it can be difficult to analyze the details of the field with it."
 msgstr "ボリュームレンダリングの限界は、多くの場合非常にきれいですが、それを使用してフィールドの詳細を分析することが難しいことです。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "Cut planes"
 msgstr "切断面"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:66
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:66
 msgid ""
 "While less impressive, cut planes are a very informative way of visualizing "
 "the details of a scalar field::"
 msgstr "あまり印象的ではありませんが、断面はスカラーフィールドの詳細を視覚化するための非常に有益な方法です。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:79
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:79
 msgid ""
 "Image plane widgets can also being created from NumPy arrays using the "
 "``mlab`` :func:`volume_slice` function::"
 msgstr ""
 "イメージプレーンウィジェットは、 ``mlab`` :func:`volume_slice` 関数を使用してNumPy配列から作成することもできます。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:84
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:84
 msgid "|volumetric_cut_plane|"
 msgstr "|volumetric_cut_plane|"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:86
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:86
 msgid ""
 "The image plane widget can only be used on regular-spaced data, as created "
 "by `mlab.pipeline.scalar_field`, but it is very fast. It should thus be "
@@ -133,18 +133,18 @@ msgstr ""
 "イメージプレーンウィジェットは、 `mlab.pipeline.scalar_field` "
 "によって作成された正規の間隔のデータでのみ使用できます。したがって、可能な場合はスカラー切断面を優先する必要があります。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:90
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:90
 msgid ""
 "Clicking and dragging the cut plane is an excellent way of exploring the "
 "field."
 msgstr "切断面をクリックしてドラッグすると、フィールドを効率的に表示できます。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:0
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "A combination of techniques"
 msgstr "技術の組み合わせ"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:94
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:94
 msgid ""
 "Finally, it can be interesting to combine cut planes with iso-surfaces and "
 "thresholding to give a view of the peak areas using the iso-surfaces, "
@@ -153,11 +153,11 @@ msgid ""
 msgstr ""
 "最後に、切断面を等値面と組み合わせて、等値面を使用してピーク領域のビューを表示したり、切断面を使用してフィールドの詳細を視覚化したり、等値面が大きいグローバル質量を表示したりすることもできます。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:108
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:108
 msgid "|volumetric_combination|"
 msgstr "|volumetric_combination|"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:111
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:111
 msgid ""
 "In the above example, we have used the pipeline syntax of mayavi instead of "
 "using :func:`contour3d` and :func:`volume_slice` in order to use a single "
@@ -166,7 +166,7 @@ msgstr ""
 "上記の例では、データソースとして単一のスカラーフィールドを使用するために、 :func:`contour3d` と "
 ":func:`volume_slice` の代わりにmayaviのパイプライン構文を使用しています。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:115
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:115
 msgid ""
 "In some cases, though not in our example, it might be usable to insert a "
 "threshold filter before the cut plane, eg:to remove area with values below "
@@ -178,11 +178,11 @@ msgstr ""
 "'s.min()+0.1*s.ptp()' となります。この場合、切断面は `mlab.pipeline.scalar_cut_plane` "
 "で実装する必要があります。しきい値を設定した後でデータの構造体が失われた場合に使用されます。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:132
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:132
 msgid "Visualizing a vector field"
 msgstr "ベクトルフィールドの視覚化"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:140
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:140
 msgid ""
 "A vector field, i.e., vectors continuously defined in a volume, can be "
 "difficult to visualize, as it contains a lot of information. Let us explore "
@@ -194,28 +194,28 @@ msgstr ""
 " `v`, `w` でサンプリングされた構成要素によって定義される、流体力学における多軸対流セル [1]_, "
 "の速度場について、異なる可視化を検討します。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "Quiver"
 msgstr "Quiver"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:156
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:156
 msgid ""
 "The simplest visualization of a set of vectors, is using the `mlab` function"
 " `quiver3d`::"
 msgstr "ベクトルの集合を最も簡単に視覚化するには、 `mlab` 関数 `quiver3d` を使用します。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:164
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:164
 msgid ""
 "The main limitation of this visualization is that it positions an arrow for "
 "each sampling point on the grid. As a result the visualization is very busy."
 msgstr ""
 "この視覚化の主な制限は、グリッド上のサンプリングポイントごとに矢印を配置することです。その結果、ビジュアライゼーションは非常にビジーになります。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "Masking vectors"
 msgstr "マスクベクトル"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:169
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:169
 msgid ""
 "We can use the fact that we are visualizing a vector field, and not just a "
 "bunch of vectors, to reduce the amount of arrows displayed. For this we need"
@@ -226,11 +226,11 @@ msgstr ""
 "`vector_field` ソースを構築し、いくつかのマスキングパラメータ(ここでは、私たちは20のうちの一つの点だけをとっておく)を使用して "
 "`vectors` モジュールを適用する必要があります。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "A cut plane"
 msgstr "切断面"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:181
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:181
 msgid ""
 "If we are interested in displaying the vectors along a cut, we can use a cut"
 " plane. In particular, we can inspect interactively the vector field by "
@@ -239,11 +239,11 @@ msgid ""
 msgstr ""
 "カットに沿ってベクトルを表示する場合は、カット平面を使用できます。特に、切断面を移動してベクトルフィールドをインタラクティブに検査できます。ベクトルフィールドをクリックしてドラッグすると、ベクトルフィールドを非常に明確に理解できます。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "Iso-Surfaces of the magnitude"
 msgstr "大きさの等値面"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:191
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:191
 msgid ""
 "An important parameter of the vector field is its magnitude. It can be "
 "interesting to display iso-surfaces of the normal of the vectors. For this "
@@ -257,11 +257,11 @@ msgstr ""
 "、その上でIso-"
 "Surfaceモジュールを使用します。インタラクティブに作業する場合、オブジェクトのプロパティダイアログで輪郭の値を変更すると、フィールドの大きさを十分に理解できます。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "The Flow, or the field lines"
 msgstr "フローまたはフィールドライン"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:205
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:205
 msgid ""
 "For certain vector fields, the line of flow along the field can have an "
 "interesting meaning. For instance this can be interpreted as a trajectory in"
@@ -274,7 +274,7 @@ msgstr ""
 " `streamline` モジュール、または mlab :func:`flow` "
 "関数を使用して、特定のシードサーフェスで生成されたフローラインを表示できます。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:221
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:221
 msgid ""
 "Giving a meaningful visualization of a vector field is a hard task, and one "
 "must use all the tools at hand to illustrate his purposes. It is important "
@@ -284,7 +284,7 @@ msgid ""
 msgstr ""
 "ベクトルフィールドを意味のある形で視覚化するのは困難な作業であり、手元にあるすべてのツールを使用して目的を説明する必要があります。伝えるメッセージを選ぶことが大切です。ベクトルフィールドのすべてを視覚化することはできません。上のさまざまなツールを組み合わせて作成したビジュアライゼーションの例を次に示します。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:257
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:257
 msgid ""
 "Although most of this section has been centered on snippets of code to "
 "create visualization objects, it is important to remember that Mayavi is an "
@@ -299,7 +299,7 @@ msgstr ""
 " :ref:`mlab-changing-objects-interactively` "
 "を参照。視覚化に最適なパラメータを事前に選択することは、多くの場合不可能です。カラー、輪郭値、カラーマップ、ビュー角度など。対話的に選択する必要があります。再現性が必要な場合は、選択した値を元のスクリプトに追加できます。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:267
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:267
 msgid ""
 "Moreover, the `mlab` functions expose only a small fraction of the "
 "possibilities of the visualization objects. The dialogs expose more of these"
@@ -319,7 +319,7 @@ msgstr ""
 ":ref:`organisation_mayavi_visualisations` を参照して、レコード機能によって生成されたコード行と `mlab` "
 "の間のリンクをよりよく理解してください。."
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:284
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_case_studies.rst:284
 msgid ""
 "Toussaint, V.; Carriere, P. & Raynal, F. A numerical Eulerian approach to "
 "mixing by chaotic advection Phys. Fluids, 1995, 7, 2587"

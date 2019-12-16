@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-07 09:17+0000\n"
+"POT-Creation-Date: 2019-12-16 09:51+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../mayavi/docs/source/mayavi/index.rst:20
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/index.rst:20
 msgid "Mayavi: 3D scientific data visualization and plotting in Python"
 msgstr "Mayavi: Pythonでの3次元科学データの可視化とプロット"
 
-#: ../../mayavi/docs/source/mayavi/index.rst:48
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/index.rst:48
 msgid ""
 "Welcome, this is the user guide for Mayavi, a application and library for "
 "**interactive scientific data visualization** and **3D plotting in Python**."
@@ -33,7 +33,7 @@ msgstr ""
 "ようこそ、これはMayaviのユーザーガイドです。 **対話型科学データ可視化** および **Pythonでの3次元プロット** "
 "のためのアプリケーションとライブラリです。"
 
-#: ../../mayavi/docs/source/mayavi/index.rst:55
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/index.rst:55
 msgid ""
 "You want to use an interactive application to visualize your data in 3D? "
 "Read the :ref:`Mayavi application section <using-the-mayavi-application>`."
@@ -41,7 +41,7 @@ msgstr ""
 "インタラクティブなアプリケーションで3次元データを可視化したいですか？ :ref:`Mayaviアプリケーションの使用 <using-the-"
 "mayavi-application>` を読んでください。"
 
-#: ../../mayavi/docs/source/mayavi/index.rst:59
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/index.rst:59
 msgid ""
 "You know Python and want to use Mayavi as a Matlab or pylab replacement for "
 "3D plotting and data visualization with `numpy`? Get started with the "
@@ -51,16 +51,16 @@ msgstr ""
 "によるデータ可視化のためのMatlabまたはpylabの代替としてMayaviを使いたいですか？ :ref:`mlabの節 <simple-"
 "scripting-with-mlab>` からはじめてください。"
 
-#: ../../mayavi/docs/source/mayavi/index.rst:63
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/index.rst:63
 msgid ""
 "Sources of inspiration may be found in the :ref:`example_gallery`, with "
 "example Python code."
 msgstr "インスピレーションの源は :ref:`example_gallery` で見つけられるかもしれません。Pythonコードの例があります。"
 
-#: ../../mayavi/docs/source/mayavi/index.rst:94
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/index.rst:94
 msgid ":ref:`genindex`"
 msgstr ":ref:`genindex`"
 
-#: ../../mayavi/docs/source/mayavi/index.rst:95
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/index.rst:95
 msgid ":ref:`search`"
 msgstr ":ref:`search`"

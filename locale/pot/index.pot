@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-07 09:17+0000\n"
+"POT-Creation-Date: 2019-12-16 09:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,31 +16,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../mayavi/docs/source/mayavi/index.rst:20
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/index.rst:20
 msgid "Mayavi: 3D scientific data visualization and plotting in Python"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/index.rst:48
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/index.rst:48
 msgid "Welcome, this is the user guide for Mayavi, a application and library for **interactive scientific data visualization** and **3D plotting in Python**."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/index.rst:55
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/index.rst:55
 msgid "You want to use an interactive application to visualize your data in 3D? Read the :ref:`Mayavi application section <using-the-mayavi-application>`."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/index.rst:59
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/index.rst:59
 msgid "You know Python and want to use Mayavi as a Matlab or pylab replacement for 3D plotting and data visualization with `numpy`? Get started with the :ref:`mlab section <simple-scripting-with-mlab>`."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/index.rst:63
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/index.rst:63
 msgid "Sources of inspiration may be found in the :ref:`example_gallery`, with example Python code."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/index.rst:94
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/index.rst:94
 msgid ":ref:`genindex`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/index.rst:95
+#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/index.rst:95
 msgid ":ref:`search`"
 msgstr ""
-
