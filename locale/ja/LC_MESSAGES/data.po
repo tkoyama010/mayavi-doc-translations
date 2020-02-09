@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 09:51+0000\n"
+"POT-Creation-Date: 2020-02-09 10:21+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:4
+#: ../../mayavi/docs/source/mayavi/data.rst:4
 msgid "Data representation in Mayavi"
 msgstr "Mayaviでのデータ表現"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:6
+#: ../../mayavi/docs/source/mayavi/data.rst:6
 msgid ""
 "Describing data in three dimensions in the general case is a complex "
 "problem. Mayavi helps you focus on your visualization work and not worry too"
@@ -41,15 +41,15 @@ msgstr ""
 "参照)を使用するなど、基礎となるデータ構造についてあまり心配する必要がなくなります。可能な場合は、 `mlab` "
 "またはMayaviソースを使用してMayaviのソースを作成することをお勧めします。ただし、より効率的に視覚化するために特定の構造のデータを作成する場合や、Mayaviパイプラインからデータを抽出する場合は、Mayaviが使用するVTKデータ構造を理解すると役立ちます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:18
+#: ../../mayavi/docs/source/mayavi/data.rst:18
 msgid "Outline"
 msgstr "概要"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rstNone
+#: ../../mayavi/docs/source/mayavi/data.rstNone
 msgid "Mayavi data sources and VTK datasets"
 msgstr "MayaviデータソースとVTKデータセット"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:24
+#: ../../mayavi/docs/source/mayavi/data.rst:24
 msgid ""
 "When you load a file, or you expose data in Mayavi using one of the "
 "`mlab.pipeline` source functions (see :ref:`mlab_data_source`), you create "
@@ -61,13 +61,13 @@ msgstr ""
 ":ref:`mlab_data_source` "
 ")では、シーンにアタッチされるMayaviパイプラインのオブジェクトを作成します。このオブジェクトはMayaviソースであり、データとそのプロパティをMayaviパイプラインに記述するために使用されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:30
+#: ../../mayavi/docs/source/mayavi/data.rst:30
 msgid ""
 "The internal structures use to represent to data in 3D all across Mayavi are"
 " VTK datasets, as described below."
 msgstr "以下で説明するように、Mayavi全体のデータを3Dで表現するために使用される内部構造はVTKデータセットです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:33
+#: ../../mayavi/docs/source/mayavi/data.rst:33
 msgid ""
 "One should not confuse VTK (or TVTK) `datasets` and Mayavi `data sources`. "
 "There is a finite and small number of datasets. However, many pipeline "
@@ -77,11 +77,11 @@ msgstr ""
 "VTK(またはTVTK)の `datasets` とマヤビの  `data sources` "
 "を混同してはならない。データセットの数は有限で少数である。しかし、シーンの下のパイプラインにフィットしてパイプラインにデータセットを提供するように、多くのパイプラインオブジェクトを構築することができます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:42
+#: ../../mayavi/docs/source/mayavi/data.rst:42
 msgid "Introduction to TVTK datasets"
 msgstr "TVTKデータセットの紹介"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:44
+#: ../../mayavi/docs/source/mayavi/data.rst:44
 msgid ""
 "Mayavi uses the VTK library for all its visualization needs, via TVTK "
 "(Traited VTK). The data is exposed internally, by the sources, or at the "
@@ -91,22 +91,22 @@ msgid ""
 msgstr ""
 "Mayaviは、TVTK(転送済みVTK)を使用して、VTKライブラリをすべての視覚化ニーズに使用します。データは内部的に、ソースによって、またはフィルタの出力でVTKデータセットとして公開されます。これらの構造を理解することは、構造を操作するだけでなく、フィルタを使用してパイプライン内のデータを変換するときに何が起こるかを理解するのにも役立ちます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:51
+#: ../../mayavi/docs/source/mayavi/data.rst:51
 msgid "A dataset is defined by many different characteristics:"
 msgstr "データセットは、次のようなさまざまな特性によって定義されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:0
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:296
+#: ../../mayavi/docs/source/mayavi/data.rst:0
+#: ../../mayavi/docs/source/mayavi/data.rst:296
 msgid "Connectivity"
 msgstr "接続性"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:57
+#: ../../mayavi/docs/source/mayavi/data.rst:57
 msgid ""
 "Connectivity is not only necessary to draw lines between the different "
 "points, it is also needed to define a volume."
 msgstr "接続性は、異なる点間に線分を描くためだけでなく、体積を定義するためにも必要です。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:60
+#: ../../mayavi/docs/source/mayavi/data.rst:60
 msgid ""
 "**Implicit connectivity**: connectivity or positioning is implicit. In this "
 "case the data is considered as arranged on a lattice-like structure, with "
@@ -116,17 +116,17 @@ msgstr ""
 "**暗黙の接続** "
 "接続または配置は暗黙的です。この場合、データは格子状の構造上に配置され、各方向に等しい数の層を有し、xは最初にアレイに沿って増加し、y、最後にzであると考えられます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:0
+#: ../../mayavi/docs/source/mayavi/data.rst:0
 msgid "Data"
 msgstr "データ"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:67
+#: ../../mayavi/docs/source/mayavi/data.rst:67
 msgid ""
 "Dataset are made of points positioned in 3D, with the corresponding data. "
 "Each dataset can carry several data components."
 msgstr "データセットは、3Dに配置された点と対応するデータで構成されます。各データセットには、複数のデータコンポーネントを含めることができます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:70
+#: ../../mayavi/docs/source/mayavi/data.rst:70
 msgid ""
 "**Scalar or Vectors data**: The data can be scalar, in which case VTK can "
 "perform operations such as taking the gradient and display the data with a "
@@ -137,7 +137,7 @@ msgstr ""
 "**スカラーまたはベクトルデータ** "
 ":データはスカラーである場合があります。この場合、VTKはグラデーションを取得してデータをカラーマップまたはベクトルで表示するなどの操作を実行できます。この場合、VTKは積分を実行して流線を表示したり、ベクトルを表示したり、ベクトルのノルムを抽出したりしてスカラーデータセットを作成できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:76
+#: ../../mayavi/docs/source/mayavi/data.rst:76
 msgid ""
 "**Cell data and point data**: Each VTK dataset is defined by vertices and "
 "cells, explicitly or implicitly. The data, scalar or vector, can be "
@@ -150,7 +150,7 @@ msgstr ""
 ":各VTKデータセットは、明示的または暗黙的に頂点とセルによって定義されます。スカラーまたはベクトルデータは、頂点上に配置することも、セルに関連付けることもできます。頂点の場合は点データ、セルの場合はセルデータです。点データはデータ集合の"
 " `.point_data` 属性に格納されます。セルデータは `.cell_data` 属性に格納されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:83
+#: ../../mayavi/docs/source/mayavi/data.rst:83
 msgid ""
 "In addition the data arrays have an associated name, which is used in Mayavi"
 " to specify on which data component module or filter apply (eg: using "
@@ -159,11 +159,11 @@ msgstr ""
 "さらに、データ配列には関連する名前があり、これはMayaviでどのデータコンポーネントモジュールまたはフィルタを適用するかを指定するために使用されます(例:"
 " `SetActiveAttribute` フィルタの使用)。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:87
+#: ../../mayavi/docs/source/mayavi/data.rst:87
 msgid "**VTK array ordering**"
 msgstr "**VTK配列の次数**"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:89
+#: ../../mayavi/docs/source/mayavi/data.rst:89
 msgid ""
 "All VTK arrays, whether it be for data or position, are exposed as (n, 3) "
 "numpy arrays for 3D components, and flat (n, ) array for 1D components. The "
@@ -175,7 +175,7 @@ msgstr ""
 "配列として公開されます。インデックスはnumpyと逆の順序で変化します。z、y、xの順です。したがって、3D "
 "numpy配列から対応するフラット化VTK配列に移動するには、次のように操作します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:98
+#: ../../mayavi/docs/source/mayavi/data.rst:98
 msgid ""
 "An complete list of the VTK datasets used by Mayavi is given `below "
 "<dissection_vtk_datasets>`_, after a tour of the Mayavi pipeline."
@@ -183,11 +183,11 @@ msgstr ""
 "Mayaviによって使用されるVTKデータセットの完全なリストは、Mayaviパイプラインのツアーの後の `below "
 "<dissection_vtk_datasets>`_, に示されています。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:102
+#: ../../mayavi/docs/source/mayavi/data.rst:102
 msgid "The flow of data"
 msgstr "データの流れ"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:104
+#: ../../mayavi/docs/source/mayavi/data.rst:104
 msgid ""
 "As described :ref:`earlier <pipeline_model>`, Mayavi builds visualization by"
 " assembling pipelines, where the data is loaded in Mayavi by a `data "
@@ -197,7 +197,7 @@ msgstr ""
 "で述べたように、Mayaviはパイプラインを組み立てることによって可視化を構築し、そこではデータは `data source` "
 "によってMayaviにロードされ、 `filters` によって変換され、 `modules` によって可視化されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:109
+#: ../../mayavi/docs/source/mayavi/data.rst:109
 msgid ""
 "To retrieve the data displayed by Mayavi, to modify it via Python code, or "
 "to benefit from the data processing steps performed by the Mayavi filters, "
@@ -207,7 +207,7 @@ msgstr ""
 "Mayaviによって表示されるデータを取得したり、Pythonコードで変更したり、Mayaviフィルタによって実行されるデータ処理ステップを活用したりするには、Mayaviパイプラインを"
 " \"open up\" して、データがどのように流れているかを理解すると便利です。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:114
+#: ../../mayavi/docs/source/mayavi/data.rst:114
 msgid ""
 "Inside the Mayavi pipeline, the 3D data flowing between sources filters and "
 "modules is stored in VTK datasets. Each source or filter has an `outputs` "
@@ -217,23 +217,23 @@ msgstr ""
 "Mayaviパイプライン内では、ソースフィルタとモジュール間を流れる3DデータはVTKデータセットに保存されます。各ソースまたはフィルタは、オブジェクトによって出力されたデータを記述するVTK"
 " `datasets` のリストである `outputs` 属性を有します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:134
+#: ../../mayavi/docs/source/mayavi/data.rst:134
 msgid "For example:"
 msgstr "次に例を示します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:127
+#: ../../mayavi/docs/source/mayavi/data.rst:127
 msgid ""
 "The parent of `iso` is its 'Colors and legend' node, the parent of which is "
 "the source feeding into `iso`::"
 msgstr "`iso` の親はその 'Colors and legend' ノードであり、その親は `iso` にデータを入力するソースです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:133
+#: ../../mayavi/docs/source/mayavi/data.rst:133
 msgid ""
 "Thus we can see that the Mayavi source created by `mlab.surf` exposes an "
 "ImageData_ VTK dataset."
 msgstr "このようにして、 `mlab.surf` により作成されたMayaviのソースは ImageData_ VTK データセットを公開します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:140
+#: ../../mayavi/docs/source/mayavi/data.rst:140
 msgid ""
 "To retrieve the VTK datasets feeding in an arbitrary object, the mlab "
 "function :func:`pipeline.get_vtk_src` may be useful. In the above example::"
@@ -241,15 +241,15 @@ msgstr ""
 "任意のオブジェクトを入力するVTKデータセットを取得するには、mlab関数 :func:`pipeline.get_vtk_src` "
 "が便利です。上記の例では、次のようになります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:151
+#: ../../mayavi/docs/source/mayavi/data.rst:151
 msgid "Retrieving the data from Mayavi pipelines"
 msgstr "Mayaviパイプラインからのデータの取得"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:154
+#: ../../mayavi/docs/source/mayavi/data.rst:154
 msgid "Probing data at given positions"
 msgstr "所定の位置におけるデータの探査"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:158
+#: ../../mayavi/docs/source/mayavi/data.rst:158
 msgid ""
 "If you simply want to retrieve the data values described by a Mayavi object "
 "a given position in space, you can use the :func:`pipeline.probe_data` "
@@ -259,42 +259,42 @@ msgstr ""
 ":func:`pipeline.probe_data` 関数を使用できます。( **警告** Mayavi 3.4.0で `probe_data` "
 "関数が新しくなりました)"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:163
+#: ../../mayavi/docs/source/mayavi/data.rst:163
 msgid ""
 "For example, if you have a set of irregularly spaced data points with no "
 "connectivity information::"
 msgstr "たとえば、接続情報のない不規則な間隔のデータポイントセットがある場合、次のようになります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:169
+#: ../../mayavi/docs/source/mayavi/data.rst:169
 msgid "You can expose them as a Mayavi source of unconnected points::"
 msgstr "接続されていないポイントのMayaviソースとして公開できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:173
+#: ../../mayavi/docs/source/mayavi/data.rst:173
 msgid "and visualize these points for debugging::"
 msgstr "デバッグのためにこれらのポイントを視覚化します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:178
+#: ../../mayavi/docs/source/mayavi/data.rst:178
 msgid ""
 "The resulting data is not defined in the volume, but only at the given "
 "position: as there is no connectivity information, Mayavi cannot interpolate"
 " between the points::"
 msgstr "結果のデータは体積では定義されず、指定された位置でのみ定義されます。接続情報がないため、Mayaviはポイント間を補間できません。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:185
+#: ../../mayavi/docs/source/mayavi/data.rst:185
 msgid "To define volumetric data, you can use a ``delaunay3d`` filter::"
 msgstr "ボリュームデータを定義するには、 ``delaunay3d`` フィルタを使用します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:189
+#: ../../mayavi/docs/source/mayavi/data.rst:189
 msgid ""
 "Now you can probe the value of the volumetric data anywhere. It will be non "
 "zero in the convex hull of the points::"
 msgstr "これで、任意の場所でボリュームデータの値を調べることができます。点の凸包では0以外になります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:204
+#: ../../mayavi/docs/source/mayavi/data.rst:204
 msgid "Inspecting the internals of the data structures"
 msgstr "データ構造の内部の検査"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:206
+#: ../../mayavi/docs/source/mayavi/data.rst:206
 msgid ""
 "You may be interested in the data carried by the TVTK datasets themselves, "
 "rather than the values they represent, for instance to replicate them. For "
@@ -303,11 +303,11 @@ msgstr ""
 "例えば、データセットを複製する場合など、TVTKデータセットが表す値ではなく、データセット自体が保持するデータに関心があるかもしれません "
 "。このため、TVTKのデータセットを取得して検査することができます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:211
+#: ../../mayavi/docs/source/mayavi/data.rst:211
 msgid "Extracting data points and values"
 msgstr "データポイントと値の抽出"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:213
+#: ../../mayavi/docs/source/mayavi/data.rst:213
 msgid ""
 "The positions of all the points of a TVTK dataset can be accessed via its "
 "`points` attribute. Retrieving the dataset from the `field` object of the "
@@ -316,19 +316,19 @@ msgstr ""
 "TVTKデータセットのすべての点の位置は、その `points` 属性を介してアクセスすることができる。前の例の `field` "
 "オブジェクトからデータセットを取得すると、データポイントを表示できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:222
+#: ../../mayavi/docs/source/mayavi/data.rst:222
 msgid ""
 "This is a TVTK array. For us, it is more useful to convert it to a numpy "
 "array::"
 msgstr "これはTVTK配列です。私たちにとっては、numpy配列に変換した方が便利です。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:229
+#: ../../mayavi/docs/source/mayavi/data.rst:229
 msgid ""
 "To retrieve the original `x`, `y`, `z` positions of the data points "
 "specified, we can transpose the array::"
 msgstr "指定されたデータポイントの元の `x`, `y`, `z` の位置を取得するには、次のように配列を転置します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:234
+#: ../../mayavi/docs/source/mayavi/data.rst:234
 msgid ""
 "The corresponding data values can be found in the `point_data.scalars` "
 "attribute of the dataset, as the data is located on the points, and not in "
@@ -337,11 +337,11 @@ msgstr ""
 "対応するデータ値は、データがセルではなくポイント上にあり、スカラーデータであるため、データセットの `point_data.scalars` "
 "属性で見つけることができます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:243
+#: ../../mayavi/docs/source/mayavi/data.rst:243
 msgid "Extracting lines"
 msgstr "線の抽出"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:245
+#: ../../mayavi/docs/source/mayavi/data.rst:245
 msgid ""
 "If we want to extract the edges of the Delaunay tessellation, we can apply "
 "the ExtractEdges filter to the `field` from the previous example and inspect"
@@ -349,7 +349,7 @@ msgid ""
 msgstr ""
 "Delaunayテッセレーションのエッジを抽出する場合は、前の例の `field` にExtractEdgesフィルタを適用し、その出力を確認します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:253
+#: ../../mayavi/docs/source/mayavi/data.rst:253
 msgid ""
 "We can see that the output is a PolyData_ dataset. Looking at how these are "
 "build (see PolyData_), we see that the connectivity information is help in "
@@ -359,7 +359,7 @@ msgstr ""
 "出力が PolyData_ データセットであることがわかります。これらがどのように構築されているか( PolyData_ 参照)を見ると、接続情報が "
 "`lines` 属性( `.to_array()` メソッドを使ってnumpy配列に変換します。)で役立つことがわかります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:262
+#: ../../mayavi/docs/source/mayavi/data.rst:262
 msgid ""
 "The way this array is build is a sequence of a length descriptor, followed "
 "by the indices of the data points connected together in the points array "
@@ -369,18 +369,18 @@ msgstr ""
 "この配列を構築する方法は、前に検索したpoints配列内で相互に接続されたデータポイントのインデックスが続く長さ記述子のシーケンスです。ここでは、接続されている点のペアのセットのみが存在します。つまり、配列は"
 "  `2` とそれに続くインデックスのペアの交互表現です。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:268
+#: ../../mayavi/docs/source/mayavi/data.rst:268
 msgid ""
 "A full example illustrating how to use the VTK Delaunay filter to extract a "
 "graph is given in :ref:`example_delaunay_graph`."
 msgstr ""
 "VTK Delaunayフィルターを使ってグラフを抽出する方法の完全な例は、 :ref:`example_delaunay_graph` にあります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:273
+#: ../../mayavi/docs/source/mayavi/data.rst:273
 msgid "Headless use of Mayavi for the algorithms, without visualization"
 msgstr "アルゴリズムにMayaviをヘッドレスで使用し、視覚化を行いません"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:275
+#: ../../mayavi/docs/source/mayavi/data.rst:275
 msgid ""
 "As you can see from the above example, it can be interesting to use Mayavi "
 "just for the numerical algorithm operating on 3D data, as the Delaunay "
@@ -388,7 +388,7 @@ msgid ""
 msgstr ""
 "上記の例からわかるように、Delaunayテッセレーションと補間のデモのように、3Dデータを操作する数値アルゴリズムだけにMayaviを使用すると面白い場合があります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:279
+#: ../../mayavi/docs/source/mayavi/data.rst:279
 msgid ""
 "To run such examples headless, simply create the source with the keyword "
 "argument `figure=False`. As a result the sources will not be attached to any"
@@ -397,95 +397,95 @@ msgstr ""
 "このような例をヘッドレスで実行するには、キーワード引数 `figure=False` "
 "を使用してソースを作成します。その結果、ソースはどのエンジンにも接続されませんが、フィルタを使用してデータを検証できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:290
+#: ../../mayavi/docs/source/mayavi/data.rst:290
 msgid "Dissection of the different TVTK datasets"
 msgstr "異なるTVTKデータセットの分離"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:292
+#: ../../mayavi/docs/source/mayavi/data.rst:292
 msgid ""
 "The 5 TVTK structures used are the following (ordered by the cost of "
 "visualizing them).:"
 msgstr "使用される5つのTVTK構造は、次のとおりです(目に見えるようにするためのコストです)。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:296
+#: ../../mayavi/docs/source/mayavi/data.rst:296
 msgid "VTK name"
 msgstr "VTK名"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:296
+#: ../../mayavi/docs/source/mayavi/data.rst:296
 msgid "Suitable for"
 msgstr "適している場合"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:296
+#: ../../mayavi/docs/source/mayavi/data.rst:296
 msgid "Required information"
 msgstr "必要な情報"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:298
+#: ../../mayavi/docs/source/mayavi/data.rst:298
 msgid "ImageData_"
 msgstr "ImageData_"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:298
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:299
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:300
+#: ../../mayavi/docs/source/mayavi/data.rst:298
+#: ../../mayavi/docs/source/mayavi/data.rst:299
+#: ../../mayavi/docs/source/mayavi/data.rst:300
 msgid "Implicit"
 msgstr "暗黙的"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:298
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:299
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:300
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:302
+#: ../../mayavi/docs/source/mayavi/data.rst:298
+#: ../../mayavi/docs/source/mayavi/data.rst:299
+#: ../../mayavi/docs/source/mayavi/data.rst:300
+#: ../../mayavi/docs/source/mayavi/data.rst:302
 msgid "Volumes and surfaces"
 msgstr "ボリュームとサーフェス"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:298
+#: ../../mayavi/docs/source/mayavi/data.rst:298
 msgid "3D data array and spacing along each axis"
 msgstr "3Dデータの配列と各軸に沿った間隔"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:299
+#: ../../mayavi/docs/source/mayavi/data.rst:299
 msgid "RectilinearGrid_"
 msgstr "RectilinearGrid_"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:299
+#: ../../mayavi/docs/source/mayavi/data.rst:299
 msgid "3D data array and 1D array of spacing for each axis"
 msgstr "各軸の間隔の3Dデータ配列と1D配列"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:300
+#: ../../mayavi/docs/source/mayavi/data.rst:300
 msgid "StructuredGrid_"
 msgstr "StructuredGrid_"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:300
+#: ../../mayavi/docs/source/mayavi/data.rst:300
 msgid "3D data array and 3D position arrays for each axis"
 msgstr "各軸の3Dデータ配列と3D位置配列"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:301
+#: ../../mayavi/docs/source/mayavi/data.rst:301
 msgid "PolyData_"
 msgstr "PolyData_"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:301
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:302
+#: ../../mayavi/docs/source/mayavi/data.rst:301
+#: ../../mayavi/docs/source/mayavi/data.rst:302
 msgid "Explicit"
 msgstr "明示的"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:301
+#: ../../mayavi/docs/source/mayavi/data.rst:301
 msgid "Points, lines and surfaces"
 msgstr "点、線分、およびサーフェス"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:301
+#: ../../mayavi/docs/source/mayavi/data.rst:301
 msgid "x, y, z, positions of vertices and arrays of surface Cells"
 msgstr "x,y,z,頂点の位置と表面のセルの配列"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:302
+#: ../../mayavi/docs/source/mayavi/data.rst:302
 msgid "UnstructuredGrid_"
 msgstr "UnstructuredGrid_"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:302
+#: ../../mayavi/docs/source/mayavi/data.rst:302
 msgid "x, y, z positions of vertices and arrays of volume Cells"
 msgstr "頂点のx,y,z位置とボリュームCellsの配列"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:308
+#: ../../mayavi/docs/source/mayavi/data.rst:308
 msgid "ImageData"
 msgstr "ImageData"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:310
+#: ../../mayavi/docs/source/mayavi/data.rst:310
 msgid ""
 "This dataset is made of data points positioned on an orthogonal grid, with "
 "constant spacing along each axis. The position of the data points are "
@@ -501,15 +501,15 @@ msgstr ""
 "`mlab.pipeline.vector_field` ファクトリ関数だけでなく、3D numpy配列から `ArraySource`  "
 "mayaviソースによって作成されたデータ構造です。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:322
+#: ../../mayavi/docs/source/mayavi/data.rst:322
 msgid "Creating a `tvtk.ImageData` object from numpy arrays::"
 msgstr "numpy配列からの `tvtk.ImageData` オブジェクトの作成"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:335
+#: ../../mayavi/docs/source/mayavi/data.rst:335
 msgid "RectilinearGrid"
 msgstr "RectilinearGrid"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:337
+#: ../../mayavi/docs/source/mayavi/data.rst:337
 msgid ""
 "This dataset is made of data points positioned on an orthogonal grid, with "
 "arbitrary spacing along the various axis. The position of the data points "
@@ -518,15 +518,15 @@ msgid ""
 msgstr ""
 "このデータセットは,様々な軸に沿って任意の間隔で,直交格子上に配置されたデータ点で構成される。データ点の位置は、データ配列上の位置、原点、および各軸の間隔のリストから推測されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:344
+#: ../../mayavi/docs/source/mayavi/data.rst:344
 msgid "Creating a `tvtk.RectilinearGrid` object from numpy arrays::"
 msgstr "numpy配列からの `tvtk.RectilinearGrid` オブジェクトの作成:"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:360
+#: ../../mayavi/docs/source/mayavi/data.rst:360
 msgid "StructuredGrid"
 msgstr "StructuredGrid"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:362
+#: ../../mayavi/docs/source/mayavi/data.rst:362
 msgid ""
 "This dataset is made of data points positioned on arbitrary grid: each point"
 " is connected to its nearest neighbors on the data array. The position of "
@@ -535,15 +535,15 @@ msgid ""
 msgstr ""
 "このデータセットは任意のグリッド上に配置されたデータ点で構成され,各点はデータ配列上の最も近い隣接点に接続される。データ点の位置は、各点のx、y、zを指定する1つの座標配列によって完全に記述されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:370
+#: ../../mayavi/docs/source/mayavi/data.rst:370
 msgid "Creating a `tvtk.StructuredGrid` object from numpy arrays::"
 msgstr "numpy配列からの `tvtk.StructuredGrid` オブジェクトの作成"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:422
+#: ../../mayavi/docs/source/mayavi/data.rst:422
 msgid "PolyData"
 msgstr "PolyData"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:424
+#: ../../mayavi/docs/source/mayavi/data.rst:424
 msgid ""
 "This dataset is made of arbitrarily positioned data points that can be "
 "connected to form lines, or grouped in polygons to from surfaces (the "
@@ -556,15 +556,15 @@ msgstr ""
 " `mlab.pipeline.scalar_scatter` 関数と `mlab.pipeline.vector_scatter` "
 "関数によって作成されたデータセットです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:433
+#: ../../mayavi/docs/source/mayavi/data.rst:433
 msgid "Creating a `tvtk.PolyData` object from numpy arrays::"
 msgstr "numpy配列からの `tvtk.PolyData` オブジェクトの作成:"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:455
+#: ../../mayavi/docs/source/mayavi/data.rst:455
 msgid "UnstructuredGrid"
 msgstr "UnstructuredGrid"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:457
+#: ../../mayavi/docs/source/mayavi/data.rst:457
 msgid ""
 "This dataset is the most general dataset of all. It is made of data points "
 "positioned arbitrarily. The connectivity between data points can be "
@@ -573,15 +573,15 @@ msgid ""
 msgstr ""
 "このデータセットは、すべての中で最も一般的なデータセットです。任意に配置されたデータポイントで構成されます。データポイント間の接続は任意です(任意の数の隣接)。これは、接続を指定し、隣接するデータポイントで構成される体積測定セルを定義することによって記述されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:465
+#: ../../mayavi/docs/source/mayavi/data.rst:465
 msgid "Creating a `tvtk.UnstructuredGrid` object from numpy arrays::"
 msgstr "numpy配列からの `tvtk.UnstructuredGrid` オブジェクトの作成"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rstNone
+#: ../../mayavi/docs/source/mayavi/data.rstNone
 msgid "Modifying the data"
 msgstr "データの変更"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:498
+#: ../../mayavi/docs/source/mayavi/data.rst:498
 msgid ""
 "If you want to modify the data of any of these low-level data structures, "
 "you need to reassign data to the corresponding arrays, but also reassign "
@@ -591,11 +591,11 @@ msgstr ""
 "これらの下位レベルのデータ構造のいずれかのデータを変更する場合は、対応する配列にデータを再配置し、名前も再配置する必要があります。これが完了したら、オブジェクトの"
 " 'modified()' メソッドを呼び出して、データが変更されたことをパイプラインに通知する必要があります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:510
+#: ../../mayavi/docs/source/mayavi/data.rst:510
 msgid "External references"
 msgstr "外部参照"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:512
+#: ../../mayavi/docs/source/mayavi/data.rst:512
 msgid ""
 "This section of the user guide will be improved later.  For now, the "
 "following two presentations best describe how one can create data objects or"
@@ -603,17 +603,17 @@ msgid ""
 msgstr ""
 "ユーザーガイドのこのセクションは、後で改善されます。ここでは、MayaviとTVTKのデータオブジェクトまたはデータファイルを作成する方法について、次の2つのプレゼンテーションで説明します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:516
+#: ../../mayavi/docs/source/mayavi/data.rst:516
 msgid "Presentation on TVTK and Mayavi2 for course at IIT Bombay"
 msgstr "IIT BombayでのTVTKとMayavi2コースでのプレゼンテーション"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:518
+#: ../../mayavi/docs/source/mayavi/data.rst:518
 msgid ""
 "https://github.com/enthought/mayavi/raw/master/docs/pdf/tvtk_mayavi2.pdf"
 msgstr ""
 "https://github.com/enthought/mayavi/raw/master/docs/pdf/tvtk_mayavi2.pdf"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:520
+#: ../../mayavi/docs/source/mayavi/data.rst:520
 msgid ""
 "This presentation provides information on graphics in general, 3D data "
 "representation, creating VTK data files, creating datasets from numpy in "
@@ -621,12 +621,12 @@ msgid ""
 msgstr ""
 "このプレゼンテーションでは、グラフィックス全般、3Dデータ表現、VTKデータファイルの作成、Pythonのnumpyからのデータセットの作成、およびmayaviについての情報を提供します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:524
+#: ../../mayavi/docs/source/mayavi/data.rst:524
 msgid ""
 "Presentation on making TVTK datasets using numpy arrays made for SciPy07."
 msgstr "SciPy07用のnumpy配列を用いたTVTKデータセットの作成についてのプレゼンテーション。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:526
+#: ../../mayavi/docs/source/mayavi/data.rst:526
 msgid ""
 "Prabhu Ramachandran. \"TVTK and MayaVi2\", SciPy'07: Python for Scientific "
 "Computing, CalTech, Pasadena, CA, 16--17 August, 2007."
@@ -634,35 +634,35 @@ msgstr ""
 "Prabhu Ramachandran. \"TVTK and MayaVi2\", SciPy'07: Python for Scientific "
 "Computing, CalTech, Pasadena, CA, 16--17 August, 2007."
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:529
+#: ../../mayavi/docs/source/mayavi/data.rst:529
 msgid ""
 "This presentation focuses on creating TVTK datasets using numpy arrays."
 msgstr "このプレゼンテーションでは、numpy配列を使用したTVTKデータセットの作成に焦点を当てます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:534
+#: ../../mayavi/docs/source/mayavi/data.rst:534
 msgid "Datasets creation examples"
 msgstr "データセットの作成例"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:536
+#: ../../mayavi/docs/source/mayavi/data.rst:536
 msgid ""
 "There are several examples in the mayavi sources that highlight the creation"
 " of the most important datasets from numpy arrays. Specifically they are:"
 msgstr "mayaviソースには、numpy配列から最も重要なデータセットを作成する例がいくつかあります。具体的には次のとおりです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:540
+#: ../../mayavi/docs/source/mayavi/data.rst:540
 msgid ""
 ":ref:`example_datasets`: Generate a simple example for each type of VTK "
 "dataset."
 msgstr ":ref:`example_datasets`: 各タイプのVTKデータセットの簡単な例を生成します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:543
+#: ../../mayavi/docs/source/mayavi/data.rst:543
 msgid ""
 ":ref:`example_polydata`:  Demonstrates how to create Polydata datasets from "
 "numpy arrays and visualize them in mayavi."
 msgstr ""
 ":ref:`example_polydata`: numpy配列からPolydataデータセットを作成し、mayaviで表示する方法を示します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:546
+#: ../../mayavi/docs/source/mayavi/data.rst:546
 msgid ""
 ":ref:`example_structured_points2d`: Demonstrates how to create a 2D "
 "structured points (an ImageData) dataset from numpy arrays and visualize "
@@ -671,7 +671,7 @@ msgstr ""
 ":ref:`example_structured_points2d`: "
 "numpy配列から2D構造化ポイント(イメージデータ)データセットを作成し、mayaviで表示する方法を示します。これは基本的に等間隔のポイントの正方形です。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:551
+#: ../../mayavi/docs/source/mayavi/data.rst:551
 msgid ""
 ":ref:`example_structured_points3d`: Demonstrates how to create a 3D "
 "structured points (an ImageData) dataset from numpy arrays and visualize "
@@ -680,31 +680,31 @@ msgstr ""
 ":ref:`example_structured_points3d`: "
 "numpy配列から3D構造化ポイント(イメージデータ)データセットを作成し、Mayaviで表示する方法を示します。これは、一定の間隔で配置されたポイントの立方体です。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:556
+#: ../../mayavi/docs/source/mayavi/data.rst:556
 msgid ""
 ":ref:`example_structured_grid`: Demonstrates the creation and visualization "
 "of a 3D structured grid."
 msgstr ":ref:`example_structured_grid`: 3D構造グリッドの作成と表示について説明します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:559
+#: ../../mayavi/docs/source/mayavi/data.rst:559
 msgid ""
 ":ref:`example_unstructured_grid`: Demonstrates the creation and "
 "visualization of an unstructured grid."
 msgstr ":ref:`example_unstructured_grid`: 非構造化グリッドの作成と視覚化を示します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:562
+#: ../../mayavi/docs/source/mayavi/data.rst:562
 msgid "These scripts may be run like so::"
 msgstr "これらのスクリプトは、次のように実行できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:566
+#: ../../mayavi/docs/source/mayavi/data.rst:566
 msgid "or better yet, all in one go like so::"
 msgstr "さらに良いことに、すべてを1つにまとめると次のようになります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:584
+#: ../../mayavi/docs/source/mayavi/data.rst:584
 msgid "Inserting TVTK datasets in the Mayavi pipeline"
 msgstr "MayaviパイプラインへのTVTKデータセットの挿入"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:586
+#: ../../mayavi/docs/source/mayavi/data.rst:586
 msgid ""
 "TVTK datasets can be created using directly TVTK, as illustrated in the "
 "examples above. A VTK data source can be inserted in the Mayavi pipeline "
@@ -713,7 +713,7 @@ msgstr ""
 "上の例に示すように、TVTKデータセットは、直接TVTKを使用して作成できます。VTKデータソースは、VTKDataSourceを使用してMayaviパイプラインに挿入できます。たとえば、次のような"
 " `ImageData` データセットを作成できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:599
+#: ../../mayavi/docs/source/mayavi/data.rst:599
 msgid ""
 "If you are scripting using :ref:`mlab <simple-scripting-with-mlab>`, the "
 "simplest way to visualize your data is to use the :ref:`mlab.pipeline "
@@ -729,14 +729,14 @@ msgstr ""
 "を使用してデータにフィルタとモジュールを適用することです。実際、フィルタとモジュールを作成するこれらの関数は、VTKデータセットを受け入れ、自動的にそれらをパイプラインに挿入します。サーフェスモジュールを使用して、上記で作成した"
 " `ImageData` データセットを次のように表示できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:611
+#: ../../mayavi/docs/source/mayavi/data.rst:611
 msgid ""
 "In addition, inserting this dataset on the Mayavi pipeline with direct "
 "control on the `Engine` is done as suchwith `VTKDataSource`::"
 msgstr ""
 "さらに、このデータセットをMayaviパイプラインに挿入し、 `Engine` を直接制御するには `VTKDataSource` を使用します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/data.rst:622
+#: ../../mayavi/docs/source/mayavi/data.rst:622
 msgid ""
 "Of course, unless you want specific control on the attributes of the VTK "
 "dataset, or you are using Mayavi in the context of existing code "

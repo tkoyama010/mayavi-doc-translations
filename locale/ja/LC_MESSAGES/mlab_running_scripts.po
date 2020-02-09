@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 09:51+0000\n"
+"POT-Creation-Date: 2020-02-09 10:21+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:4
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:4
 msgid "Running mlab scripts"
 msgstr "mlabスクリプトの実行"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:6
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:6
 msgid ""
 "Mlab, like the rest of Mayavi, is an interactive application. If you are not"
 " already in an interactive environment (see next paragraph), to interact "
@@ -39,11 +39,11 @@ msgstr ""
 "関数を使用して、図形やその他の図形要素を操作する必要があります。例えば、スクリプトを作成している場合、1つまたは複数の図形を表示し、ユーザがそれらを操作できるようにするには、その都度"
 " :func:`show` を呼び出す必要があります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:14
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:14
 msgid "Using mlab interactively"
 msgstr "対話的にmlabを使用する"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:16
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:16
 msgid ""
 "Using IPython_, mlab instructions can be run interactively, or in scripts "
 "using IPython_'s ``%run`` command::"
@@ -51,7 +51,7 @@ msgstr ""
 "IPython_ を使用すると、 mlab 命令をインタラクティブに実行できます。また、 IPython_'s ``%run`` "
 "コマンドを使用してスクリプト内で実行することもできます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:21
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:21
 msgid ""
 "You need to start IPython_ with the `--gui=qt` option. In this environment, "
 "the plotting commands are interactive: they have an immediate effect on the "
@@ -61,7 +61,7 @@ msgstr ""
 "を起動する必要があります。この環境では、プロットコマンドはインタラクティブです。これらのコマンドは図形に即座に影響を与え、 :func:`show` "
 "関数を使用する必要性を軽減します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:28
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:28
 msgid ""
 "Mlab can also be used interactively in the Python shell of the mayavi2 "
 "application, or in any interactive Python shell of wxPython-based "
@@ -71,35 +71,35 @@ msgstr ""
 "mlabは、mayavi2アプリケーションのPythonシェル、またはwxPythonベースのアプリケーション(他のEnvisageベースのアプリケーションやSPEなど、Stani氏のPython"
 " Editor)の任意のインタラクティブPythonシェルで、インタラクティブに使用することもできます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:34
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:34
 msgid "Using together with Matplotlib"
 msgstr "Matplotlibと一緒に使用する"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:36
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:36
 msgid ""
 "If you want to use Matplotlib's interactive plotting with Mayavi's mlab in "
 "IPython you should:"
 msgstr "IPythonでMatplotlibの対話型プロットをMayaviのmlabで使用する場合は、次の操作を実行します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:39
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:39
 msgid "start IPython with::"
 msgstr "次のコマンドでIPythonを起動します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:43
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:43
 msgid "alternatively, start IPython with the `--gui=qt` option::"
 msgstr "もしくは、 `--gui=qt` オプションを指定してIPythonを起動します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:47
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:47
 msgid ""
 "and **before** importing any matplotlib modules, enter the following Python "
 "commands::"
 msgstr "およびmatplotlibモジュールをインポートする **前** に、次のPythonコマンドを入力します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:54
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:54
 msgid "one could also use the ``--pylab`` option to IPython as follows::"
 msgstr "以下のようにIPythonに対して ``--pylab`` オプションを使うこともできます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:60
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:60
 msgid ""
 "If you want matplotlib and mlab to work together by default in IPython, you "
 "can change you default matplotlib backend, by editing the "
@@ -108,13 +108,13 @@ msgstr ""
 "デフォルトでIPythonでmatplotlibとmlabを一緒に動作させるには、デフォルトのmatplotlibバックエンドを変更します。 "
 "`~/matplotlib/matplotlibrc` に次の行を追加します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:66
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:66
 msgid ""
 "If for some reason, the Qt backend does not work, you can use the wx "
 "backend.  To do this you may do::"
 msgstr "何らかの理由でQtバックエンドが動作しない場合は、wxバックエンドを使用します。これを行うには、次の操作を行います。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:72
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:72
 msgid ""
 "Note that as far as Mayavi is concerned, it chooses the appropriate toolkit "
 "using the ``ETS_TOOLKIT`` environment variable.  If this is not set, the "
@@ -126,23 +126,23 @@ msgstr ""
 "環境変数を使用して適切なツールキットを選択します。これが設定されていない場合、サポートされているツールキットは、成功するまでバージョン依存の順序で試行されます。"
 " traitsui_ の最近のリリースでは、デフォルトはQtです。 ``ETS_TOOLKIT`` のオプションは以下のとおりです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:78
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:78
 msgid "`qt4`: to use the Qt backend (either PySide or PyQt4),"
 msgstr "`qt4`: Qtバックエンドを使う場合(PySideまたはPyQt4)、"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:79
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:79
 msgid "`wx`: to use wxPython,"
 msgstr "`wx`: wxPythonを使うには"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:80
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:80
 msgid "`null`: to use no UI toolkit."
 msgstr "`null`:UI ツールキットを使用しない。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rstNone
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rstNone
 msgid "Capturing mlab plots to integrate in pylab"
 msgstr "pylabに組み込むためのmlabプロットのキャプチャ"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:86
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:86
 msgid ""
 "Starting from Mayavi version 3.4.0, the mlab :func:`screenshot` can be used "
 "to take a screenshot of the current figure, to integrate in a matplotlib "
@@ -151,11 +151,11 @@ msgstr ""
 "Mayaviバージョン3.4 .0以降では、 mlab :func:`screenshot` "
 "を使用して現在の図形のスクリーンショットを取得し、matplotlibプロットに組み込むことができます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:91
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:91
 msgid "In scripts"
 msgstr "スクリプト内"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:93
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:93
 msgid ""
 "Mlab commands can be written to a file, to form a script. This script can be"
 " loaded in the Mayavi application using the *File->Open file* menu entry, "
@@ -168,7 +168,7 @@ msgstr ""
 "``Control-r`` キーを押します。また、 ``-x`` "
 "コマンドラインスイッチを使用して、Mayaviアプリケーションの起動中に実行することもできます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:99
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:99
 msgid ""
 "As mentioned above, when running outside of an interactive environment, for "
 "instance with `python myscript.py`, you need to call the :func:`show` "
@@ -179,14 +179,14 @@ msgstr ""
 "を使用します。スクリプトを一時停止し、ユーザが図を操作できるようにするには、 :func:`show` "
 "関数(上のデモに示されているように)を呼び出す必要があります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:107
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:107
 msgid ""
 "You can also use :func:`show` to decorate a function, and have it run in the"
 " event-loop, which gives you more flexibility::"
 msgstr ""
 "次のように :func:`show` を使用して関数を修飾し、event-loopで実行させることもできます。これにより、柔軟性が増します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_running_scripts.rst:117
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:117
 msgid ""
 "With this decorator, each time the `image` function is called, `mlab` makes "
 "sure an interactive environment is running before executing the `image` "

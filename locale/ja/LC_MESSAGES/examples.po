@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 09:51+0000\n"
+"POT-Creation-Date: 2020-02-09 10:21+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -21,17 +21,17 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/examples.rst:4
+#: ../../mayavi/docs/source/mayavi/examples.rst:4
 msgid "Tutorial examples to learn Mayavi"
 msgstr "Mayaviを学習するためのチュートリアルの例"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/examples.rst:6
+#: ../../mayavi/docs/source/mayavi/examples.rst:6
 msgid ""
 "To get acquainted with mayavi you may start up the Mayavi2 application, "
 "``mayavi2`` in the command line, like so::"
 msgstr "mayaviを理解するには、次のようにコマンドラインでMayavi2アプリケーション ``mayavi2`` を起動します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/examples.rst:11
+#: ../../mayavi/docs/source/mayavi/examples.rst:11
 msgid ""
 "On Windows you can double click on the installed ``mayavi2.exe`` executable "
 "(usually in the ``Python2X\\Scripts`` directory), or use the start menu "
@@ -40,7 +40,7 @@ msgstr ""
 "Windowsでは、インストールされている(通常は ``Python2X\\Scripts`` ディレクトリにある) ``mayavi2.exe`` "
 "をダブルクリックするか、 python(x,y) またはEPDをインストールしていれば、スタートメニューの項目を使うことができます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/examples.rst:15
+#: ../../mayavi/docs/source/mayavi/examples.rst:15
 msgid ""
 "Once Mayavi starts, you may resize the various panes of the user interface "
 "to get a comfortable layout.  These settings will become the default "
@@ -51,7 +51,7 @@ msgstr ""
 " \"perspective\" になります。UIの詳細については :ref:`general-layout-of-ui` "
 "のセクションを参照してください。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/examples.rst:20
+#: ../../mayavi/docs/source/mayavi/examples.rst:20
 msgid ""
 "We give a few detailed examples of how you can use the Mayavi application to"
 " tour some of its features. Before proceeding to the examples, it can be "

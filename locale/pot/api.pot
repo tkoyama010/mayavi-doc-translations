@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 09:51+0000\n"
+"POT-Creation-Date: 2020-02-09 10:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,483 +16,483 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/core_view_objects.rst:3
+#: ../../mayavi/docs/source/mayavi/api/core_view_objects.rst:3
 msgid "Main view and UI objects"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/core_view_objects.rst:5
+#: ../../mayavi/docs/source/mayavi/api/core_view_objects.rst:5
 msgid "This is an API reference of the views for the main objects. The section :ref:`builing_applications` gives some context on how to use them."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/core_view_objects.rst:12
+#: ../../mayavi/docs/source/mayavi/api/core_view_objects.rst:12
 msgid "Scene UIs: :class:`DecoratedScene` and :class:`MayaviScene`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/ui/mayavi_scene.py:docstring of mayavi.core.ui.api.MayaviScene:1
+#: ../../mayavi/mayavi/core/ui/mayavi_scene.py:docstring of mayavi.core.ui.api.MayaviScene:1
 msgid "Bases: :class:`pyface.base_toolkit.Unimplemented`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/ui/mayavi_scene.py:docstring of mayavi.core.ui.api.MayaviScene:1
+#: ../../mayavi/mayavi/core/ui/mayavi_scene.py:docstring of mayavi.core.ui.api.MayaviScene:1
 msgid "A scene UI, similar to a decorated scene, but with more buttons."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/ui/mayavi_scene.py:docstring of mayavi.core.ui.api.MayaviScene.show_engine:1
+#: ../../mayavi/mayavi/core/ui/mayavi_scene.py:docstring of mayavi.core.ui.api.MayaviScene.show_engine:1
 msgid "Open the engine view corresponding to the engine of the scene."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/core_view_objects.rst:24
+#: ../../mayavi/docs/source/mayavi/api/core_view_objects.rst:24
 msgid ":class:`SceneEditor`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/core_view_objects.rst:30
+#: ../../mayavi/docs/source/mayavi/api/core_view_objects.rst:30
 msgid ":class:`MlabSceneModel`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/mlab_scene_model.py:docstring of mayavi.core.ui.api.MlabSceneModel:1
+#: ../../mayavi/mayavi/tools/mlab_scene_model.py:docstring of mayavi.core.ui.api.MlabSceneModel:1
 msgid "Bases: :class:`tvtk.pyface.scene_model.SceneModel`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/mlab_scene_model.py:docstring of mayavi.core.ui.api.MlabSceneModel:1
+#: ../../mayavi/mayavi/tools/mlab_scene_model.py:docstring of mayavi.core.ui.api.MlabSceneModel:1
 msgid "An container for an mlab model, that can be exposed using a Mayavi scene in a TraitsUI view."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/core_view_objects.rst:36
+#: ../../mayavi/docs/source/mayavi/api/core_view_objects.rst:36
 msgid ":class:`EngineView` and  :class:`EngineRichView`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/core_view_objects.rst:38
+#: ../../mayavi/docs/source/mayavi/api/core_view_objects.rst:38
 msgid "These are two objects to be used as views for an engine::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/ui/engine_view.py:docstring of mayavi.core.ui.api.EngineView:1
+#: ../../mayavi/mayavi/core/ui/engine_view.py:docstring of mayavi.core.ui.api.EngineView:1
 msgid "Bases: :class:`traits.has_traits.HasTraits`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/ui/engine_view.py:docstring of mayavi.core.ui.api.EngineView:1
+#: ../../mayavi/mayavi/core/ui/engine_view.py:docstring of mayavi.core.ui.api.EngineView:1
 msgid "A view displaying the engine's object tree."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/ui/engine_view.py:docstring of mayavi.core.ui.api.EngineView.default_traits_view:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/ui/engine_rich_view.py:docstring of mayavi.core.ui.api.EngineRichView.default_traits_view:1
+#: ../../mayavi/mayavi/core/ui/engine_view.py:docstring of mayavi.core.ui.api.EngineView.default_traits_view:1
+#: ../../mayavi/mayavi/core/ui/engine_rich_view.py:docstring of mayavi.core.ui.api.EngineRichView.default_traits_view:1
 msgid "The default traits view of the Engine View."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/ui/engine_rich_view.py:docstring of mayavi.core.ui.api.EngineRichView:1
+#: ../../mayavi/mayavi/core/ui/engine_rich_view.py:docstring of mayavi.core.ui.api.EngineRichView:1
 msgid "Bases: :class:`mayavi.core.ui.engine_view.EngineView`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/ui/engine_rich_view.py:docstring of mayavi.core.ui.api.EngineRichView:1
+#: ../../mayavi/mayavi/core/ui/engine_rich_view.py:docstring of mayavi.core.ui.api.EngineRichView:1
 msgid "A view displaying the engine's object tree, alongside with a panel to edit the objects."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/index.rst:3
+#: ../../mayavi/docs/source/mayavi/api/index.rst:3
 msgid "Mayavi API reference"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/pipeline_objects.rst:3
+#: ../../mayavi/docs/source/mayavi/api/pipeline_objects.rst:3
 msgid "Pipeline base objects"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/pipeline_objects.rst:5
+#: ../../mayavi/docs/source/mayavi/api/pipeline_objects.rst:5
 msgid "This is an API reference of the base classes of the pipeline objects. Please refer to section :ref:`advanced-use-of-mayavi` for instructions on how to use them."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/pipeline_objects.rst:12
+#: ../../mayavi/docs/source/mayavi/api/pipeline_objects.rst:12
 msgid ":class:`Scene`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase:1
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene:1
+#: ../../mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager:1
+#: ../../mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase:1
 msgid "Bases: :class:`mayavi.core.base.Base`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene:1
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene:1
 msgid "The Mayavi scene class."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.add_child:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source.add_child:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager.add_child:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.add_child:1
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.add_child:1
+#: ../../mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source.add_child:1
+#: ../../mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager.add_child:1
+#: ../../mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.add_child:1
 msgid "This method intelligently adds a child to this object in the MayaVi pipeline."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:1
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:1
 msgid "Add a picking callback on mouse click."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:3
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:3
 msgid "When the mouse button is press, object picking is called, and the given callback is invoked with the resulting pick as an argument."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:7
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:7
 msgid "**Keyword arguments**"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:0
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:0
 msgid "type"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:9
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:9
 msgid "'point', 'cell', or 'world' The picker type used for picking."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:0
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:0
 msgid "button"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:11
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:11
 msgid "'Left', 'Middle', or 'Right' The mouse button triggering the picking event."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:0
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:0
 msgid "remove"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:13
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:13
 msgid "boolean If remove is True, the callback is removed from the list of callbacks."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:17
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:17
 msgid "**Returns** picker: a tvtk picker"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:19
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:19
 msgid "The picker that will be used to do the picking."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:21
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:21
 msgid "**Notes**"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:23
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:23
 msgid "The callback must accept one argument: the TVTK picker."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:25
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.on_mouse_pick:25
 msgid "The same callback can be added multiple times."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.remove:1
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.remove:1
 msgid "Remove ourselves from the mayavi pipeline."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.remove_child:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source.remove_child:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager.remove_child:1
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.remove_child:1
+#: ../../mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source.remove_child:1
+#: ../../mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager.remove_child:1
 msgid "Remove specified child from our children."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.start:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source.start:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager.start:1
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.start:1
+#: ../../mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source.start:1
+#: ../../mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager.start:1
 msgid "This is invoked when this object is added to the mayavi pipeline."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.stop:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source.stop:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager.stop:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.stop:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.stop:1
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.stop:1
+#: ../../mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source.stop:1
+#: ../../mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager.stop:1
+#: ../../mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.stop:1
+#: ../../mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.stop:1
 msgid "Invoked when this object is removed from the mayavi pipeline."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.tno_can_add:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source.tno_can_add:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager.tno_can_add:1
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.tno_can_add:1
+#: ../../mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source.tno_can_add:1
+#: ../../mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager.tno_can_add:1
 msgid "Returns whether a given object is droppable on the node."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.tno_drop_object:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source.tno_drop_object:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager.tno_drop_object:1
+#: ../../mayavi/mayavi/core/scene.py:docstring of mayavi.core.api.Scene.tno_drop_object:1
+#: ../../mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source.tno_drop_object:1
+#: ../../mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager.tno_drop_object:1
 msgid "Returns a droppable version of a specified object."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/pipeline_objects.rst:18
+#: ../../mayavi/docs/source/mayavi/api/pipeline_objects.rst:18
 msgid ":class:`Source`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module:1
+#: ../../mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source:1
+#: ../../mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module:1
 msgid "Bases: :class:`mayavi.core.pipeline_base.PipelineBase`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source:1
+#: ../../mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source:1
 msgid "Base class for the sources objects in the pipeline."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source.add_module:1
+#: ../../mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source.add_module:1
 msgid "Adds a module smartly.  If no ModuleManager instances are children, it first creates a new ModuleManager and then adds the module to it.  If not it adds the module to the first available ModuleManager instance."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source.save_output:1
+#: ../../mayavi/mayavi/core/source.py:docstring of mayavi.core.api.Source.save_output:1
 msgid "Save our output (by default the first of our outputs) to the specified filename as a VTK file.  Both old style and new style XML files are supported."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/pipeline_objects.rst:24
+#: ../../mayavi/docs/source/mayavi/api/pipeline_objects.rst:24
 msgid ":class:`Filter`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter:1
+#: ../../mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter:1
 msgid "Bases: :class:`mayavi.core.source.Source`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter:1
+#: ../../mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter:1
 msgid "Base class for all the Mayavi filters."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter.setup_pipeline:1
+#: ../../mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter.setup_pipeline:1
 msgid "Override this method so that it *creates* its tvtk pipeline."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter.setup_pipeline:4
+#: ../../mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter.setup_pipeline:4
 msgid "This method is invoked when the object is initialized via `__init__`.  Note that at the time this method is called, the tvtk data pipeline will *not* yet be setup.  So upstream data will not be available.  The idea is that you simply create the basic objects and setup those parts of the pipeline not dependent on upstream sources and filters."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter.start:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.start:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.start:1
+#: ../../mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter.start:1
+#: ../../mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.start:1
+#: ../../mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.start:1
 msgid "This is invoked when this object is added to the mayavi pipeline.  Note that when start is invoked, all the other information for the pipeline should be already set."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter.stop:1
+#: ../../mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter.stop:1
 msgid "Invoked when this object is removed from the mayavi pipeline.  This is where you remove your actors from the scene."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter.update_data:1
+#: ../../mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter.update_data:1
 msgid "Override this method to do what is necessary when upstream data changes."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter.update_data:4
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.update_data:4
+#: ../../mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter.update_data:4
+#: ../../mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.update_data:4
 msgid "This method is invoked (automatically) when any of the inputs sends a `data_changed` event."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter.update_pipeline:1
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.update_pipeline:1
+#: ../../mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter.update_pipeline:1
+#: ../../mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.update_pipeline:1
 msgid "Override this method so that it *updates* the tvtk pipeline when data upstream is known to have changed."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter.update_pipeline:4
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.update_pipeline:4
+#: ../../mayavi/mayavi/core/filter.py:docstring of mayavi.core.api.Filter.update_pipeline:4
+#: ../../mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.update_pipeline:4
 msgid "This method is invoked (automatically) when the input fires a `pipeline_changed` event."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/pipeline_objects.rst:30
+#: ../../mayavi/docs/source/mayavi/api/pipeline_objects.rst:30
 msgid ":class:`ModuleManager`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager:1
+#: ../../mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager:1
 msgid "The module manager node (represented as 'Colors and Legends')."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager.update:1
+#: ../../mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager.update:1
 msgid "Update any internal data."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager.update:3
+#: ../../mayavi/mayavi/core/module_manager.py:docstring of mayavi.core.api.ModuleManager.update:3
 msgid "This is invoked when the source changes or when there are pipeline/data changes upstream."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/pipeline_objects.rst:36
+#: ../../mayavi/docs/source/mayavi/api/pipeline_objects.rst:36
 msgid ":class:`Module`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module:1
+#: ../../mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module:1
 msgid "Base class for the Mayavi modules."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.setup_pipeline:1
+#: ../../mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.setup_pipeline:1
 msgid "Override this method so that it *creates* the tvtk pipeline."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.setup_pipeline:4
+#: ../../mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.setup_pipeline:4
 msgid "This method is invoked when the object is initialized via `__init__`.  Note that at the time this method is called, the tvtk data pipeline will *not* yet be setup.  So upstream data will not be available.  The idea is that you simply create the basic objects and setup those parts of the pipeline not dependent on upstream sources and filters.  You should also set the `actors` attribute up at this point."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.tno_allows_children:1
+#: ../../mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.tno_allows_children:1
 msgid "Returns whether chidren of this object are allowed or not."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.tno_get_children:1
+#: ../../mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.tno_get_children:1
 msgid "Gets the object's children."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.tno_has_children:1
+#: ../../mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.tno_has_children:1
 msgid "Returns whether or not the object has children."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.update_data:1
+#: ../../mayavi/mayavi/core/module.py:docstring of mayavi.core.api.Module.update_data:1
 msgid "Override this method so that it flushes the vtk pipeline if that is necessary."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/pipeline_objects.rst:43
+#: ../../mayavi/docs/source/mayavi/api/pipeline_objects.rst:43
 msgid ":class:`PipelineBase`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase:1
+#: ../../mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase:1
 msgid "Base class for all the Source, Filters and Modules in the pipeline."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.add_actors:1
+#: ../../mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.add_actors:1
 msgid "Adds `self.actors` to the scene."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.add_actors:3
+#: ../../mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.add_actors:3
 msgid "This is typically called when start is invoked.  You should avoid calling this unless you know what you are doing."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.configure_connection:1
+#: ../../mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.configure_connection:1
 msgid "Configure topology for vtk pipeline obj."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.configure_input:1
+#: ../../mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.configure_input:1
 msgid "Configure the inp using op."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.configure_input_data:1
+#: ../../mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.configure_input_data:1
 msgid "Configure the input data for vtk pipeline object obj."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.configure_source_data:1
+#: ../../mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.configure_source_data:1
 msgid "Configure the source data for vtk pipeline object obj."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.get_output_dataset:1
+#: ../../mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.get_output_dataset:1
 msgid "Return the output dataset of this object."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.get_output_object:1
+#: ../../mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.get_output_object:1
 msgid "We assume the old pipeline topology. As such we return the first output."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.has_output_port:1
+#: ../../mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.has_output_port:1
 msgid "We assume the old pipeline topology. As such we assume no output_port exists."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.remove_actors:1
+#: ../../mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.remove_actors:1
 msgid "Removes `self.actors` from the scene."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.remove_actors:3
+#: ../../mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.remove_actors:3
 msgid "This is typically called when stop is invoked.  You should avoid calling this unless you know what you are doing."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.render:1
+#: ../../mayavi/mayavi/core/pipeline_base.py:docstring of mayavi.core.api.PipelineBase.render:1
 msgid "Invokes render on the scene, this in turn invokes Render on the VTK pipeline."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/api/pipeline_objects.rst:49
+#: ../../mayavi/docs/source/mayavi/api/pipeline_objects.rst:49
 msgid ":class:`Engine`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine:1
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine:1
 msgid "Bases: :class:`traits.has_traits.HasStrictTraits`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine:1
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine:1
 msgid "The Mayavi engine base class."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.add_filter:1
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.add_filter:1
 msgid "Adds a filter to the pipeline at an appropriate point. Adds it to the selected object, or to an object passed as the kwarg `obj`."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.add_module:1
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.add_module:1
 msgid "Adds a module to the pipeline at an appropriate point. Adds it to the selected object, or to an object passed through the kwarg `obj`."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.add_scene:1
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.add_scene:1
 msgid "Add given `scene` (a `pyface.tvtk.scene.Scene` instance) to the mayavi engine so that mayavi can manage the scene.  This is used when the user creates a scene.  Note that for the `EnvisageEngine` this is automatically taken care of when you create a new scene using the TVTK scene plugin."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.add_scene:10
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.remove_scene:10
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.add_scene:10
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.remove_scene:10
 msgid "scene - `pyface.tvtk.scene.Scene`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.add_scene:12
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.add_scene:12
 msgid "The scene that needs to be managed from mayavi."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.add_scene:16
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.add_scene:16
 msgid "name - `str`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.add_scene:15
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.add_scene:15
 msgid "The name assigned to the scene.  It tries to determine the name of the scene from the passed scene instance.  If this is not possible it defaults to 'Mayavi Scene'."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.add_source:1
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.add_source:1
 msgid "Adds a source to the pipeline. Uses the current scene unless a scene is given in the scene keyword argument."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.close_scene:1
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.close_scene:1
 msgid "Given a scene created from new_scene, this method closes it and removes the scene from the list of scenes we manage."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.close_scene:7
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.close_scene:7
 msgid "scene - `pyface.tvtk.scene.Scene` or an object that holds a reference to a `pyface.tvtk.scene.Scene` in a `scene` attribute."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.dialog_view:1
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.dialog_view:1
 msgid "Default dialog view for Engine objects."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.get_viewer:1
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.get_viewer:1
 msgid "Return the viewer associated with a given scene."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.get_viewer:5
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.get_viewer:5
 msgid "scene - An `mayavi.core.scene.Scene` instance."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.load_visualization:1
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.load_visualization:1
 msgid "Given a file/file name this loads the visualization."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.new_scene:1
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.new_scene:1
 msgid "Create or manage a new VTK scene window.  If no `viewer` argument is provided, the method creates a new viewer using `self.scene_factory`.  If `self.scene_factory` is `None` then it creates an `ivtk` viewer.  This code requires that the `viewer` has a `scene` attribute/trait that is a `pyface.tvtk.scene.Scene`.  It also works best if the viewer supports `closing` and `activated` events."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.new_scene:9
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.new_scene:9
 msgid "The method returns the created viewer."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.new_scene:14
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.new_scene:14
 msgid "viewer - The viewer object, if None, one is created for you."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.new_scene:16
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.new_scene:16
 msgid "name - The name attribute of the viewer"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.new_scene:18
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.new_scene:18
 msgid "``**kwargs`` - The extra keyword arguments are passed along to the scene factory."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.open:1
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.open:1
 msgid "Open a file given a filename if possible in either the current scene or the passed `scene`."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.record:1
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.record:1
 msgid "This is merely a convenience method to record messages to the script recorder."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.remove_scene:1
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.remove_scene:1
 msgid "Remove a given `scene` (a `pyface.tvtk.scene.Scene` instance) from the mayavi engine if it is already being managed by mayavi.  Note that for the `EnvisageEngine` this is automatically taken care of when you close a scene started using the TVTK scene plugin."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.remove_scene:12
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.remove_scene:12
 msgid "The scene that needs to be removed from mayavi."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.save_visualization:1
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.save_visualization:1
 msgid "Given a file or a file name, this saves the current visualization to the file."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.start:1
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.api.Engine.start:1
 msgid "This is called by the plugin when the plugin actually starts."
 msgstr ""

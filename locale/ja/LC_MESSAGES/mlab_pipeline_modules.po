@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 09:51+0000\n"
+"POT-Creation-Date: 2020-02-09 10:21+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:3
+#: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:3
 msgid "Modules and Filters"
 msgstr "モジュールとフィルタ"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:5
+#: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:5
 msgid ""
 "For each Mayavi module or filter, there is a corresponding `mlab.pipeline` "
 "factory function that takes as an input argument, the source on which the "
@@ -37,7 +37,7 @@ msgstr ""
 "があります。新しいモジュールまたはフィルタが追加されるソースを入力引数として取り、作成されたモジュールオブジェクトを返すパイプラインのファクトリ関数。関数の名前はモジュールの名前に対応しますが、大文字と小文字が交互に使用されるのではなく、単語がアンダースコア"
 " `_` で区切られます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:12
+#: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:12
 msgid ""
 "The input object, if it is a data source (Mayavi data source or VTK "
 "dataset), does not need to be already present in the figure, it will be "
@@ -45,37 +45,37 @@ msgid ""
 msgstr ""
 "入力オブジェクトは、データソース(MayaviデータソースまたはVTKデータセット)である場合、図に存在している必要はなく、必要に応じて自動的に追加されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:16
+#: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:16
 msgid ""
 "Factory functions take keyword arguments controlling some properties of the "
 "object added to the pipeline."
 msgstr "ファクトリ関数は、パイプラインに追加されたオブジェクトの一部のプロパティを制御するキーワード引数を取ります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:19
+#: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:19
 msgid ""
 "For instance, the `ScalarCutPlane` module can be added with the following "
 "function:"
 msgstr "たとえば、  `ScalarCutPlane` モジュールは次の関数で追加できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:1
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:1
 msgid ""
 "Applies the ScalarCutPlane mayavi module to the given data source (Mayavi "
 "source, or VTK dataset)."
 msgstr "ScalarCutPlane mayaviモジュールを指定のデータソース(Mayaviソース、またはVTKデータセット)に適用します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:4
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:4
 msgid "**Keyword arguments:**"
 msgstr "**キーワード引数:**"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:0
 msgid "color"
 msgstr "color"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:6
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:6
 msgid ""
 "the color of the vtk object. Overides the colormap, if any, when specified. "
 "This is specified as a triplet of float ranging from 0 to 1, eg (1, 1, 1) "
@@ -84,138 +84,138 @@ msgstr ""
 "vtkオブジェクトの色。カラーマップを指定した場合、カラーマップを上書きします。これは0から1の範囲のfloatの例えば (1, 1, 1) "
 "として指定されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:0
 msgid "colormap"
 msgstr "colormap"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:11
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:11
 msgid "type of colormap to use."
 msgstr "使用するカラーマップのタイプ。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:0
 msgid "extent"
 msgstr "extent"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:13
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:13
 msgid ""
 "[xmin, xmax, ymin, ymax, zmin, zmax] Default is the x, y, z arrays extent. "
 "Use this to change the extent of the object created."
 msgstr ""
 "[xmin, xmax, ymin, ymax, zmin, zmax] デフォルトはx、y、z配列範囲です。作成したオブジェクトの範囲を変更します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:0
 msgid "figure"
 msgstr "figure"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:18
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:18
 msgid "Must be a Scene or None."
 msgstr "SceneまたはNoneでなければなりません。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:0
 msgid "line_width"
 msgstr "line_width"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:20
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:20
 msgid "The width of the lines, if any used. Must be a float. Default: 2.0"
 msgstr "使用されている場合、線の幅。floatでなければなりません。デフォルトは2.0"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:0
 msgid "name"
 msgstr "name"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:23
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:23
 msgid "the name of the vtk object created."
 msgstr "作成されたvtkオブジェクトの名前。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:0
 msgid "opacity"
 msgstr "opacity"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:25
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:25
 msgid "The overall opacity of the vtk object. Must be a float. Default: 1.0"
 msgstr "vtkオブジェクトの全体的な不透明度。floatでなければなりません。デフォルトは1.0"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:0
 msgid "plane_orientation"
 msgstr "plane_orientation"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:28
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:28
 msgid "the orientation of the plane Must be a legal value. Default: x_axes"
 msgstr "平面の方向は有効な値でなければなりません。デフォルトは x_axes"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:0
 msgid "reset_zoom"
 msgstr "reset_zoom"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:31
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:31
 msgid ""
 "Reset the zoom to accomodate the data newly added to the scene. Defaults to "
 "True."
 msgstr "シーンに新しく追加されたデータに合わせてズームをリセットします。既定値はTrueです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:0
 msgid "transparent"
 msgstr "transparent"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:34
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:34
 msgid "make the opacity of the actor depend on the scalar."
 msgstr "アクターの不透明度をスカラーに依存させます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:0
 msgid "view_controls"
 msgstr "view_controls"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:37
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:37
 msgid ""
 "Whether or not the controls of the cut plane are shown. Must be a boolean. "
 "Default: True"
 msgstr "切断面のコントロールを表示するかどうかを指定します。ブール値でなければなりません。デフォルトはTrue"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:0
 msgid "vmax"
 msgstr "vmax"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:40
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:40
 msgid ""
 "vmax is used to scale the colormap. If None, the max of the data will be "
 "used"
 msgstr "vmaxを使用してカラーマップをスケールします。なしの場合、データの最大値が使用されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:0
 msgid "vmin"
 msgstr "vmin"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/mayavi/tools/pipe_base.pydocstring
-#: of mayavi.tools.modules.scalar_cut_plane:43
+#: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
+#: mayavi.tools.modules.scalar_cut_plane:43
 msgid ""
 "vmin is used to scale the colormap. If None, the min of the data will be "
 "used"
 msgstr "vminを使用してカラーマップをスケールします。なしの場合、データの最小値が使用されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:24
+#: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:24
 msgid ""
 "As the list is long, we shall not enumerate here all the factory function "
 "for adding modules or filters. You are invited to refer to their docstring "

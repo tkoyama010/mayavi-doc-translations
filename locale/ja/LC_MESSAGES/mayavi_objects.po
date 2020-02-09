@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 09:51+0000\n"
+"POT-Creation-Date: 2020-02-09 10:21+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -21,16 +21,16 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:3
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:3
 msgid "Objects populating the Mayavi pipeline"
 msgstr "Mayaviパイプラインを構成するオブジェクト"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:7
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:7
 msgid ""
 "Here we give a brief description of the key objects in the Mayavi pipeline."
 msgstr "ここでは、Mayaviパイプラインの主要なオブジェクトについて簡単に説明します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:15
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:15
 msgid ""
 "Given a Mayavi object, a simple way to see what important attribute is, "
 "display it to call it's ``print_traits()``. Note that, for certain objects, "
@@ -40,71 +40,71 @@ msgstr ""
 "Mayaviオブジェクトを指定すると、重要な属性を簡単に確認することができます。このオブジェクトを表示して ``print_traits()`` "
 "という名前を付けます。特定のオブジェクトの場合、IPythonで使用すると、IPythonでのスレッド化の問題のためにセグメント・フォールトが発生することがあります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:21
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:21
 msgid "Scene"
 msgstr "Scene"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:24
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:45
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:68
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:113
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:159
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:229
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:292
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:24
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:45
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:68
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:113
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:159
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:229
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:292
 msgid "Key attributes"
 msgstr "キーアトリビュート"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:26
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:312
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:26
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:312
 msgid "``scene``"
 msgstr "``scene``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:26
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:26
 msgid ""
 "a ``TVTKScene`` (``tvtk.pyface.tvtk_scene``) object which is where all the "
 "rendering occurs."
 msgstr "すべてのレンダリングが行われる ``TVTKScene`` (``tvtk.pyface.tvtk_scene``) オブジェクト。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:29
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:47
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:70
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:118
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:29
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:47
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:70
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:118
 msgid "``children``"
 msgstr "``children``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:29
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:29
 msgid "a list of ``Source`` objects."
 msgstr "``Source`` オブジェクトのリスト。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:32
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:32
 msgid "The ``Scene`` class is defined in the ``mayavi.core.scene`` module."
 msgstr "``Scene`` クラスは ``mayavi.core.scene`` モジュールで定義されています。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:36
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:36
 msgid "API reference for the :class:`Scene` class."
 msgstr ":class:`Scene` クラスのAPIリファレンスです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:39
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:39
 msgid "Source"
 msgstr "Source"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:41
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:41
 msgid ""
 "All the data sources, file readers, Parametric surface etc. are subclasses "
 "of the ``Source`` class."
 msgstr "データソース、ファイルリーダ、パラメトリックサーフェスなどはすべて  ``Source`` クラスのサブクラスです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:47
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:47
 msgid "a list of either ``Modules`` or ``Filters``"
 msgstr "``Modules`` または ``Filters`` のリスト"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:49
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:75
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:310
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:49
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:75
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:310
 msgid "``outputs``"
 msgstr "``outputs``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:49
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:49
 msgid ""
 "``List`` of outputs produced by the source. These are TVTK datasets, that "
 "are explained in the section :ref:`data-structures-used-by-mayavi`."
@@ -112,37 +112,37 @@ msgstr ""
 "ソースによって生成された出力の ``List``  。これらはTVTKのデータセットであり、 :ref:`data-structures-used-"
 "by-mayavi` の章で説明されています。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:54
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:54
 msgid "The ``Source`` class is defined in the ``mayavi.core.source`` module."
 msgstr "``Source`` クラスは ``mayavi.core.source`` モジュールで定義されています。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:59
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:59
 msgid "API reference for the :class:`Source` class."
 msgstr ":class:`Source` クラスのAPIリファレンスです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:62
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:62
 msgid "Filter"
 msgstr "Filter"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:64
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:64
 msgid ""
 "All the ``Filters`` described in the :ref:`filters` section are subclasses "
 "of this class."
 msgstr ":ref:`filters` セクションに記述されているすべての ``Filters`` は、このクラスのサブクラスです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:70
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:70
 msgid "a list of either ``Modules`` or other ``Filters``."
 msgstr "``Modules``  または他の ``Filters`` のリスト。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:72
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:72
 msgid "``inputs``"
 msgstr "``inputs``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:72
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:72
 msgid "a ``List`` of input TVTK dataset objects that feed into the filter."
 msgstr "フィルタに入力するTVTKデータセットオブジェクトの ``List`` です。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:75
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:75
 msgid ""
 "a list of outputs produced by the filter. These are TVTK datasets, that are "
 "explained in the section :ref:`data-structures-used-by-mayavi`."
@@ -150,43 +150,43 @@ msgstr ""
 "フィルタによって生成された出力のリストです。これらはTVTKのデータセットであり、 :ref:`data-structures-used-by-"
 "mayavi` の章で説明されています。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:82
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:183
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:243
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:319
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:82
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:183
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:243
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:319
 msgid "Key methods"
 msgstr "キーメソッド"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:84
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:185
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:84
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:185
 msgid "``setup_pipeline()``"
 msgstr "``setup_pipeline()``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:84
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:185
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:84
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:185
 msgid "used to create the underlying TVTK pipeline objects if needed."
 msgstr "必要に応じて、基礎となるTVTKパイプラインオブジェクトの作成に使用します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:87
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:188
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:87
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:188
 msgid "``update_pipeline()``"
 msgstr "``update_pipeline()``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:87
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:188
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:87
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:188
 msgid ""
 "called when the upstream pipeline has been changed, i.e. an upstream object "
 "fires a ``pipeline_changed`` event."
 msgstr ""
 "上流のパイプラインが変更された場合、すなわち上流のオブジェクトが ``pipeline_changed`` イベントを起動した場合に呼び出される。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:91
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:192
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:91
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:192
 msgid "``update_data()``"
 msgstr "``update_data()``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:91
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:192
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:91
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:192
 msgid ""
 "called when the upstream pipeline has **not** been changed but the data in "
 "the pipeline has been changed.  This happens when the upstream object fires "
@@ -195,19 +195,19 @@ msgstr ""
 "上流パイプラインが変更されてい **ない** が、パイプラインのデータが変更された場合に呼び出されます。これは、上流のオブジェクトが "
 "``data_changed`` イベントを起動したときに発生します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:97
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:97
 msgid "The filter class is defined in the ``mayavi.core.filter`` module."
 msgstr "フィルタクラスは ``mayavi.core.filter`` モジュールで定義されています。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:101
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:101
 msgid "API reference for the :class:`Filter` class."
 msgstr ":class:`Filter` クラスのAPI参照です。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:104
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:104
 msgid "ModuleManager: Colors and legends node"
 msgstr "ModuleManager: カラーと凡例ノード"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:106
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:106
 msgid ""
 "This object is the one called *Colors and legends* in the tree view on the "
 "UI.  The main purpose of this object is to control how data is turned in "
@@ -219,23 +219,23 @@ msgstr ""
 "``Modules`` "
 "でデータをカラー表示する方法を制御することです。通常、すべてのモジュールは、意味のある視覚化を行うためにルックアップテーブル(LUT)を使用します。このルックアップテーブルは、モジュールマネージャによって管理される。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:115
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:115
 msgid "``source``"
 msgstr "``source``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:115
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:115
 msgid "the ``Source`` or ``Filter`` object that is the input of this object."
 msgstr "このオブジェクトの入力である  ``Source`` または ``Filter`` オブジェクト。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:118
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:118
 msgid "a list of the ``Modules`` it manages."
 msgstr "それが管理する  ``Modules`` のリスト。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:120
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:120
 msgid "``scalar_lut_manager``"
 msgstr "``scalar_lut_manager``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:120
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:120
 msgid ""
 "an instance of a ``LUTManager`` which basically manages the color mapping "
 "from scalar values to colors on the visualizations. This is basically a "
@@ -244,25 +244,25 @@ msgstr ""
 "これは視覚化においてスカラー値から色へのカラーマッピングを基本的に管理する ``LUTManager`` "
 "のインスタンスです。これは基本的にスカラーからカラーへのマッピングです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:125
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:125
 msgid "``vector_lut_manager``"
 msgstr "``vector_lut_manager``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:125
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:125
 msgid ""
 "an instance of a ``LUTManager`` which manages the color mapping from vector "
 "values to colors on the visualizations."
 msgstr "視覚化におけるベクトル値から色へのカラーマッピングを管理する ``LUTManager`` のインスタンス。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:129
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:129
 msgid "``lut_data_mode``"
 msgstr "``lut_data_mode``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:137
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:137
 msgid "'auto', 'point data' and 'cell data'."
 msgstr "'auto', 'point data' と 'cell data'."
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:130
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:130
 msgid ""
 "Specifies the data type to use for the LUTs.  This can be changed inbetween "
 ".  Changing this setting will change the data range and name of the lookup "
@@ -275,19 +275,19 @@ msgstr ""
 "'auto' (デフォルト)に設定すると、ポイントデータが優先されるセルおよびポイントデータが自動的に検索され、使用可能なデータが選択されます。 "
 "'point data' に設定するとLUTの入力点データを使用し、 'cell data' に設定すると入力セルデータを使用します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:141
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:141
 msgid "This class is defined in the ``mayavi.core.module_manager`` module."
 msgstr "このクラスは ``mayavi.core.module_manager`` モジュールで定義されています。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:146
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:146
 msgid "API reference for the :class:`ModuleManager` class."
 msgstr ":class:`ModuleManager` クラスのAPIリファレンスです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:149
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:149
 msgid "Module"
 msgstr "Module"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:151
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:151
 msgid ""
 "These objects are the ones that typically produce a visualization on the "
 "scene.  All the modules defined in the :ref:`modules` section are subclasses"
@@ -296,7 +296,7 @@ msgstr ""
 "これらのオブジェクトは、通常、シーンに視覚化を生成するオブジェクトです。 :ref:`modules` "
 "セクションで定義されている全てのモジュールはこのサブクラスです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:155
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:155
 msgid ""
 "A module is typically returned by the mlab :ref:`3D plotting functions "
 "<mlab_plotting_functions>`."
@@ -304,21 +304,21 @@ msgstr ""
 "モジュールは通常、mlab :ref:`3D plotting functions <mlab_plotting_functions>` "
 "によって返されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:161
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:161
 msgid "``module_manager``"
 msgstr "``module_manager``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:161
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:161
 msgid ""
 "The ``ModuleManager`` instance that controls the colormaps and the legends "
 "of this ``Module``"
 msgstr "この  ``Module`` のカラーマップと凡例を制御する ``ModuleManager`` インスタンス"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:164
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:164
 msgid "``actor``"
 msgstr "``actor``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:164
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:164
 msgid ""
 "The TVTK actor of the modules, in other words the object displayed in the "
 "scene. This is where you will have the properties such as scaling, or GL "
@@ -326,11 +326,11 @@ msgid ""
 msgstr ""
 "モジュールのTVTKアクター、つまりシーンに表示されるオブジェクト。ここにスケーリングやGLマテリアルプロパティなどのプロパティがあります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:169
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:169
 msgid "``components``"
 msgstr "``components``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:169
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:169
 msgid ""
 "a list of various reusable components that are used by the module.  These "
 "usually are never used directly by the user.  However, they are extremely "
@@ -346,19 +346,19 @@ msgstr ""
 "``Module``  はTVTKの俳優、マッパー、プロパティを使っています。これらはすべて、モジュールが使用する再利用可能なコンポーネントに "
 "\"componentized\" されます。したがって、コンポーネントはmayaviパイプラインオブジェクト間での再利用を促進する手段となります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:199
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:199
 msgid "Defined in the ``mayavi.core.module`` module."
 msgstr "``mayavi.core.module`` モジュールで定義されている。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:203
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:203
 msgid "API reference for the :class:`Module` class."
 msgstr ":class:`Module` クラスのAPIリファレンスです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:206
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:206
 msgid "Engine"
 msgstr "Engine"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:208
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:208
 msgid ""
 "The Mayavi engine is the central object dealing with life-cycle of "
 "visualization objects and scene, as well as connecting and updating the "
@@ -367,7 +367,7 @@ msgid ""
 msgstr ""
 "Mayaviエンジンは、可視化オブジェクトとシーンのライフサイクル、およびパイプラインの接続と更新を処理する中心的なオブジェクトです。これはパイプラインのルートにあり、パイプラインビューには表示されません。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:213
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:213
 msgid ""
 "For contextual operation, the engine has the notion of a 'current object' "
 "and a 'current scene' and features several methods that let one add a "
@@ -378,71 +378,71 @@ msgstr ""
 "``Filter/Source/Module``  "
 "インスタンスをそれに追加することができるいくつかの方法を特徴とします。コンテキスト操作は、メニュー方式のグラフィカル・ユーザー・インターフェースにおいて重要です。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:218
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:218
 msgid ""
 "It allows one to create new scenes and delete them.  Also has methods to "
 "load and save the entire visualization."
 msgstr "新しいシーンを作成して削除することができます。また、視覚化全体をロードおよび保存するメソッドもあります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:223
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:223
 msgid ""
 "When using mlab, the engine used by mlab can be retrieved using "
 ":func:`mlab.get_engine`."
 msgstr "mlabを使用する場合、mlabで使用されるエンジンは :func:`mlab.get_engine` を使用して取得できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:231
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:231
 msgid "``scenes``"
 msgstr "``scenes``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:231
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:231
 msgid "a list of ``Scene`` objects."
 msgstr "``Scene`` オブジェクトのリスト。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:233
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:233
 msgid "``current_object``"
 msgstr "``current_object``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:233
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:233
 msgid ""
 "the object on which contextual operations, such as ``add_module`` will "
 "apply."
 msgstr "``add_module`` などのコンテキスト操作が適用されるオブジェクト。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:236
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:236
 msgid "``current_scene``"
 msgstr "``current_scene``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:236
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:236
 msgid "the scene in which data sources will be added by default."
 msgstr "デフォルトでデータソースが追加されるシーン。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:239
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:239
 msgid "``current_selection``"
 msgstr "``current_selection``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:239
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:239
 msgid "The object selected in the pipeline view."
 msgstr "パイプラインビューで選択されているオブジェクト。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:245
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:245
 msgid "``new_scene()``"
 msgstr "``new_scene()``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:245
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:245
 msgid ""
 "this is the method called to create a new scene. Subclasses override this "
 "method."
 msgstr "新しいシーンを作成するために呼び出されるメソッドです。サブクラスはこのメソッドをオーバーライドします。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:251
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:251
 msgid "Important sub-classes"
 msgstr "重要なサブクラス"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:253
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:253
 msgid "``EnvisageEngine``"
 msgstr "``EnvisageEngine``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:253
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:253
 msgid ""
 "defined in the ``mayavi.plugins.envisage_engine`` module. It is the subclass"
 " of used in the ``mayavi2`` application."
@@ -450,21 +450,21 @@ msgstr ""
 "``mayavi.plugins.envisage_engine`` モジュールで定義されます。 ``mayavi2`` "
 "アプリケーションで使用されるのサブクラスです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:258
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:258
 msgid "``OffScreenEngine``"
 msgstr "``OffScreenEngine``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:258
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:258
 msgid ""
 "defined in the ``mayavi.core.off_screen_engine`` module. It creates scenes "
 "that are not displayed on screen by default."
 msgstr "``mayavi.core.off_screen_engine`` モジュール。既定では画面に表示されないシーンが作成されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:263
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:263
 msgid "``NullEngine``"
 msgstr "``NullEngine``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:263
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:263
 msgid ""
 "defined in the ``mayavi.core.null_engine`` module. With this engine, "
 "visualization objects are not added to a scene, and thus cannot be rendered."
@@ -474,19 +474,19 @@ msgstr ""
 "``mayavi.core.null_engine`` "
 "モジュールです。このエンジンでは、ビジュアル化オブジェクトはシーンに追加されないため、レンダリングできません。このエンジンは、Mayaviのデータ構造のテストおよび純粋なデータ処理に便利です。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:275
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:275
 msgid "The `Engine` base class is defined in the ``mayavi.engine`` module."
 msgstr "`Engine` ベースクラスは ``mayavi.engine`` モジュールで定義されています。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:279
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:279
 msgid "API reference for the :class:`Engine` class."
 msgstr ":class:`Engine` クラスのAPI参照です。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:282
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:282
 msgid "Base class: PipelineBase"
 msgstr "Baseクラス: PipelineBase"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:284
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:284
 msgid ""
 "The ``PipelineBase`` is the base class for all objects in the mayavi "
 "pipeline except the ``Scene`` and ``Engine`` (which really isn't *in* the "
@@ -498,17 +498,17 @@ msgstr ""
 "``Engine`` を除く、mayaviパイプライン内のすべてのオブジェクトの基本クラスです。 "
 "``mayavi.core.pipeline_base`` モジュールで定義されます。共通の機能を抽象化するだけの ``Base`` から派生します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:294
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:294
 msgid "``pipeline_changed``"
 msgstr "``pipeline_changed``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:294
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:294
 msgid ""
 "This is an ``Event`` Trait: it can only be assigned to and determines when "
 "the pipeline has been changed. Therefore, if one does::"
 msgstr "これは ``Event`` Traitで、パイプラインがいつ変更されたかを割り当てることができます。そのため、次のことを行うとします。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:300
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:300
 msgid ""
 "then the ``pipeline_changed`` event is fired. Objects downstream of "
 "``object`` in the pipeline are automatically setup to listen to events from "
@@ -518,58 +518,58 @@ msgstr ""
 "の下流にあるオブジェクトは、上流のオブジェクトからのイベントを受信するように自動的に設定され、 ``update_pipeline`` "
 "メソッドを呼び出します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:306
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:306
 msgid "``data_changed``"
 msgstr "``data_changed``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:306
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:306
 msgid ""
 "Similarly, if the ``data_changed`` event is fired then downstream objects "
 "will automatically call their ``update_data`` methods."
 msgstr ""
 "同様に、 ``data_changed`` イベントが発生すると、下流のオブジェクトは自動的に ``update_data`` メソッドを呼び出します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:310
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:310
 msgid "a list of outputs produced by the object."
 msgstr "オブジェクトによって生成された出力のリスト。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:312
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:312
 msgid "the scene to which the object is attached."
 msgstr "オブジェクトがアタッチされているシーン。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:314
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:314
 msgid "``visible``"
 msgstr "``visible``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:314
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:314
 msgid ""
 "a boolean that toggle the Hide/Show status of the object and its downstream "
 "pipeline."
 msgstr "オブジェクトとその下流パイプラインの非表示/表示ステータスを切り替えるブール値。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:321
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:321
 msgid "``remove()``"
 msgstr "``remove()``"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:321
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:321
 msgid "can be used to remove the object (if added) from the mayavi pipeline."
 msgstr "を使用して、mayaviパイプラインから(追加されている場合)オブジェクトを削除できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:327
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:327
 msgid "API reference for the :class:`PipelineBase` class."
 msgstr ":class:`PipelineBase` クラスのAPIリファレンスです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:330
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:330
 msgid "Class hierarchy"
 msgstr "クラス階層"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:332
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:332
 msgid ""
 "The following figures show the class hierarchy of the various objects "
 "involved."
 msgstr "次の図は、関連するさまざまなオブジェクトのクラス階層を示しています。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:339
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:339
 msgid ""
 "*This hierarchy depicts the ``Base`` object, the ``Scene``, ``PipelineBase``"
 " and the ``ModuleManager``.*"
@@ -577,7 +577,7 @@ msgstr ""
 "*この階層は、 ``Base`` オブジェクト、 ``Scene`` 、``PipelineBase``  、および ``ModuleManager``"
 " を表します。*"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mayavi_objects.rst:346
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:346
 msgid ""
 "*This hierarchy depicts the ``PipelineBase`` object, the ``Source``, "
 "``Filter``, ``Module`` and the ``Component``.*"

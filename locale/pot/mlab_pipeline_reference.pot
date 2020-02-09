@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 09:51+0000\n"
+"POT-Creation-Date: 2020-02-09 10:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,14 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_pipeline_reference.rst:4
+#: ../../mayavi/docs/source/mayavi/mlab_pipeline_reference.rst:4
 msgid "Mlab pipeline-control reference"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_pipeline_reference.rst:8
+#: ../../mayavi/docs/source/mayavi/mlab_pipeline_reference.rst:8
 msgid "Reference list of all the main functions of ``pipeline`` sub module of ``mlab``. You can access these functions using::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_pipeline_reference.rst:14
+#: ../../mayavi/docs/source/mayavi/mlab_pipeline_reference.rst:14
 msgid "These functions can be used for finer control of the Mayavi pipeline than the main mlab interface. For usage examples, see :ref:`controlling-the-pipeline-with-mlab-scripts`."
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 09:51+0000\n"
+"POT-Creation-Date: 2020-02-09 10:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,22 +16,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_use.rst:7
+#: ../../mayavi/docs/source/mayavi/advanced_use.rst:7
 msgid "Advanced use of Mayavi"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_use.rst:11
+#: ../../mayavi/docs/source/mayavi/advanced_use.rst:11
 msgid "This section gives details on the working principles of Mayavi. Read it to gain a better understanding, in order to use Mayavi's full power."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_use.rst:14
+#: ../../mayavi/docs/source/mayavi/advanced_use.rst:14
 msgid "First we describe the organisation of the pipeline that defines a Mayavi visualization."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_use.rst:17
+#: ../../mayavi/docs/source/mayavi/advanced_use.rst:17
 msgid "Second we describe data structures, how they are defined and how you can build them. This information is useful for a better understanding of how to build efficient pipelines."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/advanced_use.rst:21
+#: ../../mayavi/docs/source/mayavi/advanced_use.rst:21
 msgid "Finally we describe the object-oriented structure behind Mayavi and the pipeline. This information opens the door to advanced scripting of the Mayavi application, and is especially useful if you whish to develop custom tools with Mayavi."
 msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 09:51+0000\n"
+"POT-Creation-Date: 2020-02-09 10:21+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_parametric_surface.rst:4
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:4
 msgid "Parametric surfaces: a simple introduction to visualization"
 msgstr "パラメトリックサーフェス:視覚化の簡単な概要"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_parametric_surface.rst:6
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:6
 msgid ""
 "Parametric surfaces are particularly handy if you are unable to find any "
 "data to play with right away.  Parametric surfaces are surfaces parametrized"
@@ -38,7 +38,7 @@ msgstr ""
 "パラメトリックサーフェスは、すぐに再生できるデータが見つからない場合に特に便利です。パラメトリック・サーフェスは、通常2つの変数によってパラメータ化されたサーフェスです。uとvのVTKには、ユーザーがパラメトリック・サーフェスを探索できる多数のクラスがあります。この機能はMayaviでも使用できます。データは、3Dに埋め込まれた2Dサーフェスです。サーフェス上でスカラーデータも使用できます。VTKにおけるパラメトリックサーフェスの詳細については、Andrew"
 " Macleanの `Parametric Surfaces`_ を参照してください。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_parametric_surface.rst:15
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:15
 msgid ""
 "After starting mayavi2, create a simple Parametric surface source by "
 "selecting `File->Load data->Create Parametric Surface source`. Once you "
@@ -51,13 +51,13 @@ msgstr ""
 "を選択して、簡単なパラメトリックサーフェスソースを作成します。データを作成すると、左側のMayaviツリービューに "
 "`ParametricSurface` という新しいノードが表示されます。TVTKシーンにはまだ何も表示されません。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_parametric_surface.rst:21
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:21
 msgid ""
 "You can modify the nature of the parametric surface by clicking on the node "
 "for the `ParametricSurface` source object."
 msgstr "`ParametricSurface` ソースオブジェクトのノードをクリックすると、パラメトリックサーフェスの特性を変更できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_parametric_surface.rst:24
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:24
 msgid ""
 "To see an outline (a box) of the data, navigate to the `Visualize->Modules` "
 "menu item and select the `Outline` module. You can also right-click on the "
@@ -71,7 +71,7 @@ msgstr ""
 "Module->Surface` を選択することもできます。TVTKシーンにワイヤフレーム立方体が表示されます。ツリービューには、 `Colors "
 "and legends` とその下にある `Outline` という2つの新しいノードも表示されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_parametric_surface.rst:32
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:32
 msgid ""
 "You can change properties of the outline displayed by clicking on the "
 "`Outline` node on the left.  This will create an object editor window on "
@@ -84,7 +84,7 @@ msgstr ""
 "左側の `Outline` "
 "ノードをクリックすると、表示されるアウトラインのプロパティを変更できます。これにより、ウィンドウの左下(オブジェクトエディタタブ)のツリー表示の下にオブジェクトエディタウィンドウが作成されます。ここで設定を再生し、結果を確認します。たとえば、アウトラインボックスの色を変更するには、色フィールドの値を変更します。左側のノードをダブルクリックすると、埋め込みオブジェクトエディタではなくエディタダイアログがポップアップ表示されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_parametric_surface.rst:41
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:41
 msgid ""
 "To navigate the scene look at the section on :ref:`interaction-with-the-"
 "scene` section for more details.  Experiment with these."
@@ -92,7 +92,7 @@ msgstr ""
 "シーンをナビゲートするには、 :ref:`interaction-with-the-scene` "
 "セクションの詳細を参照してください。これらを試してみてください。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_parametric_surface.rst:45
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:45
 msgid ""
 "To view the actual surface create a `Surface` module by selecting "
 "`Visualize->Modules->Surface`.  You can show contours of the scalar data on "
@@ -103,7 +103,7 @@ msgstr ""
 "モジュールを作成します。左側の `Surface` ノードをクリックして `Enable contours` "
 "チェックボックスをオンにすると、このサーフェス上にスカラーデータのコンターを表示できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_parametric_surface.rst:50
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:50
 msgid ""
 "To view the color legend (used to map scalar values to colors), click on the"
 " `Modules` node on the tree view. Then, on the 'Scalar LUT' tab, activate "
@@ -117,7 +117,7 @@ msgstr ""
 "LUT' タブで、 `Show scalar bar` "
 "チェックボックスをオンにします。これにより、TVTKシーンの凡例が表示されます。凡例は、クリックしてドラッグすることで、シーン上で移動できます。エッジをクリックアンドドラッグしてサイズを変更することもできます。オブジェクト・エディタで異なる参照表を選択して、カラー・マッピングの性質を変更できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_parametric_surface.rst:59
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:59
 msgid ""
 "You can add as many modules as you like.  Not all modules make sense for all"
 " data.  Mayavi does not yet grey out (or disable) menu items and options if "
@@ -127,7 +127,7 @@ msgid ""
 msgstr ""
 "モジュールはいくつでも追加できます。すべてのモジュールがすべてのデータに適しているわけではありません。選択した特定のデータで無効な場合、Mayaviは(または無効にする)メニュー項目とオプションをまだグレー表示しません。これは将来導入される予定です。しかし、ミスをしても一般的に悲惨なことにはならないので、試してみてください。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_parametric_surface.rst:66
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:66
 msgid ""
 "You may add as many data sources as you like.  It is possible to view two "
 "different parametric surfaces on the same scene by selecting the scene node "
@@ -138,7 +138,7 @@ msgid ""
 msgstr ""
 "データソースはいくつでも追加できます。シーンノードを選択して別のパラメトリックサーフェスソースをロードすると、同じシーンに2つの異なるパラメトリックサーフェスを表示できます。これが理にかなっているかどうかはユーザー次第だ。また、必要な数のシーンを作成し、その中のすべてを表示することもできます。ツリー・ビューの任意のノード間で、右クリック・オプションを使用してソースおよびモジュールを切り取り/貼り付け/コピーできます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_parametric_surface.rst:74
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:74
 msgid ""
 "To delete the `Outline` module say, right click on the `Outline` node and "
 "select the Delete option.  You may also want to experiment with the other "
@@ -147,14 +147,14 @@ msgstr ""
 "たとえば、 `Outline` モジュールを削除するには、  `Outline` "
 "ノードを右クリックし、Deleteオプションを選択します。他のオプションを試してみることもできます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_parametric_surface.rst:78
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:78
 msgid ""
 "You can save the rendered visualization to a variety of file formats using "
 "the `File->Save Scene As` menu."
 msgstr ""
 "`File->Save Scene As` メニューを使用して、レンダリングしたビジュアライゼーションをさまざまなファイル形式で保存できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_parametric_surface.rst:81
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:81
 msgid ""
 "The visualization may itself be saved out to a file via the `File->Save "
 "Visualization` menu and reloaded using the `Load visualization` menu."
@@ -162,7 +162,7 @@ msgstr ""
 "ビジュアリゼーションは、  `File->Save Visualization` メニューを使用してファイルに保存し、  `Load "
 "visualization` メニューを使用して再ロードできます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/example_parametric_surface.rst:85
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:85
 msgid ""
 "Shown below is example visualization made using the parametric source.  Note"
 " that the positioning of the different surfaces were effected by moving the "

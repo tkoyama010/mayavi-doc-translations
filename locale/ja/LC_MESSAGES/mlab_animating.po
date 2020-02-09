@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 09:51+0000\n"
+"POT-Creation-Date: 2020-02-09 10:21+0000\n"
 "PO-Revision-Date: 2019-04-27 07:31+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_animating.rst:5
+#: ../../mayavi/docs/source/mayavi/mlab_animating.rst:5
 msgid "Animating the data"
 msgstr "データのアニメート"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_animating.rst:7
+#: ../../mayavi/docs/source/mayavi/mlab_animating.rst:7
 msgid ""
 "Often it isn't sufficient to just plot the data.  You may also want to "
 "change the data of the plot and update the plot without having to recreate "
@@ -39,7 +39,7 @@ msgstr ""
 "多くの場合、データをプロットするだけでは十分ではありません。また、プロットのデータを変更してプロットを更新しても、アニメーションを実行したり、インタラクティブアプリケーションで表示全体を再作成する必要はありません。実際、視覚化全体を再作成するのは非常に非効率的で、アニメーションがぎこちなくなります。そのために、mlabは既存のmlab可視化のデータを変更する非常に便利な方法を提供します。非常に単純な例を考えてみましょう。"
 " `mlab.test_simple_surf_anim` 関数には次のコードがあります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_animating.rst:24
+#: ../../mayavi/docs/source/mayavi/mlab_animating.rst:24
 msgid ""
 "The first two lines define a simple plane and view that.  The next three "
 "lines animate that data by changing the scalars producing a plane that "
@@ -52,13 +52,13 @@ msgstr ""
 " `s` オブジェクトには `mlab_source` "
 "という特別な属性があることです。このサブオブジェクトを使用すると、ポイントとスカラを操作できます。 `x` の値を変更する場合は、次のように設定します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_animating.rst:33
+#: ../../mayavi/docs/source/mayavi/mlab_animating.rst:33
 msgid ""
 "The only thing to keep in mind here is that the shape of `x` should not be "
 "changed."
 msgstr "ここで気をつけなければならないのは、 `x` の形を変えてはならないということです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_animating.rst:36
+#: ../../mayavi/docs/source/mayavi/mlab_animating.rst:36
 msgid ""
 "Note that many of the examples discussed here may not appear to be animated "
 "at all and you may just see the final state of the animation. If you save a "
@@ -73,20 +73,20 @@ msgstr ""
 ":ref:`animating_a_visualization` "
 "を参照してください。ここでは簡単な例を示しています。ここでは、うまくアニメートするために上記のコードを書き換えます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_animating.rst:61
+#: ../../mayavi/docs/source/mayavi/mlab_animating.rst:61
 msgid ""
 "In the above, note that we wrap the iteration in a function which is a "
 "generator and decorate it with the `@mlab.animate` decorator."
 msgstr "上記の例では、繰り返しをジェネレーターである関数でラップし、それを `@mlab.animate` デコレーターで修飾しています。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_animating.rst:64
+#: ../../mayavi/docs/source/mayavi/mlab_animating.rst:64
 msgid ""
 "If multiple values have to be changed, you can use the `set` method of the "
 "`mlab_source` to set them as shown in the more complicated example below::"
 msgstr ""
 "複数の値を変更する必要がある場合は、 `mlab_source` の `set` メソッドを使用して、次の例のようにより複雑に値を設定できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_animating.rst:89
+#: ../../mayavi/docs/source/mayavi/mlab_animating.rst:89
 msgid ""
 "Notice the use of the `set` method above. With this method, the "
 "visualization is recomputed only once.  In this case, the shape of the new "
@@ -97,7 +97,7 @@ msgstr ""
 "メソッドの使用に注意してください。この方法では、視覚化は1回だけ再計算されます。この場合、新しい配列のシェイプは変更されず、値だけが変更されます。配列の形状が変化した場合、以下のように"
 " `reset` メソッドを使用する必要があります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_animating.rst:106
+#: ../../mayavi/docs/source/mayavi/mlab_animating.rst:106
 msgid ""
 "Many standard examples for animating data are provided with mlab.  Try the "
 "examples with the name `mlab.test_<name>_anim`, i.e. where the name ends "
@@ -106,7 +106,7 @@ msgstr ""
 "mlabには、データのアニメーション化に関する多くの標準的な例が用意されています。 `mlab.test_<name>_anim` "
 "という名前のサンプルを試してみてください。つまり名前の最後が `_anim` である、これらがどのように動作し実行されるかを確認します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_animating.rst:114
+#: ../../mayavi/docs/source/mayavi/mlab_animating.rst:114
 msgid ""
 "It is important to remember distinction between `set` and `reset`. Use `set`"
 " or directly set the attributes (`x`, `y`, `scalars` etc.) when you are not "
@@ -119,7 +119,7 @@ msgstr ""
 "`y`, `scalars` など)を直接設定します。配列の形や大きさが変わってきたら `reset` "
 "を使います。Resetは通常、すべてのデータを再生成し、 `set` やtraitを直接設定する場合に比べて非効率です。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_animating.rst:123
+#: ../../mayavi/docs/source/mayavi/mlab_animating.rst:123
 msgid ""
 "When creating a Mayavi pipeline, as explained in the following subsection, "
 "instead of using ready-made plotting function, the `mlab_source` attribute "
@@ -129,7 +129,7 @@ msgstr ""
 "Mayaviパイプラインを作成する場合、以下のサブセクションで説明するように、既製のプロット関数を使用する代わりに、  `mlab_source` "
 "属性が  `mlab` によって作成されたソース上にのみ作成されます。`mlab` を使用してパイプライン全体を作成すると、この属性が表示されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/mlab_animating.rst:131
+#: ../../mayavi/docs/source/mayavi/mlab_animating.rst:131
 msgid ""
 "If you are animating several plot objects, each time you modify the data "
 "with there `mlab_source` attribute, Mayavi will trigger a refresh of the "

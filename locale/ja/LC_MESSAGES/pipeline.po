@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 09:51+0000\n"
+"POT-Creation-Date: 2020-02-09 10:21+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -21,15 +21,15 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:5
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:5
 msgid "Organisation of Mayavi visualizations: the pipeline"
 msgstr "Mayaviの視覚化の構成:パイプライン"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rstNone
+#: ../../mayavi/docs/source/mayavi/pipeline.rstNone
 msgid "Mayavi and VTK pipelines"
 msgstr "MayaviおよびVTKパイプライン"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:9
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:9
 msgid ""
 "Mayavi uses `VTK <http://www.vtk.org>`_ for all its visualization needs. A "
 "pipeline concept underlies all the visualization in VTK. However, it is "
@@ -42,15 +42,15 @@ msgstr ""
 "Mayaviは、視覚化に必要なすべてのものに `VTK <http://www.vtk.org>`_ "
 "を使用します。パイプラインの概念は、VTKのすべてのビジュアライゼーションの基礎となっています。ただし、Mayaviで使用されるパイプラインは、ビジュアライゼーションを作成するVTKパイプラインに対応していないことに注意してください。レイアウトが異なり、オブジェクトが同じではなく、VTKパイプラインにはより多くのノードがあります。2つのパイプラインにはいくつかの類似点がありますが、このセクションではMayaviパイプラインについてのみ説明します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:18
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:18
 msgid "Anatomy of a Mayavi pipeline"
 msgstr "Mayaviパイプラインの解剖図"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:21
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:21
 msgid "Layout of a pipeline"
 msgstr "パイプラインのレイアウト"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:23
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:23
 msgid ""
 "The top node of a Mayavi pipeline is called the `Engine`. It is responsible "
 "of the creation and destruction of the scenes. It is not displayed in the "
@@ -58,22 +58,22 @@ msgid ""
 msgstr ""
 "Mayaviパイプラインのトップノードは `Engine` と呼ばれます。それは場面の創造と破壊に責任があります。パイプラインビューには表示されません。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:27
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:27
 msgid "Below the `Engine`, you find `Scenes`."
 msgstr "`Engine` の下には `Scenes` があります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:29
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:29
 msgid ""
 "Each `Scene` has a set of data `Sources`: they expose the data to visualize "
 "to Mayavi."
 msgstr "各 `Scene` には `Sources` データのセットがあり、Mayaviに可視化するためにデータを公開します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:32
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:32
 msgid ""
 "`Filters` can be applied to the `Sources` to transform the data they wrap."
 msgstr "`Filters` を `Sources` に適用して、ラップするデータを変換できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:35
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:35
 msgid ""
 "A `Module Manager` controls the colors used to represent the scalar or "
 "vector data. It is represented in the pipeline view as the node called "
@@ -82,17 +82,17 @@ msgstr ""
 "`Module Manager` は、スカラーまたはベクトルデータを表すために使用される色を制御する。パイプラインビューでは `Colors and "
 "legends` というノードとして表示されます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:39
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:39
 msgid ""
 "Visualization `Modules` finally display a reprensation of the data in the "
 "Scene, such as a surface, or lines."
 msgstr "視覚化 `Modules` は、最終的に、サーフェスやラインなどのScene内のデータの再調整を表示します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:43
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:43
 msgid "Navigating in the pipeline"
 msgstr "パイプラインでのナビゲーション"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:45
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:45
 msgid ""
 "Each object in the pipeline has a `parent` attribute that points to its "
 "parent in the pipeline, as well as a `children` attribute, giving the list "
@@ -105,7 +105,7 @@ msgstr ""
 "属性があります。オブジェクトの `name` アトリビュートは、パイプラインビューに表示されるノードの名前を指定します。このオブジェクトの "
 "`edit_traits()` メソッドを呼び出すことにより、オブジェクトのプロパティをグラフィックに変更する編集ダイアログを表示することができます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:52
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:52
 msgid ""
 "In addition, Mayavi pipeline objects can only be in one scene, and their "
 "`.scene` attribute point to this scene (see the :ref:`example_volume_slicer`"
@@ -115,18 +115,18 @@ msgstr ""
 "アトリビュートはこのシーンをポイントします(シーン間でデータを共有する方法の例については、 :ref:`example_volume_slicer` "
 "を参照してください。)。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:58
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:58
 msgid "The link between different Mayavi entry points"
 msgstr "異なるMayaviエントリポイント間のリンク"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:60
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:60
 msgid ""
 "Every visualization created in Mayavi is constructed with a pipeline, "
 "although the construction of the pipeline may be hidden from the user:"
 msgstr ""
 "Mayaviで作成されるすべてのビジュアリゼーションはパイプラインを使用して構築されますが、パイプラインの構築はユーザには見えない場合があります。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:63
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:63
 msgid ""
 "The easiest way to make a Mayavi visualization is to create a pipeline via "
 "the user interface, as, for instance, exposed in the :ref:`Parametric "
@@ -135,7 +135,7 @@ msgstr ""
 "Mayaviを視覚化する最も簡単な方法は、たとえば、 :ref:`Parametric surfaces examples "
 "<parametric_surfaces_example>` に公開されているユーザインタフェースを使用してパイプラインを作成することです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:67
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:67
 msgid ""
 "The :ref:`mlab 3d plotting functions <mlab_plotting_functions>`, create full"
 " piplelines, comprising sources, modules, and possibly filters, to visualize"
@@ -146,7 +146,7 @@ msgstr ""
 "numpy配列を視覚化するために、ソース、モジュール、場合によってはフィルタで構成される完全なパイプラインを作成します。 :ref:`pipeline "
 "view <mlab-changing-objects-interactively>`  を表示すると、作成されたパイプラインを簡単に理解できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:73
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:73
 msgid ""
 "Pipelines can also be built node-by-node with mlab, using the "
 ":ref:`mlab.pipeline functions<controlling-the-pipeline-with-mlab-scripts>`. "
@@ -157,7 +157,7 @@ msgstr ""
 "scripts>` "
 "を使ったmlabを使用してノード単位で構築することもできます。パイプライン機能。呼び出す関数の名前は、パイプラインビューに表示されるパイプラインノードの名前から推測できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:79
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:79
 msgid ""
 "The objects composing a pipeline can be instantiated and added to the "
 "pipeline manually, as exposed :ref:`further below "
@@ -166,17 +166,17 @@ msgstr ""
 "パイプラインを構成するオブジェクトをインスタンス化し、公開された :ref:`further below "
 "<oo_construction_visualization>` として手動でパイプラインに追加できます。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:85
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:85
 msgid "A pipeline example examined"
 msgstr "調査したパイプラインの例"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:87
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:87
 msgid ""
 "Let us study the pipeline created by the `mlab.plot3d` function to represent"
 " lines::"
 msgstr "`mlab.plot3d` によって作成されたパイプラインを調べてみましょう。線を表す関数:"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:102
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:102
 msgid ""
 "The `mlab.plot3d` function first creates a source made of points connected "
 "by lines. Then it applies the `Stripper` filter, which transforms this "
@@ -190,23 +190,23 @@ msgstr ""
 "モジュールを適用してチューブのサーフェスを表示します。 `mlab.plot3d` 関数によって返される `surface` オブジェクトはその最後の "
 "`Surface` モジュールです。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:110
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:110
 msgid ""
 "Let us have a look at the data in the pipeline before the tube filter was "
 "applied. First we retrive the `Stripper` filter::"
 msgstr "チューブフィルタを適用する前のパイプラインのデータを見てみましょう。まず、 `Stripper` フィルタを取得します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:115
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:115
 msgid "Then we apply on it a `Surface` module to represent the `strip`::"
 msgstr "次に、  `strip` を表す `Surface` モジュールを適用します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:122
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:122
 msgid ""
 "All the properties of the different steps can be adjusted in the pipeline "
 "view. In addition, they correspond to attributes on the various objects::"
 msgstr "異なるステップのすべてのプロパティをパイプラインビューで調整できます。さらに、これらはさまざまなオブジェクトのアトリビュートに対応します。"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/pipeline.rst:129
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:129
 msgid ""
 "The names in the dialogs of the various properties gives hints to which "
 "attributes in the objects they correspond to. However, it can be fairly "

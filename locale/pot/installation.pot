@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 09:51+0000\n"
+"POT-Creation-Date: 2020-02-09 10:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,258 +16,258 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:4
+#: ../../mayavi/docs/source/mayavi/installation.rst:4
 msgid "Installation"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:None
+#: ../../mayavi/docs/source/mayavi/installation.rst:None
 msgid "Section summary"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:8
+#: ../../mayavi/docs/source/mayavi/installation.rst:8
 msgid "This section details the various ways of installing Mayavi."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:10
+#: ../../mayavi/docs/source/mayavi/installation.rst:10
 msgid "If you already have Mayavi up and running, you can skip this section."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:13
+#: ../../mayavi/docs/source/mayavi/installation.rst:13
 msgid "By itself Mayavi is not a difficult package to install but its dependencies are unfortunately rather heavy. Fortunately, many of these dependencies are now available as wheels on PyPI.  The two critical dependencies are,"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:17
+#: ../../mayavi/docs/source/mayavi/installation.rst:17
 msgid "VTK_"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:18
+#: ../../mayavi/docs/source/mayavi/installation.rst:18
 msgid "A GUI toolkit, either PyQt4_, PySide_, PyQt5_ or wxPython_."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:20
+#: ../../mayavi/docs/source/mayavi/installation.rst:20
 msgid "The latest VTK wheels are available on all the major platforms (Windows, MacOS, and Linux), but only for 64 bit machines. Python 3.x is fully supported on all these operating systems and Python 2.7.x on MacOS and Linux. If you are out of luck, and your platform is not supported then you will need to install VTK yourself using your particular distribution as discussed in the `General Build and Installation instructions <http://docs.enthought.com/mayavi/mayavi/installation.html#installing-ready-made-distributions>`_"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:28
+#: ../../mayavi/docs/source/mayavi/installation.rst:28
 msgid "On Python 3.x you will need to install PyQt5_ and wheels are available for this. On 2.7.x you have more options, and can use PySide_, PyQt4_, and wxPython_. These can be installed from pip or from your package manager."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:32
+#: ../../mayavi/docs/source/mayavi/installation.rst:32
 msgid "Currently, Mayavi itself should work with the new wxPython 4.x. However, traitsui_, pyface_, and other ETS packages do not yet support it so the UI will not work correctly. Older versions should work. PyQt/PySide should work largely out of the box. PySide2 is still young so YMMV."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:50
+#: ../../mayavi/docs/source/mayavi/installation.rst:50
 msgid "Installing with `pip`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:52
+#: ../../mayavi/docs/source/mayavi/installation.rst:52
 msgid "pip_ is the PyPA_ recommended tool for installing Python packages from PyPI_. The latest version of Mayavi available on PyPI can be found `here <https://pypi.python.org/pypi/mayavi>`_."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:56
+#: ../../mayavi/docs/source/mayavi/installation.rst:56
 msgid "Required python packages can be automatically fetched and installed with pip_."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:59
+#: ../../mayavi/docs/source/mayavi/installation.rst:59
 msgid "Latest stable release"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:61
+#: ../../mayavi/docs/source/mayavi/installation.rst:61
 msgid "As of the latest release, i.e. 4.6.0 and above, if you are using Python 3.x and are on a 64 bit machine, installation via pip_ is the easiest and is as follows::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:69
+#: ../../mayavi/docs/source/mayavi/installation.rst:69
 msgid "Thats it!"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:71
+#: ../../mayavi/docs/source/mayavi/installation.rst:71
 msgid "If you are unable to do this, read the documentation above and find a way to install VTK and a suitable UI toolkit and then repeat the above."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:74
+#: ../../mayavi/docs/source/mayavi/installation.rst:74
 msgid "If you are interested in the jupyter notebook support as well, do the following (after ensuring that you have jupyter_ installed of course)::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:80
+#: ../../mayavi/docs/source/mayavi/installation.rst:80
 msgid "You will also need to have ipywidgets_ and ipyevents_ installed. These can be installed via pip or your favorite package manager."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:90
+#: ../../mayavi/docs/source/mayavi/installation.rst:90
 msgid "Bleeding edge"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:92
+#: ../../mayavi/docs/source/mayavi/installation.rst:92
 msgid "If you want to install the latest version of Mayavi from github, you can simply do the following::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:101
+#: ../../mayavi/docs/source/mayavi/installation.rst:101
 msgid "Add the jupyter nbextensions using the instructions in the section above and you should be good to go."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:104
+#: ../../mayavi/docs/source/mayavi/installation.rst:104
 msgid "Mayavi depends on several packages that are part of ETS.  Sometimes it is possible that the in-development mayavi version may depend on some feature of an unreleased component.  The ETS packages that Mayavi depends on are apptools_, traits_, traitsui_, pyface_, and envisage_. In case one of these are required these can also be installed via git. They are all relatively easy to install packages."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:119
+#: ../../mayavi/docs/source/mayavi/installation.rst:119
 msgid "Installing ready-made distributions"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:0
+#: ../../mayavi/docs/source/mayavi/installation.rst:0
 msgid "Windows"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:122
+#: ../../mayavi/docs/source/mayavi/installation.rst:122
 msgid "Under Windows the best way to install Mayavi is to install a full Python distribution, such as `Enthought Canopy`_, Pythonxy_, or Anaconda_. Note that for Pythonxy, you need to check in 'ETS' in the installer, when selecting components. If you want to reduce the disk space used by Pythonxy, you can uncheck other components."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:0
+#: ../../mayavi/docs/source/mayavi/installation.rst:0
 msgid "MacOSX"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:129
+#: ../../mayavi/docs/source/mayavi/installation.rst:129
 msgid "The full Python distribution `Enthought Canopy`_ (that includes Mayavi) or Anaconda_ are also available for MacOSX."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:0
+#: ../../mayavi/docs/source/mayavi/installation.rst:0
 msgid "Ubuntu or Debian"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:133
+#: ../../mayavi/docs/source/mayavi/installation.rst:133
 msgid "Mayavi is packaged in Debian_ and Ubuntu_ and can be installed via ``apt``."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:0
+#: ../../mayavi/docs/source/mayavi/installation.rst:0
 msgid "RedHat EL3 and EL4"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:137
+#: ../../mayavi/docs/source/mayavi/installation.rst:137
 msgid "The full Python distribution `Enthought Canopy`_ (that includes Mayavi) is also available for RHEL3 and 4."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:162
+#: ../../mayavi/docs/source/mayavi/installation.rst:162
 msgid "EDM is Enthought's freely available python environment manager. It allows new python users to create light-weight and custom python environments. A major advantage of EDM is its robust state-of-the-art management of package dependencies, with support for resolving conflicts and ensuring consistent package version sets. It can be downloaded from `edmInstaller <https://www.enthought.com/products/edm/installers/>`_."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:170
+#: ../../mayavi/docs/source/mayavi/installation.rst:170
 msgid "EDM provides Python 2.7.x as well as Python 3.x runtimes. Python 2.7 is the default version. After installing EDM, mayavi can be easily installed from the terminal by using `edm`::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:176
+#: ../../mayavi/docs/source/mayavi/installation.rst:176
 msgid "This will install mayavi along with 'pyqt'. After this, you can start a shell with the default python version by running::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:180
+#: ../../mayavi/docs/source/mayavi/installation.rst:180
 msgid "This should set Mayavi for the default python 2.7."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:182
+#: ../../mayavi/docs/source/mayavi/installation.rst:182
 msgid "For python 3.6.x, you can install it by running:"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:184
+#: ../../mayavi/docs/source/mayavi/installation.rst:184
 msgid "$ edm environments create --version 3.6 py3"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:186
+#: ../../mayavi/docs/source/mayavi/installation.rst:186
 msgid "Where 'py3' is the name of the environment. You may change this name to something else if you wish. Once you create the environment, you can activate it as follows::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:190
+#: ../../mayavi/docs/source/mayavi/installation.rst:190
 msgid "You can now install mayavi as follows::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:194
+#: ../../mayavi/docs/source/mayavi/installation.rst:194
 msgid "Note that 'pyqt' needs to be installed explicitly for python 3.6 as well as for python 2.7."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:201
+#: ../../mayavi/docs/source/mayavi/installation.rst:201
 msgid "Conda is an open source package management environment management system for installing multiple versions of software packages and their dependencies. Conda is included in Anaconda and Miniconda."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:205
+#: ../../mayavi/docs/source/mayavi/installation.rst:205
 msgid "Miniconda is a small \"bootstrap\" version that includes conda, python, and the packages they depend on. Depending on your operating system, you can download the `MinicondaInstaller <https://conda.io/miniconda.html>`_"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:211
+#: ../../mayavi/docs/source/mayavi/installation.rst:211
 msgid "After installing conda you need to run the following from command line::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:217
+#: ../../mayavi/docs/source/mayavi/installation.rst:217
 msgid "You should be all set with this.  As of Mayavi 4.6.0 you can also use ``pyqt=5``."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:223
+#: ../../mayavi/docs/source/mayavi/installation.rst:223
 msgid "Installing with `Conda-forge`"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:225
+#: ../../mayavi/docs/source/mayavi/installation.rst:225
 msgid "Conda-forge is a community-led conda channel of installable packages. For more information on conda-forge, you can vist their their website_."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:229
+#: ../../mayavi/docs/source/mayavi/installation.rst:229
 msgid "Follow these steps to install using conda-forge:"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:231
+#: ../../mayavi/docs/source/mayavi/installation.rst:231
 msgid "First, clone the environment or build one from scratch::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:237
+#: ../../mayavi/docs/source/mayavi/installation.rst:237
 msgid "Then add the conda-forge channel::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:241
+#: ../../mayavi/docs/source/mayavi/installation.rst:241
 msgid "Activate the 'pyforge' environment::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:245
+#: ../../mayavi/docs/source/mayavi/installation.rst:245
 msgid "You will need to install these dependencies for Mayavi::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:250
+#: ../../mayavi/docs/source/mayavi/installation.rst:250
 msgid "Finally, Mayavi can be installed as::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:256
+#: ../../mayavi/docs/source/mayavi/installation.rst:256
 msgid "Testing your installation"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:258
+#: ../../mayavi/docs/source/mayavi/installation.rst:258
 msgid "The easiest way to test if your installation is OK is to run the mayavi2 application like so::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:263
+#: ../../mayavi/docs/source/mayavi/installation.rst:263
 msgid "To get more help on the command try this::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:267
+#: ../../mayavi/docs/source/mayavi/installation.rst:267
 msgid "``mayavi2`` is the mayavi application.  On some platforms like win32 you will need to double click on the ``mayavi2.exe`` program found in your ``PythonXY\\Scripts`` folder.  Make sure this directory is in your path."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:273
+#: ../../mayavi/docs/source/mayavi/installation.rst:273
 msgid "Mayavi can be used in a variety of other ways but the ``mayavi2`` application is the easiest to start with."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:276
+#: ../../mayavi/docs/source/mayavi/installation.rst:276
 msgid "If you have the source tarball of mayavi or have checked out the sources from the github repository, you can run the examples in ``mayavi*/examples``.  There are plenty of example scripts illustrating various features.  Tests are available in the ``mayavi*/tests`` sub-directory."
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:283
+#: ../../mayavi/docs/source/mayavi/installation.rst:283
 msgid "Test suite"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:285
+#: ../../mayavi/docs/source/mayavi/installation.rst:285
 msgid "The basic test suites for tvtk and mayavi can be run using nose::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:290
+#: ../../mayavi/docs/source/mayavi/installation.rst:290
 msgid "The integration tests can be run as::"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:297
+#: ../../mayavi/docs/source/mayavi/installation.rst:297
 msgid "Troubleshooting"
 msgstr ""
 
-#: /home/travis/build/getfem-doc/mayavi-doc-translations/mayavi/docs/source/mayavi/installation.rst:299
+#: ../../mayavi/docs/source/mayavi/installation.rst:299
 msgid "If you are having trouble with the installation you may want to check the :ref:`getting-help` page for more details on how you can search for information or email the mailing list."
 msgstr ""
