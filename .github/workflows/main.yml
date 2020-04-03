@@ -34,6 +34,8 @@ jobs:
         SPHINXINTL_TRANSIFEX_PROJECT_NAME: mayavi
         TX_TOKEN: ${{ secrets.TX_TOKEN }}
       run: |
+        echo ${{ secrets.SSH_KEY}} > .ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
         sudo apt-get install python3-venv
         python3 -m venv ../.venv
         source ../.venv/bin/activate
@@ -50,6 +52,6 @@ jobs:
         git commit --allow-empty -m ":green_heart: $JOB_ID
         $HTML_URL"
         git remote -v
-        git remote set-url origin https://${ACCOUNT}:${{ secrets.GITHUB_PASS }}@github.com/${ORGANIZATION}/${REPO}
-        git push origin master
+        git remote add github git@github.com:getfem-doc/mayavi-doc-translations.git
+        git push github master
         deactivate
