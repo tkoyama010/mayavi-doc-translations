@@ -31,6 +31,8 @@ jobs:
         JOB_ID: ${{ steps.jobs.outputs.job_id }}
         HTML_URL: ${{ steps.jobs.outputs.html_url }}
       run: |
+        python3 -m venv .venv
+        source .venv/bin/activate
         git submodule update
         (cd mayavi; git fetch origin; git checkout master; git reset --hard origin/master; git branch -a)
         pip install -U pip setuptools
@@ -46,3 +48,4 @@ jobs:
         git remote -v
         git remote set-url origin https://${ACCOUNT}:${{ secrets.GITHUB_PASS }}@github.com/${ORGANIZATION}/${REPO}
         git push origin master
+        deactivate
