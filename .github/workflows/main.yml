@@ -35,8 +35,8 @@ jobs:
         TX_TOKEN: ${{ secrets.TX_TOKEN }}
       run: |
         sudo apt-get install python3-venv
-        python3 -m venv .venv
-        source .venv/bin/activate
+        python3 -m venv ../.venv
+        source ../.venv/bin/activate
         git submodule update
         (cd mayavi; git fetch origin; git checkout master; git reset --hard origin/master; git branch -a)
         pip install -U pip setuptools
