@@ -1,4 +1,4 @@
-name: sphinx-auto-update
+name: mayavi-auto-update
 on:
   schedule:
     - cron:  '0 0 * * *'
