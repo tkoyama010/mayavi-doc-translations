@@ -30,6 +30,8 @@ jobs:
         REPO: mayavi-doc-translations
         JOB_ID: ${{ steps.jobs.outputs.job_id }}
         HTML_URL: ${{ steps.jobs.outputs.html_url }}
+        SPHINXINTL_TRANSIFEX_USERNAME: api
+        SPHINXINTL_TRANSIFEX_PROJECT_NAME: mayavi
       run: |
         sudo apt-get install python3-venv
         python3 -m venv .venv
