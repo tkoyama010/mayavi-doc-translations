@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 10:21+0000\n"
+"POT-Creation-Date: 2020-04-03 16:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgid "The scalar information can also be displayed in many different ways. For 
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:46
-msgid "**A caveat: Clamping: relative or absolute scaling** Given six points positionned on a line with interpoint spacing 1::"
+msgid "**A caveat: Clamping: relative or absolute scaling** Given six points positioned on a line with interpoint spacing 1::"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:53

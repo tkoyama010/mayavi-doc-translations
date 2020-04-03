@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 10:21+0000\n"
+"POT-Creation-Date: 2020-04-03 16:12+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -476,8 +476,8 @@ msgstr "スカラー情報は、さまざまな方法で表示することもで
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:46
 msgid ""
 "**A caveat: Clamping: relative or absolute scaling** Given six points "
-"positionned on a line with interpoint spacing 1::"
-msgstr "**注意:クランプ:相対スケーリングまたは絶対スケーリング** ポイント間隔1のライン上に6つのポイントが配置されている場合:"
+"positioned on a line with interpoint spacing 1::"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:53
 msgid "If we represent a scalar varying from 0.5 to 1 on this dataset::"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 10:21+0000\n"
+"POT-Creation-Date: 2020-04-03 16:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3682,7 +3682,7 @@ msgid "The first step is to create a data source with two scalar datasets. The s
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_atomic_orbital.rst:24
-msgid "Creating a data source with two scalar datasets is actually slighlty tricky, as it requires some understanding of the layout of the datasets in TVTK. The reader is referred to :ref:`data-structures-used-by-mayavi` for more details."
+msgid "Creating a data source with two scalar datasets is actually slightly tricky, as it requires some understanding of the layout of the datasets in TVTK. The reader is referred to :ref:`data-structures-used-by-mayavi` for more details."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_atomic_orbital.rst:35
@@ -3754,7 +3754,7 @@ msgid "This example illustrates decimating a terrain. We use the greedy-terrain-
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_canyon_decimation.rst:15
-msgid "The initial grid is displayed in white, and the optimized grid is displayed in black, with the surface it creates. The initial grid can be seen disappearing as it goes under the surface of the approximated grid: although the decimated mesh follows closely the orginal, it is not exactly the same."
+msgid "The initial grid is displayed in white, and the optimized grid is displayed in black, with the surface it creates. The initial grid can be seen disappearing as it goes under the surface of the approximated grid: although the decimated mesh follows closely the original, it is not exactly the same."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_canyon_decimation.rst:21
@@ -3876,7 +3876,7 @@ msgid "Although the end user specifies colormaps by giving the name of a set of 
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_custom_colormap.rst:17
-msgid "In this example, we show how the LUT of an object can be retrieved and modified. Specificaly, we start by giving a surf object the 'cool' colormap, but we modify add to add a transparency effect."
+msgid "In this example, we show how the LUT of an object can be retrieved and modified. Specifically, we start by giving a surf object the 'cool' colormap, but we modify add to add a transparency effect."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_custom_colormap.rst:21
@@ -3976,11 +3976,11 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:296
-msgid "An example showing a graph display between cities positionned on the Earth surface."
+msgid "An example showing a graph display between cities positioned on the Earth surface."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:12
-msgid "This graph displays the longest fligh routes operated by Boing 777. The two main interests of this example are that it shows how to build a graph of arbitrary connectivity, and that it shows how to position data on the surface of the Earth."
+msgid "This graph displays the longest flight routes operated by Boing 777. The two main interests of this example are that it shows how to build a graph of arbitrary connectivity, and that it shows how to position data on the surface of the Earth."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:17
@@ -3988,7 +3988,7 @@ msgid "The graph is created by first building a scalar scatter dataset with the 
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:25
-msgid "To simplify things we do not plot the connection on the surface of the Earth, but as straight lines going throught the Earth. As a result must use transparency to show the connection."
+msgid "To simplify things we do not plot the connection on the surface of the Earth, but as straight lines going through the Earth. As a result must use transparency to show the connection."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:29
@@ -4060,7 +4060,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set_decimation.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:240
-msgid "The Julia set, but with a decimated mesh: unecessary triangles due to the initial grid and not matching the geometry of the Julia set are removed."
+msgid "The Julia set, but with a decimated mesh: unnecessary triangles due to the initial grid and not matching the geometry of the Julia set are removed."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set_decimation.rst:13
@@ -4152,7 +4152,7 @@ msgid "The goal of this example is to show how Mayavi can be used with scipy to 
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_magnetic_field.rst:15
-msgid "The field is caculated for an arbitrary number of current loops using the corresponding exact formula. The coils are plotted in 3D with a synthetic view of the magnetic_field. A VectorCutPlane is used as it enables good inspection of the magnetic field."
+msgid "The field is calculated for an arbitrary number of current loops using the corresponding exact formula. The coils are plotted in 3D with a synthetic view of the magnetic_field. A VectorCutPlane is used as it enables good inspection of the magnetic field."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_magnetic_field.rst:20
@@ -4252,7 +4252,7 @@ msgid "In OpenGL the first two transformations are concatenated to yield the mod
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_3D_to_2D.rst:63
-msgid "The perspective transformation applies the camera perspective to the eye coordinates. This transform is what makes objects in the foreground look bigger than equivalent objects in the background. In the pinhole camera model, this transform is determined uniquely by the focal length of the camera and its position in 3-space. In Vtk/OpenGL it is determined by the frustum. A frustum is simply a pyramid with the top lopped off. The top of the pyramid (a point) is the camera location, the base of the pyramid is a plane (the far clipping plane) defined as normal to principle camera ray at distance termed the far clipping distance, the top of the frustum (where it's lopped off) is the near clipping plane, with a definition similar to that of the far clipping plane. The sides of the frustum are determined by the aspect ratio of the camera (width/height) and its field-of-view. Any points not lying within the frustum are not mapped to the screen (as they would lie outside the viewable area). The perpspective transformation has the effect of scaling everything within the frustum to fit within a cube defined in the range (-1,1)(-1,1)(-1,1) as represented by homogeneous coordinates. The last phrase there is important, the first 3 coordinates will not, in general, be within the unity range until we divide through by the last coordinate (See the wikipedia on homogeneous coordinates if this is confusing). The resulting coordinates are termed (appropriately enough) normalized view coordinates."
+msgid "The perspective transformation applies the camera perspective to the eye coordinates. This transform is what makes objects in the foreground look bigger than equivalent objects in the background. In the pinhole camera model, this transform is determined uniquely by the focal length of the camera and its position in 3-space. In Vtk/OpenGL it is determined by the frustum. A frustum is simply a pyramid with the top lopped off. The top of the pyramid (a point) is the camera location, the base of the pyramid is a plane (the far clipping plane) defined as normal to principle camera ray at distance termed the far clipping distance, the top of the frustum (where it's lopped off) is the near clipping plane, with a definition similar to that of the far clipping plane. The sides of the frustum are determined by the aspect ratio of the camera (width/height) and its field-of-view. Any points not lying within the frustum are not mapped to the screen (as they would lie outside the viewable area). The perspective transformation has the effect of scaling everything within the frustum to fit within a cube defined in the range (-1,1)(-1,1)(-1,1) as represented by homogeneous coordinates. The last phrase there is important, the first 3 coordinates will not, in general, be within the unity range until we divide through by the last coordinate (See the wikipedia on homogeneous coordinates if this is confusing). The resulting coordinates are termed (appropriately enough) normalized view coordinates."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_3D_to_2D.rst:86
@@ -4413,11 +4413,11 @@ msgid "Mutliple engines can be useful for more separation, eg to script each eng
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_engines.rst:14
-msgid "This example shows how to explicitely set the engine for an embedded scene."
+msgid "This example shows how to explicitly set the engine for an embedded scene."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_engines.rst:17
-msgid "To define default arguments, it makes use of the Traits initialization style, rather than overridding the __init__."
+msgid "To define default arguments, it makes use of the Traits initialization style, rather than overriding the __init__."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_engines.rst:21
@@ -4527,7 +4527,7 @@ msgid "In this example, two views of the same data are shown. One with the data 
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_pick_on_surface.rst:14
-msgid "We use the 'on_mouse_pick' method of the scene to register a callback on clicking on the sphere. The callback is called with a picker object as andan argument. We use the point_id of the point that has been picked, andand  go back to the 2D index on the data matrix to find its position."
+msgid "We use the 'on_mouse_pick' method of the scene to register a callback on clicking on the sphere. The callback is called with a picker object as and an argument. We use the point_id of the point that has been picked, and go back to the 2D index on the data matrix to find its position."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_pick_on_surface.rst:20
@@ -4548,7 +4548,7 @@ msgid "We want to plot a large number of lines. We could use mlab.plot3d for thi
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_plotting_many_lines.rst:17
-msgid "The underlying idea is the same as that used to plot graphes (see for instance :ref:`example_flight_graph`): create a set of points, and specify explicitely the connectivity between them. First we create the set of unconnected point (the underlying data structure is a :ref:`poly_data`) using `mlab.pipeline.scalar_scatter`. To add the connections, we need to keep track of which point is connected to which. As we only have lines, this is fairly easy: in a line, each point is connected to the following one."
+msgid "The underlying idea is the same as that used to plot graphs (see for instance :ref:`example_flight_graph`): create a set of points, and specify explicitly the connectivity between them. First we create the set of unconnected point (the underlying data structure is a :ref:`poly_data`) using `mlab.pipeline.scalar_scatter`. To add the connections, we need to keep track of which point is connected to which. As we only have lines, this is fairly easy: in a line, each point is connected to the following one."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_plotting_many_lines.rst:33
@@ -4619,7 +4619,7 @@ msgid "We create a sphere with the BuiltinSurface source and use the VTK ProbeFi
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_probe_filter.rst:29
-msgid "We need to use the UserDefined filter to insert this VTK filter in the Mayavi pipeline (see :ref:`using_userdefined_filter` as well as :ref:`example_image_cursor_filter` and :ref:`example_tvtk_segmentation`). Specifying its input is done automatical when it is inserted on the pipeline, be its source needs to be specified explicitely. As it is a VTK filter, the source is the VTK dataset output by the Mayavi object: we can find it in `.outputs[0]`."
+msgid "We need to use the UserDefined filter to insert this VTK filter in the Mayavi pipeline (see :ref:`using_userdefined_filter` as well as :ref:`example_image_cursor_filter` and :ref:`example_tvtk_segmentation`). Specifying its input is done automatical when it is inserted on the pipeline, be its source needs to be specified explicitly. As it is a VTK filter, the source is the VTK dataset output by the Mayavi object: we can find it in `.outputs[0]`."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_probe_filter.rst:37
@@ -4714,7 +4714,7 @@ msgid "use a created dataset in Mayavi and visualize it."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_scatter_plot.rst:19
-msgid "This example achieve the same functionnality as mlab's points3d function ( :func:`mayavi.mlab.points3d`), but explicitely creating the objects and adding them to the pipeline engine via the Mayavi core API. Compared to using mlab, this method has the advantage of giving more control on which objects are created, and there life cycle."
+msgid "This example achieve the same functionnality as mlab's points3d function ( :func:`mayavi.mlab.points3d`), but explicitly creating the objects and adding them to the pipeline engine via the Mayavi core API. Compared to using mlab, this method has the advantage of giving more control on which objects are created, and there life cycle."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_scatter_plot.rst:25
@@ -4739,7 +4739,7 @@ msgid "This example shows how to use a callback to select a red ball amongst whi
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_select_red_balls.rst:12
-msgid "The example uses the figure method 'on_mouse_pick', added in Mayavi 3.4, to register a callback when the left mouse is pressed. The callback is called with a picker, enabling to identify the object selected. Specificaly, actors are selected, each object is represented on the scene via actors. The selected actors can be found in 'picker.actors'. In this example, we have plotted red balls and white ball. We want to select the red balls, and thus test if any actor in picker.actors corresponds to an actor of red balls."
+msgid "The example uses the figure method 'on_mouse_pick', added in Mayavi 3.4, to register a callback when the left mouse is pressed. The callback is called with a picker, enabling to identify the object selected. Specifically, actors are selected, each object is represented on the scene via actors. The selected actors can be found in 'picker.actors'. In this example, we have plotted red balls and white ball. We want to select the red balls, and thus test if any actor in picker.actors corresponds to an actor of red balls."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_select_red_balls.rst:21
@@ -4764,7 +4764,7 @@ msgid "An example creating a structured grid data set from numpy arrays using TV
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_simple_structured_grid.rst:12
-msgid "In this example, we create a structured-grid data set: we describe data, both scalar and vector, lying on a structured-grid, ie a grid where each vertex has 6 neighboors. For this we directly create a StructuredGrid tvtk object, rather than using the mlab.pipeline source functions, as it gives us more control."
+msgid "In this example, we create a structured-grid data set: we describe data, both scalar and vector, lying on a structured-grid, ie a grid where each vertex has 6 neighbors. For this we directly create a StructuredGrid tvtk object, rather than using the mlab.pipeline source functions, as it gives us more control."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_simple_structured_grid.rst:18
@@ -4891,19 +4891,19 @@ msgid "Superquad with gui example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:9
-msgid "This example uses MayaVi to show the evolution of a superquadric (http://en.wikipedia.org/wiki/Superquadrics), which are ellipsoidal surfaces parametrised by two parameters, alpha and beta. The equations that are used to determine the superquadric are (in spherical-polar coordinates):"
+msgid "This example uses MayaVi to show the evolution of a superquadric (http://en.wikipedia.org/wiki/Superquadrics), which are ellipsoidal surfaces parametrised by two parameters,lpha and eta. The equations that are used to determine the superquadric are (in spherical-polar coordinates):"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:14
-msgid "(x = A(sin**alpha(phi)*cos**beta(theta))) (y = B(sin**alpha(phi)*sin**beta(theta))) (z = C(cos**alpha(phi)))"
+msgid "\\(x = A(\\sin^{lpha}(\\phi)*\\cos^{eta}(       heta))\\) \\(y = B(\\sin^{lpha}(\\phi)*\\sin^{eta}(       heta))\\) \\(z = C(\\cos^{lpha}(\\phi))\\)"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:18
-msgid "Note that when we set A=B=C=r, and alpha =  beta = 1, we get the equation for a sphere in spherical polar coordinate."
+msgid "Note that when we set A=B=C=r, and lpha =  eta = 1, we get the equation for a sphere in spherical polar coordinate."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:21
-msgid "Use the controls at the bottom of the plot to adjust alpha and beta, and watch as the figure transforms accordingly!"
+msgid "Use the controls at the bottom of the plot to adjust lpha and eta, and watch as the figure transforms accordingly!"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:26
@@ -4937,11 +4937,11 @@ msgid "Data giving the variation of a parameter 'z' as a function of two others 
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_surface_from_irregular_data.rst:19
-msgid "The difficulty stems from the fact that points positionned in 3D do not define a surface if no connectivity information is given. With the surf function, this information is implicite from the shape of the input arrays."
+msgid "The difficulty stems from the fact that points positioned in 3D do not define a surface if no connectivity information is given. With the surf function, this information is implicit from the shape of the input arrays."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_surface_from_irregular_data.rst:24
-msgid "In this example, randomly-positionned points in the (x, y) plane are embedded in a surface in the z axis. We first visualize the points using mlab.points3d. We then use the delaunay2d filter to extract the mesh by nearest-neighboor matching, and visualize it using the surface module."
+msgid "In this example, randomly-positioned points in the (x, y) plane are embedded in a surface in the z axis. We first visualize the points using mlab.points3d. We then use the delaunay2d filter to extract the mesh by nearest-neighboor matching, and visualize it using the surface module."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_surface_from_irregular_data.rst:35
@@ -5082,7 +5082,7 @@ msgid "This example shows how to have multiple views on the same data, how to em
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_volume_slicer.rst:17
-msgid "The order in which things happen in this example is important, and it is easy to get it wrong. First of all, many properties of the visualization objects cannot be changed if there is not a scene created to view them. This is why we put a lot of the visualization logic in the callback of scene.activated, which is called after creation of the scene. Second, default values created via the '_xxx_default' callback are created lazyly, that is, when the attributes are accessed. As the establishement of the VTK pipeline can depend on the order in which it is built, we trigger these access by explicitely calling the attributes. In particular, properties like scene background color, or interaction properties cannot be set before the scene is activated."
+msgid "The order in which things happen in this example is important, and it is easy to get it wrong. First of all, many properties of the visualization objects cannot be changed if there is not a scene created to view them. This is why we put a lot of the visualization logic in the callback of scene.activated, which is called after creation of the scene. Second, default values created via the '_xxx_default' callback are created lazily, that is, when the attributes are accessed. As the establishment of the VTK pipeline can depend on the order in which it is built, we trigger these access by explicitly calling the attributes. In particular, properties like scene background color, or interaction properties cannot be set before the scene is activated."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_volume_slicer.rst:29
@@ -5591,7 +5591,7 @@ msgid ":ref:`example_superquad_with_gui`"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:449
-msgid "This example uses MayaVi to show the evolution of a superquadric (http://en.w ikipedia.org/wiki/Superquadrics), which are ellipsoidal surfaces parametrised by two parameters,alpha and beta. The equations that are used to determine the superquadric are (in spherical-polar coordinates):"
+msgid "This example uses MayaVi to show the evolution of a superquadric (http://en.w ikipedia.org/wiki/Superquadrics), which are ellipsoidal surfaces parametrised by two parameters,lpha and eta. The equations that are used to determine the superquadric are (in spherical-polar coordinates):"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:458
@@ -5855,7 +5855,7 @@ msgid "Translates the camera and focal point together."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:24
-msgid "The arguments specify the relative distance to translate the camera and focal point, so as to produce the appearence of moving the camera without changing the effective field of view. If called with no arguments, the function returns the absolute position of the camera and focal pointon a cartesian coordinate system."
+msgid "The arguments specify the relative distance to translate the camera and focal point, so as to produce the appearance of moving the camera without changing the effective field of view. If called with no arguments, the function returns the absolute position of the camera and focal point on a cartesian coordinate system."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:31
@@ -7788,6 +7788,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:248
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:982
+#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:31
 msgid "If 3 positional arguments are passed the last one must be an array s, or a callable, f, that returns an array. x and y give the coordinates of positions corresponding to the s values."
 msgstr ""
 
@@ -8520,7 +8521,7 @@ msgid "**Function signature**::"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:385
-msgid "x, and y are the position of the origin of the text. If no z keyword argument is given, x and y are the 2D projection of the figure, they belong to [0, 1]. If a z keyword  argument is given, the text is positionned in 3D, in figure coordinnates."
+msgid "x, and y are the position of the origin of the text. If no z keyword argument is given, x and y are the 2D projection of the figure, they belong to [0, 1]. If a z keyword  argument is given, the text is positioned in 3D, in figure coordinates."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:404
@@ -8554,7 +8555,7 @@ msgid "Positions text at a 3D location in the scene."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:426
-msgid "x, y, and z are the position of the origin of the text. The text is positionned in 3D, in figure coordinnates."
+msgid "x, y, and z are the position of the origin of the text. The text is positioned in 3D, in figure coordinates."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
@@ -9271,10 +9272,6 @@ msgstr ""
 msgid "Creates structured 2D data from a 2D array."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:31
-msgid "If 3 positional arguments are passed the last one must be an array s, or a callable, f, that returns an array. x and y give the coordinnates of positions corresponding to the s values."
-msgstr ""
-
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:35
 msgid "x and y can be 1D or 2D arrays (such as returned by numpy.ogrid or numpy.mgrid), but the points should be located on an orthogonal grid (possibly non-uniform). In other words, all the points sharing a same index in the s array need to have the same x or y value."
 msgstr ""
@@ -9389,7 +9386,7 @@ msgid "If only 1 array s is passed the x, y and z arrays are assumed to be made 
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:217
-msgid "If the x, y and z arrays are passed they are supposed to have been generated by `numpy.mgrid`. The function builds a scalar field assuming the points are regularily spaced."
+msgid "If the x, y and z arrays are passed they are supposed to have been generated by `numpy.mgrid`. The function builds a scalar field assuming the points are regularly spaced."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:221
@@ -9435,7 +9432,7 @@ msgid "If only 3 arrays u, v, w are passed the x, y and z arrays are assumed to 
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:322
-msgid "If the x, y and z arrays are passed, they should have been generated by `numpy.mgrid` or `numpy.ogrid`. The function builds a scalar field assuming the points are regularily spaced on an orthogonal grid."
+msgid "If the x, y and z arrays are passed, they should have been generated by `numpy.mgrid` or `numpy.ogrid`. The function builds a scalar field assuming the points are regularly spaced on an orthogonal grid."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:326
@@ -9508,7 +9505,7 @@ msgid "If a `figure` keyword argument is given, it should either the name the nu
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:39
-msgid "If figure is False, a null engine is created. This null engine does not create figures, and is mainly usefull for tensting, or using the VTK algorithms without visualization."
+msgid "If figure is False, a null engine is created. This null engine does not create figures, and is mainly useful for testing, or using the VTK algorithms without visualization."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:45

@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 10:21+0000\n"
+"POT-Creation-Date: 2020-04-03 16:12+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5255,13 +5255,11 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_atomic_orbital.rst:24
 msgid ""
-"Creating a data source with two scalar datasets is actually slighlty tricky,"
+"Creating a data source with two scalar datasets is actually slightly tricky,"
 " as it requires some understanding of the layout of the datasets in TVTK. "
 "The reader is referred to :ref:`data-structures-used-by-mayavi` for more "
 "details."
 msgstr ""
-"2つのスカラーデータセットを使用してデータソースを作成するには、TVTKのデータセットのレイアウトをある程度理解する必要があるため、実際には少し面倒です。詳細については、"
-" :ref:`data-structures-used-by-mayavi` を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_atomic_orbital.rst:35
 msgid "**Python source code:** :download:`atomic_orbital.py`"
@@ -5354,9 +5352,9 @@ msgid ""
 "The initial grid is displayed in white, and the optimized grid is displayed "
 "in black, with the surface it creates. The initial grid can be seen "
 "disappearing as it goes under the surface of the approximated grid: although"
-" the decimated mesh follows closely the orginal, it is not exactly the same."
+" the decimated mesh follows closely the original, it is not exactly the "
+"same."
 msgstr ""
-"最初のグリッドは白で表示され、最適化されたグリッドは黒で表示され、サーフェスが作成されます。初期のグリッドは、近似したグリッドのサーフェスの下に入ると消えていくように見えます。デシメートされたメッシュは元のメッシュに近くなりますが、まったく同じではありません。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_canyon_decimation.rst:21
 msgid ""
@@ -5545,11 +5543,9 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/example_custom_colormap.rst:17
 msgid ""
 "In this example, we show how the LUT of an object can be retrieved and "
-"modified. Specificaly, we start by giving a surf object the 'cool' colormap,"
-" but we modify add to add a transparency effect."
+"modified. Specifically, we start by giving a surf object the 'cool' "
+"colormap, but we modify add to add a transparency effect."
 msgstr ""
-"この例では、オブジェクトのLUTを取得および変更する方法を示します。具体的には、サーフオブジェクトに 'cool' "
-"カラーマップを指定することから始めますが、addを変更して透明度効果を追加します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_custom_colormap.rst:21
 msgid ""
@@ -5703,18 +5699,17 @@ msgstr "フライトグラフの例"
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:296
 msgid ""
-"An example showing a graph display between cities positionned on the Earth "
+"An example showing a graph display between cities positioned on the Earth "
 "surface."
-msgstr "地表に配置された都市間のグラフ表示の例。"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:12
 msgid ""
-"This graph displays the longest fligh routes operated by Boing 777. The two "
-"main interests of this example are that it shows how to build a graph of "
+"This graph displays the longest flight routes operated by Boing 777. The two"
+" main interests of this example are that it shows how to build a graph of "
 "arbitrary connectivity, and that it shows how to position data on the "
 "surface of the Earth."
 msgstr ""
-"このグラフは、Boing777が運用している最長飛行ルートを示しています。この例の主な目的は、任意の接続性のグラフを作成する方法と、地球の表面にデータを配置する方法を示すことです。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:17
 msgid ""
@@ -5734,10 +5729,9 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:25
 msgid ""
 "To simplify things we do not plot the connection on the surface of the "
-"Earth, but as straight lines going throught the Earth. As a result must use "
+"Earth, but as straight lines going through the Earth. As a result must use "
 "transparency to show the connection."
 msgstr ""
-"単純化するために、私たちは地球の表面に接続を描くのではなく、地球を通る直線として描きます。そのため、接続を表示するには透過性を使用する必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:29
 msgid "Data source: http://www.777fleetpage.com/777fleetpage3.htm"
@@ -5853,10 +5847,9 @@ msgstr "Juliaセットデシメーションの例"
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set_decimation.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:240
 msgid ""
-"The Julia set, but with a decimated mesh: unecessary triangles due to the "
+"The Julia set, but with a decimated mesh: unnecessary triangles due to the "
 "initial grid and not matching the geometry of the Julia set are removed."
 msgstr ""
-"Julia集合は削除されますが、メッシュはデシメートされています。初期グリッドとジュリア集合のジオメトリが一致しないため、不要な三角形が削除されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set_decimation.rst:13
 msgid ""
@@ -5990,12 +5983,11 @@ msgstr "この例の目的は、物理計算と電磁気計算をデバッグし
 
 #: ../../mayavi/docs/source/mayavi/auto/example_magnetic_field.rst:15
 msgid ""
-"The field is caculated for an arbitrary number of current loops using the "
+"The field is calculated for an arbitrary number of current loops using the "
 "corresponding exact formula. The coils are plotted in 3D with a synthetic "
 "view of the magnetic_field. A VectorCutPlane is used as it enables good "
 "inspection of the magnetic field."
 msgstr ""
-"フィールドは、対応する正確な式を使用して、任意の数の電流ループについて計算されます。コイルは、magnetic_fieldの合成ビューを使用して3Dでプロットされます。VectorCutPlaneは磁場の良好な検査を可能にするために使用されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_magnetic_field.rst:20
 msgid ""
@@ -6196,8 +6188,8 @@ msgid ""
 "that of the far clipping plane. The sides of the frustum are determined by "
 "the aspect ratio of the camera (width/height) and its field-of-view. Any "
 "points not lying within the frustum are not mapped to the screen (as they "
-"would lie outside the viewable area). The perpspective transformation has "
-"the effect of scaling everything within the frustum to fit within a cube "
+"would lie outside the viewable area). The perspective transformation has the"
+" effect of scaling everything within the frustum to fit within a cube "
 "defined in the range (-1,1)(-1,1)(-1,1) as represented by homogeneous "
 "coordinates. The last phrase there is important, the first 3 coordinates "
 "will not, in general, be within the unity range until we divide through by "
@@ -6205,9 +6197,6 @@ msgid ""
 " confusing). The resulting coordinates are termed (appropriately enough) "
 "normalized view coordinates."
 msgstr ""
-"パース変換は、カメラのパースを目の座標に適用します。この変換によって、フォアグラウンドのオブジェクトがバックグラウンドの同等のオブジェクトより大きく表示されます。ピンホールカメラモデルでは,この変換はカメラの焦点距離と3空間におけるその位置によって一意的に決定される。Vtk/OpenGLでは、フラスタムによって決まります。フラスタムとは、頂点が切り取られたピラミッドのことです。ピラミッドの最上部(一点)はカメラ位置であり、ピラミッドの底面は、ファークリッピング距離と呼ばれる距離で主カメラ光線に垂直に定義される平面(ファークリッピングプレーン)であり、フラスタムの最上部(切断された部分)は、ファークリッピング平面と同様の定義でニアクリッピング平面である。フラスタムの側面は、カメラのアスペクト比(幅/高さ)と視野によって決まります。フラスタム内にないポイントは画面にマッピングされません(表示領域の外側にある場合と同じです。)。パース変換には、等質座標で表される"
-" (-1,1)(-1,1)(-1,1) "
-"の範囲で定義される立方体に収まるように、フラスタム内のすべてをスケールする効果があります。最後のフレーズが重要で、最初の3つの座標は、通常、最後の座標(これが紛らわしい場合は、同次座標のwikipediaを参照してください。)で除算するまでは単一の範囲内にありません。得られた座標は、(適切に)正規化ビュー座標と呼ばれる。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_3D_to_2D.rst:86
 msgid ""
@@ -6450,14 +6439,14 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_engines.rst:14
 msgid ""
-"This example shows how to explicitely set the engine for an embedded scene."
-msgstr "この例では、埋め込みシーンのエンジンを明示的に設定する方法を示します。"
+"This example shows how to explicitly set the engine for an embedded scene."
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_engines.rst:17
 msgid ""
 "To define default arguments, it makes use of the Traits initialization "
-"style, rather than overridding the __init__."
-msgstr "デフォルトの引数を定義するには、__ init __をオーバーライドするのではなく、Traits初期化スタイルを使用します。"
+"style, rather than overriding the __init__."
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_engines.rst:21
 msgid "**Python source code:** :download:`multiple_engines.py`"
@@ -6602,12 +6591,10 @@ msgstr "この例では、同じデータの2つのビューが表示されま�
 #: ../../mayavi/docs/source/mayavi/auto/example_pick_on_surface.rst:14
 msgid ""
 "We use the 'on_mouse_pick' method of the scene to register a callback on "
-"clicking on the sphere. The callback is called with a picker object as andan"
-" argument. We use the point_id of the point that has been picked, andand  go"
-" back to the 2D index on the data matrix to find its position."
+"clicking on the sphere. The callback is called with a picker object as and "
+"an argument. We use the point_id of the point that has been picked, and go "
+"back to the 2D index on the data matrix to find its position."
 msgstr ""
-"シーンの 'on_mouse_pick' "
-"メソッドを使用して、球をクリックしたときのコールバックを登録します。コールバックは、引数としてピッカーオブジェクトを使用して呼び出されます。選択されたポイントのpoint_idを使用し、データ行列の2Dインデックスに戻ってその位置を見つけます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_pick_on_surface.rst:20
 msgid "**Python source code:** :download:`pick_on_surface.py`"
@@ -6634,19 +6621,14 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_plotting_many_lines.rst:17
 msgid ""
-"The underlying idea is the same as that used to plot graphes (see for "
+"The underlying idea is the same as that used to plot graphs (see for "
 "instance :ref:`example_flight_graph`): create a set of points, and specify "
-"explicitely the connectivity between them. First we create the set of "
+"explicitly the connectivity between them. First we create the set of "
 "unconnected point (the underlying data structure is a :ref:`poly_data`) "
 "using `mlab.pipeline.scalar_scatter`. To add the connections, we need to "
 "keep track of which point is connected to which. As we only have lines, this"
 " is fairly easy: in a line, each point is connected to the following one."
 msgstr ""
-"基本的な考え方は、グラフのプロットに使用するものと同じです(たとえば、 :ref:`example_flight_graph` "
-"を参照してください。)。つまり、点のセットを作成し、点間の接続を明示的に指定します。まず、  "
-"`mlab.pipeline.scalar_scatter` を使って接続されていない点の集合(基礎となるデータ構造は :ref:`poly_data`"
-" "
-"です。)を作成します。接続を追加するには、どのポイントがどのポイントに接続されているかを追跡する必要があります。ラインがあるだけなので、これはかなり簡単です。ラインでは、各ポイントは次のポイントに接続されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_plotting_many_lines.rst:33
 msgid "**Python source code:** :download:`plotting_many_lines.py`"
@@ -6753,15 +6735,10 @@ msgid ""
 "Mayavi pipeline (see :ref:`using_userdefined_filter` as well as "
 ":ref:`example_image_cursor_filter` and :ref:`example_tvtk_segmentation`). "
 "Specifying its input is done automatical when it is inserted on the "
-"pipeline, be its source needs to be specified explicitely. As it is a VTK "
+"pipeline, be its source needs to be specified explicitly. As it is a VTK "
 "filter, the source is the VTK dataset output by the Mayavi object: we can "
 "find it in `.outputs[0]`."
 msgstr ""
-"このVTKフィルタをMayaviパイプラインに挿入するには、UserDefinedフィルタを使用する必要があります( "
-":ref:`using_userdefined_filter` および :ref:`example_image_cursor_filter` および "
-":ref:`example_tvtk_segmentation` "
-"を参照してください)。入力は、パイプラインに挿入されたときに自動的に指定されます。ソースは明示的に指定する必要があります。これはVTKフィルタなので、ソースはMayaviオブジェクトによって出力されたVTKデータセットです。これは"
-" `.outputs[0]` で確認できます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_probe_filter.rst:37
 msgid ""
@@ -6923,13 +6900,11 @@ msgstr "Mayaviで作成したデータセットを使用してビジュアル化
 #: ../../mayavi/docs/source/mayavi/auto/example_scatter_plot.rst:19
 msgid ""
 "This example achieve the same functionnality as mlab's points3d function ( "
-":func:`mayavi.mlab.points3d`), but explicitely creating the objects and "
+":func:`mayavi.mlab.points3d`), but explicitly creating the objects and "
 "adding them to the pipeline engine via the Mayavi core API. Compared to "
 "using mlab, this method has the advantage of giving more control on which "
 "objects are created, and there life cycle."
 msgstr ""
-"この例では、mlabのpoints3d関数( :func:`mayavi.mlab.points3d` "
-")と同じ機能を実現していますが、オブジェクトを明示的に作成し、MayaviコアAPIを介してパイプラインエンジンに追加しています。mlabを使用する場合と比べて、この方法には、作成されるオブジェクトとそのライフサイクルをより詳細に制御できるという利点があります。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_scatter_plot.rst:25
 msgid "Run this script like so::"
@@ -6958,16 +6933,12 @@ msgstr "この例では、コールバックを使用して、白いボールの
 msgid ""
 "The example uses the figure method 'on_mouse_pick', added in Mayavi 3.4, to "
 "register a callback when the left mouse is pressed. The callback is called "
-"with a picker, enabling to identify the object selected. Specificaly, actors"
-" are selected, each object is represented on the scene via actors. The "
-"selected actors can be found in 'picker.actors'. In this example, we have "
+"with a picker, enabling to identify the object selected. Specifically, "
+"actors are selected, each object is represented on the scene via actors. The"
+" selected actors can be found in 'picker.actors'. In this example, we have "
 "plotted red balls and white ball. We want to select the red balls, and thus "
 "test if any actor in picker.actors corresponds to an actor of red balls."
 msgstr ""
-"この例では、Mayavi 3.4で追加された図形メソッド 'on_mouse_pick' "
-"を使用して、左マウスボタンが押されたときのコールバックを登録します。コールバックはピッカーで呼び出され、選択したオブジェクトを識別できるようにします。具体的には、アクターが選択され、各オブジェクトがアクターを介してシーンに表されます。選択したアクターは"
-" 'picker.actors' "
-"にあります。この例では、赤のボールと白のボールをプロットしました。赤いボールを選択し、ピッカーにアクターがいるかどうかをテストします。アクターは赤い玉のアクターに相当します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_select_red_balls.rst:21
 msgid ""
@@ -7002,12 +6973,10 @@ msgstr "TVTKを使ってnumpy配列から構造化グリッド・データ・セ
 msgid ""
 "In this example, we create a structured-grid data set: we describe data, "
 "both scalar and vector, lying on a structured-grid, ie a grid where each "
-"vertex has 6 neighboors. For this we directly create a StructuredGrid tvtk "
+"vertex has 6 neighbors. For this we directly create a StructuredGrid tvtk "
 "object, rather than using the mlab.pipeline source functions, as it gives us"
 " more control."
 msgstr ""
-"この例では、構造化グリッドデータセットを作成します。構造化グリッド、つまり各頂点が6つの隣接するグリッド上にある、スカラーとベクトルの両方のデータを記述します。このためには、mlabを使用するのではなく、StructuredGrid"
-" tvtkオブジェクトを直接作成します。より多くの制御を提供するパイプラインソース関数。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_simple_structured_grid.rst:18
 msgid ""
@@ -7171,29 +7140,31 @@ msgstr "guiの例を含むSuperquad"
 msgid ""
 "This example uses MayaVi to show the evolution of a superquadric "
 "(http://en.wikipedia.org/wiki/Superquadrics), which are ellipsoidal surfaces"
-" parametrised by two parameters, alpha and beta. The equations that are used"
-" to determine the superquadric are (in spherical-polar coordinates):"
+" parametrised by two parameters,lpha and eta. The equations that are used "
+"to determine the superquadric are (in spherical-polar coordinates):"
 msgstr ""
 "この例ではMayaViを使用して、alphaとbetaの2つのパラメータでパラメータ化された楕円面である超2次 "
 "(http://en.wikipedia.org/wiki/Superquadrics),の展開を示します。超2次方程式を決定するために使用される方程式は(球極座標では)次のとおりです。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:14
 msgid ""
-"(x = A(sin**alpha(phi)*cos**beta(theta))) (y = "
-"B(sin**alpha(phi)*sin**beta(theta))) (z = C(cos**alpha(phi)))"
+"\\(x = A(\\sin^{lpha}(\\phi)*\\cos^{eta}(       heta))\\) \\(y = "
+"B(\\sin^{lpha}(\\phi)*\\sin^{eta}(       heta))\\) \\(z = "
+"C(\\cos^{lpha}(\\phi))\\)"
 msgstr ""
-"(x = A(sin**alpha(phi)*cos**beta(theta))) (y = "
-"B(sin**alpha(phi)*sin**beta(theta))) (z = C(cos**alpha(phi)))"
+"\\(x = A(\\sin^{lpha}(\\phi)*\\cos^{eta}(       heta))\\) \\(y = "
+"B(\\sin^{lpha}(\\phi)*\\sin^{eta}(       heta))\\) \\(z = "
+"C(\\cos^{lpha}(\\phi))\\)"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:18
 msgid ""
-"Note that when we set A=B=C=r, and alpha =  beta = 1, we get the equation "
+"Note that when we set A=B=C=r, and lpha =  eta = 1, we get the equation "
 "for a sphere in spherical polar coordinate."
 msgstr "A=B=C=r、alpha=beta=1と設定すると、球の極座標における球の方程式が得られます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:21
 msgid ""
-"Use the controls at the bottom of the plot to adjust alpha and beta, and "
+"Use the controls at the bottom of the plot to adjust lpha and eta, and "
 "watch as the figure transforms accordingly!"
 msgstr "プロットの下部にあるコントロールを使用してalphaおよびbetaを調整し、それに応じて図が変換される様子を観察します。"
 
@@ -7240,21 +7211,18 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_surface_from_irregular_data.rst:19
 msgid ""
-"The difficulty stems from the fact that points positionned in 3D do not "
+"The difficulty stems from the fact that points positioned in 3D do not "
 "define a surface if no connectivity information is given. With the surf "
-"function, this information is implicite from the shape of the input arrays."
+"function, this information is implicit from the shape of the input arrays."
 msgstr ""
-"この問題は、接続情報が指定されていない場合、3次元に配置されたポイントはサーフェスを定義しないという事実に起因します。surf関数を使用すると、この情報は入力配列の形状から暗示されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_surface_from_irregular_data.rst:24
 msgid ""
-"In this example, randomly-positionned points in the (x, y) plane are "
-"embedded in a surface in the z axis. We first visualize the points using "
+"In this example, randomly-positioned points in the (x, y) plane are embedded"
+" in a surface in the z axis. We first visualize the points using "
 "mlab.points3d. We then use the delaunay2d filter to extract the mesh by "
 "nearest-neighboor matching, and visualize it using the surface module."
 msgstr ""
-"この例では、 (x, y) 面でランダムに配置された点がZ軸の面に埋め込まれています。まず、 mlab.points3d "
-"を使用して点を視覚化します。次に,delaunay2dフィルタを用いて、最も近いマッチングによりメッシュを抽出し、表面モジュールを用いてそれを可視化しました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_surface_from_irregular_data.rst:35
 msgid "**Python source code:** :download:`surface_from_irregular_data.py`"
@@ -7467,16 +7435,13 @@ msgid ""
 "objects cannot be changed if there is not a scene created to view them. This"
 " is why we put a lot of the visualization logic in the callback of "
 "scene.activated, which is called after creation of the scene. Second, "
-"default values created via the '_xxx_default' callback are created lazyly, "
-"that is, when the attributes are accessed. As the establishement of the VTK "
+"default values created via the '_xxx_default' callback are created lazily, "
+"that is, when the attributes are accessed. As the establishment of the VTK "
 "pipeline can depend on the order in which it is built, we trigger these "
-"access by explicitely calling the attributes. In particular, properties like"
-" scene background color, or interaction properties cannot be set before the "
+"access by explicitly calling the attributes. In particular, properties like "
+"scene background color, or interaction properties cannot be set before the "
 "scene is activated."
 msgstr ""
-"この例では、何かが起こる順序が重要であり、間違いを犯しやすいです。まず、可視化オブジェクトの多くのプロパティは、オブジェクトを表示するために作成されたシーンがない場合は変更できません。これが、シーンのコールバックに多くの可視化ロジックを配置する理由です。これはシーンの作成後に呼び出されます。次に、"
-" '_xxx_default' "
-"コールバックによって作成されたデフォルト値は、遅延して作成されます。つまり、アトリビュートにアクセスするときに作成されます。VTKパイプラインの確立は,それが構築される順序に依存することができるので、筆者らは明示的に属性を呼ぶことによってこれらのアクセスをトリガしました。特に、シーンの背景色やインタラクションプロパティなどのプロパティは、シーンがアクティブになる前に設定することはできません。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_volume_slicer.rst:29
 msgid ""
@@ -8076,11 +8041,11 @@ msgstr ":ref:`example_superquad_with_gui`"
 msgid ""
 "This example uses MayaVi to show the evolution of a superquadric "
 "(http://en.w ikipedia.org/wiki/Superquadrics), which are ellipsoidal "
-"surfaces parametrised by two parameters,alpha and beta. The equations that "
+"surfaces parametrised by two parameters,lpha and eta. The equations that "
 "are used to determine the superquadric are (in spherical-polar coordinates):"
 msgstr ""
-"この例ではMayaViを使用して、alphaとbetaの2つのパラメータでパラメータ化された楕円面である超2次 (http://en.w "
-"ikipedia.org/wiki/Superquadrics),の展開を示します。超2次方程式を決定するために使用される方程式は(球極座標では)次のとおりです。"
+"この例では、MayaViを使用して、超二次曲面(http://en.w "
+"ikipedia.org/wiki/Superquadrics)の進化を示します。超二次曲面は、alphaとbetaの2つのパラメータでパラメータ化された楕円面です。超二次方程式を決定するために使用される(球極座標の)方程式は次のとおりです。"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:458
 msgid "|0106|"
@@ -8356,12 +8321,11 @@ msgstr "カメラと焦点を平行移動します。"
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:24
 msgid ""
 "The arguments specify the relative distance to translate the camera and "
-"focal point, so as to produce the appearence of moving the camera without "
+"focal point, so as to produce the appearance of moving the camera without "
 "changing the effective field of view. If called with no arguments, the "
-"function returns the absolute position of the camera and focal pointon a "
+"function returns the absolute position of the camera and focal point on a "
 "cartesian coordinate system."
 msgstr ""
-"引数は、有効な視野を変更せずにカメラを移動する外観を生成するために、カメラと焦点を移動する相対距離を指定します。引数を指定しないで呼び出すと、デカルト座標系におけるカメラと焦点の絶対位置が返されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:31
 msgid ""
@@ -10504,6 +10468,7 @@ msgstr "1つの配列sだけが渡された場合、xおよびy配列は配列�
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:248
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:982
+#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:31
 msgid ""
 "If 3 positional arguments are passed the last one must be an array s, or a "
 "callable, f, that returns an array. x and y give the coordinates of "
@@ -11447,10 +11412,9 @@ msgstr "**関数シグネチャ**"
 msgid ""
 "x, and y are the position of the origin of the text. If no z keyword "
 "argument is given, x and y are the 2D projection of the figure, they belong "
-"to [0, 1]. If a z keyword  argument is given, the text is positionned in 3D,"
-" in figure coordinnates."
+"to [0, 1]. If a z keyword  argument is given, the text is positioned in 3D, "
+"in figure coordinates."
 msgstr ""
-"x、yはテキストの原点の位置です。zキーワード引数を指定しない場合、xとyは図形の2D投影であり、[0、1]に属します。zキーワード引数を指定した場合、テキストは3D内の図形座標に配置されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:404
 msgid "The opacity of the text."
@@ -11485,8 +11449,8 @@ msgstr "シーン内の3D位置にテキストを配置します。"
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:426
 msgid ""
 "x, y, and z are the position of the origin of the text. The text is "
-"positionned in 3D, in figure coordinnates."
-msgstr "x、y、zはテキストの原点の位置です。テキストは、3Dで図形座標に配置されます。"
+"positioned in 3D, in figure coordinates."
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
 msgid "orient_to_camera"
@@ -12261,14 +12225,6 @@ msgstr "array2d_source"
 msgid "Creates structured 2D data from a 2D array."
 msgstr "2D配列から構造化2Dデータを作成します。"
 
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:31
-msgid ""
-"If 3 positional arguments are passed the last one must be an array s, or a "
-"callable, f, that returns an array. x and y give the coordinnates of "
-"positions corresponding to the s values."
-msgstr ""
-"3つの位置引数が渡された場合、最後の位置引数は配列s、または配列を返す呼び出し可能なfである必要があります。xとyはsの値に対応する位置の座標を与えます。"
-
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:35
 msgid ""
 "x and y can be 1D or 2D arrays (such as returned by numpy.ogrid or "
@@ -12412,10 +12368,8 @@ msgstr "配列sが1つだけ渡された場合、x、y、zの各配列は配列�
 msgid ""
 "If the x, y and z arrays are passed they are supposed to have been generated"
 " by `numpy.mgrid`. The function builds a scalar field assuming the points "
-"are regularily spaced."
+"are regularly spaced."
 msgstr ""
-"x、y、z配列が渡された場合、 `numpy.mgrid` "
-"によって生成されたものとみなされます。この関数は、点が規則的に間隔を置いて配置されていると仮定してスカラーフィールドを構築します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:221
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:257
@@ -12474,10 +12428,8 @@ msgstr "3つの配列u、v、wだけが渡された場合、x、y、zの各配�
 msgid ""
 "If the x, y and z arrays are passed, they should have been generated by "
 "`numpy.mgrid` or `numpy.ogrid`. The function builds a scalar field assuming "
-"the points are regularily spaced on an orthogonal grid."
+"the points are regularly spaced on an orthogonal grid."
 msgstr ""
-"x、y、z配列が渡された場合、これらは `numpy.mgrid` または `numpy.ogrid` "
-"によって生成されたはずです。この関数は、点が直交グリッド上に規則的に配置されていると仮定してスカラーフィールドを構築します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:326
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:362
@@ -12573,10 +12525,9 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:39
 msgid ""
 "If figure is False, a null engine is created. This null engine does not "
-"create figures, and is mainly usefull for tensting, or using the VTK "
+"create figures, and is mainly useful for testing, or using the VTK "
 "algorithms without visualization."
 msgstr ""
-"figureがFalseの場合、NULLエンジンが作成されます。このヌル・エンジンは図形を作成せず、主にテンスティングやVTKアルゴリズムを視覚化せずに使用する場合に便利です。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:45
 msgid "The corresponding Mayavi source is returned."
