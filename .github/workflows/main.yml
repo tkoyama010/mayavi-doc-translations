@@ -21,6 +21,11 @@ jobs:
       with:
         submodules: true
         token: ${{ secrets.PERSONAL_ACCESSTOKEN }}
+    - name: Setup SSH
+      uses: MrSquaare/ssh-setup-action@v1
+      with:
+        host: github.com
+        private-key: ${{ secrets.SSH_PRIVATE_KEY }}
     - name: update
       env:
         ACCOUNT: tkoyama010
@@ -34,9 +39,6 @@ jobs:
         SPHINXINTL_TRANSIFEX_PROJECT_NAME: mayavi
         TX_TOKEN: ${{ secrets.TX_TOKEN }}
       run: |
-        mkdir -p ../.ssh
-        echo ${{ secrets.SSH_KEY}} > ../.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
         sudo apt-get install python3-venv
         python3 -m venv ../.venv
         source ../.venv/bin/activate
