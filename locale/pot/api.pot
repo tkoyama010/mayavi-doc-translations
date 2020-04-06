@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 10:21+0000\n"
+"POT-Creation-Date: 2020-04-06 00:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "Scene UIs: :class:`DecoratedScene` and :class:`MayaviScene`"
 msgstr ""
 
 #: ../../mayavi/mayavi/core/ui/mayavi_scene.py:docstring of mayavi.core.ui.api.MayaviScene:1
-msgid "Bases: :class:`pyface.base_toolkit.Unimplemented`"
+msgid "Bases: :class:`pyface.base_toolkit.Toolkit.__call__.<locals>.Unimplemented`"
 msgstr ""
 
 #: ../../mayavi/mayavi/core/ui/mayavi_scene.py:docstring of mayavi.core.ui.api.MayaviScene:1
