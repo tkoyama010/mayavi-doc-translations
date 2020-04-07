@@ -5260,6 +5260,8 @@ msgid ""
 "The reader is referred to :ref:`data-structures-used-by-mayavi` for more "
 "details."
 msgstr ""
+"2つのスカラーデータセットを使用してデータソースを作成するには、TVTKのデータセットのレイアウトをある程度理解する必要があるため、実際には少し面倒です。詳細については、"
+" :ref:`data-structures-used-by-mayavi` を参照してください。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_atomic_orbital.rst:35
 msgid "**Python source code:** :download:`atomic_orbital.py`"
@@ -5355,6 +5357,7 @@ msgid ""
 " the decimated mesh follows closely the original, it is not exactly the "
 "same."
 msgstr ""
+"最初のグリッドは白で表示され、最適化されたグリッドは黒で表示され、サーフェスが作成されます。初期のグリッドは、近似したグリッドのサーフェスの下に入ると消えていくように見えます。デシメートされたメッシュは元のメッシュに近くなりますが、まったく同じではありません。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_canyon_decimation.rst:21
 msgid ""
@@ -5546,6 +5549,8 @@ msgid ""
 "modified. Specifically, we start by giving a surf object the 'cool' "
 "colormap, but we modify add to add a transparency effect."
 msgstr ""
+"この例では、オブジェクトのLUTを取得および変更する方法を示します。具体的には、サーフオブジェクトに 'cool' "
+"カラーマップを指定することから始めますが、addを変更して透明度効果を追加します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_custom_colormap.rst:21
 msgid ""
@@ -5701,7 +5706,7 @@ msgstr "フライトグラフの例"
 msgid ""
 "An example showing a graph display between cities positioned on the Earth "
 "surface."
-msgstr ""
+msgstr "地表に配置された都市間のグラフ表示の例。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:12
 msgid ""
@@ -5710,6 +5715,7 @@ msgid ""
 "arbitrary connectivity, and that it shows how to position data on the "
 "surface of the Earth."
 msgstr ""
+"このグラフは、Boing777が運用している最長飛行ルートを示しています。この例の主な目的は、任意の接続性のグラフを作成する方法と、地球の表面にデータを配置する方法を示すことです。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:17
 msgid ""
@@ -5732,6 +5738,7 @@ msgid ""
 "Earth, but as straight lines going through the Earth. As a result must use "
 "transparency to show the connection."
 msgstr ""
+"単純化するために、私たちは地球の表面に接続を描くのではなく、地球を通る直線として描きます。そのため、接続を表示するには透過性を使用する必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_flight_graph.rst:29
 msgid "Data source: http://www.777fleetpage.com/777fleetpage3.htm"
@@ -5850,6 +5857,7 @@ msgid ""
 "The Julia set, but with a decimated mesh: unnecessary triangles due to the "
 "initial grid and not matching the geometry of the Julia set are removed."
 msgstr ""
+"Julia集合は削除されますが、メッシュはデシメートされています。初期グリッドとジュリア集合のジオメトリが一致しないため、不要な三角形が削除されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_julia_set_decimation.rst:13
 msgid ""
@@ -5988,6 +5996,7 @@ msgid ""
 "view of the magnetic_field. A VectorCutPlane is used as it enables good "
 "inspection of the magnetic field."
 msgstr ""
+"フィールドは、対応する正確な式を使用して、任意の数の電流ループについて計算されます。コイルは、magnetic_fieldの合成ビューを使用して3次元でプロットされます。VectorCutPlaneは磁場の良好な検査を可能にするために使用されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_magnetic_field.rst:20
 msgid ""
@@ -6197,6 +6206,9 @@ msgid ""
 " confusing). The resulting coordinates are termed (appropriately enough) "
 "normalized view coordinates."
 msgstr ""
+"パース変換は、カメラのパースを目の座標に適用します。この変換によって、フォアグラウンドのオブジェクトがバックグラウンドの同等のオブジェクトより大きく表示されます。ピンホールカメラモデルでは,この変換はカメラの焦点距離と3空間におけるその位置によって一意的に決定される。Vtk/OpenGLでは、フラスタムによって決まります。フラスタムとは、頂点が切り取られたピラミッドのことです。ピラミッドの最上部(一点)はカメラ位置であり、ピラミッドの底面は、ファークリッピング距離と呼ばれる距離で主カメラ光線に垂直に定義される平面(ファークリッピングプレーン)であり、フラスタムの最上部(切断された部分)は、ファークリッピング平面と同様の定義でニアクリッピング平面である。フラスタムの側面は、カメラのアスペクト比(幅/高さ)と視野によって決まります。フラスタム内にないポイントは画面にマッピングされません(表示領域の外側にある場合と同じです。)。パース変換には、等質座標で表される"
+" (-1,1)(-1,1)(-1,1) "
+"の範囲で定義される立方体に収まるように、フラスタム内のすべてをスケールする効果があります。最後のフレーズが重要で、最初の3つの座標は、通常、最後の座標(これが紛らわしい場合は、同次座標のwikipediaを参照してください。)で除算するまでは単一の範囲内にありません。得られた座標は、(適切に)正規化ビュー座標と呼ばれる。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_3D_to_2D.rst:86
 msgid ""
@@ -6440,13 +6452,13 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_engines.rst:14
 msgid ""
 "This example shows how to explicitly set the engine for an embedded scene."
-msgstr ""
+msgstr "この例では、埋め込みシーンのエンジンを明示的に設定する方法を示します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_engines.rst:17
 msgid ""
 "To define default arguments, it makes use of the Traits initialization "
 "style, rather than overriding the __init__."
-msgstr ""
+msgstr "デフォルトの引数を定義するには、__ init __をオーバーライドするのではなく、Traits初期化スタイルを使用します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_engines.rst:21
 msgid "**Python source code:** :download:`multiple_engines.py`"
@@ -6595,6 +6607,8 @@ msgid ""
 "an argument. We use the point_id of the point that has been picked, and go "
 "back to the 2D index on the data matrix to find its position."
 msgstr ""
+"シーンの 'on_mouse_pick' "
+"メソッドを使用して、球をクリックしたときのコールバックを登録します。コールバックは、引数としてピッカーオブジェクトを使用して呼び出されます。選択されたポイントのpoint_idを使用し、データ行列の2Dインデックスに戻ってその位置を見つけます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_pick_on_surface.rst:20
 msgid "**Python source code:** :download:`pick_on_surface.py`"
@@ -6629,6 +6643,11 @@ msgid ""
 "keep track of which point is connected to which. As we only have lines, this"
 " is fairly easy: in a line, each point is connected to the following one."
 msgstr ""
+"基本的な考え方は、グラフのプロットに使用するものと同じです(たとえば、 :ref:`example_flight_graph` "
+"を参照してください。)。つまり、点のセットを作成し、点間の接続を明示的に指定します。まず、  "
+"`mlab.pipeline.scalar_scatter` を使って接続されていない点の集合(基礎となるデータ構造は :ref:`poly_data`"
+" "
+"です。)を作成します。接続を追加するには、どのポイントがどのポイントに接続されているかを追跡する必要があります。ラインがあるだけなので、これはかなり簡単です。ラインでは、各ポイントは次のポイントに接続されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_plotting_many_lines.rst:33
 msgid "**Python source code:** :download:`plotting_many_lines.py`"
@@ -6739,6 +6758,11 @@ msgid ""
 "filter, the source is the VTK dataset output by the Mayavi object: we can "
 "find it in `.outputs[0]`."
 msgstr ""
+"このVTKフィルタをMayaviパイプラインに挿入するには、UserDefinedフィルタを使用する必要があります( "
+":ref:`using_userdefined_filter` および :ref:`example_image_cursor_filter` および "
+":ref:`example_tvtk_segmentation` "
+"を参照してください)。入力は、パイプラインに挿入されたときに自動的に指定されます。ソースは明示的に指定する必要があります。これはVTKフィルタなので、ソースはMayaviオブジェクトによって出力されたVTKデータセットです。これは"
+" `.outputs[0]` で確認できます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_probe_filter.rst:37
 msgid ""
@@ -6905,6 +6929,8 @@ msgid ""
 "using mlab, this method has the advantage of giving more control on which "
 "objects are created, and there life cycle."
 msgstr ""
+"この例では、mlabのpoints3d関数( :func:`mayavi.mlab.points3d` "
+")と同じ機能を実現していますが、オブジェクトを明示的に作成し、MayaviコアAPIを介してパイプラインエンジンに追加しています。mlabを使用する場合と比べて、この方法には、作成されるオブジェクトとそのライフサイクルをより詳細に制御できるという利点があります。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_scatter_plot.rst:25
 msgid "Run this script like so::"
@@ -6939,6 +6965,10 @@ msgid ""
 "plotted red balls and white ball. We want to select the red balls, and thus "
 "test if any actor in picker.actors corresponds to an actor of red balls."
 msgstr ""
+"この例では、Mayavi 3.4で追加された図形メソッド 'on_mouse_pick' "
+"を使用して、左マウスボタンが押されたときのコールバックを登録します。コールバックはピッカーで呼び出され、選択したオブジェクトを識別できるようにします。具体的には、アクターが選択され、各オブジェクトがアクターを介してシーンに表されます。選択したアクターは"
+" 'picker.actors' "
+"にあります。この例では、赤のボールと白のボールをプロットしました。赤いボールを選択し、ピッカーにアクターがいるかどうかをテストします。アクターは赤い玉のアクターに相当します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_select_red_balls.rst:21
 msgid ""
@@ -6977,6 +7007,8 @@ msgid ""
 "object, rather than using the mlab.pipeline source functions, as it gives us"
 " more control."
 msgstr ""
+"この例では、構造化グリッドデータセットを作成します。構造化グリッド、つまり各頂点が6つの隣接するグリッド上にある、スカラーとベクトルの両方のデータを記述します。このためには、mlabを使用するのではなく、StructuredGrid"
+" tvtkオブジェクトを直接作成します。より多くの制御を提供するパイプラインソース関数。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_simple_structured_grid.rst:18
 msgid ""
@@ -7215,6 +7247,7 @@ msgid ""
 "define a surface if no connectivity information is given. With the surf "
 "function, this information is implicit from the shape of the input arrays."
 msgstr ""
+"この問題は、接続情報が指定されていない場合、3次元に配置されたポイントはサーフェスを定義しないという事実に起因します。surf関数を使用すると、この情報は入力配列の形状から暗示されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_surface_from_irregular_data.rst:24
 msgid ""
@@ -7223,6 +7256,8 @@ msgid ""
 "mlab.points3d. We then use the delaunay2d filter to extract the mesh by "
 "nearest-neighboor matching, and visualize it using the surface module."
 msgstr ""
+"この例では、 (x, y) 面でランダムに配置された点がZ軸の面に埋め込まれています。まず、 mlab.points3d "
+"を使用して点を視覚化します。次に,delaunay2dフィルタを用いて、最も近いマッチングによりメッシュを抽出し、表面モジュールを用いてそれを可視化しました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_surface_from_irregular_data.rst:35
 msgid "**Python source code:** :download:`surface_from_irregular_data.py`"
@@ -7442,6 +7477,9 @@ msgid ""
 "scene background color, or interaction properties cannot be set before the "
 "scene is activated."
 msgstr ""
+"この例では、何かが起こる順序が重要であり、間違いを犯しやすいです。まず、可視化オブジェクトの多くのプロパティは、オブジェクトを表示するために作成されたシーンがない場合は変更できません。これが、シーンのコールバックに多くの可視化ロジックを配置する理由です。これはシーンの作成後に呼び出されます。次に、"
+" '_xxx_default' "
+"コールバックによって作成されたデフォルト値は、遅延して作成されます。つまり、アトリビュートにアクセスするときに作成されます。VTKパイプラインの確立は,それが構築される順序に依存することができるので、筆者らは明示的に属性を呼ぶことによってこれらのアクセスをトリガしました。特に、シーンの背景色やインタラクションプロパティなどのプロパティは、シーンがアクティブになる前に設定することはできません。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_volume_slicer.rst:29
 msgid ""
@@ -8326,6 +8364,7 @@ msgid ""
 "function returns the absolute position of the camera and focal point on a "
 "cartesian coordinate system."
 msgstr ""
+"引数は、有効な視野を変更せずにカメラを移動する外観を生成するために、カメラと焦点を移動する相対距離を指定します。引数を指定しないで呼び出すと、デカルト座標系におけるカメラと焦点の絶対位置が返されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:31
 msgid ""
@@ -11415,6 +11454,7 @@ msgid ""
 "to [0, 1]. If a z keyword  argument is given, the text is positioned in 3D, "
 "in figure coordinates."
 msgstr ""
+"x、yはテキストの原点の位置です。zキーワード引数を指定しない場合、xとyは図形の2次元投影であり、[0、1]に属します。zキーワード引数を指定した場合、テキストは3次元内の図形座標に配置されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:404
 msgid "The opacity of the text."
@@ -11450,7 +11490,7 @@ msgstr "シーン内の3D位置にテキストを配置します。"
 msgid ""
 "x, y, and z are the position of the origin of the text. The text is "
 "positioned in 3D, in figure coordinates."
-msgstr ""
+msgstr "x、y、zはテキストの原点の位置です。テキストは、3次元で図形座標に配置されます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
 msgid "orient_to_camera"
@@ -12370,6 +12410,8 @@ msgid ""
 " by `numpy.mgrid`. The function builds a scalar field assuming the points "
 "are regularly spaced."
 msgstr ""
+"x、y、z配列が渡された場合、 `numpy.mgrid` "
+"によって生成されたものとみなされます。この関数は、点が規則的に間隔を置いて配置されていると仮定してスカラーフィールドを構築します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:221
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:257
@@ -12430,6 +12472,8 @@ msgid ""
 "`numpy.mgrid` or `numpy.ogrid`. The function builds a scalar field assuming "
 "the points are regularly spaced on an orthogonal grid."
 msgstr ""
+"x、y、z配列が渡された場合、これらは `numpy.mgrid` または `numpy.ogrid` "
+"によって生成されたはずです。この関数は、点が直交グリッド上に規則的に配置されていると仮定してスカラーフィールドを構築します。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:326
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:362
@@ -12528,6 +12572,7 @@ msgid ""
 "create figures, and is mainly useful for testing, or using the VTK "
 "algorithms without visualization."
 msgstr ""
+"figureがFalseの場合、NULLエンジンが作成されます。このヌル・エンジンは図形を作成せず、主にテンスティングやVTKアルゴリズムを可視化せずに使用する場合に便利です。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:45
 msgid "The corresponding Mayavi source is returned."
