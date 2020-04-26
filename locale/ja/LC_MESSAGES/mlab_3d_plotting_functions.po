@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 10:21+0000\n"
+"POT-Creation-Date: 2020-04-26 00:52+0000\n"
 "PO-Revision-Date: 2019-04-27 07:31+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -70,6 +70,23 @@ msgid ""
 msgstr ""
 ":func:`points3d` |hack| 与えられたデータの位置にグリフ(同点)をプロットします。グリフは ``x``, ``y``, ``z``"
 " で記述された同じ形のnumpy配列です。"
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
+msgid "<br>"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:41
 msgid "|plot3d|"

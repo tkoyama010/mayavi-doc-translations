@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 10:21+0000\n"
+"POT-Creation-Date: 2020-04-26 00:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,8 +16,66 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../../mayavi/docs/source/mayavi/index.rst:4
+msgid "<style type=\"text/css\">\n"
+"  div.bodywrapper h1 {\n"
+"      text-align: center;\n"
+"      font-size: 200% ;\n"
+"  }\n"
+"\n"
+"</style>"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/inline-css.rst:3
+msgid "<style type=\"text/css\">\n"
+"  li.toctree-l1 {\n"
+"      padding: 0.5em 0 1em 0 ;\n"
+"      list-style-type: none;\n"
+"      font-size: 150% ;\n"
+"      }\n"
+"\n"
+"  li.toctree-l2 {\n"
+"      font-size: 70% ;\n"
+"      list-style-type: square;\n"
+"      }\n"
+"\n"
+"  li.toctree-l3 {\n"
+"      font-size: 85% ;\n"
+"      list-style-type: circle;\n"
+"      }\n"
+"\n"
+"\n"
+"</style>"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/index.rst:20
 msgid "Mayavi: 3D scientific data visualization and plotting in Python"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:22
+msgid "<table class=\"contentstable\" align=\"center\" style=\"margin-left: 30px\"><tr>\n"
+"  <td width=\"45%\" rowspan=\"4\">\n"
+"    <img alt=\"Mayavi banner\" src=\"_static/m2_about.jpg\"\n"
+"          width=\"100%\" />\n"
+"  </td>\n"
+"  <td width=\"5%\" rowspan=\"4\"></td>\n"
+"  <td width=\"50%\">\n"
+"    <p class=\"biglink\"><a class=\"biglink\" href=\"application.html\">\n"
+"              Using the Mayavi application</a><br/>\n"
+"       <span class=\"linkdescr\">\n"
+"              Understanding and using the Mayavi interactive application</span></p>\n"
+"  </td></tr><tr><td width=\"50%\">\n"
+"    <p class=\"biglink\"><a class=\"biglink\" href=\"mlab.html\">\n"
+"      Python scripting for 3D plotting</a><br/>\n"
+"       <span class=\"linkdescr\">The simple scripting API to Mayavi</span></p>\n"
+"  </td></tr><tr><td width=\"50%\">\n"
+"    <p class=\"biglink\"><a class=\"biglink\" href=\"auto/examples.html\">\n"
+"      Gallery and examples</a><br/>\n"
+"       <span class=\"linkdescr\">\n"
+"          Example gallery of visualizations,\n"
+"          with the Python code that generates them</span></p>\n"
+"  </td></tr>\n"
+"</table>"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/index.rst:48
@@ -36,10 +94,26 @@ msgstr ""
 msgid "Sources of inspiration may be found in the :ref:`example_gallery`, with example Python code."
 msgstr ""
 
+#: ../../mayavi/docs/source/mayavi/index.rst:68
+msgid "<h2>User guide: full table of contents</h2>"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:90
+msgid "<h2> Index and search </h2>"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/index.rst:94
 msgid ":ref:`genindex`"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/index.rst:95
 msgid ":ref:`search`"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:101
+msgid "<div style='visibility: hidden'>"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:105
+msgid "</div>"
 msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 10:21+0000\n"
+"POT-Creation-Date: 2020-04-26 00:52+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -257,3 +257,41 @@ msgstr ""
 "がインストールされている必要があります。ドキュメントはHTMLドキュメントとして作成され、サブディレクトリ "
 "``build/docs/html/mayavi`` にあります。変更に慣れたら、githubのpull "
 "requestを生成して、変更を次の安定版リリースに統合するだけです。"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:154
+msgid "Translating the documentation"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:156
+msgid ""
+"The recommended way for new contributors to translate mayavi reference is to"
+" join the translation team on Transifex."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:159
+msgid "There is `mayavi translation page`_ for mayavi (master) documentation."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:161
+msgid "Login to transifex_ service."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:162
+msgid "Go to `mayavi translation page`_."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:163
+msgid "Click ``Request language`` and fill form."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:164
+msgid "Wait acceptance by transifex mayavi translation maintainers."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:165
+msgid "(After acceptance) Translate on transifex."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:166
+msgid "You can see the translated document in `Read The Docs`_."
+msgstr ""

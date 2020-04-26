@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-09 10:21+0000\n"
+"POT-Creation-Date: 2020-04-26 00:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -150,4 +150,40 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:147
 msgid "in the base directory of your checkout. You will need `sphinx`_ installed for that. The documentation is then built as an HTML documentation that you can find in the sub directory ``build/docs/html/mayavi``. Once you are comfortable with the modifications, just generate a github pull request to integrate your changes into the next stable release."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:154
+msgid "Translating the documentation"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:156
+msgid "The recommended way for new contributors to translate mayavi reference is to join the translation team on Transifex."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:159
+msgid "There is `mayavi translation page`_ for mayavi (master) documentation."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:161
+msgid "Login to transifex_ service."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:162
+msgid "Go to `mayavi translation page`_."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:163
+msgid "Click ``Request language`` and fill form."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:164
+msgid "Wait acceptance by transifex mayavi translation maintainers."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:165
+msgid "(After acceptance) Translate on transifex."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:166
+msgid "You can see the translated document in `Read The Docs`_."
 msgstr ""
