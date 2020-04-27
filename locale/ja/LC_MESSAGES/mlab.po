@@ -220,7 +220,7 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
 msgid "<br>"
-msgstr ""
+msgstr "<br>"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:41
 msgid "|plot3d|"

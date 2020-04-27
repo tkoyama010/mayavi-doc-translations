@@ -260,38 +260,38 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:154
 msgid "Translating the documentation"
-msgstr ""
+msgstr "ドキュメントの翻訳"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:156
 msgid ""
 "The recommended way for new contributors to translate mayavi reference is to"
 " join the translation team on Transifex."
-msgstr ""
+msgstr "新しいコントリビュータがmayaviリファレンスを翻訳する場合は、Transifexの翻訳チームに参加することをお勧めします。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:159
 msgid "There is `mayavi translation page`_ for mayavi (master) documentation."
-msgstr ""
+msgstr "`mayavi translation page`_ はmayavi(master)のドキュメントです。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:161
 msgid "Login to transifex_ service."
-msgstr ""
+msgstr "transifex_ サービスにログインします。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:162
 msgid "Go to `mayavi translation page`_."
-msgstr ""
+msgstr "`mayavi translation page`_ に移動します。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:163
 msgid "Click ``Request language`` and fill form."
-msgstr ""
+msgstr "``Request language``  をクリックしてフォームに入力します。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:164
 msgid "Wait acceptance by transifex mayavi translation maintainers."
-msgstr ""
+msgstr "transifex mayavi翻訳管理者による承認を待ちます。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:165
 msgid "(After acceptance) Translate on transifex."
-msgstr ""
+msgstr "(承認後)transifexで翻訳します。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:166
 msgid "You can see the translated document in `Read The Docs`_."
-msgstr ""
+msgstr "翻訳された文書は `Read The Docs`_ で見ることができます。"

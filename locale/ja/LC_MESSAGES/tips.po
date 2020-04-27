@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-26 00:52+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -321,6 +321,8 @@ msgid ""
 "If you want to do this in python. You can use `pyvirtualdisplay "
 "<https://pypi.org/project/PyVirtualDisplay/>`_ ::"
 msgstr ""
+"Pythonでこれを行いたい場合は、 `pyvirtualdisplay "
+"<https://pypi.org/project/PyVirtualDisplay/>`_ が使えます。"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:207
 msgid ""

@@ -7880,7 +7880,7 @@ msgstr "|0002|"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:415
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:420
 msgid "<br/>"
-msgstr ""
+msgstr "<br/>"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:205
 msgid ":ref:`example_bunny`"

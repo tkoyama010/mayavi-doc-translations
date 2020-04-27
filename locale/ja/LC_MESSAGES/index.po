@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-26 00:52+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,6 +31,13 @@ msgid ""
 "\n"
 "</style>"
 msgstr ""
+"<style type=\"text/css\">\n"
+"  div.bodywrapper h1 {\n"
+"      text-align: center;\n"
+"      font-size: 200% ;\n"
+"  }\n"
+"\n"
+"</style>"
 
 #: ../../mayavi/docs/source/mayavi/inline-css.rst:3
 msgid ""
@@ -54,6 +61,25 @@ msgid ""
 "\n"
 "</style>"
 msgstr ""
+"<style type=\"text/css\">\n"
+"  li.toctree-l1 {\n"
+"      padding: 0.5em 0 1em 0 ;\n"
+"      list-style-type: none;\n"
+"      font-size: 150% ;\n"
+"      }\n"
+"\n"
+"  li.toctree-l2 {\n"
+"      font-size: 70% ;\n"
+"      list-style-type: square;\n"
+"      }\n"
+"\n"
+"  li.toctree-l3 {\n"
+"      font-size: 85% ;\n"
+"      list-style-type: circle;\n"
+"      }\n"
+"\n"
+"\n"
+"</style>"
 
 #: ../../mayavi/docs/source/mayavi/index.rst:20
 msgid "Mayavi: 3D scientific data visualization and plotting in Python"
@@ -85,6 +111,29 @@ msgid ""
 "  </td></tr>\n"
 "</table>"
 msgstr ""
+"<table class=\"contentstable\" align=\"center\" style=\"margin-left: 30px\"><tr>\n"
+"  <td width=\"45%\" rowspan=\"4\">\n"
+"    <img alt=\"Mayavi banner\" src=\"_static/m2_about.jpg\"\n"
+"          width=\"100%\" />\n"
+"  </td>\n"
+"  <td width=\"5%\" rowspan=\"4\"></td>\n"
+"  <td width=\"50%\">\n"
+"    <p class=\"biglink\"><a class=\"biglink\" href=\"application.html\">\n"
+"              Mayaviアプリケーションの使用</a><br/>\n"
+"       <span class=\"linkdescr\">\n"
+"              Mayaviインタラクティブアプリケーションの理解と使用</span></p>\n"
+"  </td></tr><tr><td width=\"50%\">\n"
+"    <p class=\"biglink\"><a class=\"biglink\" href=\"mlab.html\">\n"
+"      3次元プロット用のPythonスクリプティング</a><br/>\n"
+"       <span class=\"linkdescr\">MayaviへのシンプルなスクリプトAPI</span></p>\n"
+"  </td></tr><tr><td width=\"50%\">\n"
+"    <p class=\"biglink\"><a class=\"biglink\" href=\"auto/examples.html\">\n"
+"      ギャラリーと例</a><br/>\n"
+"       <span class=\"linkdescr\">\n"
+"          視覚化を生成する\n"
+"          Pythonコードのサンプルギャラリー</span></p>\n"
+"  </td></tr>\n"
+"</table>"
 
 #: ../../mayavi/docs/source/mayavi/index.rst:48
 msgid ""
@@ -120,11 +169,11 @@ msgstr "インスピレーションの源は :ref:`example_gallery` で見つけ
 
 #: ../../mayavi/docs/source/mayavi/index.rst:68
 msgid "<h2>User guide: full table of contents</h2>"
-msgstr ""
+msgstr "<h2>ユーザーガイド: 全目次</h2>"
 
 #: ../../mayavi/docs/source/mayavi/index.rst:90
 msgid "<h2> Index and search </h2>"
-msgstr ""
+msgstr "<h2> インデックス作成と検索 </h2>"
 
 #: ../../mayavi/docs/source/mayavi/index.rst:94
 msgid ":ref:`genindex`"
@@ -136,8 +185,8 @@ msgstr ":ref:`search`"
 
 #: ../../mayavi/docs/source/mayavi/index.rst:101
 msgid "<div style='visibility: hidden'>"
-msgstr ""
+msgstr "<div style='visibility: hidden'>"
 
 #: ../../mayavi/docs/source/mayavi/index.rst:105
 msgid "</div>"
-msgstr ""
+msgstr "</div>"
