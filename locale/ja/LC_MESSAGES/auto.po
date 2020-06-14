@@ -7373,12 +7373,12 @@ msgstr "**Pythonソースコード:** :download:`unstructured_grid.py`"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_user_mayavi.rst:6
 msgid "User mayavi example"
-msgstr "ユーザmayaviの例"
+msgstr "User mayaviの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_user_mayavi.rst:9
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:702
 msgid "Sample Mayavi customization file."
-msgstr "サンプルMayaviカスタマイズファイル。"
+msgstr "Mayaviカスタマイズファイルのサンプル。"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_user_mayavi.rst:11
 msgid ""
