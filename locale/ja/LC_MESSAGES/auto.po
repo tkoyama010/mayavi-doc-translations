@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:2
 msgid "Mayavi 4.7.2"
-msgstr ""
+msgstr "Mayavi 4.7.2"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:4
 msgid ""
@@ -36,12 +36,17 @@ msgid ""
 "scene or through the \"configure scene\" gear icon on the scene window "
 "toolbar."
 msgstr ""
+"このリリースの重要な更新点は、最新のVTK-9.x シリーズと互換性があり、PyPIのVTK "
+"9.0.1で動作することがわかっていることです。ピッカーUIは、UIウィンドウをポップアップせずに、選択したアトリビュートをレンダーウィンドウに直接表示するように変更されました。元のピッカーUIは、シーンのUIの個別の"
+" \"ピッカー\" "
+"タブで使用できるようになりました。これは、シーンのプロパティを編集するときにパイプラインビューから、またはシーンウィンドウのツールバーの "
+"\"設定シーン\" ギアアイコンからアクセスできます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:12
 msgid ""
 "Many thanks to the following who contributed to this release (in "
 "alphabetical order):"
-msgstr ""
+msgstr "このリリースに貢献してくれた以下の方々に感謝します(アルファベット順):"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:15
 msgid ""
@@ -49,12 +54,15 @@ msgid ""
 "Magnus Nord, Mark Dickinson, Poruri Sai Rahul, Prabhu Ramachandran, Scott "
 "Talbert, Tetsuo Koyama."
 msgstr ""
+"Amal S Sebastian, Eric Larson, Guillaume Favelier, Hans Moritz Günther, "
+"Magnus Nord, Mark Dickinson, Poruri Sai Rahul, Prabhu Ramachandran, Scott "
+"Talbert, Tetsuo Koyama."
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:19
 msgid ""
 "This is largely a bug-fix release with one enhancement/change. 36 pull "
 "requests were merged."
-msgstr ""
+msgstr "これは主にバグ修正リリースであり、1つの機能強化と変更が行われています。36のプルリクエストがマージされました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:24
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:136
@@ -81,6 +89,8 @@ msgid ""
 "30 Apr 2020 `#820 <https://github.com/enthought/mayavi/pull/820>`_ "
 "(amalss18)"
 msgstr ""
+"30 Apr 2020 `#820 <https://github.com/enthought/mayavi/pull/820>`_ "
+"(amalss18)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:27
 msgid ""
@@ -90,6 +100,10 @@ msgid ""
 "appears as a text widget on the scene. 4. added a mlab.set_picker_props() to"
 " set properties of the picker."
 msgstr ""
+"ポップアップUIとしてではなく、レンダリングウィンドウに表示される新しいピッカーUI。1. picker "
+"GUIをシフトしてGUIを設定(シーンのプロパティ)。2. 古いUIは、シーンプロパティまたはウィンドウのシーンを設定ボタンにあります。3. "
+"ピッカーデータがシーンにテキストウィジェットとして表示されます。4. ピッカーのプロパティを設定するために "
+"mlab.set_picker_props() が追加されました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:34
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:103
@@ -116,185 +130,218 @@ msgid ""
 "27 Jul 2020 `#931 <https://github.com/enthought/mayavi/pull/931>`_ "
 "(larsoner)"
 msgstr ""
+"27 Jul 2020 `#931 <https://github.com/enthought/mayavi/pull/931>`_ "
+"(larsoner)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:37
 msgid "MAINT: Deal with traitsui deprecation of `TraitPrefixMap`"
-msgstr ""
+msgstr "メンテナンス: `TraitPrefixMap` のtraitsui廃止への対応"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:40
 msgid ""
 "27 Jul 2020 `#928 <https://github.com/enthought/mayavi/pull/928>`_ (hamogu)"
 msgstr ""
+"27 Jul 2020 `#928 <https://github.com/enthought/mayavi/pull/928>`_ (hamogu)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:40
 msgid "Add formats to `savefig` docstring"
-msgstr ""
+msgstr "フォーマットを `savefig` docstringに追加しました"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:43
 msgid ""
 "30 Apr 2020 `#913 <https://github.com/enthought/mayavi/pull/913>`_ (PR)"
 msgstr ""
+"30 Apr 2020 `#913 <https://github.com/enthought/mayavi/pull/913>`_ (PR)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:43
 msgid "Add tests to check if hand-crafted views work."
-msgstr ""
+msgstr "手作業で作成したビューが機能するかどうかをチェックするテストを追加しました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:46
 msgid ""
 "30 Apr 2020 `#912 <https://github.com/enthought/mayavi/pull/912>`_ (PR)"
 msgstr ""
+"30 Apr 2020 `#912 <https://github.com/enthought/mayavi/pull/912>`_ (PR)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:46
 msgid "Fix CI and remove 2.7 tests."
-msgstr ""
+msgstr "CIを修正し、2.7のテストを削除しました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:49
 msgid ""
 "25 Apr 2020 `#909 <https://github.com/enthought/mayavi/pull/909>`_ "
 "(larsoner)"
 msgstr ""
+"25 Apr 2020 `#909 <https://github.com/enthought/mayavi/pull/909>`_ "
+"(larsoner)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:49
 msgid "ENH: VTK 9 compatibility."
-msgstr ""
+msgstr "機能追加: VTK 9との互換性。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:52
 msgid ""
 "25 Apr 2020 `#901 <https://github.com/enthought/mayavi/pull/901>`_ "
 "(tkoyama010)"
 msgstr ""
+"25 Apr 2020 `#901 <https://github.com/enthought/mayavi/pull/901>`_ "
+"(tkoyama010)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:52
 msgid "Document use of `PyVirtualDisplay`"
-msgstr ""
+msgstr "`PyVirtualDisplay` 使用の文書"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:55
 msgid ""
 "25 Apr 2020 `#900 <https://github.com/enthought/mayavi/pull/900>`_ "
 "(larsoner)"
 msgstr ""
+"25 Apr 2020 `#900 <https://github.com/enthought/mayavi/pull/900>`_ "
+"(larsoner)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:55
 msgid "FIX: Work around NumPy deprecation"
-msgstr ""
+msgstr "修正: NumPy非推奨を回避しました"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:58
 msgid ""
 "25 Apr 2020 `#896 <https://github.com/enthought/mayavi/pull/896>`_ "
 "(GuillaumeFavelier)"
 msgstr ""
+"25 Apr 2020 `#896 <https://github.com/enthought/mayavi/pull/896>`_ "
+"(GuillaumeFavelier)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:58
 msgid "Replace TraitTuple by Tuple in modules.py"
-msgstr ""
+msgstr "modules.py でTraitTupleをTupleで置換"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:61
 msgid ""
 "30 Apr 2020 `#893 <https://github.com/enthought/mayavi/pull/893>`_ "
 "(tkoyama010)"
 msgstr ""
+"30 Apr 2020 `#893 <https://github.com/enthought/mayavi/pull/893>`_ "
+"(tkoyama010)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:61
 msgid "Use importlib instead of imp."
-msgstr ""
+msgstr "impではなくimportlibを使用しました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:64
 msgid ""
 "30 Apr 2020 `#877 <https://github.com/enthought/mayavi/pull/877>`_ (swt2c)"
 msgstr ""
+"30 Apr 2020 `#877 <https://github.com/enthought/mayavi/pull/877>`_ (swt2c)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:64
 msgid "Fix support for wxPython 3.0"
-msgstr ""
+msgstr "wxPython 3.0のサポートを修正しました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:67
 msgid ""
 "25 Apr 2020 `#876 <https://github.com/enthought/mayavi/pull/876>`_ (swt2c)"
 msgstr ""
+"25 Apr 2020 `#876 <https://github.com/enthought/mayavi/pull/876>`_ (swt2c)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:67
 msgid "Remove spurious executable permissions from test data files"
-msgstr ""
+msgstr "テストデータファイルから誤った実行可能権限を削除しました"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:70
 msgid ""
 "24 Dec 2019 `#868 <https://github.com/enthought/mayavi/pull/868>`_ "
 "(mdickinson)"
 msgstr ""
+"24 Dec 2019 `#868 <https://github.com/enthought/mayavi/pull/868>`_ "
+"(mdickinson)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:70
 msgid "Replace uses of traits.api.Long with traits.api.Int"
-msgstr ""
+msgstr "traits.api.Longをtraits.api.Intに交換しました"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:73
 msgid ""
 "05 Dec 2019 `#866 <https://github.com/enthought/mayavi/pull/866>`_ "
 "(mdickinson)"
 msgstr ""
+"05 Dec 2019 `#866 <https://github.com/enthought/mayavi/pull/866>`_ "
+"(mdickinson)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:73
 msgid "Replace uses of the deprecated trait types 'false' and 'true'"
-msgstr ""
+msgstr "非推奨のtrait型 'false' と 'true' の使用を置き換えました"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:76
 msgid ""
 "02 Dec 2019 `#859 <https://github.com/enthought/mayavi/pull/859>`_ "
 "(rahulporuri)"
 msgstr ""
+"02 Dec 2019 `#859 <https://github.com/enthought/mayavi/pull/859>`_ "
+"(rahulporuri)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:76
 msgid "Replace deprecated rich_compare kwarg when creating traits"
-msgstr ""
+msgstr "traitの作成時に使用すべきではない rich_compare kwag を置き換えました"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:79
 msgid ""
 "18 Nov 2019 `#853 <https://github.com/enthought/mayavi/pull/853>`_ "
 "(rahulporuri)"
 msgstr ""
+"18 Nov 2019 `#853 <https://github.com/enthought/mayavi/pull/853>`_ "
+"(rahulporuri)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:79
 msgid "Update edm and install/config scripts"
-msgstr ""
+msgstr "edmおよびinstall/configスクリプトを更新しました"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:82
 msgid ""
 "25 Apr 2020 `#843 <https://github.com/enthought/mayavi/pull/843>`_ "
 "(tkoyama010)"
 msgstr ""
+"25 Apr 2020 `#843 <https://github.com/enthought/mayavi/pull/843>`_ "
+"(tkoyama010)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:82
 msgid "Avoid using eval"
-msgstr ""
+msgstr "evalの使用を避けました"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:85
 msgid ""
 "25 Apr 2020 `#841 <https://github.com/enthought/mayavi/pull/841>`_ "
 "(tkoyama010)"
 msgstr ""
+"25 Apr 2020 `#841 <https://github.com/enthought/mayavi/pull/841>`_ "
+"(tkoyama010)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:85
 msgid "Added section on \"Translating the documentation\"."
-msgstr ""
+msgstr "\"ドキュメントの翻訳\"の章を追加しました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:88
 msgid ""
 "24 Dec 2019 `#840 <https://github.com/enthought/mayavi/pull/840>`_ "
 "(larsoner)"
 msgstr ""
+"24 Dec 2019 `#840 <https://github.com/enthought/mayavi/pull/840>`_ "
+"(larsoner)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:88
 msgid "BUG: Fix literal comparison. Fixes on Python-3.8."
-msgstr ""
+msgstr "バグ: リテラル比較を修正しました。Python-3.8で修正されました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:92
 msgid ""
 "05 Oct 2019 `#822 <https://github.com/enthought/mayavi/pull/822>`_ "
 "(tkoyama010)"
 msgstr ""
+"05 Oct 2019 `#822 <https://github.com/enthought/mayavi/pull/822>`_ "
+"(tkoyama010)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:91
 msgid "Fixed old TVTK documentation."
-msgstr ""
+msgstr "古いTVTKドキュメントを修正しました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:95
 msgid "Mayavi 4.7.1"
@@ -422,6 +469,7 @@ msgstr ""
 msgid ""
 "08 Sep 2018 `#712 <https://github.com/enthought/mayavi/pull/712>`_ (PR)"
 msgstr ""
+"08 Sep 2018 `#712 <https://github.com/enthought/mayavi/pull/712>`_ (PR)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:157
 msgid ""
@@ -9364,6 +9412,8 @@ msgid ""
 "(renderman), oogl (geomview), iv (OpenInventor), wrl, vrml, obj (wavefront),"
 " x3d, pov (povray)."
 msgstr ""
+"現在のシーンを保存します。出力形式は、filenameの拡張子によって推測されます。可能なのは、png、jpg、bmp、tiff、ps、eps、pdf、rib(renderman)、oogl(geomview)、iv(OpenInventor)、wrl、vrml、obj(wavefront)、x3d、pov"
+" (povray)です。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:116
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:155
@@ -10029,6 +10079,8 @@ msgid ""
 "option is useful to reduce the number of points displayed on large datasets "
 "Must be an integer or None."
 msgstr ""
+"指定した場合、 'mask_points' "
+"データ・ポイントのうちの1つのみが表示されます。このオプションは、大きなデータセットに表示される点の数を減らすのに役立ちます。整数またはNoneでなければなりません。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:84
 msgid ""
@@ -10391,7 +10443,7 @@ msgstr "resolution"
 msgid ""
 "The resolution of the glyph created. For spheres, for instance, this is the "
 "number of divisions along theta and phi. Must be an integer. Default: 8"
-msgstr ""
+msgstr "作成される記号の解像度。たとえば、球体の場合、これはthetaとphiに沿った分割数です。整数でなければなりません。デフォルトは8"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
@@ -10682,7 +10734,7 @@ msgstr "contour3d"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:141
 msgid "Plots iso-surfaces for a 3D volume of data supplied as arguments."
-msgstr ""
+msgstr "引数として提供されるデータの3次元ボリュームの等値面をプロットします。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:148
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:1224
@@ -10884,7 +10936,7 @@ msgstr "seed_resolution"
 msgid ""
 "The resolution of the seed. Determines the number of seed points Must be an "
 "integer or None."
-msgstr ""
+msgstr "seedの解像度。seedポイントの数を指定します。整数またはNoneを指定する必要があります。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
@@ -11065,7 +11117,7 @@ msgstr "tube_sides"
 msgid ""
 "number of sides of the tubes used to represent the lines. Must be an "
 "integer. Default: 6"
-msgstr ""
+msgstr "線を表すために使用されるチューブの側面の数。整数でなければなりません。デフォルトは6です。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:639
 msgid "plot3d"
@@ -11174,7 +11226,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:948
 msgid "set_picker_props"
-msgstr ""
+msgstr "set_picker_props"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:960
 msgid "surf"
@@ -11257,7 +11309,7 @@ msgstr "volume_slice"
 msgid ""
 "Plots an interactive image plane sliced through a 3D volume of data supplied"
 " as argument."
-msgstr ""
+msgstr "3次元ボリュームのデータを引数としてスライスしたインタラクティブなイメージプレーンをプロットします。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
@@ -11291,7 +11343,7 @@ msgstr "slice_index"
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:1267
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:779
 msgid "The index along with the image is sliced."
-msgstr ""
+msgstr "スライスされるイメージのインデックス。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:15
 msgid "Other functions"
@@ -11653,6 +11705,7 @@ msgid ""
 "Show a dialog with the mayavi pipeline. This dialog allows to edit "
 "graphically the properties of the different objects on the scenes."
 msgstr ""
+"mayaviパイプラインのダイアログを表示します。このダイアログボックスでは、シーン上のさまざまなオブジェクトのプロパティをグラフィック編集できます。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:342
 msgid "start_recording"
@@ -12804,7 +12857,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:29
 msgid "a figure identifier number or string, None or False, optional."
-msgstr ""
+msgstr "図形ID番号または文字列、NoneまたはFalse、オプション。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:31
 msgid ""
@@ -12907,6 +12960,8 @@ msgid ""
 "work.You can have a look at the wigner.py example for a heavy use of this "
 "functionality."
 msgstr ""
+"モジュールでこの関数を使用すると、同じデータ・ソースに適用される他のモジュールは同じスケールを共有しないことに注意してください。したがって、たとえば、アウトライン・モジュールでは、エクステントを変更したアクターのアウトラインは考慮されません。これを機能させるには、同じ"
+" \"extents\" パラメータを渡す必要があります。ウィナーをご覧ください。これは、この機能を頻繁に使用するための例です。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:116
 msgid ""
