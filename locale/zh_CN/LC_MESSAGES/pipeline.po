@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2018, Enthought Inc.
+# This file is distributed under the same license as the mayavi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mayavi 4.7.3.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"PO-Revision-Date: 2019-04-27 07:29+0000\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:5
+msgid "Organisation of Mayavi visualizations: the pipeline"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rstNone
+msgid "Mayavi and VTK pipelines"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:9
+msgid ""
+"Mayavi uses `VTK <http://www.vtk.org>`_ for all its visualization needs. A "
+"pipeline concept underlies all the visualization in VTK. However, it is "
+"important to note that the pipeline used by Mayavi does not correspond to "
+"the VTK pipeline creating the visualization: the layout is different, the "
+"objects are not the same, and there are more nodes in a VTK pipeline. The "
+"two pipelines share some similarities, but in this section, we are only "
+"concerned by the Mayavi pipeline."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:18
+msgid "Anatomy of a Mayavi pipeline"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:21
+msgid "Layout of a pipeline"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:23
+msgid ""
+"The top node of a Mayavi pipeline is called the `Engine`. It is responsible "
+"of the creation and destruction of the scenes. It is not displayed in the "
+"pipeline view."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:27
+msgid "Below the `Engine`, you find `Scenes`."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:29
+msgid ""
+"Each `Scene` has a set of data `Sources`: they expose the data to visualize "
+"to Mayavi."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:32
+msgid ""
+"`Filters` can be applied to the `Sources` to transform the data they wrap."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:35
+msgid ""
+"A `Module Manager` controls the colors used to represent the scalar or "
+"vector data. It is represented in the pipeline view as the node called "
+"`Colors and legends`."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:39
+msgid ""
+"Visualization `Modules` finally display a reprensation of the data in the "
+"Scene, such as a surface, or lines."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:43
+msgid "Navigating in the pipeline"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:45
+msgid ""
+"Each object in the pipeline has a `parent` attribute that points to its "
+"parent in the pipeline, as well as a `children` attribute, giving the list "
+"of its children. The `name` attribute of the objects gives the name of the "
+"node as it appears in the pipeline view. The edition dialog to modify "
+"graphicaly the properties of an object can be displayed by calling the "
+"`edit_traits()` method of this object."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:52
+msgid ""
+"In addition, Mayavi pipeline objects can only be in one scene, and their "
+"`.scene` attribute point to this scene (see the :ref:`example_volume_slicer`"
+" for an example of how the data can be shared between scenes)."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:58
+msgid "The link between different Mayavi entry points"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:60
+msgid ""
+"Every visualization created in Mayavi is constructed with a pipeline, "
+"although the construction of the pipeline may be hidden from the user:"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:63
+msgid ""
+"The easiest way to make a Mayavi visualization is to create a pipeline via "
+"the user interface, as, for instance, exposed in the :ref:`Parametric "
+"surfaces examples <parametric_surfaces_example>`."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:67
+msgid ""
+"The :ref:`mlab 3d plotting functions <mlab_plotting_functions>`, create full"
+" piplelines, comprising sources, modules, and possibly filters, to visualize"
+" numpy arrays. Displaying the :ref:`pipeline view <mlab-changing-objects-"
+"interactively>` is the easiest way to understand what pipeline was built."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:73
+msgid ""
+"Pipelines can also be built node-by-node with mlab, using the "
+":ref:`mlab.pipeline functions<controlling-the-pipeline-with-mlab-scripts>`. "
+"The name of the functions to call can simply be deduced from the names of "
+"the pipeline nodes as they appear in the pipeline view."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:79
+msgid ""
+"The objects composing a pipeline can be instantiated and added to the "
+"pipeline manually, as exposed :ref:`further below "
+"<oo_construction_visualization>`."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:85
+msgid "A pipeline example examined"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:87
+msgid ""
+"Let us study the pipeline created by the `mlab.plot3d` function to represent"
+" lines::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:102
+msgid ""
+"The `mlab.plot3d` function first creates a source made of points connected "
+"by lines. Then it applies the `Stripper` filter, which transforms this "
+"succession of lines in a 'strip'. Second, a `Tube` filter is applied: from "
+"the 'strip' it creates tubes with a given radius. Finally, the `Surface` "
+"module is applied to display the surface of the tubes. The `surface` object "
+"returned by the `mlab.plot3d` function is that final `Surface` module."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:110
+msgid ""
+"Let us have a look at the data in the pipeline before the tube filter was "
+"applied. First we retrive the `Stripper` filter::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:115
+msgid "Then we apply on it a `Surface` module to represent the `strip`::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:122
+msgid ""
+"All the properties of the different steps can be adjusted in the pipeline "
+"view. In addition, they correspond to attributes on the various objects::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/pipeline.rst:129
+msgid ""
+"The names in the dialogs of the various properties gives hints to which "
+"attributes in the objects they correspond to. However, it can be fairly "
+"challenging to find this correspondance. We suggest to use the :ref:`record "
+"feature <record_feature>` for this purpose."
+msgstr ""

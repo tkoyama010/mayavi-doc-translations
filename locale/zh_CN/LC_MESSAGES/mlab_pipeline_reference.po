@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2018, Enthought Inc.
+# This file is distributed under the same license as the mayavi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mayavi 4.7.3.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"PO-Revision-Date: 2019-04-27 07:31+0000\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../mayavi/docs/source/mayavi/mlab_pipeline_reference.rst:4
+msgid "Mlab pipeline-control reference"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_pipeline_reference.rst:8
+msgid ""
+"Reference list of all the main functions of ``pipeline`` sub module of "
+"``mlab``. You can access these functions using::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_pipeline_reference.rst:14
+msgid ""
+"These functions can be used for finer control of the Mayavi pipeline than "
+"the main mlab interface. For usage examples, see :ref:`controlling-the-"
+"pipeline-with-mlab-scripts`."
+msgstr ""

@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2018, Enthought Inc.
+# This file is distributed under the same license as the mayavi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mayavi 4.7.3.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"PO-Revision-Date: 2019-04-27 07:29+0000\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:4
+msgid "Running mlab scripts"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:6
+msgid ""
+"Mlab, like the rest of Mayavi, is an interactive application. If you are not"
+" already in an interactive environment (see next paragraph), to interact "
+"with the figures or the rest of the drawing elements, you need to use the "
+":func:`show` function. For instance, if you are writing a script, you need "
+"to call :func:`show` each time you want to display one or more figures and "
+"allow the user to interact with them."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:14
+msgid "Using mlab interactively"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:16
+msgid ""
+"Using IPython_, mlab instructions can be run interactively, or in scripts "
+"using IPython_'s ``%run`` command::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:21
+msgid ""
+"You need to start IPython_ with the `--gui=qt` option. In this environment, "
+"the plotting commands are interactive: they have an immediate effect on the "
+"figure, alleviating the need to use the :func:`show` function."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:28
+msgid ""
+"Mlab can also be used interactively in the Python shell of the mayavi2 "
+"application, or in any interactive Python shell of wxPython-based "
+"application (such as other Envisage-based applications, or SPE, Stani's "
+"Python Editor)."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:34
+msgid "Using together with Matplotlib"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:36
+msgid ""
+"If you want to use Matplotlib's interactive plotting with Mayavi's mlab in "
+"IPython you should:"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:39
+msgid "start IPython with::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:43
+msgid "alternatively, start IPython with the `--gui=qt` option::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:47
+msgid ""
+"and **before** importing any matplotlib modules, enter the following Python "
+"commands::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:54
+msgid "one could also use the ``--pylab`` option to IPython as follows::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:60
+msgid ""
+"If you want matplotlib and mlab to work together by default in IPython, you "
+"can change you default matplotlib backend, by editing the "
+"`~/.matplotlib/matplotlibrc` to add the following line::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:66
+msgid ""
+"If for some reason, the Qt backend does not work, you can use the wx "
+"backend.  To do this you may do::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:72
+msgid ""
+"Note that as far as Mayavi is concerned, it chooses the appropriate toolkit "
+"using the ``ETS_TOOLKIT`` environment variable.  If this is not set, the "
+"supported toolkits are tried in a version-dependent order until one "
+"succeeds.  With recent releases of traitsui_, the default is Qt.  The "
+"possible options for ``ETS_TOOLKIT`` are:"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:78
+msgid "`qt4`: to use the Qt backend (either PySide or PyQt4),"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:79
+msgid "`wx`: to use wxPython,"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:80
+msgid "`null`: to use no UI toolkit."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rstNone
+msgid "Capturing mlab plots to integrate in pylab"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:86
+msgid ""
+"Starting from Mayavi version 3.4.0, the mlab :func:`screenshot` can be used "
+"to take a screenshot of the current figure, to integrate in a matplotlib "
+"plot."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:91
+msgid "In scripts"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:93
+msgid ""
+"Mlab commands can be written to a file, to form a script. This script can be"
+" loaded in the Mayavi application using the *File->Open file* menu entry, "
+"and executed using the *File->Refresh code* menu entry or by pressing "
+"``Control-r``.  It can also be executed during the start of the Mayavi "
+"application using the ``-x`` command line switch."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:99
+msgid ""
+"As mentioned above, when running outside of an interactive environment, for "
+"instance with `python myscript.py`, you need to call the :func:`show` "
+"function (as shown in the demo_ above) to pause your script and have the "
+"user interact with the figure."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:107
+msgid ""
+"You can also use :func:`show` to decorate a function, and have it run in the"
+" event-loop, which gives you more flexibility::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:117
+msgid ""
+"With this decorator, each time the `image` function is called, `mlab` makes "
+"sure an interactive environment is running before executing the `image` "
+"function. If an interactive environment is not running, `mlab` will start "
+"one and the image function will not return until it is closed."
+msgstr ""

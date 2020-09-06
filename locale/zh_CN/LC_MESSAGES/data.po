@@ -1,0 +1,665 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2018, Enthought Inc.
+# This file is distributed under the same license as the mayavi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mayavi 4.7.3.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"PO-Revision-Date: 2019-04-27 07:28+0000\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../mayavi/docs/source/mayavi/data.rst:4
+msgid "Data representation in Mayavi"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:6
+msgid ""
+"Describing data in three dimensions in the general case is a complex "
+"problem. Mayavi helps you focus on your visualization work and not worry too"
+" much about the underlying data structures, for instance using mlab (see "
+":ref:`simple-scripting-with-mlab`). We suggest you create sources for Mayavi"
+" using `mlab` or Mayavi sources when possible. However, it helps to "
+"understand the VTK data structures that Mayavi uses if you want to create "
+"data with a specific structure for a more efficient visualization, or if you"
+" want to extract the data from the Mayavi pipeline."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:18
+msgid "Outline"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rstNone
+msgid "Mayavi data sources and VTK datasets"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:24
+msgid ""
+"When you load a file, or you expose data in Mayavi using one of the "
+"`mlab.pipeline` source functions (see :ref:`mlab_data_source`), you create "
+"an object in the Mayavi pipeline that is attached to a scene. This object is"
+" a Mayavi source, and serves to describe the data and its properties to the "
+"Mayavi pipeline."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:30
+msgid ""
+"The internal structures use to represent to data in 3D all across Mayavi are"
+" VTK datasets, as described below."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:33
+msgid ""
+"One should not confuse VTK (or TVTK) `datasets` and Mayavi `data sources`. "
+"There is a finite and small number of datasets. However, many pipeline "
+"objects could be constructed to fit in the pipeline below a scene and "
+"providing datasets to the pipeline."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:42
+msgid "Introduction to TVTK datasets"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:44
+msgid ""
+"Mayavi uses the VTK library for all its visualization needs, via TVTK "
+"(Traited VTK). The data is exposed internally, by the sources, or at the "
+"output of the filters, as VTK datasets, described below. Understanding these"
+" structures is useful not only to manipulate them, but also to understand "
+"what happens when using filters to transform the data in the pipeline."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:51
+msgid "A dataset is defined by many different characteristics:"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:0
+#: ../../mayavi/docs/source/mayavi/data.rst:296
+msgid "Connectivity"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:57
+msgid ""
+"Connectivity is not only necessary to draw lines between the different "
+"points, it is also needed to define a volume."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:60
+msgid ""
+"**Implicit connectivity**: connectivity or positioning is implicit. In this "
+"case the data is considered as arranged on a lattice-like structure, with "
+"equal number of layers in each direction, x increasing first along the "
+"array, then y and finally z."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:0
+msgid "Data"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:67
+msgid ""
+"Dataset are made of points positioned in 3D, with the corresponding data. "
+"Each dataset can carry several data components."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:70
+msgid ""
+"**Scalar or Vectors data**: The data can be scalar, in which case VTK can "
+"perform operations such as taking the gradient and display the data with a "
+"colormap, or vector, in which case VTK can perform an integration to display"
+" streamlines, display the vectors, or extract the norm of the vectors, to "
+"create a scalar dataset."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:76
+msgid ""
+"**Cell data and point data**: Each VTK dataset is defined by vertices and "
+"cells, explicitly or implicitly. The data, scalar or vector, can be "
+"positioned either on the vertices, in which case it is called point data, or"
+" associated with a cell, in which case it is called cell data. Point data is"
+" stored in the `.point_data` attribute of the dataset, and the cell data is "
+"stored in the `.cell_data` attribute."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:83
+msgid ""
+"In addition the data arrays have an associated name, which is used in Mayavi"
+" to specify on which data component module or filter apply (eg: using "
+"the`SetActiveAttribute` filter)."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:87
+msgid "**VTK array ordering**"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:89
+msgid ""
+"All VTK arrays, whether it be for data or position, are exposed as (n, 3) "
+"numpy arrays for 3D components, and flat (n, ) array for 1D components. The "
+"index vary in the opposite order as numpy: z first, y and then x. Thus to go"
+" from a 3D numpy array to the corresponding flatten VTK array, the operation"
+" is::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:98
+msgid ""
+"An complete list of the VTK datasets used by Mayavi is given `below "
+"<dissection_vtk_datasets>`_, after a tour of the Mayavi pipeline."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:102
+msgid "The flow of data"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:104
+msgid ""
+"As described :ref:`earlier <pipeline_model>`, Mayavi builds visualization by"
+" assembling pipelines, where the data is loaded in Mayavi by a `data "
+"source`, and it can be transformed by `filters` and visualized by `modules`."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:109
+msgid ""
+"To retrieve the data displayed by Mayavi, to modify it via Python code, or "
+"to benefit from the data processing steps performed by the Mayavi filters, "
+"it can be useful to \"open up\" the Mayavi pipeline and understand how the "
+"data flows in it."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:114
+msgid ""
+"Inside the Mayavi pipeline, the 3D data flowing between sources filters and "
+"modules is stored in VTK datasets. Each source or filter has an `outputs` "
+"attribute, which is a list of VTK `datasets` describing the data output by "
+"the object."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:134
+msgid "For example:"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:127
+msgid ""
+"The parent of `iso` is its 'Colors and legend' node, the parent of which is "
+"the source feeding into `iso`::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:133
+msgid ""
+"Thus we can see that the Mayavi source created by `mlab.surf` exposes an "
+"ImageData_ VTK dataset."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:140
+msgid ""
+"To retrieve the VTK datasets feeding in an arbitrary object, the mlab "
+"function :func:`pipeline.get_vtk_src` may be useful. In the above example::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:151
+msgid "Retrieving the data from Mayavi pipelines"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:154
+msgid "Probing data at given positions"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:158
+msgid ""
+"If you simply want to retrieve the data values described by a Mayavi object "
+"a given position in space, you can use the :func:`pipeline.probe_data` "
+"function (**warning** the `probe_data` function is new in Mayavi 3.4.0)"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:163
+msgid ""
+"For example, if you have a set of irregularly spaced data points with no "
+"connectivity information::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:169
+msgid "You can expose them as a Mayavi source of unconnected points::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:173
+msgid "and visualize these points for debugging::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:178
+msgid ""
+"The resulting data is not defined in the volume, but only at the given "
+"position: as there is no connectivity information, Mayavi cannot interpolate"
+" between the points::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:185
+msgid "To define volumetric data, you can use a ``delaunay3d`` filter::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:189
+msgid ""
+"Now you can probe the value of the volumetric data anywhere. It will be non "
+"zero in the convex hull of the points::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:204
+msgid "Inspecting the internals of the data structures"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:206
+msgid ""
+"You may be interested in the data carried by the TVTK datasets themselves, "
+"rather than the values they represent, for instance to replicate them. For "
+"this, you can retrieve the TVTK datasets, and inspect them."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:211
+msgid "Extracting data points and values"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:213
+msgid ""
+"The positions of all the points of a TVTK dataset can be accessed via its "
+"`points` attribute. Retrieving the dataset from the `field` object of the "
+"previous example, we can view the data points::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:222
+msgid ""
+"This is a TVTK array. For us, it is more useful to convert it to a numpy "
+"array::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:229
+msgid ""
+"To retrieve the original `x`, `y`, `z` positions of the data points "
+"specified, we can transpose the array::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:234
+msgid ""
+"The corresponding data values can be found in the `point_data.scalars` "
+"attribute of the dataset, as the data is located on the points, and not in "
+"the cells, and it is scalar data::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:243
+msgid "Extracting lines"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:245
+msgid ""
+"If we want to extract the edges of the Delaunay tessellation, we can apply "
+"the ExtractEdges filter to the `field` from the previous example and inspect"
+" its output::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:253
+msgid ""
+"We can see that the output is a PolyData_ dataset. Looking at how these are "
+"build (see PolyData_), we see that the connectivity information is help in "
+"the `lines` attribute (that we convert to a numpy array using its "
+"`.to_array()` method)::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:262
+msgid ""
+"The way this array is build is a sequence of a length descriptor, followed "
+"by the indices of the data points connected together in the points array "
+"retrieved earlier. Here we have only sets of pairs of points connected "
+"together: the array is an alternation of `2` followed by a pair of indices."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:268
+msgid ""
+"A full example illustrating how to use the VTK Delaunay filter to extract a "
+"graph is given in :ref:`example_delaunay_graph`."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:273
+msgid "Headless use of Mayavi for the algorithms, without visualization"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:275
+msgid ""
+"As you can see from the above example, it can be interesting to use Mayavi "
+"just for the numerical algorithm operating on 3D data, as the Delaunay "
+"tessellation and interpolation demoed."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:279
+msgid ""
+"To run such examples headless, simply create the source with the keyword "
+"argument `figure=False`. As a result the sources will not be attached to any"
+" engine, but you will still be able to use filters, and to probe the data::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:290
+msgid "Dissection of the different TVTK datasets"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:292
+msgid ""
+"The 5 TVTK structures used are the following (ordered by the cost of "
+"visualizing them).:"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:296
+msgid "VTK name"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:296
+msgid "Suitable for"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:296
+msgid "Required information"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:298
+msgid "ImageData_"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:298
+#: ../../mayavi/docs/source/mayavi/data.rst:299
+#: ../../mayavi/docs/source/mayavi/data.rst:300
+msgid "Implicit"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:298
+#: ../../mayavi/docs/source/mayavi/data.rst:299
+#: ../../mayavi/docs/source/mayavi/data.rst:300
+#: ../../mayavi/docs/source/mayavi/data.rst:302
+msgid "Volumes and surfaces"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:298
+msgid "3D data array and spacing along each axis"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:299
+msgid "RectilinearGrid_"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:299
+msgid "3D data array and 1D array of spacing for each axis"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:300
+msgid "StructuredGrid_"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:300
+msgid "3D data array and 3D position arrays for each axis"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:301
+msgid "PolyData_"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:301
+#: ../../mayavi/docs/source/mayavi/data.rst:302
+msgid "Explicit"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:301
+msgid "Points, lines and surfaces"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:301
+msgid "x, y, z, positions of vertices and arrays of surface Cells"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:302
+msgid "UnstructuredGrid_"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:302
+msgid "x, y, z positions of vertices and arrays of volume Cells"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:308
+msgid "ImageData"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:310
+msgid ""
+"This dataset is made of data points positioned on an orthogonal grid, with "
+"constant spacing along each axis. The position of the data points are "
+"inferred from their position on the data array (implicit positioning), an "
+"origin and a spacing between 2 slices along each axis. In 2D, this can be "
+"understood as a raster image. This is the data structure created by the "
+"`ArraySource` mayavi source, from a 3D numpy array, as well as the "
+"`mlab.pipeline.scalar_field` and `mlab.pipeline.vector_field` factory "
+"functions, if the `x`, `y` and `z` arrays are not explicitly specified."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:322
+msgid "Creating a `tvtk.ImageData` object from numpy arrays::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:335
+msgid "RectilinearGrid"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:337
+msgid ""
+"This dataset is made of data points positioned on an orthogonal grid, with "
+"arbitrary spacing along the various axis. The position of the data points "
+"are inferred from their position on the data array, an origin and the list "
+"of spacings of each axis."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:344
+msgid "Creating a `tvtk.RectilinearGrid` object from numpy arrays::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:360
+msgid "StructuredGrid"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:362
+msgid ""
+"This dataset is made of data points positioned on arbitrary grid: each point"
+" is connected to its nearest neighbors on the data array. The position of "
+"the data points are fully described by 1 coordinate arrays, specifying x, y "
+"and z for each point."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:370
+msgid "Creating a `tvtk.StructuredGrid` object from numpy arrays::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:422
+msgid "PolyData"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:424
+msgid ""
+"This dataset is made of arbitrarily positioned data points that can be "
+"connected to form lines, or grouped in polygons to from surfaces (the "
+"polygons are broken up in triangles). Unlike the other datasets, this one "
+"cannot be used to describe volumetric data. The is the dataset created by "
+"the `mlab.pipeline.scalar_scatter` and `mlab.pipeline.vector_scatter` "
+"functions."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:433
+msgid "Creating a `tvtk.PolyData` object from numpy arrays::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:455
+msgid "UnstructuredGrid"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:457
+msgid ""
+"This dataset is the most general dataset of all. It is made of data points "
+"positioned arbitrarily. The connectivity between data points can be "
+"arbitrary (any number of neighbors). It is described by specifying "
+"connectivity, defining volumetric cells made of adjacent data points."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:465
+msgid "Creating a `tvtk.UnstructuredGrid` object from numpy arrays::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rstNone
+msgid "Modifying the data"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:498
+msgid ""
+"If you want to modify the data of any of these low-level data structures, "
+"you need to reassign data to the corresponding arrays, but also reassign "
+"them a name. Once this is done, you should call the 'modified()' method of "
+"the object, to tell the pipeline that the data has been modified::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:510
+msgid "External references"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:512
+msgid ""
+"This section of the user guide will be improved later.  For now, the "
+"following two presentations best describe how one can create data objects or"
+" data files for Mayavi and TVTK."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:516
+msgid "Presentation on TVTK and Mayavi2 for course at IIT Bombay"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:518
+msgid ""
+"https://github.com/enthought/mayavi/raw/master/docs/pdf/tvtk_mayavi2.pdf"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:520
+msgid ""
+"This presentation provides information on graphics in general, 3D data "
+"representation, creating VTK data files, creating datasets from numpy in "
+"Python, and also about mayavi."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:524
+msgid ""
+"Presentation on making TVTK datasets using numpy arrays made for SciPy07."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:526
+msgid ""
+"Prabhu Ramachandran. \"TVTK and MayaVi2\", SciPy'07: Python for Scientific "
+"Computing, CalTech, Pasadena, CA, 16--17 August, 2007."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:529
+msgid ""
+"This presentation focuses on creating TVTK datasets using numpy arrays."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:534
+msgid "Datasets creation examples"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:536
+msgid ""
+"There are several examples in the mayavi sources that highlight the creation"
+" of the most important datasets from numpy arrays. Specifically they are:"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:540
+msgid ""
+":ref:`example_datasets`: Generate a simple example for each type of VTK "
+"dataset."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:543
+msgid ""
+":ref:`example_polydata`:  Demonstrates how to create Polydata datasets from "
+"numpy arrays and visualize them in mayavi."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:546
+msgid ""
+":ref:`example_structured_points2d`: Demonstrates how to create a 2D "
+"structured points (an ImageData) dataset from numpy arrays and visualize "
+"them in mayavi.  This is basically a square of equispaced points."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:551
+msgid ""
+":ref:`example_structured_points3d`: Demonstrates how to create a 3D "
+"structured points (an ImageData) dataset from numpy arrays and visualize "
+"them in Mayavi.  This is a cube of points that are regularly spaced."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:556
+msgid ""
+":ref:`example_structured_grid`: Demonstrates the creation and visualization "
+"of a 3D structured grid."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:559
+msgid ""
+":ref:`example_unstructured_grid`: Demonstrates the creation and "
+"visualization of an unstructured grid."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:562
+msgid "These scripts may be run like so::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:566
+msgid "or better yet, all in one go like so::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:584
+msgid "Inserting TVTK datasets in the Mayavi pipeline"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:586
+msgid ""
+"TVTK datasets can be created using directly TVTK, as illustrated in the "
+"examples above. A VTK data source can be inserted in the Mayavi pipeline "
+"using the VTKDataSource. For instance we can create an `ImageData` dataset::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:599
+msgid ""
+"If you are scripting using :ref:`mlab <simple-scripting-with-mlab>`, the "
+"simplest way to visualize your data is to use the :ref:`mlab.pipeline "
+"<controlling-the-pipeline-with-mlab-scripts>` to apply filters and modules "
+"to your data. Indeed these functions creating filters and modules accept VTK"
+" datasets and automatically insert them on the pipeline. A surface module "
+"could have been used to visualize the `ImageData` dataset created above as "
+"such::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:611
+msgid ""
+"In addition, inserting this dataset on the Mayavi pipeline with direct "
+"control on the `Engine` is done as suchwith `VTKDataSource`::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/data.rst:622
+msgid ""
+"Of course, unless you want specific control on the attributes of the VTK "
+"dataset, or you are using Mayavi in the context of existing code "
+"manipulating TVTK objects, creating an `ImageData` TVTK object is not "
+"advised. The `ArraySource` object of Mayavi will actually create an "
+"`ImageData`, but make sure you don't get the shape wrong, which can lead to "
+"a segmentation fault. An even easier way to create a data source for an "
+"`ImageData` is to use the `mlab.pipeline.scalar_field` function, as "
+"explained in the :ref:`section on creating data sources with mlab "
+"<mlab_data_source>`."
+msgstr ""

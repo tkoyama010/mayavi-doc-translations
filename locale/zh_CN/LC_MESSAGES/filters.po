@@ -1,0 +1,360 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2018, Enthought Inc.
+# This file is distributed under the same license as the mayavi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mayavi 4.7.3.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"PO-Revision-Date: 2019-04-27 07:30+0000\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:5
+msgid "Filters"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:6
+msgid ""
+"Filters transform the data, but do not display it. They are used as an "
+"intermediate between the data sources and the modules."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:9
+msgid "Here is a list of the Mayavi Filters."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "CellDerivatives"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:12
+msgid ""
+"Computes derivatives from input point scalar and vector data and produces "
+"cell data on the gradients.  Can be used to approximately calculate the "
+"vorticity for example."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "CellToPointData"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:17
+msgid ""
+"Transforms cell attribute data to point data by averaging the cell data from"
+" the cells at the point."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "Contour"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:21
+msgid ""
+"A contour filter that wraps around the Contour component to generate iso-"
+"surfaces on any input dataset."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "CutPlane"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:25
+msgid ""
+"This filter represents a cut plane that can be used to slice through any "
+"dataset.  It also provides a 3D widget interface to position and move the "
+"slice interactively."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "DataSetClipper"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:30
+msgid ""
+"This filter clips the dataset in an area.  The area can be defined "
+"interactively as a box, a sphere..."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "DecimatePro"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:34
+msgid ""
+"Reduces the number of triangles in a triangular mesh by approximating the "
+"original mesh."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "Delaunay2D"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:38
+msgid "Performs a 2D Delaunay triangulation."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "Delaunay3D"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:41
+msgid "Performs a 3D Delaunay triangulation."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "ElevationFilter"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:44
+msgid ""
+"Creates scalar data corresponding to the elevation of the points along a "
+"line."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "ExtractEdges"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:48
+msgid "This filter extracts cell edges from any input data."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "ExtractGrid"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:51
+msgid "Allows a user to select a part of a structured grid."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "ExtractTensorComponents"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:54
+msgid ""
+"Wraps the TVTK ``ExtractTensorComponents`` filter to extract components from"
+" a tensor field."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "ExtractUnstructuredGrid"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:58
+msgid "Allows a user to select a part of an unstructured grid."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "ExtractVectorNorm"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:61
+msgid ""
+"Computes the norm (Euclidean) of the input vector data (with optional "
+"scaling between [0, 1]). This is useful when the input data has vector input"
+" but no scalar data for the magnitude of the vectors."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "ExtractVectorComponents"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:67
+msgid ""
+"Wraps the TVTK ExtractVectorComponents filter to extract components of a "
+"vector. This is useful for analyzing individual components of a vector data."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "GaussianSplatter"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:72
+msgid ""
+"This filter splat points into a volume with an elliptical, Gaussian "
+"distribution. This is useful to estimate a density field from a set of "
+"scattered points."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "GreedyTerrainDecimation"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:77
+msgid ""
+"Approximates a height field (2D image data) with a triangle mesh, keeping "
+"the number of triangles minimum."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "ImageChangeInformation"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:81
+msgid ""
+"A filter that can be used to change the origin, spacing and extents of an "
+"input image data dataset without changing the data itself."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "ImageDataProbe"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:86
+msgid ""
+"A filter that can be used to probe any dataset using a Structured Points "
+"dataset.  The filter also allows one to convert the scalar data to an "
+"unsigned short array so that the scalars can be used for volume "
+"visualization."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "MaskPoints"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:92
+msgid ""
+"Selectively passes the input points downstream. This can be used to "
+"subsample the input points.  Note that this does not pass geometry data, "
+"this means all grid information is lost."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "PointToCellData"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:98
+msgid ""
+"Does the inverse of the CellToPointData filter: converts data located on the"
+" points to data located on the cells."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "PolyDataNormals"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:102
+msgid ""
+"Computes normals from input data. This gives meshes a smoother appearance. "
+"This should work for any input dataset. Note: this filter is called "
+"\"Compute Normals\" in Mayavi2 GUI (Visualize/Filters/Compute Normals)."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "QuadricDecimation"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:108
+msgid ""
+"Reduce triangles in a mesh, forming a good approximation of the original "
+"mesh."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "SelectOutput"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:112
+msgid ""
+"A filter that allows a user to select one among several of the outputs of a "
+"given input.  This is typically very useful for a multi-block data source."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "SetActiveAttribute"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:117
+msgid ""
+"This filter lets a user set the active data attribute (scalars, vectors and "
+"tensors) on a VTK dataset.  This is particularly useful if you need to do "
+"something like compute contours of one scalar on the contour of another "
+"scalar."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "Stripper"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:123
+msgid ""
+"Create triangle strips and/or poly-lines. Useful for regularizing broken up "
+"surfaces, such as those created by the Tube filter."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "Threshold"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:127
+msgid "A simple filter that thresholds on input data."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "TransformData"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:130
+msgid "Performs a linear transformation to input data."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "Tube"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:133
+msgid "Turns lines into tubes."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "UserDefined"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:136
+msgid ""
+"This filter lets the user define their own filter dynamically/interactively."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "Vorticity"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:140
+msgid ""
+"This filter computes the vorticity of an input vector field. For "
+"convenience, the filter allows one to optionally pass-through the given "
+"input vector field.  The filter also allows the user to show the component "
+"of the vorticity along a particular cartesian co-ordinate axes.  It produces"
+" point data on output which is ready to visualize."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "WarpScalar"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:148
+msgid ""
+"Warps the input data along a particular direction (either the normals or a "
+"specified direction) with a scale specified by the local scalar value. "
+"Useful for making carpet plots. The scalar value of a dataset can be, for "
+"instance, converted in elevation."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:0
+msgid "WarpVector"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/filters.rst:155
+msgid ""
+"Warps the input data along the point vector attribute scaled as per a scale "
+"factor.  Useful for showing flow profiles or displacements."
+msgstr ""
