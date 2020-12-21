@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"POT-Creation-Date: 2020-12-21 01:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,115 +36,115 @@ msgstr ""
 msgid "For instance, the `ScalarCutPlane` module can be added with the following function:"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:1
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:1
 msgid "Applies the ScalarCutPlane mayavi module to the given data source (Mayavi source, or VTK dataset)."
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:4
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:4
 msgid "**Keyword arguments:**"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "color"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:6
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:6
 msgid "the color of the vtk object. Overides the colormap, if any, when specified. This is specified as a triplet of float ranging from 0 to 1, eg (1, 1, 1) for white."
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "colormap"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:11
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:11
 msgid "type of colormap to use."
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "extent"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:13
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:13
 msgid "[xmin, xmax, ymin, ymax, zmin, zmax] Default is the x, y, z arrays extent. Use this to change the extent of the object created."
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "figure"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:18
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:18
 msgid "Must be a Scene or None."
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "line_width"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:20
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:20
 msgid "The width of the lines, if any used. Must be a float. Default: 2.0"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "name"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:23
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:23
 msgid "the name of the vtk object created."
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "opacity"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:25
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:25
 msgid "The overall opacity of the vtk object. Must be a float. Default: 1.0"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "plane_orientation"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:28
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:28
 msgid "the orientation of the plane Must be a legal value. Default: x_axes"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "reset_zoom"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:31
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:31
 msgid "Reset the zoom to accomodate the data newly added to the scene. Defaults to True."
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "transparent"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:34
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:34
 msgid "make the opacity of the actor depend on the scalar."
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "view_controls"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:37
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:37
 msgid "Whether or not the controls of the cut plane are shown. Must be a boolean. Default: True"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "vmax"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:40
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:40
 msgid "vmax is used to scale the colormap. If None, the max of the data will be used"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:0
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "vmin"
 msgstr ""
 
-#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.modules.scalar_cut_plane:43
+#: ../../mayavi/mayavi/tools/pipe_base.py:docstring of mayavi.tools.pipe_base.make_function.<locals>.the_function:43
 msgid "vmin is used to scale the colormap. If None, the min of the data will be used"
 msgstr ""
 
