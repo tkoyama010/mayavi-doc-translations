@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 00:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,11 +29,11 @@ msgstr "Filters"
 msgid ""
 "Filters transform the data, but do not display it. They are used as an "
 "intermediate between the data sources and the modules."
-msgstr "フィルタはデータを変換しますが、表示はしません。データソースとモジュールの中間として使用されます。"
+msgstr "フィルタはデータを変換しますが，表示はしません．データソースとモジュールの中間として使用されます．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:9
 msgid "Here is a list of the Mayavi Filters."
-msgstr "Mayaviフィルタのリストです。"
+msgstr "Mayaviフィルタのリストです．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "CellDerivatives"
@@ -44,7 +44,7 @@ msgid ""
 "Computes derivatives from input point scalar and vector data and produces "
 "cell data on the gradients.  Can be used to approximately calculate the "
 "vorticity for example."
-msgstr "入力点スカラーおよびベクトルデータから導関数を計算し、勾配に関するセルデータを生成します。渦度の概算計算などに使用できます。"
+msgstr "入力点スカラーおよびベクトルデータから導関数を計算し，勾配に関するセルデータを生成します．渦度の概算計算などに使用できます．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "CellToPointData"
@@ -54,7 +54,7 @@ msgstr "CellToPointData"
 msgid ""
 "Transforms cell attribute data to point data by averaging the cell data from"
 " the cells at the point."
-msgstr "ポイントのセルのセル・データを平均化して、セル属性データをポイント・データに変換します。"
+msgstr "ポイントのセルのセル・データを平均化して，セル属性データをポイント・データに変換します．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "Contour"
@@ -64,7 +64,7 @@ msgstr "Contour"
 msgid ""
 "A contour filter that wraps around the Contour component to generate iso-"
 "surfaces on any input dataset."
-msgstr "任意の入力データセットに等値面を生成するために輪郭コンポーネントを囲む輪郭フィルタ。"
+msgstr "任意の入力データセットに等値面を生成するために輪郭コンポーネントを囲む輪郭フィルタ．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "CutPlane"
@@ -76,7 +76,7 @@ msgid ""
 "dataset.  It also provides a 3D widget interface to position and move the "
 "slice interactively."
 msgstr ""
-"このフィルタは、任意のデータセットをスライスするために使用できる切断面を表します。また、スライスをインタラクティブに配置および移動するための3Dウィジェットインタフェースも提供します。"
+"このフィルタは，任意のデータセットをスライスするために使用できる切断面を表します．また，スライスをインタラクティブに配置および移動するための3Dウィジェットインタフェースも提供します．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "DataSetClipper"
@@ -86,7 +86,7 @@ msgstr "DataSetClipper"
 msgid ""
 "This filter clips the dataset in an area.  The area can be defined "
 "interactively as a box, a sphere..."
-msgstr "このフィルタは、データセットを領域にクリップします。この領域は、ボックス、球としてインタラクティブに定義できます。"
+msgstr "このフィルタは，データセットを領域にクリップします．この領域は，ボックス，球としてインタラクティブに定義できます．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "DecimatePro"
@@ -96,7 +96,7 @@ msgstr "DecimatePro"
 msgid ""
 "Reduces the number of triangles in a triangular mesh by approximating the "
 "original mesh."
-msgstr "元のメッシュを近似することにより、三角形メッシュ内の三角形の数を減らします。"
+msgstr "元のメッシュを近似することにより，三角形メッシュ内の三角形の数を減らします．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "Delaunay2D"
@@ -104,7 +104,7 @@ msgstr "Delaunay2D"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:38
 msgid "Performs a 2D Delaunay triangulation."
-msgstr "2D Delaunay三角形分割を実行します。"
+msgstr "2D Delaunay三角形分割を実行します．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "Delaunay3D"
@@ -122,7 +122,7 @@ msgstr "ElevationFilter"
 msgid ""
 "Creates scalar data corresponding to the elevation of the points along a "
 "line."
-msgstr "線分に沿ったポイントの標高に対応するスカラデータを作成します。"
+msgstr "線分に沿ったポイントの標高に対応するスカラデータを作成します．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "ExtractEdges"
@@ -130,7 +130,7 @@ msgstr "ExtractEdges"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:48
 msgid "This filter extracts cell edges from any input data."
-msgstr "このフィルタは、入力データからセルのエッジを抽出します。"
+msgstr "このフィルタは，入力データからセルのエッジを抽出します．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "ExtractGrid"
@@ -138,7 +138,7 @@ msgstr "ExtractGrid"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:51
 msgid "Allows a user to select a part of a structured grid."
-msgstr "構造化されたグリッドの一部を選択できます。"
+msgstr "構造化されたグリッドの一部を選択できます．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "ExtractTensorComponents"
@@ -149,7 +149,7 @@ msgid ""
 "Wraps the TVTK ``ExtractTensorComponents`` filter to extract components from"
 " a tensor field."
 msgstr ""
-"TVTKの ``ExtractTensorComponents`` フィルタをラップして、テンソルフィールドからコンポーネントを抽出します。"
+"TVTKの ``ExtractTensorComponents`` フィルタをラップして，テンソルフィールドからコンポーネントを抽出します．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "ExtractUnstructuredGrid"
@@ -157,7 +157,7 @@ msgstr "ExtractUnstructuredGrid"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:58
 msgid "Allows a user to select a part of an unstructured grid."
-msgstr "構造化されていないグリッドの一部を選択できます。"
+msgstr "構造化されていないグリッドの一部を選択できます．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "ExtractVectorNorm"
@@ -170,7 +170,7 @@ msgid ""
 " but no scalar data for the magnitude of the vectors."
 msgstr ""
 "入力ベクトルデータ(オプションのスケール [0, 1] "
-")のノルム(ユークリッド人)を計算します。これは、入力データにベクトル入力があり、ベクトルの大きさのスカラーデータがない場合に便利です。"
+")のノルム(ユークリッド人)を計算します．これは，入力データにベクトル入力があり，ベクトルの大きさのスカラーデータがない場合に便利です．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "ExtractVectorComponents"
@@ -181,7 +181,7 @@ msgid ""
 "Wraps the TVTK ExtractVectorComponents filter to extract components of a "
 "vector. This is useful for analyzing individual components of a vector data."
 msgstr ""
-"TVTKのExtractVectorComponentsフィルタを折り返して、ベクトルのコンポーネントを抽出します。これは、ベクトルデータの個々のコンポーネントを分析する場合に便利です。"
+"TVTKのExtractVectorComponentsフィルタを折り返して，ベクトルのコンポーネントを抽出します．これは，ベクトルデータの個々のコンポーネントを分析する場合に便利です．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "GaussianSplatter"
@@ -192,7 +192,7 @@ msgid ""
 "This filter splat points into a volume with an elliptical, Gaussian "
 "distribution. This is useful to estimate a density field from a set of "
 "scattered points."
-msgstr "このフィルタは、楕円形のガウス分布を持つボリュームにポイントを分割します。これは散乱点の集合から密度場を推定するのに有用である。"
+msgstr "このフィルタは，楕円形のガウス分布を持つボリュームにポイントを分割します．これは散乱点の集合から密度場を推定するのに有用である．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "GreedyTerrainDecimation"
@@ -202,7 +202,7 @@ msgstr "GreedyTerrainDecimation"
 msgid ""
 "Approximates a height field (2D image data) with a triangle mesh, keeping "
 "the number of triangles minimum."
-msgstr "三角形の数を最小に保ちながら、高さフィールド(2D画像データ)を三角形のメッシュで近似します。"
+msgstr "三角形の数を最小に保ちながら，高さフィールド(2D画像データ)を三角形のメッシュで近似します．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "ImageChangeInformation"
@@ -212,7 +212,7 @@ msgstr "ImageChangeInformation"
 msgid ""
 "A filter that can be used to change the origin, spacing and extents of an "
 "input image data dataset without changing the data itself."
-msgstr "データ自体を変更することなく、入力イメージデータデータセットの原点、間隔、範囲を変更するために使用できるフィルタ。"
+msgstr "データ自体を変更することなく，入力イメージデータデータセットの原点，間隔，範囲を変更するために使用できるフィルタ．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "ImageDataProbe"
@@ -225,7 +225,7 @@ msgid ""
 "unsigned short array so that the scalars can be used for volume "
 "visualization."
 msgstr ""
-"構造化ポイントデータセットを使用して任意のデータセットをプローブするために使用できるフィルタ。このフィルタはスカラーデータを符号なし短配列に変換し,スカラーを体積可視化に使用できるようにします。"
+"構造化ポイントデータセットを使用して任意のデータセットをプローブするために使用できるフィルタ．このフィルタはスカラーデータを符号なし短配列に変換し,スカラーを体積可視化に使用できるようにします．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "MaskPoints"
@@ -237,7 +237,7 @@ msgid ""
 "subsample the input points.  Note that this does not pass geometry data, "
 "this means all grid information is lost."
 msgstr ""
-"入力ポイントを下流に選択的に渡します。入力ポイントのサブサンプルに使用できます。ジオメトリデータは渡されません。これはすべてのグリッド情報が失われることを意味します。"
+"入力ポイントを下流に選択的に渡します．入力ポイントのサブサンプルに使用できます．ジオメトリデータは渡されません．これはすべてのグリッド情報が失われることを意味します．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "PointToCellData"
@@ -247,7 +247,7 @@ msgstr "PointToCellData"
 msgid ""
 "Does the inverse of the CellToPointData filter: converts data located on the"
 " points to data located on the cells."
-msgstr "CellToPointDataフィルタの逆を実行します。ポイント上のデータをセル上のデータに変換します。"
+msgstr "CellToPointDataフィルタの逆を実行します．ポイント上のデータをセル上のデータに変換します．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "PolyDataNormals"
@@ -259,8 +259,8 @@ msgid ""
 "This should work for any input dataset. Note: this filter is called "
 "\"Compute Normals\" in Mayavi2 GUI (Visualize/Filters/Compute Normals)."
 msgstr ""
-"入力データから法線を計算します。これにより、メッシュの外観が滑らかになります。これは、どの入力データセットでも機能します。注:このフィルタはMaya2GUIでは"
-" \"Compute Normals\" と呼ばれます(表示/フィルタ/法線を計算)。"
+"入力データから法線を計算します．これにより，メッシュの外観が滑らかになります．これは，どの入力データセットでも機能します．注:このフィルタはMaya2GUIでは"
+" \"Compute Normals\" と呼ばれます(表示/フィルタ/法線を計算)．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "QuadricDecimation"
@@ -270,7 +270,7 @@ msgstr "QuadricDecimation"
 msgid ""
 "Reduce triangles in a mesh, forming a good approximation of the original "
 "mesh."
-msgstr "メッシュ内の三角形を削減して、オリジナルのメッシュの適切な近似を形成します。"
+msgstr "メッシュ内の三角形を削減して，オリジナルのメッシュの適切な近似を形成します．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "SelectOutput"
@@ -280,7 +280,7 @@ msgstr "SelectOutput"
 msgid ""
 "A filter that allows a user to select one among several of the outputs of a "
 "given input.  This is typically very useful for a multi-block data source."
-msgstr "ユーザが特定の入力の複数の出力の中から1つを選択できるようにするフィルタ。これは通常、マルチブロックデータソースに非常に便利です。"
+msgstr "ユーザが特定の入力の複数の出力の中から1つを選択できるようにするフィルタ．これは通常，マルチブロックデータソースに非常に便利です．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "SetActiveAttribute"
@@ -293,7 +293,7 @@ msgid ""
 "something like compute contours of one scalar on the contour of another "
 "scalar."
 msgstr ""
-"このフィルタを使用すると、VTKデータセットにアクティブなデータ属性(スカラー、ベクトル、テンソル)を設定できます。これは、あるスカラーの輪郭を別のスカラーの輪郭で計算する場合などに特に便利です。"
+"このフィルタを使用すると，VTKデータセットにアクティブなデータ属性(スカラー，ベクトル，テンソル)を設定できます．これは，あるスカラーの輪郭を別のスカラーの輪郭で計算する場合などに特に便利です．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "Stripper"
@@ -303,7 +303,7 @@ msgstr "Stripper"
 msgid ""
 "Create triangle strips and/or poly-lines. Useful for regularizing broken up "
 "surfaces, such as those created by the Tube filter."
-msgstr "三角形のストリップやポリラインを作成します。Tubeフィルタで作成したような、壊れたサーフェスを規則化するのに便利です。"
+msgstr "三角形のストリップやポリラインを作成します．Tubeフィルタで作成したような，壊れたサーフェスを規則化するのに便利です．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "Threshold"
@@ -311,7 +311,7 @@ msgstr "Threshold"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:127
 msgid "A simple filter that thresholds on input data."
-msgstr "入力データにしきい値を設定する単純なフィルタです。"
+msgstr "入力データにしきい値を設定する単純なフィルタです．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "TransformData"
@@ -319,7 +319,7 @@ msgstr "TransformData"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:130
 msgid "Performs a linear transformation to input data."
-msgstr "入力データに対して線形変換を実行します。"
+msgstr "入力データに対して線形変換を実行します．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "Tube"
@@ -327,7 +327,7 @@ msgstr "Tube"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:133
 msgid "Turns lines into tubes."
-msgstr "線をチューブに変換します。"
+msgstr "線をチューブに変換します．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "UserDefined"
@@ -336,7 +336,7 @@ msgstr "UserDefined"
 #: ../../mayavi/docs/source/mayavi/filters.rst:136
 msgid ""
 "This filter lets the user define their own filter dynamically/interactively."
-msgstr "このフィルタにより、ユーザーは独自のフィルタを動的または対話的に定義できます。"
+msgstr "このフィルタにより，ユーザーは独自のフィルタを動的または対話的に定義できます．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "Vorticity"
@@ -350,7 +350,7 @@ msgid ""
 "of the vorticity along a particular cartesian co-ordinate axes.  It produces"
 " point data on output which is ready to visualize."
 msgstr ""
-"このフィルタは、入力ベクトルフィールドの渦度を計算します。便宜上、このフィルタは、任意に所与の入力ベクトルフィールドを通過させることを可能にする。このフィルタを使用すると、特定の直交座標軸に沿った渦度の成分を表示することもできます。これにより、表示可能な点データが出力に生成されます。"
+"このフィルタは，入力ベクトルフィールドの渦度を計算します．便宜上，このフィルタは，任意に所与の入力ベクトルフィールドを通過させることを可能にする．このフィルタを使用すると，特定の直交座標軸に沿った渦度の成分を表示することもできます．これにより，表示可能な点データが出力に生成されます．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "WarpScalar"
@@ -363,7 +363,7 @@ msgid ""
 "Useful for making carpet plots. The scalar value of a dataset can be, for "
 "instance, converted in elevation."
 msgstr ""
-"ローカルスカラー値で指定したスケールで、入力データを特定の方向(法線または指定した方向のいずれか)にワープします。カーペットのプロットに便利です。データセットのスカラー値は、たとえば標高で変換できます。"
+"ローカルスカラー値で指定したスケールで，入力データを特定の方向(法線または指定した方向のいずれか)にワープします．カーペットのプロットに便利です．データセットのスカラー値は，たとえば標高で変換できます．"
 
 #: ../../mayavi/docs/source/mayavi/filters.rst:0
 msgid "WarpVector"
@@ -374,4 +374,4 @@ msgid ""
 "Warps the input data along the point vector attribute scaled as per a scale "
 "factor.  Useful for showing flow profiles or displacements."
 msgstr ""
-"スケール係数に従ってスケールされたポイントベクトルアトリビュートに沿って入力データをワープします。流動プロファイルや変位を表示する場合に便利です。"
+"スケール係数に従ってスケールされたポイントベクトルアトリビュートに沿って入力データをワープします．流動プロファイルや変位を表示する場合に便利です．"

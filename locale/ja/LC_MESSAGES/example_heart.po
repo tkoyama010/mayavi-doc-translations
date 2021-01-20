@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 00:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,10 +36,10 @@ msgid ""
 "have no idea whose heart!  The file is a readable text file, look at it in a"
 " text editor if you'd like to."
 msgstr ""
-"このセクションでは、  ``heart.vtk`` "
-"ファイルの簡単な例を説明します。これは、各ポイント(点は等間隔である)にスカラー値を持つ単純な3Dデータ(32x32x12ポイント)です。データは構造化されたデータセット(実際には"
+"このセクションでは，  ``heart.vtk`` "
+"ファイルの簡単な例を説明します．これは，各ポイント(点は等間隔である)にスカラー値を持つ単純な3Dデータ(32x32x12ポイント)です．データは構造化されたデータセット(実際には"
 " `ImageData` "
-")であり、後で詳しく説明しますが、各ポイントに関連付けられたスカラーデータを規則的に配置したポイントの立方体と考えることができます。データは心臓のCTスキャンを表しているようですが、誰の心臓なのかわかりません!このファイルは読みやすいテキストファイルです。必要に応じて、テキストエディタで確認してください。"
+")であり，後で詳しく説明しますが，各ポイントに関連付けられたスカラーデータを規則的に配置したポイントの立方体と考えることができます．データは心臓のCTスキャンを表しているようですが，誰の心臓なのかわかりません!このファイルは読みやすいテキストファイルです．必要に応じて，テキストエディタで確認してください．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:15
 msgid ""
@@ -48,8 +48,8 @@ msgid ""
 " to the directory that contains the sample data. There select the "
 "``heart.vtk`` file."
 msgstr ""
-"``mayavi2`` が始まったら、まずデータファイルを開きます。 `File->Load data->Open file` "
-"メニュー項目に移動し、ファイルダイアログでサンプルデータを含むディレクトリに移動します。 ``heart.vtk`` ファイルを選択します。"
+"``mayavi2`` が始まったら，まずデータファイルを開きます． `File->Load data->Open file` "
+"メニュー項目に移動し，ファイルダイアログでサンプルデータを含むディレクトリに移動します． ``heart.vtk`` ファイルを選択します．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:20
 msgid ""
@@ -57,8 +57,8 @@ msgid ""
 " the left that says `VTK file (heart.vtk)`.  Note that you **will not** see "
 "anything visualized on the TVTK scene yet."
 msgstr ""
-"データを選択すると、左側のMayaviツリービューに `VTK file (heart.vtk)` "
-"という新しいノードが表示されます。TVTKシーンにはまだ何も表示 **されません** 。"
+"データを選択すると，左側のMayaviツリービューに `VTK file (heart.vtk)` "
+"という新しいノードが表示されます．TVTKシーンにはまだ何も表示 **されません** ．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:25
 msgid ""
@@ -67,9 +67,9 @@ msgid ""
 "box on the TVTK scene.  You should also see two new nodes on the tree view, "
 "one called `Colors and legends` and one underneath that called `Outline`."
 msgstr ""
-"データのアウトライン(箱)を表示するには、メニュー項目 `Visualize->Modules` "
-"に移動し、Outlineモジュールを選択します。TVTKシーンに白いボックスが表示されます。ツリービューには、  `Colors and "
-"legends` とその下にある `Outline` という2つの新しいノードも表示されます。"
+"データのアウトライン(箱)を表示するには，メニュー項目 `Visualize->Modules` "
+"に移動し，Outlineモジュールを選択します．TVTKシーンに白いボックスが表示されます．ツリービューには，  `Colors and "
+"legends` とその下にある `Outline` という2つの新しいノードも表示されます．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:31
 msgid ""
@@ -81,7 +81,7 @@ msgid ""
 " embedded object editor."
 msgstr ""
 "左側の `Outline` "
-"ノードをクリックすると、表示されるアウトラインのプロパティを変更できます。これにより、ウィンドウの左下(オブジェクトエディタタブ)のツリー表示の下にオブジェクトエディタウィンドウが作成されます。ここで設定を再生し、結果を確認します。ツリー表示でノードをダブルクリックすると、埋め込みオブジェクトエディタではなくエディタダイアログがポップアップ表示されます。"
+"ノードをクリックすると，表示されるアウトラインのプロパティを変更できます．これにより，ウィンドウの左下(オブジェクトエディタタブ)のツリー表示の下にオブジェクトエディタウィンドウが作成されます．ここで設定を再生し，結果を確認します．ツリー表示でノードをダブルクリックすると，埋め込みオブジェクトエディタではなくエディタダイアログがポップアップ表示されます．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:39
 msgid ""
@@ -95,12 +95,12 @@ msgid ""
 "graphics primitives.  Properties related to it will be grouped under the "
 "`Mapper` head."
 msgstr ""
-"一般に、  `Module` のエディタウィンドウには、 `Actor` のセクション、  `Mapper` のセクション、 `Property` "
-"のセクションがあります。これらはTVTK/VTKの用語である。プロパティは、色、表現(サーフェス、ワイヤフレームなど。)、線サイズなどに関連するものと考えることができます。"
+"一般に，  `Module` のエディタウィンドウには， `Actor` のセクション，  `Mapper` のセクション， `Property` "
+"のセクションがあります．これらはTVTK/VTKの用語である．プロパティは，色，表現(サーフェス，ワイヤフレームなど．)，線サイズなどに関連するものと考えることができます．"
 " `Actor` "
-"の下にグループ化されているものは、画面上にレンダリングされたオブジェクトに関連するもので、通常はエディタで表示を切り替えることができます。VTK用語では、"
-" `Mapper` という言葉は、データをグラフィックスプリミティブに変換するオブジェクトを指す。関連するプロパティは、 `Mapper` "
-"の下にグループ化されます。"
+"の下にグループ化されているものは，画面上にレンダリングされたオブジェクトに関連するもので，通常はエディタで表示を切り替えることができます．VTK用語では，"
+" `Mapper` という言葉は，データをグラフィックスプリミティブに変換するオブジェクトを指す．関連するプロパティは， `Mapper` "
+"の下にグループ化されます．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:50
 msgid ""
@@ -108,8 +108,8 @@ msgid ""
 ":`interaction-with-the-scene` for more details.  Experiment with these "
 "options till you are comfortable."
 msgstr ""
-"TVTKのシーンウィンドウを操作するには、 :ref:`interaction-with-the-scene` "
-"のセクションを参照してください。快適になるまで、これらのオプションを試してみてください。"
+"TVTKのシーンウィンドウを操作するには， :ref:`interaction-with-the-scene` "
+"のセクションを参照してください．快適になるまで，これらのオプションを試してみてください．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:54
 msgid ""
@@ -119,9 +119,9 @@ msgid ""
 "iso-surface is colored as per the particular iso-value chosen.  Experiment "
 "with the settings of this module."
 msgstr ""
-"Outlineノードを選択した状態で、 `Visualize->Modules->IsoSurface` "
-"メニュー項目を選択してアイソサーフェスを作成します。左側に新しい `IsoSurface` "
-"ノードと、シーン上のスカラーデータのアイソコンターが表示されます。アイソサーフェスは、選択した特定のアイソ値に従ってカラー表示されます。このモジュールの設定を試してください。"
+"Outlineノードを選択した状態で， `Visualize->Modules->IsoSurface` "
+"メニュー項目を選択してアイソサーフェスを作成します．左側に新しい `IsoSurface` "
+"ノードと，シーン上のスカラーデータのアイソコンターが表示されます．アイソサーフェスは，選択した特定のアイソ値に従ってカラー表示されます．このモジュールの設定を試してください．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:61
 msgid ""
@@ -134,9 +134,9 @@ msgid ""
 "change the nature of the color-mapping by choosing various options on the "
 "object editor."
 msgstr ""
-"意味のある視覚エフェクトを作成するには、各カラーが何を表すかを知る必要があります。この凡例をシーンに表示するには、ツリービューの `Colors and"
-" legends` ノードをクリックし、オブジェクトエディタの `Show scalar bar` "
-"チェックボックスをオンにします。これにより、TVTKシーンの凡例が表示されます。凡例は、クリックしてドラッグすることで、シーン上で移動できます。エッジをクリックアンドドラッグしてサイズを変更することもできます。オブジェクトエディタのさまざまなオプションを選択して、カラーマッピングの性質を変更できます。"
+"意味のある視覚エフェクトを作成するには，各カラーが何を表すかを知る必要があります．この凡例をシーンに表示するには，ツリービューの `Colors and"
+" legends` ノードをクリックし，オブジェクトエディタの `Show scalar bar` "
+"チェックボックスをオンにします．これにより，TVTKシーンの凡例が表示されます．凡例は，クリックしてドラッグすることで，シーン上で移動できます．エッジをクリックアンドドラッグしてサイズを変更することもできます．オブジェクトエディタのさまざまなオプションを選択して，カラーマッピングの性質を変更できます．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:71
 msgid ""
@@ -144,8 +144,8 @@ msgid ""
 " grid.  This can be done using the `GridPlane` module, and created via the "
 "`Visualize->Modules->GridPlane` menu item."
 msgstr ""
-"簡単な \"grid plane\" を作成して、グリッド上の実際のポイントの概念を取得します。これは、 `GridPlane` "
-"モジュールを使用して行い、  `Visualize->Modules->GridPlane` メニュー項目を使用して作成します。"
+"簡単な \"grid plane\" を作成して，グリッド上の実際のポイントの概念を取得します．これは， `GridPlane` "
+"モジュールを使用して行い，  `Visualize->Modules->GridPlane` メニュー項目を使用して作成します．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:76
 msgid ""
@@ -153,14 +153,14 @@ msgid ""
 "delete.  Try this on the `GridPlane` module.  Try the other right click menu"
 " options as well."
 msgstr ""
-"特定のモジュールを削除するには、そのモジュールを右クリックしてdeleteを選択します。 `GridPlane` "
-"モジュールで試してみてください。もう1つの右クリックメニューオプションも試してみてください。"
+"特定のモジュールを削除するには，そのモジュールを右クリックしてdeleteを選択します． `GridPlane` "
+"モジュールで試してみてください．もう1つの右クリックメニューオプションも試してみてください．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:80
 msgid ""
 "Experiment with the `ContourGridPlane` module and also the `ScalarCutPlane` "
 "module a little."
-msgstr "`ContourGridPlane` モジュールと `ScalarCutPlane` モジュールを少し試してみてください。"
+msgstr "`ContourGridPlane` モジュールと `ScalarCutPlane` モジュールを少し試してみてください．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:83
 msgid ""
@@ -172,8 +172,8 @@ msgid ""
 "head to rotate the plane.  You can also reset its position by using the "
 "editor window for the scalar cut plane."
 msgstr ""
-"`ScalarCutPlane` モジュールは、 *3Dウィジェット* "
-"と呼ばれる非常に強力な機能を備えています。TVTKシーンウィンドウには、データを表すカラーを示すデータをスライスする切断面が表示されます。この切断面の輪郭は赤で、そこから矢印が突き出ています。切断面を直接クリックし、ドラッグして移動することができます。矢印をクリックして、プレーンを回転させます。スカラー断面のエディタウィンドウを使用して、その位置をリセットすることもできます。"
+"`ScalarCutPlane` モジュールは， *3Dウィジェット* "
+"と呼ばれる非常に強力な機能を備えています．TVTKシーンウィンドウには，データを表すカラーを示すデータをスライスする切断面が表示されます．この切断面の輪郭は赤で，そこから矢印が突き出ています．切断面を直接クリックし，ドラッグして移動することができます．矢印をクリックして，プレーンを回転させます．スカラー断面のエディタウィンドウを使用して，その位置をリセットすることもできます．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:92
 msgid ""
@@ -181,14 +181,14 @@ msgid ""
 "little save icon on the TVTK scene or via any of the options on the "
 "`File->Save Scene As` menu."
 msgstr ""
-"TVTKシーンの保存アイコンをクリックするか、 `File->Save Scene As` "
-"メニューのオプションを使って、作成した画像を保存することができます。"
+"TVTKシーンの保存アイコンをクリックするか， `File->Save Scene As` "
+"メニューのオプションを使って，作成した画像を保存することができます．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:96
 msgid ""
 "You should have a visualization that looks something like the one shown "
 "below."
-msgstr "次の図のようなビジュアライゼーションが必要です。"
+msgstr "次の図のようなビジュアライゼーションが必要です．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:102
 msgid ""
@@ -198,17 +198,17 @@ msgid ""
 "scripting-with-mlab` section (see also :ref:`advanced-scripting-with-mayavi`"
 " for a more in-depth coverage)."
 msgstr ""
-"mayaviの優れた点は、上記のすべてがユーザインタフェースを使用して実行されているにもかかわらず、すべてを純粋なPythonスクリプトを使用して実行できることです。これについての詳細は"
+"mayaviの優れた点は，上記のすべてがユーザインタフェースを使用して実行されているにもかかわらず，すべてを純粋なPythonスクリプトを使用して実行できることです．これについての詳細は"
 " :ref:`simple-scripting-with-mlab` セクション( :ref:`advanced-scripting-with-"
-"mayavi` も参照してください。)にあります。"
+"mayavi` も参照してください．)にあります．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:108
 msgid ""
 "Opening data files and starting up modules can also be done from the command"
 " line.  For example we could simply have done::"
-msgstr "データファイルのオープンとモジュールの起動は、コマンドラインからも実行できます。たとえば、次のように簡単に実行できます。"
+msgstr "データファイルのオープンとモジュールの起動は，コマンドラインからも実行できます．たとえば，次のように簡単に実行できます．"
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:114
 msgid ""
 "More details are available in the :ref:`command-line-arguments` section."
-msgstr "詳細については、 :ref:`command-line-arguments` セクションを参照してください。"
+msgstr "詳細については， :ref:`command-line-arguments` セクションを参照してください．"

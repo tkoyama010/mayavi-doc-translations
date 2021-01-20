@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 00:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +28,7 @@ msgstr "Mayaviパイプラインを構成するオブジェクト"
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:7
 msgid ""
 "Here we give a brief description of the key objects in the Mayavi pipeline."
-msgstr "ここでは、Mayaviパイプラインの主要なオブジェクトについて簡単に説明します。"
+msgstr "ここでは，Mayaviパイプラインの主要なオブジェクトについて簡単に説明します．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:15
 msgid ""
@@ -37,8 +37,8 @@ msgid ""
 "when used in IPython, this can cause a segfault, due to threading problems "
 "in IPython."
 msgstr ""
-"Mayaviオブジェクトを指定すると、重要な属性を簡単に確認することができます。このオブジェクトを表示して ``print_traits()`` "
-"という名前を付けます。特定のオブジェクトの場合、IPythonで使用すると、IPythonでのスレッド化の問題のためにセグメント・フォールトが発生することがあります。"
+"Mayaviオブジェクトを指定すると，重要な属性を簡単に確認することができます．このオブジェクトを表示して ``print_traits()`` "
+"という名前を付けます．特定のオブジェクトの場合，IPythonで使用すると，IPythonでのスレッド化の問題のためにセグメント・フォールトが発生することがあります．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:21
 msgid "Scene"
@@ -63,7 +63,7 @@ msgstr "``scene``"
 msgid ""
 "a ``TVTKScene`` (``tvtk.pyface.tvtk_scene``) object which is where all the "
 "rendering occurs."
-msgstr "すべてのレンダリングが行われる ``TVTKScene`` (``tvtk.pyface.tvtk_scene``) オブジェクト。"
+msgstr "すべてのレンダリングが行われる ``TVTKScene`` (``tvtk.pyface.tvtk_scene``) オブジェクト．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:29
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:47
@@ -74,15 +74,15 @@ msgstr "``children``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:29
 msgid "a list of ``Source`` objects."
-msgstr "``Source`` オブジェクトのリスト。"
+msgstr "``Source`` オブジェクトのリスト．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:32
 msgid "The ``Scene`` class is defined in the ``mayavi.core.scene`` module."
-msgstr "``Scene`` クラスは ``mayavi.core.scene`` モジュールで定義されています。"
+msgstr "``Scene`` クラスは ``mayavi.core.scene`` モジュールで定義されています．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:36
 msgid "API reference for the :class:`Scene` class."
-msgstr ":class:`Scene` クラスのAPIリファレンスです。"
+msgstr ":class:`Scene` クラスのAPIリファレンスです．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:39
 msgid "Source"
@@ -92,7 +92,7 @@ msgstr "Source"
 msgid ""
 "All the data sources, file readers, Parametric surface etc. are subclasses "
 "of the ``Source`` class."
-msgstr "データソース、ファイルリーダ、パラメトリックサーフェスなどはすべて  ``Source`` クラスのサブクラスです。"
+msgstr "データソース，ファイルリーダ，パラメトリックサーフェスなどはすべて  ``Source`` クラスのサブクラスです．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:47
 msgid "a list of either ``Modules`` or ``Filters``"
@@ -109,16 +109,16 @@ msgid ""
 "``List`` of outputs produced by the source. These are TVTK datasets, that "
 "are explained in the section :ref:`data-structures-used-by-mayavi`."
 msgstr ""
-"ソースによって生成された出力の ``List``  。これらはTVTKのデータセットであり、 :ref:`data-structures-used-"
-"by-mayavi` の章で説明されています。"
+"ソースによって生成された出力の ``List``  ．これらはTVTKのデータセットであり， :ref:`data-structures-used-"
+"by-mayavi` の章で説明されています．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:54
 msgid "The ``Source`` class is defined in the ``mayavi.core.source`` module."
-msgstr "``Source`` クラスは ``mayavi.core.source`` モジュールで定義されています。"
+msgstr "``Source`` クラスは ``mayavi.core.source`` モジュールで定義されています．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:59
 msgid "API reference for the :class:`Source` class."
-msgstr ":class:`Source` クラスのAPIリファレンスです。"
+msgstr ":class:`Source` クラスのAPIリファレンスです．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:62
 msgid "Filter"
@@ -128,11 +128,11 @@ msgstr "Filter"
 msgid ""
 "All the ``Filters`` described in the :ref:`filters` section are subclasses "
 "of this class."
-msgstr ":ref:`filters` セクションに記述されているすべての ``Filters`` は、このクラスのサブクラスです。"
+msgstr ":ref:`filters` セクションに記述されているすべての ``Filters`` は，このクラスのサブクラスです．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:70
 msgid "a list of either ``Modules`` or other ``Filters``."
-msgstr "``Modules``  または他の ``Filters`` のリスト。"
+msgstr "``Modules``  または他の ``Filters`` のリスト．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:72
 msgid "``inputs``"
@@ -140,15 +140,15 @@ msgstr "``inputs``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:72
 msgid "a ``List`` of input TVTK dataset objects that feed into the filter."
-msgstr "フィルタに入力するTVTKデータセットオブジェクトの ``List`` です。"
+msgstr "フィルタに入力するTVTKデータセットオブジェクトの ``List`` です．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:75
 msgid ""
 "a list of outputs produced by the filter. These are TVTK datasets, that are "
 "explained in the section :ref:`data-structures-used-by-mayavi`."
 msgstr ""
-"フィルタによって生成された出力のリストです。これらはTVTKのデータセットであり、 :ref:`data-structures-used-by-"
-"mayavi` の章で説明されています。"
+"フィルタによって生成された出力のリストです．これらはTVTKのデータセットであり， :ref:`data-structures-used-by-"
+"mayavi` の章で説明されています．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:82
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:183
@@ -165,7 +165,7 @@ msgstr "``setup_pipeline()``"
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:84
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:185
 msgid "used to create the underlying TVTK pipeline objects if needed."
-msgstr "必要に応じて、基礎となるTVTKパイプラインオブジェクトの作成に使用します。"
+msgstr "必要に応じて，基礎となるTVTKパイプラインオブジェクトの作成に使用します．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:87
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:188
@@ -178,7 +178,7 @@ msgid ""
 "called when the upstream pipeline has been changed, i.e. an upstream object "
 "fires a ``pipeline_changed`` event."
 msgstr ""
-"上流のパイプラインが変更された場合、すなわち上流のオブジェクトが ``pipeline_changed`` イベントを起動した場合に呼び出される。"
+"上流のパイプラインが変更された場合，すなわち上流のオブジェクトが ``pipeline_changed`` イベントを起動した場合に呼び出される．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:91
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:192
@@ -192,16 +192,16 @@ msgid ""
 "the pipeline has been changed.  This happens when the upstream object fires "
 "a ``data_changed`` event."
 msgstr ""
-"上流パイプラインが変更されてい **ない** が、パイプラインのデータが変更された場合に呼び出されます。これは、上流のオブジェクトが "
-"``data_changed`` イベントを起動したときに発生します。"
+"上流パイプラインが変更されてい **ない** が，パイプラインのデータが変更された場合に呼び出されます．これは，上流のオブジェクトが "
+"``data_changed`` イベントを起動したときに発生します．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:97
 msgid "The filter class is defined in the ``mayavi.core.filter`` module."
-msgstr "フィルタクラスは ``mayavi.core.filter`` モジュールで定義されています。"
+msgstr "フィルタクラスは ``mayavi.core.filter`` モジュールで定義されています．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:101
 msgid "API reference for the :class:`Filter` class."
-msgstr ":class:`Filter` クラスのAPI参照です。"
+msgstr ":class:`Filter` クラスのAPI参照です．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:104
 msgid "ModuleManager: Colors and legends node"
@@ -215,9 +215,9 @@ msgid ""
 "lookup table (LUT) in order to produce a meaningful visualization. This "
 "lookup table is managed by the module manager."
 msgstr ""
-"このオブジェクトは、UIのツリービューでは *Colors and legends* と呼ばれています。このオブジェクトの主な目的は、管理する "
+"このオブジェクトは，UIのツリービューでは *Colors and legends* と呼ばれています．このオブジェクトの主な目的は，管理する "
 "``Modules`` "
-"でデータをカラー表示する方法を制御することです。通常、すべてのモジュールは、意味のある視覚化を行うためにルックアップテーブル(LUT)を使用します。このルックアップテーブルは、モジュールマネージャによって管理される。"
+"でデータをカラー表示する方法を制御することです．通常，すべてのモジュールは，意味のある視覚化を行うためにルックアップテーブル(LUT)を使用します．このルックアップテーブルは，モジュールマネージャによって管理される．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:115
 msgid "``source``"
@@ -225,11 +225,11 @@ msgstr "``source``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:115
 msgid "the ``Source`` or ``Filter`` object that is the input of this object."
-msgstr "このオブジェクトの入力である  ``Source`` または ``Filter`` オブジェクト。"
+msgstr "このオブジェクトの入力である  ``Source`` または ``Filter`` オブジェクト．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:118
 msgid "a list of the ``Modules`` it manages."
-msgstr "それが管理する  ``Modules`` のリスト。"
+msgstr "それが管理する  ``Modules`` のリスト．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:120
 msgid "``scalar_lut_manager``"
@@ -242,7 +242,7 @@ msgid ""
 "mapping from scalars to colors."
 msgstr ""
 "これは視覚化においてスカラー値から色へのカラーマッピングを基本的に管理する ``LUTManager`` "
-"のインスタンスです。これは基本的にスカラーからカラーへのマッピングです。"
+"のインスタンスです．これは基本的にスカラーからカラーへのマッピングです．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:125
 msgid "``vector_lut_manager``"
@@ -252,7 +252,7 @@ msgstr "``vector_lut_manager``"
 msgid ""
 "an instance of a ``LUTManager`` which manages the color mapping from vector "
 "values to colors on the visualizations."
-msgstr "視覚化におけるベクトル値から色へのカラーマッピングを管理する ``LUTManager`` のインスタンス。"
+msgstr "視覚化におけるベクトル値から色へのカラーマッピングを管理する ``LUTManager`` のインスタンス．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:129
 msgid "``lut_data_mode``"
@@ -271,17 +271,17 @@ msgid ""
 "chooses the one available. If set to 'point data' it uses the input point "
 "data for the LUT and if set to 'cell data' it uses the input cell data."
 msgstr ""
-"LUTに使用するデータ型を指定します。これは間で変更できます。この設定を変更すると、データ範囲および参照テーブル/凡例バーの名前が変更されます。 "
-"'auto' (デフォルト)に設定すると、ポイントデータが優先されるセルおよびポイントデータが自動的に検索され、使用可能なデータが選択されます。 "
-"'point data' に設定するとLUTの入力点データを使用し、 'cell data' に設定すると入力セルデータを使用します。"
+"LUTに使用するデータ型を指定します．これは間で変更できます．この設定を変更すると，データ範囲および参照テーブル/凡例バーの名前が変更されます． "
+"'auto' (デフォルト)に設定すると，ポイントデータが優先されるセルおよびポイントデータが自動的に検索され，使用可能なデータが選択されます． "
+"'point data' に設定するとLUTの入力点データを使用し， 'cell data' に設定すると入力セルデータを使用します．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:141
 msgid "This class is defined in the ``mayavi.core.module_manager`` module."
-msgstr "このクラスは ``mayavi.core.module_manager`` モジュールで定義されています。"
+msgstr "このクラスは ``mayavi.core.module_manager`` モジュールで定義されています．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:146
 msgid "API reference for the :class:`ModuleManager` class."
-msgstr ":class:`ModuleManager` クラスのAPIリファレンスです。"
+msgstr ":class:`ModuleManager` クラスのAPIリファレンスです．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:149
 msgid "Module"
@@ -293,16 +293,16 @@ msgid ""
 "scene.  All the modules defined in the :ref:`modules` section are subclasses"
 " of this."
 msgstr ""
-"これらのオブジェクトは、通常、シーンに視覚化を生成するオブジェクトです。 :ref:`modules` "
-"セクションで定義されている全てのモジュールはこのサブクラスです。"
+"これらのオブジェクトは，通常，シーンに視覚化を生成するオブジェクトです． :ref:`modules` "
+"セクションで定義されている全てのモジュールはこのサブクラスです．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:155
 msgid ""
 "A module is typically returned by the mlab :ref:`3D plotting functions "
 "<mlab_plotting_functions>`."
 msgstr ""
-"モジュールは通常、mlab :ref:`3D plotting functions <mlab_plotting_functions>` "
-"によって返されます。"
+"モジュールは通常，mlab :ref:`3D plotting functions <mlab_plotting_functions>` "
+"によって返されます．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:161
 msgid "``module_manager``"
@@ -324,7 +324,7 @@ msgid ""
 "scene. This is where you will have the properties such as scaling, or GL "
 "material properties."
 msgstr ""
-"モジュールのTVTKアクター、つまりシーンに表示されるオブジェクト。ここにスケーリングやGLマテリアルプロパティなどのプロパティがあります。"
+"モジュールのTVTKアクター，つまりシーンに表示されるオブジェクト．ここにスケーリングやGLマテリアルプロパティなどのプロパティがあります．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:169
 msgid "``components``"
@@ -341,18 +341,18 @@ msgid ""
 "Thus, components are a means to promote reuse between mayavi pipeline "
 "objects."
 msgstr ""
-"モジュールで使用される再利用可能な各種コンポーネントのリスト。これらは通常、ユーザーが直接使用することはありません。ただし、新しいモジュールを作成するときには非常に便利です。"
-" ``Component`` は基本的には再利用可能なコードで、他のさまざまなオブジェクトによって使用されます。例えば、ほとんど全ての "
-"``Module``  はTVTKの俳優、マッパー、プロパティを使っています。これらはすべて、モジュールが使用する再利用可能なコンポーネントに "
-"\"componentized\" されます。したがって、コンポーネントはmayaviパイプラインオブジェクト間での再利用を促進する手段となります。"
+"モジュールで使用される再利用可能な各種コンポーネントのリスト．これらは通常，ユーザーが直接使用することはありません．ただし，新しいモジュールを作成するときには非常に便利です．"
+" ``Component`` は基本的には再利用可能なコードで，他のさまざまなオブジェクトによって使用されます．例えば，ほとんど全ての "
+"``Module``  はTVTKの俳優，マッパー，プロパティを使っています．これらはすべて，モジュールが使用する再利用可能なコンポーネントに "
+"\"componentized\" されます．したがって，コンポーネントはmayaviパイプラインオブジェクト間での再利用を促進する手段となります．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:199
 msgid "Defined in the ``mayavi.core.module`` module."
-msgstr "``mayavi.core.module`` モジュールで定義されている。"
+msgstr "``mayavi.core.module`` モジュールで定義されている．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:203
 msgid "API reference for the :class:`Module` class."
-msgstr ":class:`Module` クラスのAPIリファレンスです。"
+msgstr ":class:`Module` クラスのAPIリファレンスです．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:206
 msgid "Engine"
@@ -365,7 +365,7 @@ msgid ""
 "pipeline. It is at the root of the pipeline and is not displayed in the "
 "pipeline view."
 msgstr ""
-"Mayaviエンジンは、可視化オブジェクトとシーンのライフサイクル、およびパイプラインの接続と更新を処理する中心的なオブジェクトです。これはパイプラインのルートにあり、パイプラインビューには表示されません。"
+"Mayaviエンジンは，可視化オブジェクトとシーンのライフサイクル，およびパイプラインの接続と更新を処理する中心的なオブジェクトです．これはパイプラインのルートにあり，パイプラインビューには表示されません．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:213
 msgid ""
@@ -374,21 +374,21 @@ msgid ""
 "``Filter/Source/Module`` instance to it. The contextual operations are "
 "important in a menu-driven graphical user interface."
 msgstr ""
-"コンテクスト操作のために、エンジンは 'current object' と 'current scene' の概念を持っていて、 "
+"コンテクスト操作のために，エンジンは 'current object' と 'current scene' の概念を持っていて， "
 "``Filter/Source/Module``  "
-"インスタンスをそれに追加することができるいくつかの方法を特徴とします。コンテキスト操作は、メニュー方式のグラフィカル・ユーザー・インターフェースにおいて重要です。"
+"インスタンスをそれに追加することができるいくつかの方法を特徴とします．コンテキスト操作は，メニュー方式のグラフィカル・ユーザー・インターフェースにおいて重要です．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:218
 msgid ""
 "It allows one to create new scenes and delete them.  Also has methods to "
 "load and save the entire visualization."
-msgstr "新しいシーンを作成して削除することができます。また、視覚化全体をロードおよび保存するメソッドもあります。"
+msgstr "新しいシーンを作成して削除することができます．また，視覚化全体をロードおよび保存するメソッドもあります．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:223
 msgid ""
 "When using mlab, the engine used by mlab can be retrieved using "
 ":func:`mlab.get_engine`."
-msgstr "mlabを使用する場合、mlabで使用されるエンジンは :func:`mlab.get_engine` を使用して取得できます。"
+msgstr "mlabを使用する場合，mlabで使用されるエンジンは :func:`mlab.get_engine` を使用して取得できます．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:231
 msgid "``scenes``"
@@ -396,7 +396,7 @@ msgstr "``scenes``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:231
 msgid "a list of ``Scene`` objects."
-msgstr "``Scene`` オブジェクトのリスト。"
+msgstr "``Scene`` オブジェクトのリスト．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:233
 msgid "``current_object``"
@@ -406,7 +406,7 @@ msgstr "``current_object``"
 msgid ""
 "the object on which contextual operations, such as ``add_module`` will "
 "apply."
-msgstr "``add_module`` などのコンテキスト操作が適用されるオブジェクト。"
+msgstr "``add_module`` などのコンテキスト操作が適用されるオブジェクト．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:236
 msgid "``current_scene``"
@@ -414,7 +414,7 @@ msgstr "``current_scene``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:236
 msgid "the scene in which data sources will be added by default."
-msgstr "デフォルトでデータソースが追加されるシーン。"
+msgstr "デフォルトでデータソースが追加されるシーン．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:239
 msgid "``current_selection``"
@@ -422,7 +422,7 @@ msgstr "``current_selection``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:239
 msgid "The object selected in the pipeline view."
-msgstr "パイプラインビューで選択されているオブジェクト。"
+msgstr "パイプラインビューで選択されているオブジェクト．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:245
 msgid "``new_scene()``"
@@ -432,7 +432,7 @@ msgstr "``new_scene()``"
 msgid ""
 "this is the method called to create a new scene. Subclasses override this "
 "method."
-msgstr "新しいシーンを作成するために呼び出されるメソッドです。サブクラスはこのメソッドをオーバーライドします。"
+msgstr "新しいシーンを作成するために呼び出されるメソッドです．サブクラスはこのメソッドをオーバーライドします．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:251
 msgid "Important sub-classes"
@@ -447,8 +447,8 @@ msgid ""
 "defined in the ``mayavi.plugins.envisage_engine`` module. It is the subclass"
 " of used in the ``mayavi2`` application."
 msgstr ""
-"``mayavi.plugins.envisage_engine`` モジュールで定義されます。 ``mayavi2`` "
-"アプリケーションで使用されるのサブクラスです。"
+"``mayavi.plugins.envisage_engine`` モジュールで定義されます． ``mayavi2`` "
+"アプリケーションで使用されるのサブクラスです．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:258
 msgid "``OffScreenEngine``"
@@ -458,7 +458,7 @@ msgstr "``OffScreenEngine``"
 msgid ""
 "defined in the ``mayavi.core.off_screen_engine`` module. It creates scenes "
 "that are not displayed on screen by default."
-msgstr "``mayavi.core.off_screen_engine`` モジュール。既定では画面に表示されないシーンが作成されます。"
+msgstr "``mayavi.core.off_screen_engine`` モジュール．既定では画面に表示されないシーンが作成されます．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:263
 msgid "``NullEngine``"
@@ -472,15 +472,15 @@ msgid ""
 "data structures."
 msgstr ""
 "``mayavi.core.null_engine`` "
-"モジュールです。このエンジンでは、ビジュアル化オブジェクトはシーンに追加されないため、レンダリングできません。このエンジンは、Mayaviのデータ構造のテストおよび純粋なデータ処理に便利です。"
+"モジュールです．このエンジンでは，ビジュアル化オブジェクトはシーンに追加されないため，レンダリングできません．このエンジンは，Mayaviのデータ構造のテストおよび純粋なデータ処理に便利です．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:275
 msgid "The `Engine` base class is defined in the ``mayavi.engine`` module."
-msgstr "`Engine` ベースクラスは ``mayavi.engine`` モジュールで定義されています。"
+msgstr "`Engine` ベースクラスは ``mayavi.engine`` モジュールで定義されています．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:279
 msgid "API reference for the :class:`Engine` class."
-msgstr ":class:`Engine` クラスのAPI参照です。"
+msgstr ":class:`Engine` クラスのAPI参照です．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:282
 msgid "Base class: PipelineBase"
@@ -494,9 +494,9 @@ msgid ""
 "``mayavi.core.pipeline_base`` module. Derives from ``Base`` which merely "
 "abstracts out common functionality."
 msgstr ""
-"``PipelineBase`` は、(実際にはpipelineの *中* ではありませんがpipelineを含む) ``Scene`` と "
-"``Engine`` を除く、mayaviパイプライン内のすべてのオブジェクトの基本クラスです。 "
-"``mayavi.core.pipeline_base`` モジュールで定義されます。共通の機能を抽象化するだけの ``Base`` から派生します。"
+"``PipelineBase`` は，(実際にはpipelineの *中* ではありませんがpipelineを含む) ``Scene`` と "
+"``Engine`` を除く，mayaviパイプライン内のすべてのオブジェクトの基本クラスです． "
+"``mayavi.core.pipeline_base`` モジュールで定義されます．共通の機能を抽象化するだけの ``Base`` から派生します．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:294
 msgid "``pipeline_changed``"
@@ -506,7 +506,7 @@ msgstr "``pipeline_changed``"
 msgid ""
 "This is an ``Event`` Trait: it can only be assigned to and determines when "
 "the pipeline has been changed. Therefore, if one does::"
-msgstr "これは ``Event`` Traitで、パイプラインがいつ変更されたかを割り当てることができます。そのため、次のことを行うとします。"
+msgstr "これは ``Event`` Traitで，パイプラインがいつ変更されたかを割り当てることができます．そのため，次のことを行うとします．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:300
 msgid ""
@@ -514,9 +514,9 @@ msgid ""
 "``object`` in the pipeline are automatically setup to listen to events from "
 "an upstream object and will call their ``update_pipeline`` method."
 msgstr ""
-"``pipeline_changed`` イベントが発生します。パイプライン内の ``object`` "
-"の下流にあるオブジェクトは、上流のオブジェクトからのイベントを受信するように自動的に設定され、 ``update_pipeline`` "
-"メソッドを呼び出します。"
+"``pipeline_changed`` イベントが発生します．パイプライン内の ``object`` "
+"の下流にあるオブジェクトは，上流のオブジェクトからのイベントを受信するように自動的に設定され， ``update_pipeline`` "
+"メソッドを呼び出します．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:306
 msgid "``data_changed``"
@@ -527,15 +527,15 @@ msgid ""
 "Similarly, if the ``data_changed`` event is fired then downstream objects "
 "will automatically call their ``update_data`` methods."
 msgstr ""
-"同様に、 ``data_changed`` イベントが発生すると、下流のオブジェクトは自動的に ``update_data`` メソッドを呼び出します。"
+"同様に， ``data_changed`` イベントが発生すると，下流のオブジェクトは自動的に ``update_data`` メソッドを呼び出します．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:310
 msgid "a list of outputs produced by the object."
-msgstr "オブジェクトによって生成された出力のリスト。"
+msgstr "オブジェクトによって生成された出力のリスト．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:312
 msgid "the scene to which the object is attached."
-msgstr "オブジェクトがアタッチされているシーン。"
+msgstr "オブジェクトがアタッチされているシーン．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:314
 msgid "``visible``"
@@ -545,7 +545,7 @@ msgstr "``visible``"
 msgid ""
 "a boolean that toggle the Hide/Show status of the object and its downstream "
 "pipeline."
-msgstr "オブジェクトとその下流パイプラインの非表示/表示ステータスを切り替えるブール値。"
+msgstr "オブジェクトとその下流パイプラインの非表示/表示ステータスを切り替えるブール値．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:321
 msgid "``remove()``"
@@ -553,11 +553,11 @@ msgstr "``remove()``"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:321
 msgid "can be used to remove the object (if added) from the mayavi pipeline."
-msgstr "を使用して、mayaviパイプラインから(追加されている場合)オブジェクトを削除できます。"
+msgstr "を使用して，mayaviパイプラインから(追加されている場合)オブジェクトを削除できます．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:327
 msgid "API reference for the :class:`PipelineBase` class."
-msgstr ":class:`PipelineBase` クラスのAPIリファレンスです。"
+msgstr ":class:`PipelineBase` クラスのAPIリファレンスです．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:330
 msgid "Class hierarchy"
@@ -567,20 +567,20 @@ msgstr "クラス階層"
 msgid ""
 "The following figures show the class hierarchy of the various objects "
 "involved."
-msgstr "次の図は、関連するさまざまなオブジェクトのクラス階層を示しています。"
+msgstr "次の図は，関連するさまざまなオブジェクトのクラス階層を示しています．"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:339
 msgid ""
 "*This hierarchy depicts the ``Base`` object, the ``Scene``, ``PipelineBase``"
 " and the ``ModuleManager``.*"
 msgstr ""
-"*この階層は、 ``Base`` オブジェクト、 ``Scene`` 、``PipelineBase``  、および ``ModuleManager``"
-" を表します。*"
+"*この階層は， ``Base`` オブジェクト， ``Scene`` ，``PipelineBase``  ，および ``ModuleManager``"
+" を表します．*"
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:346
 msgid ""
 "*This hierarchy depicts the ``PipelineBase`` object, the ``Source``, "
 "``Filter``, ``Module`` and the ``Component``.*"
 msgstr ""
-"*この階層は、 ``PipelineBase`` オブジェクト、 ``Source`` 、 ``Filter``  、および ``Module`` と "
-"``Component`` を表します。*"
+"*この階層は， ``PipelineBase`` オブジェクト， ``Source`` ， ``Filter``  ，および ``Module`` と "
+"``Component`` を表します．*"

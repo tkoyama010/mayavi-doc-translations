@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2020
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 00:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:31+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2020\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +29,7 @@ msgstr "numpy arrayの3Dプロット関数"
 msgid ""
 "Visualization can be created in `mlab` by a set of functions operating on "
 "numpy arrays."
-msgstr "numpy配列上で動作する関数のセットによって、 `mlab` 内に視覚化を作成することができます。"
+msgstr "numpy配列上で動作する関数のセットによって， `mlab` 内に視覚化を作成することができます．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:9
 msgid ""
@@ -42,8 +42,8 @@ msgid ""
 "visualization can also be modified by changing the attributes of this "
 "module."
 msgstr ""
-"mlabプロット関数は、データの  ``x``, ``y``,  ``z`` "
-"座標を記述するために、多数の配列を入力として受け取ります。データソースの作成、必要に応じたフィルタリング、ビジュアライゼーションモジュールの追加など、本格的なビジュアライゼーションを構築します。これらの関数の振る舞い、そしてその結果作成される視覚化は、pylabと同様に、キーワード引数によって微調整することができます。さらに、これらはすべて、作成されたビジュアル化モジュールを返すため、このモジュールの属性を変更することによってビジュアル化を変更することもできます。"
+"mlabプロット関数は，データの  ``x``, ``y``,  ``z`` "
+"座標を記述するために，多数の配列を入力として受け取ります．データソースの作成，必要に応じたフィルタリング，ビジュアライゼーションモジュールの追加など，本格的なビジュアライゼーションを構築します．これらの関数の振る舞い，そしてその結果作成される視覚化は，pylabと同様に，キーワード引数によって微調整することができます．さらに，これらはすべて，作成されたビジュアル化モジュールを返すため，このモジュールの属性を変更することによってビジュアル化を変更することもできます．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:20
 msgid ""
@@ -51,8 +51,8 @@ msgid ""
 "described in detail in the :ref:`mlab-reference`, at the end of the user "
 "guide, with figures and examples. Please follow the links."
 msgstr ""
-"このセクションでは、異なる関数のみをリストします。各関数の詳細については、ユーザガイドの最後にある :ref:`mlab-reference` "
-"を参照してください。リンクをたどってください。"
+"このセクションでは，異なる関数のみをリストします．各関数の詳細については，ユーザガイドの最後にある :ref:`mlab-reference` "
+"を参照してください．リンクをたどってください．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:26
 msgid "0D and 1D data"
@@ -68,8 +68,8 @@ msgid ""
 "supplied data, described by ``x``, ``y``, ``z`` numpy arrays of the same "
 "shape."
 msgstr ""
-":func:`points3d` |hack| 与えられたデータの位置にグリフ(同点)をプロットします。グリフは ``x``, ``y``, ``z``"
-" で記述された同じ形のnumpy配列です。"
+":func:`points3d` |hack| 与えられたデータの位置にグリフ(同点)をプロットします．グリフは ``x``, ``y``, ``z``"
+" で記述された同じ形のnumpy配列です．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
@@ -97,8 +97,8 @@ msgid ""
 ":func:`plot3d` |hack| Plots line between the supplied data, described by "
 "``x``, ``y``, ``z`` 1D numpy arrays of the same length."
 msgstr ""
-":func:`plot3d` |hack| 与えられたデータの間に線を引いて、 ``x``, ``y``, ``z`` と同じ長さの1D "
-"numpy配列で記述します。"
+":func:`plot3d` |hack| 与えられたデータの間に線を引いて， ``x``, ``y``, ``z`` と同じ長さの1D "
+"numpy配列で記述します．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:55
 msgid "2D data"
@@ -110,7 +110,7 @@ msgstr "|imshow|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:59
 msgid ":func:`imshow` |hack| View a 2D array as an image."
-msgstr ":func:`imshow` |hack| 2D配列をイメージとして表示します。"
+msgstr ":func:`imshow` |hack| 2D配列をイメージとして表示します．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:63
 msgid "|surf|"
@@ -120,7 +120,7 @@ msgstr "|surf|"
 msgid ""
 ":func:`surf` |hack| View a 2D array as a carpet plot, with the z axis "
 "representation through elevation the value of the array points."
-msgstr ":func:`surf` |hack| 2D配列をカーペットプロットとして表示し、配列ポイントの値をz軸で表します。"
+msgstr ":func:`surf` |hack| 2D配列をカーペットプロットとして表示し，配列ポイントの値をz軸で表します．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:69
 msgid "|contour_surf|"
@@ -130,7 +130,7 @@ msgstr "|contour_surf|"
 msgid ""
 ":func:`contour_surf` |hack| View a 2D array as line contours, elevated "
 "according to the value of the array points."
-msgstr ":func:`contour_surf` |hack| 2D配列を線の輪郭として表示し、配列の点の値に応じて高くします。"
+msgstr ":func:`contour_surf` |hack| 2D配列を線の輪郭として表示し，配列の点の値に応じて高くします．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:74
 msgid "|mesh|"
@@ -145,8 +145,8 @@ msgid ""
 "created."
 msgstr ""
 ":func:`mesh` |hack| 3つの2D配列, ``x``, ``y``, ``z`` "
-"で表されるサーフェスをプロットし、データポイントの座標をグリッドとして与えます。 |hack|  :func:`surf`,  とは異なり、サーフェスは"
-" ``x``, ``y``, ``z`` 座標で定義され、特別な方向性はありません。より複雑なサーフェスを作成できます。"
+"で表されるサーフェスをプロットし，データポイントの座標をグリッドとして与えます． |hack|  :func:`surf`,  とは異なり，サーフェスは"
+" ``x``, ``y``, ``z`` 座標で定義され，特別な方向性はありません．より複雑なサーフェスを作成できます．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:84
 msgid "|barchart|"
@@ -160,7 +160,7 @@ msgid ""
 "arrays, but also clouds of points, to position the bars."
 msgstr ""
 ":func:`barchart` |hack| "
-"配列``s`,または明示的な座標配列``x',``y''と``z''を持つ点の集合を棒グラフとしてプロットします。|hack|この関数は非常に汎用性が高く、2Dまたは3D配列だけでなく、点群を使用してバーを配置することもできます。"
+"配列``s`,または明示的な座標配列``x',``y''と``z''を持つ点の集合を棒グラフとしてプロットします．|hack|この関数は非常に汎用性が高く，2Dまたは3D配列だけでなく，点群を使用してバーを配置することもできます．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:94
 msgid "|triangular_mesh|"
@@ -172,8 +172,8 @@ msgid ""
 "``x``, ``y`` and ``z`` coordinates of its vertices, and the (n, 3) array of "
 "the indices of the triangles."
 msgstr ""
-":func:`triangular_mesh` |hack| 三角形メッシュをプロットします。このメッシュは、頂点の ``x``, ``y``, "
-"``z`` 座標、および三角形のインデックスの (n, 3) 配列で完全に指定されます。"
+":func:`triangular_mesh` |hack| 三角形メッシュをプロットします．このメッシュは，頂点の ``x``, ``y``, "
+"``z`` 座標，および三角形のインデックスの (n, 3) 配列で完全に指定されます．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rstNone
 msgid "Vertical scale of  :func:`surf` and :func:`contour_surf`"
@@ -187,12 +187,12 @@ msgid ""
 "behavior can be controlled by specifying the \"warp_scale='auto'\"."
 msgstr ""
 ":func:`surf` および :func:`contour_surf` "
-"は、2Dデータの3D表現として使用できます。既定では、Z軸はX軸およびY軸と同じ単位であることが想定されていますが、2/3のアスペクト比になるように自動スケールすることもできます。この動作は、"
-" \"warp_scale='auto'\" を指定することで制御できます。"
+"は，2Dデータの3D表現として使用できます．既定では，Z軸はX軸およびY軸と同じ単位であることが想定されていますが，2/3のアスペクト比になるように自動スケールすることもできます．この動作は，"
+" \"warp_scale='auto'\" を指定することで制御できます．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rstNone
 msgid "From data points to surfaces."
-msgstr "データポイントからサーフェスへ。"
+msgstr "データポイントからサーフェスへ．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:113
 msgid ""
@@ -208,12 +208,12 @@ msgid ""
 "matching, and interpolation, as shown in the "
 "(:ref:`example_surface_from_irregular_data`)."
 msgstr ""
-"データ点の位置を知るだけではサーフェスを定義することはできません。接続情報も必要です。 :func:`surf` および :func:`mesh` "
-"関数を使用すると、この接続情報は入力配列の形状から暗黙的に抽出されます。つまり、2D入力配列内の隣接するデータポイントが接続され、データはグリッド上にあります。"
+"データ点の位置を知るだけではサーフェスを定義することはできません．接続情報も必要です． :func:`surf` および :func:`mesh` "
+"関数を使用すると，この接続情報は入力配列の形状から暗黙的に抽出されます．つまり，2D入力配列内の隣接するデータポイントが接続され，データはグリッド上にあります．"
 " :func:`triangular_mesh` "
-"関数を使用すると、接続性が明示的に指定されます。接続性が定期的でないことはよくありますが、事前にもわかりません。データ点はサーフェス上にあり、暗黙的に定義されたサーフェスをプロットします。("
+"関数を使用すると，接続性が明示的に指定されます．接続性が定期的でないことはよくありますが，事前にもわかりません．データ点はサーフェス上にあり，暗黙的に定義されたサーフェスをプロットします．("
 " :ref:`example_surface_from_irregular_data` "
-")に示されているように、`delaunay2d`フィルタは、必要な最近接マッチングと補間を行います。"
+")に示されているように，`delaunay2d`フィルタは，必要な最近接マッチングと補間を行います．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:146
 msgid "3D data"
@@ -227,7 +227,7 @@ msgstr "|contour3d|"
 msgid ""
 ":func:`contour3d` |hack| Plot iso-surfaces of volumetric data defined as a "
 "3D array."
-msgstr ":func:`contour3d` |hack| 3D配列として定義されたボリュームデータの等値面をプロットします。"
+msgstr ":func:`contour3d` |hack| 3D配列として定義されたボリュームデータの等値面をプロットします．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:155
 msgid "|quiver3d|"
@@ -239,8 +239,8 @@ msgid ""
 " ``x``, ``y``, ``z`` position are specified by numpy arrays, as well as the "
 "``u``, ``v``, ``w`` components of the vectors."
 msgstr ""
-":func:`quiver3d` |hack| データポイントのベクトルを表す矢印をプロットします。 ``x``, ``y``, ``z`` "
-"の位置は、ベクトルの ``u``, ``v``, ``w`` 成分と同様に、多数の配列によって指定される。"
+":func:`quiver3d` |hack| データポイントのベクトルを表す矢印をプロットします． ``x``, ``y``, ``z`` "
+"の位置は，ベクトルの ``u``, ``v``, ``w`` 成分と同様に，多数の配列によって指定される．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:162
 msgid "|flow|"
@@ -252,8 +252,8 @@ msgid ""
 "described by three 3D arrays giving the ``u``, ``v``, ``w`` components on a "
 "grid."
 msgstr ""
-":func:`flow` |hack| 3つの3D配列で記述されたベクトルフィールドに沿って粒子の軌跡をプロットし、グリッド上にe ``u``, "
-"``v``, ``w`` 成分を与える。"
+":func:`flow` |hack| 3つの3D配列で記述されたベクトルフィールドに沿って粒子の軌跡をプロットし，グリッド上にe ``u``, "
+"``v``, ``w`` 成分を与える．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:168
 msgid "|slice|"
@@ -263,7 +263,7 @@ msgstr "|slice|"
 msgid ""
 ":func:`volume_slice` |hack| Plots an interactive image plane sliced through "
 "volumetric data."
-msgstr ":func:`volume_slice` |hack| ボリュームデータをスライスしたインタラクティブなイメージプレーンをプロットします。"
+msgstr ":func:`volume_slice` |hack| ボリュームデータをスライスしたインタラクティブなイメージプレーンをプロットします．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rstNone
 msgid "Structured or unstructured data"
@@ -277,8 +277,8 @@ msgid ""
 "detailed in the functions' documentation."
 msgstr ""
 ":func:`contour3d`, :func:`volume_slice` と :func:`flow` "
-"は順序付けされたデータ(点と点の間を補間することができます)を必要としますが、 :func:`quiver3d` "
-"は任意の点のセットで動作します。必要な構造体の詳細については、関数のドキュメントを参照してください。"
+"は順序付けされたデータ(点と点の間を補間することができます)を必要としますが， :func:`quiver3d` "
+"は任意の点のセットで動作します．必要な構造体の詳細については，関数のドキュメントを参照してください．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:197
 msgid ""
@@ -286,5 +286,5 @@ msgid ""
 " and modules. See the :ref:`controlling-the-pipeline-with-mlab-scripts` and "
 "the :ref:`mlab-case-studies` sections."
 msgstr ""
-"データソースのフィルタとモジュールを組み合わせることで、より高度な視覚化を実現できます。 :ref:`controlling-the-pipeline-"
-"with-mlab-scripts` および :ref:`mlab-case-studies` のセクションを参照してください。"
+"データソースのフィルタとモジュールを組み合わせることで，より高度な視覚化を実現できます． :ref:`controlling-the-pipeline-"
+"with-mlab-scripts` および :ref:`mlab-case-studies` のセクションを参照してください．"

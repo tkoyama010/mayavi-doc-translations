@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 00:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,11 +37,11 @@ msgid ""
 "function, making the right choice of sources, filters, and modules, but they"
 " cannot explore all the possible combinations."
 msgstr ""
-"上でレビューしたプロット関数は、Mayaviの視覚化の可能性のほんの一部を検討しています。Mayaviの力は、パイプライン自体の制御を通じてのみ発揮されます。"
-" :ref:`an-overview-of-mayavi` セクションで説明されているように、Mayaviのビジュアライゼーションは、  `data "
-"source` オブジェクトを使用してMayaviのデータをロードし、 :ref:`filters` を使用してオプションでデータを変換し、 "
+"上でレビューしたプロット関数は，Mayaviの視覚化の可能性のほんの一部を検討しています．Mayaviの力は，パイプライン自体の制御を通じてのみ発揮されます．"
+" :ref:`an-overview-of-mayavi` セクションで説明されているように，Mayaviのビジュアライゼーションは，  `data "
+"source` オブジェクトを使用してMayaviのデータをロードし， :ref:`filters` を使用してオプションでデータを変換し， "
 ":ref:`modules` "
-"を使用してビジュアライゼーションします。mlab関数は、1つの関数で複雑なパイプラインを構築し、ソース、フィルタ、モジュールを適切に選択しますが、可能なすべての組み合わせを調べることはできません。"
+"を使用してビジュアライゼーションします．mlab関数は，1つの関数で複雑なパイプラインを構築し，ソース，フィルタ，モジュールを適切に選択しますが，可能なすべての組み合わせを調べることはできません．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:18
 msgid ""
@@ -49,8 +49,8 @@ msgid ""
 "the pipeline easily from scripts. This module is accessible in `mlab`: "
 "`mlab.pipeline`, or can be imported from `mayavi.tools.pipeline`."
 msgstr ""
-"Mlabはスクリプトからパイプラインを容易に生成する関数を含むサブモジュール  `pipeline` を提供します。このモジュールは `mlab` : "
-"`mayavi.pipeline` でアクセスできます。または `mayavi.tools.pipeline` からインポートできます。"
+"Mlabはスクリプトからパイプラインを容易に生成する関数を含むサブモジュール  `pipeline` を提供します．このモジュールは `mlab` : "
+"`mayavi.pipeline` でアクセスできます．または `mayavi.tools.pipeline` からインポートできます．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:23
 msgid ""
@@ -63,20 +63,20 @@ msgid ""
 "directly linked to the default names of the objects created by `mlab` on the"
 " pipeline. As an example, let us create a visualization using :func:`surf`::"
 msgstr ""
-"`mlab` プロット関数を使用すると、パイプラインが作成されます。最初に `numpy` "
-"配列からソースが作成され、次にモジュール、場合によってはフィルタが追加されます。結果のパイプラインは、例えば `mlab.show_pipeline` "
-"コマンドを使用して見ることができます。パイプラインの各ステップを作成するために必要な関数の名前は、パイプライン上の `mlab` "
-"によって作成されたオブジェクトのデフォルト名に直接リンクされているので、この情報を使用して、  `pipeline` "
-"スクリプトモジュールを使用して、まったく同じパイプラインを直接作成することができます。例として、 :func:`surf` "
+"`mlab` プロット関数を使用すると，パイプラインが作成されます．最初に `numpy` "
+"配列からソースが作成され，次にモジュール，場合によってはフィルタが追加されます．結果のパイプラインは，例えば `mlab.show_pipeline` "
+"コマンドを使用して見ることができます．パイプラインの各ステップを作成するために必要な関数の名前は，パイプライン上の `mlab` "
+"によって作成されたオブジェクトのデフォルト名に直接リンクされているので，この情報を使用して，  `pipeline` "
+"スクリプトモジュールを使用して，まったく同じパイプラインを直接作成することができます．例として， :func:`surf` "
 "を使用した視覚化を作成します::"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:39
 msgid "The following pipeline is created::"
-msgstr "次のパイプラインが作成されます。"
+msgstr "次のパイプラインが作成されます．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:47
 msgid "The same pipeline can be created using the following code::"
-msgstr "次のコードを使用して、同じパイプラインを作成できます。"
+msgstr "次のコードを使用して，同じパイプラインを作成できます．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:57
 msgid "Data sources"
@@ -88,8 +88,8 @@ msgid ""
 "sources from arrays. They are fully documented in details in the :ref:`mlab-"
 "pipeline-reference`. We give a small summary of the possibilities here."
 msgstr ""
-"`mlab.pipeline` モジュールには、配列からさまざまなデータソースを作成するための関数が含まれています。詳細については :ref"
-":`mlab-pipeline-reference` に完全に文書化されています。ここでは、その可能性について簡単に説明します。"
+"`mlab.pipeline` モジュールには，配列からさまざまなデータソースを作成するための関数が含まれています．詳細については :ref"
+":`mlab-pipeline-reference` に完全に文書化されています．ここでは，その可能性について簡単に説明します．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:66
 msgid ""
@@ -99,9 +99,9 @@ msgid ""
 "points** describing continuously varying quantities that can be interpolated"
 " between data points, often called `fields` in physics or engineering."
 msgstr ""
-"Mayaviは **scalar data** を持つソースと **vector data** を持つソースを区別しますが、より重要なのは、 "
-"**unconnected points** のセットを作成してデータをアタッチする機能と、 **connected data points** "
-"を作成してデータポイント間で補間できる連続的に変化する量を記述する機能です。"
+"Mayaviは **scalar data** を持つソースと **vector data** を持つソースを区別しますが，より重要なのは， "
+"**unconnected points** のセットを作成してデータをアタッチする機能と， **connected data points** "
+"を作成してデータポイント間で補間できる連続的に変化する量を記述する機能です．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:0
 msgid "Unconnected sources"
@@ -153,7 +153,7 @@ msgid ""
 "describes an image, possibly 3 dimensional."
 msgstr ""
 "すべての `mlab.pipline` "
-"のソースファクトリは、numpy配列を取り、パイプラインに追加されたMayaviソースオブジェクトを返す関数です。ただし、暗黙に接続されたソースは引数として整形式の配列を必要とします。つまり、データは入力配列の形状と同じ形状の規則的な直交グリッド上に存在することになります。つまり、配列は3次元のイメージを表します。"
+"のソースファクトリは，numpy配列を取り，パイプラインに追加されたMayaviソースオブジェクトを返す関数です．ただし，暗黙に接続されたソースは引数として整形式の配列を必要とします．つまり，データは入力配列の形状と同じ形状の規則的な直交グリッド上に存在することになります．つまり，配列は3次元のイメージを表します．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:129
 msgid ""
@@ -161,8 +161,8 @@ msgid ""
 "non-orthogonal grid. See :ref:`the section on data structures <data-"
 "structures-used-by-mayavi>`."
 msgstr ""
-"不規則格子または非直交格子のような、より複雑なデータ構造を作成することができる。関連項目 :ref:`the section on data "
-"structures <data-structures-used-by-mayavi>` 。"
+"不規則格子または非直交格子のような，より複雑なデータ構造を作成することができる．関連項目 :ref:`the section on data "
+"structures <data-structures-used-by-mayavi>` ．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:135
 msgid "Modules and filters"
@@ -176,10 +176,10 @@ msgid ""
 "name by underscores. Thus `ScalarCutPlane` corresponds to "
 "`scalar_cut_plane`."
 msgstr ""
-"各Mayaviモジュールまたはフィルタ( :ref:`modules` および :ref:`filters` )には、対応する "
+"各Mayaviモジュールまたはフィルタ( :ref:`modules` および :ref:`filters` )には，対応する "
 "`mlab.pipeline` "
-"関数。この関数の名前は、モジュールまたはフィルタ名の大文字と小文字が交互に入れ替わることによって作成されます。したがって、 "
-"`ScalarCutPlane` は `scalar_cut_plane` に相当します。"
+"関数．この関数の名前は，モジュールまたはフィルタ名の大文字と小文字が交互に入れ替わることによって作成されます．したがって， "
+"`ScalarCutPlane` は `scalar_cut_plane` に相当します．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:143
 msgid ""
@@ -195,6 +195,6 @@ msgid ""
 "Full, detailed, usage examples are given in the next subsection."
 msgstr ""
 "一般的には `mlab.pipeline` "
-"モジュールとフィルタファクトリー関数は、対応するオブジェクトを作成して接続するだけです。ただし、キーワード引数として公開される追加ロジックを含めることもできます。たとえば、必要に応じて、簡単にカラーマップを設定したり、モジュールの色を指定したりできます。頻繁な操作を簡単にするための"
+"モジュールとフィルタファクトリー関数は，対応するオブジェクトを作成して接続するだけです．ただし，キーワード引数として公開される追加ロジックを含めることもできます．たとえば，必要に応じて，簡単にカラーマップを設定したり，モジュールの色を指定したりできます．頻繁な操作を簡単にするための"
 " `mlab` "
-"インタフェースの目的に従って、キーワード引数を使用して、作成されたオブジェクトのプロパティを要件に合うように選択します。したがって、作成されたオブジェクトの属性を設定するよりも、キーワード引数を使用する方が簡単です。詳細については、docstringsを参照してください。完全で詳細な使用例については、次のサブセクションで説明します。"
+"インタフェースの目的に従って，キーワード引数を使用して，作成されたオブジェクトのプロパティを要件に合うように選択します．したがって，作成されたオブジェクトの属性を設定するよりも，キーワード引数を使用する方が簡単です．詳細については，docstringsを参照してください．完全で詳細な使用例については，次のサブセクションで説明します．"

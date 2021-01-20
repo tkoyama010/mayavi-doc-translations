@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 00:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,8 +33,8 @@ msgid ""
 "bugs please check the list in `issue tracker`_."
 msgstr ""
 "「既知の問題」 "
-"セクションには、大きくて重要な項目が含まれていますが、多くの作業が必要であったり、まだ解決策がないため、現在は積極的に作業していません。問題とバグの詳細なリストは、"
-"  `issue tracker`_ のリストを参照してください。"
+"セクションには，大きくて重要な項目が含まれていますが，多くの作業が必要であったり，まだ解決策がないため，現在は積極的に作業していません．問題とバグの詳細なリストは，"
+"  `issue tracker`_ のリストを参照してください．"
 
 #: ../../mayavi/docs/source/mayavi/bugs.rst:12
 msgid ""
@@ -51,7 +51,7 @@ msgid ""
 "proprietary one)."
 msgstr ""
 "**表示のバグ** "
-"MayaviおよびVTKはハードウェアレンダリングを多用するため、ハードウェアレンダリングのバグに非常に敏感に反応します。一般的な問題としては、サーフェスがカラーではなく黒で表示される(主にWindowsや仮想マシン上で)、非表示の三角形が非表示にする三角形の前に表示されるZオーダーの不具合(Intelグラフィックスカードを搭載したLinuxの一般的なバグ)、フォーカスを移動するとレンダリングウィンドウがグレーになる(Linuxでcompizが有効になっている場合によく見られる)などがあります。ほとんどの場合、この問題は、システム設定でハードウェアレンダリングをオフにするか(Linuxでcompizを無効にする)、グラフィックスカードドライバを変更することで解決します(Linuxでは、オープンソースのものとプロプライエタリなものを切り替えてみてください)。"
+"MayaviおよびVTKはハードウェアレンダリングを多用するため，ハードウェアレンダリングのバグに非常に敏感に反応します．一般的な問題としては，サーフェスがカラーではなく黒で表示される(主にWindowsや仮想マシン上で)，非表示の三角形が非表示にする三角形の前に表示されるZオーダーの不具合(Intelグラフィックスカードを搭載したLinuxの一般的なバグ)，フォーカスを移動するとレンダリングウィンドウがグレーになる(Linuxでcompizが有効になっている場合によく見られる)などがあります．ほとんどの場合，この問題は，システム設定でハードウェアレンダリングをオフにするか(Linuxでcompizを無効にする)，グラフィックスカードドライバを変更することで解決します(Linuxでは，オープンソースのものとプロプライエタリなものを切り替えてみてください)．"
 
 #: ../../mayavi/docs/source/mayavi/bugs.rst:25
 msgid ""
@@ -59,7 +59,7 @@ msgid ""
 "Thus support for Qt 5 is linked to these gui libraries supporting Qt 5."
 msgstr ""
 "**Qt 5:** Mayaviはtraituiおよびpyface "
-"guiライブラリの上に構築されています。したがって、Qt5のサポートは、Qt5をサポートするこれらのguiライブラリと結びついています。"
+"guiライブラリの上に構築されています．したがって，Qt5のサポートは，Qt5をサポートするこれらのguiライブラリと結びついています．"
 
 #: ../../mayavi/docs/source/mayavi/bugs.rst:28
 msgid ""
@@ -68,4 +68,4 @@ msgid ""
 "libraries."
 msgstr ""
 "**wxPython 3:** "
-"Qt5と同様に、wxPython3のサポートは、guiライブラリの安定版リリースに含まれる必要なサポートとリンクしています。"
+"Qt5と同様に，wxPython3のサポートは，guiライブラリの安定版リリースに含まれる必要なサポートとリンクしています．"

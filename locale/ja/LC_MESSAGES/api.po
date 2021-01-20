@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2020
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-21 01:04+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2020\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,8 +30,8 @@ msgid ""
 "This is an API reference of the views for the main objects. The section "
 ":ref:`builing_applications` gives some context on how to use them."
 msgstr ""
-"これは、メインオブジェクトのビューのAPIリファレンスです。 :ref:`builing_applications` "
-"の章は、それらの使い方についていくつかの文脈を与えます。"
+"これは，メインオブジェクトのビューのAPIリファレンスです． :ref:`builing_applications` "
+"の章は，それらの使い方についていくつかの文脈を与えます．"
 
 #: ../../mayavi/docs/source/mayavi/api/core_view_objects.rst:12
 msgid "Scene UIs: :class:`DecoratedScene` and :class:`MayaviScene`"
@@ -47,12 +47,12 @@ msgstr ""
 #: ../../mayavi/mayavi/core/ui/mayavi_scene.pydocstring of
 #: mayavi.core.ui.mayavi_scene.MayaviScene:1
 msgid "A scene UI, similar to a decorated scene, but with more buttons."
-msgstr "装飾されたシーンに似ていますが、ボタンが多くなっています。"
+msgstr "装飾されたシーンに似ていますが，ボタンが多くなっています．"
 
 #: ../../mayavi/mayavi/core/ui/mayavi_scene.pydocstring of
 #: mayavi.core.ui.mayavi_scene.MayaviScene.show_engine:1
 msgid "Open the engine view corresponding to the engine of the scene."
-msgstr "シーンのエンジンに対応するエンジンビューを開きます。"
+msgstr "シーンのエンジンに対応するエンジンビューを開きます．"
 
 #: ../../mayavi/docs/source/mayavi/api/core_view_objects.rst:24
 msgid ":class:`SceneEditor`"
@@ -72,7 +72,7 @@ msgstr "ベースクラス: :class:`tvtk.pyface.scene_model.SceneModel`"
 msgid ""
 "An container for an mlab model, that can be exposed using a Mayavi scene in "
 "a TraitsUI view."
-msgstr "mlabモデルのコンテナで、TraitsUIビューでMayaviシーンを使用して表示できます。"
+msgstr "mlabモデルのコンテナで，TraitsUIビューでMayaviシーンを使用して表示できます．"
 
 #: ../../mayavi/docs/source/mayavi/api/core_view_objects.rst:36
 msgid ":class:`EngineView` and  :class:`EngineRichView`"
@@ -80,7 +80,7 @@ msgstr ":class:`EngineView` および :class:`EngineRichView`"
 
 #: ../../mayavi/docs/source/mayavi/api/core_view_objects.rst:38
 msgid "These are two objects to be used as views for an engine::"
-msgstr "エンジンのビューとして使用されるオブジェクトは次の2つです。"
+msgstr "エンジンのビューとして使用されるオブジェクトは次の2つです．"
 
 #: ../../mayavi/mayavi/core/ui/engine_view.pydocstring of
 #: mayavi.core.ui.engine_view.EngineView:1
@@ -90,14 +90,14 @@ msgstr "ベースクラス: :class:`traits.has_traits.HasTraits`"
 #: ../../mayavi/mayavi/core/ui/engine_view.pydocstring of
 #: mayavi.core.ui.engine_view.EngineView:1
 msgid "A view displaying the engine's object tree."
-msgstr "エンジンのオブジェクトツリーを表示するビュー。"
+msgstr "エンジンのオブジェクトツリーを表示するビュー．"
 
 #: ../../mayavi/mayavi/core/ui/engine_view.pydocstring of
 #: mayavi.core.ui.engine_view.EngineView.default_traits_view:1
 #: ../../mayavi/mayavi/core/ui/engine_rich_view.pydocstring of
 #: mayavi.core.ui.engine_rich_view.EngineRichView.default_traits_view:1
 msgid "The default traits view of the Engine View."
-msgstr "エンジンビューのデフォルトの特性ビューです。"
+msgstr "エンジンビューのデフォルトの特性ビューです．"
 
 #: ../../mayavi/mayavi/core/ui/engine_rich_view.pydocstring of
 #: mayavi.core.ui.engine_rich_view.EngineRichView:1
@@ -109,7 +109,7 @@ msgstr "ベースクラス: :class:`mayavi.core.ui.engine_view.EngineView`"
 msgid ""
 "A view displaying the engine's object tree, alongside with a panel to edit "
 "the objects."
-msgstr "エンジンのオブジェクトツリーと、オブジェクトを編集するためのパネルを表示するビュー。"
+msgstr "エンジンのオブジェクトツリーと，オブジェクトを編集するためのパネルを表示するビュー．"
 
 #: ../../mayavi/docs/source/mayavi/api/index.rst:3
 msgid "Mayavi API reference"
@@ -125,8 +125,8 @@ msgid ""
 " refer to section :ref:`advanced-use-of-mayavi` for instructions on how to "
 "use them."
 msgstr ""
-"これは、パイプラインオブジェクトの基本クラスのAPIリファレンスです。使用方法は :ref:`advanced-use-of-mayavi` "
-"を参照してください。"
+"これは，パイプラインオブジェクトの基本クラスのAPIリファレンスです．使用方法は :ref:`advanced-use-of-mayavi` "
+"を参照してください．"
 
 #: ../../mayavi/docs/source/mayavi/api/pipeline_objects.rst:12
 msgid ":class:`Scene`"
@@ -155,19 +155,19 @@ msgstr "Mayavi scene クラス"
 msgid ""
 "This method intelligently adds a child to this object in the MayaVi "
 "pipeline."
-msgstr "このメソッドはMayaViパイプラインのこのオブジェクトに子をインテリジェントに追加します。"
+msgstr "このメソッドはMayaViパイプラインのこのオブジェクトに子をインテリジェントに追加します．"
 
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.on_mouse_pick:1
 msgid "Add a picking callback on mouse click."
-msgstr "マウスクリックで選択コールバックを追加します。"
+msgstr "マウスクリックで選択コールバックを追加します．"
 
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.on_mouse_pick:3
 msgid ""
 "When the mouse button is press, object picking is called, and the given "
 "callback is invoked with the resulting pick as an argument."
-msgstr "マウスボタンを押すと、オブジェクトの選択が呼び出され、結果の選択を引数として指定されたコールバックが呼び出されます。"
+msgstr "マウスボタンを押すと，オブジェクトの選択が呼び出され，結果の選択を引数として指定されたコールバックが呼び出されます．"
 
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.on_mouse_pick:7
@@ -182,7 +182,7 @@ msgstr "type"
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.on_mouse_pick:9
 msgid "'point', 'cell', or 'world' The picker type used for picking."
-msgstr "'point', 'cell', または 'world' 。ピッキングに使用するピッカーの型。"
+msgstr "'point', 'cell', または 'world' ．ピッキングに使用するピッカーの型．"
 
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.on_mouse_pick:0
@@ -193,7 +193,7 @@ msgstr "button"
 #: mayavi.core.scene.Scene.on_mouse_pick:11
 msgid ""
 "'Left', 'Middle', or 'Right' The mouse button triggering the picking event."
-msgstr "'Left' 、 'Middle' または 'Right' 。選択イベントをトリガするマウスボタン。"
+msgstr "'Left' ， 'Middle' または 'Right' ．選択イベントをトリガするマウスボタン．"
 
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.on_mouse_pick:0
@@ -205,7 +205,7 @@ msgstr "remove"
 msgid ""
 "boolean If remove is True, the callback is removed from the list of "
 "callbacks."
-msgstr "boolean removeがTrueの場合、コールバックのリストからコールバックが削除されます。"
+msgstr "boolean removeがTrueの場合，コールバックのリストからコールバックが削除されます．"
 
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.on_mouse_pick:17
@@ -215,7 +215,7 @@ msgstr "**Returns** ピッカー: tvtk picker"
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.on_mouse_pick:19
 msgid "The picker that will be used to do the picking."
-msgstr "ピッキングに使用するピッカー。"
+msgstr "ピッキングに使用するピッカー．"
 
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.on_mouse_pick:21
@@ -225,17 +225,17 @@ msgstr "**注記**"
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.on_mouse_pick:23
 msgid "The callback must accept one argument: the TVTK picker."
-msgstr "コールバックは、TVTKピッカーという引数を1つ受け入れる必要があります。"
+msgstr "コールバックは，TVTKピッカーという引数を1つ受け入れる必要があります．"
 
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.on_mouse_pick:25
 msgid "The same callback can be added multiple times."
-msgstr "同じコールバックを複数回追加できます。"
+msgstr "同じコールバックを複数回追加できます．"
 
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.remove:1
 msgid "Remove ourselves from the mayavi pipeline."
-msgstr "mayaviパイプラインから自分自身を削除します。"
+msgstr "mayaviパイプラインから自分自身を削除します．"
 
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.remove_child:1
@@ -244,7 +244,7 @@ msgstr "mayaviパイプラインから自分自身を削除します。"
 #: ../../mayavi/mayavi/core/module_manager.pydocstring of
 #: mayavi.core.module_manager.ModuleManager.remove_child:1
 msgid "Remove specified child from our children."
-msgstr "指定した子を子から除去します。"
+msgstr "指定した子を子から除去します．"
 
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.start:1 ../../mayavi/mayavi/core/source.pydocstring
@@ -252,7 +252,7 @@ msgstr "指定した子を子から除去します。"
 #: ../../mayavi/mayavi/core/module_manager.pydocstring of
 #: mayavi.core.module_manager.ModuleManager.start:1
 msgid "This is invoked when this object is added to the mayavi pipeline."
-msgstr "これは、このオブジェクトがmayaviパイプラインに追加されたときに呼び出されます。"
+msgstr "これは，このオブジェクトがmayaviパイプラインに追加されたときに呼び出されます．"
 
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.stop:1 ../../mayavi/mayavi/core/source.pydocstring
@@ -264,7 +264,7 @@ msgstr "これは、このオブジェクトがmayaviパイプラインに追加
 #: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
 #: mayavi.core.pipeline_base.PipelineBase.stop:1
 msgid "Invoked when this object is removed from the mayavi pipeline."
-msgstr "このオブジェクトがmayaviパイプラインから削除されると呼び出されます。"
+msgstr "このオブジェクトがmayaviパイプラインから削除されると呼び出されます．"
 
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.tno_can_add:1
@@ -273,7 +273,7 @@ msgstr "このオブジェクトがmayaviパイプラインから削除される
 #: ../../mayavi/mayavi/core/module_manager.pydocstring of
 #: mayavi.core.module_manager.ModuleManager.tno_can_add:1
 msgid "Returns whether a given object is droppable on the node."
-msgstr "指定されたオブジェクトがノード上でドロップ可能かどうかを返します。"
+msgstr "指定されたオブジェクトがノード上でドロップ可能かどうかを返します．"
 
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.tno_drop_object:1
@@ -282,7 +282,7 @@ msgstr "指定されたオブジェクトがノード上でドロップ可能か
 #: ../../mayavi/mayavi/core/module_manager.pydocstring of
 #: mayavi.core.module_manager.ModuleManager.tno_drop_object:1
 msgid "Returns a droppable version of a specified object."
-msgstr "指定したオブジェクトのドロップ可能なバージョンを返します。"
+msgstr "指定したオブジェクトのドロップ可能なバージョンを返します．"
 
 #: ../../mayavi/docs/source/mayavi/api/pipeline_objects.rst:18
 msgid ":class:`Source`"
@@ -295,7 +295,7 @@ msgstr "ベースクラス: :class:`mayavi.core.pipeline_base.PipelineBase`"
 
 #: ../../mayavi/mayavi/core/source.pydocstring of mayavi.core.source.Source:1
 msgid "Base class for the sources objects in the pipeline."
-msgstr "パイプライン内のソースオブジェクトの基本クラス。"
+msgstr "パイプライン内のソースオブジェクトの基本クラス．"
 
 #: ../../mayavi/mayavi/core/source.pydocstring of
 #: mayavi.core.source.Source.add_module:1
@@ -304,7 +304,7 @@ msgid ""
 " creates a new ModuleManager and then adds the module to it.  If not it adds"
 " the module to the first available ModuleManager instance."
 msgstr ""
-"モジュールをスマートに追加します。ModuleManagerインスタンスが子でない場合は、まず新しいModuleManagerを作成してから、モジュールを追加します。そうでない場合は、モジュールを最初に使用可能なModuleManagerインスタンスに追加します。"
+"モジュールをスマートに追加します．ModuleManagerインスタンスが子でない場合は，まず新しいModuleManagerを作成してから，モジュールを追加します．そうでない場合は，モジュールを最初に使用可能なModuleManagerインスタンスに追加します．"
 
 #: ../../mayavi/mayavi/core/source.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:1
@@ -313,7 +313,7 @@ msgid ""
 "filename as a VTK file.  Both old style and new style XML files are "
 "supported."
 msgstr ""
-"出力(デフォルトでは最初の出力)を、指定したファイル名でVTKファイルとして保存します。古いスタイルのXMLファイルと新しいスタイルのXMLファイルの両方がサポートされています。"
+"出力(デフォルトでは最初の出力)を，指定したファイル名でVTKファイルとして保存します．古いスタイルのXMLファイルと新しいスタイルのXMLファイルの両方がサポートされています．"
 
 #: ../../mayavi/docs/source/mayavi/api/pipeline_objects.rst:24
 msgid ":class:`Filter`"
@@ -325,12 +325,12 @@ msgstr "ベースクラス: :class:`mayavi.core.source.Source`"
 
 #: ../../mayavi/mayavi/core/filter.pydocstring of mayavi.core.filter.Filter:1
 msgid "Base class for all the Mayavi filters."
-msgstr "すべてのMayaviフィルタの基本クラスです。"
+msgstr "すべてのMayaviフィルタの基本クラスです．"
 
 #: ../../mayavi/mayavi/core/filter.pydocstring of
 #: mayavi.core.filter.Filter.setup_pipeline:1
 msgid "Override this method so that it *creates* its tvtk pipeline."
-msgstr "このメソッドをオーバーライドして、tvtkパイプラインを *作成* します。"
+msgstr "このメソッドをオーバーライドして，tvtkパイプラインを *作成* します．"
 
 #: ../../mayavi/mayavi/core/filter.pydocstring of
 #: mayavi.core.filter.Filter.setup_pipeline:4
@@ -341,9 +341,9 @@ msgid ""
 " simply create the basic objects and setup those parts of the pipeline not "
 "dependent on upstream sources and filters."
 msgstr ""
-"このメソッドは、 `__init__` "
-"を介してオブジェクトが初期化されたときに呼び出されます。このメソッドが呼び出された時点では、tvtkデータパイプラインはまだ設定されていないことに注意してください。したがって、アップストリームデータは使用できません。基本的なオブジェクトを作成し、上流のソースおよびフィルタに依存"
-" *しない* パイプラインのこれらの部分を設定するだけです。"
+"このメソッドは， `__init__` "
+"を介してオブジェクトが初期化されたときに呼び出されます．このメソッドが呼び出された時点では，tvtkデータパイプラインはまだ設定されていないことに注意してください．したがって，アップストリームデータは使用できません．基本的なオブジェクトを作成し，上流のソースおよびフィルタに依存"
+" *しない* パイプラインのこれらの部分を設定するだけです．"
 
 #: ../../mayavi/mayavi/core/filter.pydocstring of
 #: mayavi.core.filter.Filter.start:1
@@ -356,20 +356,20 @@ msgid ""
 " when start is invoked, all the other information for the pipeline should be"
 " already set."
 msgstr ""
-"これは、このオブジェクトがmayaviパイプラインに追加されたときに呼び出されます。startを呼び出したときに、パイプラインのその他すべての情報がすでに設定されている必要があります。"
+"これは，このオブジェクトがmayaviパイプラインに追加されたときに呼び出されます．startを呼び出したときに，パイプラインのその他すべての情報がすでに設定されている必要があります．"
 
 #: ../../mayavi/mayavi/core/filter.pydocstring of
 #: mayavi.core.filter.Filter.stop:1
 msgid ""
 "Invoked when this object is removed from the mayavi pipeline.  This is where"
 " you remove your actors from the scene."
-msgstr "このオブジェクトがmayaviパイプラインから削除されると呼び出されます。ここで、シーンからアクターを削除します。"
+msgstr "このオブジェクトがmayaviパイプラインから削除されると呼び出されます．ここで，シーンからアクターを削除します．"
 
 #: ../../mayavi/mayavi/core/filter.pydocstring of
 #: mayavi.core.filter.Filter.update_data:1
 msgid ""
 "Override this method to do what is necessary when upstream data changes."
-msgstr "アップストリームデータが変更された場合に必要な処理を実行するには、このメソッドをオーバーライドします。"
+msgstr "アップストリームデータが変更された場合に必要な処理を実行するには，このメソッドをオーバーライドします．"
 
 #: ../../mayavi/mayavi/core/filter.pydocstring of
 #: mayavi.core.filter.Filter.update_data:4
@@ -378,7 +378,7 @@ msgstr "アップストリームデータが変更された場合に必要な処
 msgid ""
 "This method is invoked (automatically) when any of the inputs sends a "
 "`data_changed` event."
-msgstr "このメソッドは、入力のいずれかが `data_changed` イベントを送信したときに(自動的に)呼び出されます。"
+msgstr "このメソッドは，入力のいずれかが `data_changed` イベントを送信したときに(自動的に)呼び出されます．"
 
 #: ../../mayavi/mayavi/core/filter.pydocstring of
 #: mayavi.core.filter.Filter.update_pipeline:1
@@ -387,7 +387,7 @@ msgstr "このメソッドは、入力のいずれかが `data_changed` イベ�
 msgid ""
 "Override this method so that it *updates* the tvtk pipeline when data "
 "upstream is known to have changed."
-msgstr "上流のデータが変更されたことがわかっている場合にtvtkパイプラインを *更新* するように、このメソッドをオーバーライドします。"
+msgstr "上流のデータが変更されたことがわかっている場合にtvtkパイプラインを *更新* するように，このメソッドをオーバーライドします．"
 
 #: ../../mayavi/mayavi/core/filter.pydocstring of
 #: mayavi.core.filter.Filter.update_pipeline:4
@@ -396,7 +396,7 @@ msgstr "上流のデータが変更されたことがわかっている場合に
 msgid ""
 "This method is invoked (automatically) when the input fires a "
 "`pipeline_changed` event."
-msgstr "このメソッドは、入力が `pipeline_changed` イベントを起動すると(自動的に)呼び出されます。"
+msgstr "このメソッドは，入力が `pipeline_changed` イベントを起動すると(自動的に)呼び出されます．"
 
 #: ../../mayavi/docs/source/mayavi/api/pipeline_objects.rst:30
 msgid ":class:`ModuleManager`"
@@ -405,19 +405,19 @@ msgstr ":class:`ModuleManager`"
 #: ../../mayavi/mayavi/core/module_manager.pydocstring of
 #: mayavi.core.module_manager.ModuleManager:1
 msgid "The module manager node (represented as 'Colors and Legends')."
-msgstr "モジュールマネージャーノード( '色と凡例' として表現されます)。"
+msgstr "モジュールマネージャーノード( '色と凡例' として表現されます)．"
 
 #: ../../mayavi/mayavi/core/module_manager.pydocstring of
 #: mayavi.core.module_manager.ModuleManager.update:1
 msgid "Update any internal data."
-msgstr "内部データを更新します。"
+msgstr "内部データを更新します．"
 
 #: ../../mayavi/mayavi/core/module_manager.pydocstring of
 #: mayavi.core.module_manager.ModuleManager.update:3
 msgid ""
 "This is invoked when the source changes or when there are pipeline/data "
 "changes upstream."
-msgstr "これは、ソースが変更された場合、または上流でパイプライン/データが変更された場合に呼び出されます。"
+msgstr "これは，ソースが変更された場合，または上流でパイプライン/データが変更された場合に呼び出されます．"
 
 #: ../../mayavi/docs/source/mayavi/api/pipeline_objects.rst:36
 msgid ":class:`Module`"
@@ -425,12 +425,12 @@ msgstr ":class:`Module`"
 
 #: ../../mayavi/mayavi/core/module.pydocstring of mayavi.core.module.Module:1
 msgid "Base class for the Mayavi modules."
-msgstr "Mayaviモジュールの基本クラス。"
+msgstr "Mayaviモジュールの基本クラス．"
 
 #: ../../mayavi/mayavi/core/module.pydocstring of
 #: mayavi.core.module.Module.setup_pipeline:1
 msgid "Override this method so that it *creates* the tvtk pipeline."
-msgstr "このメソッドをオーバーライドして、tvtkパイプラインを *作成* します。"
+msgstr "このメソッドをオーバーライドして，tvtkパイプラインを *作成* します．"
 
 #: ../../mayavi/mayavi/core/module.pydocstring of
 #: mayavi.core.module.Module.setup_pipeline:4
@@ -442,31 +442,31 @@ msgid ""
 "dependent on upstream sources and filters.  You should also set the `actors`"
 " attribute up at this point."
 msgstr ""
-"このメソッドは、 `__init__` "
-"を介してオブジェクトが初期化されたときに呼び出されます。このメソッドが呼び出された時点では、tvtkデータパイプラインはまだ設定されていないことに注意してください。したがって、アップストリームデータは使用できません。基本的なオブジェクトを作成し、上流のソースおよびフィルタに依存"
-" *しない* パイプラインのこれらの部分を設定するだけです。この時点で `actors` 属性も設定する必要があります。"
+"このメソッドは， `__init__` "
+"を介してオブジェクトが初期化されたときに呼び出されます．このメソッドが呼び出された時点では，tvtkデータパイプラインはまだ設定されていないことに注意してください．したがって，アップストリームデータは使用できません．基本的なオブジェクトを作成し，上流のソースおよびフィルタに依存"
+" *しない* パイプラインのこれらの部分を設定するだけです．この時点で `actors` 属性も設定する必要があります．"
 
 #: ../../mayavi/mayavi/core/module.pydocstring of
 #: mayavi.core.module.Module.tno_allows_children:1
 msgid "Returns whether chidren of this object are allowed or not."
-msgstr "このオブジェクトの子が許可されているかどうかを返します。"
+msgstr "このオブジェクトの子が許可されているかどうかを返します．"
 
 #: ../../mayavi/mayavi/core/module.pydocstring of
 #: mayavi.core.module.Module.tno_get_children:1
 msgid "Gets the object's children."
-msgstr "オブジェクトの子を取得します。"
+msgstr "オブジェクトの子を取得します．"
 
 #: ../../mayavi/mayavi/core/module.pydocstring of
 #: mayavi.core.module.Module.tno_has_children:1
 msgid "Returns whether or not the object has children."
-msgstr "オブジェクトに子があるかどうかを返します。"
+msgstr "オブジェクトに子があるかどうかを返します．"
 
 #: ../../mayavi/mayavi/core/module.pydocstring of
 #: mayavi.core.module.Module.update_data:1
 msgid ""
 "Override this method so that it flushes the vtk pipeline if that is "
 "necessary."
-msgstr "必要に応じてvtkパイプラインがフラッシュされるように、このメソッドをオーバーライドします。"
+msgstr "必要に応じてvtkパイプラインがフラッシュされるように，このメソッドをオーバーライドします．"
 
 #: ../../mayavi/docs/source/mayavi/api/pipeline_objects.rst:43
 msgid ":class:`PipelineBase`"
@@ -475,76 +475,76 @@ msgstr ":class:`PipelineBase`"
 #: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
 #: mayavi.core.pipeline_base.PipelineBase:1
 msgid "Base class for all the Source, Filters and Modules in the pipeline."
-msgstr "パイプライン内のすべてのSource、Filters、およびModulesの基本クラス。"
+msgstr "パイプライン内のすべてのSource，Filters，およびModulesの基本クラス．"
 
 #: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
 #: mayavi.core.pipeline_base.PipelineBase.add_actors:1
 msgid "Adds `self.actors` to the scene."
-msgstr "シーンに `self.actors` を追加します。"
+msgstr "シーンに `self.actors` を追加します．"
 
 #: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
 #: mayavi.core.pipeline_base.PipelineBase.add_actors:3
 msgid ""
 "This is typically called when start is invoked.  You should avoid calling "
 "this unless you know what you are doing."
-msgstr "これは通常、startが呼び出されたときに呼び出されます。自分が何をしているかを知らない限り、これを呼ぶのは避けるべきです。"
+msgstr "これは通常，startが呼び出されたときに呼び出されます．自分が何をしているかを知らない限り，これを呼ぶのは避けるべきです．"
 
 #: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
 #: mayavi.core.pipeline_base.PipelineBase.configure_connection:1
 msgid "Configure topology for vtk pipeline obj."
-msgstr "vtkパイプラインobjのトポロジを設定します。"
+msgstr "vtkパイプラインobjのトポロジを設定します．"
 
 #: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
 #: mayavi.core.pipeline_base.PipelineBase.configure_input:1
 msgid "Configure the inp using op."
-msgstr "opコマンドを使ってinpを設定します。"
+msgstr "opコマンドを使ってinpを設定します．"
 
 #: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
 #: mayavi.core.pipeline_base.PipelineBase.configure_input_data:1
 msgid "Configure the input data for vtk pipeline object obj."
-msgstr "vtkパイプラインオブジェクトobjの入力データを設定します。"
+msgstr "vtkパイプラインオブジェクトobjの入力データを設定します．"
 
 #: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
 #: mayavi.core.pipeline_base.PipelineBase.configure_source_data:1
 msgid "Configure the source data for vtk pipeline object obj."
-msgstr "vtkパイプラインオブジェクトobjのソースデータを設定します。"
+msgstr "vtkパイプラインオブジェクトobjのソースデータを設定します．"
 
 #: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
 #: mayavi.core.pipeline_base.PipelineBase.get_output_dataset:1
 msgid "Return the output dataset of this object."
-msgstr "このオブジェクトの出力データセットを返します。"
+msgstr "このオブジェクトの出力データセットを返します．"
 
 #: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
 #: mayavi.core.pipeline_base.PipelineBase.get_output_object:1
 msgid ""
 "We assume the old pipeline topology. As such we return the first output."
-msgstr "古いパイプライントポロジを仮定します。そのため、最初の出力を返します。"
+msgstr "古いパイプライントポロジを仮定します．そのため，最初の出力を返します．"
 
 #: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
 #: mayavi.core.pipeline_base.PipelineBase.has_output_port:1
 msgid ""
 "We assume the old pipeline topology. As such we assume no output_port "
 "exists."
-msgstr "古いパイプライントポロジを仮定します。したがって、output_portが存在しないと仮定します。"
+msgstr "古いパイプライントポロジを仮定します．したがって，output_portが存在しないと仮定します．"
 
 #: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
 #: mayavi.core.pipeline_base.PipelineBase.remove_actors:1
 msgid "Removes `self.actors` from the scene."
-msgstr "シーンから `self.actors` を削除します。"
+msgstr "シーンから `self.actors` を削除します．"
 
 #: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
 #: mayavi.core.pipeline_base.PipelineBase.remove_actors:3
 msgid ""
 "This is typically called when stop is invoked.  You should avoid calling "
 "this unless you know what you are doing."
-msgstr "これは通常、stopが呼び出されたときに呼び出されます。自分が何をしているかを知らない限り、これを呼ぶのは避けるべきです。"
+msgstr "これは通常，stopが呼び出されたときに呼び出されます．自分が何をしているかを知らない限り，これを呼ぶのは避けるべきです．"
 
 #: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
 #: mayavi.core.pipeline_base.PipelineBase.render:1
 msgid ""
 "Invokes render on the scene, this in turn invokes Render on the VTK "
 "pipeline."
-msgstr "シーンのレンダリングを呼び出し、次にVTKパイプラインのレンダリングを呼び出します。"
+msgstr "シーンのレンダリングを呼び出し，次にVTKパイプラインのレンダリングを呼び出します．"
 
 #: ../../mayavi/docs/source/mayavi/api/pipeline_objects.rst:49
 msgid ":class:`Engine`"
@@ -556,7 +556,7 @@ msgstr "ベースクラス: :class:`traits.has_traits.HasStrictTraits`"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of mayavi.core.engine.Engine:1
 msgid "The Mayavi engine base class."
-msgstr "Mayaviエンジンの基本クラス。"
+msgstr "Mayaviエンジンの基本クラス．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:1
@@ -564,7 +564,7 @@ msgid ""
 "Adds a filter to the pipeline at an appropriate point. Adds it to the "
 "selected object, or to an object passed as the kwarg `obj`."
 msgstr ""
-"パイプラインの適切なポイントにフィルタを追加します。選択したオブジェクト、またはkwarg `obj` として渡されたオブジェクトに追加します。"
+"パイプラインの適切なポイントにフィルタを追加します．選択したオブジェクト，またはkwarg `obj` として渡されたオブジェクトに追加します．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:1
@@ -572,7 +572,7 @@ msgid ""
 "Adds a module to the pipeline at an appropriate point. Adds it to the "
 "selected object, or to an object passed through the kwarg `obj`."
 msgstr ""
-"適切なポイントでパイプラインにモジュールを追加します。選択したオブジェクト、またはkwarg `obj` を介して渡されたオブジェクトに追加します。"
+"適切なポイントでパイプラインにモジュールを追加します．選択したオブジェクト，またはkwarg `obj` を介して渡されたオブジェクトに追加します．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: mayavi.core.engine.Engine.add_scene:1
@@ -583,8 +583,8 @@ msgid ""
 "taken care of when you create a new scene using the TVTK scene plugin."
 msgstr ""
 "指定された `scene` ( `pyface.tvtk.scene.Scene` "
-"インスタンス)をmayaviエンジンに追加して、mayaviがシーンを管理できるようにします。これは、ユーザがシーンを作成するときに使用されます。 "
-"`EnvisageEngine` の場合、TVTK シーンプラグインを使用して新しいシーンを作成すると、この処理が自動的に行われます。"
+"インスタンス)をmayaviエンジンに追加して，mayaviがシーンを管理できるようにします．これは，ユーザがシーンを作成するときに使用されます． "
+"`EnvisageEngine` の場合，TVTK シーンプラグインを使用して新しいシーンを作成すると，この処理が自動的に行われます．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: mayavi.core.engine.Engine.add_scene:10
@@ -596,7 +596,7 @@ msgstr "scene - `pyface.tvtk.scene.Scene`"
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: mayavi.core.engine.Engine.add_scene:12
 msgid "The scene that needs to be managed from mayavi."
-msgstr "mayaviから管理する必要があるシーン。"
+msgstr "mayaviから管理する必要があるシーン．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: mayavi.core.engine.Engine.add_scene:16
@@ -610,22 +610,22 @@ msgid ""
 " from the passed scene instance.  If this is not possible it defaults to "
 "'Mayavi Scene'."
 msgstr ""
-"シーンに割り当てられた名前。渡されたシーンインスタンスからシーンの名前を決定しようとします。これが不可能な場合は、デフォルトの 'Mayavi "
-"Scene' が使用されます。"
+"シーンに割り当てられた名前．渡されたシーンインスタンスからシーンの名前を決定しようとします．これが不可能な場合は，デフォルトの 'Mayavi "
+"Scene' が使用されます．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:1
 msgid ""
 "Adds a source to the pipeline. Uses the current scene unless a scene is "
 "given in the scene keyword argument."
-msgstr "ソースをパイプラインに追加します。sceneキーワード引数でシーンが指定されていない場合は、現在のシーンを使用します。"
+msgstr "ソースをパイプラインに追加します．sceneキーワード引数でシーンが指定されていない場合は，現在のシーンを使用します．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:1
 msgid ""
 "Given a scene created from new_scene, this method closes it and removes the "
 "scene from the list of scenes we manage."
-msgstr "new_sceneから作成されたシーンがある場合、このメソッドはそのシーンを閉じ、管理するシーンのリストからそのシーンを削除します。"
+msgstr "new_sceneから作成されたシーンがある場合，このメソッドはそのシーンを閉じ，管理するシーンのリストからそのシーンを削除します．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:7
@@ -634,27 +634,27 @@ msgid ""
 "`pyface.tvtk.scene.Scene` in a `scene` attribute."
 msgstr ""
 "scene - `pyface.tvtk.scene.Scene` または `scene` アトリビュート内の "
-"`pyface.tvtk.scene.Scene` へのリファレンスを保持するオブジェクト。"
+"`pyface.tvtk.scene.Scene` へのリファレンスを保持するオブジェクト．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: mayavi.core.engine.Engine.dialog_view:1
 msgid "Default dialog view for Engine objects."
-msgstr "Engineオブジェクトのデフォルトのダイアログビュー。"
+msgstr "Engineオブジェクトのデフォルトのダイアログビュー．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: mayavi.core.engine.Engine.get_viewer:1
 msgid "Return the viewer associated with a given scene."
-msgstr "特定のシーンに関連付けられたビューアを返します。"
+msgstr "特定のシーンに関連付けられたビューアを返します．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: mayavi.core.engine.Engine.get_viewer:5
 msgid "scene - An `mayavi.core.scene.Scene` instance."
-msgstr "scene - `mayavi.core.scene.Scene` インスタンス。"
+msgstr "scene - `mayavi.core.scene.Scene` インスタンス．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:1
 msgid "Given a file/file name this loads the visualization."
-msgstr "ファイル/ファイル名を指定すると、ビジュアライゼーションがロードされます。"
+msgstr "ファイル/ファイル名を指定すると，ビジュアライゼーションがロードされます．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:1
@@ -666,21 +666,21 @@ msgid ""
 "`pyface.tvtk.scene.Scene`.  It also works best if the viewer supports "
 "`closing` and `activated` events."
 msgstr ""
-"新しいVTKシーンウィンドウを作成または管理します。 `viewer` 引数が指定されていない場合は、 `self.scene_factory` "
-"を使用して新しいビューアが作成されます。 `self.scene_factory` が `None` の場合は、 `ivtk` "
-"ビューアが作成されます。このコードでは、 `viewer` が `pyface.tvtk.scene.Scene` である `scene` "
-"属性/traitを持っている必要があります。また、ビューアが `closing` および `activated` "
-"イベントをサポートしている場合にも最適です。"
+"新しいVTKシーンウィンドウを作成または管理します． `viewer` 引数が指定されていない場合は， `self.scene_factory` "
+"を使用して新しいビューアが作成されます． `self.scene_factory` が `None` の場合は， `ivtk` "
+"ビューアが作成されます．このコードでは， `viewer` が `pyface.tvtk.scene.Scene` である `scene` "
+"属性/traitを持っている必要があります．また，ビューアが `closing` および `activated` "
+"イベントをサポートしている場合にも最適です．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:9
 msgid "The method returns the created viewer."
-msgstr "作成されたビューアを返します。"
+msgstr "作成されたビューアを返します．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:14
 msgid "viewer - The viewer object, if None, one is created for you."
-msgstr "viewer -なしの場合はビューアオブジェクトが作成されます。"
+msgstr "viewer -なしの場合はビューアオブジェクトが作成されます．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:16
@@ -692,21 +692,21 @@ msgstr "name - ビューアの名前属性"
 msgid ""
 "``**kwargs`` - The extra keyword arguments are passed along to the scene "
 "factory."
-msgstr "``**kwargs`` - 追加のキーワード引数がシーンファクトリに渡されます。"
+msgstr "``**kwargs`` - 追加のキーワード引数がシーンファクトリに渡されます．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:1
 msgid ""
 "Open a file given a filename if possible in either the current scene or the "
 "passed `scene`."
-msgstr "可能であれば、カレントシーンまたは渡された `scene` でファイル名を指定してファイルを開きます。"
+msgstr "可能であれば，カレントシーンまたは渡された `scene` でファイル名を指定してファイルを開きます．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: mayavi.core.engine.Engine.record:1
 msgid ""
 "This is merely a convenience method to record messages to the script "
 "recorder."
-msgstr "これは単に、スクリプトレコーダにメッセージを記録するための便利な方法です。"
+msgstr "これは単に，スクリプトレコーダにメッセージを記録するための便利な方法です．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:1
@@ -716,22 +716,22 @@ msgid ""
 "`EnvisageEngine` this is automatically taken care of when you close a scene "
 "started using the TVTK scene plugin."
 msgstr ""
-"指定したAAA(BBBインスタンス)がmayaviによってすでに管理されている場合は、mayaviエンジンから削除します。CCCの場合、TVTK "
-"シーンプラグインを使用して開始したシーンを閉じると、この処理が自動的に行われます。"
+"指定したAAA(BBBインスタンス)がmayaviによってすでに管理されている場合は，mayaviエンジンから削除します．CCCの場合，TVTK "
+"シーンプラグインを使用して開始したシーンを閉じると，この処理が自動的に行われます．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:12
 msgid "The scene that needs to be removed from mayavi."
-msgstr "mayaviから削除する必要があるシーン。"
+msgstr "mayaviから削除する必要があるシーン．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:1
 msgid ""
 "Given a file or a file name, this saves the current visualization to the "
 "file."
-msgstr "ファイル名またはファイル名を指定すると、現在のビジュアライゼーションがファイルに保存されます。"
+msgstr "ファイル名またはファイル名を指定すると，現在のビジュアライゼーションがファイルに保存されます．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: mayavi.core.engine.Engine.start:1
 msgid "This is called by the plugin when the plugin actually starts."
-msgstr "これは、プラグインが実際に起動したときにプラグインによって呼び出されます。"
+msgstr "これは，プラグインが実際に起動したときにプラグインによって呼び出されます．"

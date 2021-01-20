@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2019
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 00:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2019\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +29,7 @@ msgstr "Mayaviを学習するためのチュートリアルの例"
 msgid ""
 "To get acquainted with mayavi you may start up the Mayavi2 application, "
 "``mayavi2`` in the command line, like so::"
-msgstr "mayaviを理解するには、次のようにコマンドラインでMayavi2アプリケーション ``mayavi2`` を起動します。"
+msgstr "mayaviを理解するには，次のようにコマンドラインでMayavi2アプリケーション ``mayavi2`` を起動します．"
 
 #: ../../mayavi/docs/source/mayavi/examples.rst:11
 msgid ""
@@ -37,8 +37,8 @@ msgid ""
 "(usually in the ``Python2X\\Scripts`` directory), or use the start menu "
 "entry, if you installed python(x,y) or EPD."
 msgstr ""
-"Windowsでは、インストールされている(通常は ``Python2X\\Scripts`` ディレクトリにある) ``mayavi2.exe`` "
-"をダブルクリックするか、 python(x,y) またはEPDをインストールしていれば、スタートメニューの項目を使うことができます。"
+"Windowsでは，インストールされている(通常は ``Python2X\\Scripts`` ディレクトリにある) ``mayavi2.exe`` "
+"をダブルクリックするか， python(x,y) またはEPDをインストールしていれば，スタートメニューの項目を使うことができます．"
 
 #: ../../mayavi/docs/source/mayavi/examples.rst:15
 msgid ""
@@ -47,9 +47,9 @@ msgid ""
 "\"perspective\" of the mayavi application.  More details on the UI are "
 "available in the :ref:`general-layout-of-ui` section."
 msgstr ""
-"Mayaviを起動したら、ユーザインタフェースのさまざまなペインのサイズを変更して、快適なレイアウトにすることができます。これらの設定は、mayaviアプリケーションのデフォルト"
-" \"perspective\" になります。UIの詳細については :ref:`general-layout-of-ui` "
-"のセクションを参照してください。"
+"Mayaviを起動したら，ユーザインタフェースのさまざまなペインのサイズを変更して，快適なレイアウトにすることができます．これらの設定は，mayaviアプリケーションのデフォルト"
+" \"perspective\" になります．UIの詳細については :ref:`general-layout-of-ui` "
+"のセクションを参照してください．"
 
 #: ../../mayavi/docs/source/mayavi/examples.rst:20
 msgid ""
@@ -61,6 +61,6 @@ msgid ""
 "tree. If these are not installed, the sources may be downloaded from here: "
 "https://github.com/enthought/mayavi"
 msgstr ""
-"ここでは、Mayaviアプリケーションを使用してその機能の一部を紹介するための詳細な例をいくつか示します。例に進む前に、実験するデータを見つけておくと便利です。以下の2つの例では、mayaviソースの出荷時に出荷されたデータを使用しています。これらは、mayaviソースツリーのルート内の"
-" ``examples/data`` ディレクトリにあります。これらがインストールされていない場合は、 "
-"https://github.com/enthought/mayavi からソースをダウンロードできます。"
+"ここでは，Mayaviアプリケーションを使用してその機能の一部を紹介するための詳細な例をいくつか示します．例に進む前に，実験するデータを見つけておくと便利です．以下の2つの例では，mayaviソースの出荷時に出荷されたデータを使用しています．これらは，mayaviソースツリーのルート内の"
+" ``examples/data`` ディレクトリにあります．これらがインストールされていない場合は， "
+"https://github.com/enthought/mayavi からソースをダウンロードできます．"
