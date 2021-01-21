@@ -74,7 +74,7 @@ msgid ""
 "objects could be constructed to fit in the pipeline below a scene and "
 "providing datasets to the pipeline."
 msgstr ""
-"VTK(またはTVTK)の `datasets` とマヤビの  `data sources` "
+"VTK(またはTVTK)の `datasets` とMayaviの  `data sources` "
 "を混同してはならない．データセットの数は有限で少数である．しかし，シーンの下のパイプラインにフィットしてパイプラインにデータセットを提供するように，多くのパイプラインオブジェクトを構築することができます．"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:42
