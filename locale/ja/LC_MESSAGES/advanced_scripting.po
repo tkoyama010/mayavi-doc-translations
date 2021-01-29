@@ -247,7 +247,7 @@ msgstr ""
 "``get_non_gui_plugins``があります．デフォルトのアプリケーションは前者を使用して，ユーザーが使用できるGUIを生成します．後者 ("
 " ``get_non_gui_plugins`` ) "
 "を使用すると，アプリケーションの実行時にmayaviツリービュー，オブジェクトエディタ，およびメニュー項目を使用できません．これにより，開発者はmayaviを使用するがユーザインタフェースを表示しないアプリケーションを作成できます．これを行う方法の例を"
-" ``examples/mayavi/nongui.py`` に示す．"
+" ``examples/mayavi/nongui.py`` に示します．"
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:175
 msgid "Scripting from the UI"
