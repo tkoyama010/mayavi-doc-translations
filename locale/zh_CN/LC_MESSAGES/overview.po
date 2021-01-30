@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mayavii <1444742843@qq.com>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 00:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
+"Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,28 +23,28 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:4
 msgid "An overview of Mayavi"
-msgstr ""
+msgstr "Mayavi概述"
 
 #: ../../mayavi/docs/source/mayavi/overview.rstNone
 msgid "Section summary"
-msgstr ""
+msgstr "分节概述"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:8
 msgid ""
 "This section gives a quick summary of what is Mayavi, and should help you "
 "understand where, in this manual, find relevant information to your use "
 "case."
-msgstr ""
+msgstr "对于Mayavi是什么，该节将给出一个简洁的总结。在这个文档中，该节也将帮助您如何找到相关信息。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:13
 msgid "Introduction"
-msgstr ""
+msgstr "介绍"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:15
 msgid ""
 "Mayavi2 seeks to provide easy and interactive visualization of 3D data, or "
 "3D plotting.  It does this by the following:"
-msgstr ""
+msgstr "Mayavi2 旨在提供一个简单、可交互的3D数据或3D绘图的可视化。其做法如下："
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:18
 msgid ""
@@ -58,7 +62,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:26
 msgid "harnesses the power of VTK_ without forcing you to learn it."
-msgstr ""
+msgstr "其底层封装VTK，但是学习它并不是必须的。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:28
 msgid ""
@@ -69,25 +73,25 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:39
 msgid "What is Mayavi2?"
-msgstr ""
+msgstr "Mayavi2是什么？"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:41
 msgid ""
 "Mayavi2 is a general purpose, cross-platform tool for 3-D scientific data "
 "visualization. Its features include:"
-msgstr ""
+msgstr "Mayavi2是一个通用、跨平台的3D可视化工具。它具有以下特点："
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:44
 msgid "Visualization of scalar, vector and tensor data in 2 and 3 dimensions."
-msgstr ""
+msgstr "2D以及3D的标量, 向量以及张量可视化。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:47
 msgid "Easy scriptability using Python."
-msgstr ""
+msgstr "简单的Python脚本。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:49
 msgid "Easy extendibility via custom sources, modules, and data filters."
-msgstr ""
+msgstr "简易的扩展性——通过自定义数据源sources，模块modules以及滤波filters。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:51
 msgid "Reading several file formats: VTK_ (legacy and XML), PLOT3D, etc."
@@ -95,17 +99,17 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:54
 msgid "Saving of visualizations."
-msgstr ""
+msgstr "可视化的存储"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:56
 msgid "Saving rendered visualization in a variety of image formats."
-msgstr ""
+msgstr "用不同的图像格式存储渲染的可视化结果。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:58
 msgid ""
 "Convenient functionality for rapid scientific plotting via mlab (see :ref"
 ":`simple-scripting-with-mlab`)."
-msgstr ""
+msgstr "通过mlab类可以方便快捷地进行的数据可视化。（详见：参考部分simple-scripting-with-mlab）"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:61
 msgid ""
@@ -121,7 +125,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:74
 msgid "Technical details"
-msgstr ""
+msgstr "技术细节"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:76
 msgid ""
@@ -131,20 +135,22 @@ msgid ""
 "the Enthought Tool Suite (ETS_) in the form of Traits_, TVTK_ and Envisage_."
 " Here are some of its features:"
 msgstr ""
+"与VTK相似，Mayavi2基于管线结构，并提供通用的可视化引擎。它也为2D/3D数据可视化提供 Envisage 内置插件。Mayavi2 "
+"使用Enthought工具套件(ETS)，在Traits下封装TVTK和Envisage。以下是它们的特点："
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:81
 msgid "Pythonic API which takes full advantage of Traits_."
-msgstr ""
+msgstr "Python化的API将使Traits得以善用。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:83
 msgid ""
 "Mayavi can work natively and transparently with numpy_ arrays (this is "
 "thanks to its use of TVTK_)."
-msgstr ""
+msgstr "Mayavi与numpy的数组良好兼容。（这要归功于底层封装的TVTK。）"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:86
 msgid "Easier to script than Mayavi-1 due to a much cleaner MVC_ design."
-msgstr ""
+msgstr "Mayavi2得益于更加清晰的MVC设计模式，相比于Mayavi-1 更加方便编写脚本。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:88
 msgid ""
@@ -153,7 +159,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:91
 msgid "Provides an `Envisage`_ plug-in. This implies that it is:"
-msgstr ""
+msgstr "提供一个内置的 Envisage 插件，这意味着："
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:93
 msgid ""
@@ -161,6 +167,8 @@ msgid ""
 "an embedded Python shell.  This is an Envisage plug-in and requires one line"
 " of code to include in Mayavi."
 msgstr ""
+"在Mayavi中将更加轻松使用其他的Envisage插件。比如，Mayavi提供一个内置的Python "
+"shell。这就是一个内置的插件，需要一行代码引入Mayavi."
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:98
 msgid ""
@@ -168,6 +176,7 @@ msgid ""
 "based application can readily use the mayavi plug-in and script it to "
 "visualize data."
 msgstr ""
+"基于Envisage的应用，Mayavi将非常容易使用。因此，任何Envisage的应用都能方便地使用Mayavi的内置插件并且使用它进行可视化数据。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:102
 msgid ""
@@ -175,6 +184,7 @@ msgid ""
 " is important to note that there is no wxPython or Qt4 code used directly in"
 " the Mayavi source."
 msgstr ""
+"它使用wxPython/Qt4的GUI（得益于Traits，PyFace和Envisage）。注意，在Mayavi中不会直接使用wxPython/Qt4的代码。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:106
 msgid ""
@@ -187,15 +197,15 @@ msgid ""
 "All the following sections assume you have a working Mayavi, for information"
 " on downloading and installing Mayavi, see the next section, "
 ":ref:`installation`."
-msgstr ""
+msgstr "假定你已经有一个可以正常工作的Mayavi，以下的章节将为此展开。对于下载和安装Mayavi，请参考下一章节。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:123
 msgid "Using Mayavi as an application, or a library?"
-msgstr ""
+msgstr "将Mayavi视为一个app应用，还是一个库？"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:125
 msgid "As a user there are three primary ways to use Mayavi:"
-msgstr ""
+msgstr "使用Mayavi的三种基本方式："
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:127
 msgid ""
@@ -248,7 +258,7 @@ msgstr ""
 msgid ""
 "Mayavi uses pipeline architecture like VTK_.  As far as a user is concerned "
 "this basically boils down to a simple hierarchy."
-msgstr ""
+msgstr "Mayavi使用和VTK相同的管线结构。以用户角度来看，可把其视为一个层级结构。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:160
 msgid ""
@@ -266,6 +276,8 @@ msgid ""
 "the UI or context menus on the pipeline. They may also be instantiated as "
 "Python objects when scripting Mayavi."
 msgstr ""
+"数据的处理是一个可选项，它通过`filters 滤波器`对数据进行操作，并使用`modules 模块`进行可视化。通过管线UI界面的`Visualize"
+" 可视化`菜单或者管线配置菜单，可以进入 filters 滤波 和 module模块。它们也可以直接作为Python的对象初始化。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:171
 msgid ""
@@ -287,10 +299,12 @@ msgid ""
 "visualization is performed.  In the interactive application, new scenes may "
 "be created by using the `File->New->VTK Scene` menu."
 msgstr ""
+"所有的对象都从属与`Scene`层级，这是3D可视化结果的区域。在交互式应用中，新的`Scene`可以用以下方式创建：`File->New->VTK "
+"Scene`。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:194
 msgid "Loading data into Mayavi"
-msgstr ""
+msgstr "将数据加载进Mayavi"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:196
 msgid ""
@@ -319,3 +333,5 @@ msgid ""
 "data structures or files, more information on datasets in general is "
 "available in the :ref:`data-structures-used-by-mayavi` section."
 msgstr ""
+"对于创建VTK数据结构或文件，如果你想获得更深的理解，关于其数据集更多的信息请参考：`data-structures-used-by-mayavi` "
+"章节。"
