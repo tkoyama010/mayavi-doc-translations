@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mayavii <1444742843@qq.com>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 00:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
+"Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,13 +23,13 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/examples.rst:4
 msgid "Tutorial examples to learn Mayavi"
-msgstr ""
+msgstr "学习Mayavi的案例指导"
 
 #: ../../mayavi/docs/source/mayavi/examples.rst:6
 msgid ""
 "To get acquainted with mayavi you may start up the Mayavi2 application, "
 "``mayavi2`` in the command line, like so::"
-msgstr ""
+msgstr "您可以使用Mayavi2的应用程序熟悉mayavi，就像这样，从命令行中启动 “mayavi2”。"
 
 #: ../../mayavi/docs/source/mayavi/examples.rst:11
 msgid ""
@@ -33,6 +37,7 @@ msgid ""
 "(usually in the ``Python2X\\Scripts`` directory), or use the start menu "
 "entry, if you installed python(x,y) or EPD."
 msgstr ""
+"对于Window系统您可以双击安装“mayavi2.exe”可执行文件（它通常放置在“Python2X\\Scripts”目录），或者，如果您安装了python(x,y)或者EPD，可以使用开始菜单进入。"
 
 #: ../../mayavi/docs/source/mayavi/examples.rst:15
 msgid ""
@@ -41,6 +46,8 @@ msgid ""
 "\"perspective\" of the mayavi application.  More details on the UI are "
 "available in the :ref:`general-layout-of-ui` section."
 msgstr ""
+"启动Mayavi之后，您可以通过调整交互界面的大小获得一个舒适的布局。这些设定会成为mayavi的默认布局。关于界面UI的更多细节可以参考该章节:ref"
+":`general-layout-of-ui`"
 
 #: ../../mayavi/docs/source/mayavi/examples.rst:20
 msgid ""
@@ -52,3 +59,4 @@ msgid ""
 "tree. If these are not installed, the sources may be downloaded from here: "
 "https://github.com/enthought/mayavi"
 msgstr ""
+"我们将给出几个案例教您如何使用Mayavi应用程序。在案例演示之前，需要获得一些测试用的数据。以下两个案例都是用了mayavi自身附带的数据。在mayavi的根目录中，这些数据可以在``examples/data``目录中获取。如果这些数据包没有安装，可以通过以下地址进行下载：https://github.com/enthought/mayavi"

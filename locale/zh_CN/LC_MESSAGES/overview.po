@@ -50,7 +50,7 @@ msgstr "Mayavi2 旨在提供一个简单、可交互的3D数据或3D绘图的可
 msgid ""
 "an (optional) rich user interface with dialogs to interact with all data and"
 " objects in the visualization."
-msgstr ""
+msgstr "（可选）一个丰富的用户界面，可以和数据、对象进行交互。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:21
 msgid ""
@@ -59,6 +59,8 @@ msgid ""
 ":ref:`mlab <simple-scripting-with-mlab>`), or an object-oriented programming"
 " interface."
 msgstr ""
+"简洁清晰的Python接口，以及可以使用类似于matlab和matplotlib的3D可视化函数（参考：ref:`mlab <simple-"
+"scripting-with-mlab>`），或者面向对象的交互界面。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:26
 msgid "harnesses the power of VTK_ without forcing you to learn it."
@@ -69,7 +71,7 @@ msgid ""
 "Additionally, Mayavi2 strives to be a reusable tool that can be embedded in "
 "your libraries and applications in different ways or be combined with the "
 "Envisage_ application-building framework to assemble domain-specific tools."
-msgstr ""
+msgstr "此外，Mayavi2是一个可复用的工具箱，您可以用不同的方法整合到您的库或者应用中，结合Envisage应用程序框架组装成特定领域的工具。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:39
 msgid "What is Mayavi2?"
@@ -122,6 +124,7 @@ msgid ""
 "which allows it to be embedded in other `Envisage`_ based applications "
 "natively."
 msgstr ""
+"与其前身Mayavi1不同，Mayavi2的设计在一开始就考虑了脚本化和可扩展性。Mayavi2提供了直接可用的“mayavi2”应用程序。而它也可以像matplotlib和gnuplot一样作为绘图引擎，或者作为一个交互的可视化库。同样，它也可以作为一个Envisage插件整合到其他的Envisage基础的应用。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:74
 msgid "Technical details"
@@ -211,7 +214,7 @@ msgstr "使用Mayavi的三种基本方式："
 msgid ""
 "Use the ``mayavi2`` application completely graphically.  More information on"
 " this is in the :ref:`using-the-mayavi-application` section."
-msgstr ""
+msgstr "\"mayavi2\"应用界面是一个图形化界面。更对信息请参考：ref:`using-the-mayavi-application`"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:131
 msgid ""
@@ -220,39 +223,42 @@ msgid ""
 "simple way of using Mayavi in batch-processing scripts, see :ref:`simple-"
 "scripting-with-mlab` for more information on this."
 msgstr ""
+"辅以简单的Python脚本，如用Ipython结合numpy，我们就可以使用Mayavi绘图引擎。“mlab”API提供一个简单的方式来批处理脚本。更多信参考：ref"
+":`simple-scripting-with-mlab` ."
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:137
 msgid ""
 "Script the Mayavi application from Python. The Mayavi application itself "
 "features a powerful and general purpose scripting API that can be used to "
 "adapt it to your needs."
-msgstr ""
+msgstr "您可以用Python来编写Mayavi脚本。Mayavi具有很强大的功能，其通用性的API可以适应您的需求。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:141
 msgid ""
 "You can script Mayavi while using the ``mayavi2`` application in order to "
 "automate tasks and extend Mayavi's behavior."
-msgstr ""
+msgstr "在使用mayavi2应用程序的同时，您可以编写Mayavi脚本，从而将您的任务自动化，扩展Mayavi的功能。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:144
 msgid "You can script Mayavi from your own Python based application."
-msgstr ""
+msgstr "基于Python应用，您可以自行编写Mayavi脚本。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:146
 msgid ""
 "You can embed Mayavi into your application in a variety of ways either using"
 " Envisage_ or otherwise."
-msgstr ""
+msgstr "无论是使用Envisage还是其他手段，您可以把Mayavi集合到自己的应用中。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:149
 msgid ""
 "More details on this are available in the :ref:`advanced-scripting-with-"
 "mayavi` chapter."
-msgstr ""
+msgstr "更多的细节请参考该章节：ref:`advanced-scripting-with-mayavi` ."
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:155
 msgid "Scenes, data sources, and visualization modules: the pipeline model"
 msgstr ""
+"所谓的pipeline管线模式，组成方式：场景Scenes，数据源data sources，可视化模块visualization modules。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:157
 msgid ""
@@ -267,6 +273,9 @@ msgid ""
 " be opened. Data sources are rich objects that describe the data, but not "
 "how to visualize it."
 msgstr ""
+"数据加载进Mayavi之后存储在数据源** data source "
+"**中（也可以使用文件读取或者从脚本进行创建）。数据对象和文件的数量不受限制。数据源Data "
+"sources是一个丰富的对象，它用来对数据进行存储，而不是对它进行可视化。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:165
 msgid ""
@@ -310,7 +319,7 @@ msgstr "将数据加载进Mayavi"
 msgid ""
 "Mayavi is a scientific data visualizer. There are two primary ways to make "
 "your data available to it:"
-msgstr ""
+msgstr "Mayavi是一个数据可视化工具。一般有两种方式将你的数据加载进去。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:199
 msgid ""
@@ -326,6 +335,9 @@ msgid ""
 "paragraph on :ref:`creating data sources with mlab <mlab_data_source>`, or "
 "simply the 3D plotting functions: :ref:`mlab_plotting_functions`)."
 msgstr ""
+"通过numpy数组或其他序列可以生成一个TVTK数据集。通过使用脚本，比如`mlab`，这是最容易实现的。（参考：`creating data "
+"sources with mlab "
+"1<mlab_data_source>`，或者使用3D绘图函数，参考`mlab_plotting_functions`）"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:210
 msgid ""
