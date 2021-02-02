@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:4
 msgid "``mlab``: Python scripting for 3D plotting"
-msgstr ""
+msgstr "mlab：用Python脚本进行3D绘图"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rstNone
 msgid "Section summary"
@@ -46,29 +46,33 @@ msgid ""
 "visualization using Mayavi2. This allows users to perform quick 3D "
 "visualization while being able to use Mayavi's powerful features."
 msgstr ""
+"我们简称`mayavi.mlab`模块为mlab，就像我们在 matplotlib 中寥寥几行代码的 `pylab` "
+"一样，mayavi2提供了一种简单的方式进行数据可视化。用户可以在Mayavi强大的性能下快速3D可视化。"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:23
 msgid ""
 "Mayavi's mlab is designed to be used in a manner well-suited to scripting "
 "and does not present a fully object-oriented API. It is can be used "
 "interactively with IPython_."
-msgstr ""
+msgstr "在设计层面，Mayavi的mlab模块是很适合脚本语言的。并且它不完全是一个面向对象的API，它可以和IPython进行交互。"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:29
 msgid ""
 "When using IPython with mlab, as in the following examples, IPython must be "
 "invoked with the ``--gui=qt`` command line option like this::"
 msgstr ""
+"接下来的例子将演示，在Ipython中使用mlab的情形。\n"
+"IPython需要使用——“$ ipython --gui=qt”命令行选项来调用，如下所示:"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:34
 msgid ""
 "On recent versions of IPython, this can be turned on from within IPython "
 "itself by::"
-msgstr ""
+msgstr "最新版本的IPython我们也可以用这种方式："
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:39
 msgid "If the following exception is raised::"
-msgstr ""
+msgstr "如果提示异常信息："
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:43
 msgid ""
@@ -76,18 +80,23 @@ msgid ""
 "solution is to run ``QT_API=pyqt ETS_TOOLKIT=qt4 ipython``. More details can"
 " be found at the `ipython documentation page`_."
 msgstr ""
+"这是由于PyQt和PySide不兼容造成的。解决方法是运行：``QT_API=pyqt ETS_TOOLKIT=qt4 "
+"ipython``。更多的内容请参考`ipython documentation page` 页面。"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:47
 msgid ""
 "If for some reason Mayavi fails with the Qt backend, you can also try using "
 "the wxPython backend by doing::"
 msgstr ""
+"如果一些其他原因导致Mayavi的Qt后端错误，您也可以通过以下方式使用wxPython后端：\n"
+"$ ETS_TOOLKIT=wx\n"
+"$ ipython --gui=wx"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:53
 msgid ""
 "For more details on using mlab and running scripts, read the section :ref"
 ":`running-mlab-scripts`"
-msgstr ""
+msgstr "关于mlab的更多细节，请参考`Running mlab scripts`章节。"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:62
 msgid ""
@@ -100,32 +109,37 @@ msgid ""
 " pipeline are built in scripts, and we give some detailed examples of "
 "applying these tools to visualizing volumetric scalar and vector data."
 msgstr ""
+"这一节，我们仅介绍 mlab 简单的绘图函数，以numpy数组的方式创建3D对象。现在我们要介绍：\n"
+"(1).如何修改颜色和字体大小\n"
+"(2).如何使用`mlab`进行可视化以及通过可交互的图形界面进行修改\n"
+"(3).如何书写脚本以及运行动画\n"
+"最后，我们将展示\"mlab\"的高级用法，它将以完整的pipeline管线方式进行脚本搭建。在这里我们将给出一些具体的案例，对标量数据和矢量数据进行可视化。"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:74
 msgid "Section contents"
-msgstr ""
+msgstr "分节目录"
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:4
 msgid "A demo"
-msgstr ""
+msgstr "一个案例"
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:6
 msgid ""
 "To get you started, here is a pretty example showing a spherical harmonic as"
 " a surface::"
-msgstr ""
+msgstr "我们将以球谐函数的面绘制作为一个案例开始："
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:24
 msgid ""
 "Bulk of the code in the above example is to create the data.  One line "
 "suffices to visualize it.  This produces the following visualization:"
-msgstr ""
+msgstr "以上案例的代码是为了创建数据，一行代码就足以对它进行可视化。其可视化的图像如下所示："
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:30
 msgid ""
 "The visualization is created by the single function :func:`mesh` in the "
 "above."
-msgstr ""
+msgstr "可视化由一个函数完成：mesh"
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:32
 msgid ""
@@ -135,16 +149,18 @@ msgid ""
 "`mlab.test`.  You can also inspect the source in IPython via the handy "
 "`mlab.test_contour3d??`."
 msgstr ""
+"这类案例mlab都有所提供（详见：`test_contour3d`, `test_points3d`, `test_plot3d_anim` "
+"等）。上面演示的`test_mesh`。在IPyhon中可以通过在`mlab.test`用tab键的自动补全找到。您也可以在IPython中通过手动输入`mlab.test_contour3d??`查看代码。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:4
 msgid "3D Plotting functions for numpy arrays"
-msgstr ""
+msgstr "关于numpy数组的3D可视化"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:6
 msgid ""
 "Visualization can be created in `mlab` by a set of functions operating on "
 "numpy arrays."
-msgstr ""
+msgstr "通过`mlab`的一系列函数，可以对numpy进行数据可视化。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:9
 msgid ""
@@ -157,6 +173,9 @@ msgid ""
 "visualization can also be modified by changing the attributes of this "
 "module."
 msgstr ""
+"`mlab`函数将numpy数组作为输入，描述数据的``x``, ``y``, ``z`` "
+"坐标，并以此构建成熟的可视化：如果有需要，它们可以完成data source数据源层级、filter滤波层级以及visualization "
+"module可视化模块层级的创建。与matplotlib的pylab类似，它们的创建过程可以通过关键字参数进行调整。此外，它们都可以返回所创建的可视化模块对应的对象，因此可以通过修改它们的属性对可视化进行修改。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:20
 msgid ""

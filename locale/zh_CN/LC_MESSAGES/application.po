@@ -46,7 +46,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/application.rst:22
 msgid "Section contents"
-msgstr ""
+msgstr "分节目录"
 
 #: ../../mayavi/docs/source/mayavi/examples.rst:4
 msgid "Tutorial examples to learn Mayavi"

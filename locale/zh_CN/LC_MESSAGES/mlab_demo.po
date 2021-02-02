@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mayavii <1444742843@qq.com>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 00:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
+"Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,25 +23,25 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:4
 msgid "A demo"
-msgstr ""
+msgstr "一个案例"
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:6
 msgid ""
 "To get you started, here is a pretty example showing a spherical harmonic as"
 " a surface::"
-msgstr ""
+msgstr "我们将以球谐函数的面绘制作为一个案例开始："
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:24
 msgid ""
 "Bulk of the code in the above example is to create the data.  One line "
 "suffices to visualize it.  This produces the following visualization:"
-msgstr ""
+msgstr "以上部分案例的代码是为了创建数据，一行代码就足以对它进行可视化。其可视化的图像如下所示："
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:30
 msgid ""
 "The visualization is created by the single function :func:`mesh` in the "
 "above."
-msgstr ""
+msgstr "可视化由一个函数完成：mesh()"
 
 #: ../../mayavi/docs/source/mayavi/mlab_demo.rst:32
 msgid ""
@@ -47,3 +51,5 @@ msgid ""
 "`mlab.test`.  You can also inspect the source in IPython via the handy "
 "`mlab.test_contour3d??`."
 msgstr ""
+"这类案例mlab都有所提供（详见：`test_contour3d`, `test_points3d`, `test_plot3d_anim` "
+"等）。上面演示的`test_mesh`。在IPyhon中可以通过在`mlab.test`用tab键的自动补全找到。您也可以在IPython中通过手动输入`mlab.test_contour3d??`检查源代码。"
