@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mayavii <1444742843@qq.com>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 00:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
+"Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,15 +23,15 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:2
 msgid "Changing the looks of the visual objects created"
-msgstr ""
+msgstr "修改创建的可视化对象"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:5
 msgid "Adding color or size variations"
-msgstr ""
+msgstr "添加颜色以及对图形大小的调整"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
 msgid "Color"
-msgstr ""
+msgstr "颜色"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:8
 msgid ""
@@ -35,6 +39,8 @@ msgid ""
 "explicitly using the 'color' keyword argument of the function. This color is"
 " then applied uniformly to all the objects created."
 msgstr ""
+"可视化对象由绘图函数进行创建，图像的颜色可以用 "
+"'color'关键字给定。如果用此方法，它将会把颜色无差别地匹配图像的所有内容。译者注：这里绘图函数指的是.mlab方法创建，管线搭建方法是类似的。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:12
 msgid ""
@@ -44,29 +50,31 @@ msgid ""
 " with vectors, or to the z elevation for functions where it is meaningful, "
 "such as :func:`surf` or :func:`barchart`."
 msgstr ""
+"如果您想根据您的可视化结果让可视化的图形颜色不同，您需要将scalar标量数据传入赋给每一个数据点。默认情况下，绘制矢量图时候，它用矢量信息的范数来作为标量值的大小；对于另外一些情况是采用的z值作为其标量值。\n"
+"译者注：如quiver3d绘制的矢量箭头颜色的深浅是由所给数据uvw进行欧氏距离计算得到的。对于非矢量绘图的数据，采用的是传入的z值，也就是高度信息作为颜色深浅。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:18
 msgid ""
 "This scalar information is converted into colors using the colormap, or also"
 " called LUT, for Look Up Table. The list of possible colormaps is::"
-msgstr ""
+msgstr "将标量信息转化成颜色会用到下面的配色表，也叫LUT(Look Up Table)。一下列举的是配色方案："
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:34
 msgid ""
 "The easiest way to choose the colormap, most adapted to your visualization "
 "is to use the GUI (as described in the next paragraph). The dialog to set "
 "the colormap can be found in the `Colors and legends` node."
-msgstr ""
+msgstr "选择配色表最简单的方法是使用GUI图形界面（这将会在下一段进行介绍）。设置颜色的选项在 `Colors and legends`节点里面。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:38
 msgid ""
 "To use a custom-defined colormap, for the time being, you need to write "
 "specific code, as show in :ref:`example_custom_colormap`."
-msgstr ""
+msgstr "如果使用自定义的配色方案，您需要自行编写代码，详细请参考`example_custom_colormap`。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
 msgid "Size of the glyph"
-msgstr ""
+msgstr "图形的大小"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:42
 msgid ""
@@ -83,13 +91,13 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:53
 msgid "If we represent a scalar varying from 0.5 to 1 on this dataset::"
-msgstr ""
+msgstr "如果我们将数据的标量范围设定为0.5到1："
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:57
 msgid ""
 "We represent the dataset as spheres, using :func:`points3d`, and the scalar "
 "is mapped to diameter of the spheres::"
-msgstr ""
+msgstr "使用`points3d`方法，我们将数据集可视化成球状，标量数据会和数据集进行一一匹配。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:63
 msgid ""
@@ -98,6 +106,7 @@ msgid ""
 "the largest is proportional to inter-point distance. The scaling is only "
 "relative, as can be seen on the resulting figure:"
 msgstr ""
+"默认情况下，小球的直径不是严格的。事实上，标量最小的值它的直径是空值null，最大的值所对应的球，其直径正比于点与点之间的距离。这个比例是相对的，如下面的结果："
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:71
 msgid ""
@@ -110,7 +119,7 @@ msgstr ""
 msgid ""
 "In this case, you shoud turn auto-scaling off by specifying the desired "
 "scale factor::"
-msgstr ""
+msgstr "这时候您可以通过指定scale_factor控制放缩系数，从而关闭auto-scaling自动放缩。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:84
 msgid ""
@@ -120,10 +129,11 @@ msgid ""
 "clamped to zero, and thus the glyph are not scaled absolutely, unless you "
 "specify::"
 msgstr ""
+"在Mayavi的早期版本（包括3.1.0之前），图形的放缩并不是自动的。由于可视化的图形尺寸偏小，导致可视化看起来很空旷。而数据中的最小值其图形直径是严格为0的，除非您指定，其导致图形无法放缩。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
 msgid "More representations of the attached scalars or vectors"
-msgstr ""
+msgstr "标量和矢量可视化的更多表现"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:93
 msgid ""

@@ -275,7 +275,7 @@ msgstr ""
 "`mesh`方法用于绘制面绘制，由3个2D数组给定， ``x``, ``y``, ``z`` "
 "将坐标以网格形式绘出。与`surf`方法不同，2D数组``x``, ``y`` ,``z`` "
 "所给定的网格连接方式不是默认给出的，它需要特别指定，因此能创建更复杂的网格连接形式。译者注：surf更多是正交网格，mesh的自由度更高但是也相对更复杂。更多细节读者请阅读`Data"
-" representation in Mayavi`"
+" representation in Mayavi`"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:84
 msgid "|barchart|"
@@ -336,21 +336,21 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:146
 msgid "3D data"
-msgstr ""
+msgstr "3D数据"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:150
 msgid "|contour3d|"
-msgstr ""
+msgstr "coutour3d方法"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:150
 msgid ""
 ":func:`contour3d` |hack| Plot iso-surfaces of volumetric data defined as a "
 "3D array."
-msgstr ""
+msgstr "`contour3d` 方法用于绘制3D体数据的等值面。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:155
 msgid "|quiver3d|"
-msgstr ""
+msgstr "quiver3d 方法"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:155
 msgid ""
@@ -358,31 +358,35 @@ msgid ""
 " ``x``, ``y``, ``z`` position are specified by numpy arrays, as well as the "
 "``u``, ``v``, ``w`` components of the vectors."
 msgstr ""
+"quiver3d 方法将为数据绘制箭头。``x``, ``y``, ``z``为位置坐标，``u``, ``v``, ``w``为方向，均由numpy数组给定。\n"
+"译者注：矢量可视化可采用quiver3d，需要传入6个参数，样式也可由参数传入，注意箭头大小和方向均由uvw控制。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:162
 msgid "|flow|"
-msgstr ""
+msgstr "flow 方法"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:162
 msgid ""
 ":func:`flow` |hack| Plot a trajectory of particles along a vector field "
 "described by three 3D arrays giving the ``u``, ``v``, ``w`` components on a "
 "grid."
-msgstr ""
+msgstr "flow方法用于绘制粒子的轨迹，它由三个3D数组给定。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:168
 msgid "|slice|"
-msgstr ""
+msgstr "slice 方法"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:168
 msgid ""
 ":func:`volume_slice` |hack| Plots an interactive image plane sliced through "
 "volumetric data."
 msgstr ""
+"volume_slice 方法用于绘制一个可交互的平面，它可以对体数据进行切片。\n"
+"译者注：volume_slice 更多是一种可视化的辅助手段，如医学影像，体数据核磁等的可视化，生成一个可灵活控制的组织切面方便观察。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rstNone
 msgid "Structured or unstructured data"
-msgstr ""
+msgstr "结构化与非结构化的数据"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:177
 msgid ""
@@ -398,18 +402,21 @@ msgid ""
 " and modules. See the :ref:`controlling-the-pipeline-with-mlab-scripts` and "
 "the :ref:`mlab-case-studies` sections."
 msgstr ""
+"如果要对可视化有更多要求，丰富其细节则需要自己配置pipeline管线：从data "
+"source数据源层级到filter滤波层级，再到module可视化模块层级进行逐层搭建。相关内容请参考下面的章节，`controlling-the-"
+"pipeline-with-mlab-scripts`和`mlab-case-studies`。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:2
 msgid "Changing the looks of the visual objects created"
-msgstr ""
+msgstr "修改创建的可视化对象"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:5
 msgid "Adding color or size variations"
-msgstr ""
+msgstr "添加颜色以及对图形大小的调整"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
 msgid "Color"
-msgstr ""
+msgstr "颜色"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:8
 msgid ""
@@ -417,6 +424,8 @@ msgid ""
 "explicitly using the 'color' keyword argument of the function. This color is"
 " then applied uniformly to all the objects created."
 msgstr ""
+"可视化对象由绘图函数进行创建，图像的颜色可以用 "
+"'color'关键字给定。如果用此方法，它将会把颜色无差别地匹配图像的所有内容。译者注：这里绘图函数指的是.mlab方法创建，管线搭建方法是类似的。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:12
 msgid ""
@@ -426,12 +435,14 @@ msgid ""
 " with vectors, or to the z elevation for functions where it is meaningful, "
 "such as :func:`surf` or :func:`barchart`."
 msgstr ""
+"如果您想根据您的可视化结果让可视化的图形颜色不同，您需要将scalar标量数据传入赋给每一个数据点。默认情况下，绘制矢量图时候，它用矢量信息的范数来作为标量值的大小；对于另外一些情况是采用的z值作为其标量值。\n"
+"译者注：如quiver3d绘制的矢量箭头颜色的深浅是由所给数据uvw进行欧氏距离计算得到的。对于非矢量绘图的数据，采用的是传入的z值，也就是高度信息作为颜色深浅。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:18
 msgid ""
 "This scalar information is converted into colors using the colormap, or also"
 " called LUT, for Look Up Table. The list of possible colormaps is::"
-msgstr ""
+msgstr "将标量信息转化成颜色会用到下面的配色表，简称LUT，Look Up Table。以下列举的是配色方案："
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:34
 msgid ""
@@ -439,16 +450,18 @@ msgid ""
 "is to use the GUI (as described in the next paragraph). The dialog to set "
 "the colormap can be found in the `Colors and legends` node."
 msgstr ""
+"选择配色表最简单的方法是使用GUI图形界面（这将会在下一段进行介绍）。设置颜色的选项在 `Colors and legends`节点里面。\n"
+"译者注：使用图像界面可以调整配色方案，手动选择需要修改的管线层级即可。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:38
 msgid ""
 "To use a custom-defined colormap, for the time being, you need to write "
 "specific code, as show in :ref:`example_custom_colormap`."
-msgstr ""
+msgstr "如果使用自定义的配色方案，您需要自行编写代码，详细请参考`example_custom_colormap`。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
 msgid "Size of the glyph"
-msgstr ""
+msgstr "图形的大小"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:42
 msgid ""
@@ -465,13 +478,13 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:53
 msgid "If we represent a scalar varying from 0.5 to 1 on this dataset::"
-msgstr ""
+msgstr "如果我们将数据的标量范围设定为0.5到1："
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:57
 msgid ""
 "We represent the dataset as spheres, using :func:`points3d`, and the scalar "
 "is mapped to diameter of the spheres::"
-msgstr ""
+msgstr "使用`points3d`方法，我们将数据集可视化成球状，标量数据会和数据集进行一一匹配。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:63
 msgid ""
@@ -480,6 +493,7 @@ msgid ""
 "the largest is proportional to inter-point distance. The scaling is only "
 "relative, as can be seen on the resulting figure:"
 msgstr ""
+"默认情况下，小球的直径不是严格的。事实上，标量最小的值它的直径是空值null，最大的值所对应的球，其直径正比于点与点之间的距离。这个比例是相对的，如下面的结果："
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:71
 msgid ""
@@ -492,7 +506,7 @@ msgstr ""
 msgid ""
 "In this case, you shoud turn auto-scaling off by specifying the desired "
 "scale factor::"
-msgstr ""
+msgstr "这时候您可以通过指定scale_factor控制放缩系数，从而关闭auto-scaling自动放缩。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:84
 msgid ""
@@ -502,10 +516,11 @@ msgid ""
 "clamped to zero, and thus the glyph are not scaled absolutely, unless you "
 "specify::"
 msgstr ""
+"在Mayavi的早期版本（包括3.1.0之前），图形的放缩并不是自动的。由于可视化的图形尺寸偏小，导致可视化看起来很空旷。而数据中的最小值其图形直径是严格为0的，除非您指定，其导致图形无法放缩。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:0
 msgid "More representations of the attached scalars or vectors"
-msgstr ""
+msgstr "标量和矢量可视化的更多表现"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:93
 msgid ""
