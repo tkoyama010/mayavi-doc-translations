@@ -57,7 +57,7 @@ msgstr ""
 msgid ""
 "This scalar information is converted into colors using the colormap, or also"
 " called LUT, for Look Up Table. The list of possible colormaps is::"
-msgstr "将标量信息转化成颜色会用到下面的配色表，也叫LUT(Look Up Table)。一下列举的是配色方案："
+msgstr "将标量信息转化成颜色会用到下面的配色表，也叫LUT-——Look Up Table。以下列举配色方案："
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:34
 msgid ""
@@ -207,7 +207,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rstNone
 msgid "The record feature"
-msgstr ""
+msgstr "录制功能"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:155
 msgid ""
@@ -218,6 +218,7 @@ msgid ""
 "navigating through a program in the pipeline, see "
 ":ref:`organisation_mayavi_visualisations`."
 msgstr ""
+"这是一个非常有用的功能，它位于管线配置界面上，点击红色圆按钮即可。通过一个对话框，它将记录界面交互过程中的变化，并生成Python代码。如果想了解pipeline的更多细节，请参考`organisation_mayavi_visualisations`"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:162
 msgid ""
@@ -226,19 +227,21 @@ msgid ""
 "interactively edit the object's properties. If the dialog doesn't show up "
 "when you enter this command, please see :ref:`running-mlab-scripts`."
 msgstr ""
+"除此之外，每一个生成的对象都会有返回值，它将返回mlab函数。``this_object.edit_traits()``将启动一个对话框，您可以用交互的方式对对象的属性进行编辑。如果您没能成功开启对话框，请参考"
+"`running-mlab-scripts`。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rstNone
 msgid "Using ``mlab`` with the full Envisage UI"
-msgstr ""
+msgstr "使用Envisage界面的mlab"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:170
 msgid ""
 "Sometimes it is convenient to write an mlab script but still use the full "
 "envisage application so you can click on the menus and use other modules "
 "etc.  To do this you may do the following before you create an mlab figure::"
-msgstr ""
+msgstr "有时候使用envisage应用编写mlab脚本很方便，您可以点击菜单栏使用其他的模块。则您需要在创建图像之前进行下面的操作："
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:180
 msgid ""
 "This will give you the full-fledged UI instead of the default simple window."
-msgstr ""
+msgstr "这将为您提供完整成熟的界面，而不是简单的默认窗口。"

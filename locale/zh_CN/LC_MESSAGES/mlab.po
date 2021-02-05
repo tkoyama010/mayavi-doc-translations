@@ -594,7 +594,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rstNone
 msgid "The record feature"
-msgstr ""
+msgstr "录制功能"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:155
 msgid ""
@@ -605,6 +605,8 @@ msgid ""
 "navigating through a program in the pipeline, see "
 ":ref:`organisation_mayavi_visualisations`."
 msgstr ""
+"这是一个非常有用的功能，它位于管线配置界面上，点击红色圆按钮即可。通过一个对话框，它将记录界面交互过程中的变化，并生成Python代码。如果想了解pipeline搭建的更多细节，请参考`Organisation"
+" of Mayavi visualizations: the pipeline`。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:162
 msgid ""
@@ -613,30 +615,32 @@ msgid ""
 "interactively edit the object's properties. If the dialog doesn't show up "
 "when you enter this command, please see :ref:`running-mlab-scripts`."
 msgstr ""
+"除此之外，每一个生成的对象都会有返回值，它将返回mlab函数。``this_object.edit_traits()``将启动一个对话框，您可以用交互的方式对对象的属性进行编辑。如果您没能成功开启对话框，请参考"
+"`running-mlab-scripts`。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rstNone
 msgid "Using ``mlab`` with the full Envisage UI"
-msgstr ""
+msgstr "使用Envisage界面的mlab"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:170
 msgid ""
 "Sometimes it is convenient to write an mlab script but still use the full "
 "envisage application so you can click on the menus and use other modules "
 "etc.  To do this you may do the following before you create an mlab figure::"
-msgstr ""
+msgstr "有时候使用envisage应用编写mlab脚本很方便，您可以点击菜单栏使用其他的模块。则您需要在创建图像之前进行下面的操作："
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:180
 msgid ""
 "This will give you the full-fledged UI instead of the default simple window."
-msgstr ""
+msgstr "这将为您提供完整成熟的界面，而不是简单的默认窗口。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:3
 msgid "Figures, legends, camera and decorations"
-msgstr ""
+msgstr "图像，图例，相机设置及图像修饰"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:6
 msgid "Handling several figures"
-msgstr ""
+msgstr "对多个图像进行处理"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:8
 msgid ""
@@ -649,10 +653,14 @@ msgid ""
 ":func:`draw` function, saved to a picture file using :func:`savefig` and "
 "cleared using :func:`clf`."
 msgstr ""
+"所有的mlab函数仅对当前的scene层级有效，这与matlab和pyplot是一样的，因此我们使用figure函数进行不同scene之间的切换。如果我们要切换不同的图像，可以使用键值对进行索引，键接受整形integer和字符串string的类型。使用figure函数匹配其键值对，它会返回相应的图像；如果键对应的scene层级不存在，它会创建一个。\n"
+"使用gcf函数恢复当前绘制的图像；\n"
+"使用draw函数对图像进行更新；\n"
+"使用savefig函数保存当前的图像。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:19
 msgid "Figure decorations"
-msgstr ""
+msgstr "图像修饰函数"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:21
 msgid ""
@@ -661,6 +669,10 @@ msgid ""
 " and :func:`zlabel` functions. Similarly, :func:`outline` creates an outline"
 " around an object. :func:`title` adds a title to the figure."
 msgstr ""
+"使用axes函数可以为可视化对象添加坐标轴。\n"
+"使用xlabel，ylabel，zxlabel函数可以为图像添加坐标轴标签。\n"
+"相似的用法，outline函数可以为可视化图像创建外框。\n"
+"title函数可以为图像添加标题。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:26
 msgid ""
@@ -671,17 +683,19 @@ msgid ""
 ":func:`vectorbar` function scan be used to create color bars specifically "
 "for scalar or vector data."
 msgstr ""
+"Color "
+"bar颜色条或比色卡是其数据的映射（其配色方案在LUT中设定），默认情况下`colorbar`函数创建的是最后一个数据的映射，如果数据是标量则创建为标量比色卡，矢量也是如此。也可以指定scalarbar和vectorbar创建相应的比色卡。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:33
 msgid ""
 "A small *xyz* triad can be added to the figure using "
 ":func:`orientation_axes`."
-msgstr ""
+msgstr "也可以使用orientation_axes同时添加三个坐标轴的标签。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:36
 msgid ""
 "The :func:`orientation_axes` was named `orientationaxes` before release 3.2."
-msgstr ""
+msgstr "在版本3.2之前，orientation_axes函数为orientationaxes"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:40
 msgid "Moving the camera"
@@ -749,7 +763,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:4
 msgid "Running mlab scripts"
-msgstr ""
+msgstr "运行mlab脚本"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:6
 msgid ""
@@ -763,20 +777,20 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:14
 msgid "Using mlab interactively"
-msgstr ""
+msgstr "使用mlab交互"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:16
 msgid ""
 "Using IPython_, mlab instructions can be run interactively, or in scripts "
 "using IPython_'s ``%run`` command::"
-msgstr ""
+msgstr "使用IPython，mlab指令可以交互式进行，或者也可以使用IPython执行 %run command："
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:21
 msgid ""
 "You need to start IPython_ with the `--gui=qt` option. In this environment, "
 "the plotting commands are interactive: they have an immediate effect on the "
 "figure, alleviating the need to use the :func:`show` function."
-msgstr ""
+msgstr "您需要使用 –gui=qt 开启Qt界面选项。在这个环境下，绘图命令是可交互的：不用show函数也能呈现即时效果。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:28
 msgid ""
@@ -785,30 +799,31 @@ msgid ""
 "application (such as other Envisage-based applications, or SPE, Stani's "
 "Python Editor)."
 msgstr ""
+"Mlab也能在Mayavi2应用中进行交互，确切来说，所有以wxPython为基础的Python脚本都可以进行（比如其他的Envisage基础的应用，如SPE）。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:34
 msgid "Using together with Matplotlib"
-msgstr ""
+msgstr "与Matplotlib一起使用"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:36
 msgid ""
 "If you want to use Matplotlib's interactive plotting with Mayavi's mlab in "
 "IPython you should:"
-msgstr ""
+msgstr "如果您想在IPython中使用同时使用Matplotlib和Mayavi进行交互，您应该："
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:39
 msgid "start IPython with::"
-msgstr ""
+msgstr "打开IPython："
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:43
 msgid "alternatively, start IPython with the `--gui=qt` option::"
-msgstr ""
+msgstr "相应地，打开IPython的图像界面：`--gui=qt` "
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:47
 msgid ""
 "and **before** importing any matplotlib modules, enter the following Python "
 "commands::"
-msgstr ""
+msgstr "在调用任何matplotlib的模块之前，需要先输入以下Python命令："
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:54
 msgid "one could also use the ``--pylab`` option to IPython as follows::"

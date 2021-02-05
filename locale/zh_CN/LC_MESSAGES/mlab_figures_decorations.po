@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mayavii <1444742843@qq.com>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 00:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:31+0000\n"
+"Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +23,11 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:3
 msgid "Figures, legends, camera and decorations"
-msgstr ""
+msgstr "图像，图例，相机设置及可视化修饰"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:6
 msgid "Handling several figures"
-msgstr ""
+msgstr "所有的mlab函数都在当前的scene层级运作，我们使用figure()，这与matlab和pyplot是一样的。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:8
 msgid ""
@@ -36,10 +40,14 @@ msgid ""
 ":func:`draw` function, saved to a picture file using :func:`savefig` and "
 "cleared using :func:`clf`."
 msgstr ""
+"所有的mlab函数仅对当前的scene层级有效，因此我们使用figure()进行不同scene之间的切换，这与matlab和pyplot是一样的。如果我们要切换不同的图像，可以使用键值对进行索引，键接受整形integer和字符串string的类型。使用figure()匹配其键值对，它会返回相应的图像；如果键对应的scene层级不存在，它会创建一个。\n"
+"使用gcf()方法可以恢复当前绘制的图像；\n"
+"使用draw()方法可以对图像进行更新；\n"
+"使用savefig()方法可以保存当前的图像。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:19
 msgid "Figure decorations"
-msgstr ""
+msgstr "图像修饰函数"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:21
 msgid ""
@@ -48,6 +56,10 @@ msgid ""
 " and :func:`zlabel` functions. Similarly, :func:`outline` creates an outline"
 " around an object. :func:`title` adds a title to the figure."
 msgstr ""
+"使用axes函数可以为可视化对象添加坐标轴。\n"
+"使用xlabel，ylabel，zxlabel函数可以为图像添加坐标轴标签。\n"
+"相似的用法，outline函数可以为可视化图像创建外框。\n"
+"title函数可以为图像添加标题。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:26
 msgid ""
@@ -58,17 +70,19 @@ msgid ""
 ":func:`vectorbar` function scan be used to create color bars specifically "
 "for scalar or vector data."
 msgstr ""
+"Color "
+"bar颜色条（比色卡）是其数据的映射（其配色方案在LUT中设定），默认情况下`colorbar`函数创建的是最后一个数据的映射，如果数据是标量则创建为标量比色卡，矢量也是如此。也可以指定scalarbar和vectorbar创建相应的比色卡。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:33
 msgid ""
 "A small *xyz* triad can be added to the figure using "
 ":func:`orientation_axes`."
-msgstr ""
+msgstr "也可以使用orientation_axes同时添加三个坐标轴的标签。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:36
 msgid ""
 "The :func:`orientation_axes` was named `orientationaxes` before release 3.2."
-msgstr ""
+msgstr "在版本3.2之前，orientation_axes函数为orientationaxes"
 
 #: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:40
 msgid "Moving the camera"

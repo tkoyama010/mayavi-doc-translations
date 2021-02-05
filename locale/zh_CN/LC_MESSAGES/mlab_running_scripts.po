@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mayavii <1444742843@qq.com>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 00:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
+"Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:4
 msgid "Running mlab scripts"
-msgstr ""
+msgstr "运行mlab脚本"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:6
 msgid ""
@@ -33,20 +37,20 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:14
 msgid "Using mlab interactively"
-msgstr ""
+msgstr "使用IPython，mlab指令可以交互式进行，或者也可以使用IPython执行 %run command："
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:16
 msgid ""
 "Using IPython_, mlab instructions can be run interactively, or in scripts "
 "using IPython_'s ``%run`` command::"
-msgstr ""
+msgstr "使用IPython，mlab指令可以交互式进行，或者也可以使用IPython执行 %run command："
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:21
 msgid ""
 "You need to start IPython_ with the `--gui=qt` option. In this environment, "
 "the plotting commands are interactive: they have an immediate effect on the "
 "figure, alleviating the need to use the :func:`show` function."
-msgstr ""
+msgstr "您需要使用 –gui=qt 开启Qt界面选项。在这个环境下，绘图命令是可交互的：不用show函数也能马上呈现效果。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:28
 msgid ""
@@ -55,30 +59,31 @@ msgid ""
 "application (such as other Envisage-based applications, or SPE, Stani's "
 "Python Editor)."
 msgstr ""
+"Mlab也能在Mayavi2应用中进行交互，确切来说，所有以wxPython为基础的Python脚本都可以进行（比如其他的Envisage基础的应用，如SPE）。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:34
 msgid "Using together with Matplotlib"
-msgstr ""
+msgstr "与Matplotlib一起使用"
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:36
 msgid ""
 "If you want to use Matplotlib's interactive plotting with Mayavi's mlab in "
 "IPython you should:"
-msgstr ""
+msgstr "如果您想在IPython中使用同时使用Matplotlib和Mayavi进行交互，您应该："
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:39
 msgid "start IPython with::"
-msgstr ""
+msgstr "打开IPython："
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:43
 msgid "alternatively, start IPython with the `--gui=qt` option::"
-msgstr ""
+msgstr "相应地，打开IPython的图像界面：`--gui=qt` "
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:47
 msgid ""
 "and **before** importing any matplotlib modules, enter the following Python "
 "commands::"
-msgstr ""
+msgstr "在调用任何matplotlib的模块之前，需要先输入以下Python命令："
 
 #: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:54
 msgid "one could also use the ``--pylab`` option to IPython as follows::"
