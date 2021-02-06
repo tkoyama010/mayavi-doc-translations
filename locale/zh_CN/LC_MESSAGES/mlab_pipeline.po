@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mayavii <1444742843@qq.com>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 00:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
+"Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:4
 msgid "Assembling pipelines with `mlab`"
-msgstr ""
+msgstr "使用mlab配置pipeline管线"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:7
 msgid ""
@@ -33,6 +37,9 @@ msgid ""
 "function, making the right choice of sources, filters, and modules, but they"
 " cannot explore all the possible combinations."
 msgstr ""
+"前面使用的绘图函数仅仅是Mayavi的一小部分，它还有更大的空间和可能性。Mayavi的全部威力需要配合pipeline管线才能完全释放出来。关于使用`data"
+" source`对象加载数据进行可视化可以参考章节`an-overview-of-"
+"mayavi`。其中有一个数据变换的环节是可选的：它通过`filters`滤波层级和`module`可视化层级完成。而mlab函数仅通过1行代码就能完成复杂的管线配置，完成sources数据源层级，filters层级以及module层级的搭建。其弊端是分化过于完全无法做更多的延伸，以及探索可能的结合方式。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:18
 msgid ""
@@ -40,6 +47,8 @@ msgid ""
 "the pipeline easily from scripts. This module is accessible in `mlab`: "
 "`mlab.pipeline`, or can be imported from `mayavi.tools.pipeline`."
 msgstr ""
+"Mlab所包含的子模块`pipeline` 可以使脚本能轻松配置管线。这个模块可以使用 `mlab`调用：`mlab.pipeline，或者直接以 "
+"`mayavi.tools.pipeline`方式引入环境。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:23
 msgid ""
@@ -52,18 +61,20 @@ msgid ""
 "directly linked to the default names of the objects created by `mlab` on the"
 " pipeline. As an example, let us create a visualization using :func:`surf`::"
 msgstr ""
+"当我们使用`mlab`绘图函数的时候，管线已会自动完成搭建：首先是来自`numpy`数组的数据创建source数据源层级，然后是module可视化模块层级，在两者之间可能带有filter滤波层级。对于已经配置好的管线，我们可以使用 `mlab.show_pipeline`进行查看。利用它的层级配置信息，我们可以使用`pipeline`的配置方法对其进行复现。在这里我们需要各个层级的配置函数的信息，其所使用的函数名默认也是pipeline管线的函数名。下面我们演示一个案例，使用`surf`函数构建可视化：\n"
+"译者注：这是两种绘图的方式，前者是直接使用高度预制好的surf绘图函数，后者使用pipeline按层搭建，旨在说明两者具有相同的效果。比如Array2DSource数据源层级的名称，也是pipeline的方法名pipeline.array2d_source。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:39
 msgid "The following pipeline is created::"
-msgstr ""
+msgstr "以下是所创建的管线："
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:47
 msgid "The same pipeline can be created using the following code::"
-msgstr ""
+msgstr "相同的pipeline管线也可以用下面的代码进行搭建："
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:57
 msgid "Data sources"
-msgstr ""
+msgstr "Data sources数据源层级"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:61
 msgid ""
@@ -71,6 +82,8 @@ msgid ""
 "sources from arrays. They are fully documented in details in the :ref:`mlab-"
 "pipeline-reference`. We give a small summary of the possibilities here."
 msgstr ""
+" `mlab.pipeline` 模块包含不同的函数用以创建不同的数据源层级。在这里我们仅做一个可能性的总结，更详细的文档请参考：`mlab-"
+"pipeline-reference`。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:66
 msgid ""
@@ -80,6 +93,9 @@ msgid ""
 "points** describing continuously varying quantities that can be interpolated"
 " between data points, often called `fields` in physics or engineering."
 msgstr ""
+"Mayavi将数据区分为**scalar data 标量数据**和**vector data "
+"矢量数据**。有一点尤为重要，他们用不同的方法创建**unconnected points 离散点**，或具有连续变化的**connected data"
+" points 连续点** 。后者会在点与点时间采用插值，在物理和工程上是`fields 场`的概念。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:0
 msgid "Unconnected sources"
