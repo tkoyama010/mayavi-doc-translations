@@ -200,7 +200,7 @@ msgid ""
 "matching, and interpolation, as shown in the "
 "(:ref:`example_surface_from_irregular_data`)."
 msgstr ""
-"仅仅知道数据的点的位置是不足以定义网格的，我们还需要知道点之间的连接方式。`surf` 和 `mesh`，它们的连接方式隐含在所加载的数据里，即数据的组织方式决定了它们的网格连接方式，相邻的2D数组彼此之间最近的点相互连接。对于，`triangular_mesh`其连接方式同样是隐含在数据中。比较常见的情形是，所要构建的连接方式并非正交网格。而面绘制的数据都基于网格，因此我们需要特别指定网格的组织形式。如果添加`delaunay2d` filter滤波层级就会匹配相邻的点进行连接，并且进行插值。请参考：`example_surface_from_irregular_data`\n"
+"仅仅知道数据的点的位置是不足以定义网格的，我们还需要知道点之间的连接方式。`surf` 和 `mesh`，它们的连接方式隐含在所加载的数据里，即数据的组织方式决定了它们的网格连接方式，相邻的2D数组彼此之间最近的点相互连接。对于，`triangular_mesh`其连接方式同样是隐含在数据中。比较常见的情形是，所要构建的连接方式并非正交网格。而面绘制的数据都基于网格，因此我们需要特别指定网格的组织形式。如果添加`delaunay2d` filter滤波层级就会匹配相邻的点进行连接，并且进行插值。（请参考：`example_surface_from_irregular_data`）\n"
 "译者注：如果采用pipeline管线搭建，`delaunay2d`只是filter层级的一种，还有其他选择，比如`delaunay3d`，它们的区别是，前者在“二维的平面最近”进行匹配的，而后者是“三维的空间最近”进行匹配。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:146

@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:4
 msgid "Installation"
-msgstr ""
+msgstr "安装"
 
 #: ../../mayavi/docs/source/mayavi/installation.rstNone
 msgid "Section summary"
@@ -31,26 +31,26 @@ msgstr "分节概述"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:8
 msgid "This section details the various ways of installing Mayavi."
-msgstr ""
+msgstr "这一节将介绍Mayavi不同的安装方法。"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:10
 msgid "If you already have Mayavi up and running, you can skip this section."
-msgstr ""
+msgstr "如果您已经有一个可以正常使用的Mayavi，您可以跳过本节。"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:13
 msgid ""
 "By itself Mayavi is not a difficult package to install but its dependencies "
 "are unfortunately rather heavy. Fortunately, many of these dependencies are "
 "now available as wheels on PyPI.  The two critical dependencies are,"
-msgstr ""
+msgstr "就Mayavi本身而言，它的安装并不复杂，但是它依赖很多库。所幸，它的依赖现在都能从PyPI获取。其中有两个非常重要的依赖："
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:17
 msgid "VTK_"
-msgstr ""
+msgstr "VTK 可视化工具箱"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:18
 msgid "A GUI toolkit, either PyQt4_, PySide_, PyQt5_ or wxPython_."
-msgstr ""
+msgstr "GUI 图形化界面，PyQt4, PySide, PyQt5 或者 wxPython都是可以的。"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:20
 msgid ""
@@ -63,6 +63,11 @@ msgid ""
 "<http://docs.enthought.com/mayavi/mayavi/installation.html#installing-ready-"
 "made-distributions>`_"
 msgstr ""
+"最新的 VTK 包适用于所有主流操作系统 (Windows, MacOS,以及Linux)，但是仅支持64位。Python 3.x "
+"已经完全支持所有的操作系统，Python 2.7.x 仅支持MacOS 和 "
+"Linux。如果您的系统不支持，则您需要自行安装VTK匹配您的发行版。更多信息详见：`General Build and Installation "
+"instructions <http://docs.enthought.com/mayavi/mayavi/installation.html"
+"#installing-ready-made-distributions>`"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:28
 msgid ""
@@ -70,6 +75,8 @@ msgid ""
 "this. On 2.7.x you have more options, and can use PySide_, PyQt4_, and "
 "wxPython_. These can be installed from pip or from your package manager."
 msgstr ""
+"如果是Python 3.x 您需要安装 PyQt5 等相关依赖。对于2.7.x PySide, PyQt4, 以及wxPython会是您的选择。您既可以用pip方式安装，也可以使用包管理器安装。\n"
+"译者注：包管理器值得是Anaconda等发行版。"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:32
 msgid ""
@@ -78,10 +85,12 @@ msgid ""
 "will not work correctly. Older versions should work. PyQt/PySide should work"
 " largely out of the box. PySide2 is still young so YMMV."
 msgstr ""
+"当前，Mayavi和最新版的wxPython 4.x兼容，但是traitsui, "
+"pyface和其他的ETS包还无法支持，因此会导致UI发生错误。但是更早一点的版本是可以正常使用的。PyQt/PySide是可以直接使用的，PySide2则自行选择。"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:50
 msgid "Installing with `pip`"
-msgstr ""
+msgstr "使用pip命令安装"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:52
 msgid ""
@@ -89,16 +98,18 @@ msgid ""
 "PyPI_. The latest version of Mayavi available on PyPI can be found `here "
 "<https://pypi.python.org/pypi/mayavi>`_."
 msgstr ""
+"pip是 PyPA推荐、用于从PyPi安装而使用的安装工具。在PyPI可以找到最新版的Mayavi。`here "
+"<https://pypi.python.org/pypi/mayavi>`"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:56
 msgid ""
 "Required python packages can be automatically fetched and installed with "
 "pip_."
-msgstr ""
+msgstr "所需的依赖包可以自动获取并在pip下完成安装。"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:59
 msgid "Latest stable release"
-msgstr ""
+msgstr "最新的稳定版"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:61
 msgid ""
