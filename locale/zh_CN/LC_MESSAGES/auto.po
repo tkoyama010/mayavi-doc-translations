@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mayavii <1444742843@qq.com>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 00:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
+"Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -8155,7 +8159,7 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:0
 msgid "figure"
-msgstr ""
+msgstr "figure 图像参数"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:183
 msgid ""
@@ -8780,7 +8784,7 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:1793
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:1810
 msgid "**Keyword arguments:**"
-msgstr ""
+msgstr "**关键字：**"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 msgid "auto_scale"
@@ -8833,7 +8837,7 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "color"
-msgstr ""
+msgstr "color 颜色"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:58
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:160
@@ -8879,7 +8883,7 @@ msgid ""
 "the color of the vtk object. Overides the colormap, if any, when specified. "
 "This is specified as a triplet of float ranging from 0 to 1, eg (1, 1, 1) "
 "for white."
-msgstr ""
+msgstr "用于设置vtk对象的颜色。当您指定颜色后，它将覆盖原来的颜色。它接受一个元组形式的范围0到1浮点数，比如(1,1,1)表示白色。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
@@ -8915,7 +8919,7 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "colormap"
-msgstr ""
+msgstr "colormap 配色表"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:63
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:165
@@ -8951,7 +8955,7 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:1631
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:1817
 msgid "type of colormap to use."
-msgstr ""
+msgstr "设定配色方案。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
@@ -8989,7 +8993,7 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "extent"
-msgstr ""
+msgstr "extent 可视化范围"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:65
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:171
@@ -9028,6 +9032,8 @@ msgid ""
 "[xmin, xmax, ymin, ymax, zmin, zmax] Default is the x, y, z arrays extent. "
 "Use this to change the extent of the object created."
 msgstr ""
+"接受一个列表的形式，形式为[xmin, xmax, ymin, ymax, zmin, zmax]。其默认是x, y, "
+"z数组的值域范围。使用extent关键词可以改变对象的可视化范围。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:70
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:176
@@ -9094,7 +9100,7 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "line_width"
-msgstr ""
+msgstr "line_width 线宽设置"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:76
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:178
@@ -9136,7 +9142,7 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:1640
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:1826
 msgid "The width of the lines, if any used. Must be a float. Default: 2.0"
-msgstr ""
+msgstr "调整线条的粗细。接受浮点数，默认为2.0."
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
@@ -9256,7 +9262,7 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
 msgid "name"
-msgstr ""
+msgstr "name 对象命名"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:88
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:181
@@ -9344,6 +9350,8 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:415
 msgid "the name of the vtk object created."
 msgstr ""
+"对创建的vtk对象进行重命名。\n"
+"译者注：vtk对象都有默认的名，即其层级名。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
@@ -9385,7 +9393,7 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "opacity"
-msgstr ""
+msgstr "opacity 透明度设置"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:90
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:183
@@ -9425,6 +9433,8 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:1831
 msgid "The overall opacity of the vtk object. Must be a float. Default: 1.0"
 msgstr ""
+"设定vtk对象的透明度，接受浮点数，默认值：1.0\n"
+"译者注：1.0为不透明。可对同属一个filter不同的module可视化模块采用不同的透明度。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
@@ -9673,7 +9683,7 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "vmax"
-msgstr ""
+msgstr "vmax 可视化范围（上界）"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:110
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:192
@@ -9711,7 +9721,7 @@ msgstr ""
 msgid ""
 "vmax is used to scale the colormap. If None, the max of the data will be "
 "used"
-msgstr ""
+msgstr "vmax将设定图像的配色区间，将图像对应vmax值的部分设定成配色表中的上界颜色。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
@@ -9748,7 +9758,7 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "vmin"
-msgstr ""
+msgstr "vmin 可视化范围，下界设置"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:113
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:195
@@ -9786,7 +9796,7 @@ msgstr ""
 msgid ""
 "vmin is used to scale the colormap. If None, the min of the data will be "
 "used"
-msgstr ""
+msgstr "vmin将设定图像的配色区间，将图像对应vmin值的部分设定成配色表中的下界颜色。如果不设置，默认使用数据中值域下界作为vmin。"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:118
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:200
@@ -10529,7 +10539,7 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:1795
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:1824
 msgid "Must be a Scene or None."
-msgstr ""
+msgstr "只接受Scene或者None"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:113
 msgid ""
@@ -11554,7 +11564,7 @@ msgstr ""
 msgid ""
 "Reference list of all the main functions of ``pipeline`` sub module of "
 "``mlab``. You can access these functions using::"
-msgstr ""
+msgstr "以下相关参考是\"mlab\"的子模块\"pipeline\"的方法。您可以用以下的方式进行调用："
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_reference.rst:14
 msgid ""

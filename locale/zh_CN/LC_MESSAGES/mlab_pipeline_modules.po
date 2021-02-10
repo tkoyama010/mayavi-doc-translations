@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mayavii <1444742843@qq.com>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-21 01:04+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
+"Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:3
 msgid "Modules and Filters"
-msgstr ""
+msgstr "Modules 可视化模块及 Filters 滤波器/变换器"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:5
 msgid ""
@@ -29,6 +33,8 @@ msgid ""
 "The name of the function corresponds to the name of the module, but with "
 "words separated by underscores `_`, rather than alternating capitals."
 msgstr ""
+"对于Mayavi的每一个module可视化层级或filter滤波变换层级都有一个相应的`mlab.pipeline` "
+"函数，它将其作为输入参数，在数据源source基础上添加新的可视化层级及滤波变换器，它最终将以对象的形式返回。层级的名字默认是和创建其层级的函数相同，注意它们是用下划线分开，而不是大小写字母命名方式。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:12
 msgid ""
@@ -41,13 +47,13 @@ msgstr ""
 msgid ""
 "Factory functions take keyword arguments controlling some properties of the "
 "object added to the pipeline."
-msgstr ""
+msgstr "通过给函数追加参数，它将给其对象的属性赋值并添加到pipeline管线中。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:19
 msgid ""
 "For instance, the `ScalarCutPlane` module can be added with the following "
 "function:"
-msgstr ""
+msgstr "举例来说，`ScalarCutPlane`是一个标量截面可视化层级，其属性可以用下面的方式添加："
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:1
@@ -55,16 +61,18 @@ msgid ""
 "Applies the ScalarCutPlane mayavi module to the given data source (Mayavi "
 "source, or VTK dataset)."
 msgstr ""
+"然后，ScalarCutPlane 可视化层级以此创建完成，它将被添加到data "
+"source数据源层级的子层级中（数据源可以是Mayavi数据源，由Python的numpy等完成；也可以来自VTK数据集。）。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:4
 msgid "**Keyword arguments:**"
-msgstr ""
+msgstr "**关键字：**"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "color"
-msgstr ""
+msgstr "color 颜色"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:6
@@ -72,22 +80,22 @@ msgid ""
 "the color of the vtk object. Overides the colormap, if any, when specified. "
 "This is specified as a triplet of float ranging from 0 to 1, eg (1, 1, 1) "
 "for white."
-msgstr ""
+msgstr "用于设置vtk对象的颜色。当您指定颜色后，它将覆盖原来的颜色。它接受一个元组形式的范围0到1浮点数，比如(1,1,1)表示白色。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "colormap"
-msgstr ""
+msgstr "colormap 配色表"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:11
 msgid "type of colormap to use."
-msgstr ""
+msgstr "设定配色方案。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "extent"
-msgstr ""
+msgstr "extent 可视化范围"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:13
@@ -95,46 +103,52 @@ msgid ""
 "[xmin, xmax, ymin, ymax, zmin, zmax] Default is the x, y, z arrays extent. "
 "Use this to change the extent of the object created."
 msgstr ""
+"接受一个列表的形式，形式为[xmin, xmax, ymin, ymax, zmin, zmax]。其默认是x, y, "
+"z数组的值域范围。使用extent关键词可以改变对象的可视化范围。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "figure"
-msgstr ""
+msgstr "figure 图像参数"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:18
 msgid "Must be a Scene or None."
-msgstr ""
+msgstr "只接受Scene或者None"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "line_width"
-msgstr ""
+msgstr "line_width 线宽设置"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:20
 msgid "The width of the lines, if any used. Must be a float. Default: 2.0"
-msgstr ""
+msgstr "调整线条的粗细。接受浮点数，默认为2.0."
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "name"
-msgstr ""
+msgstr "name 对象命名"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:23
 msgid "the name of the vtk object created."
 msgstr ""
+"对创建的vtk对象进行重命名。\n"
+"译者注：vtk对象都有默认的名，即其层级名。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "opacity"
-msgstr ""
+msgstr "opacity 透明度设置"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:25
 msgid "The overall opacity of the vtk object. Must be a float. Default: 1.0"
 msgstr ""
+"设定vtk对象的透明度，接受浮点数，默认值：1.0\n"
+"译者注：1.0为不透明。可对同属一个filter不同的module可视化模块采用不同的透明度。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:0
@@ -183,26 +197,26 @@ msgstr ""
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "vmax"
-msgstr ""
+msgstr "vmax 可视化范围，上界设置"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:40
 msgid ""
 "vmax is used to scale the colormap. If None, the max of the data will be "
 "used"
-msgstr ""
+msgstr "vmax将设定图像的配色区间，将图像对应vmax值的部分设定成配色表中的上界颜色。如果不设置，默认使用数据中值域上界作为vmax。"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:0
 msgid "vmin"
-msgstr ""
+msgstr "vmin 可视化范围，下界设置"
 
 #: ../../mayavi/mayavi/tools/pipe_base.pydocstring of
 #: mayavi.tools.pipe_base.make_function.<locals>.the_function:43
 msgid ""
 "vmin is used to scale the colormap. If None, the min of the data will be "
 "used"
-msgstr ""
+msgstr "vmin将设定图像的配色区间，将图像对应vmin值的部分设定成配色表中的下界颜色。如果不设置，默认使用数据中值域下界作为vmin。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline_modules.rst:24
 msgid ""
