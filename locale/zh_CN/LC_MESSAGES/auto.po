@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"POT-Creation-Date: 2021-02-15 00:52+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
@@ -7253,26 +7253,9 @@ msgstr ""
 msgid "Advanced mlab examples"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:195
-msgid "|0000|"
-msgstr ""
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:197
-msgid ":ref:`example_julia_set`"
-msgstr ""
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:199
-msgid "|0001|"
-msgstr ""
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:201
-msgid ":ref:`example_boy`"
-msgstr ""
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:203
-msgid "|0002|"
-msgstr ""
-
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:110
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:115
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:120
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:110
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:115
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:120
@@ -7292,7 +7275,43 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:410
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:415
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:420
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:341
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:346
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:351
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:356
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:361
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:370
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:375
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:380
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:385
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:390
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:395
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:400
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:405
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:410
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:415
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:420
 msgid "<br/>"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:195
+msgid "|0000|"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:197
+msgid ":ref:`example_julia_set`"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:199
+msgid "|0001|"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:201
+msgid ":ref:`example_boy`"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:203
+msgid "|0002|"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:205

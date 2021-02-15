@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"POT-Creation-Date: 2021-02-15 00:52+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
@@ -188,19 +188,7 @@ msgstr "这一节，我们仅列出不同的函数。对于每一个函数的具
 msgid "0D and 1D data"
 msgstr "0D数据 和 1D数据"
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:35
-msgid "|points3d|"
-msgstr "points3d 方法"
-
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:35
-msgid ""
-":func:`points3d` |hack| Plots glyphs (like points) at the position of the "
-"supplied data, described by ``x``, ``y``, ``z`` numpy arrays of the same "
-"shape."
-msgstr ""
-"`points3d`方法\n"
-"它将显示数据所给位置的图形（如点状，可以是其他形状），其位置信息由numpy数组给定，坐标由``x``, ``y``, ``z`` 表示，三个坐标的长度必须一致。译者注：除了坐标信息之外，这个函数是可以赋标量信息的。"
-
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
@@ -217,6 +205,19 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
 msgid "<br>"
 msgstr "<br>"
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:35
+msgid "|points3d|"
+msgstr "points3d 方法"
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:35
+msgid ""
+":func:`points3d` |hack| Plots glyphs (like points) at the position of the "
+"supplied data, described by ``x``, ``y``, ``z`` numpy arrays of the same "
+"shape."
+msgstr ""
+"`points3d`方法\n"
+"它将显示数据所给位置的图形（如点状，可以是其他形状），其位置信息由numpy数组给定，坐标由``x``, ``y``, ``z`` 表示，三个坐标的长度必须一致。译者注：除了坐标信息之外，这个函数是可以赋标量信息的。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:41
 msgid "|plot3d|"

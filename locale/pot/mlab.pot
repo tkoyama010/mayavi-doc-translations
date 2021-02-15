@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"POT-Creation-Date: 2021-02-15 00:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -108,14 +108,7 @@ msgstr ""
 msgid "0D and 1D data"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:35
-msgid "|points3d|"
-msgstr ""
-
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:35
-msgid ":func:`points3d` |hack| Plots glyphs (like points) at the position of the supplied data, described by ``x``, ``y``, ``z`` numpy arrays of the same shape."
-msgstr ""
-
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
@@ -131,6 +124,14 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
 msgid "<br>"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:35
+msgid "|points3d|"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:35
+msgid ":func:`points3d` |hack| Plots glyphs (like points) at the position of the supplied data, described by ``x``, ``y``, ``z`` numpy arrays of the same shape."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:41
