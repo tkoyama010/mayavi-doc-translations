@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mayavii <1444742843@qq.com>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 00:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
+"Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +23,11 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:2
 msgid "Miscellaneous"
-msgstr ""
+msgstr "其它"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:5
 msgid "Citing Mayavi"
-msgstr ""
+msgstr "援引Mayavi"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:7
 msgid ""
@@ -32,6 +36,7 @@ msgid ""
 "software. If you publish scientific articles using Mayavi, please cite the "
 "following article (bibtex entry :download:`citation.bib`):"
 msgstr ""
+"Mayavi的核心开发人员都是学术界的。被引用次数将证明他们在Mayavi上投入的时间和精力是有意义的。如果您在学术文章中使用Mayavi，请援引如下：(bibtex:`citation.bib`)"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:12
 msgid ""
@@ -39,30 +44,32 @@ msgid ""
 " Data`* IEEE Computing in Science & Engineering, **13** (2), pp. 40-51 "
 "(2011)"
 msgstr ""
+"Ramachandran, P. and Varoquaux, G., `Mayavi: 3D Visualization of Scientific "
+"Data` IEEE Computing in Science & Engineering, 13 (2), pp. 40-51 (2011)"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:18
 msgid "Tutorial videos"
-msgstr ""
+msgstr "教程视频"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:20
 msgid "Here are some tutorial videos that you can watch to learn Mayavi:"
-msgstr ""
+msgstr "下面很多教程视频将帮助您学习Mayavi:"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:22
 msgid "SciPy 2018 Mayavi tutorial (3 hrs):"
-msgstr ""
+msgstr "SciPy 2018 Mayavi 教程(3 小时):"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:24
 msgid "Video: https://www.youtube.com/watch?v=r6OD07Qq2mw"
-msgstr ""
+msgstr "视频：https://www.youtube.com/watch?v=r6OD07Qq2mw"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:25
 msgid "Material: https://github.com/prabhuramachandran/mayavi-tutorial"
-msgstr ""
+msgstr "资料：https://github.com/prabhuramachandran/mayavi-tutorial"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:31
 msgid "Getting help"
-msgstr ""
+msgstr "获取帮助"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:33
 msgid ""
@@ -71,6 +78,9 @@ msgid ""
 "requests, if this manual, the Mayavi web page, the wiki page, stack overflow"
 " and google are of no help, feel free to ask on the `issue tracker`_."
 msgstr ""
+"Bug报告请提交至issue tracker "
+"https://github.com/enthought/mayavi/issues。并确保提供足够多的信息以便我们重现问题。如果Mayavi的网站，wiki，stack"
+" overflow和google都不能为您提供帮助，请到`issue tracker`上自由提问。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:39
 msgid ""
@@ -81,10 +91,14 @@ msgid ""
 "users>`_. This is a more general list where a lot of folks experienced with "
 "the Enthought Tool Suite are available."
 msgstr ""
+"如果您有问题，您可以用Mayavi-users mailing `<https://sourceforge.net/p/mayavi/mailman"
+"/mayavi-users/>`提问。一部分人使用它，并不是很活跃。至于另一个列表——使用Enthought Tool Suite的人会访问ETS "
+"Users mailing list `<https://groups.google.com/forum/#!forum/ets-"
+"users>`，它更加通用。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:48
 msgid "Tests for Mayavi"
-msgstr ""
+msgstr "Mayavi测试"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:50
 msgid ""
@@ -96,24 +110,26 @@ msgid ""
 "support many different configuration, but you can help them by running the "
 "test suite and reporting any errors."
 msgstr ""
+"您可以在命令行中使用`mayavi2 "
+"-t`运行Mayavi测试案例。在一些特殊的操作系统上运行测试案例将有助于检测Mayavi是否工作正常。诚然系统之间存在差异：除了操作系统本身的不同，还存在库的版本问题。但Mayavi的开发者竭力兼容不同的配置，您可以通过运行测试案例以及提交错误的方式帮助他们完善。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:58
 msgid ""
 "You can use `nose`_ to run the unit tests of both packages by doing the "
 "following from the root of the Mayavi source directory::"
-msgstr ""
+msgstr "您可以按照下面的方式，从Mayavi根目录中，使用 nose 运行测试扩展库的单元测试："
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:67
 msgid ""
 "From the mayavi source directory, to run tests only for mayavi package you "
 "can do::"
-msgstr ""
+msgstr "如果测试mayavi的tests部分，在mayavi源目录中使用以下命令："
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:76
 msgid ""
 "From the mayavi source directory, to run tests only for tvtk package you can"
 " do::"
-msgstr ""
+msgstr "如果仅测试tvtk包，您可以在mayavi源目录中使用以下命令："
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:85
 msgid ""
@@ -124,65 +140,67 @@ msgid ""
 "or change your current directory to these directories and run ``nosetests`` "
 "there."
 msgstr ""
+"如果您捕获了一个不可用的错误，您可以选择忽略它。基于一些原因，nose并不能很好地运行它们，它们中有一些在tvtk/tests 和 "
+"mayavi/tests文件夹中。您可以手动逐一运行test_*.py 文件，也可以切换当前目录去它们所在的目录运行`nosetests`命令。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:92
 msgid ""
 "In addition to these unit tests mayavi also has several integration tests. "
 "These are in the ``integrationtests/mayavi`` directory of the source "
 "distribution.  You may run the tests there like so::"
-msgstr ""
+msgstr "除了几个单元测试之外，Mayaiv也有集成测试。它们放在`integrationtests/mayavi`文件夹中。您可以对它们进行测试："
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:98
 msgid ""
 "These tests are intrusive and will create several mayavi windows and also "
 "take a while to complete.  Some of them may fail on your machine for various"
 " reasons."
-msgstr ""
+msgstr "这些测试是侵入式的，它们将创建一个Mayavi窗口，并需要花费一点时间才能完成。由于一些版本原因，有一些会加载失败。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:103
 msgid "Helping out"
-msgstr ""
+msgstr "帮助"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:105
 msgid ""
 "We are always on the lookout for people to help this project grow.  If you "
 "need a functionality added to Mayavi, open an new feature request issue in "
 "`issue tracker`_."
-msgstr ""
+msgstr "我们一直在想办法壮大这个项目。如果您想为Mayavi添加新的功能，请打开 issue tracker 提交一个新的特性请求。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:109
 msgid ""
 "To submit bug fixes or new functionality, this is the recommended workflow:"
-msgstr ""
+msgstr "提交bug修复和特性请求的流程如下："
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:112
 msgid "Fork the Repo on github."
-msgstr ""
+msgstr "从guthub上Fork该Repo"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:113
 msgid "If you are adding functionality or fixing a bug, please add a test!"
-msgstr ""
+msgstr "如果您添加了功能或者修复了bug，请务必添加一个测试！"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:114
 msgid "Push to your fork and submit a **pull request to the master branch**."
-msgstr ""
+msgstr "Push您自己的fork部分，然后向主干发送一个合并请求。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:116
 msgid ""
 "The **master** branch is a 100% stable (should be).  The pull request is "
 "merged only after it is certain that things are working out, which means "
 "that `Travis`_ and `Appveyor`_ tests pass."
-msgstr ""
+msgstr "主干部分是100%稳定的（应该是）。合并请求将会在 Travis 和 Appveyor全部通过之后完成。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:120
 msgid ""
 "Please note that we aim to improve the overall testing of the Mayavi "
 "codebase, so tests are also important."
-msgstr ""
+msgstr "请注意，我们的目的是改进mayavi的整体测试，因此测试也非常重要。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:124
 msgid "Development quick start"
-msgstr ""
+msgstr "开发版本快速开始"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:126
 msgid ""
@@ -192,16 +210,17 @@ msgid ""
 "still run after your modifications).  Once you are done, you can generate a "
 "github `pull request`_ to get your changes into the next stable release."
 msgstr ""
+"如果您想帮助改善Mayavi，您需要安装开发版，请参考`installing_git`。您可以修改您的本地Mayavi安装以便于添加新的功能（你需要在完成修改之后确保测试能通过）。当你完成之后，您可以提交一个合并请求以便您的改进出现在下一个稳定发行版中。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:134
 msgid "Improving the documentation"
-msgstr ""
+msgstr "改进文档"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:136
 msgid ""
 "Documentation of a project is incredibly important. It also takes a lot of "
 "time to write and improve. You can easily help us with documentation."
-msgstr ""
+msgstr "一个项目的文档也非常重要。它同样需要时间来编辑和改善。在文档方面，您也可以帮助我们。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:139
 msgid ""
@@ -210,6 +229,7 @@ msgid ""
 "to modify or extend the text. Once you have done your modifications, you can"
 " build the documentation using by running::"
 msgstr ""
+"您可以在`docs/sources/mayavi`中找到文档。文档采用了sphinx，因此编辑.rst文件进行修改或者扩充都非常方便。当您完成了修改请运行："
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:147
 msgid ""
@@ -222,38 +242,40 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:154
 msgid "Translating the documentation"
-msgstr ""
+msgstr "文档翻译"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:156
 msgid ""
 "The recommended way for new contributors to translate mayavi reference is to"
 " join the translation team on Transifex."
-msgstr ""
+msgstr "新加入的贡献者若想翻译文档，推荐进入Transifex加入翻译团队。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:159
 msgid "There is `mayavi translation page`_ for mayavi (master) documentation."
-msgstr ""
+msgstr "这里是一些mayavi需要翻译的（主干）文档页面。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:161
 msgid "Login to transifex_ service."
-msgstr ""
+msgstr "登陆transifex"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:162
 msgid "Go to `mayavi translation page`_."
-msgstr ""
+msgstr "跳转到Mayavi翻译页面"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:163
 msgid "Click ``Request language`` and fill form."
 msgstr ""
+"点击`Request language`并填写表格。\n"
+"译者：中文区已经请求过了，水平有限，很多地方的翻译有问题，请大家进行提出宝贵意见。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:164
 msgid "Wait acceptance by transifex mayavi translation maintainers."
-msgstr ""
+msgstr "等待transifex上mayavi文档翻译的维护者确认。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:165
 msgid "(After acceptance) Translate on transifex."
-msgstr ""
+msgstr "（确认之后）您可以在transifex贡献您的翻译了。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:166
 msgid "You can see the translated document in `Read The Docs`_."
-msgstr ""
+msgstr "您可以在Read The Docs看到翻译的文档结果。"
