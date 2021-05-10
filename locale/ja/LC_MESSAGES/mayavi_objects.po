@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"POT-Creation-Date: 2021-05-10 01:10+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -474,6 +474,10 @@ msgstr ""
 "``mayavi.core.null_engine`` "
 "モジュールです．このエンジンでは，ビジュアル化オブジェクトはシーンに追加されないため，レンダリングできません．このエンジンは，Mayaviのデータ構造のテストおよび純粋なデータ処理に便利です．"
 
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rstNone
+msgid "The ``Engine`` object."
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:275
 msgid "The `Engine` base class is defined in the ``mayavi.engine`` module."
 msgstr "`Engine` ベースクラスは ``mayavi.engine`` モジュールで定義されています．"
@@ -569,6 +573,10 @@ msgid ""
 "involved."
 msgstr "次の図は，関連するさまざまなオブジェクトのクラス階層を示しています．"
 
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rstNone
+msgid "Basic object hierarchy"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:339
 msgid ""
 "*This hierarchy depicts the ``Base`` object, the ``Scene``, ``PipelineBase``"
@@ -576,6 +584,10 @@ msgid ""
 msgstr ""
 "*この階層は， ``Base`` オブジェクト， ``Scene`` ，``PipelineBase``  ，および ``ModuleManager``"
 " を表します．*"
+
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rstNone
+msgid "More object hierarchy"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:346
 msgid ""

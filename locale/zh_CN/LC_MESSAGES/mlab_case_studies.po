@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"POT-Creation-Date: 2021-05-10 01:10+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -45,6 +45,11 @@ msgstr ""
 msgid "|volumetric_contour3d|"
 msgstr ""
 
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:121
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:121
+msgid "volumetric_contour3d"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:28
 msgid ""
 "The problem with this method is that the outer iso-surfaces tend to hide "
@@ -66,6 +71,11 @@ msgstr ""
 msgid "|volumetric_volume|"
 msgstr ""
 
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:123
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:123
+msgid "volumetric_volume"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:43
 msgid ""
 "For such a visualization, tweaking the opacity transfer function is critical"
@@ -76,6 +86,11 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:51
 msgid "|volumetric_volume_tweaked|"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:125
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:125
+msgid "volumetric_volume_tweaked"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:53
@@ -113,6 +128,11 @@ msgstr ""
 msgid "|volumetric_cut_plane|"
 msgstr ""
 
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:127
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:127
+msgid "volumetric_cut_plane"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:86
 msgid ""
 "The image plane widget can only be used on regular-spaced data, as created "
@@ -141,6 +161,11 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:108
 msgid "|volumetric_combination|"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:129
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:129
+msgid "volumetric_combination"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:111

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"POT-Creation-Date: 2021-05-10 01:10+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
@@ -99,6 +99,10 @@ msgid ""
 "When the `mayavi2` application is started it will provide a user interface "
 "that looks something like the figure shown below."
 msgstr "当`mayavi2`应用程序启动之后，它会提供一个用户界面，如下图所示。"
+
+#: ../../mayavi/docs/source/mayavi/application.rstNone
+msgid "Figure of Mayavi's initial UI window."
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/application.rst:38
 msgid "The UI features several sections described below."
@@ -220,6 +224,10 @@ msgid ""
 "Shown below is a specifically configured Mayavi user interface view. In this"
 " view the size of the various parts are changed."
 msgstr "以下展示的是一个定制后的Mayavi界面，如您所见，不同区域的大小已经做了调整。"
+
+#: ../../mayavi/docs/source/mayavi/application.rstNone
+msgid "Figure of Mayavi's UI after being configured by a user."
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/application.rst:102
 msgid "Visualizing data"

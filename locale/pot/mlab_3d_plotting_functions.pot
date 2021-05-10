@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-15 00:52+0000\n"
+"POT-Creation-Date: 2021-05-10 01:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,12 +58,22 @@ msgstr ""
 msgid "|points3d|"
 msgstr ""
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:51
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:51
+msgid "points3d"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:35
 msgid ":func:`points3d` |hack| Plots glyphs (like points) at the position of the supplied data, described by ``x``, ``y``, ``z`` numpy arrays of the same shape."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:41
 msgid "|plot3d|"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:48
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:48
+msgid "plot3d"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:41
@@ -78,12 +88,22 @@ msgstr ""
 msgid "|imshow|"
 msgstr ""
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:127
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:127
+msgid "imshow"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:59
 msgid ":func:`imshow` |hack| View a 2D array as an image."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:63
 msgid "|surf|"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:136
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:136
+msgid "surf"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:63
@@ -94,12 +114,22 @@ msgstr ""
 msgid "|contour_surf|"
 msgstr ""
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:130
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:130
+msgid "contour_surf"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:69
 msgid ":func:`contour_surf` |hack| View a 2D array as line contours, elevated according to the value of the array points."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:74
 msgid "|mesh|"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:139
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:139
+msgid "mesh"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:74
@@ -110,12 +140,22 @@ msgstr ""
 msgid "|barchart|"
 msgstr ""
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:142
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:142
+msgid "barchart"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:84
 msgid ":func:`barchart` |hack| Plot an array ``s``, or a set of points with explicit coordinates arrays, ``x``, ``y`` and ``z``, as a bar chart, eg for histograms. |hack| This function is very versatile and will accept 2D or 3D arrays, but also clouds of points, to position the bars."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:94
 msgid "|triangular_mesh|"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:133
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:133
+msgid "triangular_mesh"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:94
@@ -146,12 +186,22 @@ msgstr ""
 msgid "|contour3d|"
 msgstr ""
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:182
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:182
+msgid "contour3d"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:150
 msgid ":func:`contour3d` |hack| Plot iso-surfaces of volumetric data defined as a 3D array."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:155
 msgid "|quiver3d|"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:185
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:185
+msgid "quiver3d"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:155
@@ -162,12 +212,22 @@ msgstr ""
 msgid "|flow|"
 msgstr ""
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:188
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:188
+msgid "flow"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:162
 msgid ":func:`flow` |hack| Plot a trajectory of particles along a vector field described by three 3D arrays giving the ``u``, ``v``, ``w`` components on a grid."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:168
 msgid "|slice|"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:191
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:191
+msgid "slice"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:168

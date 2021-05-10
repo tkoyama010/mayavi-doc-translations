@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-15 00:52+0000\n"
+"POT-Creation-Date: 2021-05-10 01:10+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -214,6 +214,11 @@ msgstr "<br>"
 msgid "|points3d|"
 msgstr "|points3d|"
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:51
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:51
+msgid "points3d"
+msgstr "points3d"
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:35
 msgid ""
 ":func:`points3d` |hack| Plots glyphs (like points) at the position of the "
@@ -226,6 +231,11 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:41
 msgid "|plot3d|"
 msgstr "|plot3d|"
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:48
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:48
+msgid "plot3d"
+msgstr "plot3d"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:41
 msgid ""
@@ -243,6 +253,11 @@ msgstr "2Dデータ"
 msgid "|imshow|"
 msgstr "|imshow|"
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:127
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:127
+msgid "imshow"
+msgstr "imshow"
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:59
 msgid ":func:`imshow` |hack| View a 2D array as an image."
 msgstr ":func:`imshow` |hack| 2D配列をイメージとして表示します．"
@@ -250,6 +265,11 @@ msgstr ":func:`imshow` |hack| 2D配列をイメージとして表示します．
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:63
 msgid "|surf|"
 msgstr "|surf|"
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:136
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:136
+msgid "surf"
+msgstr "surf"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:63
 msgid ""
@@ -261,6 +281,11 @@ msgstr ":func:`surf` |hack| 2D配列をカーペットプロットとして表�
 msgid "|contour_surf|"
 msgstr "|contour_surf|"
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:130
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:130
+msgid "contour_surf"
+msgstr "contour_surf"
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:69
 msgid ""
 ":func:`contour_surf` |hack| View a 2D array as line contours, elevated "
@@ -270,6 +295,11 @@ msgstr ":func:`contour_surf` |hack| 2D配列を線の輪郭として表示し，
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:74
 msgid "|mesh|"
 msgstr "|mesh|"
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:139
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:139
+msgid "mesh"
+msgstr "mesh"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:74
 msgid ""
@@ -287,6 +317,11 @@ msgstr ""
 msgid "|barchart|"
 msgstr "|barchart|"
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:142
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:142
+msgid "barchart"
+msgstr "barchart"
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:84
 msgid ""
 ":func:`barchart` |hack| Plot an array ``s``, or a set of points with "
@@ -300,6 +335,11 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:94
 msgid "|triangular_mesh|"
 msgstr "|triangular_mesh|"
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:133
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:133
+msgid "triangular_mesh"
+msgstr "triangular_mesh"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:94
 msgid ""
@@ -358,6 +398,11 @@ msgstr "3Dデータ"
 msgid "|contour3d|"
 msgstr "|contour3d|"
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:182
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:182
+msgid "contour3d"
+msgstr "contour3d"
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:150
 msgid ""
 ":func:`contour3d` |hack| Plot iso-surfaces of volumetric data defined as a "
@@ -367,6 +412,11 @@ msgstr ":func:`contour3d` |hack| 3D配列として定義されたボリューム
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:155
 msgid "|quiver3d|"
 msgstr "|quiver3d|"
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:185
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:185
+msgid "quiver3d"
+msgstr "quiver3d"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:155
 msgid ""
@@ -381,6 +431,11 @@ msgstr ""
 msgid "|flow|"
 msgstr "|flow|"
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:188
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:188
+msgid "flow"
+msgstr "flow"
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:162
 msgid ""
 ":func:`flow` |hack| Plot a trajectory of particles along a vector field "
@@ -393,6 +448,11 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:168
 msgid "|slice|"
 msgstr "|slice|"
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:191
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:191
+msgid "slice"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:168
 msgid ""
@@ -1322,6 +1382,11 @@ msgstr "フィールドの等値面を表示する最も簡単な方法は ``mla
 msgid "|volumetric_contour3d|"
 msgstr "|volumetric_contour3d|"
 
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:121
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:121
+msgid "volumetric_contour3d"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:28
 msgid ""
 "The problem with this method is that the outer iso-surfaces tend to hide "
@@ -1345,6 +1410,11 @@ msgstr ""
 msgid "|volumetric_volume|"
 msgstr "|volumetric_volume|"
 
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:123
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:123
+msgid "volumetric_volume"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:43
 msgid ""
 "For such a visualization, tweaking the opacity transfer function is critical"
@@ -1357,6 +1427,11 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:51
 msgid "|volumetric_volume_tweaked|"
 msgstr "|volumetric_volume_tweaked|"
+
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:125
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:125
+msgid "volumetric_volume_tweaked"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:53
 msgid ""
@@ -1397,6 +1472,11 @@ msgstr ""
 msgid "|volumetric_cut_plane|"
 msgstr "|volumetric_cut_plane|"
 
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:127
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:127
+msgid "volumetric_cut_plane"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:86
 msgid ""
 "The image plane widget can only be used on regular-spaced data, as created "
@@ -1429,6 +1509,11 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:108
 msgid "|volumetric_combination|"
 msgstr "|volumetric_combination|"
+
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:129
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:129
+msgid "volumetric_combination"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:111
 msgid ""

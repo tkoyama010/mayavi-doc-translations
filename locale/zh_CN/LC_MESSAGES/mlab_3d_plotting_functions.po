@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-15 00:52+0000\n"
+"POT-Creation-Date: 2021-05-10 01:10+0000\n"
 "PO-Revision-Date: 2019-04-27 07:31+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
@@ -79,6 +79,11 @@ msgstr "<br>"
 msgid "|points3d|"
 msgstr "points3d 方法"
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:51
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:51
+msgid "points3d"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:35
 msgid ""
 ":func:`points3d` |hack| Plots glyphs (like points) at the position of the "
@@ -91,6 +96,11 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:41
 msgid "|plot3d|"
 msgstr "plot3d 方法"
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:48
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:48
+msgid "plot3d"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:41
 msgid ""
@@ -106,6 +116,11 @@ msgstr "2D数据"
 msgid "|imshow|"
 msgstr "imshow方法"
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:127
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:127
+msgid "imshow"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:59
 msgid ":func:`imshow` |hack| View a 2D array as an image."
 msgstr "imshow 可以将2D数组可视化成一张图像。"
@@ -113,6 +128,11 @@ msgstr "imshow 可以将2D数组可视化成一张图像。"
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:63
 msgid "|surf|"
 msgstr "surf 方法"
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:136
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:136
+msgid "surf"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:63
 msgid ""
@@ -124,6 +144,11 @@ msgstr "surf方法将2D数组平铺成一张毯子，并用z坐标表示高度�
 msgid "|contour_surf|"
 msgstr "contour_surf 方法"
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:130
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:130
+msgid "contour_surf"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:69
 msgid ""
 ":func:`contour_surf` |hack| View a 2D array as line contours, elevated "
@@ -133,6 +158,11 @@ msgstr "`contour_surf`将使用2D数组绘制等高线，并用一个坐标表�
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:74
 msgid "|mesh|"
 msgstr "mesh 方法"
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:139
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:139
+msgid "mesh"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:74
 msgid ""
@@ -151,6 +181,11 @@ msgstr ""
 msgid "|barchart|"
 msgstr "barchart方法"
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:142
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:142
+msgid "barchart"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:84
 msgid ""
 ":func:`barchart` |hack| Plot an array ``s``, or a set of points with "
@@ -163,6 +198,11 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:94
 msgid "|triangular_mesh|"
 msgstr "triangular_mesh 方法"
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:133
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:133
+msgid "triangular_mesh"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:94
 msgid ""
@@ -212,6 +252,11 @@ msgstr "3D数据"
 msgid "|contour3d|"
 msgstr "coutour3d方法"
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:182
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:182
+msgid "contour3d"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:150
 msgid ""
 ":func:`contour3d` |hack| Plot iso-surfaces of volumetric data defined as a "
@@ -221,6 +266,11 @@ msgstr "`contour3d` 方法用于绘制3D体数据的等值面。"
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:155
 msgid "|quiver3d|"
 msgstr "quiver3d 方法"
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:185
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:185
+msgid "quiver3d"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:155
 msgid ""
@@ -235,6 +285,11 @@ msgstr ""
 msgid "|flow|"
 msgstr "flow 方法"
 
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:188
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:188
+msgid "flow"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:162
 msgid ""
 ":func:`flow` |hack| Plot a trajectory of particles along a vector field "
@@ -245,6 +300,11 @@ msgstr "flow方法用于绘制粒子的轨迹，它由三个3D数组给定。"
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:168
 msgid "|slice|"
 msgstr "slice 方法"
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:191
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:191
+msgid "slice"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:168
 msgid ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"POT-Creation-Date: 2021-05-10 01:10+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -109,6 +109,10 @@ msgstr ""
 "(``mayavi.core.module_manager.ModuleManager``) オブジェクトを含めることができます． ``Filter``"
 " には，他の ``filters`` または ``ModuleManagers`` を含めることができます． ``ModuleManager`` "
 "は，任意の数の ``Modules`` を管理します．次の図は，この階層をグラフ形式で示しています．"
+
+#: ../../mayavi/docs/source/mayavi/advanced_scripting.rstNone
+msgid "Illustration of the various objects in the Mayavi pipeline."
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:63
 msgid "*Illustration of the various objects in the Mayavi pipeline.*"

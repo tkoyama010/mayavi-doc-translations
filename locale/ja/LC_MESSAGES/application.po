@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"POT-Creation-Date: 2021-05-10 01:10+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -105,6 +105,10 @@ msgid ""
 "When the `mayavi2` application is started it will provide a user interface "
 "that looks something like the figure shown below."
 msgstr "`mayavi2` アプリケーションを起動すると，以下の図のようなユーザインタフェースが提供されます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rstNone
+msgid "Figure of Mayavi's initial UI window."
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/application.rst:38
 msgid "The UI features several sections described below."
@@ -229,6 +233,10 @@ msgid ""
 "Shown below is a specifically configured Mayavi user interface view. In this"
 " view the size of the various parts are changed."
 msgstr "下の図は，具体的に設定されたMayaviユーザインタフェースビューです．このビューでは，さまざまなパーツのサイズが変更されます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rstNone
+msgid "Figure of Mayavi's UI after being configured by a user."
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/application.rst:102
 msgid "Visualizing data"

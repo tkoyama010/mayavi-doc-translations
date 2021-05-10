@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"POT-Creation-Date: 2021-05-10 01:10+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -436,6 +436,10 @@ msgid ""
 "data structures."
 msgstr ""
 
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rstNone
+msgid "The ``Engine`` object."
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:275
 msgid "The `Engine` base class is defined in the ``mayavi.engine`` module."
 msgstr ""
@@ -524,10 +528,18 @@ msgid ""
 "involved."
 msgstr ""
 
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rstNone
+msgid "Basic object hierarchy"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:339
 msgid ""
 "*This hierarchy depicts the ``Base`` object, the ``Scene``, ``PipelineBase``"
 " and the ``ModuleManager``.*"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rstNone
+msgid "More object hierarchy"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:346

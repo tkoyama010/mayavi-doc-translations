@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-15 00:52+0000\n"
+"POT-Creation-Date: 2021-05-10 01:10+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -8038,6 +8038,11 @@ msgstr ":func:`plot3d`"
 msgid "|plot3d.jpg|"
 msgstr "|plot3d.jpg|"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:37
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:37
+msgid "plot3d.jpg"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:20
 msgid ":func:`points3d`"
 msgstr ":func:`points3d`"
@@ -8045,6 +8050,11 @@ msgstr ":func:`points3d`"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:22
 msgid "|points3d.jpg|"
 msgstr "|points3d.jpg|"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:40
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:40
+msgid "points3d.jpg"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:20
 msgid ":func:`imshow`"
@@ -8054,6 +8064,11 @@ msgstr ":func:`imshow`"
 msgid "|imshow.jpg|"
 msgstr "|imshow.jpg|"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:43
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:43
+msgid "imshow.jpg"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:24
 msgid ":func:`surf`"
 msgstr ":func:`surf`"
@@ -8061,6 +8076,11 @@ msgstr ":func:`surf`"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:26
 msgid "|surf.jpg|"
 msgstr "|surf.jpg|"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:52
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:52
+msgid "surf.jpg"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:24
 msgid ":func:`contour_surf`"
@@ -8070,6 +8090,11 @@ msgstr ":func:`contour_surf`"
 msgid "|contour_surf.jpg|"
 msgstr "|contour_surf.jpg|"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:46
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:46
+msgid "contour_surf.jpg"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:24
 msgid ":func:`mesh`"
 msgstr ":func:`mesh`"
@@ -8077,6 +8102,11 @@ msgstr ":func:`mesh`"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:26
 msgid "|mesh.jpg|"
 msgstr "|mesh.jpg|"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:55
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:55
+msgid "mesh.jpg"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:28
 msgid ":func:`barchart`"
@@ -8086,6 +8116,11 @@ msgstr ":func:`barchart`"
 msgid "|barchart.jpg|"
 msgstr "|barchart.jpg|"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:58
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:58
+msgid "barchart.jpg"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:28
 msgid ":func:`triangular_mesh`"
 msgstr ":func:`triangular_mesh`"
@@ -8093,6 +8128,11 @@ msgstr ":func:`triangular_mesh`"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:30
 msgid "|triangular_mesh.jpg|"
 msgstr "|triangular_mesh.jpg|"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:49
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:49
+msgid "triangular_mesh.jpg"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:28
 msgid ":func:`contour3d`"
@@ -8102,6 +8142,11 @@ msgstr ":func:`contour3d`"
 msgid "|contour3d.jpg|"
 msgstr "|contour3d.jpg|"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:61
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:61
+msgid "contour3d.jpg"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:32
 msgid ":func:`quiver3d`"
 msgstr ":func:`quiver3d`"
@@ -8109,6 +8154,11 @@ msgstr ":func:`quiver3d`"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:34
 msgid "|quiver3d.jpg|"
 msgstr "|quiver3d.jpg|"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:64
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:64
+msgid "quiver3d.jpg"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:32
 msgid ":func:`flow`"
@@ -8118,9 +8168,24 @@ msgstr ":func:`flow`"
 msgid "|flow.jpg|"
 msgstr "|flow.jpg|"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:67
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:67
+msgid "flow.jpg"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:73
 msgid "Advanced mlab examples"
 msgstr "高度なmlabの例"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:102
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:102
+msgid "0000"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:106
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:106
+msgid "0001"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:110
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:115
@@ -8162,6 +8227,91 @@ msgstr "高度なmlabの例"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:420
 msgid "<br/>"
 msgstr "<br/>"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:125
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:125
+msgid "0005"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:129
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:129
+msgid "0006"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:133
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:133
+msgid "0007"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:137
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:137
+msgid "0008"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:141
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:141
+msgid "0009"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:145
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:145
+msgid "0010"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:149
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:149
+msgid "0011"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:153
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:153
+msgid "0012"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:157
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:157
+msgid "0013"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:161
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:161
+msgid "0014"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:165
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:165
+msgid "0015"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:169
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:169
+msgid "0016"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:173
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:173
+msgid "0017"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:177
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:177
+msgid "0018"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:181
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:181
+msgid "0019"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:185
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:185
+msgid "0020"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:189
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:189
+msgid "0021"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:195
 msgid "|0000|"
@@ -8349,6 +8499,16 @@ msgid ""
 "the mayavi2 application, or via specially-crafted dialogs and applications."
 msgstr ""
 "mayavi2アプリケーションまたは特別に作成されたダイアログやアプリケーションを使用して，Mayaviのインタラクティブ機能を使用する方法を示す例です．"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:337
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:337
+msgid "0100"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:366
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:366
+msgid "0106"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:427
 msgid "|0100|"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"POT-Creation-Date: 2021-05-10 01:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,4 +74,8 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:85
 msgid "Shown below is example visualization made using the parametric source.  Note that the positioning of the different surfaces were effected by moving the actors on screen using the actor mode of the scene via the 'a' key.  For more details on this see the section on :ref:`interaction-with-the-scene`."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:None
+msgid "Sample visualization using parametric surfaces."
 msgstr ""

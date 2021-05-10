@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"POT-Creation-Date: 2021-05-10 01:10+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -86,6 +86,10 @@ msgid ""
 "A ``Filter`` may contain either other ``filters`` or ``ModuleManagers``.  A "
 "``ModuleManager`` manages any number of ``Modules``.  The figure below shows"
 " this hierarchy in a graphical form."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/advanced_scripting.rstNone
+msgid "Illustration of the various objects in the Mayavi pipeline."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:63

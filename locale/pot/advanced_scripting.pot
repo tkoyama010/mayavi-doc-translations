@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"POT-Creation-Date: 2021-05-10 01:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,6 +46,10 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:47
 msgid "The \"big picture\" of a visualization in Mayavi is that an ``Engine`` (``mayavi.engine.Engine``) object manages the entire visualization.  The ``Engine`` manages a collection of ``Scene`` (``mayavi.core.scene.Scene``) objects.  In each ``Scene``, a user may have created any number of ``Source`` (``mayavi.core.source.Source``) objects.  A ``Source`` object can further contain any number of ``Filter`` (``mayavi.core.filter.Filter``) or ``ModuleManager`` (``mayavi.core.module_manager.ModuleManager``) objects.  A ``Filter`` may contain either other ``filters`` or ``ModuleManagers``.  A ``ModuleManager`` manages any number of ``Modules``.  The figure below shows this hierarchy in a graphical form."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:None
+msgid "Illustration of the various objects in the Mayavi pipeline."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/advanced_scripting.rst:63

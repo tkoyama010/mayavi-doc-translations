@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"POT-Creation-Date: 2021-05-10 01:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,6 +40,11 @@ msgstr ""
 msgid "|volumetric_contour3d|"
 msgstr ""
 
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:121
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:121
+msgid "volumetric_contour3d"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:28
 msgid "The problem with this method is that the outer iso-surfaces tend to hide inner ones. As a result, quite often only one iso-surface can be visible."
 msgstr ""
@@ -56,12 +61,22 @@ msgstr ""
 msgid "|volumetric_volume|"
 msgstr ""
 
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:123
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:123
+msgid "volumetric_volume"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:43
 msgid "For such a visualization, tweaking the opacity transfer function is critical to achieve a good effect. Typically, it can be useful to limit the lower and upper values to the 20 and 80 percentiles of the data, in order to have a reasonable fraction of the volume transparent::"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:51
 msgid "|volumetric_volume_tweaked|"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:125
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:125
+msgid "volumetric_volume_tweaked"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:53
@@ -88,6 +103,11 @@ msgstr ""
 msgid "|volumetric_cut_plane|"
 msgstr ""
 
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:127
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:127
+msgid "volumetric_cut_plane"
+msgstr ""
+
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:86
 msgid "The image plane widget can only be used on regular-spaced data, as created by `mlab.pipeline.scalar_field`, but it is very fast. It should thus be prefered to the scalar cut plane, when possible."
 msgstr ""
@@ -107,6 +127,11 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:108
 msgid "|volumetric_combination|"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:129
+#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:129
+msgid "volumetric_combination"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:111

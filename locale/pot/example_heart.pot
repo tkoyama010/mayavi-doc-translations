@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-01 00:19+0000\n"
+"POT-Creation-Date: 2021-05-10 01:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,6 +78,10 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:96
 msgid "You should have a visualization that looks something like the one shown below."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/example_heart.rst:None
+msgid "Sample visualization of the ``heart.vtk`` dataset."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:102
