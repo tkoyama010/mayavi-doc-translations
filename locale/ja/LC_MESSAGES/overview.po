@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mayavi 4.7.3.dev0\n"
+"Project-Id-Version: mayavi 4.7.4.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-10 01:10+0000\n"
+"POT-Creation-Date: 2021-05-11 01:09+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -324,17 +324,17 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/overview.rst:189
 #: ../../mayavi/docs/source/mayavi/overview.rst:189
 msgid "volumetric_cut_plane"
-msgstr ""
+msgstr "volumetric_cut_plane"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:185
 #: ../../mayavi/docs/source/mayavi/overview.rst:185
 msgid "volumetric_contour3d"
-msgstr ""
+msgstr "volumetric_contour3d"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:187
 #: ../../mayavi/docs/source/mayavi/overview.rst:187
 msgid "volumetric_volume_tweaked"
-msgstr ""
+msgstr "volumetric_volume_tweaked"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:180
 msgid ""

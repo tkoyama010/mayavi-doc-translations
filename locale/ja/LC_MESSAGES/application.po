@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mayavi 4.7.3.dev0\n"
+"Project-Id-Version: mayavi 4.7.4.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-10 01:10+0000\n"
+"POT-Creation-Date: 2021-05-11 01:09+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -108,7 +108,7 @@ msgstr "`mayavi2` アプリケーションを起動すると，以下の図の�
 
 #: ../../mayavi/docs/source/mayavi/application.rstNone
 msgid "Figure of Mayavi's initial UI window."
-msgstr ""
+msgstr "Mayaviの初期UIウィンドウの図。"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:38
 msgid "The UI features several sections described below."
@@ -236,7 +236,7 @@ msgstr "下の図は，具体的に設定されたMayaviユーザインタフェ
 
 #: ../../mayavi/docs/source/mayavi/application.rstNone
 msgid "Figure of Mayavi's UI after being configured by a user."
-msgstr ""
+msgstr "ユーザが設定した後のMayaviのUIの図．"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:102
 msgid "Visualizing data"
