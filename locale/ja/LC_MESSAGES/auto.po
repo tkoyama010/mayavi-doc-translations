@@ -23,13 +23,13 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:2
 msgid "Mayavi 4.7.3"
-msgstr ""
+msgstr "Mayavi 4.7.3"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:4
 msgid ""
 "This is a small bug fix release mainly concerned with compatability with "
 "Traits 6.2.0 and soon to be release TraitsUI 7.2.0."
-msgstr ""
+msgstr "これは主にTraits6.2.0との互換性に関する小さなバグ修正リリースで，間もなくTraitsUI7.2.0でリリースされる予定です．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:8
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:53
@@ -57,30 +57,36 @@ msgid ""
 "10 Dec 2021 `#983 <https://github.com/enthought/mayavi/pull/983>`_ "
 "(larsoner)"
 msgstr ""
+"10 Dec 2021 `#983 <https://github.com/enthought/mayavi/pull/983>`_ "
+"(larsoner)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:11
 msgid "MAINT: Support Python 3.9"
-msgstr ""
+msgstr "MAINT:Python3.9のサポート"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:14
 msgid ""
 "06 May 2021 `#1030 <https://github.com/enthought/mayavi/pull/1030>`_ "
 "(aaronayres35)"
 msgstr ""
+"06 May 2021 `#1030 <https://github.com/enthought/mayavi/pull/1030>`_ "
+"(aaronayres35)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:14
 msgid "import from pyface.image not traitsui.image"
-msgstr ""
+msgstr "traitsui.image ではなく pyface.image からのインポート"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:18
 msgid ""
 "06 May 2021 `#1035 <https://github.com/enthought/mayavi/pull/1035>`_ "
 "(aaronayres35)"
 msgstr ""
+"06 May 2021 `#1035 <https://github.com/enthought/mayavi/pull/1035>`_ "
+"(aaronayres35)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:17
 msgid "Pass a value in appropriate range to avoid failure"
-msgstr ""
+msgstr "失敗を避けるために適切な範囲の値を渡す"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:21
 msgid "Mayavi 4.7.2"
