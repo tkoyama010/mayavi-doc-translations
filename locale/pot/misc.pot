@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.4.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-11 01:09+0000\n"
+"POT-Creation-Date: 2021-10-13 01:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,7 +145,7 @@ msgid "Documentation of a project is incredibly important. It also takes a lot o
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:139
-msgid "You will find the documentation sources in ``docs/sources/mayavi``. The documentation is written in `sphinx`_. It is easy to edit the `.rst` files to modify or extend the text. Once you have done your modifications, you can build the documentation using by running::"
+msgid "You will find the documentation sources in ``docs/sources/mayavi``. The documentation is written in `sphinx`_. It is easy to edit the `.rst` files to modify or extend the text. Once you have done your modifications, you can build the documentation by running::"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:147
