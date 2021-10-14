@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.4.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-13 01:12+0000\n"
+"POT-Creation-Date: 2021-10-14 01:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -161,7 +161,7 @@ msgid "The recommended way for new contributors to translate mayavi reference is
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:159
-msgid "There is `mayavi translation page`_ for mayavi (master) documentation."
+msgid "There is a `mayavi translation page`_ for mayavi (master) documentation."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:161
@@ -186,4 +186,8 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:166
 msgid "You can see the translated document in `Read The Docs`_."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:168
+msgid "Detail is here: https://docs.transifex.com/getting-started-1/translators"
 msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.4.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-13 01:12+0000\n"
+"POT-Creation-Date: 2021-10-14 01:09+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/getfem-doc/teams/98399/zh_CN/)\n"
@@ -250,8 +250,9 @@ msgid ""
 msgstr "新加入的贡献者若想翻译文档，推荐进入Transifex加入翻译团队。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:159
-msgid "There is `mayavi translation page`_ for mayavi (master) documentation."
-msgstr "这里是一些mayavi需要翻译的（主干）文档页面。"
+msgid ""
+"There is a `mayavi translation page`_ for mayavi (master) documentation."
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:161
 msgid "Login to transifex_ service."
@@ -278,3 +279,8 @@ msgstr "（确认之后）您可以在transifex贡献您的翻译了。"
 #: ../../mayavi/docs/source/mayavi/misc.rst:166
 msgid "You can see the translated document in `Read The Docs`_."
 msgstr "您可以在Read The Docs看到翻译的文档结果。"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:168
+msgid ""
+"Detail is here: https://docs.transifex.com/getting-started-1/translators"
+msgstr ""

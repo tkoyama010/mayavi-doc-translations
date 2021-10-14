@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.7.4.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-13 01:12+0000\n"
+"POT-Creation-Date: 2021-10-14 01:09+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
@@ -267,8 +267,9 @@ msgid ""
 msgstr "新しいコントリビュータがmayaviリファレンスを翻訳する場合は，Transifexの翻訳チームに参加することをお勧めします．"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:159
-msgid "There is `mayavi translation page`_ for mayavi (master) documentation."
-msgstr "`mayavi translation page`_ はmayavi(master)のドキュメントです．"
+msgid ""
+"There is a `mayavi translation page`_ for mayavi (master) documentation."
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:161
 msgid "Login to transifex_ service."
@@ -293,3 +294,8 @@ msgstr "(承認後)transifexで翻訳します．"
 #: ../../mayavi/docs/source/mayavi/misc.rst:166
 msgid "You can see the translated document in `Read The Docs`_."
 msgstr "翻訳された文書は `Read The Docs`_ で見ることができます．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:168
+msgid ""
+"Detail is here: https://docs.transifex.com/getting-started-1/translators"
+msgstr ""
