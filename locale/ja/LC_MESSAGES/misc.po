@@ -242,6 +242,8 @@ msgid ""
 "to modify or extend the text. Once you have done your modifications, you can"
 " build the documentation by running::"
 msgstr ""
+"ドキュメントのソースは ``docs/sources/mayavi`` にあります．ドキュメントは `sphinx`_ に記述されています． "
+"`.rst` ファイルを編集してテキストを修正または拡張するのは簡単です．変更が完了したら，次のコマンドを実行してドキュメントを作成できます．"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:147
 msgid ""
@@ -269,7 +271,7 @@ msgstr "新しいコントリビュータがmayaviリファレンスを翻訳す
 #: ../../mayavi/docs/source/mayavi/misc.rst:159
 msgid ""
 "There is a `mayavi translation page`_ for mayavi (master) documentation."
-msgstr ""
+msgstr "`mayavi translation page`_ はmayavi(master)のドキュメントです．"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:161
 msgid "Login to transifex_ service."
@@ -298,4 +300,4 @@ msgstr "翻訳された文書は `Read The Docs`_ で見ることができます
 #: ../../mayavi/docs/source/mayavi/misc.rst:168
 msgid ""
 "Detail is here: https://docs.transifex.com/getting-started-1/translators"
-msgstr ""
+msgstr "詳細はこちら: https://docs.transifex.com/getting-started-1/translators"
