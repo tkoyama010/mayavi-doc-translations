@@ -108,7 +108,7 @@ msgstr "`mayavi2` アプリケーションを起動すると，以下の図の�
 
 #: ../../mayavi/docs/source/mayavi/application.rstNone
 msgid "Figure of Mayavi's initial UI window."
-msgstr "Mayaviの初期UIウィンドウの図。"
+msgstr "Mayaviの初期UIウィンドウの図．"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:38
 msgid "The UI features several sections described below."

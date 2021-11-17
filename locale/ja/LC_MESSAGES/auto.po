@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:2
 msgid "Mayavi 4.7.4"
-msgstr ""
+msgstr "Mayavi 4.7.4"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:4
 msgid ""
@@ -32,6 +32,9 @@ msgid ""
 "bugs have been fixed. `mlab` imports may be a little faster thanks to some "
 "cleanup."
 msgstr ""
+"今回のリリースは，主にVTK-9.0.3とVTK-9.1.xの互換性に関する問題を解決するためのバグフィックス・リリースです．CIがGitHub "
+"Actionsを使用するようになり，その他いくつかのマイナーなバグが修正されました．いくつかのクリーンアップのおかげで `mlab` "
+"のインポートが少し速くなったかもしれません．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:8
 msgid ""
@@ -39,10 +42,13 @@ msgid ""
 "alphabetical order): Aaron Ayres, Eric Larson, @marekyggdrasil, Mark "
 "Dickinson, Poruri Sai Rahul, Prabhu Ramachandran, Topi Kuutela."
 msgstr ""
+"このリリースに貢献してくださった次の方々に感謝します（アルファベット順）Aaron Ayres, Eric Larson, "
+"@marekyggdrasil, Mark Dickinson, Poruri Sai Rahul, Prabhu Ramachandran, Topi"
+" Kuutela."
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:12
 msgid "21 pull requests were merged."
-msgstr ""
+msgstr "21個のpull requestがマージされました．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:15
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:81
@@ -71,179 +77,224 @@ msgid ""
 "11 Nov 2021 `#1105 <https://github.com/enthought/mayavi/pull/1105>`_ "
 "(prabhuramachandran)"
 msgstr ""
+"11 Nov 2021 `#1105 <https://github.com/enthought/mayavi/pull/1105>`_ "
+"(prabhuramachandran)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:18
 msgid "Fix the crashes on VTK-9.1.0."
-msgstr ""
+msgstr "VTK-9.1.0でのクラッシュを修正しました．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:19
 msgid ""
 "Speed up imports by cleaning up the `tvtk_doc` module to be a bit lazier."
-msgstr ""
+msgstr "インポートを高速化するために， `tvtk_doc` モジュールを整理して，少しレイジーにしました．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:22
 msgid ""
 "10 Nov 2021 `#1104 <https://github.com/enthought/mayavi/pull/1104>`_ "
 "(larsoner)"
 msgstr ""
+"10 Nov 2021 `#1104 <https://github.com/enthought/mayavi/pull/1104>`_ "
+"(larsoner)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:22
 msgid "Improve CI behavior on GitHub Actions."
-msgstr ""
+msgstr "GitHub ActionsでのCI動作の改善．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:26
 msgid ""
 "08 Nov 2021 `#1103 <https://github.com/enthought/mayavi/pull/1103>`_ "
 "(prabhuramachandran)"
 msgstr ""
+"08 Nov 2021 `#1103 <https://github.com/enthought/mayavi/pull/1103>`_ "
+"(prabhuramachandran)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:25
 msgid ""
 "BUG: Fix issue `#1071 <https://github.com/enthought/mayavi/issues/1071>`_ "
 "which caused a crash."
 msgstr ""
+"BUG: クラッシュの原因となっていたイシュー `#1071 "
+"<https://github.com/enthought/mayavi/issues/1071>`_ を修正しました．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:29
 msgid ""
 "01 Nov 2021 `#1102 <https://github.com/enthought/mayavi/pull/1102>`_ "
 "(prabhuramachandran)"
 msgstr ""
+"01 Nov 2021 `#1102 <https://github.com/enthought/mayavi/pull/1102>`_ "
+"(prabhuramachandran)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:29
 msgid "BUG: Fix bug with picker and picker UI."
-msgstr ""
+msgstr "BUG: ピッカーとピッカーUIのバグを修正しました．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:33
 msgid ""
 "26 Oct 2021 `#1098 <https://github.com/enthought/mayavi/pull/1098>`_ "
 "(mdickinson)"
 msgstr ""
+"26 Oct 2021 `#1098 <https://github.com/enthought/mayavi/pull/1098>`_ "
+"(mdickinson)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:32
 msgid ""
 "Fix RevPrefixMap to inherit directly from TraitType Fixes `#1094 "
 "<https://github.com/enthought/mayavi/issues/1094>`_."
 msgstr ""
+"RevPrefixMap が TraitType を直接継承するように修正しました． `#1094 "
+"<https://github.com/enthought/mayavi/issues/1094>`_ の修正．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:36
 msgid ""
 "10 Nov 2021 `#1097 <https://github.com/enthought/mayavi/pull/1097>`_ "
 "(larsoner)"
 msgstr ""
+"10 Nov 2021 `#1097 <https://github.com/enthought/mayavi/pull/1097>`_ "
+"(larsoner)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:36
 msgid "Workarounds for VTK 9.1.0"
-msgstr ""
+msgstr "VTK 9.1.0に関するバグを回避"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:39
 msgid ""
 "07 Oct 2021 `#1089 <https://github.com/enthought/mayavi/pull/1089>`_ "
 "(rahulporuri)"
 msgstr ""
+"07 Oct 2021 `#1089 <https://github.com/enthought/mayavi/pull/1089>`_ "
+"(rahulporuri)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:39
 msgid "Address \"ResourceWarning\"s observed in the testsuite"
-msgstr ""
+msgstr "テストスイートで観測された \"ResourceWarning \"への対応"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:43
 msgid ""
 "08 Oct 2021 `#1086 <https://github.com/enthought/mayavi/pull/1086>`_ "
 "(rahulporuri)"
 msgstr ""
+"08 Oct 2021 `#1086 <https://github.com/enthought/mayavi/pull/1086>`_ "
+"(rahulporuri)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:42
 msgid ""
 "Remove code that handles unsupported vtk versions (< 7) See related `#1082 "
 "<https://github.com/enthought/mayavi/issues/1082>`_ ."
 msgstr ""
+"サポートされていないvtkのバージョン (< 7) を処理するコードを削除 関連する `#1082 "
+"<https://github.com/enthought/mayavi/issues/1082>`_ を参照．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:46
 msgid ""
 "07 Oct 2021 `#1076 <https://github.com/enthought/mayavi/pull/1076>`_ "
 "(rahulporuri)"
 msgstr ""
+"07 Oct 2021 `#1076 <https://github.com/enthought/mayavi/pull/1076>`_ "
+"(rahulporuri)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:46
 msgid "Setup GitHub Actions CI"
-msgstr ""
+msgstr "GitHub Actions CIの設定"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:50
 msgid ""
 "18 Oct 2021 `#1050 <https://github.com/enthought/mayavi/pull/1050>`_ "
 "(larsoner)"
 msgstr ""
+"18 Oct 2021 `#1050 <https://github.com/enthought/mayavi/pull/1050>`_ "
+"(larsoner)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:49
 msgid ""
 "MAINT: Update for latest VTK Closes `#1049 "
 "<https://github.com/enthought/mayavi/issues/1049>`_"
 msgstr ""
+"MAINT: 最新のVTKに対応しました `#1049 "
+"<https://github.com/enthought/mayavi/issues/1049>`_ ．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:54
 msgid ""
 "18 May 2021 `#1045 <https://github.com/enthought/mayavi/pull/1045>`_ "
 "(aaronayres35)"
 msgstr ""
+"18 May 2021 `#1045 <https://github.com/enthought/mayavi/pull/1045>`_ "
+"(aaronayres35)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:53
 msgid ""
 "Remove code for older Python versions; part of `#987 "
 "<https://github.com/enthought/mayavi/issues/987>`_"
 msgstr ""
+"古いPythonバージョン用のコードを削除しました． `#987 "
+"<https://github.com/enthought/mayavi/issues/987>`_ の一部です．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:58
 msgid ""
 "18 May 2021 `#1044 <https://github.com/enthought/mayavi/pull/1044>`_ "
 "(aaronayres35)"
 msgstr ""
+"18 May 2021 `#1044 <https://github.com/enthought/mayavi/pull/1044>`_ "
+"(aaronayres35)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:57
 msgid ""
 "Remove all __future__ imports; part of `#987 "
 "<https://github.com/enthought/mayavi/issues/987>`_"
 msgstr ""
+"すべての __future__ のインポートを削除しました． `#987 "
+"<https://github.com/enthought/mayavi/issues/987>`_ の一部です．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:62
 msgid ""
 "18 May 2021 `#1043 <https://github.com/enthought/mayavi/pull/1043>`_ "
 "(aaronayres35)"
 msgstr ""
+"18 May 2021 `#1043 <https://github.com/enthought/mayavi/pull/1043>`_ "
+"(aaronayres35)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:61
 msgid ""
 "Remove use of six part of `#987 "
 "<https://github.com/enthought/mayavi/issues/987>`_"
 msgstr ""
+"`#987 <https://github.com/enthought/mayavi/issues/987>`_ でsixの使用を削除しました．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:65
 msgid ""
 "12 May 2021 `#1040 <https://github.com/enthought/mayavi/pull/1040>`_ "
 "(aaronayres35)"
 msgstr ""
+"12 May 2021 `#1040 <https://github.com/enthought/mayavi/pull/1040>`_ "
+"(aaronayres35)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:65
 msgid "Use mock through unittest"
-msgstr ""
+msgstr "unittestでモックを使用"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:68
 msgid ""
 "24 March 2021 `#1020 <https://github.com/enthought/mayavi/pull/1020>`_ "
 "(topikuu)"
 msgstr ""
+"24 March 2021 `#1020 <https://github.com/enthought/mayavi/pull/1020>`_ "
+"(topikuu)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:68
 msgid "Fix volume pipeline range check to work with cell_data"
-msgstr ""
+msgstr "ボリュームパイプラインの範囲チェックがcell_dataで動作するように修正．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:72
 msgid ""
 "2 November 2020 `#974 <https://github.com/enthought/mayavi/pull/974>`_ "
 "(marekyggdrasil)"
 msgstr ""
+"2 November 2020 `#974 <https://github.com/enthought/mayavi/pull/974>`_ "
+"(marekyggdrasil)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:71
 msgid "More meaningful example of using TVTK with Mayavi."
-msgstr ""
+msgstr "TVTKを利用したより有意義な例をMayaviで紹介．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:75
 msgid "Mayavi 4.7.3"
