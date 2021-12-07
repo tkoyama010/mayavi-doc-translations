@@ -39,8 +39,8 @@ msgstr "本节主要聚焦于Mayavi2应用程序的交互使用。文章所提�
 #: ../../mayavi/docs/source/mayavi/application.rst:12
 msgid ""
 "However, if you are only interested in a quick start to use Mayavi as a "
-"simple, Matlab-like, plotting library, you can jump directly to the :ref"
-":`simple-scripting-with-mlab` section, and come back later for a deeper "
+"simple, Matlab-like, plotting library, you can jump directly to the "
+":ref:`simple-scripting-with-mlab` section, and come back later for a deeper "
 "understanding."
 msgstr ""
 "但如果您仅仅是希望快速开始用时Mayavi，把它作为一个类似于Matlab风格的绘图库，您可以直接跳至`simple-scripting-with-"
@@ -75,8 +75,8 @@ msgid ""
 "\"perspective\" of the mayavi application.  More details on the UI are "
 "available in the :ref:`general-layout-of-ui` section."
 msgstr ""
-"启动Mayavi之后，您可以通过调整交互界面的大小获得一个舒适的布局。这些设定会成为mayavi的默认布局。关于界面UI的更多细节可以参考该章节:ref"
-":`general-layout-of-ui`"
+"启动Mayavi之后，您可以通过调整交互界面的大小获得一个舒适的布局。这些设定会成为mayavi的默认布局。关于界面UI的更多细节可以参考该章节:ref:`general-"
+"layout-of-ui`"
 
 #: ../../mayavi/docs/source/mayavi/examples.rst:20
 msgid ""
