@@ -112,8 +112,8 @@ msgstr "レンダリングしたビジュアライゼーションをさまざま
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:58
 msgid ""
-"Convenient functionality for rapid scientific plotting via mlab (see "
-":ref:`simple-scripting-with-mlab`)."
+"Convenient functionality for rapid scientific plotting via mlab (see :ref"
+":`simple-scripting-with-mlab`)."
 msgstr ""
 "mlab( :ref:`simple-scripting-with-mlab` "
 "を参照してください．)を使用して科学的なプロットをすばやく行うための便利な機能．"
