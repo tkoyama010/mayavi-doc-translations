@@ -95,8 +95,8 @@ msgstr "何らかの理由でMayaviがQtバックエンドで失敗した場合�
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:53
 msgid ""
-"For more details on using mlab and running scripts, read the section :ref"
-":`running-mlab-scripts`"
+"For more details on using mlab and running scripts, read the section "
+":ref:`running-mlab-scripts`"
 msgstr "mlabの使用とスクリプトの実行の詳細については，以下の章 :ref:`running-mlab-scripts` を読んでください．"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:62
@@ -1243,8 +1243,8 @@ msgid ""
 "sources from arrays. They are fully documented in details in the :ref:`mlab-"
 "pipeline-reference`. We give a small summary of the possibilities here."
 msgstr ""
-"`mlab.pipeline` モジュールには，配列からさまざまなデータソースを作成するための関数が含まれています．詳細については， :ref"
-":`mlab-pipeline-reference` に完全に文書化されています．ここでは，その可能性について簡単に説明します．"
+"`mlab.pipeline` モジュールには，配列からさまざまなデータソースを作成するための関数が含まれています．詳細については， "
+":ref:`mlab-pipeline-reference` に完全に文書化されています．ここでは，その可能性について簡単に説明します．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:66
 msgid ""
@@ -1611,8 +1611,7 @@ msgid ""
 "gained by changing the values of the contours in the object's property "
 "dialog. ::"
 msgstr ""
-"ベクトルフィールドの重要なパラメータは，その大きさです．ベクトルの法線のアイソサーフェスを表示すると，面白いことがあります．このために，ExtractVectorNormフィルタを使用してベクトルフィールドからスカラフィールドを作成し"
-"，その上でIso-"
+"ベクトルフィールドの重要なパラメータは，その大きさです．ベクトルの法線のアイソサーフェスを表示すると，面白いことがあります．このために，ExtractVectorNormフィルタを使用してベクトルフィールドからスカラフィールドを作成し，その上でIso-"
 "Surfaceモジュールを使用します．インタラクティブに作業する場合，オブジェクトのプロパティダイアログで輪郭の値を変更すると，フィールドの大きさを十分に理解できます．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0

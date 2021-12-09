@@ -66,8 +66,9 @@ msgstr ""
 "最新的 VTK 包适用于所有主流操作系统 (Windows, MacOS,以及Linux)，但是仅支持64位。Python 3.x "
 "已经完全支持所有的操作系统，Python 2.7.x 仅支持MacOS 和 "
 "Linux。如果您的系统不支持，则您需要自行安装VTK匹配您的发行版。更多信息详见：`General Build and Installation "
-"instructions <http://docs.enthought.com/mayavi/mayavi/installation.html"
-"#installing-ready-made-distributions>`"
+"instructions "
+"<http://docs.enthought.com/mayavi/mayavi/installation.html#installing-ready-"
+"made-distributions>`"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:28
 msgid ""

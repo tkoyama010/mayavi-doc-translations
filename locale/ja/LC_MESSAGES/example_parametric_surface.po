@@ -169,8 +169,8 @@ msgid ""
 "more details on this see the section on :ref:`interaction-with-the-scene`."
 msgstr ""
 "下の図は，パラメトリックソースを使用して視覚化した例です．異なるサーフェスの配置は， 'a' "
-"キーを介してシーンのアクターモードを使用して画面上でアクターを移動することによって影響を受けたことに注意してください．詳細については， :ref"
-":`interaction-with-the-scene` の項を参照してください．"
+"キーを介してシーンのアクターモードを使用して画面上でアクターを移動することによって影響を受けたことに注意してください．詳細については， "
+":ref:`interaction-with-the-scene` の項を参照してください．"
 
 #: ../../mayavi/docs/source/mayavi/example_parametric_surface.rstNone
 msgid "Sample visualization using parametric surfaces."

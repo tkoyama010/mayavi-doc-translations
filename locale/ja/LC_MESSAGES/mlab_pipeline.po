@@ -88,8 +88,8 @@ msgid ""
 "sources from arrays. They are fully documented in details in the :ref:`mlab-"
 "pipeline-reference`. We give a small summary of the possibilities here."
 msgstr ""
-"`mlab.pipeline` モジュールには，配列からさまざまなデータソースを作成するための関数が含まれています．詳細については :ref"
-":`mlab-pipeline-reference` に完全に文書化されています．ここでは，その可能性について簡単に説明します．"
+"`mlab.pipeline` モジュールには，配列からさまざまなデータソースを作成するための関数が含まれています．詳細については "
+":ref:`mlab-pipeline-reference` に完全に文書化されています．ここでは，その可能性について簡単に説明します．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_pipeline.rst:66
 msgid ""

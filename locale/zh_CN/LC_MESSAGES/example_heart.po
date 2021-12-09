@@ -81,8 +81,8 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/example_heart.rst:50
 msgid ""
-"To interact with the TVTK scene window, look at the section on :ref"
-":`interaction-with-the-scene` for more details.  Experiment with these "
+"To interact with the TVTK scene window, look at the section on "
+":ref:`interaction-with-the-scene` for more details.  Experiment with these "
 "options till you are comfortable."
 msgstr ""
 

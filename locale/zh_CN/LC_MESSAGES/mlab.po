@@ -94,8 +94,8 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:53
 msgid ""
-"For more details on using mlab and running scripts, read the section :ref"
-":`running-mlab-scripts`"
+"For more details on using mlab and running scripts, read the section "
+":ref:`running-mlab-scripts`"
 msgstr "关于mlab的更多细节，请参考`Running mlab scripts`章节。"
 
 #: ../../mayavi/docs/source/mayavi/mlab.rst:62
@@ -676,8 +676,8 @@ msgid ""
 "interactively edit the object's properties. If the dialog doesn't show up "
 "when you enter this command, please see :ref:`running-mlab-scripts`."
 msgstr ""
-"除此之外，每一个生成的对象都会有返回值，它将返回mlab函数。``this_object.edit_traits()``将启动一个对话框，您可以用交互的方式对对象的属性进行编辑。如果您没能成功开启对话框，请参考"
-"`running-mlab-scripts`。"
+"除此之外，每一个生成的对象都会有返回值，它将返回mlab函数。``this_object.edit_traits()``将启动一个对话框，您可以用交互的方式对对象的属性进行编辑。如果您没能成功开启对话框，请参考`running-"
+"mlab-scripts`。"
 
 #: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rstNone
 msgid "Using ``mlab`` with the full Envisage UI"

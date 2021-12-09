@@ -109,8 +109,8 @@ msgstr "用不同的图像格式存储渲染的可视化结果。"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:58
 msgid ""
-"Convenient functionality for rapid scientific plotting via mlab (see :ref"
-":`simple-scripting-with-mlab`)."
+"Convenient functionality for rapid scientific plotting via mlab (see "
+":ref:`simple-scripting-with-mlab`)."
 msgstr "通过mlab类可以方便快捷地进行的数据可视化。（详见：参考部分simple-scripting-with-mlab）"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:61
@@ -223,8 +223,8 @@ msgid ""
 "simple way of using Mayavi in batch-processing scripts, see :ref:`simple-"
 "scripting-with-mlab` for more information on this."
 msgstr ""
-"辅以简单的Python脚本，如用Ipython结合numpy，我们就可以使用Mayavi绘图引擎。“mlab”API提供一个简单的方式来批处理脚本。更多信参考：ref"
-":`simple-scripting-with-mlab` ."
+"辅以简单的Python脚本，如用Ipython结合numpy，我们就可以使用Mayavi绘图引擎。“mlab”API提供一个简单的方式来批处理脚本。更多信参考：ref:`simple-"
+"scripting-with-mlab` ."
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:137
 msgid ""

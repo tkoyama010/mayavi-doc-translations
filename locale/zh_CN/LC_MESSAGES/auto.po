@@ -6170,8 +6170,8 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_visual.rst:22
 msgid ""
 "If you want to modify the data plotted by the mlab (as in the "
-"`mlab.test_plot3d()` call) to create an animation, please see section :ref"
-":`mlab-animating-data`."
+"`mlab.test_plot3d()` call) to create an animation, please see section "
+":ref:`mlab-animating-data`."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_visual.rst:33
@@ -7018,8 +7018,8 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/example_tvtk_segmentation.rst:12
 msgid ""
 "This example downloads an MRI scan, turns it into a 3D numpy array, applies "
-"a segmentation procedure made of VTK filters to extract the gray-matter"
-"/white-matter boundary."
+"a segmentation procedure made of VTK filters to extract the gray-"
+"matter/white-matter boundary."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_tvtk_segmentation.rst:16

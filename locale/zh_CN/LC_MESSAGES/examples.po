@@ -46,8 +46,8 @@ msgid ""
 "\"perspective\" of the mayavi application.  More details on the UI are "
 "available in the :ref:`general-layout-of-ui` section."
 msgstr ""
-"启动Mayavi之后，您可以通过调整交互界面的大小获得一个舒适的布局。这些设定会成为mayavi的默认布局。关于界面UI的更多细节可以参考该章节:ref"
-":`general-layout-of-ui`"
+"启动Mayavi之后，您可以通过调整交互界面的大小获得一个舒适的布局。这些设定会成为mayavi的默认布局。关于界面UI的更多细节可以参考该章节:ref:`general-"
+"layout-of-ui`"
 
 #: ../../mayavi/docs/source/mayavi/examples.rst:20
 msgid ""
