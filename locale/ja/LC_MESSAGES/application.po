@@ -291,7 +291,7 @@ msgstr "ここでは，Mayaviのすべての `modules` と `filters` をリス�
 
 #: ../../mayavi/docs/source/mayavi/application.rst:102
 msgid "**List of modules and filters**"
-msgstr ""
+msgstr "**モジュールとフィルターの一覧**"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:136
 msgid "Interaction with the scene"
