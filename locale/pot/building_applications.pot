@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-17 01:17+0000\n"
+"POT-Creation-Date: 2022-04-10 00:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -150,10 +150,6 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/building_applications.rst:222
 msgid "The :ref:`example_lorenz_ui` shows a good example of this situation."
-msgstr ""
-
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:125
-msgid "Learning by examples"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/building_applications.rst:226
