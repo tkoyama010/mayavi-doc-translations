@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-10 00:06+0000\n"
+"POT-Creation-Date: 2022-05-12 02:19+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,3 +64,7 @@ msgstr ""
 "ここでは，Mayaviアプリケーションを使用してその機能の一部を紹介するための詳細な例をいくつか示します．例に進む前に，実験するデータを見つけておくと便利です．以下の2つの例では，mayaviソースの出荷時に出荷されたデータを使用しています．これらは，mayaviソースツリーのルート内の"
 " ``examples/data`` ディレクトリにあります．これらがインストールされていない場合は， "
 "https://github.com/enthought/mayavi からソースをダウンロードできます．"
+
+#: ../../mayavi/docs/source/mayavi/examples.rst:4
+msgid "**Examples**:"
+msgstr "**例**"
