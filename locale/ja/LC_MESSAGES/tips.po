@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.0.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-16 01:09+0000\n"
+"POT-Creation-Date: 2022-07-12 02:26+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -44,40 +44,51 @@ msgid ""
 "  It behaves almost exactly like a normal Mayavi UI window and supports any "
 "Mayavi/VTK visualization and is fully interactive.  This backend relies on "
 "VTK's off screen support and depending on how your VTK is configured may "
-"require a windowing system."
+"require a windowing system.  This option is essentially performs server-side"
+" rendering of the visualization."
 msgstr ""
-"JupyterノートブックにMayaviの視覚化を埋め込むには3つの方法があります．最善の方法は，(これがデフォルトです．)バックエンドを使用することである．このバックエンドはMayavi"
-" 4.7 .0で初めて導入されました．このバックエンドを使用するには， ipywidgets_ と ipyevents_ "
-"packagesをインストールする必要があります．通常のMayavi "
-"UIウィンドウとほとんど同じように動作し，Mayavi/VTKの表示をサポートし，完全にインタラクティブです．このバックエンドはVTKのオフスクリーンサポートに依存しており，VTKの設定方法によってはウィンドウシステムが必要になることがあります．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:25
+#: ../../mayavi/docs/source/mayavi/tips.rst:26
+msgid ""
+"The other very powerful backend is the ``'itk'`` backend which uses a "
+"client-side approach (renders on your browser using WebGL) and does not rely"
+" on VTK's offscreen support.  This requires that the itkwidgets_ package be "
+"installed.  This is probably the most convenient backend if your primary "
+"usage is for a web-based notebook. This feature was first introduced in "
+"Mayavi-4.8.0."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/tips.rst:35
+msgid ""
+"A simple example notebook demonstrating the notebook interface is available "
+"here: "
+"https://github.com/enthought/mayavi/blob/master/examples/mayavi/mayavi_jupyter.ipynb"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/tips.rst:38
 msgid ""
 "There are two other backends, the simplest one is the ``'png'`` backend "
 "which produces images that can be embedded in the notebook. These are static"
-" and not interactive."
+" and not interactive and this too uses server-side rendering."
 msgstr ""
-"他にも2つのバックエンドがあり，最も単純なものは，ノートブックに埋め込むことができるイメージを生成する ``'png'`` "
-"バックエンドです．これらは静的で，インタラクティブではありません．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:29
+#: ../../mayavi/docs/source/mayavi/tips.rst:43
 msgid ""
-"In between these two extremes is the ``'x3d'`` backend which displays X3D_ "
-"elements on the notebook.  The X3D output produces a fully interactive 3D "
-"scene, however, this will not support VTK's interactive widgets.  It does "
-"not support transparency and other advanced visualizations either.  For "
-"information on how to interact with the X3D scene, see here: "
+"There is also an ``'x3d'`` backend which displays X3D_ elements on the "
+"notebook.  The X3D output produces a fully interactive 3D scene, however, "
+"this will not support VTK's interactive widgets.  It does not support "
+"transparency and other advanced visualizations either.  For information on "
+"how to interact with the X3D scene, see here: "
 "http://www.x3dom.org/documentation/interaction/"
 msgstr ""
-"この両極端の中間に，ノートブック上の X3D_ 要素を表示する "
-"``'x3d'``バックエンドがあります．X3D出力では完全にインタラクティブな3Dシーンが生成されますが，VTKのインタラクティブウィジェットはサポートされません．透明度やその他の高度な視覚化もサポートしていません．X3Dシーンの操作方法については，"
-" http://www.x3dom.org/documentation/interaction/ を参照してください．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:36
-msgid "Mayavi ships with some javascript files that can be installed as::"
-msgstr "Mayaviには，次のようなjavascriptファイルが付属しています．"
+#: ../../mayavi/docs/source/mayavi/tips.rst:50
+msgid ""
+"For the X3D backend, Mayavi ships with some javascript files that can be "
+"installed as::"
+msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:40
+#: ../../mayavi/docs/source/mayavi/tips.rst:55
 msgid ""
 "This will install the x3dom Javascript and CSS files locally.  Note that you"
 " do not need to \"enable\" the extension or anything after you run the "
@@ -89,40 +100,38 @@ msgstr ""
 "\"enable\" にする必要はありません．詳細な手順とオプションについては， `Installation of Jupyter "
 "Extensions`_ を参照してください．これにより，ネットワーク接続なしでX3Dファイルを表示できます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:48
+#: ../../mayavi/docs/source/mayavi/tips.rst:63
 msgid "To view Mayavi visualizations on the notebook one should first do::"
 msgstr "ノートブックでMayaviの視覚化を表示するには，まず次の操作を行います．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:53
+#: ../../mayavi/docs/source/mayavi/tips.rst:68
 msgid "Subequently, one may simply do::"
 msgstr "当然のことながら，次のようにします．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:58
+#: ../../mayavi/docs/source/mayavi/tips.rst:73
 msgid ""
 "When the ``init_notebook`` method is called it configures the Mayavi objects"
 " so they can be rendered on the Jupyter notebook."
 msgstr ""
 "``init_notebook`` メソッドを呼び出すと，MayaviオブジェクトがJupyterノートブック上でレンダリングできるように設定されます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:63
+#: ../../mayavi/docs/source/mayavi/tips.rst:78
 msgid ""
 "One can call ``init_notebook`` multiple times if one wishes to change the "
-"backend between ``ipy``, ``png``, and ``x3d`` for some reason."
+"backend between ``ipy``, ``itk``, ``png``, and ``x3d`` for some reason."
 msgstr ""
-"何らかの理由で ``ipy`` ， ``png`` ， ``x3d`` の間のバックエンドを変更したい場合， ``init_notebook`` "
-"を複数回呼び出すことができます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:67
+#: ../../mayavi/docs/source/mayavi/tips.rst:82
 msgid "There are several optional arguments to ``init_notebook``."
 msgstr "``init_notebook`` にはオプションの引数がいくつかあります．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:69
+#: ../../mayavi/docs/source/mayavi/tips.rst:84
 msgid ""
 "The first is the backend which defaults to ``'ipy'``, and can also be set to"
-" ``'x3d'`` or ``'png'``."
-msgstr "1つはバックエンドで，デフォルトは ``'ipy'`` で， ``'x3d'`` または ``'png'`` に設定することもできます．"
+" ``'itk'``, ``'x3d'`` or ``'png'``."
+msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:71
+#: ../../mayavi/docs/source/mayavi/tips.rst:86
 msgid ""
 "One can set the pixel width and height of the figure to create (as integers)"
 " (for example ``mlab.init_notebook('x3d', 800, 800)``). This only applies to"
@@ -133,7 +142,7 @@ msgstr ""
 "800)``)を作成できます．これは ``x3d`` バックエンドにのみ適用されます． ``ipy`` バックエンドでは， ``size`` "
 "キーワード引数を使用して新しい ``figure`` を作成するときに設定できます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:76
+#: ../../mayavi/docs/source/mayavi/tips.rst:91
 msgid ""
 "The last keyword argument ``local`` defaults to ``True``. When "
 "``local=True`` it uses javascript files that are distributed along with "
@@ -147,7 +156,7 @@ msgstr ""
 " nbextensionのインストールが動作しない場合，インターネット接続で ``local=False`` "
 "を使うことは，WebGLをサポートしている最近のブラウザで動作するはずです．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:84
+#: ../../mayavi/docs/source/mayavi/tips.rst:99
 msgid ""
 "The X3D data is embedded in the notebook and can be shared but if the scenes"
 " have a lot of polygons, these files can be large.  With the PNG backend, "
@@ -156,15 +165,15 @@ msgid ""
 msgstr ""
 "X3Dデータはノートブックに埋め込まれており，共有することができますが，シーンに多数のポリゴンがある場合は，これらのファイルのサイズが大きくなることがあります．PNGバックエンドでは，PNGも埋め込まれており，これらはより小さなファイルです．PNGバックエンドは，ご使用のプラットフォームで正しく動作するオフスクリーンレンダリングに依存します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:97
+#: ../../mayavi/docs/source/mayavi/tips.rst:112
 msgid "Off screen rendering"
 msgstr "オフスクリーンレンダリング"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:100
+#: ../../mayavi/docs/source/mayavi/tips.rst:115
 msgid "Avoiding the rendering window"
 msgstr "レンダリングウィンドウを使用しない"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:102
+#: ../../mayavi/docs/source/mayavi/tips.rst:117
 msgid ""
 "Often you write Mayavi scripts to render a whole batch of images to make an "
 "animation or so and find that each time you save an image, Mayavi \"raises\""
@@ -176,19 +185,19 @@ msgstr ""
 " \"raises\" "
 "してアクティブウィンドウにし，作業を中断させることがわかります．これは，VTKが内部的にウィンドウをつかんで画像を作成するために必要です．ウィンドウを非表示にすると，空白または不正なイメージが生成されます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:109
+#: ../../mayavi/docs/source/mayavi/tips.rst:124
 msgid ""
 "If you already have a Python script, say ``script.py`` that sets up your "
 "visualization that you run likes so::"
 msgstr "すでにPythonスクリプトを持っている場合は， ``script.py`` と言って，実行するビジュアル化を設定します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:114
+#: ../../mayavi/docs/source/mayavi/tips.rst:129
 msgid ""
 "Then it is very easy to have this script run offscreen.  Simply run it like "
 "so::"
 msgstr "そうすれば，このスクリプトを画面外で実行することが非常に簡単になります．次のように実行します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:119
+#: ../../mayavi/docs/source/mayavi/tips.rst:134
 msgid ""
 "This will run the script in an offscreen, standalone window.  On Linux, this"
 " works best with VTK-5.2 and above.  For more details on the command line "
@@ -199,17 +208,17 @@ msgstr ""
 "アプリケーションがサポートするコマンドライン引数の詳細については， :ref:`command-line-arguments` "
 "セクションを参照してください．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:124
+#: ../../mayavi/docs/source/mayavi/tips.rst:139
 msgid "When using ``mlab`` you will want to do this::"
 msgstr "``mlab`` を使用する場合は，次のようにします．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:128
+#: ../../mayavi/docs/source/mayavi/tips.rst:143
 msgid ""
 "before you create a figure and it will use an offscreen window for the "
 "rendering."
 msgstr "をクリックすると，レンダリングにオフスクリーンウィンドウが使用されます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:131
+#: ../../mayavi/docs/source/mayavi/tips.rst:146
 msgid ""
 "Another option for offscreen rendering would be to click on the scene and "
 "set the \"Off screen rendering\" option on.  Or from a script::"
@@ -217,30 +226,30 @@ msgstr ""
 "オフスクリーンレンダリングの別のオプションは，シーンをクリックして \"Off screen rendering\" "
 "オプションをオンに設定することです．または，スクリプトから"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:136
+#: ../../mayavi/docs/source/mayavi/tips.rst:151
 msgid ""
 "This will stop raising the window.  However, this may not be enough. Please "
 "see below on the situation on different platforms."
 msgstr "これにより，ウィンドウの上昇が停止します．しかし，これでは十分ではないかもしれません．各プラットホームの状況は下記参照．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:140
+#: ../../mayavi/docs/source/mayavi/tips.rst:155
 msgid "Platform Summary"
 msgstr "プラットフォームの概要"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:142
+#: ../../mayavi/docs/source/mayavi/tips.rst:157
 msgid ""
 "**Windows**: If you are using win32 then off screen rendering should work "
 "well out of the box.  All you will need to do is what is given above."
 msgstr ""
 "**Windows**: win32を使用している場合，初期状態ではオフスクリーンレンダリングが適切に機能します．必要な作業は，上記の内容のみです．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:145
+#: ../../mayavi/docs/source/mayavi/tips.rst:160
 msgid ""
 "**Linux and the Mac**: there are several options to get this working "
 "correctly and some major issues to consider:"
 msgstr "**Linux と Mac**: これを正しく動作させるにはいくつかのオプションがあり，考慮すべき重要な問題がいくつかあります．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:148
+#: ../../mayavi/docs/source/mayavi/tips.rst:163
 msgid ""
 "If you have VTK-5.2 the offscreen rendering option should let you generate "
 "the pictures without worrying about occluding the window. However, you will "
@@ -250,7 +259,7 @@ msgid ""
 msgstr ""
 "VTK-5.2を使用している場合は，オフスクリーンレンダリングオプションを使用すれば，ウィンドウを隠すことなく画像を生成できます．ただし，これを正しく動作させるには，VTK-5.2が必要です．また，これが常に動作するとは限らない場合もあります．これを試してみて，空白のウィンドウが表示された場合は，問題が発生します．次に例を示します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:159
+#: ../../mayavi/docs/source/mayavi/tips.rst:174
 msgid ""
 "If this produces a clean image (even if you switch desktops or cover any "
 "windows produced), you should be golden.  If not you should consider either "
@@ -259,11 +268,11 @@ msgid ""
 msgstr ""
 "クリーンなイメージ(デスクトップを切り替えたり，作成されたウィンドウをカバーしたりしても)が生成される場合は，金色になります．そうでない場合は，仮想フレームバッファを使用するか，Mesa+OSMesaを使ってVTKを構築し，純粋なソフトウェアレンダリング手法を提供することを検討してください．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:167
+#: ../../mayavi/docs/source/mayavi/tips.rst:182
 msgid "Rendering using the virtual framebuffer"
 msgstr "仮想フレームバッファを使用したレンダリング"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:169
+#: ../../mayavi/docs/source/mayavi/tips.rst:184
 msgid ""
 "VTK uses openGL for all its rendering. Under any conventional Unix "
 "(including Linux), you need an Xserver running to open a GL context "
@@ -274,13 +283,13 @@ msgid ""
 msgstr ""
 "VTKでは，すべてのレンダリングにopenGLが使用されます．従来のUnix(Linuxを含む)では，GLコンテキストを開くためにXserverを実行する必要があります(特にハードウェアアクセラレーションが必要な場合)．これは，ヘッドレスサーバでレンダリングする場合に問題になる可能性があります．前の段落で述べたように，デスクトップでは，既定のサーバーを使用すると進行中の作業の妨げになるため，問題になることがあります．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:176
+#: ../../mayavi/docs/source/mayavi/tips.rst:191
 msgid ""
 "A good workaround is to use the virtual framebuffer X server for X11 like "
 "so:"
 msgstr "回避策としては，次のようにX11用の仮想フレームバッファXサーバを使用します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:179
+#: ../../mayavi/docs/source/mayavi/tips.rst:194
 msgid ""
 "Make sure you have the ``Xvfb`` package installed.  For example under Debian"
 " and derivatives this is called the ``xvfb`` package."
@@ -288,11 +297,11 @@ msgstr ""
 "``Xvfb`` パッケージがインストールされていることを確認します．例えばDebianとその派生版では，これは ``xvfb`` "
 "パッケージと呼ばれます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:182
+#: ../../mayavi/docs/source/mayavi/tips.rst:197
 msgid "Create the virtual framebuffer X server like so::"
 msgstr "次のように仮想フレームバッファXサーバを作成します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:186
+#: ../../mayavi/docs/source/mayavi/tips.rst:201
 msgid ""
 "This creates the display \":1\" and creates a screen of size 1280x1024 with "
 "24 bpp (the 24bpp is important).  For more options check your ``Xvfb`` man "
@@ -302,21 +311,21 @@ msgstr ""
 "が作成され，1280x1024，24bppの画面が作成されます(24bppは重要です．)．その他のオプションについては， ``Xvfb`` "
 "のマニュアルページを参照してください．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:190
+#: ../../mayavi/docs/source/mayavi/tips.rst:205
 msgid "Export display to :1 like so (on bash)::"
 msgstr "次のように表示を(bashでの)1のようにエクスポートします"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:194
+#: ../../mayavi/docs/source/mayavi/tips.rst:209
 msgid ""
 "Now run your Mayavi script.  It should run uninterrupted on this X server "
 "and produce your saved images."
 msgstr "Mayaviスクリプトを実行します．このXサーバ上で中断なく実行され，保存されたイメージが生成されます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:197
+#: ../../mayavi/docs/source/mayavi/tips.rst:212
 msgid "This probably will have to be fine tuned to suit your taste."
 msgstr "これはおそらく，あなたの好みに合わせて微調整する必要があります．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:199
+#: ../../mayavi/docs/source/mayavi/tips.rst:214
 msgid ""
 "If you want to do this in python. You can use `pyvirtualdisplay "
 "<https://pypi.org/project/PyVirtualDisplay/>`_ ::"
@@ -324,7 +333,7 @@ msgstr ""
 "Pythonでこれを行いたい場合は， `pyvirtualdisplay "
 "<https://pypi.org/project/PyVirtualDisplay/>`_ が使えます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:206
+#: ../../mayavi/docs/source/mayavi/tips.rst:221
 msgid ""
 "Many Linux systems (including Ubuntu and Debian) ship with a helper script "
 "`xvfb-run` for running headless. The following command can run a Python "
@@ -333,7 +342,7 @@ msgstr ""
 "多くのLinuxシステム(UbuntuおよびDebianを含む)には，ヘッドレスで動作するためのヘルパースクリプト `xvfb-run` "
 "が付属しています．次のコマンドは，PythonスクリプトをMayavi2ビジュアライゼーションでヘッドレスで実行できます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:212
+#: ../../mayavi/docs/source/mayavi/tips.rst:227
 msgid ""
 "Beware that you shouldn't call `mlab.show` or start the mainloop in the "
 "script, elsewhere the script will run endlessly, waiting for interaction in "
@@ -342,7 +351,7 @@ msgstr ""
 "`mlab.show` "
 "を呼び出したり，スクリプトの中でメインループを起動したりしないように注意してください．そうしないと，スクリプトは無限に実行され，隠れたウィンドウでの対話を待ちます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:218
+#: ../../mayavi/docs/source/mayavi/tips.rst:233
 msgid ""
 "If you want to use Mayavi without the envisage UI or even a traits UI (i.e. "
 "with a pure TVTK window) and do off screen rendering with Python scripts you"
@@ -355,16 +364,16 @@ msgstr ""
 ":ref:`example_offscreen` に興味を持つかもしれません．この単純な例では，EnvisageまたはMayavi "
 "envisageアプリケーションを使用せずにMayaviを使用し，画面外のレンダリングを実行する方法を示します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:225
+#: ../../mayavi/docs/source/mayavi/tips.rst:240
 msgid ""
 "If you are using mlab, outside of the Mayavi2 application, simply set::"
 msgstr "Maya2アプリケーション以外でmlabを使用している場合は，次のように設定します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:231
+#: ../../mayavi/docs/source/mayavi/tips.rst:246
 msgid "Using VTK with Mesa for pure software rendering"
 msgstr "MesaでVTKを使用して純粋なソフトウェアレンダリングを行う"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:233
+#: ../../mayavi/docs/source/mayavi/tips.rst:248
 msgid ""
 "Sometimes you might want to run Mayavi/VTK completely headless on a machine "
 "with no X server at all and are interested in pure offscreen rendering (for "
@@ -376,7 +385,7 @@ msgstr ""
 "場合によっては，XサーバがまったくないマシンでMayavi/VTKを完全にヘッドレスで実行し，純粋なオフスクリーンレンダリング( Sage_ "
 "ノートブックインターフェイスでの使用例)に関心があることもあります．このような場合，MesaのOSMesaライブラリを使ってオフスクリーンでレンダリングすることができる．欠点は，この場合はハードウェアアクセラレーションを使用できないことです．ここでは，これを行うためのVTKのビルド方法を簡単に説明します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:240
+#: ../../mayavi/docs/source/mayavi/tips.rst:255
 msgid ""
 "Build a recent version of mesa.  7.0.4 (as of this time) should work as "
 "would 7.2.  We assume you download MesaLib-7.0.4.tar.bz2."
@@ -384,13 +393,13 @@ msgstr ""
 "最近のバージョンのmesaを作成します． 7.0.4 (現時点で)は7.2と同じように動作するはずです． "
 "MesaLib-7.0.4.tar.bz2をダウンロードしていると仮定します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:243
+#: ../../mayavi/docs/source/mayavi/tips.rst:258
 msgid ""
 "Untar, and change directory to the new directory created. We call this "
 "directory ``$MESA`` henceforth."
 msgstr "Untarを実行し，作成した新しいディレクトリに移動します．以降，このディレクトリを ``$MESA`` と呼びます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:246
+#: ../../mayavi/docs/source/mayavi/tips.rst:261
 msgid ""
 "Run ``make configs/linux-x86``,  change file as per your configuration. Run "
 "``make`` to see list of options.  Note: 7.2 has a ``./configure`` script "
@@ -399,35 +408,35 @@ msgstr ""
 "``make configs/linux-x86`` を実行し，設定に従ってファイルを変更します． ``make`` "
 "を実行してオプションのリストを表示します．注: 7.2には，実行可能な ``./configure`` スクリプトがあります．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:250
+#: ../../mayavi/docs/source/mayavi/tips.rst:265
 msgid "Get VTK-5.2 or later (CVS will also work).."
 msgstr "VTK-5.2以降を入手してください(CVSも動作します)．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:252
+#: ../../mayavi/docs/source/mayavi/tips.rst:267
 msgid "Run ``ccmake path/to/VTK``."
 msgstr "``ccmake path/to/VTK`` を実行します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:254
+#: ../../mayavi/docs/source/mayavi/tips.rst:269
 msgid "Now select advanced options 't'."
 msgstr "次に，詳細オプション 't' を選択します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:256
+#: ../../mayavi/docs/source/mayavi/tips.rst:271
 msgid "Set ``VTK_OPENGL_HAS_OSMESA ON``"
 msgstr "``VTK_OPENGL_HAS_OSMESA ON`` を設定します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:258
+#: ../../mayavi/docs/source/mayavi/tips.rst:273
 msgid "Configure: press 'c'"
 msgstr "設定: 'c' を押します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:260
+#: ../../mayavi/docs/source/mayavi/tips.rst:275
 msgid "Set the ``OSMESA_INCLUDE_DIR`` to the ``$MESA/include dir``"
 msgstr "``OSMESA_INCLUDE_DIR`` を ``$MESA/include dir`` に設定します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:262
+#: ../../mayavi/docs/source/mayavi/tips.rst:277
 msgid "Set ``OSMESA_LIBRARY`` to ``$MESA/lib/libOSMesa.so``"
 msgstr "``OSMESA_LIBRARY`` を ``$MESA/lib/libOSMesa.so`` に設定します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:264
+#: ../../mayavi/docs/source/mayavi/tips.rst:279
 msgid ""
 "Similarly set the ``OPENGL_INCLUDE_DIR``, "
 "``OPENGL_gl_LIBRARY=$MESA/lib/libGL.so``, ``OPENGL_glu_LIBRARY``, and "
@@ -436,7 +445,7 @@ msgstr ""
 "同様に ``OPENGL_INCLUDE_DIR`` ， ``OPENGL_gl_LIBRARY=$MESA/lib/libGL.so`` ， "
 "``OPENGL_glu_LIBRARY`` ， ``OPENGL_xmesa_INCLUDE_DIR`` を設定します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:268
+#: ../../mayavi/docs/source/mayavi/tips.rst:283
 msgid ""
 "Set ``VTK_USE_OFFSCREEN`` to ``ON`` if you want offscreen all the time, this"
 " will never produce an actual mapped VTK window since the default value of "
@@ -446,27 +455,27 @@ msgstr ""
 "常にオフスクリーンにする場合は ``VTK_USE_OFFSCREEN`` を ``ON`` "
 "に設定してください．この場合，レンダーウィンドウのオフスクリーンレンダリングのivarのデフォルト値がTrueに設定されるため，実際にマッピングされたVTKウィンドウが生成されることはありません．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:273
+#: ../../mayavi/docs/source/mayavi/tips.rst:288
 msgid "Any other settings like ``VTK_USE_GL2PS, USE_RPATH`` etc."
 msgstr "``VTK_USE_GL2PS, USE_RPATH`` などのその他の設定．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:275
+#: ../../mayavi/docs/source/mayavi/tips.rst:290
 msgid "Configure again (press 'c') and then generate 'g'."
 msgstr "再度( 'c' を押す)を設定し， 'g' を生成してください．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:278
+#: ../../mayavi/docs/source/mayavi/tips.rst:293
 msgid ""
 "Note that if you do not want to use ``ccmake`` and would like to do this "
 "from the command line you may also do (for example)::"
 msgstr "``ccmake`` を使いたくなくて，コマンドラインからこれを行いたいなら，以下のようにしても良いことに注意してください(例えば)"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:297
+#: ../../mayavi/docs/source/mayavi/tips.rst:312
 msgid ""
 "Run ``make`` and wait till VTK has built.  Let us say the build is in "
 "``$VTK_BUILD``."
 msgstr "``make`` を実行し，VTKがビルドされるまで待ちます．ビルドが ``$VTK_BUILD``にあるとします．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:300
+#: ../../mayavi/docs/source/mayavi/tips.rst:315
 msgid ""
 "Now install VTK or set the ``PYTHONPATH`` and ``LD_LIBRARY_PATH`` suitably."
 "  Also ensure that ``LD_LIBRARY_PATH`` points to ``$MESA/lib`` (if the mesa "
@@ -477,17 +486,17 @@ msgstr ""
 "``LD_LIBRARY_PATH`` が ``$MESA/lib`` "
 "(システムにmesaライブラリがインストールされていない場合)を指していることを確認します．これにより，VTKが正しいGLライブラリにリンクされていることが保証されます．次に例を示します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:308
+#: ../../mayavi/docs/source/mayavi/tips.rst:323
 msgid "Now, you should be all set."
 msgstr "これで準備は完了です．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:310
+#: ../../mayavi/docs/source/mayavi/tips.rst:325
 msgid ""
 "Once this is done you should be able to run mlab examples offscreen. This "
 "will work without an X display even."
 msgstr "これが完了すると，mlabの例を画面外で実行できるようになります．これはX表示なしでも動作します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:313
+#: ../../mayavi/docs/source/mayavi/tips.rst:328
 msgid ""
 "With such a VTK built and running, one could simply build and install "
 "mayavi2.  To use it in a Sage notebook for example you'd want to set "
@@ -498,7 +507,7 @@ msgstr ""
 "``ETS_TOOLKIT='null'`` と ``mlab.options.offscreen = True`` "
 "を設定します．これで，すべてが画面外で機能するようになります．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:318
+#: ../../mayavi/docs/source/mayavi/tips.rst:333
 msgid ""
 "Note that if you set ``VTK_USE_OFFSCREEN`` to ``ON`` then you'll by default "
 "only get offscreen contexts.  If you do want a UI you will want to "
@@ -511,11 +520,11 @@ msgstr ""
 " のivarを明示的に ``False`` に設定します．このため，完全なUIをポップアップ表示する必要がある場合は， "
 "``VTK_USE_OFFSCREEN=ON`` を設定しない方がよい場合があります．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:332
+#: ../../mayavi/docs/source/mayavi/tips.rst:347
 msgid "Extending Mayavi with customizations"
 msgstr "カスタマイズによるMayaviの拡張"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:334
+#: ../../mayavi/docs/source/mayavi/tips.rst:349
 msgid ""
 "A developer may wish to customize Mayavi by adding new sources, filters or "
 "modules.  These can be done by writing the respective filters and exposing "
@@ -529,7 +538,7 @@ msgstr ""
 "経由で公開することで実現できます．これを行うためのより柔軟で再利用可能なメカニズムは，以下の方法で本格的なMayavi "
 "contribパッケージを作ることです．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:341
+#: ../../mayavi/docs/source/mayavi/tips.rst:356
 msgid ""
 "Create a Python package, let's call it ``mv_iitb`` (for IIT Bombay specific "
 "extensions/customizations).  The directory structure of this package can be "
@@ -538,7 +547,7 @@ msgstr ""
 "Pythonパッケージを作成します．これを ``mv_iitb`` (IIT "
 "Bombay固有の拡張/カスタマイズ用)とします．このパッケージのディレクトリ構造は次のようになります．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:357
+#: ../../mayavi/docs/source/mayavi/tips.rst:372
 msgid ""
 "The two key points to note in the above are the fact that ``mv_iitb`` is a "
 "proper Python package (notice the ``__init__.py``) and the "
@@ -553,7 +562,7 @@ msgstr ""
 "がMayaviに新しいソース/フィルタ/モジュールなどを追加するファイルであるという事実です．構造の他の部分は開発者次第です．現時点では，これらのパッケージは新しいソース，フィルタ，モジュールを追加でき，"
 " ``mayavi2`` アプリケーションがロードするEnvisageプラグインを提供できます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:365
+#: ../../mayavi/docs/source/mayavi/tips.rst:380
 msgid ""
 "This package should then be installed somewhere on ``sys.path``. Once this "
 "is done, users can find these packages and enable them from the "
@@ -565,7 +574,7 @@ msgstr ""
 "Tools->Preferences (UIがパッケージを自動的に検出します．)からそれらを有効にすることができます．選択した各パッケージの "
 "``user_mayavi.py`` は，Mayaviの次回起動時にインポートされます．これは ``mlab`` からでも使用できます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:372
+#: ../../mayavi/docs/source/mayavi/tips.rst:387
 msgid ""
 "Any number of such packages may be created and distributed.  If they are "
 "installed, users can choose to enable them.  Internally, the list of "
@@ -577,7 +586,7 @@ msgstr ""
 " ``mayavi.contrib_packages`` "
 "設定オプションとして格納されます．次のコードは，Pythonスクリプトからこれにアクセスする方法を示しています．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:383
+#: ../../mayavi/docs/source/mayavi/tips.rst:398
 msgid ""
 "For more details on how best to write ``user_mayavi.py`` files and what you "
 "can do in them, please refer to the `examples/mayavi/user_mayavi.py`_ "
@@ -591,15 +600,15 @@ msgstr ""
 "``user_mayavi.py`` "
 "がソース/モジュール/フィルタを実装せず，メタデータのみを登録することを保証することは非常に良い考えです．これにより，循環インポートの問題を回避できます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:396
+#: ../../mayavi/docs/source/mayavi/tips.rst:411
 msgid "Customizing Mayavi2"
 msgstr "Mayavi2のカスタマイズ"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:398
+#: ../../mayavi/docs/source/mayavi/tips.rst:413
 msgid "There are three ways a user can customize Mayavi:"
 msgstr "Mayaviをカスタマイズするには，次の3つの方法があります．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:400
+#: ../../mayavi/docs/source/mayavi/tips.rst:415
 msgid ""
 "Via Mayavi contributions installed on the system.  This may be done by "
 "enabling any found contributions from the Tools->Preferences menu on the "
@@ -612,14 +621,14 @@ msgstr ""
 "メニューから検索結果を有効にします．選択したコントリビューションは，Mayaviの次回起動時にインポートされます．詳細については， `Extending"
 " Mayavi with customizations`_ セクションを参照してください．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:407
+#: ../../mayavi/docs/source/mayavi/tips.rst:422
 msgid ""
 "At a global, system wide level via a ``site_mayavi.py``.  This file is to be"
 " placed anywhere on ``sys.path``."
 msgstr ""
 "``site_mayavi.py`` を経由したグローバルなシステムレベルで，このファイルは ``sys.path`` のどこにでも置くことができます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:410
+#: ../../mayavi/docs/source/mayavi/tips.rst:425
 msgid ""
 "At a local, user level.  This is achieved by placing a ``user_mayavi.py`` in"
 " the users ``~/.mayavi2/`` directory.  If a ``~/.mayavi2/user_mayavi.py`` is"
@@ -629,13 +638,13 @@ msgstr ""
 "ディレクトリに置くことで達成されます． ``~/.mayavi2/user_mayavi.py`` が見つかった場合，ディレクトリは "
 "``sys.path`` に配置されます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:415
+#: ../../mayavi/docs/source/mayavi/tips.rst:430
 msgid ""
 "The files are similar in their content.  Two things may be done in this "
 "file:"
 msgstr "ファイルの内容は似ています．このファイルでは，次の2つのことを行うことができます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:418
+#: ../../mayavi/docs/source/mayavi/tips.rst:433
 msgid ""
 "Registering new sources, modules or filters in the Mayavi registry "
 "(``mayavi.core.registry.registry``).  This is done by registering metadata "
@@ -646,7 +655,7 @@ msgstr ""
 ")．これを行うには，新しいクラスのメタデータをレジストリに登録します．例については， "
 "``examples/mayavi/user_mayavi.py`` を参照してください．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:423
+#: ../../mayavi/docs/source/mayavi/tips.rst:438
 msgid ""
 "Adding additional envisage plugins to the mayavi2 application. This is done "
 "by defining a function called ``get_plugins()`` that returns a list of "
@@ -655,7 +664,7 @@ msgstr ""
 "mayavi2アプリケーションにenvenageプラグインを追加します．これは，mayavi2アプリケーションに追加するプラグインのリストを返す "
 "``get_plugins()`` という関数を定義することによって行います．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:429
+#: ../../mayavi/docs/source/mayavi/tips.rst:444
 msgid ""
 "The ``examples/mayavi/user_mayavi.py`` example documents and shows how this "
 "can be done.  To see it, copy the file to the ``~/.mayavi2`` directory.  If "
@@ -666,7 +675,7 @@ msgstr ""
 "の例はこれがどのように行われるかを記述し，示します．このファイルを表示するには，ファイルを ``~/.mayavi2`` "
 "ディレクトリにコピーします．ご使用のプラットフォームで ``~`` がどこにあるかわからない場合は，サンプルを実行するとディレクトリが出力されます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:436
+#: ../../mayavi/docs/source/mayavi/tips.rst:451
 msgid ""
 "In the ``user_mayavi.py`` or ``site_mayavi.py``, avoid Mayavi imports like  "
 "``from mayavi.modules.outline import Outline`` etc. This is because "
@@ -683,11 +692,11 @@ msgstr ""
 "には，ほとんどが文字列形式のメタデータのみが与えられますが，これは問題になりません．したがって，新しいモジュールを定義するには，別のモジュールで定義するか，提供されているサンプル"
 " ``user_mayavi.py`` のようにファクトリ関数で定義することを強くお勧めします．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:448
+#: ../../mayavi/docs/source/mayavi/tips.rst:463
 msgid "Scripting Mayavi without using Envisage"
 msgstr "Envisageを使用しないMayaviのスクリプティング"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:450
+#: ../../mayavi/docs/source/mayavi/tips.rst:465
 msgid ""
 "The :ref:`example_standalone` demonstrates how one can use the core Mayavi "
 "API without using Envisage.  This is useful when you want to minimize "
@@ -700,11 +709,11 @@ msgstr ""
 ":ref:`example_offscreen` "
 "は，想定されるUIや特性UI(すなわち純粋なTVTKウィンドウで)を使用せずにMayaviを使用する方法と，画面に表示されないレンダリングを実行する方法を示します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:457
+#: ../../mayavi/docs/source/mayavi/tips.rst:472
 msgid "Computing in a thread"
 msgstr "スレッドでの計算"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:459
+#: ../../mayavi/docs/source/mayavi/tips.rst:474
 msgid ""
 ":ref:`example_compute_in_thread` demonstrates how to visualize a 2D numpy "
 "array and visualize it as image data using a few modules.  It also shows how"
@@ -715,11 +724,11 @@ msgstr ""
 ":ref:`example_compute_in_thread` は2D "
 "numpy配列を可視化する方法と，いくつかのモジュールを使って画像データとして可視化する方法をデモしています．また，別のスレッドで計算を実行し，計算が完了したらMayaviパイプラインを更新する方法も示します．これにより，計算が別のスレッドで実行されるときに，ユーザーがユーザーインタフェースと対話できるようになります．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:468
+#: ../../mayavi/docs/source/mayavi/tips.rst:483
 msgid "Polling a file and auto-updating Mayavi"
 msgstr "ファイルをポーリングしてMayaviを自動更新する"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:470
+#: ../../mayavi/docs/source/mayavi/tips.rst:485
 msgid ""
 "Sometimes you have a separate computational process that generates data "
 "suitable for visualization.  You'd like Mayavi to visualize the data but "
@@ -733,11 +742,11 @@ msgstr ""
 " :ref:`example_poll_file` はこれを実証しています．動作を確認するには， ``examples/data/heart.vtk``"
 " データファイルのスカラーデータを編集する必要があります．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:480
+#: ../../mayavi/docs/source/mayavi/tips.rst:495
 msgid "Serving Mayavi on the network"
 msgstr "ネットワーク上でのMayaviの提供"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:484
+#: ../../mayavi/docs/source/mayavi/tips.rst:499
 msgid ""
 "Say you have a little visualization script and you'd like to run some kind "
 "of server where you can script the running Mayavi UI from a TCP/UDP "
@@ -747,7 +756,7 @@ msgstr ""
 "小さなビジュアル化スクリプトがあり，TCP/UDP接続から実行中のMayavi UIをスクリプト化できるサーバを実行したいとします． Twisted_ "
 "がインストールされていれば，これを行う簡単な方法があることがわかります．簡単な例を次に示します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:494
+#: ../../mayavi/docs/source/mayavi/tips.rst:509
 msgid ""
 "There is no need to call ``mlab.show()`` in the above.  The TCP server will "
 "listen on port 8007 by default in the above (this can be changed with "
@@ -763,7 +772,7 @@ msgstr ""
 "， ``scene`` ， ``camera`` ，および ``mlab`` "
 "という名前はすべて使用可能で，Pythonコードでスクリプト化できます．たとえば，上記のコマンドを実行した後，次のように実行できます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:511
+#: ../../mayavi/docs/source/mayavi/tips.rst:526
 msgid ""
 "The nice thing about this is that you do not loose any interactivity of the "
 "application and can continue to use its UI as before, any network commands "
@@ -774,25 +783,25 @@ msgstr ""
 "これの良いところは，アプリケーションの対話性を失うことなく，以前と同じようにUIを使い続けることができ，ネットワーク・コマンドはこの上で単純に実行されることです．UDPポートでサービスするには"
 " :func:`serve_udp` 機能を使います． ``server`` モジュールの詳細については，ソースコードを参照してください．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:518
+#: ../../mayavi/docs/source/mayavi/tips.rst:533
 msgid ""
 "While this is very powerful it is also a huge security hole since the remote"
 " user can do pretty much anything they want once connected to the server."
 msgstr "これは非常に強力ですが，リモートユーザはサーバに接続すればほとんど何でもできるので，大きなセキュリティホールにもなります．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:526
+#: ../../mayavi/docs/source/mayavi/tips.rst:541
 msgid "TCP server: the `serve_tcp` function"
 msgstr "TCPサーバ: `serve_tcp` 関数"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:538
+#: ../../mayavi/docs/source/mayavi/tips.rst:553
 msgid "UDP server: the `serve_udp` function"
 msgstr "UDPサーバ: `serve_udp` 関数"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:552
+#: ../../mayavi/docs/source/mayavi/tips.rst:567
 msgid "Animating a timeseries"
 msgstr "時系列のアニメーション"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:554
+#: ../../mayavi/docs/source/mayavi/tips.rst:569
 msgid ""
 "If a file that mayavi can load has the form ``some_name[0-9]*.ext``, then it"
 " is treated as part of a timeseries.  For example let us say you have the "
@@ -801,7 +810,7 @@ msgstr ""
 "mayaviがロードできるファイルの形式が ``some_name[0-9]*.ext`` "
 "である場合，それはタイムスライスの一部として扱われます．たとえば，次のファイルがあるとします．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:563
+#: ../../mayavi/docs/source/mayavi/tips.rst:578
 msgid ""
 "If one loads the file using Mayavi, a slider will show up on the file reader"
 " object which can be used to choose an appropriate timestep. There are also "
@@ -810,7 +819,7 @@ msgid ""
 msgstr ""
 "Mayaviを使用してファイルをロードすると，ファイルリーダオブジェクトにスライダが表示され，これを使用して適切なタイムステップを選択できます．タイムステップを自動的に変更するボタンもあります．これを行うには，再生チェックボックスをオンにします．これは，次のようにプログラムで実行することもできます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:573
+#: ../../mayavi/docs/source/mayavi/tips.rst:588
 msgid ""
 "Selecting the \"loop\" checkbox will loop over the files continuously. If "
 "you have multiple files that are part of a timeseries, you can choose the "
@@ -824,11 +833,11 @@ msgstr ""
 "オプションを選択できます．これにより，現在のリーダーと同じタイムステップ数を持つ他のファイルのすべてのタイムステップが同期されます． \"Rescan "
 "files\" ボタンをクリックすると，ディスク上のファイルが再スキャンされ，タイムスケールに含まれる新しいファイルが検索されます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:584
+#: ../../mayavi/docs/source/mayavi/tips.rst:599
 msgid "Animating a visualization"
 msgstr "ビジュアル化のアニメーション化"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:588
+#: ../../mayavi/docs/source/mayavi/tips.rst:603
 msgid ""
 "Often users like to animate visualization without affecting the interactive "
 "capabilities of the view.  For example you may want to rotate the camera "
@@ -840,7 +849,7 @@ msgstr ""
 "UIとの対話を続けながらスナップショットを撮るとします．これを行うには，Mayaviに用意されている非常に便利な :func:`animate` "
 "デコレータを使用できます．簡単な例を次に示します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:606
+#: ../../mayavi/docs/source/mayavi/tips.rst:621
 msgid ""
 "Notice the use of ``yield`` in the above, this is *very* crucial to this "
 "working.  This example will continuously rotate the camera without affecting"
@@ -852,13 +861,13 @@ msgstr ""
 "上記の ``yield`` の使用に注意してください，これはこの動作に *とても* "
 "重要です．この例では，UIのインタラクティブ性に影響を与えずに，カメラを連続的に回転させます．また，アニメーションの開始と停止，および関数の呼び出し間隔の変更を行うための小さなUIも表示されます．より専門的に使用するために，引数をデコレータに渡すことができます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:620
+#: ../../mayavi/docs/source/mayavi/tips.rst:635
 msgid ""
 "If you don't want to import all of ``mlab``, the animate decorator is "
 "available from::"
 msgstr "すべての ``mlab`` をインポートしたくない場合は，animateデコレータを次の場所から利用できます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:625
+#: ../../mayavi/docs/source/mayavi/tips.rst:640
 msgid ""
 "Note that to start the event loop, *i.e.* to get the animation running, you "
 "will need to call :func:`show` if you do not already have a GUI environment "
@@ -867,11 +876,11 @@ msgstr ""
 "イベントループを開始する， *つまり* アニメーションを実行するには，GUI環境をまだ実行していない場合に :func:`show` "
 "を呼び出す必要があることに注意してください．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:629
+#: ../../mayavi/docs/source/mayavi/tips.rst:644
 msgid "Here is another example illustrating the use of the decorator::"
 msgstr "次にデコレータの使用例を示します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:647
+#: ../../mayavi/docs/source/mayavi/tips.rst:662
 msgid ""
 "For more details check the documentation of the :func:`animate` decorator "
 "available in the :ref:`mlab-reference`. For an example using it, alongside "
@@ -882,17 +891,17 @@ msgstr ""
 "デコレータのドキュメントを参照してください．このデコレータをオブジェクト移動アニメーションに便利な `visual` とともに使用する例については，  "
 ":ref:`example_mlab_visual` を参照してください．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:654
+#: ../../mayavi/docs/source/mayavi/tips.rst:669
 msgid ""
 "If you want to change the data of an object in an animation, see :ref:`mlab-"
 "animating-data`"
 msgstr "アニメーション内のオブジェクトのデータを変更する場合は， :ref:`mlab-animating-data` を参照してください．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:659
+#: ../../mayavi/docs/source/mayavi/tips.rst:674
 msgid "Creating a movie from an animation"
 msgstr "アニメーションからのムービーの作成"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:661
+#: ../../mayavi/docs/source/mayavi/tips.rst:676
 msgid ""
 "It is easy to create a movie from either an animation or by playing a "
 "timeseries.  To do this on the UI, select the Mayavi Scene and navigate to "
@@ -908,11 +917,11 @@ msgstr ""
 "チェックボックスを使用してタイムステップをアニメートすると，ムービーUIで指定されているディレクトリにイメージのスタックが作成されます．これは， "
 ":ref:`animating_a_visualization` で説明されているようにアニメーションを実行する場合にも発生します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:669
+#: ../../mayavi/docs/source/mayavi/tips.rst:684
 msgid "This can also be scripted with mlab for example as follows::"
 msgstr "たとえば，次のようにmlabを使用してスクリプトを作成することもできます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:676
+#: ../../mayavi/docs/source/mayavi/tips.rst:691
 msgid ""
 "This will create a set of images, one for each step of the animation. The "
 "``movie_maker`` instance is available on each created scene."
@@ -920,11 +929,11 @@ msgstr ""
 "これにより，アニメーションの各ステップに1つずつ，イメージのセットが作成されます． ``movie_maker`` "
 "インスタンスは，作成した各シーンで使用できます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:681
+#: ../../mayavi/docs/source/mayavi/tips.rst:696
 msgid "Animating a series of images"
 msgstr "一連のイメージをアニメートする"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:683
+#: ../../mayavi/docs/source/mayavi/tips.rst:698
 msgid ""
 "Let's say you have a stack of PNG or JPEG files that are numbered serially "
 "that you want to animate on a Mayavi scene.  Here is a simple script (called"
@@ -933,7 +942,7 @@ msgstr ""
 "Mayaviシーンでアニメートする一連の番号付きPNGまたはJPEGファイルがあるとします．簡単なスクリプトを次に示します( "
 "``img_movie.py`` と呼ばれています)．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:701
+#: ../../mayavi/docs/source/mayavi/tips.rst:716
 msgid ""
 "The ``Timer`` class lets you call a function without blocking the running "
 "user interface.  The first argument is the time after which the function is "
@@ -947,15 +956,15 @@ msgstr ""
 " ``animate`` "
 "関数はジェネレータであり，ソースのタイムステップを変更します．このスクリプトは，イメージのスタックを10回アニメートします．スクリプトでは，デフォルトで最初のデータ・ソースがアニメーション化されます．これは簡単に変更できます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:708
+#: ../../mayavi/docs/source/mayavi/tips.rst:723
 msgid "To use this script do this::"
 msgstr "このスクリプトを使用するには，次の操作を行います．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:714
+#: ../../mayavi/docs/source/mayavi/tips.rst:729
 msgid "Making movies from a stack of images"
 msgstr "画像のスタックからムービーを作成します"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:716
+#: ../../mayavi/docs/source/mayavi/tips.rst:731
 msgid ""
 "This isn't really related to Mayavi but is a useful trick nonetheless. Let's"
 " say you generate a stack of images using Mayavi say of the form "
@@ -966,15 +975,15 @@ msgstr ""
 " ``anim001.png`` など)という形式のMayaviコマンドを使用してイメージのスタックを生成すると，これをムービーにすることができます． "
 "``mencoder`` がインストールされている場合は，次の操作を試してください．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:725
+#: ../../mayavi/docs/source/mayavi/tips.rst:740
 msgid "If you have ffmpeg installed you may try this::"
 msgstr "ffmpegがインストールされている場合は，以下を試してみてください．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:734
+#: ../../mayavi/docs/source/mayavi/tips.rst:749
 msgid "Scripting from the command line"
 msgstr "コマンドラインからのスクリプティング"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:736
+#: ../../mayavi/docs/source/mayavi/tips.rst:751
 msgid ""
 "The Mayavi application allows for very powerful :ref:`command-line-"
 "arguments` that lets you build a complex visualization from your shell.  "
@@ -983,13 +992,13 @@ msgstr ""
 "Mayaviアプリケーションでは，シェルから複雑なビジュアライゼーションを構築できる非常に強力な :ref:`command-line-"
 "arguments` が可能です．以下に，これらを説明する簡単な例を示します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:741
+#: ../../mayavi/docs/source/mayavi/tips.rst:756
 msgid ""
 "The following example creates a ``ParametricSurface`` source and then "
 "visualizes glyphs on its surface colored red::"
 msgstr "次の例では， ``ParametricSurface`` ソースを作成し，サーフェス上の赤のグリフを表示します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:749
+#: ../../mayavi/docs/source/mayavi/tips.rst:764
 msgid ""
 "Note that ``-s\"string\"`` applies the string on the last object (also "
 "available as ``last_obj``), which is the glyph."
@@ -997,21 +1006,21 @@ msgstr ""
 "``-s\"string\"`` はグリフである最後のオブジェクト( ``last_obj`` "
 "としても利用可能)に文字列を適用することに注意してください．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:752
+#: ../../mayavi/docs/source/mayavi/tips.rst:767
 msgid ""
 "This example turns off coloring of the glyph and changes the glyph to "
 "display::"
 msgstr "次の例では，Glyphのカラーリングをオフにし，表示するGlyphを変更します"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:760
+#: ../../mayavi/docs/source/mayavi/tips.rst:775
 msgid "Note the use of ``last_obj`` in the above."
 msgstr "上記の ``last_obj`` の使い方に注意してください．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:764
+#: ../../mayavi/docs/source/mayavi/tips.rst:779
 msgid "Texture mapping actors"
 msgstr "テクスチャマッピングアクター"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:766
+#: ../../mayavi/docs/source/mayavi/tips.rst:781
 msgid ""
 "Here is a simple example showing how to texture map an iso-surface with the "
 "data that ships with the Mayavi sources (the data files are in the examples "
@@ -1019,7 +1028,7 @@ msgid ""
 msgstr ""
 "以下は，Mayaviソースに付属するデータ(データファイルはexamplesディレクトリにあります)を使用してアイソサーフェスをテクスチャマッピングする方法を示す簡単な例です．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:778
+#: ../../mayavi/docs/source/mayavi/tips.rst:793
 msgid ""
 "It should be relatively straightforward to change this example to use a "
 "``ParametricSurface`` instead and any other image of your choice. Notice how"
@@ -1032,11 +1041,11 @@ msgstr ""
 ")がどのように設定されているかに注目してください．イメージリーダは現在のシーンの最初の子であり，これをisosurfaceアクターの "
 "``texture_source_object`` として設定します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:786
+#: ../../mayavi/docs/source/mayavi/tips.rst:801
 msgid "Shifting data and plotting"
 msgstr "データのシフトとプロット"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:788
+#: ../../mayavi/docs/source/mayavi/tips.rst:803
 msgid ""
 "Sometimes you need to shift/transform your input data in space and visualize"
 " that in addition to the original data.  This is useful when you'd like to "
@@ -1050,7 +1059,7 @@ msgstr ""
 "``TransformData`` フィルタを使用してMayaviで実行できます．``ParametricSurface`` "
 "データソースを使用した例を次に示します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:801
+#: ../../mayavi/docs/source/mayavi/tips.rst:816
 msgid ""
 "If you have an ``ImageData`` dataset then you can change the origin, spacing"
 " and extents alone by using the ``ImageChangeInformation`` filter.  Here is "
@@ -1059,17 +1068,17 @@ msgstr ""
 "``ImageData`` データセットがある場合は， ``ImageChangeInformation`` "
 "フィルタを使用して，原点，間隔，範囲だけを変更できます．次に，標準のMayaviイメージデータを使用した簡単な例を示します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:814
+#: ../../mayavi/docs/source/mayavi/tips.rst:829
 msgid "Using the ``UserDefined`` filter"
 msgstr "``UserDefined`` フィルタの使用"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:816
+#: ../../mayavi/docs/source/mayavi/tips.rst:831
 msgid ""
 "The ``UserDefined`` filter in Mayavi lets you wrap around existing VTK "
 "filters easily.  Here are a few examples::"
 msgstr "Mayaviの``UserDefined`` フィルタを使用すると，既存のVTKフィルタを簡単にラップできます．次に例を示します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:828
+#: ../../mayavi/docs/source/mayavi/tips.rst:843
 msgid ""
 "This one uses a ``tvtk.GeometryFilter`` to perform extent based clipping of "
 "the parametric surface generated.  Note the specification of the ``-f "
@@ -1080,7 +1089,7 @@ msgstr ""
 "``-f UserDefined:GeometryFilter`` の仕様に注意してください．このデータは ``tvtk.CleanPolyData``"
 " フィルタを使用して消去されます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:833
+#: ../../mayavi/docs/source/mayavi/tips.rst:848
 msgid ""
 "Under :ref:`mlab <simple-scripting-with-mlab>`, the `Userdefined` can be "
 "used to wrap eg a `GeometryFilter` VTK filter with::"
@@ -1088,7 +1097,7 @@ msgstr ""
 ":ref:`mlab <simple-scripting-with-mlab>` の下で `Userdefined` を使用すると，例えば "
 "`GeometryFilter` VTKフィルタを次のようにラップすることができます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:838
+#: ../../mayavi/docs/source/mayavi/tips.rst:853
 msgid ""
 "With :ref:`mlab <simple-scripting-with-mlab>`, the `user_defined` function "
 "can either take as a filter argument the name of the VTK filter to be used, "
@@ -1097,7 +1106,7 @@ msgstr ""
 ":ref:`mlab <simple-scripting-with-mlab>` の場合， `user_defined` "
 "関数は，使用されるVTKフィルタの名前をフィルタ引数として取ることも，すでにインスタンス化されているフィルタのインスタンスを取ることもできます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:844
+#: ../../mayavi/docs/source/mayavi/tips.rst:859
 msgid ""
 "With the `UserDefined` filter, as with most Mayavi filter, the raw TVTK "
 "object can be accessed as the `filter` attribute of the Mayavi filter "
@@ -1106,7 +1115,7 @@ msgstr ""
 "`UserDefined` フィルタを使用すると，ほとんどのMayaviフィルタと同様に，生のTVTKオブジェクトにMayaviフィルタオブジェクトの "
 "`filter` アトリビュートとしてアクセスできます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:848
+#: ../../mayavi/docs/source/mayavi/tips.rst:863
 msgid ""
 "The :ref:`example_image_cursor_filter` gives a full example of using the "
 "UserDefined filter. The :ref:`example_tvtk_segmentation` is a full example "
@@ -1117,11 +1126,11 @@ msgstr ""
 ":ref:`example_tvtk_segmentation` "
 "は，UserDefinedフィルタを多用して複雑なVTKパイプラインを構築する完全な例です．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:856
+#: ../../mayavi/docs/source/mayavi/tips.rst:871
 msgid "Sharing the same data between scenes"
 msgstr "シーン間での同じデータの共有"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:858
+#: ../../mayavi/docs/source/mayavi/tips.rst:873
 msgid ""
 "If you want to display different views of the same data on different, you "
 "will have to create different Mayavi data sources, as a data source can "
@@ -1134,11 +1143,11 @@ msgstr ""
 "同じデータを異なるビューに表示する場合は，データソースが1つのシーンに属することができるため，異なるMayaviデータソースを作成する必要があります．ただし，データをコピーしたり，ソースを最初から再作成したりする必要はありません．コツは，同じ基本VTKデータセットを指す別のMayaviデータソースを作成し，それを別のシーン(MayaviソースとVTKデータセットの違いについては"
 " :ref:`data-structures-used-by-mayavi` を参照してください．)にアタッチすることです．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:867
+#: ../../mayavi/docs/source/mayavi/tips.rst:882
 msgid "Using mlab"
 msgstr "mlabの使用"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:869
+#: ../../mayavi/docs/source/mayavi/tips.rst:884
 msgid ""
 "Every visualization object returned by :ref:`mlab <simple-scripting-with-"
 "mlab>` has a `mlab_source` attribute, which exposes the VTK dataset as "
@@ -1154,14 +1163,14 @@ msgstr ""
 "関数は生のVTKデータセットの使い方を知っています．したがって，新しい図でデータセットを公開するには，mlabによって作成された視覚化オブジェクトの "
 "`mlab_source.dataset` 属性を `mlab.pipeline` 関数に渡すだけで済みます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:884
+#: ../../mayavi/docs/source/mayavi/tips.rst:899
 msgid ""
 "The above example creates two figures displaying the same data, one with "
 "iso-surfaces, and the other with an image plane widget."
 msgstr ""
 "上の例では，同じデータを表示する2つのフィギュアを作成します．1つはアイソサーフェスを使用し，もう1つはイメージプレーンウィジェットを使用します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:887
+#: ../../mayavi/docs/source/mayavi/tips.rst:902
 msgid ""
 "Alternatively, it can be useful to be explicit about the figure that the new"
 " module is added onto, rather than using the `mlab` current figure. This is "
@@ -1172,7 +1181,7 @@ msgstr ""
 "あるいは， `mlab` "
 "の現在の図を使用するよりも，新しいモジュールが追加された図について明示することが有用である可能性があります．これは，現在の数字が明確でないスクリプトではなく対話型アプリケーションなどの状況でコードを読みやすくするために重要です．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:896
+#: ../../mayavi/docs/source/mayavi/tips.rst:911
 msgid ""
 "The :ref:`example_volume_slicer` shows a complex dialog exposing the same "
 "data through different views via `mlab.pipeline`."
@@ -1180,11 +1189,11 @@ msgstr ""
 ":ref:`example_volume_slicer` は， `mlab.pipeline` "
 "を介して異なるビューを通して同じデータを公開する複雑なダイアログを示します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:900
+#: ../../mayavi/docs/source/mayavi/tips.rst:915
 msgid "Using the core Mayavi API"
 msgstr "コアMayavi APIの使用"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:902
+#: ../../mayavi/docs/source/mayavi/tips.rst:917
 msgid ""
 "You can also do this fully explicitly by creating the objects yourself "
 "through the Mayavi core api, and adding them to the pipeline, rather than "
@@ -1192,11 +1201,11 @@ msgid ""
 msgstr ""
 "また，ファクトリを使用する代わりに，MayaviコアAPIを使用してオブジェクトを自分で作成し，パイプラインに追加することで，これを完全に明示的に行うこともできます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:919
+#: ../../mayavi/docs/source/mayavi/tips.rst:934
 msgid "Changing the interaction with a scene"
 msgstr "シーンとのインタラクションの変更"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:921
+#: ../../mayavi/docs/source/mayavi/tips.rst:936
 msgid ""
 "The default 3D interaction with the scene (left click on the background "
 "rotates the scene, right click scales, middle click pans) is not suited for "
@@ -1209,7 +1218,7 @@ msgstr ""
 " 'x' 方向に見ているときなどに，移動を2Dに制限することができます．これを行うには，シーンの  `interactor_style` "
 "を変更します．Mayaviを2Dイメージビューアとして使用する例を次に示します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:936
+#: ../../mayavi/docs/source/mayavi/tips.rst:951
 msgid ""
 "Another useful interactor is the 'terrain' interactor, handy to have natural"
 " movement in scenes where you want the 'up' vector to be always pointing in "
@@ -1217,7 +1226,7 @@ msgid ""
 msgstr ""
 "もう1つの便利な相互作用子は 'terrain' 相互作用子で， 'up' ベクトルを常に 'z' 方向に向けたいシーンで自然な動きをするのに便利です．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:947
+#: ../../mayavi/docs/source/mayavi/tips.rst:962
 msgid ""
 "VTK has many different interactors. An easy way to list them is to display "
 "the VTK class browser (via the help menu, in the `mayavi2` application) and "
@@ -1228,11 +1237,11 @@ msgstr ""
 "アプリケーション)， \"Interactor\" を検索することです．もう1つのオプションは， `tvtk.InteractorStyle` "
 "でIpythonをタブ補完することです．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:956
+#: ../../mayavi/docs/source/mayavi/tips.rst:971
 msgid "Accelerating a Mayavi script"
 msgstr "Mayaviスクリプトの高速化"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:958
+#: ../../mayavi/docs/source/mayavi/tips.rst:973
 msgid ""
 "You've just created a nice Mayavi/mlab script and now want to generate an "
 "animation or a series of images.  You realize that it is way too slow "
@@ -1243,20 +1252,20 @@ msgstr ""
 "これでMayavi/mlabスクリプトが完成し，アニメーションまたは一連のイメージを生成することができました．イメージのレンダリングに時間がかかりすぎて，完了までに時間がかかることに気付くでしょう．レンダリングを高速化する簡単な方法は2つあります．"
 " ``obj`` が ``scene`` 属性を持つMayaviパイプラインオブジェクトであると仮定します．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:970
+#: ../../mayavi/docs/source/mayavi/tips.rst:985
 msgid ""
 "This will speed things up for complex visualizations sometimes by an order "
 "of magnitude."
 msgstr "これにより，複雑な視覚化の処理速度が1桁向上することがあります．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:973
+#: ../../mayavi/docs/source/mayavi/tips.rst:988
 msgid ""
 "While saving the visualization to an image you can speed up the image "
 "generation at the cost of loosing out on anti-aliasing by doing the "
 "following::"
 msgstr "ビジュアライゼーションをイメージに保存するときに，次の操作を行うと，アンチエイリアシングを犠牲にしてイメージ生成を高速化できます．"
 
-#: ../../mayavi/docs/source/mayavi/tips.rst:979
+#: ../../mayavi/docs/source/mayavi/tips.rst:994
 msgid ""
 "The default value is typically 8 and the rendered image will be nicely anti-"
 "aliased.  Setting it to zero will not produce too much difference in the "
