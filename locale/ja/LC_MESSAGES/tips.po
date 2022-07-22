@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-18 02:20+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,6 +47,10 @@ msgid ""
 "require a windowing system.  This option is essentially performs server-side"
 " rendering of the visualization."
 msgstr ""
+"JupyterノートブックにMayaviの可視化を埋め込むには3つの方法があります．最善の方法は，(これがデフォルトです．)バックエンドを使用することである．このバックエンドはMayavi"
+" 4.7 .0で初めて導入されました．このバックエンドを使用するには， ipywidgets_ と ipyevents_ "
+"packagesをインストールする必要があります．通常のMayavi "
+"UIウィンドウとほとんど同じように動作し，Mayavi/VTKの表示をサポートし，完全にインタラクティブです．このバックエンドはVTKのオフスクリーンサポートに依存しており，VTKの設定方法によってはウィンドウシステムが必要になることがあります．このオプションは，基本的に可視化のサーバーサイドレンダリングを実行します．"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:26
 msgid ""
@@ -57,6 +61,9 @@ msgid ""
 "usage is for a web-based notebook. This feature was first introduced in "
 "Mayavi-4.8.0."
 msgstr ""
+"もう一つの非常に強力なバックエンドは ``'itk'`` バックエンドで，クライアントサイドのアプローチ (WebGL "
+"を使用してブラウザ上でレンダリングします) を使用し，VTK のオフスクリーンサポートには依存しません． このためには itkwidgets_ "
+"パッケージがインストールされている必要があります．ウェブベースのノートブックが主な用途であれば，おそらくこれが最も便利なバックエンドでしょう．この機能はMayavi-4.8.0で初めて導入されました．"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:35
 msgid ""
@@ -64,6 +71,8 @@ msgid ""
 "here: "
 "https://github.com/enthought/mayavi/blob/master/examples/mayavi/mayavi_jupyter.ipynb"
 msgstr ""
+"ノートブックインターフェースを示す簡単なサンプルノートブックは，こちらで入手できます: "
+"https://github.com/enthought/mayavi/blob/master/examples/mayavi/mayavi_jupyter.ipynb"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:38
 msgid ""
@@ -71,6 +80,8 @@ msgid ""
 "which produces images that can be embedded in the notebook. These are static"
 " and not interactive and this too uses server-side rendering."
 msgstr ""
+"他にも2つのバックエンドがあり，最も単純なものは，ノートブックに埋め込むことができるイメージを生成する ``'png'`` "
+"バックエンドです．これらは静的でインタラクティブではなく，これもサーバーサイドレンダリングを使用しています．"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:43
 msgid ""
@@ -81,12 +92,16 @@ msgid ""
 "how to interact with the X3D scene, see here: "
 "http://www.x3dom.org/documentation/interaction/"
 msgstr ""
+"また，ノートブック上に X3D_ 要素を表示する ``'x3d'`` "
+"バックエンドも用意されています．X3D出力では完全にインタラクティブな3次元シーンが生成されますが，VTKのインタラクティブウィジェットはサポートされません．透明度やその他の高度な視覚化もサポートしていません．X3Dシーンの操作方法については，"
+" http://www.x3dom.org/documentation/interaction/ を参照してください．"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:50
 msgid ""
 "For the X3D backend, Mayavi ships with some javascript files that can be "
 "installed as::"
 msgstr ""
+"X3Dバックエンドのために，Mayaviはいくつかのjavascriptファイルを同梱しており，以下のようにインストールすることができます::"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:55
 msgid ""
@@ -120,6 +135,8 @@ msgid ""
 "One can call ``init_notebook`` multiple times if one wishes to change the "
 "backend between ``ipy``, ``itk``, ``png``, and ``x3d`` for some reason."
 msgstr ""
+"何らかの理由で ``ipy`` ， ``itk`` ， ``png`` ， ``x3d`` の間のバックエンドを変更したい場合， "
+"``init_notebook`` を複数回呼び出すことができます．"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:82
 msgid "There are several optional arguments to ``init_notebook``."
@@ -130,6 +147,8 @@ msgid ""
 "The first is the backend which defaults to ``'ipy'``, and can also be set to"
 " ``'itk'``, ``'x3d'`` or ``'png'``."
 msgstr ""
+"1つはバックエンドで，デフォルトは ``'ipy'`` で， ``'itk'`` ， ``'x3d'`` または ``'png'`` "
+"に設定することもできます．"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:86
 msgid ""

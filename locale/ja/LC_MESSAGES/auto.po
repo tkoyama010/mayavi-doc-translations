@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-18 02:20+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:2
 msgid "Mayavi 4.8.0"
-msgstr ""
+msgstr "Mayavi 4.8.0"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:4
 msgid ""
@@ -32,10 +32,13 @@ msgid ""
 "jupyter notebook support using entirely client-side rendering. This version "
 "also makes it possible to build and install Mayavi on headless servers."
 msgstr ""
+"このリリースでは，いくつかの便利な新機能が導入され，いくつかのバグが修正されました．主な機能は，完全にクライアントサイドのレンダリングを使用する "
+"jupyter notebook サポートのための itkwidgets_ "
+"バックエンドのサポートの追加です．また，このバージョンではヘッドレスサーバーでMayaviをビルドしてインストールできるようになりました．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:11
 msgid "8 pull requests were merged."
-msgstr ""
+msgstr "8個のpull requestがマージされました．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:13
 msgid ""
@@ -43,6 +46,8 @@ msgid ""
 "alphabetical order horiem (@yellowshippo), Mark Dickinson, Prabhu "
 "Ramachandran, and Tetsuo Koyama."
 msgstr ""
+"このリリースに貢献した以下の人々にアルファベット順に感謝します． horiem (@yellowshippo), Mark Dickinson, "
+"Prabhu Ramachandran, と Tetsuo Koyama."
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:18
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:165
@@ -70,6 +75,8 @@ msgid ""
 "28 Mar 2022 `#1139 <https://github.com/enthought/mayavi/pull/1139>`_ "
 "(prabhuramachandran)"
 msgstr ""
+"28 Mar 2022 `#1139 <https://github.com/enthought/mayavi/pull/1139>`_ "
+"(prabhuramachandran)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:21
 msgid ""
@@ -77,12 +84,14 @@ msgid ""
 " us to use Mayavi in a headless manner unlike the other backends which "
 "require offscreen support."
 msgstr ""
+"jupyterバックエンドをリファクタリングし， itkwidgets_ "
+"を使用するためのサポートを追加しました．これにより，オフスクリーンサポートを必要とする他のバックエンドとは異なり，Mayaviをヘッドレスで使用することができます．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:24
 msgid ""
 "Also issues with the test backend which is used for the new ``'itk'`` "
 "backend."
-msgstr ""
+msgstr "また，新しい ``'itk'`` バックエンドに使用されるテストバックエンドに関する問題もあります．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:29
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:64
@@ -112,52 +121,64 @@ msgid ""
 "11 Jul 2022 `#1159 <https://github.com/enthought/mayavi/pull/1159>`_ "
 "(prabhuramachandran)"
 msgstr ""
+"11 Jul 2022 `#1159 <https://github.com/enthought/mayavi/pull/1159>`_ "
+"(prabhuramachandran)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:32
 msgid "BUG: Temporary fix to build with VTK 9.2.0rc1"
-msgstr ""
+msgstr "BUG: VTK 9.2.0rc1 でビルドするための一時的な修正"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:35
 msgid ""
 "24 Feb 2022 `#1135 <https://github.com/enthought/mayavi/pull/1135>`_ "
 "(yellowshippo)"
 msgstr ""
+"24 Feb 2022 `#1135 <https://github.com/enthought/mayavi/pull/1135>`_ "
+"(yellowshippo)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:35
 msgid "Support VTK_LONG_LONG and VTK_UNSIGNED_LONG_LONG array handler."
-msgstr ""
+msgstr "VTK_LONG_LONG と VTK_UNSIGNED_LONG_LONG 配列ハンドラをサポートしました．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:38
 msgid ""
 "21 Feb 2022 `#1134 <https://github.com/enthought/mayavi/pull/1134>`_ "
 "(prabhuramachandran)"
 msgstr ""
+"21 Feb 2022 `#1134 <https://github.com/enthought/mayavi/pull/1134>`_ "
+"(prabhuramachandran)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:38
 msgid "Fix bug with cell_to_point_data filter."
-msgstr ""
+msgstr "cell_to_point_data フィルタのバグを修正．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:43
 msgid ""
 "18 Feb 2022 `#1133 <https://github.com/enthought/mayavi/pull/1133>`_ "
 "(prabhuramachandran)"
 msgstr ""
+"18 Feb 2022 `#1133 <https://github.com/enthought/mayavi/pull/1133>`_ "
+"(prabhuramachandran)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:41
 msgid ""
 "Fix headless build - Ensure that tests can run when toolkit is null. - Do "
 "not generate docs on build as this will fail on headless servers."
 msgstr ""
+"ヘッドレスビルドの修正 - toolkit が NULL のときにテストが実行できるようにしました． - "
+"ヘッドレスサーバーで失敗するため，ビルド時にドキュメントを生成しないようにしました．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:48
 msgid ""
 "08 Feb 2022 `#1131 <https://github.com/enthought/mayavi/pull/1131>`_ "
 "(mdickinson)"
 msgstr ""
+"08 Feb 2022 `#1131 <https://github.com/enthought/mayavi/pull/1131>`_ "
+"(mdickinson)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:46
 msgid "Use raw strings for generated docstrings"
-msgstr ""
+msgstr "生成されたdocstringに生の文字列を使用します"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:51
 msgid "Mayavi 4.7.4"
@@ -12163,6 +12184,8 @@ msgid ""
 "default width of the element height :int: suggested default height of the "
 "element local :bool: Use local copy of x3dom.js instead of online version."
 msgstr ""
+"backend :str: ('itk', 'ipy', 'x3d', 'png') のうちの1つ width :int: 要素の高さの推奨デフォルト幅"
+" height :int: 要素部分の推奨デフォルト高さ．オンラインバージョンではなく :bool: x3domのローカルコピーを使用します．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:169
 msgid "orientation_axes"
