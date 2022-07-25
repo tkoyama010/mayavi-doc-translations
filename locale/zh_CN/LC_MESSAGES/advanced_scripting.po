@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -88,7 +88,7 @@ msgid ""
 " this hierarchy in a graphical form."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/advanced_scripting.rstNone
+#: ../../mayavi/docs/source/mayavi/advanced_scripting.rst-1
 msgid "Illustration of the various objects in the Mayavi pipeline."
 msgstr ""
 

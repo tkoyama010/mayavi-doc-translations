@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr ""
 #: mayavi.core.ui.mayavi_scene.MayaviScene:1
 msgid ""
 "Bases: "
-":py:class:`pyface.base_toolkit.Toolkit.__call__.<locals>.Unimplemented`"
+":py:class:`~pyface.base_toolkit.Toolkit.__call__.<locals>.Unimplemented`"
 msgstr ""
 
 #: ../../mayavi/mayavi/core/ui/mayavi_scene.pydocstring of
@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../mayavi/mayavi/tools/mlab_scene_model.pydocstring of
 #: mayavi.tools.mlab_scene_model.MlabSceneModel:1
-msgid "Bases: :py:class:`tvtk.pyface.scene_model.SceneModel`"
+msgid "Bases: :py:class:`~tvtk.pyface.scene_model.SceneModel`"
 msgstr ""
 
 #: ../../mayavi/mayavi/tools/mlab_scene_model.pydocstring of
@@ -78,7 +78,7 @@ msgstr ""
 
 #: ../../mayavi/mayavi/core/ui/engine_view.pydocstring of
 #: mayavi.core.ui.engine_view.EngineView:1
-msgid "Bases: :py:class:`traits.has_traits.HasTraits`"
+msgid "Bases: :py:class:`~traits.has_traits.HasTraits`"
 msgstr ""
 
 #: ../../mayavi/mayavi/core/ui/engine_view.pydocstring of
@@ -86,16 +86,16 @@ msgstr ""
 msgid "A view displaying the engine's object tree."
 msgstr ""
 
-#: ../../mayavi/mayavi/core/ui/engine_view.pydocstring of
-#: mayavi.core.ui.engine_view.EngineView.default_traits_view:1
 #: ../../mayavi/mayavi/core/ui/engine_rich_view.pydocstring of
 #: mayavi.core.ui.engine_rich_view.EngineRichView.default_traits_view:1
+#: ../../mayavi/mayavi/core/ui/engine_view.pydocstring of
+#: mayavi.core.ui.engine_view.EngineView.default_traits_view:1
 msgid "The default traits view of the Engine View."
 msgstr ""
 
 #: ../../mayavi/mayavi/core/ui/engine_rich_view.pydocstring of
 #: mayavi.core.ui.engine_rich_view.EngineRichView:1
-msgid "Bases: :py:class:`mayavi.core.ui.engine_view.EngineView`"
+msgid "Bases: :py:class:`~mayavi.core.ui.engine_view.EngineView`"
 msgstr ""
 
 #: ../../mayavi/mayavi/core/ui/engine_rich_view.pydocstring of
@@ -124,26 +124,26 @@ msgstr ""
 msgid ":class:`Scene`"
 msgstr ""
 
-#: ../../mayavi/mayavi/core/scene.pydocstring of mayavi.core.scene.Scene:1
 #: ../../mayavi/mayavi/core/module_manager.pydocstring of
 #: mayavi.core.module_manager.ModuleManager:1
 #: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
 #: mayavi.core.pipeline_base.PipelineBase:1
-msgid "Bases: :py:class:`mayavi.core.base.Base`"
+#: ../../mayavi/mayavi/core/scene.pydocstring of mayavi.core.scene.Scene:1
+msgid "Bases: :py:class:`~mayavi.core.base.Base`"
 msgstr ""
 
 #: ../../mayavi/mayavi/core/scene.pydocstring of mayavi.core.scene.Scene:1
 msgid "The Mayavi scene class."
 msgstr ""
 
+#: ../../mayavi/mayavi/core/module.pydocstring of
+#: mayavi.core.module.Module.add_child:1
+#: ../../mayavi/mayavi/core/module_manager.pydocstring of
+#: mayavi.core.module_manager.ModuleManager.add_child:1
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.add_child:1
 #: ../../mayavi/mayavi/core/source.pydocstring of
 #: mayavi.core.source.Source.add_child:1
-#: ../../mayavi/mayavi/core/module_manager.pydocstring of
-#: mayavi.core.module_manager.ModuleManager.add_child:1
-#: ../../mayavi/mayavi/core/module.pydocstring of
-#: mayavi.core.module.Module.add_child:1
 msgid ""
 "This method intelligently adds a child to this object in the MayaVi "
 "pipeline."
@@ -229,50 +229,50 @@ msgstr ""
 msgid "Remove ourselves from the mayavi pipeline."
 msgstr ""
 
+#: ../../mayavi/mayavi/core/module_manager.pydocstring of
+#: mayavi.core.module_manager.ModuleManager.remove_child:1
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.remove_child:1
 #: ../../mayavi/mayavi/core/source.pydocstring of
 #: mayavi.core.source.Source.remove_child:1
-#: ../../mayavi/mayavi/core/module_manager.pydocstring of
-#: mayavi.core.module_manager.ModuleManager.remove_child:1
 msgid "Remove specified child from our children."
 msgstr ""
 
+#: ../../mayavi/mayavi/core/module_manager.pydocstring of
+#: mayavi.core.module_manager.ModuleManager.start:1
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.start:1 ../../mayavi/mayavi/core/source.pydocstring
 #: of mayavi.core.source.Source.start:1
-#: ../../mayavi/mayavi/core/module_manager.pydocstring of
-#: mayavi.core.module_manager.ModuleManager.start:1
 msgid "This is invoked when this object is added to the mayavi pipeline."
 msgstr ""
 
+#: ../../mayavi/mayavi/core/module.pydocstring of
+#: mayavi.core.module.Module.stop:1
+#: ../../mayavi/mayavi/core/module_manager.pydocstring of
+#: mayavi.core.module_manager.ModuleManager.stop:1
+#: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
+#: mayavi.core.pipeline_base.PipelineBase.stop:1
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.stop:1 ../../mayavi/mayavi/core/source.pydocstring
 #: of mayavi.core.source.Source.stop:1
-#: ../../mayavi/mayavi/core/module_manager.pydocstring of
-#: mayavi.core.module_manager.ModuleManager.stop:1
-#: ../../mayavi/mayavi/core/module.pydocstring of
-#: mayavi.core.module.Module.stop:1
-#: ../../mayavi/mayavi/core/pipeline_base.pydocstring of
-#: mayavi.core.pipeline_base.PipelineBase.stop:1
 msgid "Invoked when this object is removed from the mayavi pipeline."
 msgstr ""
 
+#: ../../mayavi/mayavi/core/module_manager.pydocstring of
+#: mayavi.core.module_manager.ModuleManager.tno_can_add:1
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.tno_can_add:1
 #: ../../mayavi/mayavi/core/source.pydocstring of
 #: mayavi.core.source.Source.tno_can_add:1
-#: ../../mayavi/mayavi/core/module_manager.pydocstring of
-#: mayavi.core.module_manager.ModuleManager.tno_can_add:1
 msgid "Returns whether a given object is droppable on the node."
 msgstr ""
 
+#: ../../mayavi/mayavi/core/module_manager.pydocstring of
+#: mayavi.core.module_manager.ModuleManager.tno_drop_object:1
 #: ../../mayavi/mayavi/core/scene.pydocstring of
 #: mayavi.core.scene.Scene.tno_drop_object:1
 #: ../../mayavi/mayavi/core/source.pydocstring of
 #: mayavi.core.source.Source.tno_drop_object:1
-#: ../../mayavi/mayavi/core/module_manager.pydocstring of
-#: mayavi.core.module_manager.ModuleManager.tno_drop_object:1
 msgid "Returns a droppable version of a specified object."
 msgstr ""
 
@@ -280,9 +280,9 @@ msgstr ""
 msgid ":class:`Source`"
 msgstr ""
 
-#: ../../mayavi/mayavi/core/source.pydocstring of mayavi.core.source.Source:1
 #: ../../mayavi/mayavi/core/module.pydocstring of mayavi.core.module.Module:1
-msgid "Bases: :py:class:`mayavi.core.pipeline_base.PipelineBase`"
+#: ../../mayavi/mayavi/core/source.pydocstring of mayavi.core.source.Source:1
+msgid "Bases: :py:class:`~mayavi.core.pipeline_base.PipelineBase`"
 msgstr ""
 
 #: ../../mayavi/mayavi/core/source.pydocstring of mayavi.core.source.Source:1
@@ -310,7 +310,7 @@ msgid ":class:`Filter`"
 msgstr ""
 
 #: ../../mayavi/mayavi/core/filter.pydocstring of mayavi.core.filter.Filter:1
-msgid "Bases: :py:class:`mayavi.core.source.Source`"
+msgid "Bases: :py:class:`~mayavi.core.source.Source`"
 msgstr ""
 
 #: ../../mayavi/mayavi/core/filter.pydocstring of mayavi.core.filter.Filter:1
@@ -534,7 +534,7 @@ msgid ":class:`Engine`"
 msgstr ""
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of mayavi.core.engine.Engine:1
-msgid "Bases: :py:class:`traits.has_traits.HasStrictTraits`"
+msgid "Bases: :py:class:`~traits.has_traits.HasStrictTraits`"
 msgstr ""
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of mayavi.core.engine.Engine:1
@@ -565,9 +565,9 @@ msgid ""
 msgstr ""
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
-#: mayavi.core.engine.Engine.add_scene:10
-#: ../../mayavi/mayavi/core/engine.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:10
+#: ../../mayavi/mayavi/core/engine.pydocstring of
+#: mayavi.core.engine.Engine.add_scene:10
 msgid "scene - `pyface.tvtk.scene.Scene`"
 msgstr ""
 

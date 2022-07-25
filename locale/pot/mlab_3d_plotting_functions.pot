@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,20 +37,6 @@ msgid "0D and 1D data"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
 msgid "<br>"
 msgstr ""
 
@@ -58,7 +44,6 @@ msgstr ""
 msgid "|points3d|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:51
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:51
 msgid "points3d"
 msgstr ""
@@ -71,7 +56,6 @@ msgstr ""
 msgid "|plot3d|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:48
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:48
 msgid "plot3d"
 msgstr ""
@@ -89,7 +73,6 @@ msgid "|imshow|"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:127
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:127
 msgid "imshow"
 msgstr ""
 
@@ -101,7 +84,6 @@ msgstr ""
 msgid "|surf|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:136
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:136
 msgid "surf"
 msgstr ""
@@ -115,7 +97,6 @@ msgid "|contour_surf|"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:130
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:130
 msgid "contour_surf"
 msgstr ""
 
@@ -127,7 +108,6 @@ msgstr ""
 msgid "|mesh|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:139
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:139
 msgid "mesh"
 msgstr ""
@@ -141,7 +121,6 @@ msgid "|barchart|"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:142
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:142
 msgid "barchart"
 msgstr ""
 
@@ -154,7 +133,6 @@ msgid "|triangular_mesh|"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:133
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:133
 msgid "triangular_mesh"
 msgstr ""
 
@@ -162,7 +140,7 @@ msgstr ""
 msgid ":func:`triangular_mesh` |hack| Plot a triangular mesh, fully specified by ``x``, ``y`` and ``z`` coordinates of its vertices, and the (n, 3) array of the indices of the triangles."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:None
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:-1
 msgid "Vertical scale of  :func:`surf` and :func:`contour_surf`"
 msgstr ""
 
@@ -170,7 +148,7 @@ msgstr ""
 msgid ":func:`surf` and :func:`contour_surf` can be used as 3D representation of 2D data. By default the z-axis is supposed to be in the same units as the x and y axis, but it can be auto-scaled to give a 2/3 aspect ratio. This behavior can be controlled by specifying the \"warp_scale='auto'\"."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:None
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:-1
 msgid "From data points to surfaces."
 msgstr ""
 
@@ -187,7 +165,6 @@ msgid "|contour3d|"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:182
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:182
 msgid "contour3d"
 msgstr ""
 
@@ -199,7 +176,6 @@ msgstr ""
 msgid "|quiver3d|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:185
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:185
 msgid "quiver3d"
 msgstr ""
@@ -213,7 +189,6 @@ msgid "|flow|"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:188
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:188
 msgid "flow"
 msgstr ""
 
@@ -226,7 +201,6 @@ msgid "|slice|"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:191
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:191
 msgid "slice"
 msgstr ""
 
@@ -234,7 +208,7 @@ msgstr ""
 msgid ":func:`volume_slice` |hack| Plots an interactive image plane sliced through volumetric data."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:None
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:-1
 msgid "Structured or unstructured data"
 msgstr ""
 

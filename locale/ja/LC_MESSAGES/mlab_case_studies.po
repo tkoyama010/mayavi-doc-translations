@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -50,7 +50,6 @@ msgid "|volumetric_contour3d|"
 msgstr "|volumetric_contour3d|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:121
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:121
 msgid "volumetric_contour3d"
 msgstr "volumetric_contour3d"
 
@@ -78,7 +77,6 @@ msgid "|volumetric_volume|"
 msgstr "|volumetric_volume|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:123
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:123
 msgid "volumetric_volume"
 msgstr "volumetric_volume"
 
@@ -95,7 +93,6 @@ msgstr ""
 msgid "|volumetric_volume_tweaked|"
 msgstr "|volumetric_volume_tweaked|"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:125
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:125
 msgid "volumetric_volume_tweaked"
 msgstr "volumetric_volume_tweaked"
@@ -140,7 +137,6 @@ msgid "|volumetric_cut_plane|"
 msgstr "|volumetric_cut_plane|"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:127
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:127
 msgid "volumetric_cut_plane"
 msgstr "volumetric_cut_plane"
 
@@ -160,7 +156,6 @@ msgid ""
 msgstr "切断面をクリックしてドラッグすると，フィールドを効率的に表示できます．"
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "A combination of techniques"
 msgstr "技術の組み合わせ"
 
@@ -177,7 +172,6 @@ msgstr ""
 msgid "|volumetric_combination|"
 msgstr "|volumetric_combination|"
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:129
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:129
 msgid "volumetric_combination"
 msgstr "volumetric_combination"

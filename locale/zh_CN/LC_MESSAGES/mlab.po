@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "``mlab``: Python scripting for 3D plotting"
 msgstr "mlab：用Python脚本进行3D绘图"
 
-#: ../../mayavi/docs/source/mayavi/mlab.rstNone
+#: ../../mayavi/docs/source/mayavi/mlab.rst-1
 msgid "Section summary"
 msgstr "分节概述"
 
@@ -189,20 +189,6 @@ msgid "0D and 1D data"
 msgstr "0D数据 和 1D数据"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
 msgid "<br>"
 msgstr "<br>"
 
@@ -210,7 +196,6 @@ msgstr "<br>"
 msgid "|points3d|"
 msgstr "points3d 方法"
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:51
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:51
 msgid "points3d"
 msgstr ""
@@ -228,7 +213,6 @@ msgstr ""
 msgid "|plot3d|"
 msgstr "plot3d 方法"
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:48
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:48
 msgid "plot3d"
 msgstr ""
@@ -248,7 +232,6 @@ msgid "|imshow|"
 msgstr "imshow方法"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:127
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:127
 msgid "imshow"
 msgstr ""
 
@@ -260,7 +243,6 @@ msgstr "imshow 可以将2D数组可视化成一张图像。"
 msgid "|surf|"
 msgstr "surf 方法"
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:136
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:136
 msgid "surf"
 msgstr ""
@@ -276,7 +258,6 @@ msgid "|contour_surf|"
 msgstr "contour_surf 方法"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:130
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:130
 msgid "contour_surf"
 msgstr ""
 
@@ -290,7 +271,6 @@ msgstr "`contour_surf`将使用2D数组绘制等高线，并用一个坐标表�
 msgid "|mesh|"
 msgstr "mesh 方法"
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:139
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:139
 msgid "mesh"
 msgstr ""
@@ -313,7 +293,6 @@ msgid "|barchart|"
 msgstr "barchart方法"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:142
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:142
 msgid "barchart"
 msgstr ""
 
@@ -331,7 +310,6 @@ msgid "|triangular_mesh|"
 msgstr "triangular_mesh 方法"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:133
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:133
 msgid "triangular_mesh"
 msgstr ""
 
@@ -342,7 +320,7 @@ msgid ""
 "the indices of the triangles."
 msgstr "triangular_mesh 用于绘制三角形网格，其顶点由``x``, ``y``,``z``坐标给定，坐标的维度为 (n, 3)。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rstNone
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst-1
 msgid "Vertical scale of  :func:`surf` and :func:`contour_surf`"
 msgstr ""
 
@@ -354,7 +332,7 @@ msgid ""
 "behavior can be controlled by specifying the \"warp_scale='auto'\"."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rstNone
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst-1
 msgid "From data points to surfaces."
 msgstr "从点构建面。"
 
@@ -384,7 +362,6 @@ msgid "|contour3d|"
 msgstr "coutour3d方法"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:182
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:182
 msgid "contour3d"
 msgstr ""
 
@@ -398,7 +375,6 @@ msgstr "`contour3d` 方法用于绘制3D体数据的等值面。"
 msgid "|quiver3d|"
 msgstr "quiver3d 方法"
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:185
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:185
 msgid "quiver3d"
 msgstr ""
@@ -417,7 +393,6 @@ msgid "|flow|"
 msgstr "flow 方法"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:188
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:188
 msgid "flow"
 msgstr ""
 
@@ -433,7 +408,6 @@ msgid "|slice|"
 msgstr "slice 方法"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:191
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:191
 msgid "slice"
 msgstr ""
 
@@ -445,7 +419,7 @@ msgstr ""
 "volume_slice 方法用于绘制一个可交互的平面，它可以对体数据进行切片。\n"
 "译者注：volume_slice 更多是一种可视化的辅助手段，如医学影像，体数据核磁等的可视化，生成一个可灵活控制的组织切面方便观察。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rstNone
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst-1
 msgid "Structured or unstructured data"
 msgstr "结构化与非结构化的数据"
 
@@ -653,7 +627,7 @@ msgid ""
 "or through the right-click menus on the objects in the pipeline."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rstNone
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst-1
 msgid "The record feature"
 msgstr "录制功能"
 
@@ -679,7 +653,7 @@ msgstr ""
 "除此之外，每一个生成的对象都会有返回值，它将返回mlab函数。``this_object.edit_traits()``将启动一个对话框，您可以用交互的方式对对象的属性进行编辑。如果您没能成功开启对话框，请参考`running-"
 "mlab-scripts`。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rstNone
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst-1
 msgid "Using ``mlab`` with the full Envisage UI"
 msgstr "使用Envisage界面的mlab"
 
@@ -780,7 +754,7 @@ msgid ""
 "view point obtained interactively can be stored and reset using::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rstNone
+#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst-1
 msgid "Rotating the camera around itself"
 msgstr ""
 
@@ -796,7 +770,7 @@ msgid ""
 "incremental, and not absolute."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rstNone
+#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst-1
 msgid "Modifying zoom and view angle"
 msgstr ""
 
@@ -926,7 +900,7 @@ msgstr "wx：使用wxPython"
 msgid "`null`: to use no UI toolkit."
 msgstr "`null`:使用无界面的工具箱"
 
-#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rstNone
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst-1
 msgid "Capturing mlab plots to integrate in pylab"
 msgstr "将mlab绘图集成到pylab中"
 
@@ -1277,7 +1251,6 @@ msgid "|volumetric_contour3d|"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:121
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:121
 msgid "volumetric_contour3d"
 msgstr ""
 
@@ -1303,7 +1276,6 @@ msgid "|volumetric_volume|"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:123
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:123
 msgid "volumetric_volume"
 msgstr ""
 
@@ -1319,7 +1291,6 @@ msgstr ""
 msgid "|volumetric_volume_tweaked|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:125
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:125
 msgid "volumetric_volume_tweaked"
 msgstr ""
@@ -1360,7 +1331,6 @@ msgid "|volumetric_cut_plane|"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:127
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:127
 msgid "volumetric_cut_plane"
 msgstr ""
 
@@ -1378,7 +1348,6 @@ msgid ""
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "A combination of techniques"
 msgstr ""
 
@@ -1394,7 +1363,6 @@ msgstr ""
 msgid "|volumetric_combination|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:129
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:129
 msgid "volumetric_combination"
 msgstr ""

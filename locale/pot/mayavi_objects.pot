@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -357,7 +357,7 @@ msgstr ""
 msgid "defined in the ``mayavi.core.null_engine`` module. With this engine, visualization objects are not added to a scene, and thus cannot be rendered. This engine is useful for testing and pure-data handling use of Mayavi's data structures."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:None
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:-1
 msgid "The ``Engine`` object."
 msgstr ""
 
@@ -433,7 +433,7 @@ msgstr ""
 msgid "The following figures show the class hierarchy of the various objects involved."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:None
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:-1
 msgid "Basic object hierarchy"
 msgstr ""
 
@@ -441,7 +441,7 @@ msgstr ""
 msgid "*This hierarchy depicts the ``Base`` object, the ``Scene``, ``PipelineBase`` and the ``ModuleManager``.*"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:None
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:-1
 msgid "More object hierarchy"
 msgstr ""
 

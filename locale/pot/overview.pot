@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "An overview of Mayavi"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/overview.rst:None
+#: ../../mayavi/docs/source/mayavi/overview.rst:-1
 msgid "Section summary"
 msgstr ""
 
@@ -201,16 +201,13 @@ msgid "|volumetric_cut_plane| |volumetric_contour3d| |volumetric_volume_tweaked|
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:189
-#: ../../mayavi/docs/source/mayavi/overview.rst:189
 msgid "volumetric_cut_plane"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:185
-#: ../../mayavi/docs/source/mayavi/overview.rst:185
 msgid "volumetric_contour3d"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/overview.rst:187
 #: ../../mayavi/docs/source/mayavi/overview.rst:187
 msgid "volumetric_volume_tweaked"
 msgstr ""

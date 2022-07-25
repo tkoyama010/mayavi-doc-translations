@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -474,7 +474,7 @@ msgstr ""
 "``mayavi.core.null_engine`` "
 "モジュールです．このエンジンでは，ビジュアル化オブジェクトはシーンに追加されないため，レンダリングできません．このエンジンは，Mayaviのデータ構造のテストおよび純粋なデータ処理に便利です．"
 
-#: ../../mayavi/docs/source/mayavi/mayavi_objects.rstNone
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst-1
 msgid "The ``Engine`` object."
 msgstr "``Engine`` オブジェクト．"
 
@@ -573,7 +573,7 @@ msgid ""
 "involved."
 msgstr "次の図は，関連するさまざまなオブジェクトのクラス階層を示しています．"
 
-#: ../../mayavi/docs/source/mayavi/mayavi_objects.rstNone
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst-1
 msgid "Basic object hierarchy"
 msgstr "基本オブジェクト階層"
 
@@ -585,7 +585,7 @@ msgstr ""
 "*この階層は， ``Base`` オブジェクト， ``Scene`` ，``PipelineBase``  ，および ``ModuleManager``"
 " を表します．*"
 
-#: ../../mayavi/docs/source/mayavi/mayavi_objects.rstNone
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst-1
 msgid "More object hierarchy"
 msgstr "その他のオブジェクト階層"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,6 @@ msgid "|volumetric_contour3d|"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:121
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:121
 msgid "volumetric_contour3d"
 msgstr ""
 
@@ -62,7 +61,6 @@ msgid "|volumetric_volume|"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:123
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:123
 msgid "volumetric_volume"
 msgstr ""
 
@@ -74,7 +72,6 @@ msgstr ""
 msgid "|volumetric_volume_tweaked|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:125
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:125
 msgid "volumetric_volume_tweaked"
 msgstr ""
@@ -104,7 +101,6 @@ msgid "|volumetric_cut_plane|"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:127
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:127
 msgid "volumetric_cut_plane"
 msgstr ""
 
@@ -117,7 +113,6 @@ msgid "Clicking and dragging the cut plane is an excellent way of exploring the 
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:0
 msgid "A combination of techniques"
 msgstr ""
 
@@ -129,7 +124,6 @@ msgstr ""
 msgid "|volumetric_combination|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:129
 #: ../../mayavi/docs/source/mayavi/mlab_case_studies.rst:129
 msgid "volumetric_combination"
 msgstr ""

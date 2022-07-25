@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -151,7 +151,7 @@ msgid ""
 "below."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/example_heart.rstNone
+#: ../../mayavi/docs/source/mayavi/example_heart.rst-1
 msgid "Sample visualization of the ``heart.vtk`` dataset."
 msgstr ""
 

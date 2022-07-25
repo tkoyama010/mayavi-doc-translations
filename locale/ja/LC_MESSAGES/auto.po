@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -8458,7 +8458,6 @@ msgid "|plot3d.jpg|"
 msgstr "|plot3d.jpg|"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:37
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:37
 msgid "plot3d.jpg"
 msgstr "plot3d.jpg"
 
@@ -8470,7 +8469,6 @@ msgstr ":func:`points3d`"
 msgid "|points3d.jpg|"
 msgstr "|points3d.jpg|"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:40
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:40
 msgid "points3d.jpg"
 msgstr "points3d.jpg"
@@ -8484,7 +8482,6 @@ msgid "|imshow.jpg|"
 msgstr "|imshow.jpg|"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:43
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:43
 msgid "imshow.jpg"
 msgstr "imshow.jpg"
 
@@ -8496,7 +8493,6 @@ msgstr ":func:`surf`"
 msgid "|surf.jpg|"
 msgstr "|surf.jpg|"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:52
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:52
 msgid "surf.jpg"
 msgstr "surf.jpg"
@@ -8510,7 +8506,6 @@ msgid "|contour_surf.jpg|"
 msgstr "|contour_surf.jpg|"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:46
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:46
 msgid "contour_surf.jpg"
 msgstr "contour_surf.jpg"
 
@@ -8522,7 +8517,6 @@ msgstr ":func:`mesh`"
 msgid "|mesh.jpg|"
 msgstr "|mesh.jpg|"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:55
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:55
 msgid "mesh.jpg"
 msgstr "mesh.jpg"
@@ -8536,7 +8530,6 @@ msgid "|barchart.jpg|"
 msgstr "|barchart.jpg|"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:58
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:58
 msgid "barchart.jpg"
 msgstr "barchart.jpg"
 
@@ -8548,7 +8541,6 @@ msgstr ":func:`triangular_mesh`"
 msgid "|triangular_mesh.jpg|"
 msgstr "|triangular_mesh.jpg|"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:49
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:49
 msgid "triangular_mesh.jpg"
 msgstr "triangular_mesh.jpg"
@@ -8562,7 +8554,6 @@ msgid "|contour3d.jpg|"
 msgstr "|contour3d.jpg|"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:61
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:61
 msgid "contour3d.jpg"
 msgstr "contour3d.jpg"
 
@@ -8574,7 +8565,6 @@ msgstr ":func:`quiver3d`"
 msgid "|quiver3d.jpg|"
 msgstr "|quiver3d.jpg|"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:64
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:64
 msgid "quiver3d.jpg"
 msgstr "quiver3d.jpg"
@@ -8588,7 +8578,6 @@ msgid "|flow.jpg|"
 msgstr "|flow.jpg|"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:67
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:67
 msgid "flow.jpg"
 msgstr "flow.jpg"
 
@@ -8597,11 +8586,9 @@ msgid "Advanced mlab examples"
 msgstr "高度なmlabの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:102
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:102
 msgid "0000"
 msgstr "0000"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:106
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:106
 msgid "0001"
 msgstr "0001"
@@ -8609,25 +8596,6 @@ msgstr "0001"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:110
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:115
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:120
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:110
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:115
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:120
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:341
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:346
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:351
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:356
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:361
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:370
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:375
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:380
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:385
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:390
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:395
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:400
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:405
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:410
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:415
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:420
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:341
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:346
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:351
@@ -8648,86 +8616,69 @@ msgid "<br/>"
 msgstr "<br/>"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:125
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:125
 msgid "0005"
 msgstr "0005"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:129
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:129
 msgid "0006"
 msgstr "0006"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:133
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:133
 msgid "0007"
 msgstr "0007"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:137
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:137
 msgid "0008"
 msgstr "0008"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:141
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:141
 msgid "0009"
 msgstr "0009"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:145
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:145
 msgid "0010"
 msgstr "0010"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:149
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:149
 msgid "0011"
 msgstr "0011"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:153
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:153
 msgid "0012"
 msgstr "0012"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:157
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:157
 msgid "0013"
 msgstr "0013"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:161
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:161
 msgid "0014"
 msgstr "0014"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:165
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:165
 msgid "0015"
 msgstr "0015"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:169
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:169
 msgid "0016"
 msgstr "0016"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:173
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:173
 msgid "0017"
 msgstr "0017"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:177
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:177
 msgid "0018"
 msgstr "0018"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:181
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:181
 msgid "0019"
 msgstr "0019"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:185
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:185
 msgid "0020"
 msgstr "0020"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:189
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:189
 msgid "0021"
 msgstr "0021"
@@ -8920,11 +8871,9 @@ msgstr ""
 "mayavi2アプリケーションまたは特別に作成されたダイアログやアプリケーションを使用して，Mayaviのインタラクティブ機能を使用する方法を示す例です．"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:337
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:337
 msgid "0100"
 msgstr "0100"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:366
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:366
 msgid "0106"
 msgstr "0106"
@@ -9365,7 +9314,6 @@ msgid "**See also**"
 msgstr "**関連項目**"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
 msgid "mlab.yaw"
 msgstr "mlab.yaw"
 
@@ -9373,7 +9321,6 @@ msgstr "mlab.yaw"
 msgid "yaw the camera (tilt left-right)"
 msgstr "カメラをヨーで動します(左右に傾けます)"
 
-#: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
 msgid "mlab.pitch"
 msgstr "mlab.pitch"
@@ -9383,9 +9330,6 @@ msgid "pitch the camera (tilt up-down)"
 msgstr "カメラを傾ける(上下の傾き)"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
 msgid "mlab.roll"
 msgstr "mlab.roll"
 
@@ -9393,7 +9337,6 @@ msgstr "mlab.roll"
 msgid "control the absolute roll angle of the camera"
 msgstr "カメラの絶対回転角度を制御するには"
 
-#: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
 msgid "mlab.view"
 msgstr "mlab.view"
@@ -9434,7 +9377,6 @@ msgid "absolute roll angle (i.e. \"up\" direction)"
 msgstr "絶対ロール角度(すなわち \"up\" 方向)"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
 msgid "mlab.move"
 msgstr "mlab.move"
 
@@ -9442,8 +9384,8 @@ msgstr "mlab.move"
 msgid "relative  translation of the camera and focal point"
 msgstr "カメラと焦点の相対的な移動"
 
-#: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:116
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
+#: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:116
 msgid "roll"
 msgstr "roll"
 
@@ -9556,93 +9498,11 @@ msgid ""
 msgstr "boolean，オプション．Trueで， 'roll' が指定されていない場合，カメラの回転方向がリセットされます．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_camera.rst:0
+#: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:64
-#: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:0
 msgid "figure"
@@ -9724,11 +9584,6 @@ msgstr ""
 "オブジェクトにスカラーデータがある場合，スカラーカラーマッピングが表示されます．その他の場所では，使用可能な場合，ベクトルカラーマッピングが表示されます．オブジェクトが指定されていない場合は，シーン内でカラーマップを持つ最初のオブジェクトが使用されます．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_tools.rst:0
 msgid "object"
 msgstr "object"
@@ -9737,8 +9592,6 @@ msgstr "object"
 msgid "Optional object to get the color map from"
 msgstr "カラーマップを取得するオプションのオブジェクト"
 
-#: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:465
 msgid "title"
@@ -9751,8 +9604,6 @@ msgid "The title string"
 msgstr "タイトル文字列"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
 msgid "orientation"
 msgstr "orientation"
@@ -9763,8 +9614,6 @@ msgstr "orientation"
 msgid "Can be 'horizontal' or 'vertical'"
 msgstr "'horizontal' または 'vertical' を指定できます．"
 
-#: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
 msgid "nb_labels"
@@ -9777,8 +9626,6 @@ msgid "The number of labels to display on the colorbar."
 msgstr "カラーバーに表示するラベルの数を指定します．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
 msgid "label_fmt"
 msgstr "label_fmt"
 
@@ -9790,8 +9637,6 @@ msgid ""
 "number, eg '%.1f'."
 msgstr "ラベルの文字列フォーマッタ．これは，例えば '%.1f' のような浮動小数点数を形成する必要があります．"
 
-#: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:0
 msgid "nb_colors"
 msgstr "nb_colors"
@@ -9846,7 +9691,6 @@ msgstr "ベクトルカラーマップを取得するオプションのオブジ
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:111
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
 msgid "xlabel"
 msgstr "xlabel"
 
@@ -9864,7 +9708,6 @@ msgstr "モジュールを適用するオブジェクト ，シーン全体で�
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:128
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
 msgid "ylabel"
 msgstr "ylabel"
 
@@ -9873,7 +9716,6 @@ msgid "Creates a set of axes if there isn't already one, and sets the y label"
 msgstr "軸のセットがない場合は作成し，Yラベルを設定します．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_decorations.rst:146
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
 msgid "zlabel"
 msgstr "zlabel"
@@ -9973,7 +9815,6 @@ msgstr "engine"
 msgid "The mayavi engine that controls the figure."
 msgstr "図を制御するmayaviエンジン．"
 
-#: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
 msgid "size"
@@ -10089,12 +9930,6 @@ msgstr "figureインスタンスまたはNone，オプション，指定した�
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_figure.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "mode"
 msgstr "mode"
@@ -10304,44 +10139,7 @@ msgstr ""
 "グリフの横方向スケーリングを自動的に計算するかどうか．これは，計算上コストがかかる可能性があります．ブール値でなければなりません．デフォルトはTrueです．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "color"
 msgstr "color"
@@ -10395,37 +10193,6 @@ msgstr ""
 "として指定されます．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "colormap"
 msgstr "colormap"
@@ -10467,39 +10234,7 @@ msgid "type of colormap to use."
 msgstr "使用するカラーマップのタイプ．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "extent"
 msgstr "extent"
@@ -10569,43 +10304,7 @@ msgid ""
 msgstr "最も近いポイント間の距離を単位とする記号の横方向のスケール floatである必要があります．デフォルトは0.9"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "line_width"
 msgstr "line_width"
@@ -10653,14 +10352,8 @@ msgid "The width of the lines, if any used. Must be a float. Default: 2.0"
 msgstr "使用されている場合，線の幅．floatでなければなりません．デフォルトは2.0"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:895
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "mask_points"
 msgstr "mask_points"
 
@@ -10691,88 +10384,8 @@ msgstr ""
 "のいずれかでなければなりません．デフォルトはcubeです．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
 msgid "name"
 msgstr "name"
@@ -10865,43 +10478,7 @@ msgid "the name of the vtk object created."
 msgstr "作成されたvtkオブジェクトの名前．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "opacity"
 msgstr "opacity"
@@ -10946,37 +10523,6 @@ msgid "The overall opacity of the vtk object. Must be a float. Default: 1.0"
 msgstr "vtkオブジェクトの全体的な不透明度．floatでなければなりません．デフォルトは1.0"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "reset_zoom"
 msgstr "reset_zoom"
@@ -11020,12 +10566,6 @@ msgid ""
 msgstr "シーンに新しく追加されたデータに合わせてズームをリセットします．既定値はTrueです．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "resolution"
 msgstr "resolution"
@@ -11044,12 +10584,6 @@ msgid ""
 msgstr "作成される記号の解像度．たとえば，球体の場合，これはthetaとphiに沿った分割数です．整数でなければなりません．デフォルトは8"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "scale_factor"
 msgstr "scale_factor"
@@ -11064,12 +10598,6 @@ msgid ""
 msgstr "字形に適用されるスケーリング．既定では，記号のサイズは作図単位で指定されます．floatでなければなりません．デフォルトは1.0"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "scale_mode"
 msgstr "scale_mode"
@@ -11086,37 +10614,6 @@ msgid "the scaling mode for the glyphs ('vector', 'scalar', or 'none')."
 msgstr "グリフ ('vector', 'scalar', か 'none') のスケーリングモード．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "transparent"
 msgstr "transparent"
@@ -11158,38 +10655,6 @@ msgid "make the opacity of the actor depend on the scalar."
 msgstr "アクターの不透明度をスカラーに依存させます．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "vmax"
 msgstr "vmax"
@@ -11233,38 +10698,6 @@ msgid ""
 msgstr "vmaxを使用してカラーマップをスケールします．なしの場合，データの最大値が使用されます．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "vmin"
 msgstr "vmin"
@@ -11354,10 +10787,6 @@ msgstr ""
 "によって生成されたと想定されます．言い換えると，それらは3次元配列であり，3次元直交格子上に位置し，配列内の最も近い隣接と一致する空間内の最も近い隣接と規則的に間隔を置いて配置されています．この関数は，ポイントが規則的な間隔で配置されていると仮定してスカラーフィールドを作成します．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "contours"
 msgstr "contours"
@@ -11417,7 +10846,6 @@ msgid ""
 msgstr ""
 "3つの位置引数が渡された場合，最後の位置引数は配列s，または配列を返す呼び出し可能なfである必要があります．xとyはsの値に対応する位置の座標を与えます．"
 
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "warp_scale"
@@ -11503,12 +10931,6 @@ msgstr ""
 "でなければなりません．デフォルトはlineです．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
 msgid "scalars"
 msgstr "scalars"
@@ -11630,9 +11052,6 @@ msgstr ""
 "関数を参照してください．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_sources.rst:0
 msgid "mask"
 msgstr "mask"
@@ -11664,9 +11083,6 @@ msgstr ""
 "'cone' または 'cube' または 'cylinder' または 'point' または 'sphere' です．デフォルトはsphereです．"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "representation"
 msgstr "representation"
@@ -11688,8 +11104,6 @@ msgid ""
 msgstr "fancy_meshモードで，頂点を表すために使用されるglyphのスケール係数．floatでなければなりません．デフォルトは0.05"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "tube_radius"
 msgstr "tube_radius"
@@ -11701,8 +11115,6 @@ msgid ""
 "simple lines are used."
 msgstr "メッシュモードでの線の表示に使用するチューブの半径．Noneの場合は，単純な線が使用されます．"
 
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "tube_sides"
@@ -11920,8 +11332,6 @@ msgid "the opacity of the plane actor. Must be a legal value. Default: 1.0"
 msgstr "平面アクターの不透明度．有効な値でなければなりません．デフォルトは1.0"
 
 #: ../../mayavi/docs/source/mayavi/auto/mlab_helper_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "plane_orientation"
 msgstr "plane_orientation"
@@ -12841,7 +12251,6 @@ msgstr "scalar_cut_plane"
 msgid "Applies the ScalarCutPlane mayavi module to the given data"
 msgstr "指定されたデータにScalarCutPlane mayaviモジュールを適用します"
 
-#: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 #: ../../mayavi/docs/source/mayavi/auto/mlab_pipeline_other_functions.rst:0
 msgid "view_controls"
 msgstr "view_controls"

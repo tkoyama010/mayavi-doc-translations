@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Using the Mayavi application"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/application.rst:None
+#: ../../mayavi/docs/source/mayavi/application.rst:-1
 msgid "Section summary"
 msgstr ""
 
@@ -68,7 +68,7 @@ msgstr ""
 msgid "When the `mayavi2` application is started it will provide a user interface that looks something like the figure shown below."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/application.rst:None
+#: ../../mayavi/docs/source/mayavi/application.rst:-1
 msgid "Figure of Mayavi's initial UI window."
 msgstr ""
 
@@ -164,7 +164,7 @@ msgstr ""
 msgid "Shown below is a specifically configured Mayavi user interface view. In this view the size of the various parts are changed."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/application.rst:None
+#: ../../mayavi/docs/source/mayavi/application.rst:-1
 msgid "Figure of Mayavi's UI after being configured by a user."
 msgstr ""
 

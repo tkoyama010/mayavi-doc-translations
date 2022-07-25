@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Using the Mayavi application"
 msgstr "Mayaviアプリケーションの使用"
 
-#: ../../mayavi/docs/source/mayavi/application.rstNone
+#: ../../mayavi/docs/source/mayavi/application.rst-1
 msgid "Section summary"
 msgstr "セクションの概要"
 
@@ -110,7 +110,7 @@ msgid ""
 "that looks something like the figure shown below."
 msgstr "`mayavi2` アプリケーションを起動すると，以下の図のようなユーザインタフェースが提供されます．"
 
-#: ../../mayavi/docs/source/mayavi/application.rstNone
+#: ../../mayavi/docs/source/mayavi/application.rst-1
 msgid "Figure of Mayavi's initial UI window."
 msgstr "Mayaviの初期UIウィンドウの図．"
 
@@ -238,7 +238,7 @@ msgid ""
 " view the size of the various parts are changed."
 msgstr "下の図は，具体的に設定されたMayaviユーザインタフェースビューです．このビューでは，さまざまなパーツのサイズが変更されます．"
 
-#: ../../mayavi/docs/source/mayavi/application.rstNone
+#: ../../mayavi/docs/source/mayavi/application.rst-1
 msgid "Figure of Mayavi's UI after being configured by a user."
 msgstr "ユーザが設定した後のMayaviのUIの図．"
 

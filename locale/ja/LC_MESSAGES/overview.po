@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "An overview of Mayavi"
 msgstr "Mayaviの概要"
 
-#: ../../mayavi/docs/source/mayavi/overview.rstNone
+#: ../../mayavi/docs/source/mayavi/overview.rst-1
 msgid "Section summary"
 msgstr "セクションの概要"
 
@@ -322,16 +322,13 @@ msgstr ""
 "|volumetric_cut_plane| |volumetric_contour3d| |volumetric_volume_tweaked|"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:189
-#: ../../mayavi/docs/source/mayavi/overview.rst:189
 msgid "volumetric_cut_plane"
 msgstr "volumetric_cut_plane"
 
 #: ../../mayavi/docs/source/mayavi/overview.rst:185
-#: ../../mayavi/docs/source/mayavi/overview.rst:185
 msgid "volumetric_contour3d"
 msgstr "volumetric_contour3d"
 
-#: ../../mayavi/docs/source/mayavi/overview.rst:187
 #: ../../mayavi/docs/source/mayavi/overview.rst:187
 msgid "volumetric_volume_tweaked"
 msgstr "volumetric_volume_tweaked"

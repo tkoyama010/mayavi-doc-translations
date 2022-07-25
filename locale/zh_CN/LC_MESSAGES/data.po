@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
@@ -41,7 +41,7 @@ msgstr ""
 msgid "Outline"
 msgstr "Outline 外框"
 
-#: ../../mayavi/docs/source/mayavi/data.rstNone
+#: ../../mayavi/docs/source/mayavi/data.rst-1
 msgid "Mayavi data sources and VTK datasets"
 msgstr ""
 
@@ -516,7 +516,7 @@ msgstr ""
 msgid "Creating a `tvtk.UnstructuredGrid` object from numpy arrays::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/data.rstNone
+#: ../../mayavi/docs/source/mayavi/data.rst-1
 msgid "Modifying the data"
 msgstr ""
 

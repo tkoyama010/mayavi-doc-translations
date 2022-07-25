@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,7 +128,7 @@ msgstr ""
 msgid "The Mayavi pipeline tree can be displayed by clicking on the mayavi icon in the figure's toolbar, or by using :func:`show_pipeline` mlab command. One can now change the visualization using this dialog by double-clicking on each object to edit its properties, as described in other parts of this manual, or add new modules or filters by using this icons on the pipeline, or through the right-click menus on the objects in the pipeline."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:None
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:-1
 msgid "The record feature"
 msgstr ""
 
@@ -140,7 +140,7 @@ msgstr ""
 msgid "In addition, for every object returned by a mlab function, ``this_object.edit_traits()`` brings up a dialog that can be used to interactively edit the object's properties. If the dialog doesn't show up when you enter this command, please see :ref:`running-mlab-scripts`."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:None
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:-1
 msgid "Using ``mlab`` with the full Envisage UI"
 msgstr ""
 

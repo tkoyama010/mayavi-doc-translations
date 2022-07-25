@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,7 +60,7 @@ msgstr ""
 msgid "The :func:`view` and :func:`roll` functions return the current values of the different angles and distances they take as arguments. As a result, the view point obtained interactively can be stored and reset using::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:None
+#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:-1
 msgid "Rotating the camera around itself"
 msgstr ""
 
@@ -72,7 +72,7 @@ msgstr ""
 msgid "Unlike the :func:`view` and :func:`roll` function, the angles are incremental, and not absolute."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:None
+#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:-1
 msgid "Modifying zoom and view angle"
 msgstr ""
 

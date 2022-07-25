@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.1.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 02:20+0000\n"
+"POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -215,6 +215,6 @@ msgid ""
 msgstr ""
 "例からわかるように，mayaviをスクリプト化してデータを視覚化するのは非常に簡単です．このスクリプトから生成されたビジュアライゼーションのイメージを次に示します．"
 
-#: ../../mayavi/docs/source/mayavi/example_fire.rstNone
+#: ../../mayavi/docs/source/mayavi/example_fire.rst-1
 msgid "Sample visualization of the ``fire_ug.vtu`` dataset."
 msgstr "``fire_ug.vtu`` データセットの可視化のサンプル"
