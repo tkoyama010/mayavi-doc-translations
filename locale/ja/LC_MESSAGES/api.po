@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-25 19:07+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/tkoyama010/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,6 +43,8 @@ msgid ""
 "Bases: "
 ":py:class:`~pyface.base_toolkit.Toolkit.__call__.<locals>.Unimplemented`"
 msgstr ""
+"ベースクラス: "
+":py:class:`~pyface.base_toolkit.Toolkit.__call__.<locals>.Unimplemented`"
 
 #: ../../mayavi/mayavi/core/ui/mayavi_scene.pydocstring of
 #: mayavi.core.ui.mayavi_scene.MayaviScene:1
@@ -65,7 +67,7 @@ msgstr ":class:`MlabSceneModel`"
 #: ../../mayavi/mayavi/tools/mlab_scene_model.pydocstring of
 #: mayavi.tools.mlab_scene_model.MlabSceneModel:1
 msgid "Bases: :py:class:`~tvtk.pyface.scene_model.SceneModel`"
-msgstr ""
+msgstr "ベースクラス: :py:class:`~tvtk.pyface.scene_model.SceneModel`"
 
 #: ../../mayavi/mayavi/tools/mlab_scene_model.pydocstring of
 #: mayavi.tools.mlab_scene_model.MlabSceneModel:1
@@ -85,7 +87,7 @@ msgstr "エンジンのビューとして使用されるオブジェクトは次
 #: ../../mayavi/mayavi/core/ui/engine_view.pydocstring of
 #: mayavi.core.ui.engine_view.EngineView:1
 msgid "Bases: :py:class:`~traits.has_traits.HasTraits`"
-msgstr ""
+msgstr "ベースクラス: :py:class:`~traits.has_traits.HasTraits`"
 
 #: ../../mayavi/mayavi/core/ui/engine_view.pydocstring of
 #: mayavi.core.ui.engine_view.EngineView:1
@@ -102,7 +104,7 @@ msgstr "エンジンビューのデフォルトの特性ビューです．"
 #: ../../mayavi/mayavi/core/ui/engine_rich_view.pydocstring of
 #: mayavi.core.ui.engine_rich_view.EngineRichView:1
 msgid "Bases: :py:class:`~mayavi.core.ui.engine_view.EngineView`"
-msgstr ""
+msgstr "ベースクラス: :py:class:`~mayavi.core.ui.engine_view.EngineView`"
 
 #: ../../mayavi/mayavi/core/ui/engine_rich_view.pydocstring of
 #: mayavi.core.ui.engine_rich_view.EngineRichView:1
@@ -138,7 +140,7 @@ msgstr ":class:`Scene`"
 #: mayavi.core.pipeline_base.PipelineBase:1
 #: ../../mayavi/mayavi/core/scene.pydocstring of mayavi.core.scene.Scene:1
 msgid "Bases: :py:class:`~mayavi.core.base.Base`"
-msgstr ""
+msgstr "ベースクラス: :py:class:`~mayavi.core.base.Base`"
 
 #: ../../mayavi/mayavi/core/scene.pydocstring of mayavi.core.scene.Scene:1
 msgid "The Mayavi scene class."
@@ -291,7 +293,7 @@ msgstr ":class:`Source`"
 #: ../../mayavi/mayavi/core/module.pydocstring of mayavi.core.module.Module:1
 #: ../../mayavi/mayavi/core/source.pydocstring of mayavi.core.source.Source:1
 msgid "Bases: :py:class:`~mayavi.core.pipeline_base.PipelineBase`"
-msgstr ""
+msgstr "ベースクラス: :py:class:`~mayavi.core.pipeline_base.PipelineBase`"
 
 #: ../../mayavi/mayavi/core/source.pydocstring of mayavi.core.source.Source:1
 msgid "Base class for the sources objects in the pipeline."
@@ -321,7 +323,7 @@ msgstr ":class:`Filter`"
 
 #: ../../mayavi/mayavi/core/filter.pydocstring of mayavi.core.filter.Filter:1
 msgid "Bases: :py:class:`~mayavi.core.source.Source`"
-msgstr ""
+msgstr "ベースクラス: :py:class:`~mayavi.core.source.Source`"
 
 #: ../../mayavi/mayavi/core/filter.pydocstring of mayavi.core.filter.Filter:1
 msgid "Base class for all the Mayavi filters."
@@ -552,7 +554,7 @@ msgstr ":class:`Engine`"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of mayavi.core.engine.Engine:1
 msgid "Bases: :py:class:`~traits.has_traits.HasStrictTraits`"
-msgstr ""
+msgstr "ベースクラス: :py:class:`~traits.has_traits.HasStrictTraits`"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of mayavi.core.engine.Engine:1
 msgid "The Mayavi engine base class."
