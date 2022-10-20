@@ -23,19 +23,22 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:2
 msgid "Mayavi 4.8.1"
-msgstr ""
+msgstr "Mayavi 4.8.1"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:4
 msgid ""
 "This is a bugfix release to work correctly with VTK-9.2.2 and also resolve "
 "pep517 related issues. 3 PRs were merged."
 msgstr ""
+"このリリースは，VTK-9.2.2で正しく動作するためのバグフィックスリリースであり，pep517関連の問題も解決しています．3つのPRがマージされました．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:7
 msgid ""
 "Many thanks to the following folks who contributed to this release in "
 "alphabetical order, Eric Larson, GN (giammi56), Prabhu Ramachandran"
 msgstr ""
+"Eric Larson, GN (giammi56), Prabhu "
+"Ramachandran，アルファベット順に，このリリースに貢献してくれた人々に感謝します．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:11
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:56
@@ -65,42 +68,50 @@ msgstr "修正"
 msgid ""
 "17 Oct 2022 `#1183 <https://github.com/enthought/mayavi/pull/1183>`_ (PR)"
 msgstr ""
+"17 Oct 2022 `#1183 <https://github.com/enthought/mayavi/pull/1183>`_ (PR)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:14
 msgid "Add a pyproject.toml."
-msgstr ""
+msgstr "pyproject.tomlを追加しました．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:21
 msgid ""
 "11 Oct 2022 `#1180 <https://github.com/enthought/mayavi/pull/1180>`_ "
 "(larsoner)"
 msgstr ""
+"11 Oct 2022 `#1180 <https://github.com/enthought/mayavi/pull/1180>`_ "
+"(larsoner)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:17
 msgid "BUG: Work around 9.2.2 bug"
-msgstr ""
+msgstr "BUG:9.2.2のバグを回避"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:18
 msgid ""
 "Adds a `VTK_PARSER_VERBOSE` env var that can be set to `1` or `true` to get "
 "it to print instantiations/methods as they are tried."
 msgstr ""
+"`VTK_PARSER_VERBOSE` 環境変数を追加し， `1` または `true` "
+"に設定すると，インスタンス化/メソッドを試したときに表示するようになります．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:20
 msgid ""
 "Adds a `TVTK_VERBOSE` env var that enables printing during the TVTK tests "
 "(which were segfaulting at one point)."
 msgstr ""
+"環境変数 `TVTK_VERBOSE` を追加し，TVTK テスト中のプリントを可能にしました(一時的にセグメンテーション違反をしていました)．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:26
 msgid ""
 "17 Oct 2022 `#1174 <https://github.com/enthought/mayavi/pull/1174>`_ "
 "(giammi56)"
 msgstr ""
+"17 Oct 2022 `#1174 <https://github.com/enthought/mayavi/pull/1174>`_ "
+"(giammi56)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:24
 msgid "Update protein.py to work correctly."
-msgstr ""
+msgstr "protein.pyが正しく動作するように更新しました．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:29
 msgid "Mayavi 4.8.0"

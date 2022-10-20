@@ -599,7 +599,7 @@ msgstr ""
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: mayavi.core.engine.Engine.get_viewer:4
 msgid "Parameters:"
-msgstr ""
+msgstr "パラメータ:"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
 #: apptools.scripting.recordable.recordable.<locals>._wrapper:10
