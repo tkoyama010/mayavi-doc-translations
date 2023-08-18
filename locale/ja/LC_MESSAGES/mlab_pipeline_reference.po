@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2018, Enthought Inc.
+# This file is distributed under the same license as the mayavi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mayavi 4.8.2.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-19 02:52+0000\n"
+"PO-Revision-Date: 2019-04-27 07:31+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
+"Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../mayavi/docs/source/mayavi/mlab_pipeline_reference.rst:4
+msgid "Mlab pipeline-control reference"
+msgstr "mlabパイプライン制御リファレンス"
+
+#: ../../mayavi/docs/source/mayavi/mlab_pipeline_reference.rst:8
+msgid ""
+"Reference list of all the main functions of ``pipeline`` sub module of "
+"``mlab``. You can access these functions using::"
+msgstr "``mlab`` の ``pipeline`` サブモジュールの主な機能の一覧です．これらの関数には，次のようにアクセスできます．"
+
+#: ../../mayavi/docs/source/mayavi/mlab_pipeline_reference.rst:14
+msgid ""
+"These functions can be used for finer control of the Mayavi pipeline than "
+"the main mlab interface. For usage examples, see :ref:`controlling-the-"
+"pipeline-with-mlab-scripts`."
+msgstr ""
+"これらの関数は，メインのmlabインタフェースよりも細かいMayaviパイプラインの制御に使用できます．使用例については， "
+":ref:`controlling-the-pipeline-with-mlab-scripts` を参照してください．"

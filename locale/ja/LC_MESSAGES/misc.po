@@ -1,0 +1,303 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2018, Enthought Inc.
+# This file is distributed under the same license as the mayavi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mayavi 4.8.2.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-19 02:52+0000\n"
+"PO-Revision-Date: 2019-04-27 07:29+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
+"Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:2
+msgid "Miscellaneous"
+msgstr "その他"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:5
+msgid "Citing Mayavi"
+msgstr "Mayaviの引用"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:7
+msgid ""
+"The core developers of Mayavi are academics. Therefore they justify time and"
+" resources spent developing Mayavi by the number of citations of the "
+"software. If you publish scientific articles using Mayavi, please cite the "
+"following article (bibtex entry :download:`citation.bib`):"
+msgstr ""
+"Mayaviの中心的開発者は学者です．したがって，このソフトウェアの引用数によって，Mayaviの開発に費やす時間とリソースが正当化されます．Mayaviを使用して科学記事を発行する場合は，次の記事を引用してください(bibtexエントリは"
+" :download:`citation.bib` )．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:12
+msgid ""
+"Ramachandran, P. and Varoquaux, G., *`Mayavi: 3D Visualization of Scientific"
+" Data`* IEEE Computing in Science & Engineering, **13** (2), pp. 40-51 "
+"(2011)"
+msgstr ""
+"Ramachandran, P. and Varoquaux, G., *`Mayavi: 3D Visualization of Scientific"
+" Data`* IEEE Computing in Science & Engineering, **13** (2), pp. 40-51 "
+"(2011)"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:18
+msgid "Tutorial videos"
+msgstr "チュートリアルビデオ"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:20
+msgid "Here are some tutorial videos that you can watch to learn Mayavi:"
+msgstr "Mayaviを学習するためのチュートリアルビデオをいくつか紹介します．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:22
+msgid "SciPy 2018 Mayavi tutorial (3 hrs):"
+msgstr "SciPy2018 Mayaviチュートリアル(3時間)"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:24
+msgid "Video: https://www.youtube.com/watch?v=r6OD07Qq2mw"
+msgstr "動画: https://www.youtube.com/watch?v=r6OD07Qq2mw"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:25
+msgid "Material: https://github.com/prabhuramachandran/mayavi-tutorial"
+msgstr "素材: https://github.com/prabhuramachandran/mayavi-tutorial"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:31
+msgid "Getting help"
+msgstr "ヘルプの表示"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:33
+msgid ""
+"Bug reports should be submitted to the `issue tracker`_. Please make sure to"
+" provide enough information so that the issue can be reproduced. For other "
+"requests, if this manual, the Mayavi web page, the wiki page, stack overflow"
+" and google are of no help, feel free to ask on the `issue tracker`_."
+msgstr ""
+"バグ報告は `issue tracker`_ "
+"に提出してください．問題を再現できるように，十分な情報を提供してください．その他のご要望については，このマニュアル，Mayaviのウェブページ，wikiページ，スタックオーバーフロー，Google検索が役に立たない場合は，"
+"  `issue tracker`_ にお気軽にお問い合わせください．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:39
+msgid ""
+"If you have questions you could ask on the `Mayavi-users mailing list "
+"<https://sourceforge.net/p/mayavi/mailman/mayavi-users/>`_. This is used by "
+"some folks and is not too active. Another mailing list that may be of use is"
+" the `ETS Users mailing list <https://groups.google.com/forum/#!forum/ets-"
+"users>`_. This is a more general list where a lot of folks experienced with "
+"the Enthought Tool Suite are available."
+msgstr ""
+"質問がある場合は，  `Mayavi-users mailing list "
+"<https://sourceforge.net/p/mayavi/mailman/mayavi-users/>`_ "
+"で質問してください．これは一部の人が使っているもので，あまり積極的ではありません．他のメーリングリストとしては， `ETS Users mailing "
+"list <https://groups.google.com/forum/#!forum/ets-users>`_ "
+"があります．これは，Enthought Tool Suiteを習熟した多くの人が利用できる，より一般的なリストです．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:48
+msgid "Tests for Mayavi"
+msgstr "Mayaviのテスト"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:50
+msgid ""
+"You can easily run the Mayavi test suite using `mayavi2 -t` from the command"
+" line. Running tests is useful to find out if Mayavi works well on your "
+"particular system. Indeed, the systems can vary from one to another: in "
+"addition to the variety of existing operating systems, different versions of"
+" the libraries can be installed. The Mayavi developers do their best to "
+"support many different configuration, but you can help them by running the "
+"test suite and reporting any errors."
+msgstr ""
+"Mayaviテストスイートは，コマンドラインから `mayavi2 -t` "
+"を使用して簡単に実行できます．テストを実行すると，特定のシステムでMayaviが正常に動作するかどうかを確認できます．実際，システムはそれぞれ異なり，既存のさまざまなオペレーティングシステムに加えて，異なるバージョンのライブラリをインストールできます．Mayavi開発者はさまざまな設定をサポートするために最善を尽くしていますが，テストスイートを実行してエラーを報告することで，開発者を支援することができます．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:58
+msgid ""
+"You can use `nose`_ to run the unit tests of both packages by doing the "
+"following from the root of the Mayavi source directory::"
+msgstr "`nose`_ を使用してMayaviソースディレクトリのルートから以下を実行すると，両方のパッケージのユニットテストを実行できます．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:67
+msgid ""
+"From the mayavi source directory, to run tests only for mayavi package you "
+"can do::"
+msgstr "mayaviソースディレクトリから，mayaviパッケージのみのテストを実行するには，次のようにします．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:76
+msgid ""
+"From the mayavi source directory, to run tests only for tvtk package you can"
+" do::"
+msgstr "mayaviソースディレクトリから，tvtkパッケージのみのテストを実行するには，次のようにします．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:85
+msgid ""
+"If you get an \"ERROR\" regarding the unavailability of coverage you may "
+"safely ignore it.  If for some reason nose is having difficulty running the "
+"tests, the tests may be found inside ``tvtk/tests`` and ``mayavi/tests``.  "
+"You can run each of the ``test_*.py`` files in these directories manually, "
+"or change your current directory to these directories and run ``nosetests`` "
+"there."
+msgstr ""
+"もしあなたが利用できないカバレッジに関する \"ERROR\" "
+"を得たら，あなたはそれを無視しても安全です．何らかの理由でnoseがテストを実行できない場合，テストは ``tvtk/tests`` と "
+"``mayavi/tests`` の中にあります．それぞれの ``test_*.py`` "
+"を実行することができます．あるいは，現在のディレクトリをこれらのディレクトリに変更し，そこで ``nosetests`` を実行します．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:92
+msgid ""
+"In addition to these unit tests mayavi also has several integration tests. "
+"These are in the ``integrationtests/mayavi`` directory of the source "
+"distribution.  You may run the tests there like so::"
+msgstr ""
+"これらの単体テストに加えて，mayaviにはいくつかの統合テストもあります．これらはソース配布物の "
+"``integrationtests/mayavi`` ディレクトリにあります．次のようにしてテストを実行できます．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:98
+msgid ""
+"These tests are intrusive and will create several mayavi windows and also "
+"take a while to complete.  Some of them may fail on your machine for various"
+" reasons."
+msgstr ""
+"これらのテストは押し付けがましく，複数のmayaviウィンドウが作成され，完了までに時間がかかります．それらのいくつかは，さまざまな理由でマシン上で失敗する可能性があります．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:103
+msgid "Helping out"
+msgstr "支援"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:105
+msgid ""
+"We are always on the lookout for people to help this project grow.  If you "
+"need a functionality added to Mayavi, open an new feature request issue in "
+"`issue tracker`_."
+msgstr ""
+"私たちは常に，このプロジェクトを成長させる人を探しています．Mayaviに機能を追加する必要がある場合は， `issue tracker`_ "
+"で新しい機能要求の問題を開きます．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:109
+msgid ""
+"To submit bug fixes or new functionality, this is the recommended workflow:"
+msgstr "バグ修正または新しい機能を送信するには，次のワークフローをお勧めします．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:112
+msgid "Fork the Repo on github."
+msgstr "リポジトリをgithubにフォークする．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:113
+msgid "If you are adding functionality or fixing a bug, please add a test!"
+msgstr "機能を追加したりバグを修正したりする場合は，テストを追加してください．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:114
+msgid "Push to your fork and submit a **pull request to the master branch**."
+msgstr "フォークをプッシュし， **masterブランチにpull requestを送信します** ．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:116
+msgid ""
+"The **master** branch is a 100% stable (should be).  The pull request is "
+"merged only after it is certain that things are working out, which means "
+"that `Travis`_ and `Appveyor`_ tests pass."
+msgstr ""
+"**master** ブランチは100%安定です(でなければなりません)．pull requestがマージされるのは， `Travis`_ と "
+"`Appveyor`_ のテストに合格した後です．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:120
+msgid ""
+"Please note that we aim to improve the overall testing of the Mayavi "
+"codebase, so tests are also important."
+msgstr "Mayaviコードベースの全体的なテストを改善することも目的としているため，テストも重要です．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:124
+msgid "Development quick start"
+msgstr "開発クイックスタート"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:126
+msgid ""
+"To help improve Mayavi, you first need to install the development version, "
+"see :ref:`installing_git`. You can then modify your local installation of "
+"Mayavi to add the functionality you are interested in (make sure the tests "
+"still run after your modifications).  Once you are done, you can generate a "
+"github `pull request`_ to get your changes into the next stable release."
+msgstr ""
+"Mayaviを改善するには，まず開発バージョンをインストールする必要があります．その後，ローカルにインストールしたMayaviを変更して，必要な機能を追加できます(変更後もテストが実行されることを確認します．)．完了したら，githubの"
+" `pull request`_ を生成して，変更を次の安定したリリースに取り込むことができます．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:134
+msgid "Improving the documentation"
+msgstr "ドキュメントの改善"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:136
+msgid ""
+"Documentation of a project is incredibly important. It also takes a lot of "
+"time to write and improve. You can easily help us with documentation."
+msgstr "プロジェクトのドキュメント化は非常に重要です．また，執筆や改善にも多くの時間がかかります．ドキュメントの作成を簡単にお手伝いいただけます．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:139
+msgid ""
+"You will find the documentation sources in ``docs/sources/mayavi``. The "
+"documentation is written in `sphinx`_. It is easy to edit the `.rst` files "
+"to modify or extend the text. Once you have done your modifications, you can"
+" build the documentation by running::"
+msgstr ""
+"ドキュメントのソースは ``docs/sources/mayavi`` にあります．ドキュメントは `sphinx`_ に記述されています． "
+"`.rst` ファイルを編集してテキストを修正または拡張するのは簡単です．変更が完了したら，次のコマンドを実行してドキュメントを作成できます．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:147
+msgid ""
+"in the base directory of your checkout. You will need `sphinx`_ installed "
+"for that. The documentation is then built as an HTML documentation that you "
+"can find in the sub directory ``build/docs/html/mayavi``. Once you are "
+"comfortable with the modifications, just generate a github pull request to "
+"integrate your changes into the next stable release."
+msgstr ""
+"チェックアウトのベースディレクトリに保存します．そのためには `sphinx`_ "
+"がインストールされている必要があります．ドキュメントはHTMLドキュメントとして作成され，サブディレクトリ "
+"``build/docs/html/mayavi`` にあります．変更に慣れたら，githubのpull "
+"requestを生成して，変更を次の安定版リリースに統合するだけです．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:154
+msgid "Translating the documentation"
+msgstr "ドキュメントの翻訳"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:156
+msgid ""
+"The recommended way for new contributors to translate mayavi reference is to"
+" join the translation team on Transifex."
+msgstr "新しいコントリビュータがmayaviリファレンスを翻訳する場合は，Transifexの翻訳チームに参加することをお勧めします．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:159
+msgid ""
+"There is a `mayavi translation page`_ for mayavi (master) documentation."
+msgstr "`mayavi translation page`_ はmayavi(master)のドキュメントです．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:161
+msgid "Login to transifex_ service."
+msgstr "transifex_ サービスにログインします．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:162
+msgid "Go to `mayavi translation page`_."
+msgstr "`mayavi translation page`_ に移動します．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:163
+msgid "Click ``Request language`` and fill form."
+msgstr "``Request language``  をクリックしてフォームに入力します．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:164
+msgid "Wait acceptance by transifex mayavi translation maintainers."
+msgstr "transifex mayavi翻訳管理者による承認を待ちます．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:165
+msgid "(After acceptance) Translate on transifex."
+msgstr "(承認後)transifexで翻訳します．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:166
+msgid "You can see the translated document in `Read The Docs`_."
+msgstr "翻訳された文書は `Read The Docs`_ で見ることができます．"
+
+#: ../../mayavi/docs/source/mayavi/misc.rst:168
+msgid ""
+"Detail is here: https://docs.transifex.com/getting-started-1/translators"
+msgstr "詳細はこちら: https://docs.transifex.com/getting-started-1/translators"

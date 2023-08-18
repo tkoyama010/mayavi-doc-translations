@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2018, Enthought Inc.
+# This file is distributed under the same license as the mayavi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mayavi 4.8.2.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-19 02:52+0000\n"
+"PO-Revision-Date: 2019-04-27 07:30+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
+"Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:2
+msgid "Using Mayavi with scipy"
+msgstr "scipyでMayaviを使う"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:4
+msgid ""
+"This tutorial example shows you how you can use Mayavi interactively to "
+"visualize `numpy`_ arrays while doing numerical work with `scipy`_. It "
+"assumes that you are familiar with numerical Python tools, and shows you how"
+" to use Mayavi in combination with these tools."
+msgstr ""
+"このチュートリアルの例では， `scipy`_ を使用して数値計算を行いながら，Mayaviをインタラクティブに使用して `numpy`_ "
+"を表示する方法を示します．ここでは，Pythonの数値ツールに精通していることを前提に，これらのツールと組み合わせてMayaviを使用する方法について説明します．"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:9
+msgid ""
+"Let us study the trajectories of a particle in a potential. This is a very "
+"common problem in physics and engineering, and visualization of the "
+"potential and the trajectories is key to developing an understanding of the "
+"problem."
+msgstr ""
+"ポテンシャル中の粒子の軌道を調べてみましょう．これは物理学と工学において非常に一般的な問題であり，ポテンシャルと軌跡の可視化は問題の理解を発展させる鍵です．"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:14
+msgid ""
+"The potential we are interested is a periodic lattice, immersed in a "
+"parabolic confinement. We will shake this potential and see how the particle"
+" jumps from a hole of the lattice to another. The parabolic confinement is "
+"there to limit the excursions of the particle::"
+msgstr ""
+"興味があるポテンシャルは,放物線状閉込めに浸した周期的格子である．このポテンシャルを振って，パーティクルがラティスの穴から別の穴にジャンプする様子を確認します．放物線状の閉じ込めは，パーティクルのエクスカーションを制限するために存在します．"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:25
+msgid ""
+"Now that we have defined the potential, we would like to see what it looks "
+"like in 3D. To do this we can create a 3D grid of points, and sample it on "
+"these points::"
+msgstr "ポテンシャルを定義したので，3Dでどのように見えるかを確認します．これを行うには，点の3Dグリッドを作成し，次の点でサンプルします．"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:32
+msgid ""
+"We are going to use the `mlab` module (see :ref:`simple-scripting-with-"
+"mlab`) to interactively visualize this volumetric data. For this it is best "
+"to type the commands in an interactive Python shell, either using the built-"
+"in shell of the Mayavi2 application, on in `ipython --gui=qt`. Let us "
+"visualize the 3D isosurfaces of the potential::"
+msgstr ""
+"このボリュームデータをインタラクティブに視覚化するには，( :ref:`simple-scripting-with-mlab` "
+"を参照してください．)モジュールを使用します．そのためには，Mayavi2アプリケーションの組み込みシェルを使用するか，または `ipython "
+"--gui=qt` でコマンドをインタラクティブなPythonシェルに入力することをお勧めします．ポテンシャルの3D等値面を表示します．"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:41
+msgid ""
+"We can interact with the visualization created by the above command by "
+"rotating the view, but to get a good understanding of the structure of the "
+"potential, it is useful to vary the iso-surfaces. We can do this by double-"
+"clicking on the `IsoSurface` in the Mayavi pipeline tree (if you are running"
+" from `ipython`, you need to click on the Mayavi icon on the scene to pop up"
+" the pipeline). This opens a dialog which lets us select the values of the "
+"contours used. A good view of the potential can be achieved by turning off "
+"auto contours and choosing -0.5 as a first contour value (eg by entering it "
+"in the text box on the right, and pressing `tab`). A second contour can be "
+"added by clicking on the blue arrow and selecting \"Add after\". Using a "
+"value of 15 gives a nice result."
+msgstr ""
+"上記のコマンドで作成されたビジュアライゼーションは，ビューを回転することで操作できますが，ポテンシャルの構造を十分に理解するには，等値面を変更すると便利です．これを行うには，Mayaviパイプラインツリーの"
+" `IsoSurface` "
+"をダブルクリックします．(ipythonから実行している場合は，シーン上のMayaviアイコンをクリックしてパイプラインをポップアップする必要があります．)ダイアログボックスが開き，使用する等高線の値を選択できます．自動コンターをオフにして，コンターの最初の値として-0.5を選択すると，電位を適切に表示できます(例えば，右側のテキストボックスに入力して"
+" `tab` キーを押します．)．青い矢印をクリックして \"Add after\" "
+"を選択すると，別の輪郭を追加できます．値15を使用すると良い結果が得られます．"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:54
+msgid ""
+"Note that the \"Add after\" UI formerly crashed on Linux with the wxPython "
+"backend for versions of Mayavi up to 3.2.0 (see :ref:`known_bugs` for all "
+"know bugs)."
+msgstr ""
+"\"Add after\" UIは以前，バージョン3.2 .0(既知のバグは :ref:`known_bugs` "
+"を参照してください．)までのMayaviでwxPythonバックエンドを持つLinux上でクラッシュしていました．"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:59
+msgid ""
+"We can now click on the `Colors and legends` on the pipeline and change the "
+"colors used, by selecting a different LUT (Look Up Table). Let us select "
+"'Paired' as it separates well levels."
+msgstr ""
+"パイプラインの `Colors and legends` をクリックし，別のLUT(テーブルの検索)を選択して使用するカラーを変更します．レベルを分ける"
+" 'Paired' を選択してみましょう．"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:65
+msgid ""
+"To get a better view of the potential, we would like to display more "
+"contours, but the problem with this approach is that closed contours hide "
+"their interior. On solution is to use a cut plane. Right-click on the "
+"`IsoSurface` node and add a `ScalarCutPlane` through the \"Add module\" sub "
+"menu. You can move the cut plane by clicking on it and dragging."
+msgstr ""
+"可能性をよりよく把握するために，より多くの等高線を表示したいと考えていますが，この方法の問題は，閉じた等高線によって内部が隠されることです．解決策としては，切断面を使用します．"
+" `IsoSurface` ノードを右クリックし， \"Add module\" サブメニューから `ScalarCutPlane` "
+"を追加します．切断面を移動するには，その切断面をクリックしてドラッグします．"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:71
+msgid ""
+"To make the link between our numpy arrays and the visualization, we can use "
+"the same menu to add an Axes and an Outline. Finally, let us add a colorbar."
+" We can do this by typing::"
+msgstr ""
+"numpy配列と視覚化の間のリンクを作成するには，同じメニューを使用して軸とアウトラインを追加します．最後に，カラーバーを追加します．次のように入力します．"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:77
+msgid "Or using the options in the LUT dialog visited earlier."
+msgstr "または，前述のLUTダイアログボックスのオプションを使用します．"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:81
+msgid ""
+"We want to study the motion of a particle in this potential. For this we "
+"need to derive the corresponding force, given by the gradient of the "
+"potential. We create a gradient function::"
+msgstr ""
+"このポテンシャルにおける粒子の運動を研究します．このためには，ポテンシャルの勾配によって与えられる，対応する力を導く必要があります．グラデーション関数を作成します．"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:95
+msgid ""
+"To check that our gradient function works well, let us visualize the vector "
+"field it creates. To avoid displaying too many vectors, we will evaluate the"
+" gradient only along a cut for X=50, and every three points on our grid::"
+msgstr ""
+"勾配関数が適切に機能することを確認するために，この関数によって作成されるベクトルフィールドを視覚化します．ベクトルが多すぎないように，X=50のカットに沿ったグラデーションと，グリッド上の各ポイントを評価します．"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:106
+msgid ""
+"Now we can use `scipy` to integrate the trajectories. We first have to "
+"define a dynamical flow, the function that returns the derivative of the "
+"different parameters as a function of these parameters and of time. The flow"
+" is used by every ODE_ (ordinary differential equation) solver, it give the "
+"dynamic of the system. The dynamics we are interested in is made of the "
+"force deriving from the potential, which we shake with time in the three "
+"directions, as well as a damping force. The damping coefficient and the "
+"amount and frequency of shaking have been tuned to give an interesting "
+"dynamic. ::"
+msgstr ""
+"これで `scipy` "
+"を使って軌道を統合することができます．最初に動的フローを定義する必要があります．これは，異なるパラメータの導関数を，これらのパラメータと時間の関数として返す関数です．このフローはすべての"
+" ODE_ "
+"(常微分方程式)ソルバーで使用され，システムの動的特性を提供します．我々が興味を持っている動力学は,減衰力と同様に,3方向で時間とともに振動するポテンシャルから生じる力で構成されています．減衰係数と振動の量と頻度は興味深い動的を与えるように調整しました．"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:122
+msgid "Now we can integrate the trajectory::"
+msgstr "この軌跡を"
+
+#: ../../mayavi/docs/source/mayavi/example_using_with_scipy.rst:132
+msgid ""
+"And we can now plot the trajectories, after removing the cut plane and the "
+"vector field by right-clicking on the corresponding pipeline node and "
+"selecting delete. We also turn the first color bar off in the corresponding "
+"`Colors and legends` node. We plot the trajectories with extra scalar "
+"information attached to it, to display the time via the colormap::"
+msgstr ""
+"対応するパイプラインノードを右クリックして削除を選択することで，切断平面とベクトルフィールドを削除した後で軌道をプロットできます．また，対応する "
+"`Colors and legends` "
+"ノードの最初のカラーバーをオフにします．追加のスカラー情報をアタッチして軌道をプロットし，カラーマップで時間を表示します．"

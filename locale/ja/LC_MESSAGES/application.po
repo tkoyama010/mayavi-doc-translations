@@ -1,0 +1,1060 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2018, Enthought Inc.
+# This file is distributed under the same license as the mayavi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mayavi 4.8.2.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-19 02:52+0000\n"
+"PO-Revision-Date: 2019-04-27 07:28+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
+"Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:4
+msgid "Using the Mayavi application"
+msgstr "Mayaviアプリケーションの使用"
+
+#: ../../mayavi/docs/source/mayavi/application.rst-1
+msgid "Section summary"
+msgstr "セクションの概要"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:8
+msgid ""
+"This section primarily concerns interactive usage of the ``mayavi2`` "
+"application. Some of the things mentioned here also apply when Mayavi is "
+"scripted."
+msgstr ""
+"このセクションでは，主に ``mayavi2`` "
+"アプリケーションの対話的な使用方法について説明します．ここで説明する内容の一部は，Mayaviがスクリプト化されている場合にも適用されます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:12
+msgid ""
+"However, if you are only interested in a quick start to use Mayavi as a "
+"simple, Matlab-like, plotting library, you can jump directly to the "
+":ref:`simple-scripting-with-mlab` section, and come back later for a deeper "
+"understanding."
+msgstr ""
+"しかし，Matlabに似たシンプルな描画ライブラリとしてMayaviを簡単に使い始めたいのであれば， :ref:`simple-scripting-"
+"with-mlab` セクションに直接ジャンプし，後で戻ってより深い理解を得ることができます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:22
+msgid "Section contents"
+msgstr "セクションの内容"
+
+#: ../../mayavi/docs/source/mayavi/examples.rst:4
+msgid "Tutorial examples to learn Mayavi"
+msgstr "Mayaviを学習するためのチュートリアルの例"
+
+#: ../../mayavi/docs/source/mayavi/examples.rst:6
+msgid ""
+"To get acquainted with mayavi you may start up the Mayavi2 application, "
+"``mayavi2`` in the command line, like so::"
+msgstr "mayaviを理解するには，次のようにコマンドラインでMayavi2アプリケーション ``mayavi2`` を起動します．"
+
+#: ../../mayavi/docs/source/mayavi/examples.rst:11
+msgid ""
+"On Windows you can double click on the installed ``mayavi2.exe`` executable "
+"(usually in the ``Python2X\\Scripts`` directory), or use the start menu "
+"entry, if you installed python(x,y) or EPD."
+msgstr ""
+"Windowsでは，インストールされている(通常は ``Python2X\\Scripts`` ディレクトリにある) ``mayavi2.exe`` "
+"をダブルクリックするか， python(x,y) またはEPDをインストールしていれば，スタートメニューの項目を使うことができます．"
+
+#: ../../mayavi/docs/source/mayavi/examples.rst:15
+msgid ""
+"Once Mayavi starts, you may resize the various panes of the user interface "
+"to get a comfortable layout.  These settings will become the default "
+"\"perspective\" of the mayavi application.  More details on the UI are "
+"available in the :ref:`general-layout-of-ui` section."
+msgstr ""
+"Mayaviを起動したら，ユーザインタフェースのさまざまなペインのサイズを変更して，快適なレイアウトにすることができます．これらの設定は，mayaviアプリケーションのデフォルト"
+" \"perspective\" になります．UIの詳細については :ref:`general-layout-of-ui` "
+"のセクションを参照してください．"
+
+#: ../../mayavi/docs/source/mayavi/examples.rst:20
+msgid ""
+"We give a few detailed examples of how you can use the Mayavi application to"
+" tour some of its features. Before proceeding to the examples, it can be "
+"useful to locate some data to experiment with. Two of the examples below "
+"make use of data shipped with the mayavi sources ship.  These may be found "
+"in the ``examples/data`` directory inside the root of the mayavi source "
+"tree. If these are not installed, the sources may be downloaded from here: "
+"https://github.com/enthought/mayavi"
+msgstr ""
+"ここでは，Mayaviアプリケーションを使用してその機能の一部を紹介するための詳細な例をいくつか示します．例に進む前に，実験するデータを見つけておくと便利です．以下の2つの例では，mayaviソースの出荷時に出荷されたデータを使用しています．これらは，mayaviソースツリーのルート内の"
+" ``examples/data`` ディレクトリにあります．これらがインストールされていない場合は， "
+"https://github.com/enthought/mayavi からソースをダウンロードできます．"
+
+#: ../../mayavi/docs/source/mayavi/examples.rst:4
+msgid "**Examples**:"
+msgstr "**例**"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:29
+msgid "General layout of UI"
+msgstr "UIの一般的なレイアウト"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:31
+msgid ""
+"When the `mayavi2` application is started it will provide a user interface "
+"that looks something like the figure shown below."
+msgstr "`mayavi2` アプリケーションを起動すると，以下の図のようなユーザインタフェースが提供されます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst-1
+msgid "Figure of Mayavi's initial UI window."
+msgstr "Mayaviの初期UIウィンドウの図．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:38
+msgid "The UI features several sections described below."
+msgstr "UIには，以下で説明するいくつかのセクションがあります．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "Menus"
+msgstr "メニュー"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:41
+msgid "The menus let you open files, load modules, set preferences etc."
+msgstr "メニューでは，ファイルのオープン，モジュールのロード，プリファレンスの設定などを行うことができます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "The Mayavi pipeline tree view"
+msgstr "Mayaviパイプラインのツリービュー"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:53
+msgid "This is a tree view of the Mayavi pipeline."
+msgstr "これはMayaviパイプラインのツリービューです．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:45
+msgid "Right click a tree node to rename, delete, copy the objects."
+msgstr "オブジェクトの名前変更，削除，コピーを行うには，ツリーノードを右クリックします．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:47
+msgid ""
+"Left click on a node to edit its properties on the object editor below the "
+"tree."
+msgstr "ノードを左クリックして，ツリーの下にあるオブジェクト・エディタでプロパティを編集します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:50
+msgid ""
+"It is possible to drag the nodes around on the tree.  For example it is "
+"possible to drag and move a module from one set of Modules to another, or to"
+" move visualization from one scene to another."
+msgstr ""
+"ツリー上でノードをドラッグすることができます．たとえば，モジュールのセット間でモジュールをドラッグして移動したり，シーン間で可視化を移動したりできます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "The object editor"
+msgstr "オブジェクトエディタ"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:56
+msgid ""
+"This is where the properties of Mayavi pipeline objects can be changed when "
+"an object on the pipeline is clicked."
+msgstr "ここで，パイプライン上のオブジェクトをクリックすると，Mayaviパイプラインオブジェクトのプロパティを変更できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "Mayavi scenes"
+msgstr "Mayaviの風景"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:60
+msgid ""
+"This is where the visualization of the data happens.  One can interact with "
+"this scene via the mouse and the keyboard.  More details are in the "
+"following sections."
+msgstr "ここでデータの視覚化が行われます．マウスとキーボードを介してこのシーンを操作することができる．詳細は次のセクションで説明します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "Python interpreter"
+msgstr "Pythonインタプリタ"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:65
+msgid ""
+"The built-in Python interpreter that can be used to script Mayavi and do "
+"other things.  You can drag nodes from the Mayavi tree and drop them on the "
+"interpreter and then script the object represented by the node!"
+msgstr ""
+"Mayaviのスクリプト作成などに使用できるビルトインPythonインタプリタです．Mayaviツリーからノードをドラッグしてインタープリタにドロップすると，そのノードが表すオブジェクトをスクリプト化できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:70
+msgid ""
+"If you have version of IPython_ above 0.9.1 installed, this Python "
+"interpreter will use IPython."
+msgstr "IPython_ のバージョン0.9 .1以上がインストールされている場合，このPythonインタプリタはIPythonを使用します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "Logger"
+msgstr "ロガー"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:74
+msgid "Application log messages may be seen here."
+msgstr "アプリケーション・ログ・メッセージが表示される場合があります．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:78
+msgid "Mayavi's UI layout is highly configurable:"
+msgstr "MayaviのUIレイアウトは高度な設定が可能です．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:80
+msgid ""
+"the line in-between the sections can be dragged to resize particular views."
+msgstr "セクション間の線をドラッグして，特定のビューのサイズを変更できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:83
+msgid ""
+"most of the \"tabs\" on the widgets can be dragged around to move them "
+"anywhere in the application."
+msgstr "ウィジェットの \"tabs\" のほとんどは，アプリケーション内のどこにでもドラッグして移動できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:86
+msgid ""
+"Each view area (the Mayavi pipeline view, object editor, python shell and "
+"logger) can be enabled and disabled in the 'View' menu."
+msgstr ""
+"各表示領域(Mayaviパイプラインビュー，オブジェクトエディタ，Pythonシェル，ロガー)は， 'View' "
+"メニューで有効/無効を切り替えることができます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:89
+msgid ""
+"Each time you change the appearance of Mayavi it is saved and the next time "
+"you start up the application it will have the same configuration. In "
+"addition, you can save different layouts into different \"perspectives\" "
+"using the `View->Perspectives` menu item."
+msgstr ""
+"Mayaviの外観を変更するたびに保存され，次にアプリケーションを起動したときにも同じ設定になります．また，View->Perspectivesメニュー項目を使用して，異なるレイアウトを異なる"
+" \"perspectives\" に保存することもできます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:94
+msgid ""
+"Shown below is a specifically configured Mayavi user interface view. In this"
+" view the size of the various parts are changed."
+msgstr "下の図は，具体的に設定されたMayaviユーザインタフェースビューです．このビューでは，さまざまなパーツのサイズが変更されます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst-1
+msgid "Figure of Mayavi's UI after being configured by a user."
+msgstr "ユーザが設定した後のMayaviのUIの図．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:102
+msgid "Visualizing data"
+msgstr "データの視覚化"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:104
+msgid ""
+"Visualization data in Mayavi is performed by loading some data as `data "
+"sources`, and applying visualization modules to these sources to visualize "
+"the data as described in the :ref:`an-overview-of-mayavi` section. To get a "
+"feeling of how this work, going through the :ref:`Parametric surfaces "
+"example <parametric_surfaces_example>` can be helpful."
+msgstr ""
+"Mayaviでの可視化データは，一部のデータを 「データソース」 "
+"としてロードし，これらのソースに可視化モジュールを適用してデータを視覚化することによって実行されます．これについては， :ref:`an-"
+"overview-of-mayavi` のセクションを参照してください．これがどのように動作するかを理解するには， :ref:`Parametric "
+"surfaces example <parametric_surfaces_example>` を参照すると役に立ちます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:111
+msgid ""
+"One needs to have some data or the other loaded before a `Module` or "
+"`Filter` may be used.  Mayavi supports several data file formats most "
+"notably VTK data file formats. Alternatively, :ref:`mlab <simple-scripting-"
+"with-mlab>` can be used to load data from `numpy` arrays. For advanced "
+"information on data structures, refer to the :ref:`data-structures-used-by-"
+"mayavi` section."
+msgstr ""
+"`Module` または `Filter` "
+"が使用される前に，あるデータまたは別のデータをロードする必要があります．Mayaviは，いくつかのデータファイルフォーマットをサポートしています，特にVTKデータファイルフォーマット．あるいは，"
+" :ref:`mlab <simple-scripting-with-mlab>` を使って `numpy` "
+"配列からデータをロードすることもできます．データ構造の詳細については， :ref:`data-structures-used-by-mayavi` "
+"セクションを参照してください．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:118
+msgid ""
+"Once data is loaded one can optionally use a variety of :ref:`filters` to "
+"filter or modify the data in some way or the other and then visualize the "
+"data using several :ref:`modules`."
+msgstr ""
+"データがロードされると，オプションで以下のようなさまざまなものを使用することができます． :ref:`filters` "
+"データをフィルタしたり，何らかの方法で修正したりしてから， :ref:`modules` を使用してデータを視覚化します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:122
+msgid ""
+"Here we list all the Mayavi `modules` and `filters`. This list is useful as "
+"a reference:"
+msgstr "ここでは，Mayaviのすべての `modules` と `filters` をリストします．このリストはリファレンスとして役立ちます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:102
+msgid "**List of modules and filters**"
+msgstr "**モジュールとフィルターの一覧**"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:136
+msgid "Interaction with the scene"
+msgstr "シーンとの相互作用"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:138
+msgid ""
+"The Mayavi scenes on the UI can be closed by clicking on the little 'x' icon"
+" on the tab.  Each scene features a toolbar that supports various features:"
+msgstr ""
+"UI上のMayaviシーンを閉じるには，タブ上の小さな 'x' "
+"アイコンをクリックします．各シーンには，さまざまな機能をサポートするツールバーがあります．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:142
+msgid ""
+"Buttons to set the view to view along the positive or negative X, Y and Z "
+"axes or obtain an isometric view."
+msgstr "正または負のX，Y，Z軸に沿ってビューを設定したり，アイソメビューを取得するためのボタンです．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:145
+msgid ""
+"A button to turn on parallel projection instead of the default perspective "
+"projection.  This is particularly useful when one is looking at 2D plots."
+msgstr "既定のパース投影ではなく，平行投影をオンにするボタン．これは，2Dプロットを表示する場合に特に便利です．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:149
+msgid "A button to turn on an axes to indicate the x, y and z axes."
+msgstr "X，Y，Z軸を示す軸をオンにするボタン．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:151
+msgid ""
+"A button to turn on full-screen viewing.  Note that once full-screen mode is"
+" entered one must press 'q' or 'e' to get back a normal window."
+msgstr ""
+"全画面表示をオンにするボタン．フルスクリーンモードに入ったら， 'q' または 'e' "
+"を押して通常のウィンドウに戻らなければならないことに注意してください．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:155
+msgid ""
+"A button to save the scene to a variety of image formats.  The image format "
+"to use is determined by the extension provided for the file."
+msgstr "シーンをさまざまなイメージフォーマットで保存するためのボタン．使用するイメージ形式は，ファイルに指定されている拡張子によって決まります．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:159
+msgid "A button that provides a UI to configure the scene properties."
+msgstr "シーンのプロパティを設定するためのUIを提供するボタン．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:161
+msgid ""
+"The primary means to interact with the scene is to use the mouse and "
+"keyboard."
+msgstr "シーンを操作する主な方法は，マウスとキーボードを使用することです．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:166
+msgid "Mouse interaction"
+msgstr "マウス操作"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:168
+msgid "There are two modes of mouse interaction:"
+msgstr "マウス操作には2つのモードがあります．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:170
+msgid ""
+"Camera mode: the default, where the camera is operated on with mouse moves."
+"  This mode is activated by pressing the 'c' key."
+msgstr "カメラモード:デフォルトで，マウスの移動に伴ってカメラが操作されます． 'c' キーを押すとこのモードになります．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:173
+msgid ""
+"Actor mode: in this mode the mouse actions operate on the actor the mouse is"
+" currently above.  This mode is activated by pressing the 'a' key."
+msgstr ""
+"アクターモード:このモードでは，マウスアクションはマウスが現在上にあるアクターに対して動作します． 'a' キーを押すとこのモードになります．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:177
+msgid ""
+"The view on the scene can be changed by using various mouse actions. Usually"
+" these are accomplished by holding down a mouse button and dragging."
+msgstr "シーンのビューは，さまざまなマウスアクションを使用して変更できます．通常は，マウスボタンを押しながらドラッグします．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:181
+msgid ""
+"holding the left mouse button down and dragging will rotate the camera/actor"
+" in the direction moved."
+msgstr "マウスの左ボタンを押したままドラッグすると，カメラ/アクターが移動方向に回転します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:184
+msgid ""
+"Holding down \"SHIFT\" when doing this will pan the scene -- just like the "
+"middle button."
+msgstr "このとき， \"SHIFT\" を押したままにすると，中央のボタンと同じようにシーンがパンします．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:187
+msgid "Holding down \"CONTROL\" will rotate around the camera's axis (roll)."
+msgstr "\"CONTROL\" キーを押すと，カメラの軸を中心に回転します(ロール)．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:190
+msgid ""
+"Holding down \"SHIFT\" and \"CONTROL\" and dragging up will zoom in and "
+"dragging down will zoom out.  This is like the right button."
+msgstr ""
+"\"SHIFT\" と \"CONTROL\" "
+"を押しながら上にドラッグするとズームイン，下にドラッグするとズームアウトします．これは右ボタンのようなものです．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:194
+msgid ""
+"holding the right mouse button down and dragging upwards will zoom in (or "
+"increase the actors scale) and dragging downwards will zoom out (or reduce "
+"scale)."
+msgstr ""
+"マウスの右ボタンを押したまま上方向にドラッグするとズームインし(アクターの規模を拡大し)，下方向にドラッグするとズームアウトします(規模を縮小したり)．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:198
+msgid ""
+"holding the middle mouse button down and dragging will pan the scene or "
+"translate the object."
+msgstr "マウスの中ボタンを押したままドラッグすると，シーンがパンされるか，オブジェクトが移動します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:201
+msgid ""
+"Rotating the mouse wheel upwards will zoom in and downwards will zoom out."
+msgstr "マウスホイールを上に回転すると拡大ズームし，下に回転すると縮小ズームします．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:206
+msgid "Keyboard interaction"
+msgstr "キーボード操作"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:208
+msgid ""
+"The scene supports several features activated via keystrokes.  These are:"
+msgstr "このシーンは，キーストロークによってアクティブ化されるいくつかの機能をサポートしています．次のものがあります．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "'3'"
+msgstr "'3'"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:212
+msgid "Turn on/off stereo rendering.  This may not work if the"
+msgstr "ステレオレンダリングのオンとオフを切り替えます．これは，"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:213
+msgid "'stereo' preference item is not set to True."
+msgstr "'stereo' 基本設定項目がTrueに設定されていません．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "'a'"
+msgstr "'a'"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:216
+msgid "Use actor mode for mouse interaction instead of camera mode."
+msgstr "マウス操作には，カメラモードではなくアクタモードを使用します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "'c'"
+msgstr "'c'"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:219
+msgid "Use camera mode for mouse interaction instead of actor mode."
+msgstr "マウス操作には，アクターモードではなくカメラモードを使用します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "'e'/'q'/'Esc'"
+msgstr "'e'/'q'/'Esc'"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:222
+msgid "Exit full-screen mode."
+msgstr "フルスクリーンモードを終了します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "'f'"
+msgstr "'f'"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:225
+msgid ""
+"Move camera's focal point to current mouse location.  This will move the "
+"camera focus to center the view at the current mouse position."
+msgstr "カメラの焦点を現在のマウスの位置に移動します．これにより，カメラフォーカスが移動し，現在のマウスの位置でビューが中央に配置されます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "'j'"
+msgstr "'j'"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:230
+msgid ""
+"Use joystick mode for the mouse interaction.  In joystick mode the mouse "
+"somewhat mimics a joystick.  For example, holding the mouse left button down"
+" when away from the center will rotate the scene."
+msgstr ""
+"マウス操作にジョイスティックモードを使用します．ジョイスティックモードでは，マウスはジョイスティックを模倣します．たとえば，中心から離れているときにマウスの左ボタンを押したままにすると，シーンが回転します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "'l'"
+msgstr "'l'"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:236
+msgid ""
+"Configure the lights that are illumining the scene.  This will pop-up a "
+"window to change the light configuration."
+msgstr "シーンを照らすライトを設定します．ライトの設定を変更するためのウィンドウが表示されます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "'p'"
+msgstr "'p'"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:240
+msgid ""
+"Pick the data at the current mouse point.  This will pop-up a window with "
+"information on the current pick.  The UI will also allow one to change the "
+"behavior of the picker to pick cells, points or arbitrary points."
+msgstr ""
+"現在のマウスポイントでデータを選択します．現在の選択に関する情報を示すウィンドウがポップアップ表示されます．UIでは，ピッカーの動作を変更して，セル，ポイント，または任意のポイントを選択することもできます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "'r'"
+msgstr "'r'"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:246
+msgid "Reset the camera focal point and position.  This is very handy."
+msgstr "カメラの焦点と位置をリセットします．これはとても便利です．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "'s'"
+msgstr "'s'"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:249
+msgid ""
+"Save the scene to an image, this will first popup a file selection dialog "
+"box so you can choose the filename, the extension of the filename determines"
+" the image type."
+msgstr ""
+"シーンをイメージに保存すると，最初にファイル選択ダイアログボックスが表示され，ファイル名を選択できます．ファイル名の拡張子によってイメージタイプが決まります．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "'t'"
+msgstr "'t'"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:254
+msgid ""
+"Use trackball mode for the mouse interaction.  This is the default mode for "
+"the mouse interaction."
+msgstr "マウス操作にはトラックボールモードを使用します．これは，マウス操作のデフォルトモードです．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "'='/'+'"
+msgstr "'='/'+'"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:258
+msgid "Zoom in."
+msgstr "拡大表示します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "'-'"
+msgstr "'-'"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:261
+msgid "Zoom out."
+msgstr "縮小表示します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:0
+msgid "'left'/'right'/'up'/'down' arrows"
+msgstr "'左'/'右'/'上'/'下' 矢印"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:265
+msgid ""
+"Pressing the left, right, up and down arrow let you rotate the camera in "
+"those directions.  When \"SHIFT\" modifier is also held down the camera is "
+"panned."
+msgstr ""
+"左矢印，右矢印，上矢印，下矢印を押すと，これらの方向にカメラを回転できます． \"SHIFT\" "
+"モディファイヤを押したままにすると，カメラがパンされます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:270
+msgid "From interactive usage to scripting"
+msgstr "対話的な使用からスクリプト作成へ"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:272
+msgid ""
+"It is easy to learn how to script Mayavi when using the interactive "
+"application. In this sub-section, we give a few tips for this purpose."
+msgstr ""
+"インタラクティブアプリケーションの使用時にMayaviのスクリプトを作成する方法を簡単に学習できます．このサブセクションでは，この目的のためのヒントをいくつか紹介します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:278
+msgid "The embedded Python interpreter"
+msgstr "組み込みPythonインタプリタ"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:280
+msgid ""
+"The embedded Python interpreter offers extremely powerful possibilities.  "
+"The interpreter features command completion, automatic documentation, "
+"tooltips and some multi-line editing.  In addition it supports the following"
+" features:"
+msgstr ""
+"組み込みPythonインタープリターは，非常に強力な可能性を提供します．インタープリターには，コマンド補完，自動文書化，ツールチップ，および複数行の編集機能があります．さらに，次の機能もサポートしています．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:285
+msgid ""
+"The name ``mayavi`` is automatically bound to the ``mayavi.script.Script`` "
+"instance.  This may be used to easily script Mayavi."
+msgstr ""
+"``mayavi`` という名前は自動的に ``mayavi.script.Script`` "
+"に結び付けられます．これは，Mayaviを簡単にスクリプト化するために使用できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:289
+msgid "The name ``application`` is bound to the envisage application."
+msgstr "``application`` という名前は，想定されるアプリケーションに結び付けられます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:291
+msgid ""
+"If a Python file is opened via the ``File->Open File...`` menu item one can "
+"edit it with a color syntax capable editor.  To execute this script in the "
+"embedded Python interpreter, the user may type ``Control-r`` on the editor "
+"window.  To save the file press ``Control-s``.  This is a very handy feature"
+" when developing simple Mayavi scripts. You can also increase and decrease "
+"the font size using ``Control-n`` and ``Control-s``."
+msgstr ""
+"Pythonファイルを ``File->Open File...`` "
+"で開いた場合．”メニュー項目1は，色構文対応エディターで編集できます．組み込みPythonインタプリタでこのスクリプトを実行するには，エディタウィンドウに"
+" ``Control-r`` と入力します．ファイルを保存するには  ``Control-s`` "
+"キーを押します．これは，単純なMayaviスクリプトを開発するときに非常に便利な機能です． ``Control-n`` と ``Control-s`` "
+"を使って，フォントサイズを増減することもできます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:299
+msgid ""
+"As mentioned earlier, one may drag and drop nodes from the Mayavi pipeline "
+"tree view onto the Python shell.  The object may then be scripted as one "
+"normally would.  A commonly used pattern when this is done is the "
+"following::"
+msgstr ""
+"前述のように，MayaviパイプラインのツリービューからPythonシェルにノードをドラッグアンドドロップすることができます．オブジェクトは，通常どおりにスクリプト化できます．このような場合によく使用されるパターンは次のとおりです．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:308
+msgid ""
+"In this case the name ``s`` is bound to the dropped tvtk_scene object.  The "
+"``_`` variable stores the last evaluated expression which is the dropped "
+"object.  Using ``tvtk_scene_1`` will also work but is a mouthful."
+msgstr ""
+"この場合，名前 ``s`` は削除されたtvtk_sceneオブジェクトにバインドされます．変数 ``_`` "
+"には，削除されたオブジェクトである最後に評価された式が格納されます． ``tvtk_scene_1`` を使うこともできますが，一語になります．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:317
+msgid "Recording Mayavi actions to a script"
+msgstr "スクリプトへのMayaviアクションの記録"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:319
+msgid ""
+"Mayavi features a very handy and powerful script recording facility. This "
+"can be used to:"
+msgstr "Mayaviは非常に便利で強力なスクリプト記録機能を備えています．これは，次の目的で使用できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:322
+msgid ""
+"record all actions performed on the Mayavi UI into a *human readable*, "
+"Python script that should be able to recreate your visualization."
+msgstr "Mayavi UIで実行されたすべてのアクションを，可視化を再作成できる *人間が読める* Pythonスクリプトに記録します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:325
+msgid ""
+"learn how to script the Mayavi objects, in combination with :ref:`mlab "
+"<simple-scripting-with-mlab>`."
+msgstr ""
+"Mayaviオブジェクトを :ref:`mlab <simple-scripting-with-mlab>` "
+"と組み合わせてスクリプト化する方法を学習します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:328
+msgid "Here is how you can use this feature:"
+msgstr "この機能の使用方法は次のとおりです．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:330
+msgid ""
+"When you start the ``mayavi2`` application, on the pipeline tree view "
+"toolbar you will find a red record icon next to the question mark icon.  "
+"Click it.  Note that this will also work from a standalone mlab session, on "
+"the toolbar of the :ref:`Mayavi pipeline window <mlab-changing-objects-"
+"interactively>`."
+msgstr ""
+"``mayavi2`` "
+"アプリケーションを起動すると，パイプラインツリービューツールバーのクエスチョンマークの横に赤いレコードアイコンが表示されます．クリックします．これは， "
+":ref:`Mayavi pipeline window ` のツールバーにあるスタンドアロンのmlabセッションからでも動作します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:336
+msgid ""
+"You'll see a window popup with a few lines of boilerplate code so you can "
+"run your script standalone/with ``mayavi2 -x script.py ``or ``python "
+"script.py``. Keep this window open and ignore for now the ``Save script`` "
+"button, which will be used when you are finished."
+msgstr ""
+"数行の定型的なコードを含むポップアップウィンドウが表示されるので，スタンドアローンのスクリプトを実行できます． ``mayavi2 -x "
+"script.py `` または ``python script.py`` です．このウィンドウを開いたままにしておき，終了時に使用する ``Save "
+"script`` ボタンを無視してください．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:341
+msgid ""
+"Now do anything you please on the UI.  As you perform those actions, the "
+"code needed to perform those actions is added to the code listing and "
+"displayed in the popup window.  For example, create a new source (either via"
+" the adder node dialog/view, the file menu or right click, i.e. any normal "
+"option), then add a module/filter etc.  Modify objects on the tree view."
+msgstr ""
+"UIで好きなことを実行します．これらのアクションを実行すると，それらのアクションを実行するために必要なコードがコードリストに追加され，ポップアップウィンドウに表示されます．たとえば，新しいソース(追加ノードの"
+" dialog/view "
+"，ファイルメニュー，または通常のオプションの右クリックのいずれかを使用します．)を作成し，モジュールやフィルタなどを追加します．ツリー・ビューでオブジェクトを変更します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:348
+msgid ""
+"Move the camera on the UI, rotate the camera, zoom, pan.  All of these will "
+"generate suitable Python code.  For the camera only the end position is "
+"stored (otherwise you'll see millions of useless lines of code).  The major "
+"keyboard actions on the scene are recorded (except for the 'c'/'t'/'j'/'a' "
+"keys).  This implies that it will record any left/right/up/down arrows the "
+"'+'/'-' keys etc."
+msgstr ""
+"UI上のカメラの移動，カメラの回転，ズーム，パン．これらはすべて，適切なPythonコードを生成します．カメラの場合，終了位置のみが保存されます(そうでなければ，何百万行もの無駄なコードを目にすることになる)．シーン上の主要なキーボードアクションが記録されます("
+" 'c'/'t'/'j'/'a' キーを除く)．これは，左/右/上/下矢印や '+'/'-' キーなどを記録することを意味します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:355
+msgid ""
+"Since the code is updated as the actions are performed, this is a nice way "
+"to learn the Mayavi API."
+msgstr "アクションが実行されるとコードが更新されるので，Mayavi APIを学習するのに便利です．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:358
+msgid ""
+"Once you are done, clicking on the record icon again will stop the "
+"recording: in the pop-up window, the ``Recording`` box will be ticked off "
+"and no code corresponding to new actions will be displayed any more. If you "
+"want to save the recorded script to a Python file, click on the ``Save "
+"script`` button at the bottom of the window. Save the script to some file, "
+"say ``script.py``.  If you are only interested in the code and not saving a "
+"file you may click cancel at this point."
+msgstr ""
+"完了したら，もう一度レコードアイコンをクリックすると，記録が停止します．ポップアップウィンドウの ``Recording`` "
+"ボックスがチェックされ，新しいアクションに対応するコードは表示されなくなります．記録したスクリプトをPythonファイルに保存するには，ウィンドウの下部にある"
+" ``Save script`` ボタンをクリックします．スクリプトを ``script.py`` "
+"ファイルに保存します．コードのみを保存し，ファイルを保存しない場合は，ここでcancelをクリックします．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:366
+msgid "Close the recorder window. You can quit Mayavi, if you want to."
+msgstr "記録ウィンドウを閉じます．Mayaviを終了することもできます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:368
+msgid "Now from the shell do::"
+msgstr "シェルから以下を実行します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:372
+msgid "or even::"
+msgstr "または"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:376
+msgid ""
+"These should run all the code to get you where you left.  You can feel free "
+"to edit this generated script -- in fact that is the whole point of "
+"automatic script generation!"
+msgstr ""
+"これらはすべてのコードを実行して，あなたが去ったところにたどり着くはずです．この生成されたスクリプトは自由に編集できます．実際，自動スクリプト生成のすべてのポイントはここにあります．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:380
+msgid ""
+"It is important to understand that it is possible to script an existing "
+"session of Mayavi too.  So, if after starting Mayavi you did a few things or"
+" ran a Mayavi script and then want to record any further actions, that are "
+"certainly possible.  Follow the same procedure as before.  The only gotcha "
+"you have to remember in this case is that the script recorder will not "
+"create the objects you already have setup on the session."
+msgstr ""
+"Mayaviの既存のセッションをスクリプト化することも可能であることを理解することが重要です．したがって，Mayaviを起動した後で，いくつかの操作を実行したり，Mayaviスクリプトを実行した後で，さらにアクションを記録したい場合は，その可能性があります．前と同じ手順に従います．この場合に覚えておかなければならないのは，セッションですでにセットアップしたオブジェクトはスクリプト・レコーダーによって作成されないということだけです．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:390
+msgid ""
+"You should also be able to delete/drag drop objects on the Mayavi tree view."
+"  However, these probably aren't things you'd want to do in an automatic "
+"script."
+msgstr ""
+"また，Mayaviツリービューでドロップオブジェクトを削除/ドラッグすることもできます．しかし，これらはおそらく自動スクリプトでは行いたくないことです．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:394
+msgid ""
+"As noted earlier, script recording will work for a ``mlab`` session or "
+"anywhere else where Mayavi is used.  It will not generate any ``mlab`` "
+"specific code but write generic Mayavi code using the OO Mayavi API."
+msgstr ""
+"前述したように，スクリプトの記録は ``mlab`` セッションやMayaviが使用されるその他の場所で機能します． ``mlab`` "
+"固有のコードは生成しませんが，OO Mayavi APIを使用して汎用のMayaviコードを記述します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:400
+msgid "Limitations"
+msgstr "制限事項"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:402
+msgid ""
+"The script recorder works for some important actions.  At this point it does"
+" not support the following actions:"
+msgstr "スクリプトレコーダーは，いくつかの重要なアクションに使用できます．この時点では，次のアクションはサポートされていません．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:407
+msgid "On the scene, the 'c'/'t'/'j'/'a'/'p' keys are not recorded"
+msgstr "シーンに 'c'/'t'/'j'/'a'/'p' キーが記録されない"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:406
+msgid ""
+"correctly since this is much more complicated to implement and typically not"
+" necessary for basic scripting."
+msgstr "これは実装が非常に複雑で，基本的なスクリプト作成には通常必要ないためです．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:410
+msgid "Arbitrary scripting of the interface is obviously not going to work"
+msgstr "インターフェースの任意のスクリプトは，明らかに機能しません．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:410
+msgid "as you may expect."
+msgstr "ご想像のとおり．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:413
+msgid "Only trait changes and specific calls are recorded explicitly in the"
+msgstr "特性の変更と特定の呼び出しだけが"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:413
+msgid ""
+"code.  So calling arbitrary methods on arbitrary Mayavi objects will not "
+"record anything typically."
+msgstr "コード．したがって，任意のMayaviオブジェクトで任意のメソッドをコールしても，通常は何も記録されません．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:419
+msgid "Command line arguments"
+msgstr "コマンドライン引数"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:421
+msgid ""
+"The ``mayavi2`` application features several useful command line arguments "
+"that are described in the following section.  These options are described in"
+" the ``mayavi2`` man page as well."
+msgstr ""
+"``mayavi2`` アプリケーションには，次のセクションで説明する便利なコマンドライン引数があります．これらのオプションについては，  "
+"``mayavi2`` のマニュアルページでも説明されています．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:425
+msgid ""
+"A complete pipeline may be built from the command line, so that Mayavi can "
+"be integrated in shell scripts to provide useful visualizations."
+msgstr "コマンドラインから完全なパイプラインを構築して，Mayaviをシェルスクリプトに統合し，便利な可視化を実現できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:428
+msgid "Mayavi can be run like so::"
+msgstr "Mayaviは次のように実行できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:432
+msgid ""
+"Where ``arg1``, ``arg2`` etc.  are optional file names that correspond to "
+"saved Mayavi2 visualizations (``filename.mv2``),  Mayavi2 scripts "
+"(``filename.py``) or any datafile supported by Mayavi.  If no options or "
+"arguments are provided Mayavi will start up with a default blank scene."
+msgstr ""
+"ここで， ``arg1`` ， ``arg2`` などは，保存されたMayavi2ビジュアライゼーション( ``filename.mv2`` "
+")，Mayavi2スクリプト( ``filename.py`` "
+")，またはMayaviがサポートする任意のデータファイルに対応するオプションのファイル名です．オプションまたは引数が指定されていない場合，Mayaviはデフォルトの空白シーンで起動します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:437
+msgid "The options are:"
+msgstr "次のオプションがあります．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:440
+msgid ""
+"This prints all the available command line options and exits. Also available"
+" through ``--help``."
+msgstr "これにより，使用可能なすべてのコマンドラインオプションが出力され，終了します ``--help`` からも利用できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:444
+msgid ""
+"This prints the Mayavi version on the command line and exits. Also available"
+" through ``--version``."
+msgstr "これにより，コマンドラインにMayaviのバージョンが出力されて終了します． ``--version`` からも入手できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:448
+msgid ""
+"This loads a previously saved Mayavi2 visualization.  Also available through"
+" ``--viz file_name`` or ``--visualization file_name``."
+msgstr ""
+"これにより，以前に保存したMayavi2表示がロードされます． ``--viz file_name`` または ``--visualization "
+"file_name`` からも利用できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:453
+msgid ""
+"Opens any of the supported data file formats or non-file associated data "
+"source objects.  This includes VTK file formats (``*.vtk``, ``*.xml``, "
+"``*.vt[i,p,r,s,u]``, ``*.pvt[i,p,r,s,u]``), VRML2 (``*.wrl``), 3D Studio "
+"(``*.3ds``), PLOT3D (``*.xyz``), STL, BYU, RAW, PLY, PDB, SLC, FACET, OBJ, "
+"AVSUCD (``*.inp``), GAMBIT (``*.neu``), Exodus (``*.exii``), PNG, JPEG, BMP,"
+" PNM, DCM, DEM, MHA, MHD, MINC, XIMG, TIFF, and various others that are "
+"supported."
+msgstr ""
+"サポートされているデータファイル形式，またはファイルに関連付けられていないデータソースオブジェクトを開きます．これには，VTKファイル形式(``*.vtk``,"
+" ``*.xml``, ``*.vt[i,p,r,s,u]``, ``*.pvt[i,p,r,s,u]``)，VRML2(``*.wrl``)，3D "
+"Studio(``*.3ds``)，PLOT3D(``*.xyz``)，STL，BYU，RAW，PLY，PDB，SLC，FACET，OBJ，AVSUCD(``*.inp``)，GAMBIT(``*.neu``)，Exodus(``*.exii``)，PNG，JPEG，BMP，PNM，DCM，DEM，MHA，MHD，MNC，XIMG，TIFF，およびサポートされているその他のさまざまなファイル形式が含まれます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:462
+msgid ""
+"Note that ``data_file`` can also be a source object not associated with a "
+"file, for example ``ParametricSurface`` or ``PointLoad`` will load the "
+"corresponding data sources into Mayavi.  Also available through ``--data``."
+msgstr ""
+"``data_file`` は，ファイルに関連付けられていないソースオブジェクトにすることもできます．たとえば， "
+"``ParametricSurface`` や ``PointLoad`` は，対応するデータソースをMayaviにロードします． ``--data``"
+" からも入手できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:468
+msgid ""
+"A module is an object that actually visualizes the data.  The given "
+"``module-name`` is loaded in the current ``ModuleManager``. The module name "
+"must be a valid one if not you will get an error message."
+msgstr ""
+"モジュールは，データを実際に視覚化するオブジェクトです．与えられた ``module-name`` は現在の ``ModuleManager`` "
+"にロードされる．モジュール名が有効でない場合，エラーメッセージが表示されます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:473
+msgid ""
+"If a module is specified as ``package.sub.module.SomeModule`` then the "
+"module (``SomeModule``) is imported from ``package.sub.module``.  Standard "
+"modules provided with ``mayavi2`` do not need the full path specification.  "
+"For example::"
+msgstr ""
+"もしモジュールが ``package.sub.module.SomeModule`` と入力すると，モジュール( ``SomeModule`` )が "
+"``package.sub.module`` からインポートされます． ``mayavi2`` "
+"で提供される標準モジュールには，フルパスの指定は必要ありません．次に例を示します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:481
+msgid ""
+"In this example ``Outline`` is a standard module and "
+"``user_modules.AModule`` is some user defined module. Also available through"
+" ``--module``."
+msgstr ""
+"この例では， ``Outline`` は標準モジュールで，  ``user_modules.AModule`` はユーザー定義モジュールです． "
+"``--module`` からも入手できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:486
+msgid ""
+"A filter is an object that filters out the data in some way or the other.  "
+"The given ``filter-name`` is loaded with respect to the current "
+"source/filter object.  The filter name must be a valid one if not you will "
+"get an error message."
+msgstr ""
+"フィルタは，何らかの方法でデータをフィルタリングするオブジェクトです．指定された ``filter-name`` "
+"は，現在のsource/filterオブジェクトに対してロードされます．フィルタ名が有効でない場合は，エラーメッセージが表示されます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:491
+msgid ""
+"If the filter is specified as ``package.sub.filter.SomeFilter`` then the "
+"filter (``SomeFilter``) is imported from ``package.sub.filter``.  Standard "
+"modules provided with ``mayavi2`` do not need the full path specification.  "
+"For example::"
+msgstr ""
+"もしフィルタが ``package.sub.filter.SomeFilter`` と入力すると，フィルタ( ``SomeFilter`` )は "
+"``package.sub.filter`` からインポートされます． ``mayavi2`` "
+"で提供される標準モジュールには，フルパスの指定は必要ありません．次に例を示します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:499
+msgid ""
+"In this example ``ExtractVectorNorm`` is a standard filter and "
+"``user_filters.AFilter`` is some user defined filter. Also available through"
+" ``--filter``."
+msgstr ""
+"この例では， ``ExtractVectorNorm`` が標準フィルタで， ``user_filters.AFilter`` "
+"がユーザ定義のフィルタです． ``--filter`` からも入手できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:504
+msgid ""
+"Starts up a new module manager on the Mayavi pipeline. Also available "
+"through ``--module-mgr``."
+msgstr "Mayaviパイプラインで新しいモジュールマネージャを起動します． ``--module-mgr`` からも可能です．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:508
+msgid ""
+"Creates a new window/scene. Any options passed after this will apply to this"
+" newly created scene.  Also available through ``--new-window``."
+msgstr ""
+"新しいウィンドウ/シーンを作成します．この後に渡されるオプションは，新しく作成されたシーンに適用されます． ``--new-window`` "
+"からも利用できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:513
+msgid ""
+"Run Mayavi in off-screen mode without any graphical user interface. This is "
+"most useful for scripts that need to render images off-screen (for an "
+"animation say) in the background without an intrusive user interface popping"
+" up.  Mayavi scripts (run via the ``-x`` argument) should typically work "
+"fine in this mode.  Also available through, ``--off-screen``."
+msgstr ""
+"グラフィカルユーザインタフェースを使用せずに，Mayaviをオフスクリーンモードで実行します．これは，邪魔なユーザインタフェースがポップアップ表示されることなく，バックグラウンドでイメージをオフスクリーン(アニメの台詞)でレンダリングする必要があるスクリプトに最も便利です．Mayaviスクリプト("
+" ``-x`` 引数で実行する)は通常，このモードで正しく動作します． ``--off-screen`` からも入手できる．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:521
+msgid ""
+"This executes the given script in a namespace where we guarantee that the "
+"name 'mayavi' is Mayavi's script instance -- just like in the embedded "
+"Python interpreter.  Also available through ``--exec``."
+msgstr ""
+"これは，ネームスペース内の指定されたスクリプトを実行します．ここでは，組み込みPythonインタプリタの場合と同様に， 'mayavi' "
+"という名前がMayaviのスクリプトインスタンスであることを保証します． ``--exec`` からも入手できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:527
+msgid ""
+"Runs the Mayavi test suite and exits.  If run as such, this runs both the "
+"TVTK and Mayavi2 unit tests.  If any additional arguments are passed they "
+"are passed along to the test runner.  So this may be used to run other tests"
+" as well.  For example::"
+msgstr ""
+"Mayaviテストスイートを実行し，終了します．このように実行すると，TVTKとMayavi2の両方のユニットテストが実行されます．追加の引数が渡されると，テストランナーに渡されます．したがって，これは他のテストを実行するためにも使用できます．次に例を示します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:534
+msgid ""
+"This will run just the tests inside the ``apptools.persistence`` package.  "
+"You can also specify a directory with test files to run with this, for "
+"example::"
+msgstr ""
+"これは ``apptools.persistence`` "
+"パッケージ内部のテストだけを実行します．次のように，テストファイルを含むディレクトリを指定して実行することもできます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:540
+msgid ""
+"will run the integration tests from the Mayavi sources.  Also available as "
+"``--test``."
+msgstr "Mayaviソースから統合テストを実行します． ``--test`` としても利用できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:544
+msgid ""
+"Execute the python-expression on the last created object.  For example, "
+"let's say the previous object was a module.  If you want to set the color of"
+" that object and save the scene, you may do::"
+msgstr ""
+"最後に作成したオブジェクトに対してpython-"
+"expressionを実行します．たとえば，前のオブジェクトがモジュールであったとします．オブジェクトのカラーを設定してシーンを保存するには，次のようにします．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:551
+msgid ""
+"You should use quotes for the expression.  This is also available through "
+"``--set``."
+msgstr "式には引用符を使用してください．これは ``--set`` でも利用できます．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:555
+msgid ""
+"Note that ``-x`` or ``--exec`` uses `execfile`, so this can be dangerous if "
+"the script does something nasty!  Similarly, ``-s`` or ``--set`` uses "
+"`exec`, which can also be dangerous if abused."
+msgstr ""
+"``-x`` や ``--exec`` は `execfile` を使うので，スクリプトが何かひどいことをすると危険です．同様に ``-s`` や "
+"``--set`` は `exec` を使いますが，これも悪用されると危険です．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:559
+msgid ""
+"It is important to note that Mayavi's **command line arguments are processed"
+" sequentially** in the same order they are given.  This allows users to do "
+"interesting things."
+msgstr ""
+"Mayaviの **コマンドライン引数は，指定された順序で** "
+"順番に処理されることに注意してください．これにより，ユーザーは興味深いことができるようになります．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:563
+msgid "Here are a few examples of the command line arguments::"
+msgstr "次に，コマンドライン引数の例をいくつか示します．"
+
+#: ../../mayavi/docs/source/mayavi/application.rst:575
+msgid ""
+"In the above examples, ``heart.vtk`` and ``fire_ug.vtu`` VTK files can be "
+"found in the ``examples/data`` directory in the source.  They may also be "
+"installed on your computer depending on your particular platform."
+msgstr ""
+"上記の例では，  ``heart.vtk`` と ``fire_ug.vtu`` です．VTKファイルは，ソースの ``examples/data`` "
+"ディレクトリにあります．プラットフォームによっては，コンピュータにインストールされることもあります．"
