@@ -1,4 +1,4 @@
 [main]
-host = https://www.transifex.com
+host = https://app.transifex.com
 type = PO
 
