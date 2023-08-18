@@ -37,8 +37,11 @@ jobs:
         (cd mayavi; git fetch origin; git checkout master; git reset --hard origin/master; git branch -a)
         pip3 install -U pip setuptools
         pip3 install -r ./requirements.txt
+        curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
+        mv tx /usr/local/bin/tx
     - name: update
       env:
+        SPHINXINTL_TRANSIFEX_ORGANIZATION_NAME: tkoyama010
         SPHINXINTL_TRANSIFEX_USERNAME: api
         SPHINXINTL_TRANSIFEX_PROJECT_NAME: mayavi
         TX_TOKEN: ${{ secrets.TX_TOKEN }}

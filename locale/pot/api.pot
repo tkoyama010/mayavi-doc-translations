@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mayavi 4.8.1.dev0\n"
+"Project-Id-Version: mayavi 4.8.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-25 19:07+0000\n"
+"POT-Creation-Date: 2022-10-19 02:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -406,6 +406,14 @@ msgstr ""
 
 #: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.engine.Engine.add_scene:1
 msgid "Add given `scene` (a `pyface.tvtk.scene.Scene` instance) to the mayavi engine so that mayavi can manage the scene.  This is used when the user creates a scene.  Note that for the `EnvisageEngine` this is automatically taken care of when you create a new scene using the TVTK scene plugin."
+msgstr ""
+
+#: ../../mayavi/mayavi/core/engine.py:docstring of apptools.scripting.recordable.recordable.<locals>._wrapper:5
+#: ../../mayavi/mayavi/core/engine.py:docstring of apptools.scripting.recordable.recordable.<locals>._wrapper:8
+#: ../../mayavi/mayavi/core/engine.py:docstring of apptools.scripting.recordable.recordable.<locals>._wrapper:12
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.engine.Engine.add_scene:8
+#: ../../mayavi/mayavi/core/engine.py:docstring of mayavi.core.engine.Engine.get_viewer:4
+msgid "Parameters:"
 msgstr ""
 
 #: ../../mayavi/mayavi/core/engine.py:docstring of apptools.scripting.recordable.recordable.<locals>._wrapper:10
