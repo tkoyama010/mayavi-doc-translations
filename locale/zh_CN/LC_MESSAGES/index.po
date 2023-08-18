@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2018, Enthought Inc.
+# This file is distributed under the same license as the mayavi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mayavi 4.8.2.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-19 02:52+0000\n"
+"PO-Revision-Date: 2019-04-27 07:30+0000\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../mayavi/docs/source/mayavi/index.rst:4
+msgid ""
+"<style type=\"text/css\">\n"
+"  div.bodywrapper h1 {\n"
+"      text-align: center;\n"
+"      font-size: 200% ;\n"
+"  }\n"
+"\n"
+"</style>"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/inline-css.rst:3
+msgid ""
+"<style type=\"text/css\">\n"
+"  li.toctree-l1 {\n"
+"      padding: 0.5em 0 1em 0 ;\n"
+"      list-style-type: none;\n"
+"      font-size: 150% ;\n"
+"      }\n"
+"\n"
+"  li.toctree-l2 {\n"
+"      font-size: 70% ;\n"
+"      list-style-type: square;\n"
+"      }\n"
+"\n"
+"  li.toctree-l3 {\n"
+"      font-size: 85% ;\n"
+"      list-style-type: circle;\n"
+"      }\n"
+"\n"
+"\n"
+"</style>"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:20
+msgid "Mayavi: 3D scientific data visualization and plotting in Python"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:22
+msgid ""
+"<table class=\"contentstable\" align=\"center\" style=\"margin-left: 30px\"><tr>\n"
+"  <td width=\"45%\" rowspan=\"4\">\n"
+"    <img alt=\"Mayavi banner\" src=\"_static/m2_about.jpg\"\n"
+"          width=\"100%\" />\n"
+"  </td>\n"
+"  <td width=\"5%\" rowspan=\"4\"></td>\n"
+"  <td width=\"50%\">\n"
+"    <p class=\"biglink\"><a class=\"biglink\" href=\"application.html\">\n"
+"              Using the Mayavi application</a><br/>\n"
+"       <span class=\"linkdescr\">\n"
+"              Understanding and using the Mayavi interactive application</span></p>\n"
+"  </td></tr><tr><td width=\"50%\">\n"
+"    <p class=\"biglink\"><a class=\"biglink\" href=\"mlab.html\">\n"
+"      Python scripting for 3D plotting</a><br/>\n"
+"       <span class=\"linkdescr\">The simple scripting API to Mayavi</span></p>\n"
+"  </td></tr><tr><td width=\"50%\">\n"
+"    <p class=\"biglink\"><a class=\"biglink\" href=\"auto/examples.html\">\n"
+"      Gallery and examples</a><br/>\n"
+"       <span class=\"linkdescr\">\n"
+"          Example gallery of visualizations,\n"
+"          with the Python code that generates them</span></p>\n"
+"  </td></tr>\n"
+"</table>"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:48
+msgid ""
+"Welcome, this is the user guide for Mayavi, a application and library for "
+"**interactive scientific data visualization** and **3D plotting in Python**."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:20
+msgid "Getting started"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:55
+msgid ""
+"You want to use an interactive application to visualize your data in 3D? "
+"Read the :ref:`Mayavi application section <using-the-mayavi-application>`."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:59
+msgid ""
+"You know Python and want to use Mayavi as a Matlab or pylab replacement for "
+"3D plotting and data visualization with `numpy`? Get started with the "
+":ref:`mlab section <simple-scripting-with-mlab>`."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:63
+msgid ""
+"Sources of inspiration may be found in the :ref:`example_gallery`, with "
+"example Python code."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:68
+msgid "<h2>User guide: full table of contents</h2>"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:90
+msgid "<h2> Index and search </h2>"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:94
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:95
+msgid ":ref:`search`"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:101
+msgid "<div style='visibility: hidden'>"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/index.rst:105
+msgid "</div>"
+msgstr ""

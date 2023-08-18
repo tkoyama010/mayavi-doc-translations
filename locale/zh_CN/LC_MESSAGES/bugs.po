@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2018, Enthought Inc.
+# This file is distributed under the same license as the mayavi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mayavi 4.8.2.dev0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-19 02:52+0000\n"
+"PO-Revision-Date: 2019-04-27 07:28+0000\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../mayavi/docs/source/mayavi/bugs.rst:4
+msgid "Known bugs and issues"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/bugs.rst:6
+msgid ""
+"The Known Issues section contains those items that are big and important but"
+" are not currently actively worked on, because they need a lot of effort or "
+"there is no solution yet for them. For a more detailed list of issues and "
+"bugs please check the list in `issue tracker`_."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/bugs.rst:12
+msgid ""
+"**Display bugs:** Mayavi, and VTK, heavily use hardware rendering, as a "
+"result are very sensitive to hardware rendering bugs. Common issues include "
+"surfaces showing up as black instead of colored (mostly on windows or in "
+"virtual machines, I believe), z-ordering bugs where hidden triangles are "
+"displayed in front of the triangles that should hide them (a common bug on "
+"Linux with intel graphics cards), or the rendering windows becoming grey "
+"when the focus is moved out (often seen on Linux, when compiz is enabled). "
+"The solution is most often simply to turn off hardware rendering in the "
+"system settings (turn off compiz under Linux) or change graphics-card "
+"drivers (under Linux, try switching between the open source one, and the "
+"proprietary one)."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/bugs.rst:25
+msgid ""
+"**Qt 5:** Mayavi is built on top of the traitsui and pyface gui libraries. "
+"Thus support for Qt 5 is linked to these gui libraries supporting Qt 5."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/bugs.rst:28
+msgid ""
+"**wxPython 3:** Similar to the Qt 5 issue support for wxPython 3 is linked "
+"with the necessary support arriving in the stable releases of the gui "
+"libraries."
+msgstr ""
