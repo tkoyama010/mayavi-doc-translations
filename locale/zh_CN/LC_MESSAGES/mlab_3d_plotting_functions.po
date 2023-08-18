@@ -2,16 +2,16 @@
 # Copyright (C) 2008-2018, Enthought Inc.
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 # Translators:
 # Mayavii <1444742843@qq.com>, 2021
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-19 02:52+0000\n"
+"POT-Creation-Date: 2023-08-18 23:20+0000\n"
 "PO-Revision-Date: 2019-04-27 07:31+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
@@ -57,10 +57,6 @@ msgstr "这一节，我们仅列出不同的函数。对于每一个函数的具
 msgid "0D and 1D data"
 msgstr "0D数据 和 1D数据"
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
-msgid "<br>"
-msgstr "<br>"
-
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:35
 msgid "|points3d|"
 msgstr "points3d 方法"
@@ -77,6 +73,10 @@ msgid ""
 msgstr ""
 "`points3d`方法\n"
 "它将显示数据所给位置的图形（如点状，可以是其他形状），其位置信息由numpy数组给定，坐标由``x``, ``y``, ``z`` 表示。"
+
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:29
+msgid "<br>"
+msgstr "<br>"
 
 #: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:41
 msgid "|plot3d|"

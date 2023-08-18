@@ -2,10 +2,10 @@
 # Copyright (C) 2008-2018, Enthought Inc.
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 # Translators:
 # Mayavii <1444742843@qq.com>, 2021
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""

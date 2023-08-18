@@ -2,16 +2,16 @@
 # Copyright (C) 2008-2018, Enthought Inc.
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 # Translators:
 # Tetsuo Koyama <tkoyama010@gmail.com>, 2022
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-19 02:52+0000\n"
+"POT-Creation-Date: 2023-08-18 23:20+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -8654,13 +8654,33 @@ msgstr "flow.jpg"
 msgid "Advanced mlab examples"
 msgstr "高度なmlabの例"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:195
+msgid "|0000|"
+msgstr "|0000|"
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:102
 msgid "0000"
 msgstr "0000"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:197
+msgid ":ref:`example_julia_set`"
+msgstr ":ref:`example_julia_set`"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:199
+msgid "|0001|"
+msgstr "|0001|"
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:106
 msgid "0001"
 msgstr "0001"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:201
+msgid ":ref:`example_boy`"
+msgstr ":ref:`example_boy`"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:203
+msgid "|0002|"
+msgstr "|0002|"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:110
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:115
@@ -8683,94 +8703,6 @@ msgstr "0001"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:420
 msgid "<br/>"
 msgstr "<br/>"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:125
-msgid "0005"
-msgstr "0005"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:129
-msgid "0006"
-msgstr "0006"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:133
-msgid "0007"
-msgstr "0007"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:137
-msgid "0008"
-msgstr "0008"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:141
-msgid "0009"
-msgstr "0009"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:145
-msgid "0010"
-msgstr "0010"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:149
-msgid "0011"
-msgstr "0011"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:153
-msgid "0012"
-msgstr "0012"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:157
-msgid "0013"
-msgstr "0013"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:161
-msgid "0014"
-msgstr "0014"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:165
-msgid "0015"
-msgstr "0015"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:169
-msgid "0016"
-msgstr "0016"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:173
-msgid "0017"
-msgstr "0017"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:177
-msgid "0018"
-msgstr "0018"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:181
-msgid "0019"
-msgstr "0019"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:185
-msgid "0020"
-msgstr "0020"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:189
-msgid "0021"
-msgstr "0021"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:195
-msgid "|0000|"
-msgstr "|0000|"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:197
-msgid ":ref:`example_julia_set`"
-msgstr ":ref:`example_julia_set`"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:199
-msgid "|0001|"
-msgstr "|0001|"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:201
-msgid ":ref:`example_boy`"
-msgstr ":ref:`example_boy`"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:203
-msgid "|0002|"
-msgstr "|0002|"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:205
 msgid ":ref:`example_bunny`"
@@ -8796,6 +8728,10 @@ msgstr ":ref:`example_lucy`"
 msgid "|0005|"
 msgstr "|0005|"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:125
+msgid "0005"
+msgstr "0005"
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:218
 msgid ":ref:`example_custom_colormap`"
 msgstr ":ref:`example_custom_colormap`"
@@ -8803,6 +8739,10 @@ msgstr ":ref:`example_custom_colormap`"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:220
 msgid "|0006|"
 msgstr "|0006|"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:129
+msgid "0006"
+msgstr "0006"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:222
 msgid ":ref:`example_surface_from_irregular_data`"
@@ -8812,6 +8752,10 @@ msgstr ":ref:`example_surface_from_irregular_data`"
 msgid "|0007|"
 msgstr "|0007|"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:133
+msgid "0007"
+msgstr "0007"
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:227
 msgid ":ref:`example_spherical_harmonics`"
 msgstr ":ref:`example_spherical_harmonics`"
@@ -8819,6 +8763,10 @@ msgstr ":ref:`example_spherical_harmonics`"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:229
 msgid "|0008|"
 msgstr "|0008|"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:137
+msgid "0008"
+msgstr "0008"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:232
 msgid ":ref:`example_lorenz`"
@@ -8828,6 +8776,10 @@ msgstr ":ref:`example_lorenz`"
 msgid "|0009|"
 msgstr "|0009|"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:141
+msgid "0009"
+msgstr "0009"
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:237
 msgid ":ref:`example_canyon`"
 msgstr ":ref:`example_canyon`"
@@ -8835,6 +8787,10 @@ msgstr ":ref:`example_canyon`"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:239
 msgid "|0010|"
 msgstr "|0010|"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:145
+msgid "0010"
+msgstr "0010"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:243
 msgid ":ref:`example_julia_set_decimation`"
@@ -8844,6 +8800,10 @@ msgstr ":ref:`example_julia_set_decimation`"
 msgid "|0011|"
 msgstr "|0011|"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:149
+msgid "0011"
+msgstr "0011"
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:248
 msgid ":ref:`example_simple_structured_grid`"
 msgstr ":ref:`example_simple_structured_grid`"
@@ -8851,6 +8811,10 @@ msgstr ":ref:`example_simple_structured_grid`"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:250
 msgid "|0012|"
 msgstr "|0012|"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:153
+msgid "0012"
+msgstr "0012"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:253
 msgid ":ref:`example_atomic_orbital`"
@@ -8860,6 +8824,10 @@ msgstr ":ref:`example_atomic_orbital`"
 msgid "|0013|"
 msgstr "|0013|"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:157
+msgid "0013"
+msgstr "0013"
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:258
 msgid ":ref:`example_tvtk_in_mayavi`"
 msgstr ":ref:`example_tvtk_in_mayavi`"
@@ -8867,6 +8835,10 @@ msgstr ":ref:`example_tvtk_in_mayavi`"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:260
 msgid "|0014|"
 msgstr "|0014|"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:161
+msgid "0014"
+msgstr "0014"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:264
 msgid ":ref:`example_chemistry`"
@@ -8876,6 +8848,10 @@ msgstr ":ref:`example_chemistry`"
 msgid "|0015|"
 msgstr "|0015|"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:165
+msgid "0015"
+msgstr "0015"
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:270
 msgid ":ref:`example_wigner`"
 msgstr ":ref:`example_wigner`"
@@ -8883,6 +8859,10 @@ msgstr ":ref:`example_wigner`"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:272
 msgid "|0016|"
 msgstr "|0016|"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:169
+msgid "0016"
+msgstr "0016"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:274
 msgid ":ref:`example_canyon_decimation`"
@@ -8892,6 +8872,10 @@ msgstr ":ref:`example_canyon_decimation`"
 msgid "|0017|"
 msgstr "|0017|"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:173
+msgid "0017"
+msgstr "0017"
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:279
 msgid ":ref:`example_plotting_many_lines`"
 msgstr ":ref:`example_plotting_many_lines`"
@@ -8899,6 +8883,10 @@ msgstr ":ref:`example_plotting_many_lines`"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:281
 msgid "|0018|"
 msgstr "|0018|"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:177
+msgid "0018"
+msgstr "0018"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:284
 msgid ":ref:`example_magnetic_field_lines`"
@@ -8908,6 +8896,10 @@ msgstr ":ref:`example_magnetic_field_lines`"
 msgid "|0019|"
 msgstr "|0019|"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:181
+msgid "0019"
+msgstr "0019"
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:288
 msgid ":ref:`example_mri`"
 msgstr ":ref:`example_mri`"
@@ -8916,6 +8908,10 @@ msgstr ":ref:`example_mri`"
 msgid "|0020|"
 msgstr "|0020|"
 
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:185
+msgid "0020"
+msgstr "0020"
+
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:293
 msgid ":ref:`example_protein`"
 msgstr ":ref:`example_protein`"
@@ -8923,6 +8919,10 @@ msgstr ":ref:`example_protein`"
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:295
 msgid "|0021|"
 msgstr "|0021|"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:189
+msgid "0021"
+msgstr "0021"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:298
 msgid ":ref:`example_flight_graph`"
@@ -8939,17 +8939,13 @@ msgid ""
 msgstr ""
 "mayavi2アプリケーションまたは特別に作成されたダイアログやアプリケーションを使用して，Mayaviのインタラクティブ機能を使用する方法を示す例です．"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:337
-msgid "0100"
-msgstr "0100"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:366
-msgid "0106"
-msgstr "0106"
-
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:427
 msgid "|0100|"
 msgstr "|0100|"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:337
+msgid "0100"
+msgstr "0100"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:430
 msgid ":ref:`example_mlab_visual`"
@@ -9008,6 +9004,10 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:458
 msgid "|0106|"
 msgstr "|0106|"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:366
+msgid "0106"
+msgstr "0106"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:460
 msgid ":ref:`example_mlab_interactive_dialog`"
