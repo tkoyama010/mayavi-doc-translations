@@ -1,6 +1,6 @@
 # mayavi-doc.org on the Read The Docs.
 
-[![mayavi-auto-update](https://github.com/getfem-doc/mayavi-doc-translations/workflows/mayavi-auto-update/badge.svg)](https://github.com/getfem-doc/mayavi-doc-translations/actions)
+[![mayavi-auto-update](https://github.com/tkoyama010/mayavi-doc-translations/workflows/mayavi-auto-update/badge.svg)](https://github.com/tkoyama010/mayavi-doc-translations/actions)
 English: [![Documentation Status](https://readthedocs.org/projects/mayavi/badge/?version=latest)](https://mayavi.readthedocs.io/en/latest/?badge=latest)
 日本語: [![Documentation Status](https://readthedocs.org/projects/mayavi-ja/badge/?version=latest)](https://mayavi-ja.readthedocs.io/ja/latest/?badge=latest)
 简体(中文): [![Documentation Status](https://readthedocs.org/projects/mayavi-zh-cn/badge/?version=latest)](https://mayavi.readthedocs.io/zh_CN/latest/?badge=latest)
