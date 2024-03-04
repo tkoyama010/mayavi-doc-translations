@@ -7,8 +7,8 @@ English: [![Documentation Status](https://readthedocs.org/projects/mayavi/badge/
 
 This is a project to provide mayavi official documentation with multiple versions and multiple languages on Read The Docs site.
 
-Current procedure is bit tricky because Read The Docs doesn't have a way to specify options for sphinx-build command.
-conf.py files for each languages have 'language' and 'locale_dirs' values without having full copy of conf.py of sphinx doc. If we want to specify conf.py file that is out of source directory, we will use '-c' option for sphinx-build command. Unfortunately Read the Docs can't. If there are any better way, please let me know.
+Current procedure is tricky because Read The Docs needs a way to specify options for sphinx-build command.
+conf.py files for each languages have 'language' and 'locale_dirs' values without having full copy of conf.py of sphinx doc. If we want to specify conf.py file that is out of source directory, we will use '-c' option for sphinx-build command. Unfortunately, Read the Docs can't. If there are any better ways, please let me know.
 
 ## URLs
 
@@ -18,19 +18,19 @@ conf.py files for each languages have 'language' and 'locale_dirs' values withou
   - https://readthedocs.org/projects/mayavi-ja/
   - https://readthedocs.org/projects/mayavi-zh-cn
 
-- Documentation pages for each languages:
+- Documentation pages for each language:
 
   - https://mayavi.readthedocs.io/en/latest/
   - https://mayavi.readthedocs.io/ja/latest/
   - https://mayavi.readthedocs.io/zh_CN/latest/
 
-## How to setup a translated documentation project on RTD
+## How to set a translated documentation project on RTD
 
 Detail is here: https://docs.readthedocs.org/en/latest/localization.html#project-with-multiple-translations
 
 Points are:
 
-- We must have RTD projects for each languages.
+- We must have RTD projects for each language.
 - Each projects must have correct Language setting on "Settings" page.
 - Master project has connections to each translated projects on "translations settings" page.
 
@@ -40,7 +40,7 @@ Points are:
 sh ./locale/update.sh
 ```
 
-After that, you should commit updated po files.
+After that, you should commit to updating the PO files.
 
 ## How to add a language
 
@@ -53,11 +53,11 @@ After that, you should commit updated po files.
    + tx pull -l ja,de
    ```
 
-2. update po files
+2. Update PO files
 
 3. commit them
 
-4. add new project on Read The Docs like:
+4. add a new project on Read The Docs like:
 
    https://readthedocs.org/projects/mayavi-ja/
 
