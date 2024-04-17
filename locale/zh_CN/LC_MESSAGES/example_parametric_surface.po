@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-19 02:52+0000\n"
+"POT-Creation-Date: 2024-04-17 23:02+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -139,6 +139,6 @@ msgid ""
 "more details on this see the section on :ref:`interaction-with-the-scene`."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst-1
+#: ../../mayavi/docs/source/mayavi/example_parametric_surface.rst:90
 msgid "Sample visualization using parametric surfaces."
 msgstr ""

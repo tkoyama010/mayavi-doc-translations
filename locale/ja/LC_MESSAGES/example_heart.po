@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-19 02:52+0000\n"
+"POT-Creation-Date: 2024-04-17 23:02+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -190,7 +190,7 @@ msgid ""
 "below."
 msgstr "次の図のようなビジュアライゼーションが必要です．"
 
-#: ../../mayavi/docs/source/mayavi/example_heart.rst-1
+#: ../../mayavi/docs/source/mayavi/example_heart.rst:99
 msgid "Sample visualization of the ``heart.vtk`` dataset."
 msgstr "``heart.vtk`` データセットの可視化のサンプル"
 
