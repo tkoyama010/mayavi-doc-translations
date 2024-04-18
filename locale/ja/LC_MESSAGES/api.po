@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-17 23:02+0000\n"
+"POT-Creation-Date: 2022-10-19 02:52+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -614,7 +614,7 @@ msgid "The scene that needs to be managed from mayavi."
 msgstr "mayaviから管理する必要があるシーン．"
 
 #: ../../mayavi/mayavi/core/engine.pydocstring of
-#: mayavi.core.engine.Engine.add_scene:14
+#: mayavi.core.engine.Engine.add_scene:16
 msgid "name - `str`"
 msgstr "name - `str`"
 

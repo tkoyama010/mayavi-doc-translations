@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-17 23:02+0000\n"
+"POT-Creation-Date: 2023-08-18 23:32+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
@@ -61,7 +61,7 @@ msgstr ""
 msgid "Fixes"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:13
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:14
 msgid ""
 "17 Oct 2022 `#1183 <https://github.com/enthought/mayavi/pull/1183>`_ (PR)"
 msgstr ""
@@ -70,7 +70,7 @@ msgstr ""
 msgid "Add a pyproject.toml."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:16
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:21
 msgid ""
 "11 Oct 2022 `#1180 <https://github.com/enthought/mayavi/pull/1180>`_ "
 "(larsoner)"
@@ -92,7 +92,7 @@ msgid ""
 "(which were segfaulting at one point)."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:23
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:26
 msgid ""
 "17 Oct 2022 `#1174 <https://github.com/enthought/mayavi/pull/1174>`_ "
 "(giammi56)"
@@ -146,7 +146,7 @@ msgstr ""
 msgid "Enhancements"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:47
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:53
 msgid ""
 "28 Mar 2022 `#1139 <https://github.com/enthought/mayavi/pull/1139>`_ "
 "(prabhuramachandran)"
@@ -165,7 +165,7 @@ msgid ""
 "backend."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:58
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:59
 msgid ""
 "11 Jul 2022 `#1159 <https://github.com/enthought/mayavi/pull/1159>`_ "
 "(prabhuramachandran)"
@@ -175,7 +175,7 @@ msgstr ""
 msgid "BUG: Temporary fix to build with VTK 9.2.0rc1"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:61
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:62
 msgid ""
 "24 Feb 2022 `#1135 <https://github.com/enthought/mayavi/pull/1135>`_ "
 "(yellowshippo)"
@@ -185,7 +185,7 @@ msgstr ""
 msgid "Support VTK_LONG_LONG and VTK_UNSIGNED_LONG_LONG array handler."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:64
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:65
 msgid ""
 "21 Feb 2022 `#1134 <https://github.com/enthought/mayavi/pull/1134>`_ "
 "(prabhuramachandran)"
@@ -195,7 +195,7 @@ msgstr ""
 msgid "Fix bug with cell_to_point_data filter."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:67
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:70
 msgid ""
 "18 Feb 2022 `#1133 <https://github.com/enthought/mayavi/pull/1133>`_ "
 "(prabhuramachandran)"
@@ -207,7 +207,7 @@ msgid ""
 "not generate docs on build as this will fail on headless servers."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:72
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:75
 msgid ""
 "08 Feb 2022 `#1131 <https://github.com/enthought/mayavi/pull/1131>`_ "
 "(mdickinson)"
@@ -240,7 +240,7 @@ msgstr ""
 msgid "21 pull requests were merged."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:93
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:95
 msgid ""
 "11 Nov 2021 `#1105 <https://github.com/enthought/mayavi/pull/1105>`_ "
 "(prabhuramachandran)"
@@ -255,7 +255,7 @@ msgid ""
 "Speed up imports by cleaning up the `tvtk_doc` module to be a bit lazier."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:97
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:98
 msgid ""
 "10 Nov 2021 `#1104 <https://github.com/enthought/mayavi/pull/1104>`_ "
 "(larsoner)"
@@ -265,7 +265,7 @@ msgstr ""
 msgid "Improve CI behavior on GitHub Actions."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:100
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:102
 msgid ""
 "08 Nov 2021 `#1103 <https://github.com/enthought/mayavi/pull/1103>`_ "
 "(prabhuramachandran)"
@@ -277,7 +277,7 @@ msgid ""
 "which caused a crash."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:104
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:105
 msgid ""
 "01 Nov 2021 `#1102 <https://github.com/enthought/mayavi/pull/1102>`_ "
 "(prabhuramachandran)"
@@ -287,7 +287,7 @@ msgstr ""
 msgid "BUG: Fix bug with picker and picker UI."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:107
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:109
 msgid ""
 "26 Oct 2021 `#1098 <https://github.com/enthought/mayavi/pull/1098>`_ "
 "(mdickinson)"
@@ -299,7 +299,7 @@ msgid ""
 "<https://github.com/enthought/mayavi/issues/1094>`_."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:111
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:112
 msgid ""
 "10 Nov 2021 `#1097 <https://github.com/enthought/mayavi/pull/1097>`_ "
 "(larsoner)"
@@ -309,7 +309,7 @@ msgstr ""
 msgid "Workarounds for VTK 9.1.0"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:114
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:115
 msgid ""
 "07 Oct 2021 `#1089 <https://github.com/enthought/mayavi/pull/1089>`_ "
 "(rahulporuri)"
@@ -319,7 +319,7 @@ msgstr ""
 msgid "Address \"ResourceWarning\"s observed in the testsuite"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:117
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:119
 msgid ""
 "08 Oct 2021 `#1086 <https://github.com/enthought/mayavi/pull/1086>`_ "
 "(rahulporuri)"
@@ -331,7 +331,7 @@ msgid ""
 "<https://github.com/enthought/mayavi/issues/1082>`_ ."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:121
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:122
 msgid ""
 "07 Oct 2021 `#1076 <https://github.com/enthought/mayavi/pull/1076>`_ "
 "(rahulporuri)"
@@ -341,7 +341,7 @@ msgstr ""
 msgid "Setup GitHub Actions CI"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:124
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:126
 msgid ""
 "18 Oct 2021 `#1050 <https://github.com/enthought/mayavi/pull/1050>`_ "
 "(larsoner)"
@@ -353,7 +353,7 @@ msgid ""
 "<https://github.com/enthought/mayavi/issues/1049>`_"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:128
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:130
 msgid ""
 "18 May 2021 `#1045 <https://github.com/enthought/mayavi/pull/1045>`_ "
 "(aaronayres35)"
@@ -365,7 +365,7 @@ msgid ""
 "<https://github.com/enthought/mayavi/issues/987>`_"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:132
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:134
 msgid ""
 "18 May 2021 `#1044 <https://github.com/enthought/mayavi/pull/1044>`_ "
 "(aaronayres35)"
@@ -377,7 +377,7 @@ msgid ""
 "<https://github.com/enthought/mayavi/issues/987>`_"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:136
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:138
 msgid ""
 "18 May 2021 `#1043 <https://github.com/enthought/mayavi/pull/1043>`_ "
 "(aaronayres35)"
@@ -389,7 +389,7 @@ msgid ""
 "<https://github.com/enthought/mayavi/issues/987>`_"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:140
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:141
 msgid ""
 "12 May 2021 `#1040 <https://github.com/enthought/mayavi/pull/1040>`_ "
 "(aaronayres35)"
@@ -399,7 +399,7 @@ msgstr ""
 msgid "Use mock through unittest"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:143
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:144
 msgid ""
 "24 March 2021 `#1020 <https://github.com/enthought/mayavi/pull/1020>`_ "
 "(topikuu)"
@@ -409,7 +409,7 @@ msgstr ""
 msgid "Fix volume pipeline range check to work with cell_data"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:146
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:148
 msgid ""
 "2 November 2020 `#974 <https://github.com/enthought/mayavi/pull/974>`_ "
 "(marekyggdrasil)"
@@ -429,7 +429,7 @@ msgid ""
 "Traits 6.2.0 and soon to be release TraitsUI 7.2.0."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:159
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:160
 msgid ""
 "10 Dec 2021 `#983 <https://github.com/enthought/mayavi/pull/983>`_ "
 "(larsoner)"
@@ -439,7 +439,7 @@ msgstr ""
 msgid "MAINT: Support Python 3.9"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:162
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:163
 msgid ""
 "06 May 2021 `#1030 <https://github.com/enthought/mayavi/pull/1030>`_ "
 "(aaronayres35)"
@@ -449,7 +449,7 @@ msgstr ""
 msgid "import from pyface.image not traitsui.image"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:165
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:167
 msgid ""
 "06 May 2021 `#1035 <https://github.com/enthought/mayavi/pull/1035>`_ "
 "(aaronayres35)"
@@ -494,7 +494,7 @@ msgid ""
 "requests were merged."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:194
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:199
 msgid ""
 "30 Apr 2020 `#820 <https://github.com/enthought/mayavi/pull/820>`_ "
 "(amalss18)"
@@ -509,7 +509,7 @@ msgid ""
 " set properties of the picker."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:204
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:205
 msgid ""
 "27 Jul 2020 `#931 <https://github.com/enthought/mayavi/pull/931>`_ "
 "(larsoner)"
@@ -519,7 +519,7 @@ msgstr ""
 msgid "MAINT: Deal with traitsui deprecation of `TraitPrefixMap`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:207
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:208
 msgid ""
 "27 Jul 2020 `#928 <https://github.com/enthought/mayavi/pull/928>`_ (hamogu)"
 msgstr ""
@@ -528,7 +528,7 @@ msgstr ""
 msgid "Add formats to `savefig` docstring"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:210
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:211
 msgid ""
 "30 Apr 2020 `#913 <https://github.com/enthought/mayavi/pull/913>`_ (PR)"
 msgstr ""
@@ -537,7 +537,7 @@ msgstr ""
 msgid "Add tests to check if hand-crafted views work."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:213
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:214
 msgid ""
 "30 Apr 2020 `#912 <https://github.com/enthought/mayavi/pull/912>`_ (PR)"
 msgstr ""
@@ -546,7 +546,7 @@ msgstr ""
 msgid "Fix CI and remove 2.7 tests."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:216
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:217
 msgid ""
 "25 Apr 2020 `#909 <https://github.com/enthought/mayavi/pull/909>`_ "
 "(larsoner)"
@@ -556,7 +556,7 @@ msgstr ""
 msgid "ENH: VTK 9 compatibility."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:219
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:220
 msgid ""
 "25 Apr 2020 `#901 <https://github.com/enthought/mayavi/pull/901>`_ "
 "(tkoyama010)"
@@ -566,7 +566,7 @@ msgstr ""
 msgid "Document use of `PyVirtualDisplay`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:222
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:223
 msgid ""
 "25 Apr 2020 `#900 <https://github.com/enthought/mayavi/pull/900>`_ "
 "(larsoner)"
@@ -576,7 +576,7 @@ msgstr ""
 msgid "FIX: Work around NumPy deprecation"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:225
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:226
 msgid ""
 "25 Apr 2020 `#896 <https://github.com/enthought/mayavi/pull/896>`_ "
 "(GuillaumeFavelier)"
@@ -586,7 +586,7 @@ msgstr ""
 msgid "Replace TraitTuple by Tuple in modules.py"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:228
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:229
 msgid ""
 "30 Apr 2020 `#893 <https://github.com/enthought/mayavi/pull/893>`_ "
 "(tkoyama010)"
@@ -596,7 +596,7 @@ msgstr ""
 msgid "Use importlib instead of imp."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:231
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:232
 msgid ""
 "30 Apr 2020 `#877 <https://github.com/enthought/mayavi/pull/877>`_ (swt2c)"
 msgstr ""
@@ -605,7 +605,7 @@ msgstr ""
 msgid "Fix support for wxPython 3.0"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:234
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:235
 msgid ""
 "25 Apr 2020 `#876 <https://github.com/enthought/mayavi/pull/876>`_ (swt2c)"
 msgstr ""
@@ -614,7 +614,7 @@ msgstr ""
 msgid "Remove spurious executable permissions from test data files"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:237
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:238
 msgid ""
 "24 Dec 2019 `#868 <https://github.com/enthought/mayavi/pull/868>`_ "
 "(mdickinson)"
@@ -624,7 +624,7 @@ msgstr ""
 msgid "Replace uses of traits.api.Long with traits.api.Int"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:240
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:241
 msgid ""
 "05 Dec 2019 `#866 <https://github.com/enthought/mayavi/pull/866>`_ "
 "(mdickinson)"
@@ -634,7 +634,7 @@ msgstr ""
 msgid "Replace uses of the deprecated trait types 'false' and 'true'"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:243
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:244
 msgid ""
 "02 Dec 2019 `#859 <https://github.com/enthought/mayavi/pull/859>`_ "
 "(rahulporuri)"
@@ -644,7 +644,7 @@ msgstr ""
 msgid "Replace deprecated rich_compare kwarg when creating traits"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:246
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:247
 msgid ""
 "18 Nov 2019 `#853 <https://github.com/enthought/mayavi/pull/853>`_ "
 "(rahulporuri)"
@@ -654,7 +654,7 @@ msgstr ""
 msgid "Update edm and install/config scripts"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:249
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:250
 msgid ""
 "25 Apr 2020 `#843 <https://github.com/enthought/mayavi/pull/843>`_ "
 "(tkoyama010)"
@@ -664,7 +664,7 @@ msgstr ""
 msgid "Avoid using eval"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:252
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:253
 msgid ""
 "25 Apr 2020 `#841 <https://github.com/enthought/mayavi/pull/841>`_ "
 "(tkoyama010)"
@@ -674,7 +674,7 @@ msgstr ""
 msgid "Added section on \"Translating the documentation\"."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:255
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:256
 msgid ""
 "24 Dec 2019 `#840 <https://github.com/enthought/mayavi/pull/840>`_ "
 "(larsoner)"
@@ -684,7 +684,7 @@ msgstr ""
 msgid "BUG: Fix literal comparison. Fixes on Python-3.8."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:258
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:260
 msgid ""
 "05 Oct 2019 `#822 <https://github.com/enthought/mayavi/pull/822>`_ "
 "(tkoyama010)"
@@ -708,7 +708,7 @@ msgstr ""
 msgid "This is a bug-fix release.  3 pull-requests were merged."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:273
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:274
 msgid ""
 "21 Jul 2019 `#807 <https://github.com/enthought/mayavi/pull/807>`_ (PR)"
 msgstr ""
@@ -717,7 +717,7 @@ msgstr ""
 msgid "Fix old pipeline errors in image actor."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:276
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:278
 msgid ""
 "16 Jul 2019 `#804 <https://github.com/enthought/mayavi/pull/804>`_ "
 "(rahulporuri)"
@@ -729,7 +729,7 @@ msgid ""
 "class definition"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:280
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:286
 msgid ""
 "04 Jul 2019 `#800 <https://github.com/enthought/mayavi/pull/800>`_ (PR)"
 msgstr ""
@@ -788,7 +788,7 @@ msgstr ""
 msgid "Many thanks to Enthought for supporting this."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:317
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:322
 msgid ""
 "09 Oct 2018 `#723 <https://github.com/enthought/mayavi/pull/723>`_ (PR)"
 msgstr ""
@@ -802,7 +802,7 @@ msgid ""
 "set a different interactor if needed."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:324
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:332
 msgid ""
 "08 Sep 2018 `#712 <https://github.com/enthought/mayavi/pull/712>`_ (PR)"
 msgstr ""
@@ -817,7 +817,7 @@ msgid ""
 "`global_disable_update` function to temporarily disable updates."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:337
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:338
 msgid ""
 "30 Jun 2019 `#795 <https://github.com/enthought/mayavi/pull/795>`_ "
 "(rahulporuri)"
@@ -827,7 +827,7 @@ msgstr ""
 msgid "Test against ETS packages from source using travis cron jobs."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:340
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:341
 msgid ""
 "23 Jun 2019 `#793 <https://github.com/enthought/mayavi/pull/793>`_ "
 "(rahulporuri)"
@@ -837,7 +837,7 @@ msgstr ""
 msgid "Use xenial linux instead of trusty"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:343
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:345
 msgid ""
 "19 Jun 2019 `#792 <https://github.com/enthought/mayavi/pull/792>`_ "
 "(ssandfeld)"
@@ -849,7 +849,7 @@ msgid ""
 "<https://github.com/enthought/mayavi/issues/791>`_."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:347
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:350
 msgid ""
 "26 Apr 2019 `#771 <https://github.com/enthought/mayavi/pull/771>`_ "
 "(prabhuramachandran)"
@@ -862,7 +862,7 @@ msgid ""
 "a smaller number of points."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:352
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:353
 msgid ""
 "26 Apr 2019 `#754 <https://github.com/enthought/mayavi/pull/754>`_ "
 "(larsoner)"
@@ -872,7 +872,7 @@ msgstr ""
 msgid "FIX: Fix nose leftovers in tests."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:355
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:356
 msgid ""
 "26 Apr 2019 `#747 <https://github.com/enthought/mayavi/pull/747>`_ "
 "(larsoner)"
@@ -882,7 +882,7 @@ msgstr ""
 msgid "FIX: Escape chars in code."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:358
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:359
 msgid ""
 "27 Nov 2018 `#740 <https://github.com/enthought/mayavi/pull/740>`_ "
 "(toddrme2178)"
@@ -892,7 +892,7 @@ msgstr ""
 msgid "Also catch exceptions in generating documentation"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:361
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:363
 msgid ""
 "15 Nov 2018 `#736 <https://github.com/enthought/mayavi/pull/736>`_ (PR)"
 msgstr ""
@@ -903,7 +903,7 @@ msgid ""
 "<https://github.com/enthought/mayavi/issues/734>`_."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:365
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:366
 msgid ""
 "16 Nov 2018 `#735 <https://github.com/enthought/mayavi/pull/735>`_ "
 "(larsoner)"
@@ -913,7 +913,7 @@ msgstr ""
 msgid "FIX: Fix set_range causing lookup table errors."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:368
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:369
 msgid ""
 "26 Oct 2018 `#731 <https://github.com/enthought/mayavi/pull/731>`_ "
 "(larsoner)"
@@ -923,7 +923,7 @@ msgstr ""
 msgid "FIX: Fix type check"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:371
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:372
 msgid ""
 "15 Nov 2018 `#729 <https://github.com/enthought/mayavi/pull/729>`_ "
 "(larsoner)"
@@ -933,7 +933,7 @@ msgstr ""
 msgid "FIX: Fix for VTKNoneArray"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:374
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:378
 msgid ""
 "11 Oct 2018 `#724 <https://github.com/enthought/mayavi/pull/724>`_ (PR)"
 msgstr ""
@@ -946,7 +946,7 @@ msgid ""
 "remote server."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:380
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:383
 msgid ""
 "16 Nov 2018 `#722 <https://github.com/enthought/mayavi/pull/722>`_ "
 "(rahulporuri)"
@@ -959,7 +959,7 @@ msgid ""
 "of them do not have this."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:385
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:387
 msgid ""
 "23 Sep 2018 `#716 <https://github.com/enthought/mayavi/pull/716>`_ (PR)"
 msgstr ""
@@ -970,7 +970,7 @@ msgid ""
 "installs failing."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:389
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:394
 msgid ""
 "23 Sep 2018 `#715 <https://github.com/enthought/mayavi/pull/715>`_ "
 "(prabhuramachandran)"
@@ -1005,7 +1005,7 @@ msgid ""
 "be the last release to properly support VTK versions less than 7.0."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:411
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:415
 msgid ""
 "03 Aug 2018 `#695 <https://github.com/enthought/mayavi/pull/695>`_ (PR)"
 msgstr ""
@@ -1024,7 +1024,7 @@ msgid ""
 "allows us to add VTK objects easily to the mayavi pipeline."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:417
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:428
 msgid ""
 "02 Aug 2018 `#694 <https://github.com/enthought/mayavi/pull/694>`_ (PR)"
 msgstr ""
@@ -1043,7 +1043,7 @@ msgid ""
 "HasTraits objects easily."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:422
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:428
 msgid "Add a `VTKObjectSource` to Mayavi:"
 msgstr ""
 
@@ -1067,7 +1067,7 @@ msgid ""
 "VTKPythonAlgorithmBase."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:430
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:434
 msgid ""
 "25 Jul 2018 `#687 <https://github.com/enthought/mayavi/pull/687>`_ (PR)"
 msgstr ""
@@ -1086,7 +1086,7 @@ msgid ""
 "instead of help for the trait metadata."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:436
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:438
 msgid ""
 "24 Jul 2018 `#684 <https://github.com/enthought/mayavi/pull/684>`_ (PR)"
 msgstr ""
@@ -1097,7 +1097,7 @@ msgid ""
 "`help` as it shows up nicely as a tooltip for each trait on the UI."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:443
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:456
 msgid ""
 "01 Aug 2018 `#693 <https://github.com/enthought/mayavi/pull/693>`_ (PR)"
 msgstr ""
@@ -1131,7 +1131,7 @@ msgstr ""
 msgid "Add a few reasonable tests for the browser"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:458
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:460
 msgid ""
 "30 Jul 2018 `#691 <https://github.com/enthought/mayavi/pull/691>`_ (PR)"
 msgstr ""
@@ -1142,7 +1142,7 @@ msgid ""
 "error was because the example uses the old pipeline."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:462
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:465
 msgid ""
 "24 Jul 2018 `#683 <https://github.com/enthought/mayavi/pull/683>`_ (PR)"
 msgstr ""
@@ -1154,7 +1154,7 @@ msgid ""
 "windows without having a compiler setup!"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:467
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:471
 msgid ""
 "24 Jul 2018 `#680 <https://github.com/enthought/mayavi/pull/680>`_ "
 "(solarjoe)"
@@ -1181,7 +1181,7 @@ msgstr ""
 msgid "15 pull requests were merged."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:484
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:485
 msgid ""
 "04 Jul 2018 `#669 <https://github.com/enthought/mayavi/pull/669>`_ (PR)"
 msgstr ""
@@ -1190,7 +1190,7 @@ msgstr ""
 msgid "ENH: Expose `process_ui_events` in mlab."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:487
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:491
 msgid ""
 "30 Jun 2018 `#666 <https://github.com/enthought/mayavi/pull/666>`_ (PR)"
 msgstr ""
@@ -1203,7 +1203,7 @@ msgid ""
 "`rename_attribute` methods."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:493
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:494
 msgid ""
 "29 Jun 2018 `#663 <https://github.com/enthought/mayavi/pull/663>`_ (PR)"
 msgstr ""
@@ -1212,7 +1212,7 @@ msgstr ""
 msgid "Support PySide2.  Set `QT_API=pyside2` for this to work."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:496
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:499
 msgid ""
 "28 Jun 2018 `#661 <https://github.com/enthought/mayavi/pull/661>`_ (PR)"
 msgstr ""
@@ -1224,7 +1224,7 @@ msgid ""
 "module.  For those who have a compiler, the extension is built."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:504
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:506
 msgid ""
 "04 Jul 2018 `#672 <https://github.com/enthought/mayavi/pull/672>`_ (PR)"
 msgstr ""
@@ -1235,7 +1235,7 @@ msgid ""
 "scalars."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:508
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:509
 msgid ""
 "03 Jul 2018 `#667 <https://github.com/enthought/mayavi/pull/667>`_ "
 "(lianghongzhuo)"
@@ -1246,7 +1246,7 @@ msgid ""
 "Fix help icon so it actually works and loads the documentation in a browser."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:511
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:512
 msgid ""
 "29 Jun 2018 `#665 <https://github.com/enthought/mayavi/pull/665>`_ (PR)"
 msgstr ""
@@ -1255,7 +1255,7 @@ msgstr ""
 msgid "Fix annoying warning when running Mayavi tests."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:514
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:515
 msgid ""
 "29 Jun 2018 `#664 <https://github.com/enthought/mayavi/pull/664>`_ "
 "(larsoner)"
@@ -1265,7 +1265,7 @@ msgstr ""
 msgid "ENH: Use views in set_id_type_array_py making it more efficient."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:517
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:518
 msgid ""
 "28 Jun 2018 `#662 <https://github.com/enthought/mayavi/pull/662>`_ (PR)"
 msgstr ""
@@ -1274,7 +1274,7 @@ msgstr ""
 msgid "Fix the broken help links and icon to launch TVTK class browser."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:520
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:521
 msgid ""
 "27 Jun 2018 `#660 <https://github.com/enthought/mayavi/pull/660>`_ "
 "(larsoner)"
@@ -1284,7 +1284,7 @@ msgstr ""
 msgid "MRG: Fix window size for screenshot on HiDPI"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:523
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:527
 msgid ""
 "05 Jun 2018 `#651 <https://github.com/enthought/mayavi/pull/651>`_ (PR)"
 msgstr ""
@@ -1327,7 +1327,7 @@ msgid ""
 "version of Mayavi that can be installed via ``pip install mayavi``."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:546
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:547
 msgid ""
 "23 May 2018 `#641 <https://github.com/enthought/mayavi/pull/641>`_ (PR)"
 msgstr ""
@@ -1336,7 +1336,7 @@ msgstr ""
 msgid "Use new pyface toolkit"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:549
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:551
 msgid ""
 "19 Jul 2017 `#528 <https://github.com/enthought/mayavi/pull/528>`_ (PR)"
 msgstr ""
@@ -1347,7 +1347,7 @@ msgid ""
 "that *currently* works reliably with Python 3.x and ETS."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:556
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:558
 msgid ""
 "26 May 2018 `#646 <https://github.com/enthought/mayavi/pull/646>`_ (PR)"
 msgstr ""
@@ -1361,7 +1361,7 @@ msgid ""
 "Fix warning message when updating mlab_source data without scalars/vectors."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:560
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:561
 msgid ""
 "22 May 2018 `#642 <https://github.com/enthought/mayavi/pull/642>`_ (PR)"
 msgstr ""
@@ -1370,7 +1370,7 @@ msgstr ""
 msgid "Fix nbextension and missing bug with global."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:563
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:564
 msgid ""
 "20 May 2018 `#630 <https://github.com/enthought/mayavi/pull/630>`_ (PR)"
 msgstr ""
@@ -1381,7 +1381,7 @@ msgid ""
 "and 7.x."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:566
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:567
 msgid ""
 "06 Mar 2018 `#616 <https://github.com/enthought/mayavi/pull/616>`_ (PR)"
 msgstr ""
@@ -1390,7 +1390,7 @@ msgstr ""
 msgid "Misc fixes for PyQt4 and Python 3.6."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:569
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:570
 msgid ""
 "16 Feb 2018 `#609 <https://github.com/enthought/mayavi/pull/609>`_ (PR)"
 msgstr ""
@@ -1399,7 +1399,7 @@ msgstr ""
 msgid "Fix bug with mlab.screenshot and VTK 8.1.0."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:572
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:573
 msgid ""
 "16 Feb 2018 `#608 <https://github.com/enthought/mayavi/pull/608>`_ (PR)"
 msgstr ""
@@ -1408,7 +1408,7 @@ msgstr ""
 msgid "Fix travis builds"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:575
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:576
 msgid ""
 "15 Feb 2018 `#607 <https://github.com/enthought/mayavi/pull/607>`_ (PR)"
 msgstr ""
@@ -1419,7 +1419,7 @@ msgid ""
 "now work correctly with Qt5."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:578
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:579
 msgid ""
 "07 Feb 2018 `#599 <https://github.com/enthought/mayavi/pull/599>`_ (PR)"
 msgstr ""
@@ -1429,7 +1429,7 @@ msgid ""
 "Fix some wxPython issues so mayavi works with recent wxPython releases."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:581
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:582
 msgid ""
 "06 Feb 2018 `#597 <https://github.com/enthought/mayavi/pull/597>`_ (PR)"
 msgstr ""
@@ -1438,7 +1438,7 @@ msgstr ""
 msgid "Fix 8.1 issues phase 2"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:584
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:585
 msgid ""
 "05 Feb 2018 `#596 <https://github.com/enthought/mayavi/pull/596>`_ (PR)"
 msgstr ""
@@ -1447,7 +1447,7 @@ msgstr ""
 msgid "Fix 8.1 issues"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:587
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:588
 msgid ""
 "23 Jan 2018 `#588 <https://github.com/enthought/mayavi/pull/588>`_ "
 "(larsoner)"
@@ -1457,7 +1457,7 @@ msgstr ""
 msgid "MRG: Avoid NumPy deprecation"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:590
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:591
 msgid ""
 "23 Jan 2018 `#584 <https://github.com/enthought/mayavi/pull/584>`_ "
 "(FedeMiorelli)"
@@ -1467,7 +1467,7 @@ msgstr ""
 msgid "Fix bug with \"p\" keypress"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:593
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:594
 msgid ""
 "23 Jan 2018 `#583 <https://github.com/enthought/mayavi/pull/583>`_ "
 "(FedeMiorelli)"
@@ -1477,7 +1477,7 @@ msgstr ""
 msgid "VTK 8.x compatibility fixes"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:596
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:597
 msgid ""
 "14 Dec 2017 `#578 <https://github.com/enthought/mayavi/pull/578>`_ "
 "(larsoner)"
@@ -1487,7 +1487,7 @@ msgstr ""
 msgid "FIX: Remove debug print"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:599
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:600
 msgid ""
 "06 Dec 2017 `#572 <https://github.com/enthought/mayavi/pull/572>`_ (PR)"
 msgstr ""
@@ -1496,7 +1496,7 @@ msgstr ""
 msgid "BUG: Undo a couple of accidental trait_set changes."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:602
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:603
 msgid ""
 "30 Nov 2017 `#571 <https://github.com/enthought/mayavi/pull/571>`_ (NelleV)"
 msgstr ""
@@ -1505,7 +1505,7 @@ msgstr ""
 msgid "DOC improve the mlab introduction"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:605
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:606
 msgid ""
 "14 Dec 2017 `#566 <https://github.com/enthought/mayavi/pull/566>`_ (ghost)"
 msgstr ""
@@ -1514,7 +1514,7 @@ msgstr ""
 msgid "Bug fix: solve the unicode encode error in windows"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:608
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:609
 msgid ""
 "23 Nov 2017 `#564 <https://github.com/enthought/mayavi/pull/564>`_ "
 "(wmvanvliet)"
@@ -1524,7 +1524,7 @@ msgstr ""
 msgid "Prevent get_tvtk_class_names from hijacking stderr"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:611
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:612
 msgid ""
 "15 Nov 2017 `#559 <https://github.com/enthought/mayavi/pull/559>`_ "
 "(wmvanvliet)"
@@ -1534,7 +1534,7 @@ msgstr ""
 msgid "Prevent get_tvtk_class_names from hijacking stdout"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:614
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:615
 msgid ""
 "05 Dec 2017 `#556 <https://github.com/enthought/mayavi/pull/556>`_ "
 "(larsoner)"
@@ -1544,7 +1544,7 @@ msgstr ""
 msgid "FIX: Tiny spelling fix"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:617
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:618
 msgid ""
 "05 Dec 2017 `#555 <https://github.com/enthought/mayavi/pull/555>`_ "
 "(larsoner)"
@@ -1554,7 +1554,7 @@ msgstr ""
 msgid "FIX: Fix deprecated .set / .get use"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:620
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:621
 msgid ""
 "11 Aug 2017 `#544 <https://github.com/enthought/mayavi/pull/544>`_ "
 "(FedeMiorelli)"
@@ -1564,7 +1564,7 @@ msgstr ""
 msgid "Fix numpy issues in lut_manager"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:623
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:624
 msgid ""
 "11 Aug 2017 `#543 <https://github.com/enthought/mayavi/pull/543>`_ (PR)"
 msgstr ""
@@ -1573,7 +1573,7 @@ msgstr ""
 msgid "Fix long standing test failure with ply reader."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:626
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:627
 msgid ""
 "06 Aug 2017 `#541 <https://github.com/enthought/mayavi/pull/541>`_ (PR)"
 msgstr ""
@@ -1582,7 +1582,7 @@ msgstr ""
 msgid "Fix numpy warnings."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:629
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:630
 msgid ""
 "05 Aug 2017 `#540 <https://github.com/enthought/mayavi/pull/540>`_ (PR)"
 msgstr ""
@@ -1591,7 +1591,7 @@ msgstr ""
 msgid "Try fix appveyor test failures."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:632
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:633
 msgid ""
 "05 Aug 2017 `#539 <https://github.com/enthought/mayavi/pull/539>`_ (PR)"
 msgstr ""
@@ -1602,7 +1602,7 @@ msgid ""
 "<https://github.com/enthought/mayavi/issues/514>`_."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:635
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:636
 msgid ""
 "05 Aug 2017 `#538 <https://github.com/enthought/mayavi/pull/538>`_ (PR)"
 msgstr ""
@@ -1611,7 +1611,7 @@ msgstr ""
 msgid "Fix bug with reset method of mlab sources."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:638
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:639
 msgid ""
 "05 Aug 2017 `#537 <https://github.com/enthought/mayavi/pull/537>`_ (PR)"
 msgstr ""
@@ -1620,7 +1620,7 @@ msgstr ""
 msgid "Fix tests"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:641
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:642
 msgid ""
 "05 Aug 2017 `#536 <https://github.com/enthought/mayavi/pull/536>`_ (PR)"
 msgstr ""
@@ -1629,7 +1629,7 @@ msgstr ""
 msgid "Update readme and add link to mailing lists."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:644
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:645
 msgid ""
 "08 Aug 2017 `#531 <https://github.com/enthought/mayavi/pull/531>`_ "
 "(krishnaw14)"
@@ -1639,7 +1639,7 @@ msgstr ""
 msgid "Update installation instructions for conda/conda-forge/edm."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:647
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:648
 msgid ""
 "11 Jul 2017 `#523 <https://github.com/enthought/mayavi/pull/523>`_ "
 "(solarjoe)"
@@ -1649,7 +1649,7 @@ msgstr ""
 msgid "doc: Typo fix"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:650
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:651
 msgid ""
 "11 Jul 2017 `#515 <https://github.com/enthought/mayavi/pull/515>`_ (PR)"
 msgstr ""
@@ -1658,7 +1658,7 @@ msgstr ""
 msgid "Fix a bug with array source and vectors."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:653
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:654
 msgid ""
 "05 Aug 2017 `#514 <https://github.com/enthought/mayavi/pull/514>`_ "
 "(christianbrodbeck)"
@@ -1668,7 +1668,7 @@ msgstr ""
 msgid "FIX shared data in testing backend"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:656
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:657
 msgid ""
 "09 Jun 2017 `#510 <https://github.com/enthought/mayavi/pull/510>`_ "
 "(bhavesh2109)"
@@ -1678,7 +1678,7 @@ msgstr ""
 msgid "Update extract_grid.py"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:659
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:660
 msgid ""
 "11 May 2017 `#508 <https://github.com/enthought/mayavi/pull/508>`_ "
 "(FedeMiorelli)"
@@ -1688,7 +1688,7 @@ msgstr ""
 msgid "Fix pick_world bug with VTK >= 6"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:662
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:663
 msgid ""
 "19 Jul 2017 `#507 <https://github.com/enthought/mayavi/pull/507>`_ "
 "(FedeMiorelli)"
@@ -1698,7 +1698,7 @@ msgstr ""
 msgid "Fix bug in mouse_pick_dispatcher"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:665
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:666
 msgid ""
 "09 May 2017 `#506 <https://github.com/enthought/mayavi/pull/506>`_ "
 "(FedeMiorelli)"
@@ -1708,7 +1708,7 @@ msgstr ""
 msgid "Remove focus-stealing code"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:668
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:669
 msgid ""
 "09 May 2017 `#498 <https://github.com/enthought/mayavi/pull/498>`_ (minrk)"
 msgstr ""
@@ -1717,7 +1717,7 @@ msgstr ""
 msgid "avoid loading nbextension via absolute URL"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:671
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:672
 msgid ""
 "09 May 2017 `#486 <https://github.com/enthought/mayavi/pull/486>`_ (jabooth)"
 msgstr ""
@@ -1726,7 +1726,7 @@ msgstr ""
 msgid "Remove known bug about Python 3 support"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:674
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:675
 msgid ""
 "19 Jul 2017 `#471 <https://github.com/enthought/mayavi/pull/471>`_ (habi)"
 msgstr ""
@@ -1735,7 +1735,7 @@ msgstr ""
 msgid "Adding information/tip about figure width"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:677
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:678
 msgid ""
 "05 Oct 2016 `#444 <https://github.com/enthought/mayavi/pull/444>`_ "
 "(stefanoborini)"
@@ -1745,7 +1745,7 @@ msgstr ""
 msgid "Fix for setuptools 28.0"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:680
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:681
 msgid ""
 "05 Oct 2016 `#435 <https://github.com/enthought/mayavi/pull/435>`_ "
 "(emmanuelle)"
@@ -1755,7 +1755,7 @@ msgstr ""
 msgid "[MRG] Added a volume_slice helper function in mlab."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:683
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:684
 msgid ""
 "13 Aug 2016 `#426 <https://github.com/enthought/mayavi/pull/426>`_ (PR)"
 msgstr ""
@@ -1764,7 +1764,7 @@ msgstr ""
 msgid "Update readme."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:686
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:688
 msgid ""
 "13 Aug 2016 `#425 <https://github.com/enthought/mayavi/pull/425>`_ (PR)"
 msgstr ""
@@ -1777,7 +1777,7 @@ msgstr ""
 msgid "Mayavi 4.5.0"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:696
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:700
 msgid ""
 "21 Jul 2016 `#415 <https://github.com/enthought/mayavi/pull/415>`_ (PR)"
 msgstr ""
@@ -1790,7 +1790,7 @@ msgid ""
 ":ref:`jupyter_notebook`."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:702
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:705
 msgid ""
 "09 Jul 2016 `#411 <https://github.com/enthought/mayavi/pull/411>`_ (PR)"
 msgstr ""
@@ -1802,7 +1802,7 @@ msgid ""
 "details."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:707
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:709
 msgid ""
 "07 Jul 2016 `#410 <https://github.com/enthought/mayavi/pull/410>`_ (daytonb)"
 msgstr ""
@@ -1813,7 +1813,7 @@ msgid ""
 "viridis colormap."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:714
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:720
 msgid ""
 "01 Aug 2016 `#416 <https://github.com/enthought/mayavi/pull/416>`_ (PR)"
 msgstr ""
@@ -1828,7 +1828,7 @@ msgid ""
 "when \"p\" is pressed on the scene."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:722
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:723
 msgid ""
 "29 Jul 2016 `#417 <https://github.com/enthought/mayavi/pull/417>`_ "
 "(patricksnape)"
@@ -1838,7 +1838,7 @@ msgstr ""
 msgid "Python 3 fixes for the jupyter notebook support."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:725
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:727
 msgid ""
 "08 Jul 2016 `#413 <https://github.com/enthought/mayavi/pull/413>`_ (PR)"
 msgstr ""
@@ -1849,7 +1849,7 @@ msgid ""
 "were not showing on protein demo."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:729
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:730
 msgid ""
 "03 Jul 2016 `#408 <https://github.com/enthought/mayavi/pull/408>`_ "
 "(ryanpepper)"
@@ -1859,7 +1859,7 @@ msgstr ""
 msgid "Add additional save options."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:732
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:734
 msgid ""
 "04 Jul 2016 `#406 <https://github.com/enthought/mayavi/pull/406>`_ (PR)"
 msgstr ""
@@ -1870,7 +1870,7 @@ msgid ""
 "image plane widget and volume modules were broken."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:736
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:737
 msgid ""
 "06 Jul 2016 `#405 <https://github.com/enthought/mayavi/pull/405>`_ "
 "(itziakos)"
@@ -1880,7 +1880,7 @@ msgstr ""
 msgid "Debug info on code gen for wrapper generation."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:739
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:740
 msgid ""
 "16 Jun 2016 `#394 <https://github.com/enthought/mayavi/pull/394>`_ (PR)"
 msgstr ""
@@ -1889,7 +1889,7 @@ msgstr ""
 msgid "BUG: Fix slice unstructured grid module."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:742
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:743
 msgid ""
 "17 Jun 2016 `#391 <https://github.com/enthought/mayavi/pull/391>`_ (SiggyF)"
 msgstr ""
@@ -1898,7 +1898,7 @@ msgstr ""
 msgid "Fix typo in readme."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:745
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:746
 msgid ""
 "13 May 2016 `#386 <https://github.com/enthought/mayavi/pull/386>`_ "
 "(itziakos)"
@@ -1908,7 +1908,7 @@ msgstr ""
 msgid "update codecov configuration"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:748
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:749
 msgid ""
 "04 May 2016 `#376 <https://github.com/enthought/mayavi/pull/376>`_ "
 "(stefanoborini)"
@@ -1918,7 +1918,7 @@ msgstr ""
 msgid "Documentation for QString API failure."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:751
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:752
 msgid ""
 "04 May 2016 `#375 <https://github.com/enthought/mayavi/pull/375>`_ "
 "(stefanoborini)"
@@ -1928,7 +1928,7 @@ msgstr ""
 msgid "Fixes incorrect signature of ``EnvisageEngine.new_scene``."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:754
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:755
 msgid ""
 "03 May 2016 `#374 <https://github.com/enthought/mayavi/pull/374>`_ "
 "(stefanoborini)"
@@ -1938,7 +1938,7 @@ msgstr ""
 msgid "Fix for unexpected test code."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:757
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:758
 msgid ""
 "13 May 2016 `#370 <https://github.com/enthought/mayavi/pull/370>`_ (kitchoi)"
 msgstr ""
@@ -1947,7 +1947,7 @@ msgstr ""
 msgid "Fix \"_p_void\" values in TVTK with VTK 6.x"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:760
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:761
 msgid ""
 "29 Apr 2016 `#364 <https://github.com/enthought/mayavi/pull/364>`_ "
 "(stefanoborini)"
@@ -1957,7 +1957,7 @@ msgstr ""
 msgid "Fix failing test for custom import in some circumstances"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:763
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:764
 msgid ""
 "27 Apr 2016 `#358 <https://github.com/enthought/mayavi/pull/358>`_ "
 "(stefanoborini)"
@@ -1967,7 +1967,7 @@ msgstr ""
 msgid "Removes ``array_ext.so/pyd`` on clean"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:766
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:767
 msgid ""
 "25 Apr 2016 `#356 <https://github.com/enthought/mayavi/pull/356>`_ "
 "(stefanoborini)"
@@ -1977,7 +1977,7 @@ msgstr ""
 msgid "Check if test successful with the appropriate filename."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:769
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:770
 msgid ""
 "27 Apr 2016 `#355 <https://github.com/enthought/mayavi/pull/355>`_ "
 "(stefanoborini)"
@@ -1987,7 +1987,7 @@ msgstr ""
 msgid "Unicode trait handling for those vtk methods returning unicode data"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:772
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:773
 msgid ""
 "24 Apr 2016 `#352 <https://github.com/enthought/mayavi/pull/352>`_ (kitchoi)"
 msgstr ""
@@ -1996,7 +1996,7 @@ msgstr ""
 msgid "ENH: Nice load pylab_luts.pkl"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:775
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:776
 msgid ""
 "27 Apr 2016 `#351 <https://github.com/enthought/mayavi/pull/351>`_ "
 "(stefanoborini)"
@@ -2006,7 +2006,7 @@ msgstr ""
 msgid "Document object identity behavior matching VTK"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:778
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:779
 msgid ""
 "21 Apr 2016 `#349 <https://github.com/enthought/mayavi/pull/349>`_ (kitchoi)"
 msgstr ""
@@ -2015,7 +2015,7 @@ msgstr ""
 msgid "Revert \"Fix savefig size and black image\""
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:781
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:782
 msgid ""
 "27 Apr 2016 `#348 <https://github.com/enthought/mayavi/pull/348>`_ "
 "(stefanoborini)"
@@ -2025,7 +2025,7 @@ msgstr ""
 msgid "Added setup.py documentation for Qt requirements"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:784
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:785
 msgid ""
 "27 Apr 2016 `#345 <https://github.com/enthought/mayavi/pull/345>`_ (kitchoi)"
 msgstr ""
@@ -2034,7 +2034,7 @@ msgstr ""
 msgid "Add VTK 6.3 and VTK 7 to travis ci"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:787
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:788
 msgid ""
 "20 Apr 2016 `#341 <https://github.com/enthought/mayavi/pull/341>`_ (kitchoi)"
 msgstr ""
@@ -2043,7 +2043,7 @@ msgstr ""
 msgid "Fix traitsdoc setup and compliance with py3"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:790
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:791
 msgid ""
 "20 Apr 2016 `#340 <https://github.com/enthought/mayavi/pull/340>`_ (kitchoi)"
 msgstr ""
@@ -2052,7 +2052,7 @@ msgstr ""
 msgid "Import and integer division in python3"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:793
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:794
 msgid ""
 "20 Apr 2016 `#335 <https://github.com/enthought/mayavi/pull/335>`_ (kitchoi)"
 msgstr ""
@@ -2063,7 +2063,7 @@ msgid ""
 "<https://github.com/enthought/mayavi/issues/211>`_."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:796
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:797
 msgid ""
 "20 Apr 2016 `#334 <https://github.com/enthought/mayavi/pull/334>`_ "
 "(stefanoborini)"
@@ -2073,7 +2073,7 @@ msgstr ""
 msgid "Fixes Quiver3d Failure with different argument types"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:799
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:800
 msgid ""
 "20 Apr 2016 `#332 <https://github.com/enthought/mayavi/pull/332>`_ (kitchoi)"
 msgstr ""
@@ -2082,7 +2082,7 @@ msgstr ""
 msgid "Fix Text3D in VTK 6.0+"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:802
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:803
 msgid ""
 "21 Apr 2016 `#331 <https://github.com/enthought/mayavi/pull/331>`_ (kitchoi)"
 msgstr ""
@@ -2091,7 +2091,7 @@ msgstr ""
 msgid "Fix savefig size and black image"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:805
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:806
 msgid ""
 "20 Apr 2016 `#330 <https://github.com/enthought/mayavi/pull/330>`_ "
 "(stefanoborini)"
@@ -2101,7 +2101,7 @@ msgstr ""
 msgid "Fix for exception when modifying extents"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:808
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:809
 msgid ""
 "01 Apr 2016 `#329 <https://github.com/enthought/mayavi/pull/329>`_ "
 "(stefanoborini)"
@@ -2111,7 +2111,7 @@ msgstr ""
 msgid "Suppresses test for VTK 6.2 (solves appVeyor random failure)"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:811
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:812
 msgid ""
 "20 Apr 2016 `#327 <https://github.com/enthought/mayavi/pull/327>`_ "
 "(stefanoborini)"
@@ -2121,7 +2121,7 @@ msgstr ""
 msgid "Forces pipeline update when LUT changes"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:814
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:815
 msgid ""
 "01 Apr 2016 `#326 <https://github.com/enthought/mayavi/pull/326>`_ "
 "(stefanoborini)"
@@ -2131,7 +2131,7 @@ msgstr ""
 msgid "Fix for test failure on mayavi -t"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:817
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:818
 msgid ""
 "28 Mar 2016 `#323 <https://github.com/enthought/mayavi/pull/323>`_ "
 "(stefanoborini)"
@@ -2141,7 +2141,7 @@ msgstr ""
 msgid "Enforce ordering of attribute labels in VTKDataSource."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:820
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:821
 msgid ""
 "28 Mar 2016 `#315 <https://github.com/enthought/mayavi/pull/315>`_ "
 "(stefanoborini)"
@@ -2151,7 +2151,7 @@ msgstr ""
 msgid "Apply has_attribute to the output in VTKFileReader"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:823
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:824
 msgid ""
 "17 Mar 2016 `#313 <https://github.com/enthought/mayavi/pull/313>`_ (kitchoi)"
 msgstr ""
@@ -2160,7 +2160,7 @@ msgstr ""
 msgid "Replacing links to code. and svn.enthought.com"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:826
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:827
 msgid ""
 "09 Mar 2016 `#310 <https://github.com/enthought/mayavi/pull/310>`_ (kitchoi)"
 msgstr ""
@@ -2169,7 +2169,7 @@ msgstr ""
 msgid "Fix Camera off-centered when loading saved visualization"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:829
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:831
 msgid ""
 "09 Mar 2016 `#309 <https://github.com/enthought/mayavi/pull/309>`_ (PR)"
 msgstr ""
@@ -2180,7 +2180,7 @@ msgid ""
 "issues with the pipeline was not updating properly."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:833
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:834
 msgid ""
 "09 Mar 2016 `#306 <https://github.com/enthought/mayavi/pull/306>`_ (kitchoi)"
 msgstr ""
@@ -2189,7 +2189,7 @@ msgstr ""
 msgid "Fix issue with ``mlab.move``"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:836
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:838
 msgid ""
 "01 Apr 2016 `#304 <https://github.com/enthought/mayavi/pull/304>`_ (kitchoi)"
 msgstr ""
@@ -2200,7 +2200,7 @@ msgid ""
 " when savefig is called multiple times."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:840
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:842
 msgid ""
 "09 Mar 2016 `#303 <https://github.com/enthought/mayavi/pull/303>`_ (kitchoi)"
 msgstr ""
@@ -2221,7 +2221,7 @@ msgstr ""
 msgid "Mayavi 4.4.4"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:856
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:857
 msgid "21 Jan 2016 (PR)"
 msgstr ""
 
@@ -2229,8 +2229,8 @@ msgstr ""
 msgid "Add experimental Python3 support"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:862
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:874
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:863
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:875
 msgid "27 Feb 2016 (PR)"
 msgstr ""
 
@@ -2238,8 +2238,8 @@ msgstr ""
 msgid "Ensure the cut plane is updated when the plane is changed in the GUI"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:865
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:871
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:866
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:872
 msgid "27 Feb 2016 (kitchoi)"
 msgstr ""
 
@@ -2247,7 +2247,7 @@ msgstr ""
 msgid "Use off screen engine when mlab's offscreen option is enabled"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:868
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:869
 msgid "26 Feb 2016 (mabl)"
 msgstr ""
 
@@ -2263,7 +2263,7 @@ msgstr ""
 msgid "Update docs to use Qt instead of wx"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:877
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:878
 msgid "24 Feb 2016 (kitchoi)"
 msgstr ""
 
@@ -2271,7 +2271,7 @@ msgstr ""
 msgid "Update documentation setup"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:880
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:881
 msgid "24 Feb 2016 (PR)"
 msgstr ""
 
@@ -2279,7 +2279,7 @@ msgstr ""
 msgid "Allow TVTK to be used without UI/X server"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:883
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:884
 msgid "23 Feb 2016 (kitchoi)"
 msgstr ""
 
@@ -2287,7 +2287,7 @@ msgstr ""
 msgid "Update documentation links"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:886
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:887
 msgid "17 Feb 2016 (kitchoi)"
 msgstr ""
 
@@ -2295,7 +2295,7 @@ msgstr ""
 msgid "Make sure the array shape and size match"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:889
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:891
 msgid "17 Feb 2016 (IT)"
 msgstr ""
 
@@ -2305,7 +2305,7 @@ msgid ""
 "from Mayavi2"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:893
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:895
 msgid "09 Feb 2016 (jonathanrocher)"
 msgstr ""
 
@@ -2315,7 +2315,7 @@ msgid ""
 "machines"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:897
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:898
 msgid "22 Jan 2016 (IT)"
 msgstr ""
 
@@ -2323,7 +2323,7 @@ msgstr ""
 msgid "Do not use get-pip or wheel to upgrade pip on appveyor"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:900
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:901
 msgid "10 Sep 2015 (alexendreleroux)"
 msgstr ""
 
@@ -2335,8 +2335,8 @@ msgstr ""
 msgid "Mayavi 4.4.3"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:909
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:912
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:910
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:913
 msgid "01 Jul 2015 (IT)"
 msgstr ""
 
@@ -2348,7 +2348,7 @@ msgstr ""
 msgid "Use new Travis CI containers for faster builds"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:915
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:916
 msgid "22 Jun 2015 (IT)"
 msgstr ""
 
@@ -2356,7 +2356,7 @@ msgstr ""
 msgid "Add CI tests on Windows using Appveyor"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:921
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:923
 msgid "11 Aug 2015 (DS, IT, PR)"
 msgstr ""
 
@@ -2366,7 +2366,7 @@ msgid ""
 "test that provides an API to test garbage collection."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:925
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:926
 msgid "10 Aug 2015 (PR)"
 msgstr ""
 
@@ -2374,7 +2374,7 @@ msgstr ""
 msgid "Fix the LUT manager to select the correct lut mode for QT backend"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:928
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:929
 msgid "04 Aug 2015 (IT)"
 msgstr ""
 
@@ -2382,7 +2382,7 @@ msgstr ""
 msgid "Use the python-wxtool package to speed up Travis CI build"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:931
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:932
 msgid "04 Aug 2015 (DS)"
 msgstr ""
 
@@ -2390,7 +2390,7 @@ msgstr ""
 msgid "Fix TVTK wrapper to allow look up with long keys for Points"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:934
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:935
 msgid "23 Jul 2015 (DS)"
 msgstr ""
 
@@ -2398,7 +2398,7 @@ msgstr ""
 msgid "Fix glyph to handle the masking of input points"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:937
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:939
 msgid "22 Jul 2015 (IT)"
 msgstr ""
 
@@ -2408,7 +2408,7 @@ msgid ""
 " github for development and documentation."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:941
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:943
 msgid "20 Jul 2015 (DS)"
 msgstr ""
 
@@ -2418,7 +2418,7 @@ msgid ""
 "cell array"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:945
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:946
 msgid "15 Jul 2015 (DS)"
 msgstr ""
 
@@ -2426,7 +2426,7 @@ msgstr ""
 msgid "Fix VKTFileReader to update output when using standalone"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:948
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:949
 msgid "24 Jun 2015 (PR)"
 msgstr ""
 
@@ -2438,7 +2438,7 @@ msgstr ""
 msgid "Mayavi 4.4.2"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:957
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:958
 msgid "11 Jun 2015 (DS)"
 msgstr ""
 
@@ -2450,7 +2450,7 @@ msgstr ""
 msgid "Mayavi 4.4.1"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:966
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:967
 msgid "23 Apr 2015 (DS)"
 msgstr ""
 
@@ -2462,8 +2462,8 @@ msgstr ""
 msgid "Mayavi 4.4.0"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:975
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:985
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:977
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:986
 msgid "22 Dec 2014 (DS)"
 msgstr ""
 
@@ -2473,7 +2473,7 @@ msgid ""
 "examples, and use new volume mapper for new pipeline."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:979
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:980
 msgid "24 Jan 2014 (DS)"
 msgstr ""
 
@@ -2485,7 +2485,7 @@ msgstr ""
 msgid "Support dynamic dimensions in array source."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:988
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:989
 msgid "03 Dec 2014 (paulmueller)"
 msgstr ""
 
@@ -2493,7 +2493,7 @@ msgstr ""
 msgid "Fix MRI brain data URL."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:991
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:993
 msgid "13 Nov 2014 (DS)"
 msgstr ""
 
@@ -2503,7 +2503,7 @@ msgid ""
 "after upgrading to new pipeline."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:995
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:996
 msgid "24 Sep 2014 (pberkes)"
 msgstr ""
 
@@ -2511,7 +2511,7 @@ msgstr ""
 msgid "Handle the non-Latin-1 keypresses."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:998
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:999
 msgid "23 Sep 2014 (rkern)"
 msgstr ""
 
@@ -2519,7 +2519,7 @@ msgstr ""
 msgid "Prevent ndarray comparisions with None."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1001
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1002
 msgid "17 Jul 2014 (mdickinson)"
 msgstr ""
 
@@ -2527,7 +2527,7 @@ msgstr ""
 msgid "Fix the trait error raised when the threshold range is updated."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1004
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1005
 msgid "24 May 2014 (markkness)"
 msgstr ""
 
@@ -2535,7 +2535,7 @@ msgstr ""
 msgid "Update installation documentation links."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1007
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1008
 msgid "21 Apr 2014 (PR)"
 msgstr ""
 
@@ -2547,7 +2547,7 @@ msgstr ""
 msgid "Mayavi 4.3.1"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1016
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1018
 msgid "20 Jan 2014 (PR)"
 msgstr ""
 
@@ -2557,7 +2557,7 @@ msgid ""
 "custom color map."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1020
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1021
 msgid "12 Jan 2014 (PR)"
 msgstr ""
 
@@ -2565,7 +2565,7 @@ msgstr ""
 msgid "Enabled Travis-CI for the repo."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1023
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1025
 msgid "17 Dec 2013 (dmsurti)"
 msgstr ""
 
@@ -2575,7 +2575,7 @@ msgid ""
 "make use of VTK's new pipeline."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1027
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1029
 msgid "07 Aug 2013 (pratikmallya)"
 msgstr ""
 
@@ -2585,7 +2585,7 @@ msgid ""
 "this example."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1031
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1033
 msgid "03 Jun 2013 (PR)"
 msgstr ""
 
@@ -2595,7 +2595,7 @@ msgid ""
 "animations."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1038
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1040
 msgid "27 Jan 2014 (PR)"
 msgstr ""
 
@@ -2605,7 +2605,7 @@ msgid ""
 "pass on OS X, Linux and Windows 32 and 64 bit with VTK 5.6."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1042
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1043
 msgid "08 Jan 2014 (PR)"
 msgstr ""
 
@@ -2613,7 +2613,7 @@ msgstr ""
 msgid "tvtk_doc: Fix search when user enters a search string."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1045
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1047
 msgid "09 Jan 2014 (mindw)"
 msgstr ""
 
@@ -2623,7 +2623,7 @@ msgid ""
 " this fix."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1049
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1050
 msgid "23 Dec 2013 (jenshnielsen)"
 msgstr ""
 
@@ -2632,7 +2632,7 @@ msgid ""
 "Fix imshow by handling TraitError. Thanks to Jens Nielsen for this fix."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1052
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1054
 msgid "05 Apr 2013 (mindw)"
 msgstr ""
 
@@ -2642,7 +2642,7 @@ msgid ""
 "Davar for this fix."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1056
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1057
 msgid "05 Apr 2013 (mluessi)"
 msgstr ""
 
@@ -2650,7 +2650,7 @@ msgstr ""
 msgid "Fix wxpython 2.9 compatibility. Thanks to Martin Luessi for this fix."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1059
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1062
 msgid "19 Aug 2013 (senganal)"
 msgstr ""
 
@@ -2664,7 +2664,7 @@ msgstr ""
 msgid "Fix inconsistent handling of scalars. Thanks to Senganal for this fix."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1064
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1066
 msgid "10 Jun 2013 (PR)"
 msgstr ""
 
@@ -2676,8 +2676,8 @@ msgstr ""
 msgid "Mayavi 4.3.0"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1074
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1084
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1076
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1087
 msgid "30 Oct 2012 (PR)"
 msgstr ""
 
@@ -2687,7 +2687,7 @@ msgid ""
 "UI should be usable on Qt."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1081
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1082
 msgid "11 Mar 2013 (Aestrivex)"
 msgstr ""
 
@@ -2705,7 +2705,7 @@ msgstr ""
 msgid "Mayavi 4.2.1"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1095
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1097
 msgid "9 August 2012 (GV)"
 msgstr ""
 
@@ -2717,7 +2717,7 @@ msgstr ""
 msgid "Mayavi 3.4.0 (Oct 15, 2010)"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1105
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1107
 msgid "22 July 2010 (GV)"
 msgstr ""
 
@@ -2737,7 +2737,7 @@ msgid ""
 "[25663]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1118
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1120
 msgid "2 August 2010 (GV)"
 msgstr ""
 
@@ -2747,7 +2747,7 @@ msgid ""
 "reducing the number of points [25700]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1122
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1124
 msgid "1 August 2010 (GV)"
 msgstr ""
 
@@ -2757,7 +2757,7 @@ msgid ""
 "under Qt prevented the scalar range to be updated in time [25699]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1126
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1129
 msgid "25 July 2010 (GV)"
 msgstr ""
 
@@ -2768,7 +2768,7 @@ msgid ""
 "entries [25685,25686]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1131
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1133
 msgid "14 July 2010 (GV)"
 msgstr ""
 
@@ -2786,7 +2786,7 @@ msgstr ""
 msgid "DOCs: many docs and example improvements (GV)."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1143
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1144
 msgid "13 April 2010 (GV)"
 msgstr ""
 
@@ -2794,7 +2794,7 @@ msgstr ""
 msgid "API: Enforces wx >= 2.8 [25465,25471,25529]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1146
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1147
 msgid "11 April 2010 (GV)"
 msgstr ""
 
@@ -2802,7 +2802,7 @@ msgstr ""
 msgid "ENH: Add figure management to mlab.roll [25464]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1149
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1152
 msgid "6 March 2010 (GV)"
 msgstr ""
 
@@ -2812,7 +2812,7 @@ msgid ""
 "VTK versions colors look ugly when normals are not computed [25400]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1157
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1160
 msgid "17 May 2010 (PR)"
 msgstr ""
 
@@ -2822,7 +2822,7 @@ msgid ""
 "default to a value with a special character like \"\\n\" \"\\r\" [25546]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1162
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1163
 msgid "17 April 2010 (GV)"
 msgstr ""
 
@@ -2830,7 +2830,7 @@ msgstr ""
 msgid "BUG: Fix integer casting in magnification for mlab.savefig [25483]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1165
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1168
 msgid "5 April 2010 (GV)"
 msgstr ""
 
@@ -2841,7 +2841,7 @@ msgid ""
 " arrays in their point_data [25434]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1170
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1173
 msgid "3 April 2010 (GV)"
 msgstr ""
 
@@ -2855,8 +2855,8 @@ msgstr ""
 msgid "Mayavi 3.3.1 (Feb 24, 2010)"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1181
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1320
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1184
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1328
 msgid "20 Dec, 2009 (GV):"
 msgstr ""
 
@@ -2866,7 +2866,7 @@ msgid ""
 " ArraySource, with additional work to get the tests to pass [25036], [25043]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1186
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1189
 msgid "14 Dec, 2009 (GV)"
 msgstr ""
 
@@ -2877,7 +2877,7 @@ msgid ""
 " new example 'on_mouse_pick' [25016], [25019]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1191
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1194
 msgid "13 Dec, 2009 (GV):"
 msgstr ""
 
@@ -2891,7 +2891,7 @@ msgid ""
 "[25015]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1196
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1198
 msgid "27 Nov 2009 (GV):"
 msgstr ""
 
@@ -2900,8 +2900,8 @@ msgid ""
 "ENH: Add an auto mode for mlab.view, for distance and focal point [24971]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1200
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1336
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1201
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1338
 msgid "26 Nov, 2009 (GV):"
 msgstr ""
 
@@ -2910,8 +2910,8 @@ msgid ""
 "ENH: Add a probe_data to retrieve data from Mayavi or VTK objects [24966]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1203
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1340
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1205
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1341
 msgid "25 Nov, 2009 (GV):"
 msgstr ""
 
@@ -2921,7 +2921,7 @@ msgid ""
 "scene save snapshot dialog [24963]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1207
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1209
 msgid "12 Oct, 2009 (GV):"
 msgstr ""
 
@@ -2931,7 +2931,7 @@ msgid ""
 "filter [24826]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1211
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1212
 msgid "17 Sep, 2009 (PR):"
 msgstr ""
 
@@ -2939,7 +2939,7 @@ msgstr ""
 msgid "ENH: Making the widgets recordable [24738]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1214
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1216
 msgid "02 Sept 2009 (GV):"
 msgstr ""
 
@@ -2949,7 +2949,7 @@ msgid ""
 "axes [24678]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1218
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1222
 msgid "02 Sep, 2009 (GV):"
 msgstr ""
 
@@ -2965,7 +2965,7 @@ msgid ""
 "Gouillart [24677]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1224
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1225
 msgid "20 Aug, 2009 (PR):"
 msgstr ""
 
@@ -2973,8 +2973,8 @@ msgstr ""
 msgid "ENH: Don't persist mlab_source [24567]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1227
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1377
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1236
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1380
 msgid "14 Aug, 2009 (GV):"
 msgstr ""
 
@@ -3003,7 +3003,7 @@ msgid ""
 " too [24532]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1238
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1241
 msgid "13 Aug, 2009 (GV):"
 msgstr ""
 
@@ -3014,7 +3014,7 @@ msgid ""
 "[24520], [24521], [24520]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1243
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1247
 msgid "04 Aug, 2009 (GV)"
 msgstr ""
 
@@ -3030,7 +3030,7 @@ msgid ""
 "in mlab.screenshot (rgb vs rgba) [24453]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1249
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1251
 msgid "03 Aug, 2009 (GV):"
 msgstr ""
 
@@ -3040,7 +3040,7 @@ msgid ""
 "creating object [24443]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1253
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1258
 msgid "03 Aug, 2009 (PR):"
 msgstr ""
 
@@ -3056,7 +3056,7 @@ msgid ""
 "[24439]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1260
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1262
 msgid "01 Aug, 2009 (GV):"
 msgstr ""
 
@@ -3066,7 +3066,7 @@ msgid ""
 "already-installed system [24428]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1264
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1266
 msgid "15 Jul, 2009 (GV):"
 msgstr ""
 
@@ -3076,7 +3076,7 @@ msgid ""
 "[24169]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1268
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1270
 msgid "10 Jul, 2009 (GV):"
 msgstr ""
 
@@ -3085,7 +3085,7 @@ msgid ""
 "ENH: Allows for use of lists as a scalar argument in mlab function [24094]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1272
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1275
 msgid "09 Jul 2009 (PR):"
 msgstr ""
 
@@ -3096,9 +3096,9 @@ msgid ""
 "[24084]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1277
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1281
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1414
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1279
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1283
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1417
 msgid "08 Jul, 2009 (GV):"
 msgstr ""
 
@@ -3114,7 +3114,7 @@ msgid ""
 "[24064], [24060]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1285
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1287
 msgid "07 Jul, 2009 (GV):"
 msgstr ""
 
@@ -3124,7 +3124,7 @@ msgid ""
 "[25058]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1289
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1294
 msgid "22 Jul, 2009 (Dave Peterson):"
 msgstr ""
 
@@ -3135,7 +3135,7 @@ msgid ""
 " is necessary due to the use of namespace packages [24339]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1299
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1303
 msgid "21 Feb, 2010 (GV)"
 msgstr ""
 
@@ -3151,7 +3151,7 @@ msgid ""
 "redraws [25279]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1305
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1309
 msgid "15 Feb, 2010 (PR):"
 msgstr ""
 
@@ -3163,7 +3163,7 @@ msgid ""
 "VTK from CVS [25236]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1311
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1312
 msgid "12 Feb, 2010 (Scott Warts):"
 msgstr ""
 
@@ -3171,7 +3171,7 @@ msgstr ""
 msgid "Reset the current scene if it is removed [ 25219]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1314
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1318
 msgid "08 Jan, 2010 (GV):"
 msgstr ""
 
@@ -3209,7 +3209,7 @@ msgid ""
 "bugs with it [25041]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1330
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1334
 msgid "14 Dec, 2009 (GV):"
 msgstr ""
 
@@ -3236,7 +3236,7 @@ msgstr ""
 msgid "BUG: Fix a bug in barchart [24962]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1343
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1345
 msgid "18 Nov, 2009 (Scott Warts):"
 msgstr ""
 
@@ -3246,7 +3246,7 @@ msgid ""
 "just checking for actors [24932]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1347
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1349
 msgid "04 Nov, 2009 (GV):"
 msgstr ""
 
@@ -3256,7 +3256,7 @@ msgid ""
 "[24874]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1351
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1353
 msgid "22 Oct, 2009 (Scott Warts):"
 msgstr ""
 
@@ -3266,7 +3266,7 @@ msgid ""
 "observers to keep from creating uncollectable cycles [24856], [24857]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1355
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1357
 msgid "14 Sep, 2009 (GV):"
 msgstr ""
 
@@ -3276,7 +3276,7 @@ msgid ""
 "magnification was set to auto [24733]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1359
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1361
 msgid "19 Aug, 2009 (GV):"
 msgstr ""
 
@@ -3286,7 +3286,7 @@ msgid ""
 "scalar representation not enabled [24559]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1363
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1365
 msgid "19 Aug, 2009 (PR):"
 msgstr ""
 
@@ -3296,7 +3296,7 @@ msgid ""
 "5.2 [24558]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1367
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1369
 msgid "18 Aug, 2009 (GV):"
 msgstr ""
 
@@ -3309,7 +3309,7 @@ msgid ""
 "BUG: Fix a traceback in mlab.show_pipeline if no scene was open [24553]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1371
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1375
 msgid "17 Aug, 2009 (PR):"
 msgstr ""
 
@@ -3328,7 +3328,7 @@ msgid ""
 "Thanks to Ondrej Certik for reporting this one"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1382
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1384
 msgid "08 Aug, 2009 (GV):"
 msgstr ""
 
@@ -3338,7 +3338,7 @@ msgid ""
 "not added to the right scene [24492]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1386
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1388
 msgid "07 Aug, 2009 (Scott Warts):"
 msgstr ""
 
@@ -3348,7 +3348,7 @@ msgid ""
 "SetOutputOriginToDefault and SetOutputExtentToDefault [24480]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1390
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1393
 msgid "06 Aug, 2009 (PR):"
 msgstr ""
 
@@ -3358,7 +3358,7 @@ msgid ""
 " a state method.  Thanks to Scott Swarts for pointing this out [24476]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1395
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1397
 msgid "01 Aug, 2009 (Robert Kern):"
 msgstr ""
 
@@ -3368,7 +3368,7 @@ msgid ""
 "resizing in order to avoid an offset bug [24427]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1399
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1401
 msgid "23 Jul, 2009 (Evan Patterson):"
 msgstr ""
 
@@ -3380,7 +3380,7 @@ msgstr ""
 msgid "Mayavi 3.3.0 (July 15, 2009)"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1409
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1412
 msgid "06 Jul, 2009 (PR):"
 msgstr ""
 
@@ -3398,7 +3398,7 @@ msgid ""
 "[24065]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1419
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1424
 msgid "05 Jul 2009 (GV):"
 msgstr ""
 
@@ -3418,7 +3418,7 @@ msgid ""
 "which figure objects are added on [2403]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1426
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1430
 msgid "02 July, 2009 (PR):"
 msgstr ""
 
@@ -3430,7 +3430,7 @@ msgid ""
 "[24025]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1432
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1437
 msgid "01 Jul, 2009 (PR):"
 msgstr ""
 
@@ -3443,7 +3443,7 @@ msgid ""
 " patch [24017]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1439
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1441
 msgid "01 Jul, 2009 (GV):"
 msgstr ""
 
@@ -3452,7 +3452,7 @@ msgid ""
 "ENH: Add an mlab.close function to close figures controled by mlab [24006]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1443
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1452
 msgid "30 Jun, 2009 (PR):"
 msgstr ""
 
@@ -3468,8 +3468,8 @@ msgid ""
 "rather than the file extension.  Many thanks to Suyog for this work [24002]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1454
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1549
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1455
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1551
 msgid "29 Jun, 2009 (GV):"
 msgstr ""
 
@@ -3477,7 +3477,7 @@ msgstr ""
 msgid "ENH: Add an option to show_engine to show the rich view [23981]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1457
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1461
 msgid "14 Jun, 2009 (GV):"
 msgstr ""
 
@@ -3495,7 +3495,7 @@ msgstr ""
 msgid "ENH/TEST: rewamp the mlab testing infrastructure [23822]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1463
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1469
 msgid "13 Jun, 2009 (GV):"
 msgstr ""
 
@@ -3517,7 +3517,7 @@ msgid ""
 "[23814]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1471
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1475
 msgid "10 Jun, 2009 (PR):"
 msgstr ""
 
@@ -3529,7 +3529,7 @@ msgid ""
 "[23787]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1477
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1479
 msgid "2 Jun, 2009 (PR):"
 msgstr ""
 
@@ -3539,7 +3539,7 @@ msgid ""
 "Also making the scene itself \"renamable\" [23710]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1481
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1482
 msgid "29 May, 2009 (PR):"
 msgstr ""
 
@@ -3547,7 +3547,7 @@ msgstr ""
 msgid "ENH: Also pickle the name of the scene -- it shouldn't hurt [23691]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1484
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1485
 msgid "18 May, 2009 (GV):"
 msgstr ""
 
@@ -3555,7 +3555,7 @@ msgstr ""
 msgid "ENH: cleaner exception capture for sensible error message [23660]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1487
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1491
 msgid "10 May, 2009 (GV):"
 msgstr ""
 
@@ -3569,7 +3569,7 @@ msgid ""
 " example [23617]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1493
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1502
 msgid "9 May, 2009 (PR):"
 msgstr ""
 
@@ -3614,7 +3614,7 @@ msgid ""
 " the source distribution files no required for distribution"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1517
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1519
 msgid "19 Apr, 2009 (GV)"
 msgstr ""
 
@@ -3624,7 +3624,7 @@ msgid ""
 "from the source and binary distributions[23544]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1521
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1524
 msgid "11 Apr, 2009 (GV):"
 msgstr ""
 
@@ -3634,7 +3634,7 @@ msgid ""
 "core import [23520]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1529
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1536
 msgid "15 Jul, 2009 (PR):"
 msgstr ""
 
@@ -3648,7 +3648,7 @@ msgid ""
 "`start_gui_event_loop` that is disabled when used from mlab [24171]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1538
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1541
 msgid "6 Jul, 2009 (Dave Martin):"
 msgstr ""
 
@@ -3658,7 +3658,7 @@ msgid ""
 "registry.find_scene_engine(scene) instead of \"scene.scene\" [24052] [24055]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1543
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1547
 msgid "05 Jul, 2009 (GV):"
 msgstr ""
 
@@ -3680,7 +3680,7 @@ msgid ""
 "behaved with regards to mlab_source.update [23983]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1553
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1561
 msgid "28 Jun, 2009 (PR):"
 msgstr ""
 
@@ -3695,7 +3695,7 @@ msgid ""
 "This can be fixed with a callback and will be done later. [23980]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1563
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1566
 msgid "25 Jun, 2009 (PR):"
 msgstr ""
 
@@ -3706,7 +3706,7 @@ msgid ""
 "and a text editor say [23933]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1568
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1574
 msgid "2, Jun 2009 (PR):"
 msgstr ""
 
@@ -3724,7 +3724,7 @@ msgid ""
 "fixed [23713]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1576
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1579
 msgid "30 May, 2009 (PR):"
 msgstr ""
 
@@ -3735,7 +3735,7 @@ msgid ""
 "its SetIvarToState methods [23696]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1581
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1583
 msgid "26 Lay, 2009 (GV):"
 msgstr ""
 
@@ -3745,7 +3745,7 @@ msgid ""
 "Rohrhirsch for reporting it [23682]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1585
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1587
 msgid "6 May, 2009 (PR):"
 msgstr ""
 
@@ -3757,7 +3757,7 @@ msgstr ""
 msgid "BUG: [mlab] mlab.pipeline.contour_grid_plane was broken [23596]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1589
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1591
 msgid "27 Apr, 2009 (GV):"
 msgstr ""
 
@@ -3769,7 +3769,7 @@ msgstr ""
 msgid "DOC: Put up to date information on the engine [23560]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1593
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1595
 msgid "23 Apr, 2009 (GV):"
 msgstr ""
 
@@ -3779,7 +3779,7 @@ msgid ""
 "application [23558]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1597
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1599
 msgid "13 April, 2009 (PR):"
 msgstr ""
 
@@ -3789,7 +3789,7 @@ msgid ""
 "user defined readers.  Thanks to B. P. Thrane for reporting the bug"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1601
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1603
 msgid "27 March, 2009 (GV):"
 msgstr ""
 
@@ -3799,7 +3799,7 @@ msgid ""
 "case for this.  Thanks to Mario Ceresa for reporting the bug [23438]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1605
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1609
 msgid "23 March, 2009 (GV):"
 msgstr ""
 
@@ -3809,7 +3809,7 @@ msgid ""
 "https://bugs.launchpad.net/bugs/34693 [23371]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1611
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1617
 msgid "20 March, 2009 (PR):"
 msgstr ""
 
@@ -3836,7 +3836,7 @@ msgid ""
 "This is only partial and only covers the developments after the 2.x series."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1626
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1630
 msgid "17, 18 March, 2009 (PR):"
 msgstr ""
 
@@ -3852,7 +3852,7 @@ msgid ""
 "causing a bug with resizing the viewer. [23243]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1632
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1634
 msgid "15 March, 2009 (GV):"
 msgstr ""
 
@@ -3862,7 +3862,7 @@ msgid ""
 " for the volume module [23221]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1636
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1644
 msgid "14 March, 2009 (PR):"
 msgstr ""
 
@@ -3881,7 +3881,7 @@ msgid ""
 "fixed. Thanks to Christoph Bohme for reporting this issue. [23191]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1646
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1652
 msgid "14 March, 2009 (GV):"
 msgstr ""
 
@@ -3903,7 +3903,7 @@ msgid ""
 " of the IPython shell view [23208]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1654
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1660
 msgid "13 March, 2009 (PR):"
 msgstr ""
 
@@ -3916,7 +3916,7 @@ msgid ""
 "*anything* from mayavi."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1662
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1663
 msgid "13 March, 2009 (GV)"
 msgstr ""
 
@@ -3924,7 +3924,7 @@ msgstr ""
 msgid "API: rename mlab.orientationaxes to mlab.orientation_axes [23184]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1665
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1666
 msgid "11 March, 2009 (GV)"
 msgstr ""
 
@@ -3932,7 +3932,7 @@ msgstr ""
 msgid "API: Expose 'traverse' in mlab.pipeline [23181]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1668
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1676
 msgid "10 March, 2009 (PR)"
 msgstr ""
 
@@ -3947,7 +3947,7 @@ msgid ""
 "used. The other is a traditional unittest. [23166]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1678
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1680
 msgid "08 March, 2009 (GV)"
 msgstr ""
 
@@ -3957,7 +3957,7 @@ msgid ""
 "values [23150]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1682
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1693
 msgid "07 March, 2009 (PR)"
 msgstr ""
 
@@ -3975,7 +3975,7 @@ msgid ""
 "then improved. Thanks to them all. [23146]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1695
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1700
 msgid "28 February, 2009 (PR)"
 msgstr ""
 
@@ -3988,7 +3988,7 @@ msgid ""
 "test case for the options.backend test. [23088]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1702
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1705
 msgid "23 February, 2009 (PR)"
 msgstr ""
 
@@ -3999,7 +3999,7 @@ msgid ""
 "using Python [23049]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1707
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1710
 msgid "21 February, 2009 (GV)"
 msgstr ""
 
@@ -4013,7 +4013,7 @@ msgid ""
 "mlab.triangular_mesh_source. [23037]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1712
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1715
 msgid "21 February, 2009 (PR)"
 msgstr ""
 
@@ -4027,7 +4027,7 @@ msgid ""
 "[23036] [23039]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1717
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1726
 msgid "20 February, 2009 (PR)"
 msgstr ""
 
@@ -4047,7 +4047,7 @@ msgid ""
 "LUT. Also made the IPW recordable. [23011]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1728
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1730
 msgid "18 February, 2009 (GV)"
 msgstr ""
 
@@ -4057,7 +4057,7 @@ msgid ""
 "[22998]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1732
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1734
 msgid "08 February, 2009 (GV)"
 msgstr ""
 
@@ -4067,7 +4067,7 @@ msgid ""
 "by Rauli Ruohonen [22906]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1736
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1738
 msgid "29 January, 2009 (GV)"
 msgstr ""
 
@@ -4077,7 +4077,7 @@ msgid ""
 "`mlab.gcf().scene.disable_render = True` [22869]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1740
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1742
 msgid "28 January, 2009 (PR and GV)"
 msgstr ""
 
@@ -4087,7 +4087,7 @@ msgid ""
 "arbitrary filters on the pipeline. [22867], [22865]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1744
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1748
 msgid "11 January, 2009 (GV)"
 msgstr ""
 
@@ -4101,7 +4101,7 @@ msgstr ""
 msgid "Mayavi 3.1.0"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1753
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1756
 msgid "3 December, 2008 (PR)"
 msgstr ""
 
@@ -4112,11 +4112,11 @@ msgid ""
 "[22624]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1758
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1761
 msgid "1 December, 2008 (GV):"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1759
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1761
 msgid "API: Promote the TestEngine to a first-class citizen NullEngine and"
 msgstr ""
 
@@ -4126,7 +4126,7 @@ msgid ""
 "[22594]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1763
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1766
 msgid "30 November, 2008 (PR)"
 msgstr ""
 
@@ -4137,7 +4137,7 @@ msgid ""
 "Suyog Jain for this code. [22586], [22597]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1768
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1772
 msgid "27 November, 2008 (GV):"
 msgstr ""
 
@@ -4149,7 +4149,7 @@ msgstr ""
 msgid "mlab.pipeline_basene.streamline [22573]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1771
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1772
 msgid "DOC: Documentation work, especially in the scripting parts of the"
 msgstr ""
 
@@ -4157,11 +4157,11 @@ msgstr ""
 msgid "docs. [22572], [22561], [22560], [22546], [22545]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1774
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1776
 msgid "26 November, 2008 (GV):"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1775
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1776
 msgid "ENH: Add keyword arguments to the cutplanes in mlab.pipeline. [22567]"
 msgstr ""
 
@@ -4169,7 +4169,7 @@ msgstr ""
 msgid "Also add masking to glyph-based mlab.pipeline factories [22568]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1778
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1784
 msgid "19 November, 2008 (GV):"
 msgstr ""
 
@@ -4177,7 +4177,7 @@ msgstr ""
 msgid "UI: Rename 'Modules' to 'Colors and legends' [22512]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1780
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1784
 msgid "API: Change defaults [22513]:"
 msgstr ""
 
@@ -4190,7 +4190,7 @@ msgstr ""
 msgid "The ouline of the implicite plane is no longer draggable by default."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1786
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1791
 msgid "15-16 November, 2008 (PR)"
 msgstr ""
 
@@ -4210,7 +4210,7 @@ msgstr ""
 msgid "DOC: Updating advanced scripting chapter. [22495]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1793
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1795
 msgid "13 November, 2008 (GV)"
 msgstr ""
 
@@ -4220,7 +4220,7 @@ msgid ""
 "format, as well as colors number. [22489]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1797
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1800
 msgid "10 November, 2008 (PR)"
 msgstr ""
 
@@ -4231,7 +4231,7 @@ msgid ""
 "the work. [22465]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1802
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1809
 msgid "27 October, 2008 (GV)"
 msgstr ""
 
@@ -4250,7 +4250,7 @@ msgid ""
 "object when none specified explicitely. [22372]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1811
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1821
 msgid "24-27 October, 2008 (PR)"
 msgstr ""
 
@@ -4278,7 +4278,7 @@ msgstr ""
 msgid "ENH: [mlab] Added an `mlab.view` method that actually works [22366]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1823
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1824
 msgid "19 October, 2008 (GV)"
 msgstr ""
 
@@ -4286,7 +4286,7 @@ msgstr ""
 msgid "ENH: mlab.text can now take 3D positioning [22331]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1826
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1838
 msgid "17-20 October, 2008 (PR)"
 msgstr ""
 
@@ -4317,7 +4317,7 @@ msgid ""
 "is required for the Volume module to work correctly. [22329], [22341]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1840
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1843
 msgid "13 October, 2008 (GV):"
 msgstr ""
 
@@ -4325,7 +4325,7 @@ msgstr ""
 msgid "ENH: Bind the 'explore' function in the python shell [22307]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1842
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1843
 msgid "ENH: mlab: axes and outline now find the extents from the objects"
 msgstr ""
 
@@ -4333,7 +4333,7 @@ msgstr ""
 msgid "they are given, if any. [22305]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1845
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1847
 msgid "12 October, 2008 (GV):"
 msgstr ""
 
@@ -4343,7 +4343,7 @@ msgid ""
 "function. [22286]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1849
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1860
 msgid "11 October, 2008 (PR):"
 msgstr ""
 
@@ -4369,7 +4369,7 @@ msgid ""
 "[22279]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1862
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1864
 msgid "10 October, 2008 (GV):"
 msgstr ""
 
@@ -4379,7 +4379,7 @@ msgid ""
 "tools._set_extent) [22251]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1866
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1871
 msgid "9 October, 2008 (GV):"
 msgstr ""
 
@@ -4391,7 +4391,7 @@ msgid ""
 "back to pyshell gracefully. [21678], [22245]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1873
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1876
 msgid "4 October, 2008 (PR):"
 msgstr ""
 
@@ -4402,7 +4402,7 @@ msgid ""
 " env var is set to 'null'. [22198]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1878
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1885
 msgid "30 September, 2008 (GV):"
 msgstr ""
 
@@ -4424,7 +4424,7 @@ msgid ""
 "shape (they accept lists, and 1D or 2D arrays when possible) [22161]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1887
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1892
 msgid "29 September, 2008 (GV):"
 msgstr ""
 
@@ -4441,7 +4441,7 @@ msgid ""
 "coordinnates, in addition to arrays. [22156]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1894
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1899
 msgid "12 September, 2008 (PR)"
 msgstr ""
 
@@ -4457,7 +4457,7 @@ msgid ""
 " for easily testing mayavi. [21881]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1901
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1914
 msgid "8-12 September, 2008 (PR)"
 msgstr ""
 
@@ -4477,7 +4477,7 @@ msgstr ""
 msgid "Mayavi 3.0.3"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1919
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1925
 msgid "7 September, 2008 (PR):"
 msgstr ""
 
@@ -4487,7 +4487,7 @@ msgid ""
 "args like the following::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1927
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1935
 msgid "6 September, 2008 (PR):"
 msgstr ""
 
@@ -4514,7 +4514,7 @@ msgstr ""
 msgid "ENH: Adding X3D and POVRAY export options. [21711]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1937
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1942
 msgid "23 August, 2008 (PR):"
 msgstr ""
 
@@ -4531,7 +4531,7 @@ msgid ""
 "though. [21519]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1944
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1947
 msgid "21 August, 2008 (PR):"
 msgstr ""
 
@@ -4543,7 +4543,7 @@ msgstr ""
 msgid "Mayavi 3.0.1 and 3.0.2"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1952
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1958
 msgid "16 August, 2008 (PR):"
 msgstr ""
 
@@ -4558,7 +4558,7 @@ msgstr ""
 msgid "Mayavi 3.0.0"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1963
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1966
 msgid "15 August, 2008 (PR):"
 msgstr ""
 
@@ -4569,7 +4569,7 @@ msgid ""
 "and also does not influence any other code. [21300]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1968
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1977
 msgid "10 August, 2008 (PR):"
 msgstr ""
 
@@ -4585,7 +4585,7 @@ msgid ""
 "[21103]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1979
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1994
 msgid "27 July, 2008 (GV):"
 msgstr ""
 
@@ -4619,7 +4619,7 @@ msgstr ""
 msgid "ENH: [mlab] add a resolution argument to glyphs [20465]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1990
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1991
 msgid "API: [mlab] API Breakage!"
 msgstr ""
 
@@ -4629,7 +4629,7 @@ msgid ""
 "than gridsource [20466]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1993
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1994
 msgid "NEW: Add image_plane_widget to mlab.pipeline, with helpful keyword"
 msgstr ""
 
@@ -4637,7 +4637,7 @@ msgstr ""
 msgid "arguments."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:1996
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2000
 msgid "23 July, 2008 (GV):"
 msgstr ""
 
@@ -4648,7 +4648,7 @@ msgid ""
 " also now exposes a set_engine function. [20245]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2002
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2015
 msgid "23 July, 2008 (PR)"
 msgstr ""
 
@@ -4680,7 +4680,7 @@ msgid ""
 "mayavi completely seamlessly."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2017
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2036
 msgid "18, 19 July, 2008 (PR)"
 msgstr ""
 
@@ -4723,7 +4723,7 @@ msgid ""
 "with a particular scene. [20101]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2038
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2043
 msgid "12 July, 2008 (PR):"
 msgstr ""
 
@@ -4735,7 +4735,7 @@ msgid ""
 "plugins to the mayavi2 app easily. [19920]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2045
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2048
 msgid "9 July, 2008 (Judah, PR)"
 msgstr ""
 
@@ -4745,7 +4745,7 @@ msgid ""
 "and lets a user easily create new scenes/sources/filters and modules."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2050
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2064
 msgid "8 July, 2008 (PR)"
 msgstr ""
 
@@ -4771,7 +4771,7 @@ msgstr ""
 msgid "ENH: Envisage menus are now context sensitive [19520]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2066
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2092
 msgid "5 July, 2008 (PR):"
 msgstr ""
 
@@ -4786,7 +4786,7 @@ msgid ""
 " are autogenerated from the metadata for these."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2071
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2092
 msgid "NEW/API: [19458] adds the following features:"
 msgstr ""
 
@@ -4835,7 +4835,7 @@ msgid ""
 "basename."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2094
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2099
 msgid "29 June, 2008 (GV):"
 msgstr ""
 
@@ -4853,7 +4853,7 @@ msgid ""
 "[19323]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2101
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2104
 msgid "27 June, 2008 (Vibha):"
 msgstr ""
 
@@ -4867,7 +4867,7 @@ msgid ""
 "[19231] [19280]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2106
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2108
 msgid "27 June, 2008 (GV):"
 msgstr ""
 
@@ -4877,7 +4877,7 @@ msgid ""
 "[19297]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2110
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2113
 msgid "25 June, 2008 (GV):"
 msgstr ""
 
@@ -4891,7 +4891,7 @@ msgid ""
 "flexible shape [19114]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2115
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2121
 msgid "12 June, 2008 (PR):"
 msgstr ""
 
@@ -4904,7 +4904,7 @@ msgid ""
 "script for the purpose. See [18951], [18955]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2123
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2135
 msgid "07, 08 June, 2008 (PR):"
 msgstr ""
 
@@ -4925,7 +4925,7 @@ msgid ""
 "make it much nicer for proper garbage collection.  See [18886], [18887]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2137
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2148
 msgid "06 June, 2008 (PR):"
 msgstr ""
 
@@ -4950,7 +4950,7 @@ msgid ""
 "how mayavi scripts can work in completely different contexts.  [18881]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2150
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2156
 msgid "31 May, 2008 (PR):"
 msgstr ""
 
@@ -4969,7 +4969,7 @@ msgid ""
 "coords).  This was thanks to a patch from Chandrashekhar Kaushik. [18827]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2158
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2159
 msgid "30 May, 2008 (PR):"
 msgstr ""
 
@@ -4977,8 +4977,8 @@ msgstr ""
 msgid "API: Adding closing, closed lifecycle events to the scene [18806]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2161
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2167
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2165
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2169
 msgid "27 May, 2008 (PR):"
 msgstr ""
 
@@ -4996,7 +4996,7 @@ msgid ""
 "MayaVi-1.5's StructuredPointsProbe does. [18792]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2171
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2172
 msgid "25 May, 2008 (PR):"
 msgstr ""
 
@@ -5004,7 +5004,7 @@ msgstr ""
 msgid "NEW: Adding CellDerivatives and Vorticity filters. [18785]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2174
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2180
 msgid "24 May, 2008 (PR):"
 msgstr ""
 
@@ -5022,7 +5022,7 @@ msgid ""
 "filter. [18780]"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2182
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2186
 msgid "23 May, 2008 (PR):"
 msgstr ""
 
@@ -5034,7 +5034,7 @@ msgid ""
 "  See [18774], [18775]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2188
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2193
 msgid "22 May, 2008 (PR):"
 msgstr ""
 
@@ -5050,7 +5050,7 @@ msgid ""
 "reimplements hide/show using a visible trait."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2195
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2200
 msgid "21 May, 2008 (PR):"
 msgstr ""
 
@@ -5066,7 +5066,7 @@ msgstr ""
 msgid "The GenericModule is now tested."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2202
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2212
 msgid "20 May, 2008 (PR):"
 msgstr ""
 
@@ -5087,7 +5087,7 @@ msgid ""
 "makes it very easy to create new filters."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2214
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2227
 msgid "18 May, 2008 (PR):"
 msgstr ""
 
@@ -5119,7 +5119,7 @@ msgid ""
 "used (which was also added)."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2229
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2234
 msgid "17 May, 2008 (PR):"
 msgstr ""
 
@@ -5135,7 +5135,7 @@ msgid ""
 " be overridden by subclasses, see [18703]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2236
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2238
 msgid "13 May, 2008 (PR):"
 msgstr ""
 
@@ -5144,7 +5144,7 @@ msgid ""
 "NEW: Adding an ExtractVectorComponents filter contributed by Varun Hiremath."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2240
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2247
 msgid "11,12 May 2008 (PR):"
 msgstr ""
 
@@ -5162,7 +5162,7 @@ msgid ""
 "stuff."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2249
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2252
 msgid "10 May 2008 (PR):"
 msgstr ""
 
@@ -5172,7 +5172,7 @@ msgid ""
 "belongs; see [18667]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2254
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2259
 msgid "7,8 May 2008 (PR):"
 msgstr ""
 
@@ -5184,7 +5184,7 @@ msgid ""
 "[18652], [18655], [18657], [18662]."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2261
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2275
 msgid "6 May 2008 (PR):"
 msgstr ""
 
@@ -5213,7 +5213,7 @@ msgid ""
 "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=478844"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2277
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2281
 msgid "4 May 2008 (PR):"
 msgstr ""
 
@@ -5225,7 +5225,7 @@ msgid ""
 "library level."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2283
+#: ../../mayavi/docs/source/mayavi/auto/changes.rst:2288
 msgid "2 May, 2008 (PR):"
 msgstr ""
 
@@ -6191,7 +6191,7 @@ msgid ""
 "That's all there is to it, pretty simple right? Right. Here is an overview:"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/example_mlab_3D_to_2D.rst:101
+#: ../../mayavi/docs/source/mayavi/auto/example_mlab_3D_to_2D.rst:105
 msgid "Given a set of 3D world coordinates:"
 msgstr ""
 
@@ -7703,7 +7703,7 @@ msgstr ""
 msgid "0000"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:195
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:197
 msgid ":ref:`example_julia_set`"
 msgstr ""
 
@@ -7715,7 +7715,7 @@ msgstr ""
 msgid "0001"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:199
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:201
 msgid ":ref:`example_boy`"
 msgstr ""
 
@@ -7745,7 +7745,7 @@ msgstr ""
 msgid "<br/>"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:203
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:205
 msgid ":ref:`example_bunny`"
 msgstr ""
 
@@ -7753,7 +7753,7 @@ msgstr ""
 msgid "|0003|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:207
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:209
 msgid ":ref:`example_dragon`"
 msgstr ""
 
@@ -7761,7 +7761,7 @@ msgstr ""
 msgid "|0004|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:211
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:213
 msgid ":ref:`example_lucy`"
 msgstr ""
 
@@ -7773,7 +7773,7 @@ msgstr ""
 msgid "0005"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:215
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:218
 msgid ":ref:`example_custom_colormap`"
 msgstr ""
 
@@ -7785,7 +7785,7 @@ msgstr ""
 msgid "0006"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:220
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:222
 msgid ":ref:`example_surface_from_irregular_data`"
 msgstr ""
 
@@ -7797,7 +7797,7 @@ msgstr ""
 msgid "0007"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:224
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:227
 msgid ":ref:`example_spherical_harmonics`"
 msgstr ""
 
@@ -7809,7 +7809,7 @@ msgstr ""
 msgid "0008"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:229
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:232
 msgid ":ref:`example_lorenz`"
 msgstr ""
 
@@ -7821,7 +7821,7 @@ msgstr ""
 msgid "0009"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:234
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:237
 msgid ":ref:`example_canyon`"
 msgstr ""
 
@@ -7833,7 +7833,7 @@ msgstr ""
 msgid "0010"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:239
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:243
 msgid ":ref:`example_julia_set_decimation`"
 msgstr ""
 
@@ -7845,7 +7845,7 @@ msgstr ""
 msgid "0011"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:245
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:248
 msgid ":ref:`example_simple_structured_grid`"
 msgstr ""
 
@@ -7857,7 +7857,7 @@ msgstr ""
 msgid "0012"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:250
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:253
 msgid ":ref:`example_atomic_orbital`"
 msgstr ""
 
@@ -7869,7 +7869,7 @@ msgstr ""
 msgid "0013"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:255
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:258
 msgid ":ref:`example_tvtk_in_mayavi`"
 msgstr ""
 
@@ -7881,7 +7881,7 @@ msgstr ""
 msgid "0014"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:260
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:264
 msgid ":ref:`example_chemistry`"
 msgstr ""
 
@@ -7893,7 +7893,7 @@ msgstr ""
 msgid "0015"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:266
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:270
 msgid ":ref:`example_wigner`"
 msgstr ""
 
@@ -7905,7 +7905,7 @@ msgstr ""
 msgid "0016"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:272
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:274
 msgid ":ref:`example_canyon_decimation`"
 msgstr ""
 
@@ -7917,7 +7917,7 @@ msgstr ""
 msgid "0017"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:276
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:279
 msgid ":ref:`example_plotting_many_lines`"
 msgstr ""
 
@@ -7929,7 +7929,7 @@ msgstr ""
 msgid "0018"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:281
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:284
 msgid ":ref:`example_magnetic_field_lines`"
 msgstr ""
 
@@ -7941,7 +7941,7 @@ msgstr ""
 msgid "0019"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:286
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:288
 msgid ":ref:`example_mri`"
 msgstr ""
 
@@ -7953,7 +7953,7 @@ msgstr ""
 msgid "0020"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:290
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:293
 msgid ":ref:`example_protein`"
 msgstr ""
 
@@ -7965,7 +7965,7 @@ msgstr ""
 msgid "0021"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:295
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:298
 msgid ":ref:`example_flight_graph`"
 msgstr ""
 
@@ -7987,7 +7987,7 @@ msgstr ""
 msgid "0100"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:427
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:430
 msgid ":ref:`example_mlab_visual`"
 msgstr ""
 
@@ -7995,7 +7995,7 @@ msgstr ""
 msgid "|0101|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:432
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:434
 msgid ":ref:`example_mlab_traits_ui`"
 msgstr ""
 
@@ -8003,7 +8003,7 @@ msgstr ""
 msgid "|0102|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:436
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:438
 msgid ":ref:`example_wx_embedding`"
 msgstr ""
 
@@ -8011,7 +8011,7 @@ msgstr ""
 msgid "|0103|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:440
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:442
 msgid ":ref:`example_multiple_engines`"
 msgstr ""
 
@@ -8019,7 +8019,7 @@ msgstr ""
 msgid "|0104|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:444
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:446
 msgid ":ref:`example_multiple_mlab_scene_models`"
 msgstr ""
 
@@ -8027,7 +8027,7 @@ msgstr ""
 msgid "|0105|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:448
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:456
 msgid ":ref:`example_superquad_with_gui`"
 msgstr ""
 
@@ -8047,7 +8047,7 @@ msgstr ""
 msgid "0106"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:458
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:460
 msgid ":ref:`example_mlab_interactive_dialog`"
 msgstr ""
 
@@ -8055,7 +8055,7 @@ msgstr ""
 msgid "|0107|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:462
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:464
 msgid ":ref:`example_wx_mayavi_embed_in_notebook`"
 msgstr ""
 
@@ -8063,7 +8063,7 @@ msgstr ""
 msgid "|0108|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:466
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:471
 msgid ":ref:`example_subclassing_mayavi_application`"
 msgstr ""
 
@@ -8071,7 +8071,7 @@ msgstr ""
 msgid "|0109|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:473
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:476
 msgid ":ref:`example_mayavi_traits_ui`"
 msgstr ""
 
@@ -8079,7 +8079,7 @@ msgstr ""
 msgid "|0110|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:478
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:484
 msgid ":ref:`example_compute_in_thread`"
 msgstr ""
 
@@ -8087,7 +8087,7 @@ msgstr ""
 msgid "|0111|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:486
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:489
 msgid ":ref:`example_qt_embedding`"
 msgstr ""
 
@@ -8095,7 +8095,7 @@ msgstr ""
 msgid "|0112|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:491
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:494
 msgid ":ref:`example_adjust_cropping_extents`"
 msgstr ""
 
@@ -8103,7 +8103,7 @@ msgstr ""
 msgid "|0113|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:496
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:499
 msgid ":ref:`example_poll_file`"
 msgstr ""
 
@@ -8111,7 +8111,7 @@ msgstr ""
 msgid "|0114|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:501
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:509
 msgid ":ref:`example_lorenz_ui`"
 msgstr ""
 
@@ -8119,7 +8119,7 @@ msgstr ""
 msgid "|0115|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:511
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:514
 msgid ":ref:`example_volume_slicer`"
 msgstr ""
 
@@ -8127,7 +8127,7 @@ msgstr ""
 msgid "|0116|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:516
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:519
 msgid ":ref:`example_coil_design_application`"
 msgstr ""
 
@@ -8135,7 +8135,7 @@ msgstr ""
 msgid "|0117|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:521
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:526
 msgid ":ref:`example_volume_slicer_advanced`"
 msgstr ""
 
@@ -8149,83 +8149,83 @@ msgid ""
 " fine control than mlab."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:566
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:567
 msgid ":ref:`example_polydata`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:569
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:571
 msgid ":ref:`example_offscreen`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:573
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:575
 msgid ":ref:`example_surf_regular_mlab`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:577
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:580
 msgid ":ref:`example_glyph`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:582
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:585
 msgid ":ref:`example_structured_points2d`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:587
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:588
 msgid ":ref:`example_contour_contour`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:590
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:591
 msgid ":ref:`example_scatter_plot`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:593
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:595
 msgid ":ref:`example_streamline`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:597
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:599
 msgid ":ref:`example_numeric_source`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:601
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:604
 msgid ":ref:`example_structured_points3d`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:606
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:608
 msgid ":ref:`example_image_cursor_filter`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:610
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:612
 msgid ":ref:`example_contour`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:614
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:616
 msgid ":ref:`example_probe_filter`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:618
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:621
 msgid ":ref:`example_unstructured_grid`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:623
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:626
 msgid ":ref:`example_structured_grid`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:628
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:630
 msgid ":ref:`example_tvtk_segmentation`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:632
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:634
 msgid ":ref:`example_datasets`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:636
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:638
 msgid ":ref:`example_delaunay_graph`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:640
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:642
 msgid ":ref:`example_mlab_3D_to_2D`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:644
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:646
 msgid ":ref:`example_magnetic_field`"
 msgstr ""
 
@@ -8237,7 +8237,7 @@ msgstr ""
 msgid "Examples showing how you can query and interact with the data."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:665
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:667
 msgid ":ref:`example_pick_on_surface`"
 msgstr ""
 
@@ -8247,7 +8247,7 @@ msgid ""
 " index in the numpy arrays."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:669
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:671
 msgid ":ref:`example_select_red_balls`"
 msgstr ""
 
@@ -8255,15 +8255,15 @@ msgstr ""
 msgid "Misc examples"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:689
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:691
 msgid ":ref:`example_standalone`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:693
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:695
 msgid ":ref:`example_zzz_reader`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:697
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:699
 msgid ":ref:`example_nongui`"
 msgstr ""
 

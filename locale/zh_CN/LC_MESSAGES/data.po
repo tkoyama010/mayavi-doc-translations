@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-17 23:02+0000\n"
+"POT-Creation-Date: 2022-10-19 02:52+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
@@ -186,7 +186,7 @@ msgid ""
 "the object."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/data.rst:119
+#: ../../mayavi/docs/source/mayavi/data.rst:134
 msgid "For example:"
 msgstr ""
 
