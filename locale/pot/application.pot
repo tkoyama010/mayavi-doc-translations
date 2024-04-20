@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-19 02:52+0000\n"
+"POT-Creation-Date: 2024-04-20 01:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,7 +68,7 @@ msgstr ""
 msgid "When the `mayavi2` application is started it will provide a user interface that looks something like the figure shown below."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/application.rst:-1
+#: ../../mayavi/docs/source/mayavi/application.rst:34
 msgid "Figure of Mayavi's initial UI window."
 msgstr ""
 
@@ -88,7 +88,7 @@ msgstr ""
 msgid "The Mayavi pipeline tree view"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/application.rst:53
+#: ../../mayavi/docs/source/mayavi/application.rst:44
 msgid "This is a tree view of the Mayavi pipeline."
 msgstr ""
 
@@ -164,7 +164,7 @@ msgstr ""
 msgid "Shown below is a specifically configured Mayavi user interface view. In this view the size of the various parts are changed."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/application.rst:-1
+#: ../../mayavi/docs/source/mayavi/application.rst:97
 msgid "Figure of Mayavi's UI after being configured by a user."
 msgstr ""
 
@@ -516,7 +516,7 @@ msgstr ""
 msgid "The script recorder works for some important actions.  At this point it does not support the following actions:"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/application.rst:407
+#: ../../mayavi/docs/source/mayavi/application.rst:405
 msgid "On the scene, the 'c'/'t'/'j'/'a'/'p' keys are not recorded"
 msgstr ""
 
@@ -524,7 +524,7 @@ msgstr ""
 msgid "correctly since this is much more complicated to implement and typically not necessary for basic scripting."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/application.rst:410
+#: ../../mayavi/docs/source/mayavi/application.rst:409
 msgid "Arbitrary scripting of the interface is obviously not going to work"
 msgstr ""
 
@@ -532,7 +532,7 @@ msgstr ""
 msgid "as you may expect."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/application.rst:413
+#: ../../mayavi/docs/source/mayavi/application.rst:412
 msgid "Only trait changes and specific calls are recorded explicitly in the"
 msgstr ""
 

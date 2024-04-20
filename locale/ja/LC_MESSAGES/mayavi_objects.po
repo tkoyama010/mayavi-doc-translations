@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.2.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-19 02:52+0000\n"
+"POT-Creation-Date: 2024-04-20 01:49+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -258,7 +258,7 @@ msgstr "視覚化におけるベクトル値から色へのカラーマッピン
 msgid "``lut_data_mode``"
 msgstr "``lut_data_mode``"
 
-#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:137
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:129
 msgid "'auto', 'point data' and 'cell data'."
 msgstr "'auto', 'point data' と 'cell data'."
 
@@ -474,7 +474,7 @@ msgstr ""
 "``mayavi.core.null_engine`` "
 "モジュールです．このエンジンでは，ビジュアル化オブジェクトはシーンに追加されないため，レンダリングできません．このエンジンは，Mayaviのデータ構造のテストおよび純粋なデータ処理に便利です．"
 
-#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst-1
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:271
 msgid "The ``Engine`` object."
 msgstr "``Engine`` オブジェクト．"
 
@@ -573,7 +573,7 @@ msgid ""
 "involved."
 msgstr "次の図は，関連するさまざまなオブジェクトのクラス階層を示しています．"
 
-#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst-1
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:335
 msgid "Basic object hierarchy"
 msgstr "基本オブジェクト階層"
 
@@ -585,7 +585,7 @@ msgstr ""
 "*この階層は， ``Base`` オブジェクト， ``Scene`` ，``PipelineBase``  ，および ``ModuleManager``"
 " を表します．*"
 
-#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst-1
+#: ../../mayavi/docs/source/mayavi/mayavi_objects.rst:342
 msgid "More object hierarchy"
 msgstr "その他のオブジェクト階層"
 
