@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2022
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-24 00:23+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,13 +23,15 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:2
 msgid "Mayavi 4.8.2"
-msgstr ""
+msgstr "Mayavi 4.8.2"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:4
 msgid ""
 "This is a bugfix release to work correctly with traitsui-8, Python-3.12, "
 "VTK-9.3 and above, and PyQt6. 18 PRs were merged."
 msgstr ""
+"これは traitsui-8, Python-3.12, VTK-9.3 以上, PyQt6 で正しく動作するためのバグフィックスリリースです。18 "
+"個の PR がマージされました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:7
 msgid ""
@@ -37,76 +39,92 @@ msgid ""
 "alphabetical order, Eric Larson, homosapien-lcy, Horiem (yellowshippo), "
 "JaRoSchm, and Prabhu Ramachandran."
 msgstr ""
+"このリリースに貢献した以下の人々にアルファベット順に感謝します．Eric Larson, homosapien-lcy, Horiem "
+"(yellowshippo), JaRoSchm, と Prabhu Ramachandran."
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:12
 msgid "Major Fixes"
-msgstr ""
+msgstr "主な修正点"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:14
 msgid ""
 "23 May 2023 `#1300 <https://github.com/enthought/mayavi/pull/1300>`_ "
 "(prabhuramachandran)"
 msgstr ""
+"23 May 2023 `#1300 <https://github.com/enthought/mayavi/pull/1300>`_ "
+"(prabhuramachandran)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:15
 msgid "Port changes from upstream QVTKRenderWindowInteractor."
-msgstr ""
+msgstr "アップストリームの QVTKRenderWindowInteractor からの変更を移植しました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:17
 msgid ""
 "28 Aug 2023 `#1273 <https://github.com/enthought/mayavi/pull/1273>`_ "
 "(larsoner)"
 msgstr ""
+"28 Aug 2023 `#1273 <https://github.com/enthought/mayavi/pull/1273>`_ "
+"(larsoner)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:18
 msgid "ENH: Add support for PyQt6"
-msgstr ""
+msgstr "ENH: PyQt6 のサポートを追加"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:20
 msgid ""
 "28 Aug 2023 `#1272 <https://github.com/enthought/mayavi/pull/1272>`_ "
 "(larsoner)"
 msgstr ""
+"28 Aug 2023 `#1272 <https://github.com/enthought/mayavi/pull/1272>`_ "
+"(larsoner)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:21
 msgid "BUG: Fix bug with latest VTK"
-msgstr ""
+msgstr "BUG: 最新のVTKのバグを修正しました"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:23
 msgid ""
 "26 May 2023 `#1255 <https://github.com/enthought/mayavi/pull/1255>`_ "
 "(larsoner)"
 msgstr ""
+"26 May 2023 `#1255 <https://github.com/enthought/mayavi/pull/1255>`_ "
+"(larsoner)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:24
 msgid "Improve compatibility with traitsui 8"
-msgstr ""
+msgstr "traitsui 8との互換性の向上"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:26
 msgid ""
 "10 May 2023 `#1234 <https://github.com/enthought/mayavi/pull/1234>`_ "
 "(prabhuramachandran)"
 msgstr ""
+"10 May 2023 `#1234 <https://github.com/enthought/mayavi/pull/1234>`_ "
+"(prabhuramachandran)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:27
 msgid "Fix issue with `mlab.process_ui_events`"
-msgstr ""
+msgstr "`mlab.process_ui_events` の問題を修正しました．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:29
 msgid ""
 "07 May 2023 `#1199 <https://github.com/enthought/mayavi/pull/1199>`_ "
 "(larsoner)"
 msgstr ""
+"07 May 2023 `#1199 <https://github.com/enthought/mayavi/pull/1199>`_ "
+"(larsoner)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:30
 msgid "ENH: Add support for Python 3.11"
-msgstr ""
+msgstr "ENH: Python 3.11 のサポートを追加"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:32
 msgid ""
 "18 Oct 2022 `#1186 <https://github.com/enthought/mayavi/pull/1186>`_ "
 "(prabhuramachandran)"
 msgstr ""
+"18 Oct 2022 `#1186 <https://github.com/enthought/mayavi/pull/1186>`_ "
+"(prabhuramachandran)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:33
 msgid ""
@@ -114,6 +132,8 @@ msgid ""
 "exclude the zip file so the sdist does not ship it. This way the file on "
 "pypi is much smaller."
 msgstr ""
+"`#1185 <https://github.com/enthought/mayavi/issues/1185>`_ "
+"を修正。sdistがzipファイルを出荷しないように除外しただけです。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:39
 msgid "Mayavi 4.8.1"
