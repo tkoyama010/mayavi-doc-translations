@@ -11,7 +11,6 @@ This conf.py do:
 - Overrides source directory as 'mayavi/docs/source/mayavi`.
 
 """
-import os
 import pathlib
 
 basedir = Path(__file__).resolve().parent / "mayavi/docs/source/mayavi"
