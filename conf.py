@@ -14,15 +14,13 @@ This conf.py do:
 import os
 import pathlib
 
-basedir = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), "mayavi/docs/source/mayavi"
-)
-exec(pathlib.Path(os.path.join(basedir, "conf.py")).read_text(), globals())
+basedir = Path(__file__).resolve().parent / "mayavi/docs/source/mayavi"
+exec((basedir / "conf.py").read_text(), globals())  # noqa: S102
 
-locale_dirs = [os.path.join(basedir, "../../../../locale/")]
+locale_dirs = [basedir / "../../../../locale/"]
 
 
-def setup(app):
+def setup(app):  # noqa: D103,ANN001
     from sphinx.ext.autodoc import cut_lines
 
     app.srcdir = pathlib.Path(basedir)
