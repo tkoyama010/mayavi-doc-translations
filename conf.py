@@ -12,7 +12,7 @@ This conf.py do:
 - Overrides source directory as 'mayavi/docs/source/mayavi`.
 
 """
-import pathlib
+from pathlib import Path
 
 basedir = Path(__file__).resolve().parent / "mayavi/docs/source/mayavi"
 exec((basedir / "conf.py").read_text(), globals())  # noqa: S102
@@ -20,7 +20,7 @@ exec((basedir / "conf.py").read_text(), globals())  # noqa: S102
 locale_dirs = [basedir / "../../../../locale/"]
 
 
-def setup(app):  # noqa: D103,ANN001
+def setup(app):  # noqa: D103,ANN001,ANN201
     from sphinx.ext.autodoc import cut_lines
 
     app.srcdir = pathlib.Path(basedir)
