@@ -1,6 +1,7 @@
 # basedir is set by <lang>/conf.py
 """
 Use "-D language=<LANG>" option to build a localized mayavi document.
+
 For example::
 
     sphinx-build -D language=ja -b html . _build/html
@@ -11,22 +12,19 @@ This conf.py do:
 - Overrides source directory as 'mayavi/docs/source/mayavi`.
 
 """
-import os
-import pathlib
+from pathlib import Path
 
-basedir = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), "mayavi/docs/source/mayavi"
-)
-exec(pathlib.Path(os.path.join(basedir, "conf.py")).read_text(), globals())
+basedir = Path(__file__).resolve().parent / "mayavi/docs/source/mayavi"
+exec((basedir / "conf.py").read_text(), globals())  # noqa: S102
 
-locale_dirs = [os.path.join(basedir, "../../../../locale/")]
+locale_dirs = [basedir / "../../../../locale/"]
 
 
-def setup(app):
+def setup(app):  # noqa: D103,ANN001,ANN201
     from sphinx.ext.autodoc import cut_lines
 
-    app.srcdir = pathlib.Path(basedir)
-    app.confdir = pathlib.Path(app.srcdir)
+    app.srcdir = Path(basedir)
+    app.confdir = Path(app.srcdir)
     app.connect("autodoc-process-docstring", cut_lines(4, what=["module"]))
     app.add_object_type(
         "confval",
