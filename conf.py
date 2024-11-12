@@ -1,6 +1,6 @@
 # basedir is set by <lang>/conf.py
 """
-Use "-D language=<LANG>" option to build a localized felupe-docs document.
+Use "-D language=<LANG>" option to build a localized mayavi document.
 
 For example::
 
