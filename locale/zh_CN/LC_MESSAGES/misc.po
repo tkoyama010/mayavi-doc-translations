@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 00:23+0000\n"
+"POT-Creation-Date: 2025-01-07 06:48+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
@@ -182,15 +182,15 @@ msgid "If you are adding functionality or fixing a bug, please add a test!"
 msgstr "如果您添加了功能或者修复了bug，请务必添加一个测试！"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:114
-msgid "Push to your fork and submit a **pull request to the master branch**."
-msgstr "Push您自己的fork部分，然后向主干发送一个合并请求。"
+msgid "Push to your fork and submit a **pull request to the main branch**."
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:116
 msgid ""
-"The **master** branch is a 100% stable (should be).  The pull request is "
+"The **main** branch is a 100% stable (should be).  The pull request is "
 "merged only after it is certain that things are working out, which means "
 "that `Travis`_ and `Appveyor`_ tests pass."
-msgstr "主干部分是100%稳定的（应该是）。合并请求将会在 Travis 和 Appveyor全部通过之后完成。"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:120
 msgid ""
@@ -250,8 +250,7 @@ msgid ""
 msgstr "新加入的贡献者若想翻译文档，推荐进入Transifex加入翻译团队。"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:159
-msgid ""
-"There is a `mayavi translation page`_ for mayavi (master) documentation."
+msgid "There is a `mayavi translation page`_ for mayavi (main) documentation."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:161

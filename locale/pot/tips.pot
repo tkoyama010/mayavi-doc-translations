@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 00:23+0000\n"
+"POT-Creation-Date: 2025-01-07 06:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "The other very powerful backend is the ``'itk'`` backend which uses a cli
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:35
-msgid "A simple example notebook demonstrating the notebook interface is available here: https://github.com/enthought/mayavi/blob/master/examples/mayavi/mayavi_jupyter.ipynb"
+msgid "A simple example notebook demonstrating the notebook interface is available here: https://github.com/enthought/mayavi/blob/main/examples/mayavi/mayavi_jupyter.ipynb"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:38
