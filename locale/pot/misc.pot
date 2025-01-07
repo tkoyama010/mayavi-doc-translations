@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 00:23+0000\n"
+"POT-Creation-Date: 2025-01-07 06:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,11 +117,11 @@ msgid "If you are adding functionality or fixing a bug, please add a test!"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:114
-msgid "Push to your fork and submit a **pull request to the master branch**."
+msgid "Push to your fork and submit a **pull request to the main branch**."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:116
-msgid "The **master** branch is a 100% stable (should be).  The pull request is merged only after it is certain that things are working out, which means that `Travis`_ and `Appveyor`_ tests pass."
+msgid "The **main** branch is a 100% stable (should be).  The pull request is merged only after it is certain that things are working out, which means that `Travis`_ and `Appveyor`_ tests pass."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:120
@@ -161,7 +161,7 @@ msgid "The recommended way for new contributors to translate mayavi reference is
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:159
-msgid "There is a `mayavi translation page`_ for mayavi (master) documentation."
+msgid "There is a `mayavi translation page`_ for mayavi (main) documentation."
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:161

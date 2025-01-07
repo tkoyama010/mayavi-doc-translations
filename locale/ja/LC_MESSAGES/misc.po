@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 00:23+0000\n"
+"POT-Creation-Date: 2025-01-07 06:48+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -192,17 +192,15 @@ msgid "If you are adding functionality or fixing a bug, please add a test!"
 msgstr "機能を追加したりバグを修正したりする場合は，テストを追加してください．"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:114
-msgid "Push to your fork and submit a **pull request to the master branch**."
-msgstr "フォークをプッシュし， **masterブランチにpull requestを送信します** ．"
+msgid "Push to your fork and submit a **pull request to the main branch**."
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:116
 msgid ""
-"The **master** branch is a 100% stable (should be).  The pull request is "
+"The **main** branch is a 100% stable (should be).  The pull request is "
 "merged only after it is certain that things are working out, which means "
 "that `Travis`_ and `Appveyor`_ tests pass."
 msgstr ""
-"**master** ブランチは100%安定です(でなければなりません)．pull requestがマージされるのは， `Travis`_ と "
-"`Appveyor`_ のテストに合格した後です．"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:120
 msgid ""
@@ -269,9 +267,8 @@ msgid ""
 msgstr "新しいコントリビュータがmayaviリファレンスを翻訳する場合は，Transifexの翻訳チームに参加することをお勧めします．"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:159
-msgid ""
-"There is a `mayavi translation page`_ for mayavi (master) documentation."
-msgstr "`mayavi translation page`_ はmayavi(master)のドキュメントです．"
+msgid "There is a `mayavi translation page`_ for mayavi (main) documentation."
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:161
 msgid "Login to transifex_ service."
