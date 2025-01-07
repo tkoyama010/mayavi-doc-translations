@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2022
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-07 06:48+0000\n"
+"POT-Creation-Date: 2025-01-07 06:50+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -71,6 +71,8 @@ msgid ""
 "here: "
 "https://github.com/enthought/mayavi/blob/main/examples/mayavi/mayavi_jupyter.ipynb"
 msgstr ""
+"ノートブックインターフェースを示す簡単なサンプルノートブックは，こちらで入手できます: "
+"https://github.com/enthought/mayavi/blob/main/examples/mayavi/mayavi_jupyter.ipynb"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:38
 msgid ""

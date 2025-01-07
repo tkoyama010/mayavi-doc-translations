@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-07 06:48+0000\n"
+"POT-Creation-Date: 2025-01-07 06:50+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -610,6 +610,7 @@ msgstr "IIT BombayでのTVTKとMayavi2コースでのプレゼンテーション
 #: ../../mayavi/docs/source/mayavi/data.rst:518
 msgid "https://github.com/enthought/mayavi/raw/main/docs/pdf/tvtk_mayavi2.pdf"
 msgstr ""
+"https://github.com/enthought/mayavi/raw/main/docs/pdf/tvtk_mayavi2.pdf"
 
 #: ../../mayavi/docs/source/mayavi/data.rst:520
 msgid ""

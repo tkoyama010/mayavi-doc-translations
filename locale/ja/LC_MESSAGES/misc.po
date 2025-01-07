@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.3.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-07 06:48+0000\n"
+"POT-Creation-Date: 2025-01-07 06:50+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -193,7 +193,7 @@ msgstr "機能を追加したりバグを修正したりする場合は，テス
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:114
 msgid "Push to your fork and submit a **pull request to the main branch**."
-msgstr ""
+msgstr "フォークをプッシュし， **main ブランチにpull requestを送信します** ．"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:116
 msgid ""
@@ -201,6 +201,8 @@ msgid ""
 "merged only after it is certain that things are working out, which means "
 "that `Travis`_ and `Appveyor`_ tests pass."
 msgstr ""
+"**main** ブランチは100%安定です(でなければなりません)．pull requestがマージされるのは， `Travis`_ と "
+"`Appveyor`_ のテストに合格した後です．"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:120
 msgid ""
@@ -268,7 +270,7 @@ msgstr "新しいコントリビュータがmayaviリファレンスを翻訳す
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:159
 msgid "There is a `mayavi translation page`_ for mayavi (main) documentation."
-msgstr ""
+msgstr "`mayavi translation page`_ はmayavi(main)のドキュメントです．"
 
 #: ../../mayavi/docs/source/mayavi/misc.rst:161
 msgid "Login to transifex_ service."
