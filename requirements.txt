@@ -1,4 +1,4 @@
 -e ./mayavi
-Sphinx==8.1.3
+Sphinx==8.2.3
 sphinx-intl[transifex]==2.3.1
 vtk==9.4.1
