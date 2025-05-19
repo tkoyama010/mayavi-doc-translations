@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2024
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.4.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-16 16:06+0000\n"
+"POT-Creation-Date: 2025-05-17 00:32+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2024\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,13 +23,15 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:2
 msgid "Mayavi 4.8.3"
-msgstr ""
+msgstr "Mayavi 4.8.3"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:4
 msgid ""
 "This is a bugfix release to work correctly with VTK-9.4 and above, NumPy2, "
 "and Cython3. 11 PRs were merged."
 msgstr ""
+"これは VTK-9.4 以上, NumPy2, Cython3. 11 で正しく動作するためのバグフィックスリリースです。11 個の PR "
+"がマージされました。"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:7
 msgid ""
@@ -37,6 +39,8 @@ msgid ""
 "alphabetical order, Ben Greiner, Eric Larson, Michael R. Crusoe, and Prabhu "
 "Ramachandran."
 msgstr ""
+"Ben Greiner, Eric Larson, Michael R. Crusoe, and Prabhu "
+"Ramachandran，アルファベット順に，このリリースに貢献してくれた人々に感謝します．"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:13
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:40
@@ -48,40 +52,48 @@ msgid ""
 "09 May 2025 `#1345 <https://github.com/enthought/mayavi/pull/1345>`_ "
 "(larsoner)"
 msgstr ""
+"09 May 2025 `#1345 <https://github.com/enthought/mayavi/pull/1345>`_ "
+"(larsoner)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:16
 msgid "FIX: Fixes for VTK 9.4.2"
-msgstr ""
+msgstr "修正: VTK 9.4.2の修正"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:18
 msgid ""
 "18 Dec 2024 `#1328 <https://github.com/enthought/mayavi/pull/1328>`_ "
 "(prabhuramachandran)"
 msgstr ""
+"18 Dec 2024 `#1328 <https://github.com/enthought/mayavi/pull/1328>`_ "
+"(prabhuramachandran)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:19
 msgid "MAINT: Fixes for VTK-9.4"
-msgstr ""
+msgstr "メンテナンス: VTK-9.4の修正"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:21
 msgid ""
 "17 Dec 2024 `#1315 <https://github.com/enthought/mayavi/pull/1315>`_ "
 "(bnavigator)"
 msgstr ""
+"17 Dec 2024 `#1315 <https://github.com/enthought/mayavi/pull/1315>`_ "
+"(bnavigator)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:22
 msgid "NumPy 2 compatibility for tests and tools"
-msgstr ""
+msgstr "テストとツールのNumPy 2互換性"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:24
 msgid ""
 "23 Jul 2024 `#1303 <https://github.com/enthought/mayavi/pull/1303>`_ "
 "(larsoner)"
 msgstr ""
+"23 Jul 2024 `#1303 <https://github.com/enthought/mayavi/pull/1303>`_ "
+"(larsoner)"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:25
 msgid "MAINT: Compile with Cython 3.0.10"
-msgstr ""
+msgstr "メンテナンス: Cython 3.0.10でのコンパイル"
 
 #: ../../mayavi/docs/source/mayavi/auto/changes.rst:30
 msgid "Mayavi 4.8.2"
