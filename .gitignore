@@ -1,4 +1,3 @@
 _build/*
-locale/**/*.mo
-locale/pot/.doctrees
+locales/pot/*
 tx
