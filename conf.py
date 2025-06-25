@@ -13,6 +13,7 @@ This conf.py do:
 
 """
 from pathlib import Path
+
 from sphinx.ext.autodoc import cut_lines
 
 basedir = Path(__file__).resolve().parent / "mayavi/docs/source/mayavi"
