@@ -13,6 +13,7 @@ This conf.py do:
 
 """
 from pathlib import Path
+from sphinx.ext.autodoc import cut_lines
 
 basedir = Path(__file__).resolve().parent / "mayavi/docs/source/mayavi"
 exec((basedir / "conf.py").read_text(), globals())  # noqa: S102
@@ -21,8 +22,6 @@ locale_dirs = [basedir / "../../../../locale/"]
 
 
 def setup(app):  # noqa: D103,ANN001,ANN201
-    from sphinx.ext.autodoc import cut_lines
-
     app.srcdir = Path(basedir)
     app.confdir = Path(app.srcdir)
     app.connect("autodoc-process-docstring", cut_lines(4, what=["module"]))
