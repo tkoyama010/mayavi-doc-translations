@@ -15,6 +15,7 @@ This conf.py do:
 from pathlib import Path
 
 from sphinx.ext.autodoc import cut_lines
+from sphinx.util import logging
 
 basedir = Path(__file__).resolve().parent / "mayavi/docs/source/mayavi"
 exec((basedir / "conf.py").read_text(), globals())  # noqa: S102
@@ -32,9 +33,6 @@ def setup(app):  # noqa: D103,ANN001,ANN201
         objname="configuration value",
         indextemplate="pair: %s; configuration value",
     )
-
-    # workaround for RTD
-    from sphinx.util import logging
 
     logger = logging.getLogger(__name__)
     app.info = lambda *args, **kwargs: logger.info(*args, **kwargs)
