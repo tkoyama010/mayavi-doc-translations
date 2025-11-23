@@ -2,16 +2,29 @@ version: 2
 updates:
   - package-ecosystem: "pip" # See documentation for possible values
     directory: "/" # Location of package manifests
-    insecure-external-code-execution: allow
     schedule:
       interval: "daily"
+    groups:
+      pip:
+        update-types:
+          - "minor"
+          - "patch"
     labels:
       - "maintenance"
       - "dependencies"
+    cooldown:
+      default-days: 7
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
+    groups:
+      github-actions:
+        update-types:
+          - "minor"
+          - "patch"
     labels:
       - "maintenance"
       - "dependencies"
+    cooldown:
+      default-days: 7
