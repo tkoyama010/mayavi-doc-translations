@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.4.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-15 00:38+0000\n"
+"POT-Creation-Date: 2025-12-17 23:37+0000\n"
 "PO-Revision-Date: 2019-04-27 07:31+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -194,7 +194,7 @@ msgstr ""
 ":func:`triangular_mesh` |hack| 三角形メッシュをプロットします．このメッシュは，頂点の ``x``, ``y``, "
 "``z`` 座標，および三角形のインデックスの (n, 3) 配列で完全に指定されます．"
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:103
 msgid "Vertical scale of  :func:`surf` and :func:`contour_surf`"
 msgstr ":func:`surf` と :func:`contour_surf` の鉛直スケール"
 
@@ -209,7 +209,7 @@ msgstr ""
 "は，2Dデータの3D表現として使用できます．既定では，Z軸はX軸およびY軸と同じ単位であることが想定されていますが，2/3のアスペクト比になるように自動スケールすることもできます．この動作は，"
 " \"warp_scale='auto'\" を指定することで制御できます．"
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:111
 msgid "From data points to surfaces."
 msgstr "データポイントからサーフェスへ．"
 
@@ -300,7 +300,7 @@ msgid ""
 "volumetric data."
 msgstr ":func:`volume_slice` |hack| ボリュームデータをスライスしたインタラクティブなイメージプレーンをプロットします．"
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:175
 msgid "Structured or unstructured data"
 msgstr "構造化データまたは非構造化データ"
 

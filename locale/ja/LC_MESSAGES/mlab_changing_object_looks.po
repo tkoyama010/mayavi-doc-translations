@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.4.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-15 00:38+0000\n"
+"POT-Creation-Date: 2025-12-17 23:37+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -228,7 +228,7 @@ msgstr ""
 ":func:`show_pipeline` "
 "mlabコマンドを使用します．このマニュアルの他の部分で説明しているように，このダイアログを使用して各オブジェクトをダブルクリックしてそのプロパティを編集することで表示を変更したり，パイプライン上のこのアイコンを使用するか，またはパイプライン内のオブジェクトを右クリックして表示されるメニューを使用して，新しいモジュールまたはフィルタを追加できます．"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:153
 msgid "The record feature"
 msgstr "レコード機能"
 
@@ -256,7 +256,7 @@ msgstr ""
 "と入力すると，オブジェクトのプロパティをインタラクティブに編集するためのダイアログが表示されます．このコマンドを入力してもダイアログが表示されない場合は，"
 " :ref:`running-mlab-scripts` を参照してください．"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:168
 msgid "Using ``mlab`` with the full Envisage UI"
 msgstr "Envisage UIで ``mlab`` を使う"
 

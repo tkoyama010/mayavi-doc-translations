@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.4.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-15 00:38+0000\n"
+"POT-Creation-Date: 2025-12-17 23:37+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "``mlab``: Python scripting for 3D plotting"
 msgstr "mlab：用Python脚本进行3D绘图"
 
-#: ../../mayavi/docs/source/mayavi/mlab.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab.rst:6
 msgid "Section summary"
 msgstr "分节概述"
 
@@ -320,7 +320,7 @@ msgid ""
 "the indices of the triangles."
 msgstr "triangular_mesh 用于绘制三角形网格，其顶点由``x``, ``y``,``z``坐标给定，坐标的维度为 (n, 3)。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:103
 msgid "Vertical scale of  :func:`surf` and :func:`contour_surf`"
 msgstr ""
 
@@ -332,7 +332,7 @@ msgid ""
 "behavior can be controlled by specifying the \"warp_scale='auto'\"."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:111
 msgid "From data points to surfaces."
 msgstr "从点构建面。"
 
@@ -419,7 +419,7 @@ msgstr ""
 "volume_slice 方法用于绘制一个可交互的平面，它可以对体数据进行切片。\n"
 "译者注：volume_slice 更多是一种可视化的辅助手段，如医学影像，体数据核磁等的可视化，生成一个可灵活控制的组织切面方便观察。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:175
 msgid "Structured or unstructured data"
 msgstr "结构化与非结构化的数据"
 
@@ -627,7 +627,7 @@ msgid ""
 "or through the right-click menus on the objects in the pipeline."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:153
 msgid "The record feature"
 msgstr "录制功能"
 
@@ -653,7 +653,7 @@ msgstr ""
 "除此之外，每一个生成的对象都会有返回值，它将返回mlab函数。``this_object.edit_traits()``将启动一个对话框，您可以用交互的方式对对象的属性进行编辑。如果您没能成功开启对话框，请参考`running-"
 "mlab-scripts`。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:168
 msgid "Using ``mlab`` with the full Envisage UI"
 msgstr "使用Envisage界面的mlab"
 
@@ -754,7 +754,7 @@ msgid ""
 "view point obtained interactively can be stored and reset using::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:62
 msgid "Rotating the camera around itself"
 msgstr ""
 
@@ -770,7 +770,7 @@ msgid ""
 "incremental, and not absolute."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:74
 msgid "Modifying zoom and view angle"
 msgstr ""
 
@@ -900,7 +900,7 @@ msgstr "wx：使用wxPython"
 msgid "`null`: to use no UI toolkit."
 msgstr "`null`:使用无界面的工具箱"
 
-#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_running_scripts.rst:84
 msgid "Capturing mlab plots to integrate in pylab"
 msgstr "将mlab绘图集成到pylab中"
 

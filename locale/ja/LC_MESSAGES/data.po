@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.4.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-15 00:38+0000\n"
+"POT-Creation-Date: 2025-12-17 23:37+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -45,7 +45,7 @@ msgstr ""
 msgid "Outline"
 msgstr "概要"
 
-#: ../../mayavi/docs/source/mayavi/data.rst-1
+#: ../../mayavi/docs/source/mayavi/data.rst:22
 msgid "Mayavi data sources and VTK datasets"
 msgstr "MayaviデータソースとVTKデータセット"
 
@@ -577,7 +577,7 @@ msgstr ""
 msgid "Creating a `tvtk.UnstructuredGrid` object from numpy arrays::"
 msgstr "numpy配列からの `tvtk.UnstructuredGrid` オブジェクトの作成"
 
-#: ../../mayavi/docs/source/mayavi/data.rst-1
+#: ../../mayavi/docs/source/mayavi/data.rst:496
 msgid "Modifying the data"
 msgstr "データの変更"
 

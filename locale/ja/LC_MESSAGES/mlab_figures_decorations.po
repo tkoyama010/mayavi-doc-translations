@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.4.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-15 00:38+0000\n"
+"POT-Creation-Date: 2025-12-17 23:37+0000\n"
 "PO-Revision-Date: 2019-04-27 07:31+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -115,7 +115,7 @@ msgstr ""
 ":func:`view` と :func:`roll` "
 "関数は，引数として取る角度と距離の現在値を返します．その結果，対話的に取得した視点は，以下を使用して保存およびリセットできます．"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:62
 msgid "Rotating the camera around itself"
 msgstr "カメラの回転"
 
@@ -133,7 +133,7 @@ msgid ""
 "incremental, and not absolute."
 msgstr ":func:`view` および :func:`roll` 関数とは異なり，角度は増分であり，絶対角度ではありません．"
 
-#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_figures_decorations.rst:74
 msgid "Modifying zoom and view angle"
 msgstr "ズームとビュー角度を修正する"
 

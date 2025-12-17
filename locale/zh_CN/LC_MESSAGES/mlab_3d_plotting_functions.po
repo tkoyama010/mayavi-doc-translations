@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.4.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-15 00:38+0000\n"
+"POT-Creation-Date: 2025-12-17 23:37+0000\n"
 "PO-Revision-Date: 2019-04-27 07:31+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
@@ -189,7 +189,7 @@ msgid ""
 "the indices of the triangles."
 msgstr "triangular_mesh 用于绘制三角形网格，其顶点由``x``, ``y``,``z``坐标给定，坐标的维度为 (n, 3) 。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:103
 msgid "Vertical scale of  :func:`surf` and :func:`contour_surf`"
 msgstr ""
 
@@ -201,7 +201,7 @@ msgid ""
 "behavior can be controlled by specifying the \"warp_scale='auto'\"."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:111
 msgid "From data points to surfaces."
 msgstr "从点到面："
 
@@ -288,7 +288,7 @@ msgstr ""
 "volume_slice 方法用于绘制一个可交互的平面，它可以对体数据进行切片。\n"
 "译者注：volume_slice 更多是一种可视化的辅助手段，如医学影像，体数据核磁等的可视化，生成一个可灵活控制的组织切面方便观察。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_3d_plotting_functions.rst:175
 msgid "Structured or unstructured data"
 msgstr "结构化与非结构化的数据"
 

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.4.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-15 00:38+0000\n"
+"POT-Creation-Date: 2025-12-17 23:37+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Building applications using Mayavi"
 msgstr "Mayaviを使用したアプリケーションの構築"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst-1
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:7
 msgid "Section summary"
 msgstr "セクションの概要"
 
@@ -270,7 +270,7 @@ msgstr ""
 msgid "The :ref:`example_lorenz_ui` shows a good example of this situation."
 msgstr ":ref:`example_lorenz_ui` はこの状況の良い例を示しています．"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:125
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:224
 msgid "Learning by examples"
 msgstr "事例で学ぶ"
 

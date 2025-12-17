@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 4.8.4.dev0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-15 00:38+0000\n"
+"POT-Creation-Date: 2025-12-17 23:37+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
@@ -205,7 +205,7 @@ msgid ""
 "or through the right-click menus on the objects in the pipeline."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:153
 msgid "The record feature"
 msgstr "录制功能"
 
@@ -230,7 +230,7 @@ msgstr ""
 "除此之外，每一个生成的对象都会有返回值，它将返回mlab函数。``this_object.edit_traits()``将启动一个对话框，您可以用交互的方式对对象的属性进行编辑。如果您没能成功开启对话框，请参考`running-"
 "mlab-scripts`。"
 
-#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst-1
+#: ../../mayavi/docs/source/mayavi/mlab_changing_object_looks.rst:168
 msgid "Using ``mlab`` with the full Envisage UI"
 msgstr "使用Envisage界面的mlab"
 
