@@ -34,6 +34,6 @@ def setup(app):  # noqa: D103,ANN001,ANN201
         indextemplate="pair: %s; configuration value",
     )
     logger = logging.getLogger(__name__)
-    app.info = lambda *args, **kwargs: logger.info(*args, **kwargs)
-    app.warn = lambda *args, **kwargs: logger.warning(*args, **kwargs)
-    app.debug = lambda *args, **kwargs: logger.debug(*args, **kwargs)
+    app.info = logger.info
+    app.warn = logger.warning
+    app.debug = logger.debug
