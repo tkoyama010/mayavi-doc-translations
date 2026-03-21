@@ -41,7 +41,9 @@ jobs:
         run: |
           (cd mayavi; git fetch origin; git checkout main; git reset --hard origin/main; git branch -a)
           pip3 install -U pip setuptools
-          pip3 install -r ./requirements.txt
+          pip3 install vtk==9.3.1
+          pip3 install --no-build-isolation -e ./mayavi
+          pip3 install Sphinx==9.1.0 "sphinx-intl[transifex]==2.3.2"
           curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
           mv tx /usr/local/bin/tx
       - name: update
