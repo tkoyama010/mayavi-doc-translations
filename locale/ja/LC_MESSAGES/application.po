@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2018, Enthought Inc.
+# Copyright (C) Enthought, Inc.
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mayavi 4.8.4.dev0\n"
+"Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 00:42+0000\n"
+"POT-Creation-Date: 2026-08-01 03:35+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -429,12 +429,10 @@ msgid "'3'"
 msgstr "'3'"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:212
-msgid "Turn on/off stereo rendering.  This may not work if the"
-msgstr "ステレオレンダリングのオンとオフを切り替えます．これは，"
-
-#: ../../mayavi/docs/source/mayavi/application.rst:213
-msgid "'stereo' preference item is not set to True."
-msgstr "'stereo' 基本設定項目がTrueに設定されていません．"
+msgid ""
+"Turn on/off stereo rendering.  This may not work if the 'stereo' preference "
+"item is not set to True."
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/application.rst:0
 msgid "'a'"

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2018, Enthought Inc.
+# Copyright (C) Enthought, Inc.
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mayavi 4.8.4.dev0\n"
+"Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 00:42+0000\n"
+"POT-Creation-Date: 2026-08-01 03:35+0000\n"
 "PO-Revision-Date: 2019-04-27 07:31+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -61,14 +61,9 @@ msgid ""
 "Linux. If you are out of luck, and your platform is not supported then you "
 "will need to install VTK yourself using your particular distribution as "
 "discussed in the `General Build and Installation instructions "
-"<http://docs.enthought.com/mayavi/mayavi/installation.html#installing-ready-"
+"<https://mayavi.readthedocs.io/en/latest/installation.html#installing-ready-"
 "made-distributions>`_"
 msgstr ""
-"最新のVTKwheelは，すべての主要プラットフォーム(Windows，MacOS，およびLinux)で利用できますが，64ビットマシンでのみ利用できます．Python3.xはこれらすべてのオペレーティングシステムで，Python"
-" 2.7.xはMacOSとLinuxで完全にサポートされています．あなたのプラットフォームがサポートされていない場合は， `General Build "
-"and Installation instructions "
-"<http://docs.enthought.com/mayavi/mayavi/installation.html#installing-ready-"
-"made-distributions>`_"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:28
 msgid ""
@@ -230,7 +225,11 @@ msgid ""
 msgstr ""
 "Pythonの完全なディストリビューション `Enthought Canopy`_ (Mayaviを含む)はRHEL3と4でも利用できます．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:162
+#: ../../mayavi/docs/source/mayavi/installation.rst:158
+msgid "Installing with `Enthought Deployment Manager(EDM)`"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/installation.rst:160
 msgid ""
 "EDM is Enthought's freely available python environment manager. It allows "
 "new python users to create light-weight and custom python environments. A "
@@ -243,7 +242,7 @@ msgstr ""
 " `edmInstaller <https://www.enthought.com/products/edm/installers/>`_ "
 "からダウンロードできます．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:170
+#: ../../mayavi/docs/source/mayavi/installation.rst:168
 msgid ""
 "EDM provides Python 2.7.x as well as Python 3.x runtimes. Python 2.7 is the "
 "default version. After installing EDM, mayavi can be easily installed from "
@@ -252,7 +251,7 @@ msgstr ""
 "EDMはPython 2.7.xとPython3.xランタイムを提供します．Python "
 "2.7がデフォルトバージョンです．EDMをインストールした後，端末から `edm` を使って簡単にmayaviをインストールできます．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:176
+#: ../../mayavi/docs/source/mayavi/installation.rst:174
 msgid ""
 "This will install mayavi along with 'pyqt'. After this, you can start a "
 "shell with the default python version by running::"
@@ -260,36 +259,40 @@ msgstr ""
 "これにより，mayaviと 'pyqt' "
 "がインストールされます．この後，次のコマンドを実行して，デフォルトのPythonバージョンでシェルを起動できます．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:180
+#: ../../mayavi/docs/source/mayavi/installation.rst:178
 msgid "This should set Mayavi for the default python 2.7."
 msgstr "これにより，MayaviがデフォルトのPython 2.7に設定されます．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:182
+#: ../../mayavi/docs/source/mayavi/installation.rst:180
 msgid "For python 3.6.x, you can install it by running:"
 msgstr "python 3.6.xの場合は，次のコマンドを実行してインストールできます．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:184
+#: ../../mayavi/docs/source/mayavi/installation.rst:182
 msgid "$ edm environments create --version 3.6 py3"
 msgstr "$ edm environments create --version 3.6 py3"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:186
+#: ../../mayavi/docs/source/mayavi/installation.rst:184
 msgid ""
 "Where 'py3' is the name of the environment. You may change this name to "
 "something else if you wish. Once you create the environment, you can "
 "activate it as follows::"
 msgstr "ここで， 'py3' は環境の名前です．必要に応じて，この名前を別の名前に変更できます．環境を作成したら，次の手順でアクティブにできます．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:190
+#: ../../mayavi/docs/source/mayavi/installation.rst:188
 msgid "You can now install mayavi as follows::"
 msgstr "これで，次のようにmayaviをインストールできます．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:194
+#: ../../mayavi/docs/source/mayavi/installation.rst:192
 msgid ""
 "Note that 'pyqt' needs to be installed explicitly for python 3.6 as well as "
 "for python 2.7."
 msgstr "'pyqt' は，python 3.6およびpython 2.7に対して明示的にインストールする必要があることに注意してください．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:201
+#: ../../mayavi/docs/source/mayavi/installation.rst:197
+msgid "Installing with `Conda`"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/installation.rst:199
 msgid ""
 "Conda is an open source package management environment management system for"
 " installing multiple versions of software packages and their dependencies. "
@@ -297,7 +300,7 @@ msgid ""
 msgstr ""
 "Condaは，複数バージョンのソフトウェア・パッケージとその依存関係をインストールするためのオープンソースのパッケージ管理環境管理システムです．CondaはAnacondaとMinicondaに含まれています．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:205
+#: ../../mayavi/docs/source/mayavi/installation.rst:203
 msgid ""
 "Miniconda is a small \"bootstrap\" version that includes conda, python, and "
 "the packages they depend on. Depending on your operating system, you can "
@@ -307,22 +310,22 @@ msgstr ""
 "バージョンで，conda，python，そしてそれらが依存するパッケージを含みます．オペレーティングシステムによっては， "
 "`MinicondaInstaller <https://conda.io/miniconda.html>`_ をダウンロードできます．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:211
+#: ../../mayavi/docs/source/mayavi/installation.rst:209
 msgid ""
 "After installing conda you need to run the following from command line::"
 msgstr "condaをインストールしたら，コマンドラインから以下を実行する必要があります．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:217
+#: ../../mayavi/docs/source/mayavi/installation.rst:215
 msgid ""
 "You should be all set with this.  As of Mayavi 4.6.0 you can also use "
 "``pyqt=5``."
 msgstr "これで準備万端です．Mayavi 4.6 .0以降では， ``pyqt=5`` を使うこともできます．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:223
+#: ../../mayavi/docs/source/mayavi/installation.rst:221
 msgid "Installing with `Conda-forge`"
 msgstr "`Conda-forge` によるインストール"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:225
+#: ../../mayavi/docs/source/mayavi/installation.rst:223
 msgid ""
 "Conda-forge is a community-led conda channel of installable packages. For "
 "more information on conda-forge, you can vist their their website_."
@@ -330,45 +333,45 @@ msgstr ""
 "conda-forgeはコミュニティ主導のインストール可能パッケージのcondaチャネルです．conda-forgeの詳細については，彼らの "
 "website_ にアクセスしてください．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:229
+#: ../../mayavi/docs/source/mayavi/installation.rst:227
 msgid "Follow these steps to install using conda-forge:"
 msgstr "conda-forgeを使用してインストールするには，次の手順に従います．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:231
+#: ../../mayavi/docs/source/mayavi/installation.rst:229
 msgid "First, clone the environment or build one from scratch::"
 msgstr "まず，環境のクローンを作成するか，環境を最初から構築します．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:237
+#: ../../mayavi/docs/source/mayavi/installation.rst:235
 msgid "Then add the conda-forge channel::"
 msgstr "次に，conda-forgeチャンネルを追加します．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:241
+#: ../../mayavi/docs/source/mayavi/installation.rst:239
 msgid "Activate the 'pyforge' environment::"
 msgstr "'pyforge' 環境をアクティブ化します．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:245
+#: ../../mayavi/docs/source/mayavi/installation.rst:243
 msgid "You will need to install these dependencies for Mayavi::"
 msgstr "同じキーワードが重複している場合は，最後のインスタンスが使用されます．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:250
+#: ../../mayavi/docs/source/mayavi/installation.rst:248
 msgid "Finally, Mayavi can be installed as::"
 msgstr "最後に，Mayaviは次のようにインストールできます．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:256
+#: ../../mayavi/docs/source/mayavi/installation.rst:254
 msgid "Testing your installation"
 msgstr "インストールのテスト"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:258
+#: ../../mayavi/docs/source/mayavi/installation.rst:256
 msgid ""
 "The easiest way to test if your installation is OK is to run the mayavi2 "
 "application like so::"
 msgstr "インストールがOKかどうかをテストする最も簡単な方法は，次のようにmayavi2アプリケーションを実行することです．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:263
+#: ../../mayavi/docs/source/mayavi/installation.rst:261
 msgid "To get more help on the command try this::"
 msgstr "コマンドの詳細なヘルプを表示するには，次の操作を実行します．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:267
+#: ../../mayavi/docs/source/mayavi/installation.rst:265
 msgid ""
 "``mayavi2`` is the mayavi application.  On some platforms like win32 you "
 "will need to double click on the ``mayavi2.exe`` program found in your "
@@ -377,13 +380,13 @@ msgstr ""
 "``mayavi2`` "
 "はmayaviアプリケーションです．win32などの一部のプラットフォームでは，\"PythonXY\\Scripts\"フォルダにある\"mayavi2.exe\"プログラムをダブルクリックする必要があります．このディレクトリがパスにあることを確認してください．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:273
+#: ../../mayavi/docs/source/mayavi/installation.rst:271
 msgid ""
 "Mayavi can be used in a variety of other ways but the ``mayavi2`` "
 "application is the easiest to start with."
 msgstr "Mayaviは他にもさまざまな方法で使用できますが，最初は ``mayavi2`` アプリケーションが最も簡単です．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:276
+#: ../../mayavi/docs/source/mayavi/installation.rst:274
 msgid ""
 "If you have the source tarball of mayavi or have checked out the sources "
 "from the github repository, you can run the examples in "
@@ -395,23 +398,23 @@ msgstr ""
 "``mayavi*/examples`` の例を実行してください．さまざまな機能を説明するスクリプト例は多数あります．テストは "
 "``mayavi*/tests`` サブディレクトリにあります．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:283
+#: ../../mayavi/docs/source/mayavi/installation.rst:281
 msgid "Test suite"
 msgstr "テストスイート"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:285
+#: ../../mayavi/docs/source/mayavi/installation.rst:283
 msgid "The basic test suites for tvtk and mayavi can be run using nose::"
 msgstr "tvtkとmayaviの基本的なテストスイートは，noseを使って実行できます．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:290
+#: ../../mayavi/docs/source/mayavi/installation.rst:288
 msgid "The integration tests can be run as::"
 msgstr "統合テストは次のように実行できます．"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:297
+#: ../../mayavi/docs/source/mayavi/installation.rst:295
 msgid "Troubleshooting"
 msgstr "トラブルシューティング"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:299
+#: ../../mayavi/docs/source/mayavi/installation.rst:297
 msgid ""
 "If you are having trouble with the installation you may want to check the "
 ":ref:`getting-help` page for more details on how you can search for "

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2018, Enthought Inc.
+# Copyright (C) Enthought, Inc.
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mayavi 4.8.4.dev0\n"
+"Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 00:42+0000\n"
+"POT-Creation-Date: 2026-08-01 03:35+0000\n"
 "PO-Revision-Date: 2019-04-27 07:31+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
@@ -60,15 +60,9 @@ msgid ""
 "Linux. If you are out of luck, and your platform is not supported then you "
 "will need to install VTK yourself using your particular distribution as "
 "discussed in the `General Build and Installation instructions "
-"<http://docs.enthought.com/mayavi/mayavi/installation.html#installing-ready-"
+"<https://mayavi.readthedocs.io/en/latest/installation.html#installing-ready-"
 "made-distributions>`_"
 msgstr ""
-"最新的 VTK 包适用于所有主流操作系统 (Windows, MacOS,以及Linux)，但是仅支持64位。Python 3.x "
-"已经完全支持所有的操作系统，Python 2.7.x 仅支持MacOS 和 "
-"Linux。如果您的系统不支持，则您需要自行安装VTK匹配您的发行版。更多信息详见：`General Build and Installation "
-"instructions "
-"<http://docs.enthought.com/mayavi/mayavi/installation.html#installing-ready-"
-"made-distributions>`"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:28
 msgid ""
@@ -220,7 +214,11 @@ msgid ""
 "also available for RHEL3 and 4."
 msgstr "完整的Python发行版`Enthought Canopy`（包括Mayavi）都支持RHEL3 及 RHEL4。"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:162
+#: ../../mayavi/docs/source/mayavi/installation.rst:158
+msgid "Installing with `Enthought Deployment Manager(EDM)`"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/installation.rst:160
 msgid ""
 "EDM is Enthought's freely available python environment manager. It allows "
 "new python users to create light-weight and custom python environments. A "
@@ -231,7 +229,7 @@ msgid ""
 msgstr ""
 "EDM是Enthought提供Python免费管理器。它可以为刚接触Python的用户创建轻量级的环境，也能创建自定义的环境。EDM的主要优点是它的稳定性，对依赖的管理出色，对依赖之间冲突的管理较佳及版本间的兼容性支持较好。它可以从这里下载：<https://www.enthought.com/products/edm/installers/>`"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:170
+#: ../../mayavi/docs/source/mayavi/installation.rst:168
 msgid ""
 "EDM provides Python 2.7.x as well as Python 3.x runtimes. Python 2.7 is the "
 "default version. After installing EDM, mayavi can be easily installed from "
@@ -240,36 +238,36 @@ msgstr ""
 "EDM提供Python 2.7x以及Python "
 "3.x。其中Python2.7x是默认的版本。安装EDM之后，mayavi可以用edm从终端轻松完成安装："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:176
+#: ../../mayavi/docs/source/mayavi/installation.rst:174
 msgid ""
 "This will install mayavi along with 'pyqt'. After this, you can start a "
 "shell with the default python version by running::"
 msgstr "这样的命令会将mayavi和pyqt同时进行安装。之后您可以打开shell使用默认的Python版本，通过以下命令："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:180
+#: ../../mayavi/docs/source/mayavi/installation.rst:178
 msgid "This should set Mayavi for the default python 2.7."
 msgstr "这将会把Mayavi设定为默认的python 2.7版本。"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:182
+#: ../../mayavi/docs/source/mayavi/installation.rst:180
 msgid "For python 3.6.x, you can install it by running:"
 msgstr "对于 Python3.6.x版本，您需要这样安装："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:184
+#: ../../mayavi/docs/source/mayavi/installation.rst:182
 msgid "$ edm environments create --version 3.6 py3"
 msgstr "$ edm environments create --version 3.6 py3"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:186
+#: ../../mayavi/docs/source/mayavi/installation.rst:184
 msgid ""
 "Where 'py3' is the name of the environment. You may change this name to "
 "something else if you wish. Once you create the environment, you can "
 "activate it as follows::"
 msgstr "其中 'py3' 是环境的名称。您可以改成您想要的名称，当您完成创建，您可以用以下方式激活它："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:190
+#: ../../mayavi/docs/source/mayavi/installation.rst:188
 msgid "You can now install mayavi as follows::"
 msgstr "现在您可以使用以下方式安装mayavi："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:194
+#: ../../mayavi/docs/source/mayavi/installation.rst:192
 msgid ""
 "Note that 'pyqt' needs to be installed explicitly for python 3.6 as well as "
 "for python 2.7."
@@ -277,14 +275,18 @@ msgstr ""
 "需要注意的是，pyqt的安装需要明确指定是匹配的 python3.6 还是 python2.7。\n"
 "译者注：以往的经历，这个位置是比较容易错的地方，pyqt的版本安装错误会导致错误。"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:201
+#: ../../mayavi/docs/source/mayavi/installation.rst:197
+msgid "Installing with `Conda`"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/installation.rst:199
 msgid ""
 "Conda is an open source package management environment management system for"
 " installing multiple versions of software packages and their dependencies. "
 "Conda is included in Anaconda and Miniconda."
 msgstr "开源的包管理器Conda，用于安装多种不同版本的依赖。Anaconda和Miniconda都有Conda管理器。"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:205
+#: ../../mayavi/docs/source/mayavi/installation.rst:203
 msgid ""
 "Miniconda is a small \"bootstrap\" version that includes conda, python, and "
 "the packages they depend on. Depending on your operating system, you can "
@@ -293,66 +295,66 @@ msgstr ""
 "Miniconda "
 "是一个包含conda管理器在内的轻量级辅助程序，它还囊括python及其支持的库在内。根据您的操作系统，您可以自行进行下载：<https://conda.io/miniconda.html>"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:211
+#: ../../mayavi/docs/source/mayavi/installation.rst:209
 msgid ""
 "After installing conda you need to run the following from command line::"
 msgstr "安装完conda之后，您需要从cmd运行以下命令："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:217
+#: ../../mayavi/docs/source/mayavi/installation.rst:215
 msgid ""
 "You should be all set with this.  As of Mayavi 4.6.0 you can also use "
 "``pyqt=5``."
 msgstr "您需要做一些设定，对于 Mayavi 4.6.0您可以使用``pyqt=5``。"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:223
+#: ../../mayavi/docs/source/mayavi/installation.rst:221
 msgid "Installing with `Conda-forge`"
 msgstr "使用\"Conda-forge\"进行安装"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:225
+#: ../../mayavi/docs/source/mayavi/installation.rst:223
 msgid ""
 "Conda-forge is a community-led conda channel of installable packages. For "
 "more information on conda-forge, you can vist their their website_."
 msgstr "Conda-forge 是一个社区版的conda镜像，更多的信息，您可以参考conda-forge的网站。"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:229
+#: ../../mayavi/docs/source/mayavi/installation.rst:227
 msgid "Follow these steps to install using conda-forge:"
 msgstr "您可以使用conda-forge进行以下步骤的安装："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:231
+#: ../../mayavi/docs/source/mayavi/installation.rst:229
 msgid "First, clone the environment or build one from scratch::"
 msgstr "首先是克隆或者创建的一个新的环境："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:237
+#: ../../mayavi/docs/source/mayavi/installation.rst:235
 msgid "Then add the conda-forge channel::"
 msgstr "添加 conda-forge镜像："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:241
+#: ../../mayavi/docs/source/mayavi/installation.rst:239
 msgid "Activate the 'pyforge' environment::"
 msgstr "激活 pyforce 环境："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:245
+#: ../../mayavi/docs/source/mayavi/installation.rst:243
 msgid "You will need to install these dependencies for Mayavi::"
 msgstr "您需要对Mayavi的依赖进行安装："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:250
+#: ../../mayavi/docs/source/mayavi/installation.rst:248
 msgid "Finally, Mayavi can be installed as::"
 msgstr "最终，安装Mayavi："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:256
+#: ../../mayavi/docs/source/mayavi/installation.rst:254
 msgid "Testing your installation"
 msgstr "测试您的安装结果"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:258
+#: ../../mayavi/docs/source/mayavi/installation.rst:256
 msgid ""
 "The easiest way to test if your installation is OK is to run the mayavi2 "
 "application like so::"
 msgstr "测试安装结果的最好的方式是运行mayavi2，就像这样："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:263
+#: ../../mayavi/docs/source/mayavi/installation.rst:261
 msgid "To get more help on the command try this::"
 msgstr "从cmd获取更多mayavi的帮助信息："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:267
+#: ../../mayavi/docs/source/mayavi/installation.rst:265
 msgid ""
 "``mayavi2`` is the mayavi application.  On some platforms like win32 you "
 "will need to double click on the ``mayavi2.exe`` program found in your "
@@ -361,13 +363,13 @@ msgstr ""
 "mayavi2 是 mayavi的应用。对于一些不同的操作系统，比如win32系统，您需要双击 "
 "\"mayavi2.exe\"程序。这个文件存在于您的\"PythonXY\\Scripts\"文件夹中，您需要确保它在您的环境变量中。"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:273
+#: ../../mayavi/docs/source/mayavi/installation.rst:271
 msgid ""
 "Mayavi can be used in a variety of other ways but the ``mayavi2`` "
 "application is the easiest to start with."
 msgstr "Mayavi可以有多种使用方式，但\"Mayavi2\"应用程序是最简单的方式。"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:276
+#: ../../mayavi/docs/source/mayavi/installation.rst:274
 msgid ""
 "If you have the source tarball of mayavi or have checked out the sources "
 "from the github repository, you can run the examples in "
@@ -378,23 +380,23 @@ msgstr ""
 "如果您有mayavi的源码，或者确保了来源可靠的 github "
 "仓库，您可以运行mayavi*/examples，里面有足够的案例说明其特性，另外测试案例也在其子目录 mayavi*/tests 中。"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:283
+#: ../../mayavi/docs/source/mayavi/installation.rst:281
 msgid "Test suite"
 msgstr "测试组"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:285
+#: ../../mayavi/docs/source/mayavi/installation.rst:283
 msgid "The basic test suites for tvtk and mayavi can be run using nose::"
 msgstr "tvtk和mayavi的基础测试组可以使用nose运行："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:290
+#: ../../mayavi/docs/source/mayavi/installation.rst:288
 msgid "The integration tests can be run as::"
 msgstr "集成测试命令如下："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:297
+#: ../../mayavi/docs/source/mayavi/installation.rst:295
 msgid "Troubleshooting"
 msgstr "检修"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:299
+#: ../../mayavi/docs/source/mayavi/installation.rst:297
 msgid ""
 "If you are having trouble with the installation you may want to check the "
 ":ref:`getting-help` page for more details on how you can search for "
