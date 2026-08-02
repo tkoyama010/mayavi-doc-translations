@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2022
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 03:35+0000\n"
+"POT-Creation-Date: 2026-08-02 03:34+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2026\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -433,6 +433,7 @@ msgid ""
 "Turn on/off stereo rendering.  This may not work if the 'stereo' preference "
 "item is not set to True."
 msgstr ""
+"ステレオレンダリングのオンとオフを切り替えます． 'stereo' 設定項目が True に設定されていない場合，この機能は動作しない可能性があります．"
 
 #: ../../mayavi/docs/source/mayavi/application.rst:0
 msgid "'a'"

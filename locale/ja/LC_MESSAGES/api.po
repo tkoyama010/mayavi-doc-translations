@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 03:35+0000\n"
+"POT-Creation-Date: 2026-08-02 03:34+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2026\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,6 +30,8 @@ msgid ""
 "This is an API reference of the views for the main objects. The section "
 ":ref:`building_applications` gives some context on how to use them."
 msgstr ""
+"これは，メインオブジェクトのビューのAPIリファレンスです． :ref:`building_applications` "
+"の章は，それらの使い方についていくつかの文脈を与えます．"
 
 #: ../../mayavi/docs/source/mayavi/api/core_view_objects.rst:12
 msgid "Scene UIs: :class:`DecoratedScene` and :class:`MayaviScene`"

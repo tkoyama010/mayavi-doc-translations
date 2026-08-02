@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 03:35+0000\n"
+"POT-Creation-Date: 2026-08-02 03:34+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
@@ -26,7 +26,7 @@ msgid "Adjust cropping extents example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_adjust_cropping_extents.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:477
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:475
 msgid ""
 "A custom dialog to adjust the parameters of a GeometryFilter to crop data "
 "points."
@@ -259,7 +259,7 @@ msgid "Coil design application example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_coil_design_application.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:501
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:499
 msgid ""
 "An full-blown application demoing a domain-specific usecase with Mayavi: "
 "interactive design of coils."
@@ -309,14 +309,14 @@ msgid "Compute in thread example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_compute_in_thread.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:464
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:462
 msgid ""
 "This script demonstrates how one can do a computation in another thread and "
 "update the mayavi pipeline. It also shows how to create a numpy array data "
 "and visualize it as image data using a few modules."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/example_compute_in_thread.rst:12
+#: ../../mayavi/docs/source/mayavi/auto/example_compute_in_thread.rst:17
 msgid "**Python source code:** :download:`compute_in_thread.py`"
 msgstr ""
 
@@ -325,13 +325,13 @@ msgid "Contour example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_contour.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:711
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:698
 msgid ""
 "This script demonstrates how one can script Mayavi and use its contour "
 "related modules."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/example_contour.rst:11
+#: ../../mayavi/docs/source/mayavi/auto/example_contour.rst:16
 msgid "**Python source code:** :download:`contour.py`"
 msgstr ""
 
@@ -340,11 +340,11 @@ msgid "Contour contour example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_contour_contour.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:681
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:668
 msgid "This example shows how you can produce contours on an IsoSurface."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/example_contour_contour.rst:10
+#: ../../mayavi/docs/source/mayavi/auto/example_contour_contour.rst:15
 msgid "**Python source code:** :download:`contour_contour.py`"
 msgstr ""
 
@@ -396,7 +396,7 @@ msgid "Datasets example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_datasets.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:740
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:727
 msgid ""
 "A Mayavi example to show the different data sets. See :ref:`data-structures-"
 "used-by-mayavi` for a discussion."
@@ -431,7 +431,7 @@ msgid "Delaunay graph example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_delaunay_graph.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:746
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:733
 msgid ""
 "An example illustrating graph manipulation and display with Mayavi and "
 "NetworkX."
@@ -550,14 +550,14 @@ msgid "Glyph example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_glyph.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:667
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:654
 msgid ""
 "This script demonstrates using the Mayavi core API to add a VectorCutPlane, "
 "split the pipeline using a MaskPoints filter and then view the filtered data"
 " with the Glyph module."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/example_glyph.rst:12
+#: ../../mayavi/docs/source/mayavi/auto/example_glyph.rst:17
 msgid "**Python source code:** :download:`glyph.py`"
 msgstr ""
 
@@ -566,7 +566,7 @@ msgid "Image cursor filter example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_image_cursor_filter.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:706
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:693
 msgid ""
 "Excample using the UserDefined filter to paint a cross-shaped cursor on "
 "data, in order to point out a special position."
@@ -709,7 +709,7 @@ msgid "Lorenz ui example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_lorenz_ui.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:486
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:484
 msgid ""
 "This example displays the trajectories for the Lorenz system of equations "
 "using mlab along with the z-nullcline.  It provides a simple UI where a user"
@@ -746,7 +746,7 @@ msgid "Magnetic field example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_magnetic_field.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:757
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:744
 msgid ""
 "An example mixing numerical caculation and 3D visualization of the magnetic "
 "field created by an arbitrary number of current loops."
@@ -826,7 +826,7 @@ msgid "Mayavi traits ui example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mayavi_traits_ui.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:459
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:457
 msgid ""
 "An example of how to create a UI similar to the complete Mayavi application "
 "inside a Traits UI view."
@@ -855,7 +855,7 @@ msgid "Mlab 3D to 2D example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_3D_to_2D.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:751
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:738
 msgid ""
 "A script to calculate the projection of 3D world coordinates to 2D display "
 "coordinates (pixel coordinates) for a given scene."
@@ -1014,7 +1014,7 @@ msgid "Mlab interactive dialog example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_interactive_dialog.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:448
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:446
 msgid ""
 "An example of how to modify the data visualized  via an interactive dialog."
 msgstr ""
@@ -1057,7 +1057,7 @@ msgid "Mlab traits ui example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_traits_ui.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:420
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:418
 msgid "A simple example of how to use mayavi.mlab inside a traits UI dialog."
 msgstr ""
 
@@ -1077,7 +1077,7 @@ msgid "Mlab visual example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_visual.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:415
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:413
 msgid ""
 "A very simple example to show how you can use TVTK's visual module with mlab"
 " and create simple animations."
@@ -1167,7 +1167,7 @@ msgid "Multiple engines example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_engines.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:428
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:426
 msgid ""
 "An example to show how you can have multiple engines in one application."
 msgstr ""
@@ -1198,7 +1198,7 @@ msgid "Multiple mlab scene models example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_mlab_scene_models.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:432
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:430
 msgid "Example showing a dialog with multiple embedded scenes."
 msgstr ""
 
@@ -1232,7 +1232,7 @@ msgid "Nongui example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_nongui.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:837
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:824
 msgid ""
 "This script demonstrates how one can use the Mayavi application framework "
 "without displaying Mayavi's UI."
@@ -1263,7 +1263,7 @@ msgid "Normal flipping stl example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_normal_flipping_stl.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:807
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:794
 msgid "This example shows how to read a stl file and flip it's normals."
 msgstr ""
 
@@ -1276,13 +1276,13 @@ msgid "Numeric source example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_numeric_source.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:696
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:683
 msgid ""
 "This script demonstrates how to create a numpy array data and visualize it "
 "as image data using a few modules."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/example_numeric_source.rst:11
+#: ../../mayavi/docs/source/mayavi/auto/example_numeric_source.rst:16
 msgid "**Python source code:** :download:`numeric_source.py`"
 msgstr ""
 
@@ -1291,7 +1291,7 @@ msgid "Offscreen example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_offscreen.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:657
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:644
 msgid ""
 "A simple example of how you can use Mayavi without using Envisage or the "
 "Mayavi Envisage application and do off screen rendering."
@@ -1319,7 +1319,7 @@ msgid "Pick on surface example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_pick_on_surface.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:797
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:784
 msgid ""
 "Example showing how to pick data on a surface, going all the way back to the"
 " index in the numpy arrays."
@@ -1381,7 +1381,7 @@ msgid "Poll file example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_poll_file.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:481
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:479
 msgid ""
 "A simple script that polls a data file for changes and then updates the "
 "mayavi pipeline automatically."
@@ -1398,7 +1398,7 @@ msgid ""
 "script to point to other data which you can edit."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/example_poll_file.rst:23
+#: ../../mayavi/docs/source/mayavi/auto/example_poll_file.rst:28
 msgid "**Python source code:** :download:`poll_file.py`"
 msgstr ""
 
@@ -1407,7 +1407,7 @@ msgid "Polydata example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_polydata.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:653
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:640
 msgid "An example of how to generate a polydata dataset using numpy arrays."
 msgstr ""
 
@@ -1421,7 +1421,7 @@ msgstr ""
 msgid "It can be alternatively run as::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/example_polydata.rst:19
+#: ../../mayavi/docs/source/mayavi/auto/example_polydata.rst:24
 msgid "**Python source code:** :download:`polydata.py`"
 msgstr ""
 
@@ -1430,7 +1430,7 @@ msgid "Probe filter example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_probe_filter.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:716
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:703
 msgid ""
 "Using the probe filter to visualize a scalar field along an arbitrary "
 "surface."
@@ -1571,7 +1571,7 @@ msgid "Qt embedding example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_qt_embedding.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:472
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:470
 msgid ""
 "This example demonstrates using Mayavi as a component of a large Qt "
 "application."
@@ -1592,7 +1592,7 @@ msgid "Scatter plot example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_scatter_plot.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:685
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:672
 msgid "An example of plotting scatter points with Mayavi's core API."
 msgstr ""
 
@@ -1628,7 +1628,7 @@ msgstr ""
 msgid "Alternatively it can be run as::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/example_scatter_plot.rst:32
+#: ../../mayavi/docs/source/mayavi/auto/example_scatter_plot.rst:37
 msgid "**Python source code:** :download:`scatter_plot.py`"
 msgstr ""
 
@@ -1637,7 +1637,7 @@ msgid "Select red balls example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_select_red_balls.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:802
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:789
 msgid ""
 "This example shows how to use a callback to select a red ball amongst white "
 "balls."
@@ -1736,7 +1736,7 @@ msgid "Standalone example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_standalone.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:829
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:816
 msgid ""
 "A simple example of how you can use Mayavi without using Envisage or the "
 "Mayavi Envisage application."
@@ -1751,7 +1751,7 @@ msgid "Streamline example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_streamline.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:701
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:688
 msgid ""
 "This script demonstrates how one can script Mayavi's core API to display "
 "streamlines and an iso surface."
@@ -1766,7 +1766,7 @@ msgid "Structured grid example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_structured_grid.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:727
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:714
 msgid ""
 "An example of how to generate a structured grid dataset using numpy arrays."
 "  Also shown is a way to visualize this data with the mayavi2 application."
@@ -1784,7 +1784,7 @@ msgstr ""
 msgid "Alternatively, it can be run as::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/example_structured_grid.rst:20
+#: ../../mayavi/docs/source/mayavi/auto/example_structured_grid.rst:25
 msgid "**Python source code:** :download:`structured_grid.py`"
 msgstr ""
 
@@ -1793,14 +1793,14 @@ msgid "Structured points2d example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_structured_points2d.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:674
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:661
 msgid ""
 "An example of how to generate a 2D structured points dataset using numpy "
 "arrays.  Also shown is a way to visualize this data with the mayavi2 "
 "application."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/example_structured_points2d.rst:20
+#: ../../mayavi/docs/source/mayavi/auto/example_structured_points2d.rst:25
 msgid "**Python source code:** :download:`structured_points2d.py`"
 msgstr ""
 
@@ -1809,14 +1809,14 @@ msgid "Structured points3d example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_structured_points3d.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:689
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:676
 msgid ""
 "An example of how to generate a 3D structured points dataset using numpy "
 "arrays.  Also shown is a way to visualize this data with the mayavi2 "
 "application."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/example_structured_points3d.rst:20
+#: ../../mayavi/docs/source/mayavi/auto/example_structured_points3d.rst:25
 msgid "**Python source code:** :download:`structured_points3d.py`"
 msgstr ""
 
@@ -1825,7 +1825,7 @@ msgid "Subclassing mayavi application example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_subclassing_mayavi_application.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:452
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:450
 msgid ""
 "This script demonstrates how one can script the Mayavi application by "
 "subclassing the application, create a new scene and create a few simple "
@@ -1841,7 +1841,7 @@ msgid "Superquad with gui example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:436
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:434
 msgid ""
 "This example uses MayaVi to show the evolution of a superquadric "
 "(http://en.wikipedia.org/wiki/Superquadrics), which are ellipsoidal surfaces"
@@ -1875,11 +1875,11 @@ msgid "Surf regular mlab example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_surf_regular_mlab.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:663
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:650
 msgid "Shows how to view data created by `tvtk.tools.mlab` with mayavi2."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/example_surf_regular_mlab.rst:11
+#: ../../mayavi/docs/source/mayavi/auto/example_surf_regular_mlab.rst:16
 msgid "**Python source code:** :download:`surf_regular_mlab.py`"
 msgstr ""
 
@@ -1963,7 +1963,7 @@ msgid "Tvtk segmentation example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_tvtk_segmentation.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:734
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:721
 msgid ""
 "Using VTK to assemble a pipeline for segmenting MRI images. This example "
 "shows how to insert well-controled custom VTK filters in Mayavi."
@@ -1991,7 +1991,7 @@ msgid "Unstructured grid example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_unstructured_grid.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:720
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:707
 msgid ""
 "A MayaVi example of how to generate an unstructured grid dataset using numpy"
 " arrays.  Also shown is a way to visualize this data with mayavi2.  The "
@@ -2018,7 +2018,7 @@ msgstr ""
 msgid "Copyright (c) 2007, Enthought, Inc. License: BSD style."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/example_unstructured_grid.rst:23
+#: ../../mayavi/docs/source/mayavi/auto/example_unstructured_grid.rst:28
 msgid "**Python source code:** :download:`unstructured_grid.py`"
 msgstr ""
 
@@ -2027,7 +2027,7 @@ msgid "User mayavi example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_user_mayavi.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:841
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:828
 msgid "Sample Mayavi customization file."
 msgstr ""
 
@@ -2088,7 +2088,7 @@ msgid "Volume slicer example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_volume_slicer.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:496
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:494
 msgid ""
 "Example of an elaborate dialog showing a multiple views on the same data, "
 "with 3 cuts synchronized."
@@ -2140,7 +2140,7 @@ msgid "Volume slicer advanced example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_volume_slicer_advanced.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:506
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:504
 msgid ""
 "An efficient implementation of the triple-plane view showing 3 cut planes on"
 " volumetric data, and side views showing each cut, with a cursor to move the"
@@ -2237,7 +2237,7 @@ msgid "Wx embedding example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_wx_embedding.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:424
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:422
 msgid "This example shows to embed a Mayavi view in a wx frame."
 msgstr ""
 
@@ -2272,7 +2272,7 @@ msgid "Wx mayavi embed in notebook example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_wx_mayavi_embed_in_notebook.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:444
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:442
 msgid "This example show how to embedded Mayavi in a wx notebook."
 msgstr ""
 
@@ -2298,7 +2298,7 @@ msgid "Zzz reader example"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/example_zzz_reader.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:833
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:820
 msgid ""
 "This is a simple example that shows how to create a reader factory and "
 "register that reader with mayavi."
@@ -2781,35 +2781,22 @@ msgid ""
 "the mayavi2 application, or via specially-crafted dialogs and applications."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:414
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:412
 msgid "|0100|"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:336
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:369
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:378
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:391
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:555
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:560
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:565
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:570
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:575
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:580
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:585
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:590
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:595
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:608
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:617
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:622
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:631
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:557
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:618
 msgid "<br/>"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:414
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:412
 msgid ":ref:`example_mlab_visual`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:419
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:417
 msgid "|0101|"
 msgstr ""
 
@@ -2817,11 +2804,11 @@ msgstr ""
 msgid "0101"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:419
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:417
 msgid ":ref:`example_mlab_traits_ui`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:423
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:421
 msgid "|0102|"
 msgstr ""
 
@@ -2829,11 +2816,11 @@ msgstr ""
 msgid "0102"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:423
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:421
 msgid ":ref:`example_wx_embedding`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:427
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:425
 msgid "|0103|"
 msgstr ""
 
@@ -2841,11 +2828,11 @@ msgstr ""
 msgid "0103"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:427
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:425
 msgid ":ref:`example_multiple_engines`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:431
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:429
 msgid "|0104|"
 msgstr ""
 
@@ -2853,11 +2840,11 @@ msgstr ""
 msgid "0104"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:431
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:429
 msgid ":ref:`example_multiple_mlab_scene_models`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:435
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:433
 msgid "|0105|"
 msgstr ""
 
@@ -2865,11 +2852,11 @@ msgstr ""
 msgid "0105"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:435
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:433
 msgid ":ref:`example_superquad_with_gui`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:443
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:441
 msgid "|0106|"
 msgstr ""
 
@@ -2877,11 +2864,11 @@ msgstr ""
 msgid "0106"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:443
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:441
 msgid ":ref:`example_wx_mayavi_embed_in_notebook`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:447
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:445
 msgid "|0107|"
 msgstr ""
 
@@ -2889,19 +2876,19 @@ msgstr ""
 msgid "0107"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:447
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:445
 msgid ":ref:`example_mlab_interactive_dialog`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:451
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:449
 msgid "|0108|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:451
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:449
 msgid ":ref:`example_subclassing_mayavi_application`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:458
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:456
 msgid "|0109|"
 msgstr ""
 
@@ -2909,369 +2896,421 @@ msgstr ""
 msgid "0109"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:458
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:456
 msgid ":ref:`example_mayavi_traits_ui`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:463
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:461
 msgid "|0110|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:463
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:378
+msgid "0110"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:461
 msgid ":ref:`example_compute_in_thread`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:471
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:469
 msgid "|0111|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:383
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:382
 msgid "0111"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:471
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:469
 msgid ":ref:`example_qt_embedding`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:476
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:474
 msgid "|0112|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:387
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:386
 msgid "0112"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:476
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:474
 msgid ":ref:`example_adjust_cropping_extents`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:480
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:478
 msgid "|0113|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:480
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:390
+msgid "0113"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:478
 msgid ":ref:`example_poll_file`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:485
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:483
 msgid "|0114|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:396
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:394
 msgid "0114"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:485
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:483
 msgid ":ref:`example_lorenz_ui`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:495
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:493
 msgid "|0115|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:400
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:398
 msgid "0115"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:495
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:493
 msgid ":ref:`example_volume_slicer`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:500
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:498
 msgid "|0116|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:404
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:402
 msgid "0116"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:500
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:498
 msgid ":ref:`example_coil_design_application`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:505
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:503
 msgid "|0117|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:408
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:406
 msgid "0117"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:505
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:503
 msgid ":ref:`example_volume_slicer_advanced`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:515
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:513
 msgid "Advanced visualization examples"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:518
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:516
 msgid ""
 "Data visualization using the core Mayavi API, object-oriented, and with more"
 " fine control than mlab."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:650
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:637
 msgid "|0200|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:551
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:549
 msgid "0200"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:650
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:637
 msgid ":ref:`example_multi_block`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:652
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:639
 msgid "|0201|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:652
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:553
+msgid "0201"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:639
 msgid ":ref:`example_polydata`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:656
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:643
 msgid "|0202|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:656
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:643
 msgid ":ref:`example_offscreen`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:662
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:649
 msgid "|0203|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:662
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:562
+msgid "0203"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:649
 msgid ":ref:`example_surf_regular_mlab`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:666
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:653
 msgid "|0204|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:666
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:566
+msgid "0204"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:653
 msgid ":ref:`example_glyph`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:673
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:660
 msgid "|0205|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:673
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:570
+msgid "0205"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:660
 msgid ":ref:`example_structured_points2d`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:680
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:667
 msgid "|0206|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:680
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:574
+msgid "0206"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:667
 msgid ":ref:`example_contour_contour`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:684
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:671
 msgid "|0207|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:684
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:578
+msgid "0207"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:671
 msgid ":ref:`example_scatter_plot`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:688
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:675
 msgid "|0208|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:688
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:582
+msgid "0208"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:675
 msgid ":ref:`example_structured_points3d`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:695
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:682
 msgid "|0209|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:695
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:586
+msgid "0209"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:682
 msgid ":ref:`example_numeric_source`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:700
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:687
 msgid "|0210|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:600
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:590
 msgid "0210"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:700
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:687
 msgid ":ref:`example_streamline`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:705
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:692
 msgid "|0211|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:604
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:594
 msgid "0211"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:705
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:692
 msgid ":ref:`example_image_cursor_filter`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:710
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:697
 msgid "|0212|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:710
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:598
+msgid "0212"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:697
 msgid ":ref:`example_contour`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:715
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:702
 msgid "|0213|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:613
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:602
 msgid "0213"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:715
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:702
 msgid ":ref:`example_probe_filter`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:719
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:706
 msgid "|0214|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:719
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:606
+msgid "0214"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:706
 msgid ":ref:`example_unstructured_grid`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:726
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:713
 msgid "|0215|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:726
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:610
+msgid "0215"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:713
 msgid ":ref:`example_structured_grid`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:733
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:720
 msgid "|0216|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:627
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:614
 msgid "0216"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:733
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:720
 msgid ":ref:`example_tvtk_segmentation`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:739
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:726
 msgid "|0217|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:739
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:726
 msgid ":ref:`example_datasets`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:745
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:732
 msgid "|0218|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:636
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:623
 msgid "0218"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:745
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:732
 msgid ":ref:`example_delaunay_graph`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:750
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:737
 msgid "|0219|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:640
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:627
 msgid "0219"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:750
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:737
 msgid ":ref:`example_mlab_3D_to_2D`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:756
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:743
 msgid "|0220|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:644
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:631
 msgid "0220"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:756
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:743
 msgid ":ref:`example_magnetic_field`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:765
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:752
 msgid "Data interaction examples"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:768
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:755
 msgid "Examples showing how you can query and interact with the data."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:796
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:783
 msgid "|0300|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:782
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:769
 msgid "0300"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:796
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:783
 msgid ":ref:`example_pick_on_surface`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:801
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:788
 msgid "|0301|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:786
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:773
 msgid "0301"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:801
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:788
 msgid ":ref:`example_select_red_balls`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:806
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:793
 msgid "|0302|"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:790
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:777
 msgid "0302"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:806
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:793
 msgid ":ref:`example_normal_flipping_stl`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:813
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:800
 msgid "Misc examples"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:828
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:815
 msgid ":ref:`example_standalone`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:832
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:819
 msgid ":ref:`example_zzz_reader`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:836
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:823
 msgid ":ref:`example_nongui`"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:840
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:827
 msgid ":ref:`example_user_mayavi`"
 msgstr ""
 

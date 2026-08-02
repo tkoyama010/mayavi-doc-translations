@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 03:35+0000\n"
+"POT-Creation-Date: 2026-08-02 03:34+0000\n"
 "PO-Revision-Date: 2019-04-27 07:31+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2026\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,6 +64,11 @@ msgid ""
 "<https://mayavi.readthedocs.io/en/latest/installation.html#installing-ready-"
 "made-distributions>`_"
 msgstr ""
+"最新のVTKwheelは，すべての主要プラットフォーム(Windows，MacOS，およびLinux)で利用できますが，64ビットマシンでのみ利用できます．Python3.xはこれらすべてのオペレーティングシステムで，Python"
+" 2.7.xはMacOSとLinuxで完全にサポートされています．あなたのプラットフォームがサポートされていない場合は， `General Build "
+"and Installation instructions "
+"<https://mayavi.readthedocs.io/en/latest/installation.html#installing-ready-"
+"made-distributions>`_"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:28
 msgid ""
@@ -227,7 +232,7 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:158
 msgid "Installing with `Enthought Deployment Manager(EDM)`"
-msgstr ""
+msgstr "`Enthought Deployment Manager (EDM)` を使用したインストール"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:160
 msgid ""
@@ -290,7 +295,7 @@ msgstr "'pyqt' は，python 3.6およびpython 2.7に対して明示的にイン
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:197
 msgid "Installing with `Conda`"
-msgstr ""
+msgstr "`Conda` によるインストール"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:199
 msgid ""
