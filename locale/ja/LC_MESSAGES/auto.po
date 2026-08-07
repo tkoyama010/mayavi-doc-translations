@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-06 00:41+0000\n"
+"POT-Creation-Date: 2026-08-07 01:23+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2026\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -26,7 +26,7 @@ msgid "Adjust cropping extents example"
 msgstr "トリミング範囲の調整の例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_adjust_cropping_extents.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:475
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:471
 msgid ""
 "A custom dialog to adjust the parameters of a GeometryFilter to crop data "
 "points."
@@ -340,7 +340,7 @@ msgid "Compute in thread example"
 msgstr "スレッドで計算する例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_compute_in_thread.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:462
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:458
 msgid ""
 "This script demonstrates how one can do a computation in another thread and "
 "update the mayavi pipeline. It also shows how to create a numpy array data "
@@ -924,7 +924,7 @@ msgid "Mayavi traits ui example"
 msgstr "Mayavi traits uiの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mayavi_traits_ui.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:457
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:453
 msgid ""
 "An example of how to create a UI similar to the complete Mayavi application "
 "inside a Traits UI view."
@@ -1133,7 +1133,7 @@ msgid "Mlab interactive dialog example"
 msgstr "Mlab対話型ダイアログの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_mlab_interactive_dialog.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:446
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:438
 msgid ""
 "An example of how to modify the data visualized  via an interactive dialog."
 msgstr "対話型ダイアログで表示されるデータを変更する方法の例．"
@@ -1302,7 +1302,7 @@ msgid "Multiple engines example"
 msgstr "複数エンジンの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_engines.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:426
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:422
 msgid ""
 "An example to show how you can have multiple engines in one application."
 msgstr "1つのアプリケーションに複数のエンジンを含める方法を示す例．"
@@ -1334,7 +1334,7 @@ msgid "Multiple mlab scene models example"
 msgstr "複数のmlabシーンモデルの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_multiple_mlab_scene_models.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:430
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:426
 msgid "Example showing a dialog with multiple embedded scenes."
 msgstr "複数のシーンが埋め込まれたダイアログボックスの例．"
 
@@ -1753,7 +1753,7 @@ msgid "Qt embedding example"
 msgstr "Qt埋め込みの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_qt_embedding.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:470
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:466
 msgid ""
 "This example demonstrates using Mayavi as a component of a large Qt "
 "application."
@@ -2026,7 +2026,7 @@ msgid "Subclassing mayavi application example"
 msgstr "mayaviアプリケーションのサブクラス化の例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_subclassing_mayavi_application.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:450
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:446
 msgid ""
 "This script demonstrates how one can script the Mayavi application by "
 "subclassing the application, create a new scene and create a few simple "
@@ -2043,7 +2043,7 @@ msgid "Superquad with gui example"
 msgstr "guiの例を含むSuperquad"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_superquad_with_gui.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:434
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:430
 msgid ""
 "This example uses MayaVi to show the evolution of a superquadric "
 "(http://en.wikipedia.org/wiki/Superquadrics), which are ellipsoidal surfaces"
@@ -2483,7 +2483,7 @@ msgid "Wx embedding example"
 msgstr "Wx埋め込みの例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_wx_embedding.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:422
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:442
 msgid "This example shows to embed a Mayavi view in a wx frame."
 msgstr "この例では，Mayaviビューをwxフレームに埋め込む方法を示します．"
 
@@ -2525,7 +2525,7 @@ msgid "Wx mayavi embed in notebook example"
 msgstr "ノートブックにWx mayaviを埋め込む例"
 
 #: ../../mayavi/docs/source/mayavi/auto/example_wx_mayavi_embed_in_notebook.rst:8
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:442
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:475
 msgid "This example show how to embedded Mayavi in a wx notebook."
 msgstr "この例では，wxノートブックにMayaviを埋め込む方法を示します．"
 
@@ -3044,7 +3044,7 @@ msgid "|0100|"
 msgstr "|0100|"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:336
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:369
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:365
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:557
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:618
 msgid "<br/>"
@@ -3075,8 +3075,8 @@ msgid "0102"
 msgstr "0102"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:421
-msgid ":ref:`example_wx_embedding`"
-msgstr ":ref:`example_wx_embedding`"
+msgid ":ref:`example_multiple_engines`"
+msgstr ":ref:`example_multiple_engines`"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:425
 msgid "|0103|"
@@ -3087,8 +3087,8 @@ msgid "0103"
 msgstr "0103"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:425
-msgid ":ref:`example_multiple_engines`"
-msgstr ":ref:`example_multiple_engines`"
+msgid ":ref:`example_multiple_mlab_scene_models`"
+msgstr ":ref:`example_multiple_mlab_scene_models`"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:429
 msgid "|0104|"
@@ -3099,10 +3099,10 @@ msgid "0104"
 msgstr "0104"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:429
-msgid ":ref:`example_multiple_mlab_scene_models`"
-msgstr ":ref:`example_multiple_mlab_scene_models`"
+msgid ":ref:`example_superquad_with_gui`"
+msgstr ":ref:`example_superquad_with_gui`"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:433
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:437
 msgid "|0105|"
 msgstr "|0105|"
 
@@ -3110,9 +3110,9 @@ msgstr "|0105|"
 msgid "0105"
 msgstr "0105"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:433
-msgid ":ref:`example_superquad_with_gui`"
-msgstr ":ref:`example_superquad_with_gui`"
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:437
+msgid ":ref:`example_mlab_interactive_dialog`"
+msgstr ":ref:`example_mlab_interactive_dialog`"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:441
 msgid "|0106|"
@@ -3123,30 +3123,30 @@ msgid "0106"
 msgstr "0106"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:441
-msgid ":ref:`example_wx_mayavi_embed_in_notebook`"
-msgstr ":ref:`example_wx_mayavi_embed_in_notebook`"
+msgid ":ref:`example_wx_embedding`"
+msgstr ":ref:`example_wx_embedding`"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:445
 msgid "|0107|"
 msgstr "|0107|"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:365
-msgid "0107"
-msgstr "0107"
-
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:445
-msgid ":ref:`example_mlab_interactive_dialog`"
-msgstr ":ref:`example_mlab_interactive_dialog`"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:449
-msgid "|0108|"
-msgstr "|0108|"
-
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:449
 msgid ":ref:`example_subclassing_mayavi_application`"
 msgstr ":ref:`example_subclassing_mayavi_application`"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:456
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:452
+msgid "|0108|"
+msgstr "|0108|"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:370
+msgid "0108"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:452
+msgid ":ref:`example_mayavi_traits_ui`"
+msgstr ":ref:`example_mayavi_traits_ui`"
+
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:457
 msgid "|0109|"
 msgstr "|0109|"
 
@@ -3154,11 +3154,11 @@ msgstr "|0109|"
 msgid "0109"
 msgstr "0109"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:456
-msgid ":ref:`example_mayavi_traits_ui`"
-msgstr ":ref:`example_mayavi_traits_ui`"
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:457
+msgid ":ref:`example_compute_in_thread`"
+msgstr ":ref:`example_compute_in_thread`"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:461
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:465
 msgid "|0110|"
 msgstr "|0110|"
 
@@ -3166,11 +3166,11 @@ msgstr "|0110|"
 msgid "0110"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:461
-msgid ":ref:`example_compute_in_thread`"
-msgstr ":ref:`example_compute_in_thread`"
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:465
+msgid ":ref:`example_qt_embedding`"
+msgstr ":ref:`example_qt_embedding`"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:469
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:470
 msgid "|0111|"
 msgstr "|0111|"
 
@@ -3178,9 +3178,9 @@ msgstr "|0111|"
 msgid "0111"
 msgstr "0111"
 
-#: ../../mayavi/docs/source/mayavi/auto/examples.rst:469
-msgid ":ref:`example_qt_embedding`"
-msgstr ":ref:`example_qt_embedding`"
+#: ../../mayavi/docs/source/mayavi/auto/examples.rst:470
+msgid ":ref:`example_adjust_cropping_extents`"
+msgstr ":ref:`example_adjust_cropping_extents`"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:474
 msgid "|0112|"
@@ -3191,8 +3191,8 @@ msgid "0112"
 msgstr "0112"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:474
-msgid ":ref:`example_adjust_cropping_extents`"
-msgstr ":ref:`example_adjust_cropping_extents`"
+msgid ":ref:`example_wx_mayavi_embed_in_notebook`"
+msgstr ":ref:`example_wx_mayavi_embed_in_notebook`"
 
 #: ../../mayavi/docs/source/mayavi/auto/examples.rst:478
 msgid "|0113|"
