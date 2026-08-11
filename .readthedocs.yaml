@@ -12,7 +12,7 @@ build:
     python: "3.12"
   jobs:
     pre_install:
-      - pip install "setuptools<75" wheel vtk==9.3.1
+      - pip install -U "setuptools>=77" "setuptools_scm>=8" wheel numpy vtk==9.6.2
     install:
       - pip install --no-build-isolation -r requirements.txt
 
