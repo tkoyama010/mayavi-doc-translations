@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2018, Enthought Inc.
+# Copyright (C) Enthought, Inc.
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mayavi 4.8.4.dev0\n"
+"Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 00:42+0000\n"
+"POT-Creation-Date: 2026-08-04 03:20+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
 "MIME-Version: 1.0\n"

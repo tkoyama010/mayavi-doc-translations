@@ -1,3 +1,4 @@
+# Copyright (C) 2026 Tetsuo Koyama
 # basedir is set by <lang>/conf.py
 """
 Use "-D language=<LANG>" option to build a localized mayavi document.

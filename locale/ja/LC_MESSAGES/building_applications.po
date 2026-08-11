@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2018, Enthought Inc.
+# Copyright (C) Enthought, Inc.
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tetsuo Koyama <tkoyama010@gmail.com>, 2022
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mayavi 4.8.4.dev0\n"
+"Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 00:42+0000\n"
+"POT-Creation-Date: 2026-08-11 00:28+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
-"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2022\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2026\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,12 +72,12 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/building_applications.rst:31
 msgid ""
 "We strongly suggest that you refer to the `Traits` `documentation "
-"<http://docs.enthought.com/traits>`_ for more details.  There are also a "
+"<https://docs.enthought.com/traits>`_ for more details.  There are also a "
 "list of introductory `materials <https://support.enthought.com/hc/en-"
 "us/articles/204469620-Introductory-materials-for-Traits-and-Traits-UI>` for "
 "learning Traits and Traits UI."
 msgstr ""
-"詳細については， `Traits` `documentation <http://docs.enthought.com/traits>`_ "
+"詳細については， `Traits` `documentation <https://docs.enthought.com/traits>`_ "
 "を参照することを強くお勧めします．TraitsとTraits UIを学ぶための入門の `materials "
 "<https://support.enthought.com/hc/en-us/articles/204469620-Introductory-"
 "materials-for-Traits-and-Traits-UI>` のリストもあります．"
@@ -320,20 +320,67 @@ msgid "Integrating in a WxPython application"
 msgstr "WxPythonアプリケーションへの統合"
 
 #: ../../mayavi/docs/source/mayavi/building_applications.rst:249
+msgid ""
+"Before defining the `Visualization` class, you should set the toolkit used "
+"by Traits to the Wx backend, as it otherwise prefers Qt when both are "
+"installed and `edit_traits` then hands you a Qt widget that no wx sizer will"
+" accept::"
+msgstr ""
+"`Visualization` "
+"クラスを定義する前に，Traitsが使用するツールキットをWxバックエンドに設定する必要があります．そうしないと，両方がインストールされている場合はQtが優先され，"
+" `edit_traits` はwx sizerが受け付けないQtウィジェットを返します．"
+
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:257
+msgid ""
+"This has to happen before anything else reads the toolkit, so keep it at the"
+" top of the module, above the Traits and Mayavi imports."
+msgstr ""
+"これは他の何かがツールキットを読み込む前に行う必要があるため，モジュールの先頭，TraitsとMayaviのインポートの前に置いてください．"
+
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:260
 msgid "Using the `Visualization` class defined above::"
 msgstr "上記で定義した  `Visualization` クラスを使用します．"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:265
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:287
+msgid ""
+"TraitsUI pushes wx event handlers onto the panel it builds and onto its "
+"children, and pops them only in ``ui.dispose()``, which never runs for a "
+"frame that is simply closed; wx then asserts on destroying a window that "
+"still has one.  Popping them as above is enough, and only over the panel "
+"TraitsUI built -- calling ``dispose()`` here instead schedules a second "
+"``Destroy`` through ``wx.CallAfter``, and popping over widgets of your own "
+"removes handlers wx installed for itself.  Both crash on close."
+msgstr ""
+"TraitsUIは，構築したパネルとその子要素にwxイベントハンドラをプッシュし， ``ui.dispose()`` "
+"内でのみポップしますが，単に閉じられたフレームに対しては実行されません．wxは，まだハンドラを持っているウィンドウを破棄するとアサートします．上記のようにポップするだけで十分であり，TraitsUIが構築したパネル上でのみ行います．ここで"
+" ``dispose()`` を呼び出すと， ``wx.CallAfter`` による2回目の ``Destroy`` "
+"がスケジュールされ，独自のウィジェット上でポップするとwx自身がインストールしたハンドラが削除されます．どちらもクローズ時にクラッシュします．"
+
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:295
+msgid ""
+"Pass the container the panel is going into as ``parent``, not the frame "
+"around it: a widget handed to a Qt layout is reparented for you, while wx "
+"expects it to be a child of the container already.  Putting a Mayavi view in"
+" a notebook page therefore means ``parent=self.notebook`` -- with the frame "
+"as parent the page can come out mis-drawn, and recent wxWidgets assert on it"
+" outright rather than reparenting quietly as older ones did."
+msgstr ""
+"パネルを格納するコンテナを ``parent`` "
+"として渡し，その周囲のフレームは渡さないでください．Qtレイアウトに渡されたウィジェットは自動的に親が変更されますが，wxでは既にコンテナの子であることを期待します．したがって，Mayaviビューをノートブックページに配置する場合，"
+" ``parent=self.notebook`` "
+"とします．フレームを親にするとページが正しく描画されない可能性があり，最近のwxWidgetsは古いバージョンのように暗黙的に親を変更するのではなく，明示的にアサートします．"
+
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:302
 msgid ""
 "Two examples of integrating Mayavi visualization with Wx applications are "
 "given:"
 msgstr "MayaviビジュアライゼーションをWxアプリケーションと統合する2つの例を示します．"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:268
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:305
 msgid ":ref:`example_wx_embedding`: a simple example, as above."
 msgstr ":ref:`example_wx_embedding`: 上記のような簡単な例です．"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:269
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:306
 msgid ""
 ":ref:`example_wx_mayavi_embed_in_notebook`: a more complexe example, showing"
 " 2 different Mayavi views embedded in a Wx notebook."
@@ -341,21 +388,21 @@ msgstr ""
 ":ref:`example_wx_mayavi_embed_in_notebook`: "
 "より複雑な例で，Wxノートブックに埋め込まれた2つの異なるMayaviビューを示しています．"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:275
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:312
 msgid "Integrating in a Qt application"
 msgstr "Qtアプリケーションへの統合"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:277
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:314
 msgid "Mayavi dialogs can also be integrated in a PyQt or PySide application."
 msgstr "Mayaviダイアログは，PyQtまたはPySideアプリケーションに統合することもできます．"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:279
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:316
 msgid ""
 "Before defining the `Visualization` class, you should set the toolkit used "
 "by Traits to the Qt backend::"
 msgstr "`Visualization` クラスを定義する前に，Traitsで使用するツールキットをQtバックエンドに設定する必要があります．"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:285
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:322
 msgid ""
 "Also, as Traits runs with PyQt and PySide, if you use PyQt, you must make "
 "sure that you switch its binding in a mode that is compatible with PySide "
@@ -364,7 +411,7 @@ msgstr ""
 "また，TraitsはPyQtとPySideで動作するため，PyQtを使用する場合は， **PyQtコードを読み込む前** "
 "に，PySideと互換性のあるモード(内部文字列表現モード)でバインドを切り替える必要があります．"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:293
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:330
 msgid ""
 "By default, with modern versions of the Enthought Tool Suite, Traits will "
 "use PySide. To force the use of PyQt, you must set the QT_API environment "
@@ -373,17 +420,17 @@ msgstr ""
 "Enthought Tool "
 "Suiteの最新バージョンでは，デフォルトでPySideが使用されます．PyQtを強制的に使用するには，QT_API環境変数を設定する必要があります．"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:299
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:336
 msgid "Then using the visualization class defined above::"
 msgstr "次に，上記で定義したビジュアル化クラスを使用します．"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:315
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:352
 msgid ""
 "For a full-blown example of embedding in Qt, see "
 ":ref:`example_qt_embedding`."
 msgstr "Qtでの埋め込みの完全な例については， :ref:`example_qt_embedding` を参照してください．"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:320
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:357
 msgid ""
 "On definition of the model (and thus previous to the start of the event "
 "loop), Traits sets up some hooks on the main QApplication. As a result if "
@@ -391,6 +438,6 @@ msgid ""
 msgstr ""
 "モデルの定義(したがって，イベントループの開始の前)に関して，TraitsはメインのQApplicationにhookをいくつか設定します．そのため，たとえば次のようにして新しいインスタンスを作成します．"
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:326
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:363
 msgid "Your Traits application will not work."
 msgstr "Traitsアプリケーションは動作しません．"

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2018, Enthought Inc.
+# Copyright (C) Enthought, Inc.
 # This file is distributed under the same license as the mayavi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mayavi 4.8.4.dev0\n"
+"Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 00:42+0000\n"
+"POT-Creation-Date: 2026-08-07 01:23+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
@@ -67,7 +67,7 @@ msgstr ""
 #: ../../mayavi/docs/source/mayavi/building_applications.rst:31
 msgid ""
 "We strongly suggest that you refer to the `Traits` `documentation "
-"<http://docs.enthought.com/traits>`_ for more details.  There are also a "
+"<https://docs.enthought.com/traits>`_ for more details.  There are also a "
 "list of introductory `materials <https://support.enthought.com/hc/en-"
 "us/articles/204469620-Introductory-materials-for-Traits-and-Traits-UI>` for "
 "learning Traits and Traits UI."
@@ -276,70 +276,105 @@ msgid "Integrating in a WxPython application"
 msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/building_applications.rst:249
+msgid ""
+"Before defining the `Visualization` class, you should set the toolkit used "
+"by Traits to the Wx backend, as it otherwise prefers Qt when both are "
+"installed and `edit_traits` then hands you a Qt widget that no wx sizer will"
+" accept::"
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:257
+msgid ""
+"This has to happen before anything else reads the toolkit, so keep it at the"
+" top of the module, above the Traits and Mayavi imports."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:260
 msgid "Using the `Visualization` class defined above::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:265
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:287
+msgid ""
+"TraitsUI pushes wx event handlers onto the panel it builds and onto its "
+"children, and pops them only in ``ui.dispose()``, which never runs for a "
+"frame that is simply closed; wx then asserts on destroying a window that "
+"still has one.  Popping them as above is enough, and only over the panel "
+"TraitsUI built -- calling ``dispose()`` here instead schedules a second "
+"``Destroy`` through ``wx.CallAfter``, and popping over widgets of your own "
+"removes handlers wx installed for itself.  Both crash on close."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:295
+msgid ""
+"Pass the container the panel is going into as ``parent``, not the frame "
+"around it: a widget handed to a Qt layout is reparented for you, while wx "
+"expects it to be a child of the container already.  Putting a Mayavi view in"
+" a notebook page therefore means ``parent=self.notebook`` -- with the frame "
+"as parent the page can come out mis-drawn, and recent wxWidgets assert on it"
+" outright rather than reparenting quietly as older ones did."
+msgstr ""
+
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:302
 msgid ""
 "Two examples of integrating Mayavi visualization with Wx applications are "
 "given:"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:268
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:305
 msgid ":ref:`example_wx_embedding`: a simple example, as above."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:269
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:306
 msgid ""
 ":ref:`example_wx_mayavi_embed_in_notebook`: a more complexe example, showing"
 " 2 different Mayavi views embedded in a Wx notebook."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:275
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:312
 msgid "Integrating in a Qt application"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:277
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:314
 msgid "Mayavi dialogs can also be integrated in a PyQt or PySide application."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:279
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:316
 msgid ""
 "Before defining the `Visualization` class, you should set the toolkit used "
 "by Traits to the Qt backend::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:285
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:322
 msgid ""
 "Also, as Traits runs with PyQt and PySide, if you use PyQt, you must make "
 "sure that you switch its binding in a mode that is compatible with PySide "
 "(internal string representation mode), **before you import any PyQt code**::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:293
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:330
 msgid ""
 "By default, with modern versions of the Enthought Tool Suite, Traits will "
 "use PySide. To force the use of PyQt, you must set the QT_API environment "
 "variable::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:299
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:336
 msgid "Then using the visualization class defined above::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:315
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:352
 msgid ""
 "For a full-blown example of embedding in Qt, see "
 ":ref:`example_qt_embedding`."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:320
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:357
 msgid ""
 "On definition of the model (and thus previous to the start of the event "
 "loop), Traits sets up some hooks on the main QApplication. As a result if "
 "you instanciate a new one, using for instance::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/building_applications.rst:326
+#: ../../mayavi/docs/source/mayavi/building_applications.rst:363
 msgid "Your Traits application will not work."
 msgstr ""
