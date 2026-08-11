@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-03 03:37+0000\n"
+"POT-Creation-Date: 2026-08-11 00:28+0000\n"
 "PO-Revision-Date: 2019-04-27 07:30+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2026\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -222,6 +222,9 @@ msgid ""
 "details on the command line arguments supported by the ``mayavi2`` "
 "application, see the :ref:`command-line-arguments` section."
 msgstr ""
+"これにより，スクリプトはオフスクリーンのスタンドアロンウィンドウで実行されます．``mayavi2`` "
+"アプリケーションがサポートするコマンドライン引数の詳細については，:ref:`command-line-arguments` "
+"セクションを参照してください．"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:138
 msgid "When using ``mlab`` you will want to do this::"
@@ -256,12 +259,13 @@ msgid ""
 "On all supported platforms off screen rendering should work out of the box, "
 "provided the machine can create an OpenGL context at all.  A quick check::"
 msgstr ""
+"サポートされているすべてのプラットフォームで，マシンがOpenGLコンテキストを作成できれば，オフスクリーンレンダリングはすぐに機能するはずです．簡単な確認方法::"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:164
 msgid ""
 "If this produces a clean image -- even if you switch desktops or cover any "
 "windows produced -- you are all set."
-msgstr ""
+msgstr "これでクリーンな画像が生成される場合（デスクトップを切り替えたり，生成されたウィンドウを覆っても），設定は完了です．"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:167
 msgid ""
@@ -273,6 +277,8 @@ msgid ""
 "when there is not.  See :ref:`choosing_the_opengl_backend` if you need to "
 "override that."
 msgstr ""
+"Linuxでは，コンテキストを取得する*何らかの*方法が必要です．Xサーバー（実際のものまたは仮想フレームバッファ，以下を参照），またはVTKに同梱されているヘッドレスOpenGLバックエンドのいずれか（EGLとOSMesa）です．Mayaviはこれらを選択しません．プレーンなレンダウィンドウを作成し，VTK自身のファクトリに選択させます．つまり，ディスプレイがある場合はそれが使用され，ない場合はEGLまたはOSMesaが使用されます．オーバーライドする必要がある場合は"
+" :ref:`choosing_the_opengl_backend` を参照してください．"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:178
 msgid "Rendering using the virtual framebuffer"
@@ -377,7 +383,7 @@ msgstr "Maya2アプリケーション以外でmlabを使用している場合は
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:244
 msgid "Choosing the OpenGL backend"
-msgstr ""
+msgstr "OpenGLバックエンドの選択"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:246
 msgid ""
@@ -387,6 +393,8 @@ msgid ""
 "set ``ETS_TOOLKIT='null'`` and ``mlab.options.offscreen = True`` and it will"
 " work with no display."
 msgstr ""
+"XサーバーがまったくないマシンでMayavi/VTKを完全にヘッドレスで実行したい場合があります．PyPIのVTKホイールは，通常のX11と並んでEGLとOSMesaサポートを組み込んでビルドされているため，再ビルドする必要はありません．``ETS_TOOLKIT='null'``"
+" と ``mlab.options.offscreen = True`` を設定すれば，ディスプレイなしで機能します．"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:252
 msgid ""
@@ -397,11 +405,13 @@ msgid ""
 "deliberately does not second-guess that, so the same rules apply to off "
 "screen scenes as to on screen ones."
 msgstr ""
+"VTKは，使用するバックエンドを次の順序で決定します．設定されていれば ``VTK_DEFAULT_OPENGL_WINDOW`` "
+"環境変数で指定されたもの，次にプラットフォームのネイティブウィンドウ（LinuxではX11），次にEGL，次にOSMesaで，初期化に成功した最初のものを保持します．Mayaviは意図的にこれを再判断しないため，オフスクリーンシーンにもオンスクリーンシーンと同じルールが適用されます．"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:259
 msgid ""
 "To force a particular backend, set the variable before importing Mayavi::"
-msgstr ""
+msgstr "特定のバックエンドを強制するには，Mayaviをインポートする前に変数を設定してください::"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:265
 msgid ""
@@ -410,6 +420,9 @@ msgid ""
 " even when they do have ``libgl1``.  OSMesa renders purely in software, so "
 "it needs no driver and no display at all, at the cost of speed."
 msgstr ""
+"GPUを搭載したマシンでヘッドレスレンダリングを行うにはEGLを選択します．動作するEGLドライバのインストールが必要ですが，スリムなコンテナイメージには"
+" ``libgl1`` "
+"があってもEGLドライバがないことがよくあります．OSMesaは純粋にソフトウェアでレンダリングするため，ドライバもディスプレイも不要ですが，速度は犠牲になります．"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:274
 msgid "Extending Mayavi with customizations"
@@ -692,6 +705,9 @@ msgid ""
 "function will block till the service is closed.  There is no need to call "
 "`mlab.show()` after or before this.  The Mayavi UI will be fully responsive."
 msgstr ""
+"指定された `port` で与えられた `engine` を使用して `M2TCP` プロトコルを提供し，メッセージをファイルライクオブジェクトである "
+"`logto` にログ出力します．この関数はサービスが閉じられるまでブロックします．この前後に `mlab.show()` "
+"を呼び出す必要はありません．Mayavi UIは完全に応答します．"
 
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_tcp:7
@@ -715,44 +731,45 @@ msgid ""
 "Mayavi engine to use. If this is `None`, `mlab.get_engine()` is used to find"
 " an appropriate engine."
 msgstr ""
+"使用するMayaviエンジン． `None` の場合は， `mlab.get_engine()` が適切なエンジンを見つけるために使用されます．"
 
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_tcp:0
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_udp:0
 msgid "port"
-msgstr ""
+msgstr "port"
 
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_tcp:12
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_udp:12
 msgid "int: port to serve on."
-msgstr ""
+msgstr "int: サービスを提供するポート．"
 
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_tcp:0
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_udp:0
 msgid "logto"
-msgstr ""
+msgstr "logto"
 
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_tcp:14
 msgid ""
 "file: File like object to log messages to.  If this is `None` it disables "
 "logging."
-msgstr ""
+msgstr "file: メッセージをログ出力するファイルライクオブジェクト． `None` の場合はロギングを無効にします．"
 
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_tcp:0
 msgid "max_connect"
-msgstr ""
+msgstr "max_connect"
 
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_tcp:17
 msgid "int: Maximum number of simultaneous connections to support."
-msgstr ""
+msgstr "int: サポートする同時接続の最大数．"
 
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_tcp:20
@@ -766,7 +783,7 @@ msgstr "**例**"
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_udp:19
 msgid "Here is a very simple example::"
-msgstr ""
+msgstr "非常に簡単な例を次に示します::"
 
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_tcp:29
@@ -776,20 +793,22 @@ msgid ""
 " you want.  The `engine`, `scene`, `camera` and `mlab` are all available and"
 " can be used.  For example after running the above you can do this::"
 msgstr ""
+"上記のTCPサーバーはデフォルトでポート8007でリッスンします．サーバーに送信されたデータは単にexecされるため，ほぼ何でもできます．`engine`"
+" ，`scene` ，`camera` ，`mlab` はすべて利用可能で使用できます．たとえば，上記を実行した後，次のようにできます::"
 
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_tcp:44
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_udp:33
 msgid "**Warning**"
-msgstr ""
+msgstr "**警告**"
 
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_tcp:46
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_udp:35
 msgid "Data sent is exec'd so this is a security hole."
-msgstr ""
+msgstr "送信されたデータはexecされるため，これはセキュリティホールになります．"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:480
 msgid "UDP server: the `serve_udp` function"
@@ -803,18 +822,21 @@ msgid ""
 "function will block till the service is closed.  There is no need to call "
 "`mlab.show()` after or before this.  The Mayavi UI will be fully responsive."
 msgstr ""
+"指定された `port` で与えられた `engine` を使用して `M2UDP` プロトコルを提供し，メッセージをファイルライクオブジェクトである "
+"`logto` にログ出力します．この関数はサービスが閉じられるまでブロックします．この前後に `mlab.show()` "
+"を呼び出す必要はありません．Mayavi UIは完全に応答します．"
 
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_udp:14
 msgid ""
 "file : File like object to log messages to.  If this is `None` it disables "
 "logging."
-msgstr ""
+msgstr "file : メッセージをログ出力するファイルライクオブジェクト． `None` の場合はロギングを無効にします．"
 
 #: ../../mayavi/mayavi/tools/server.pydocstring of
 #: mayavi.tools.server.serve_udp:26
 msgid "Test it like so::"
-msgstr ""
+msgstr "次のようにテストします::"
 
 #: ../../mayavi/docs/source/mayavi/tips.rst:494
 msgid "Animating a timeseries"
