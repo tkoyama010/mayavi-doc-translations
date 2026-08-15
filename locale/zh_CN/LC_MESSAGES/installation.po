@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 03:35+0000\n"
+"POT-Creation-Date: 2026-08-15 00:20+0000\n"
 "PO-Revision-Date: 2019-04-27 07:31+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
@@ -385,18 +385,18 @@ msgid "Test suite"
 msgstr "测试组"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:283
-msgid "The basic test suites for tvtk and mayavi can be run using nose::"
-msgstr "tvtk和mayavi的基础测试组可以使用nose运行："
+msgid "The basic test suites for tvtk and mayavi can be run using pytest::"
+msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:288
 msgid "The integration tests can be run as::"
 msgstr "集成测试命令如下："
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:295
+#: ../../mayavi/docs/source/mayavi/installation.rst:294
 msgid "Troubleshooting"
 msgstr "检修"
 
-#: ../../mayavi/docs/source/mayavi/installation.rst:297
+#: ../../mayavi/docs/source/mayavi/installation.rst:296
 msgid ""
 "If you are having trouble with the installation you may want to check the "
 ":ref:`getting-help` page for more details on how you can search for "

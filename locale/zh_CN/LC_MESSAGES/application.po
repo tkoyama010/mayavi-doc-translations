@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 03:35+0000\n"
+"POT-Creation-Date: 2026-08-15 00:20+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
@@ -895,57 +895,36 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/application.rst:527
 msgid ""
-"Runs the Mayavi test suite and exits.  If run as such, this runs both the "
-"TVTK and Mayavi2 unit tests.  If any additional arguments are passed they "
-"are passed along to the test runner.  So this may be used to run other tests"
-" as well.  For example::"
-msgstr ""
-
-#: ../../mayavi/docs/source/mayavi/application.rst:534
-msgid ""
-"This will run just the tests inside the ``apptools.persistence`` package.  "
-"You can also specify a directory with test files to run with this, for "
-"example::"
-msgstr ""
-
-#: ../../mayavi/docs/source/mayavi/application.rst:540
-msgid ""
-"will run the integration tests from the Mayavi sources.  Also available as "
-"``--test``."
-msgstr ""
-
-#: ../../mayavi/docs/source/mayavi/application.rst:544
-msgid ""
 "Execute the python-expression on the last created object.  For example, "
 "let's say the previous object was a module.  If you want to set the color of"
 " that object and save the scene, you may do::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/application.rst:551
+#: ../../mayavi/docs/source/mayavi/application.rst:534
 msgid ""
 "You should use quotes for the expression.  This is also available through "
 "``--set``."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/application.rst:555
+#: ../../mayavi/docs/source/mayavi/application.rst:538
 msgid ""
 "Note that ``-x`` or ``--exec`` uses `execfile`, so this can be dangerous if "
 "the script does something nasty!  Similarly, ``-s`` or ``--set`` uses "
 "`exec`, which can also be dangerous if abused."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/application.rst:559
+#: ../../mayavi/docs/source/mayavi/application.rst:542
 msgid ""
 "It is important to note that Mayavi's **command line arguments are processed"
 " sequentially** in the same order they are given.  This allows users to do "
 "interesting things."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/application.rst:563
+#: ../../mayavi/docs/source/mayavi/application.rst:546
 msgid "Here are a few examples of the command line arguments::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/application.rst:575
+#: ../../mayavi/docs/source/mayavi/application.rst:558
 msgid ""
 "In the above examples, ``heart.vtk`` and ``fire_ug.vtu`` VTK files can be "
 "found in the ``examples/data`` directory in the source.  They may also be "
