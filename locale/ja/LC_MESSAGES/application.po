@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-02 03:34+0000\n"
+"POT-Creation-Date: 2026-08-15 00:20+0000\n"
 "PO-Revision-Date: 2019-04-27 07:28+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2026\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -990,30 +990,6 @@ msgstr ""
 
 #: ../../mayavi/docs/source/mayavi/application.rst:527
 msgid ""
-"Runs the Mayavi test suite and exits.  If run as such, this runs both the "
-"TVTK and Mayavi2 unit tests.  If any additional arguments are passed they "
-"are passed along to the test runner.  So this may be used to run other tests"
-" as well.  For example::"
-msgstr ""
-"Mayaviテストスイートを実行し，終了します．このように実行すると，TVTKとMayavi2の両方のユニットテストが実行されます．追加の引数が渡されると，テストランナーに渡されます．したがって，これは他のテストを実行するためにも使用できます．次に例を示します．"
-
-#: ../../mayavi/docs/source/mayavi/application.rst:534
-msgid ""
-"This will run just the tests inside the ``apptools.persistence`` package.  "
-"You can also specify a directory with test files to run with this, for "
-"example::"
-msgstr ""
-"これは ``apptools.persistence`` "
-"パッケージ内部のテストだけを実行します．次のように，テストファイルを含むディレクトリを指定して実行することもできます．"
-
-#: ../../mayavi/docs/source/mayavi/application.rst:540
-msgid ""
-"will run the integration tests from the Mayavi sources.  Also available as "
-"``--test``."
-msgstr "Mayaviソースから統合テストを実行します． ``--test`` としても利用できます．"
-
-#: ../../mayavi/docs/source/mayavi/application.rst:544
-msgid ""
 "Execute the python-expression on the last created object.  For example, "
 "let's say the previous object was a module.  If you want to set the color of"
 " that object and save the scene, you may do::"
@@ -1021,13 +997,13 @@ msgstr ""
 "最後に作成したオブジェクトに対してpython-"
 "expressionを実行します．たとえば，前のオブジェクトがモジュールであったとします．オブジェクトのカラーを設定してシーンを保存するには，次のようにします．"
 
-#: ../../mayavi/docs/source/mayavi/application.rst:551
+#: ../../mayavi/docs/source/mayavi/application.rst:534
 msgid ""
 "You should use quotes for the expression.  This is also available through "
 "``--set``."
 msgstr "式には引用符を使用してください．これは ``--set`` でも利用できます．"
 
-#: ../../mayavi/docs/source/mayavi/application.rst:555
+#: ../../mayavi/docs/source/mayavi/application.rst:538
 msgid ""
 "Note that ``-x`` or ``--exec`` uses `execfile`, so this can be dangerous if "
 "the script does something nasty!  Similarly, ``-s`` or ``--set`` uses "
@@ -1036,7 +1012,7 @@ msgstr ""
 "``-x`` や ``--exec`` は `execfile` を使うので，スクリプトが何かひどいことをすると危険です．同様に ``-s`` や "
 "``--set`` は `exec` を使いますが，これも悪用されると危険です．"
 
-#: ../../mayavi/docs/source/mayavi/application.rst:559
+#: ../../mayavi/docs/source/mayavi/application.rst:542
 msgid ""
 "It is important to note that Mayavi's **command line arguments are processed"
 " sequentially** in the same order they are given.  This allows users to do "
@@ -1045,11 +1021,11 @@ msgstr ""
 "Mayaviの **コマンドライン引数は，指定された順序で** "
 "順番に処理されることに注意してください．これにより，ユーザーは興味深いことができるようになります．"
 
-#: ../../mayavi/docs/source/mayavi/application.rst:563
+#: ../../mayavi/docs/source/mayavi/application.rst:546
 msgid "Here are a few examples of the command line arguments::"
 msgstr "次に，コマンドライン引数の例をいくつか示します．"
 
-#: ../../mayavi/docs/source/mayavi/application.rst:575
+#: ../../mayavi/docs/source/mayavi/application.rst:558
 msgid ""
 "In the above examples, ``heart.vtk`` and ``fire_ug.vtu`` VTK files can be "
 "found in the ``examples/data`` directory in the source.  They may also be "
