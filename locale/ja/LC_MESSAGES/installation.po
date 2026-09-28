@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-24 00:49+0000\n"
+"POT-Creation-Date: 2026-09-28 00:57+0000\n"
 "PO-Revision-Date: 2019-04-27 07:31+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2026\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -409,7 +409,7 @@ msgstr "テストスイート"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:283
 msgid "The basic test suites for tvtk and mayavi can be run using pytest::"
-msgstr ""
+msgstr "tvtkとmayaviの基本的なテストスイートは，pytestを使って実行できます．"
 
 #: ../../mayavi/docs/source/mayavi/installation.rst:288
 msgid "The integration tests can be run as::"
