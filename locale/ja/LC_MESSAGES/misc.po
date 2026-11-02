@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-19 00:50+0000\n"
+"POT-Creation-Date: 2026-11-02 00:32+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2026\n"
 "Language-Team: Japanese (https://app.transifex.com/tkoyama010/teams/98399/ja/)\n"
@@ -226,58 +226,55 @@ msgstr ""
 "ドキュメントのソースは ``docs/sources/mayavi`` にあります．ドキュメントは `sphinx`_ に記述されています． "
 "`.rst` ファイルを編集してテキストを修正または拡張するのは簡単です．変更が完了したら，次のコマンドを実行してドキュメントを作成できます．"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:122
+#: ../../mayavi/docs/source/mayavi/misc.rst:123
 msgid ""
-"in the base directory of your checkout. You will need `sphinx`_ installed "
-"for that. The documentation is then built as an HTML documentation that you "
-"can find in the sub directory ``build/docs/html/mayavi``. Once you are "
-"comfortable with the modifications, just generate a github pull request to "
-"integrate your changes into the next stable release."
+"in the base directory of your checkout. The first line installs `sphinx`_ "
+"and the other requirements. The documentation is then built as an HTML "
+"documentation that you can find in the sub directory "
+"``docs/build/mayavi/html``. Once you are comfortable with the modifications,"
+" just generate a github pull request to integrate your changes into the next"
+" stable release."
 msgstr ""
-"チェックアウトのベースディレクトリに保存します．そのためには `sphinx`_ "
-"がインストールされている必要があります．ドキュメントはHTMLドキュメントとして作成され，サブディレクトリ "
-"``build/docs/html/mayavi`` にあります．変更に慣れたら，githubのpull "
-"requestを生成して，変更を次の安定版リリースに統合するだけです．"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:129
+#: ../../mayavi/docs/source/mayavi/misc.rst:131
 msgid "Translating the documentation"
 msgstr "ドキュメントの翻訳"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:131
+#: ../../mayavi/docs/source/mayavi/misc.rst:133
 msgid ""
 "The recommended way for new contributors to translate mayavi reference is to"
 " join the translation team on Transifex."
 msgstr "新しいコントリビュータがmayaviリファレンスを翻訳する場合は，Transifexの翻訳チームに参加することをお勧めします．"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:134
+#: ../../mayavi/docs/source/mayavi/misc.rst:136
 msgid "There is a `mayavi translation page`_ for mayavi (main) documentation."
 msgstr "`mayavi translation page`_ はmayavi(main)のドキュメントです．"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:136
+#: ../../mayavi/docs/source/mayavi/misc.rst:138
 msgid "Login to transifex_ service."
 msgstr "transifex_ サービスにログインします．"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:137
+#: ../../mayavi/docs/source/mayavi/misc.rst:139
 msgid "Go to `mayavi translation page`_."
 msgstr "`mayavi translation page`_ に移動します．"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:138
+#: ../../mayavi/docs/source/mayavi/misc.rst:140
 msgid "Click ``Request language`` and fill form."
 msgstr "``Request language``  をクリックしてフォームに入力します．"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:139
+#: ../../mayavi/docs/source/mayavi/misc.rst:141
 msgid "Wait acceptance by transifex mayavi translation maintainers."
 msgstr "transifex mayavi翻訳管理者による承認を待ちます．"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:140
+#: ../../mayavi/docs/source/mayavi/misc.rst:142
 msgid "(After acceptance) Translate on transifex."
 msgstr "(承認後)transifexで翻訳します．"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:141
+#: ../../mayavi/docs/source/mayavi/misc.rst:143
 msgid "You can see the translated document in `Read The Docs`_."
 msgstr "翻訳された文書は `Read The Docs`_ で見ることができます．"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:143
+#: ../../mayavi/docs/source/mayavi/misc.rst:145
 msgid ""
 "Detail is here: https://docs.transifex.com/getting-started-1/translators"
 msgstr "詳細はこちら: https://docs.transifex.com/getting-started-1/translators"

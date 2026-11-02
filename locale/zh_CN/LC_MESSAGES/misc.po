@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mayavi 0.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-15 00:44+0000\n"
+"POT-Creation-Date: 2026-11-02 00:32+0000\n"
 "PO-Revision-Date: 2019-04-27 07:29+0000\n"
 "Last-Translator: Mayavii <1444742843@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/tkoyama010/teams/98399/zh_CN/)\n"
@@ -207,56 +207,57 @@ msgid ""
 " build the documentation by running::"
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:122
+#: ../../mayavi/docs/source/mayavi/misc.rst:123
 msgid ""
-"in the base directory of your checkout. You will need `sphinx`_ installed "
-"for that. The documentation is then built as an HTML documentation that you "
-"can find in the sub directory ``build/docs/html/mayavi``. Once you are "
-"comfortable with the modifications, just generate a github pull request to "
-"integrate your changes into the next stable release."
+"in the base directory of your checkout. The first line installs `sphinx`_ "
+"and the other requirements. The documentation is then built as an HTML "
+"documentation that you can find in the sub directory "
+"``docs/build/mayavi/html``. Once you are comfortable with the modifications,"
+" just generate a github pull request to integrate your changes into the next"
+" stable release."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:129
+#: ../../mayavi/docs/source/mayavi/misc.rst:131
 msgid "Translating the documentation"
 msgstr "文档翻译"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:131
+#: ../../mayavi/docs/source/mayavi/misc.rst:133
 msgid ""
 "The recommended way for new contributors to translate mayavi reference is to"
 " join the translation team on Transifex."
 msgstr "新加入的贡献者若想翻译文档，推荐进入Transifex加入翻译团队。"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:134
+#: ../../mayavi/docs/source/mayavi/misc.rst:136
 msgid "There is a `mayavi translation page`_ for mayavi (main) documentation."
 msgstr ""
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:136
+#: ../../mayavi/docs/source/mayavi/misc.rst:138
 msgid "Login to transifex_ service."
 msgstr "登陆transifex"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:137
+#: ../../mayavi/docs/source/mayavi/misc.rst:139
 msgid "Go to `mayavi translation page`_."
 msgstr "跳转到Mayavi翻译页面"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:138
+#: ../../mayavi/docs/source/mayavi/misc.rst:140
 msgid "Click ``Request language`` and fill form."
 msgstr ""
 "点击`Request language`并填写表格。\n"
 "译者：中文区已经请求过了，水平有限，很多地方的翻译有问题，请大家进行提出宝贵意见。"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:139
+#: ../../mayavi/docs/source/mayavi/misc.rst:141
 msgid "Wait acceptance by transifex mayavi translation maintainers."
 msgstr "等待transifex上mayavi文档翻译的维护者确认。"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:140
+#: ../../mayavi/docs/source/mayavi/misc.rst:142
 msgid "(After acceptance) Translate on transifex."
 msgstr "（确认之后）您可以在transifex贡献您的翻译了。"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:141
+#: ../../mayavi/docs/source/mayavi/misc.rst:143
 msgid "You can see the translated document in `Read The Docs`_."
 msgstr "您可以在Read The Docs看到翻译的文档结果。"
 
-#: ../../mayavi/docs/source/mayavi/misc.rst:143
+#: ../../mayavi/docs/source/mayavi/misc.rst:145
 msgid ""
 "Detail is here: https://docs.transifex.com/getting-started-1/translators"
 msgstr ""
